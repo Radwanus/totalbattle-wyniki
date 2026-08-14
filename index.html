@@ -228,7 +228,7 @@ tbody tr:nth-child(odd) td:not(.player) {
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 14.08.2026 22:01</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 14.08.2026 22:12</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms / Wyniki tygodniowe</h1>
@@ -253,6 +253,7 @@ tbody tr:nth-child(odd) td:not(.player) {
             <th class="player" rowspan="2">Gracz</th>
             <th rowspan="2">Punkty</th>
             <th colspan="3">Krypty</th>
+            <th rowspan="2">Twierdze</th>
           </tr>
           <tr>
             <th>zwykłe</th>
@@ -315,6 +316,8 @@ function classify(type, source) {
     return 'krypty_zwykle';
   }
 
+  if (t.includes('twierdza')) return 'twierdze';
+
   return null;
 }
 
@@ -353,7 +356,7 @@ async function run() {
   const summary = document.getElementById('summary');
 
   if (!Array.isArray(data) || data.length === 0) {
-    tbody.innerHTML = '<tr><td colspan="5" class="empty">Brak danych.</td></tr>';
+    tbody.innerHTML = '<tr><td colspan="6" class="empty">Brak danych.</td></tr>';
     tbodyEpickie.innerHTML = '<tr><td colspan="6" class="empty">Brak danych.</td></tr>';
     return;
   }
@@ -370,6 +373,7 @@ async function run() {
         krypty_zwykle: 0,
         krypty_rzadkie: 0,
         krypty_epickie: 0,
+        twierdze: 0,
         ragnarok: 0,
         arkana: 0,
         omeny: 0,
@@ -417,6 +421,7 @@ async function run() {
         <td>${r.krypty_zwykle}</td>
         <td>${r.krypty_rzadkie}</td>
         <td>${r.krypty_epickie}</td>
+        <td>${r.twierdze}</td>
       </tr>
     `;
   }
@@ -447,7 +452,7 @@ async function run() {
 
 run().catch(err => {
   document.getElementById('tbody').innerHTML =
-    '<tr><td colspan="5" class="empty">Błąd wczytywania danych: ' + err + '</td></tr>';
+    '<tr><td colspan="6" class="empty">Błąd wczytywania danych: ' + err + '</td></tr>';
   document.getElementById('tbody-epickie').innerHTML =
     '<tr><td colspan="6" class="empty">Błąd wczytywania danych: ' + err + '</td></tr>';
 });

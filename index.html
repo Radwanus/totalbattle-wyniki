@@ -224,11 +224,12 @@ tbody tr:nth-child(odd) td:not(.player) {
     <div class="brand">⚔️ Total Battle</div>
     <a class="nav-item active" href="#" id="tab-wyniki" onclick="showTab('wyniki'); return false;">Wyniki tygodniowe</a>
     <a class="nav-item" href="#" id="tab-epickie" onclick="showTab('epickie'); return false;">Paczki epickie</a>
+    <a class="nav-item" href="#" id="tab-szczegoly" onclick="showTab('szczegoly'); return false;">Szczegóły</a>
   </div>
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 14.08.2026 22:12</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 14.08.2026 22:18</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms / Wyniki tygodniowe</h1>
@@ -291,6 +292,27 @@ tbody tr:nth-child(odd) td:not(.player) {
       </table>
     </div>
   </section>
+
+  <section id="view-szczegoly" class="tab-view">
+    <div class="controls" style="margin-top:0;">
+      <h2 class="title">Szczegóły</h2>
+    </div>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Data</th>
+            <th>Typ paczki</th>
+            <th>Gracz</th>
+            <th>Źródło</th>
+            <th>Punkty</th>
+          </tr>
+        </thead>
+        <tbody id="tbody-szczegoly"></tbody>
+      </table>
+    </div>
+  </section>
 </div>
 
 <script>
@@ -331,18 +353,28 @@ function scoreClass(value, limit, isTop3) {
 function showTab(tab) {
   const wynikiView = document.getElementById('view-wyniki');
   const epickieView = document.getElementById('view-epickie');
+  const szczegolyView = document.getElementById('view-szczegoly');
+
   const wynikiTab = document.getElementById('tab-wyniki');
   const epickieTab = document.getElementById('tab-epickie');
+  const szczegolyTab = document.getElementById('tab-szczegoly');
+
+  wynikiView.classList.remove('active-view');
+  epickieView.classList.remove('active-view');
+  szczegolyView.classList.remove('active-view');
+
+  wynikiTab.classList.remove('active');
+  epickieTab.classList.remove('active');
+  szczegolyTab.classList.remove('active');
 
   if (tab === 'epickie') {
-    wynikiView.classList.remove('active-view');
     epickieView.classList.add('active-view');
-    wynikiTab.classList.remove('active');
     epickieTab.classList.add('active');
+  } else if (tab === 'szczegoly') {
+    szczegolyView.classList.add('active-view');
+    szczegolyTab.classList.add('active');
   } else {
-    epickieView.classList.remove('active-view');
     wynikiView.classList.add('active-view');
-    epickieTab.classList.remove('active');
     wynikiTab.classList.add('active');
   }
 }
@@ -353,11 +385,13 @@ async function run() {
 
   const tbody = document.getElementById('tbody');
   const tbodyEpickie = document.getElementById('tbody-epickie');
+  const tbodySzczegoly = document.getElementById('tbody-szczegoly');
   const summary = document.getElementById('summary');
 
   if (!Array.isArray(data) || data.length === 0) {
     tbody.innerHTML = '<tr><td colspan="6" class="empty">Brak danych.</td></tr>';
     tbodyEpickie.innerHTML = '<tr><td colspan="6" class="empty">Brak danych.</td></tr>';
+    tbodySzczegoly.innerHTML = '<tr><td colspan="5" class="empty">Brak danych.</td></tr>';
     return;
   }
 
@@ -443,6 +477,33 @@ async function run() {
   }
   tbodyEpickie.innerHTML = htmlEpickie;
 
+  let htmlSzczegoly = '';
+  const detailsRows = [...data].sort((a, b) => {
+    const da = (a['Data'] || '').toString();
+    const db = (b['Data'] || '').toString();
+    return db.localeCompare(da);
+  });
+
+  for (const row of detailsRows) {
+    const dataTxt = row['Data'] ?? '';
+    const typTxt = row['Typ'] ?? '';
+    const nickTxt = row['Nadawca'] ?? '';
+    const zrodloTxt = row['Źródło'] ?? '';
+    const pktTxt = row['Punkty'] ?? '';
+
+    htmlSzczegoly += `
+      <tr>
+        <td>${dataTxt}</td>
+        <td>${typTxt}</td>
+        <td class="player">${nickTxt}</td>
+        <td>${zrodloTxt}</td>
+        <td>${pktTxt}</td>
+      </tr>
+    `;
+  }
+
+  tbodySzczegoly.innerHTML = htmlSzczegoly;
+
   const iluPkt = rows.filter(r => r.punkty >= LIMIT_PUNKTOW).length;
   const iluEpic = rows.filter(r => r.epickie >= LIMIT_EPICKICH).length;
 
@@ -455,6 +516,8 @@ run().catch(err => {
     '<tr><td colspan="6" class="empty">Błąd wczytywania danych: ' + err + '</td></tr>';
   document.getElementById('tbody-epickie').innerHTML =
     '<tr><td colspan="6" class="empty">Błąd wczytywania danych: ' + err + '</td></tr>';
+  document.getElementById('tbody-szczegoly').innerHTML =
+    '<tr><td colspan="5" class="empty">Błąd wczytywania danych: ' + err + '</td></tr>';
 });
 </script>
 

@@ -224,6 +224,43 @@ tbody tr:nth-child(odd) td:not(.player) {
   background: #d0362a;
 }
 
+.manager-tools {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.manager-login-btn {
+  display: inline-block;
+  padding: 10px 16px;
+  background: #2c2c2c;
+  color: #fff;
+  border: 1px solid #666;
+  border-radius: 6px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.manager-login-btn:hover {
+  background: #3a3a3a;
+}
+
+.manager-status {
+  color: #bbb;
+  font-size: 13px;
+  max-width: 420px;
+}
+
+.manager-status.ok {
+  color: var(--green);
+}
+
+.manager-status.no {
+  color: #ff8b7b;
+}
+
 @media (max-width: 800px) {
   .container { padding: 16px 8px 30px; }
   .topbar-inner { padding: 0 6px; overflow-x: auto; }
@@ -245,7 +282,7 @@ tbody tr:nth-child(odd) td:not(.player) {
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 14.08.2026 22:28</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 14.08.2026 23:22</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms / Wyniki tygodniowe</h1>
@@ -333,11 +370,19 @@ tbody tr:nth-child(odd) td:not(.player) {
   <section id="view-punktacja" class="tab-view">
     <div class="controls" style="margin-top:0;">
       <h2 class="title">Punktacja paczek</h2>
-      <div>
-        <a class="edit-btn"
-           href="https://docs.google.com/spreadsheets/d/1aa8iv2H1kQwcKnjiSvsJk0JcN0Uz76Lz19xYaW3JkTI/edit"
+      <div class="manager-tools">
+        <button id="manager-login-btn"
+                class="manager-login-btn"
+                type="button"
+                onclick="managerLogin()">🔐 Zaloguj jako Zarządca</button>
+
+        <a id="manager-edit-btn"
+           class="edit-btn"
            target="_blank"
-           rel="noopener noreferrer">✏️ Edytuj punktację — Zarządca</a>
+           rel="noopener noreferrer"
+           style="display:none;">✏️ Edytuj punktację — Zarządca</a>
+
+        <span id="manager-status" class="manager-status"></span>
       </div>
     </div>
     <div class="table-wrap">
@@ -351,13 +396,164 @@ tbody tr:nth-child(odd) td:not(.player) {
         <tbody id="tbody-punktacja"></tbody>
       </table>
     </div>
+    <div class="summary">
+      Edycja jest dostępna wyłącznie po zalogowaniu kontem Google,
+      które ma prawo edycji tego arkusza.
+    </div>
   </section>
 </div>
 
+<script src="https://accounts.google.com/gsi/client" async defer></script>
 <script>
 const LIMIT_PUNKTOW = 20000;
 const LIMIT_EPICKICH = 100;
 const PUNKTACJA_PACZEK = {"Bank": 0, "Skrzynia Arkanów": 0, "Skrzynia Mrocznych Omenów": 0, "Arachne": 0, "Krypta 5 poziomu": 0, "Krypta 10 poziomu": 0, "Krypta 15 poziomu": 0, "Krypta 20 poziomu": 0, "Krypta 25 poziomu": 25, "Epicka krypta 15 poziomu": 0, "Epicka krypta 20 poziomu": 100, "Epicka krypta 25 poziomu": 160, "Epicka krypta 30 poziomu": 250, "Epicka krypta 35 poziomu": 400, "Rzadka krypta 10 poziomu": 0, "Rzadka krypta 15 poziomu": 0, "Rzadka krypta 20 poziomu": 60, "Rzadka krypta 25 poziomu": 130, "Rzadka krypta 30 poziomu": 180, "Heroiczny potwor 16 poziomu": 30, "Heroiczny potwor 17 poziomu": 30, "Heroiczny potwor 18 poziomu": 30, "Heroiczny potwor 19 poziomu": 30, "Heroiczny potwor 20 poziomu": 30, "Heroiczny potwor 21 poziomu": 75, "Heroiczny potwor 22 poziomu": 75, "Heroiczny potwor 23 poziomu": 75, "Heroiczny potwor 24 poziomu": 75, "Heroiczny potwor 25 poziomu": 75, "Heroiczny potwor 26 poziomu": 100, "Heroiczny potwor 27 poziomu": 100, "Heroiczny potwor 28 poziomu": 100, "Heroiczny potwor 29 poziomu": 100, "Heroiczny potwor 30 poziomu": 100, "Heroiczny potwor 31 poziomu": 100, "Heroiczny potwor 32 poziomu": 100, "Heroiczny potwor 33 poziomu": 100, "Heroiczny potwor 34 poziomu": 100, "Heroiczny potwor 35 poziomu": 100, "Heroiczny potwor 36 poziomu": 200, "Heroiczny potwor 37 poziomu": 200, "Heroiczny potwor 38 poziomu": 200, "Heroiczny potwor 39 poziomu": 200, "Heroiczny potwor 40 poziomu": 200, "Heroiczny potwor 41 poziomu": 200, "Heroiczny potwor 42 poziomu": 200, "Heroiczny potwor 43 poziomu": 200, "Heroiczny potwor 44 poziomu": 200, "Heroiczny potwor 45 poziomu": 200, "Heroiczny potwor 46 poziomu": 200, "Epicki oddział inferno": 1, "Skrzynia z Twierdzy Elfów 10 poziomu": 0, "Skrzynia z Twierdzy Elfów 15 poziomu": 0, "Skrzynia z Twierdzy Elfów 20 poziomu": 40, "Skrzynia z Twierdzy Elfów 25 poziomu": 80, "Skrzynia z Twierdzy Elfów 30 poziomu": 150, "Skrzynia z Twierdzy Przeklętych 20 poziomu": 20, "Skrzynia z Twierdzy Przeklętych 25 poziomu": 60, "Epicki oddział nieumarłych": 1, "Epicki oddział Roju Arachne": 1, "Twierdza Elfów 10 poziomu": 0, "Twierdza Elfów 15 poziomu": 0, "Twierdza Elfów 20 poziomu": 40, "Twierdza Elfów 25 poziomu": 80, "Twierdza Elfów 30 poziomu": 150, "Twierdza Przeklętych 20 poziomu": 20, "Twierdza Przeklętych 25 poziomu": 60};
+
+const GOOGLE_CLIENT_ID = "575890140414-5geac03dcbv7vnmfcjdkg221gnpikab1.apps.googleusercontent.com";
+const GOOGLE_DRIVE_SCOPE = "https://www.googleapis.com/auth/drive.metadata.readonly";
+const SPREADSHEET_FILE_ID = "1aa8iv2H1kQwcKnjiSvsJk0JcN0Uz76Lz19xYaW3JkTI";
+const PUNKTACJA_EDIT_URL = "https://docs.google.com/spreadsheets/d/1aa8iv2H1kQwcKnjiSvsJk0JcN0Uz76Lz19xYaW3JkTI/edit#gid=720098777";
+
+let managerTokenClient = null;
+let managerAccessToken = null;
+
+function setManagerStatus(text, kind='') {
+  const el = document.getElementById('manager-status');
+  if (!el) return;
+  el.textContent = text || '';
+  el.classList.remove('ok', 'no');
+  if (kind) el.classList.add(kind);
+}
+
+function hideManagerEdit() {
+  const editBtn = document.getElementById('manager-edit-btn');
+  if (!editBtn) return;
+  editBtn.style.display = 'none';
+  editBtn.removeAttribute('href');
+}
+
+function showManagerEdit() {
+  const editBtn = document.getElementById('manager-edit-btn');
+  if (!editBtn) return;
+  editBtn.href = PUNKTACJA_EDIT_URL;
+  editBtn.style.display = 'inline-block';
+}
+
+function initManagerAuth() {
+  if (managerTokenClient) return true;
+  if (!window.google || !google.accounts || !google.accounts.oauth2) return false;
+
+  managerTokenClient = google.accounts.oauth2.initTokenClient({
+    client_id: GOOGLE_CLIENT_ID,
+    scope: GOOGLE_DRIVE_SCOPE,
+    callback: async (response) => {
+      hideManagerEdit();
+
+      if (!response || response.error) {
+        const msg = response?.error_description || response?.error || 'Nie udało się zalogować.';
+        setManagerStatus('Logowanie nie powiodło się: ' + msg, 'no');
+        return;
+      }
+
+      managerAccessToken = response.access_token || null;
+      if (!managerAccessToken) {
+        setManagerStatus('Google nie zwrócił tokena dostępu.', 'no');
+        return;
+      }
+
+      setManagerStatus('Sprawdzam uprawnienia do arkusza…');
+      await checkManagerPermission(managerAccessToken);
+    },
+    error_callback: (err) => {
+      hideManagerEdit();
+      const typ = err?.type || 'nieznany błąd';
+      setManagerStatus('Przerwano logowanie: ' + typ, 'no');
+    }
+  });
+
+  return true;
+}
+
+function managerLogin() {
+  hideManagerEdit();
+
+  if (!initManagerAuth()) {
+    setManagerStatus('Moduł logowania Google jeszcze się ładuje. Spróbuj ponownie za chwilę.');
+    setTimeout(initManagerAuth, 500);
+    return;
+  }
+
+  setManagerStatus('Otwieram logowanie Google…');
+  managerTokenClient.requestAccessToken({prompt: 'select_account'});
+}
+
+async function checkManagerPermission(accessToken) {
+  try {
+    const url =
+      'https://www.googleapis.com/drive/v3/files/' +
+      encodeURIComponent(SPREADSHEET_FILE_ID) +
+      '?fields=id,name,capabilities(canEdit)&supportsAllDrives=true';
+
+    const res = await fetch(url, {
+      method: 'GET',
+      headers: {
+        'Authorization': 'Bearer ' + accessToken,
+        'Accept': 'application/json'
+      }
+    });
+
+    if (!res.ok) {
+      let details = '';
+      try {
+        const err = await res.json();
+        details = err?.error?.message || '';
+      } catch (_) {}
+
+      hideManagerEdit();
+
+      if (res.status === 401) {
+        setManagerStatus('Sesja Google wygasła. Zaloguj się ponownie.', 'no');
+      } else if (res.status === 403) {
+        setManagerStatus(
+          'To konto nie może sprawdzić uprawnień do arkusza' +
+          (details ? ': ' + details : '.'),
+          'no'
+        );
+      } else {
+        setManagerStatus(
+          'Nie udało się sprawdzić uprawnień (HTTP ' + res.status + ')' +
+          (details ? ': ' + details : '.'),
+          'no'
+        );
+      }
+      return;
+    }
+
+    const info = await res.json();
+    const canEdit = Boolean(info?.capabilities?.canEdit);
+
+    if (canEdit) {
+      showManagerEdit();
+      setManagerStatus('Uprawnienia Zarządcy potwierdzone.', 'ok');
+    } else {
+      hideManagerEdit();
+      setManagerStatus('To konto nie ma uprawnień do edycji punktacji.', 'no');
+    }
+  } catch (err) {
+    hideManagerEdit();
+    setManagerStatus('Błąd sprawdzania uprawnień: ' + (err?.message || err), 'no');
+  }
+}
+
+window.addEventListener('load', () => {
+  hideManagerEdit();
+
+  let attempts = 0;
+  const timer = setInterval(() => {
+    attempts += 1;
+    if (initManagerAuth() || attempts >= 20) clearInterval(timer);
+  }, 250);
+});
 
 function norm(s) {
   return (s ?? '').toString().trim().toLowerCase()

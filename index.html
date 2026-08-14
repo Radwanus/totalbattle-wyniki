@@ -133,6 +133,19 @@ body {
   background: #1b1b1b;
 }
 
+.bottom-scroll {
+  overflow-x: auto;
+  overflow-y: hidden;
+  height: 18px;
+  margin-top: 6px;
+  border: 1px solid #333;
+  background: #181818;
+}
+
+.bottom-scroll-inner {
+  height: 1px;
+}
+
 table {
   border-collapse: collapse;
   width: 100%;
@@ -268,6 +281,39 @@ tbody tr:nth-child(odd) td:not(.player) {
 .score-green { color: var(--green); font-weight: 700; }
 .score-gold { color: var(--gold); font-weight: 800; text-shadow: 0 0 5px rgba(255,215,0,.35); }
 
+.cell-score-red {
+  background: #b3261e !important;
+  color: #fff !important;
+  font-weight: 700;
+}
+
+.cell-score-blue {
+  background: #1976b8 !important;
+  color: #fff !important;
+  font-weight: 700;
+}
+
+.cell-score-green {
+  background: #1f8f35 !important;
+  color: #fff !important;
+  font-weight: 700;
+}
+
+.cell-score-gold {
+  background: #d4af00 !important;
+  color: #111 !important;
+  font-weight: 800;
+}
+
+.history-sortable {
+  cursor: pointer;
+  user-select: none;
+}
+
+.history-sortable:hover {
+  filter: brightness(1.08);
+}
+
 .empty {
   color: var(--muted);
 }
@@ -359,7 +405,7 @@ tbody tr:nth-child(odd) td:not(.player) {
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 15.08.2026 00:39</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 15.08.2026 00:52</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms / Wyniki tygodniowe</h1>
@@ -377,11 +423,14 @@ tbody tr:nth-child(odd) td:not(.player) {
   </div>
 
   <section id="view-wyniki" class="tab-view active-view">
-    <div class="table-wrap">
+    <div class="table-wrap" id="weekly-table-wrap">
       <table id="weekly-history-table">
         <thead id="weekly-history-head"></thead>
         <tbody id="weekly-history-body"></tbody>
       </table>
+    </div>
+    <div class="bottom-scroll" id="weekly-bottom-scroll">
+      <div class="bottom-scroll-inner" id="weekly-bottom-scroll-inner"></div>
     </div>
     <div class="summary" id="summary"></div>
   </section>
@@ -394,24 +443,14 @@ tbody tr:nth-child(odd) td:not(.player) {
       </div>
     </div>
 
-    <div class="table-wrap">
-      <table>
-        <thead>
-          <tr>
-            <th class="player sortable"
-                onclick="sortEpic('nick')"
-                id="epic-sort-nick">Gracz <span class="sort-arrow" id="epic-arrow-nick"></span></th>
-            <th class="sortable"
-                onclick="sortEpic('epickie')"
-                id="epic-sort-epickie">Paczki epickie <span class="sort-arrow" id="epic-arrow-epickie"></span></th>
-            <th>Ragnarok</th>
-            <th>Arkana</th>
-            <th>Mroczne Omeny</th>
-            <th>Arachne</th>
-          </tr>
-        </thead>
-        <tbody id="tbody-epickie"></tbody>
+    <div class="table-wrap" id="epic-table-wrap">
+      <table id="epic-history-table">
+        <thead id="epic-history-head"></thead>
+        <tbody id="epic-history-body"></tbody>
       </table>
+    </div>
+    <div class="bottom-scroll" id="epic-bottom-scroll">
+      <div class="bottom-scroll-inner" id="epic-bottom-scroll-inner"></div>
     </div>
   </section>
 
@@ -494,6 +533,24 @@ let epicRowsGlobal = [];
 
 let weeklySort = { key: 'punkty', dir: 'desc' };
 let epicSort = { key: 'epickie', dir: 'desc' };
+
+// Sortowanie tabeli historii:
+// domyślnie po punktach bieżącego okresu malejąco.
+let weeklyHistorySort = {
+  type: 'period',
+  period: CURRENT_PERIOD_LABEL,
+  field: 'punkty',
+  dir: 'desc'
+};
+let weeklyHistoryDataGlobal = [];
+
+let epicHistorySort = {
+  type: 'period',
+  period: CURRENT_PERIOD_LABEL,
+  field: 'epickie',
+  dir: 'desc'
+};
+let epicHistoryDataGlobal = [];
 
 function setManagerStatus(text, kind='') {
   const el = document.getElementById('manager-status');
@@ -864,6 +921,51 @@ function showTab(tab) {
 }
 
 
+function syncBottomScrollbar(wrapId, bottomId, innerId, tableId) {
+  const wrap = document.getElementById(wrapId);
+  const bottom = document.getElementById(bottomId);
+  const inner = document.getElementById(innerId);
+  const table = document.getElementById(tableId);
+
+  if (!wrap || !bottom || !inner || !table) return;
+
+  inner.style.width = table.scrollWidth + 'px';
+
+  let syncing = false;
+
+  wrap.onscroll = () => {
+    if (syncing) return;
+    syncing = true;
+    bottom.scrollLeft = wrap.scrollLeft;
+    syncing = false;
+  };
+
+  bottom.onscroll = () => {
+    if (syncing) return;
+    syncing = true;
+    wrap.scrollLeft = bottom.scrollLeft;
+    syncing = false;
+  };
+}
+
+function refreshBottomScrollbars() {
+  syncBottomScrollbar(
+    'weekly-table-wrap',
+    'weekly-bottom-scroll',
+    'weekly-bottom-scroll-inner',
+    'weekly-history-table'
+  );
+
+  syncBottomScrollbar(
+    'epic-table-wrap',
+    'epic-bottom-scroll',
+    'epic-bottom-scroll-inner',
+    'epic-history-table'
+  );
+}
+
+window.addEventListener('resize', refreshBottomScrollbars);
+
 function parsePeriodStart(label) {
   // format: "2026 09.08 - 16.08"
   const m = (label || '').match(/(\d4)\s+(\d(1, 2))\.(\d(1, 2))/);
@@ -874,29 +976,84 @@ function parsePeriodStart(label) {
   return new Date(year, month - 1, day).getTime();
 }
 
-function renderWeeklyHistory(currentRows, historyRows) {
+function historyScoreClass(value, isTop3) {
+  if (isTop3 && value >= LIMIT_PUNKTOW) return 'cell-score-gold';
+  if (value >= LIMIT_PUNKTOW) return 'cell-score-green';
+  if (value >= LIMIT_PUNKTOW * 0.5) return 'cell-score-blue';
+  return 'cell-score-red';
+}
+
+function setHistorySort(type, period='', field='') {
+  let defaultDir = 'asc';
+
+  if (type === 'nick') {
+    defaultDir = 'asc';
+  } else {
+    defaultDir = 'desc';
+  }
+
+  if (
+    weeklyHistorySort.type === type &&
+    weeklyHistorySort.period === period &&
+    weeklyHistorySort.field === field
+  ) {
+    weeklyHistorySort.dir = weeklyHistorySort.dir === 'asc' ? 'desc' : 'asc';
+  } else {
+    weeklyHistorySort = {
+      type,
+      period,
+      field,
+      dir: defaultDir
+    };
+  }
+
+  renderWeeklyHistoryFromGlobal();
+}
+
+function historyArrow(type, period='', field='') {
+  if (
+    weeklyHistorySort.type === type &&
+    weeklyHistorySort.period === period &&
+    weeklyHistorySort.field === field
+  ) {
+    return weeklyHistorySort.dir === 'asc' ? '▲' : '▼';
+  }
+  return '';
+}
+
+function buildWeeklyHistoryData(currentRows, historyRows) {
   const all = [];
 
-  // Bieżący okres — z aktualnych danych
+  // Bieżący okres: POMIJAMY graczy z 0 punktów.
   for (const r of currentRows) {
+    if (Number(r.punkty || 0) <= 0) continue;
+
     all.push({
       okres: CURRENT_PERIOD_LABEL,
       nick: r.nick,
-      punkty: r.punkty,
-      krypty_zwykle: r.krypty_zwykle,
-      krypty_rzadkie: r.krypty_rzadkie,
-      krypty_epickie: r.krypty_epickie,
-      twierdze: r.twierdze,
-      paczki: r.krypty_zwykle + r.krypty_rzadkie + r.krypty_epickie + r.twierdze
+      punkty: Number(r.punkty || 0),
+      krypty_zwykle: Number(r.krypty_zwykle || 0),
+      krypty_rzadkie: Number(r.krypty_rzadkie || 0),
+      krypty_epickie: Number(r.krypty_epickie || 0),
+      twierdze: Number(r.twierdze || 0),
+      paczki:
+        Number(r.krypty_zwykle || 0) +
+        Number(r.krypty_rzadkie || 0) +
+        Number(r.krypty_epickie || 0) +
+        Number(r.twierdze || 0)
     });
   }
 
-  // Zakończone okresy — z historii
+  // Historia: również POMIJAMY wpisy z 0 punktów.
   for (const h of historyRows || []) {
     const nick = displayNick(h['Nadawca'] || '');
     if (!nick) continue;
 
     const num = (v) => Number.parseInt((v ?? '0').toString().replace(',', '.')) || 0;
+    const punkty = num(h['Punkty']);
+
+    if (punkty <= 0) continue;
+
     const zwykle = num(h['krypty zwykłe']);
     const rzadkie = num(h['krypty rzadkie']);
     const epickie = num(h['krypty epickie']);
@@ -905,49 +1062,135 @@ function renderWeeklyHistory(currentRows, historyRows) {
     all.push({
       okres: (h['Okres rozliczeniowy'] || '').trim(),
       nick,
-      punkty: num(h['Punkty']),
+      punkty,
       krypty_zwykle: zwykle,
       krypty_rzadkie: rzadkie,
       krypty_epickie: epickie,
-      twierdze: twierdze,
+      twierdze,
       paczki: zwykle + rzadkie + epickie + twierdze
     });
   }
 
+  return all;
+}
+
+function renderWeeklyHistory(currentRows, historyRows) {
+  weeklyHistoryDataGlobal = buildWeeklyHistoryData(currentRows, historyRows);
+  renderWeeklyHistoryFromGlobal();
+}
+
+function renderWeeklyHistoryFromGlobal() {
+  const all = weeklyHistoryDataGlobal || [];
+
   const periods = [...new Set(all.map(x => x.okres).filter(Boolean))]
     .sort((a, b) => parsePeriodStart(b) - parsePeriodStart(a));
-
-  const players = [...new Set(all.map(x => x.nick).filter(Boolean))]
-    .sort((a, b) => nickSortKey(a).localeCompare(nickSortKey(b), 'pl', { sensitivity: 'base', numeric: true }));
 
   const byKey = new Map();
   for (const x of all) {
     byKey.set(`${x.okres}|||${x.nick}`, x);
   }
 
+  // Nick pojawia się tylko wtedy, gdy ma przynajmniej jeden wynik > 0.
+  let players = [...new Set(all.map(x => x.nick).filter(Boolean))];
+
+  players.sort((a, b) => {
+    let result = 0;
+
+    if (weeklyHistorySort.type === 'nick') {
+      result = nickSortKey(a).localeCompare(
+        nickSortKey(b),
+        'pl',
+        { sensitivity: 'base', numeric: true }
+      );
+    } else {
+      const period = weeklyHistorySort.period || CURRENT_PERIOD_LABEL;
+      const field = weeklyHistorySort.field || 'punkty';
+
+      const av = byKey.get(`${period}|||${a}`);
+      const bv = byKey.get(`${period}|||${b}`);
+
+      const an = av ? Number(av[field] || 0) : -1;
+      const bn = bv ? Number(bv[field] || 0) : -1;
+
+      result = an - bn;
+
+      if (result === 0) {
+        result = nickSortKey(a).localeCompare(
+          nickSortKey(b),
+          'pl',
+          { sensitivity: 'base', numeric: true }
+        );
+      }
+    }
+
+    return weeklyHistorySort.dir === 'asc' ? result : -result;
+  });
+
+  // TOP 3 liczony OSOBNO dla każdego okresu
+  // i tylko spośród graczy, którzy osiągnęli pełny limit.
+  const top3ByPeriod = new Map();
+
+  for (const period of periods) {
+    const ranked = all
+      .filter(x => x.okres === period && x.punkty >= LIMIT_PUNKTOW)
+      .sort((a, b) => b.punkty - a.punkty)
+      .slice(0, 3)
+      .map(x => x.nick);
+
+    top3ByPeriod.set(period, new Set(ranked));
+  }
+
   const head = document.getElementById('weekly-history-head');
   const body = document.getElementById('weekly-history-body');
 
-  let h1 = '<tr><th class="player" rowspan="2">Gracz</th>';
+  const nickArrow = historyArrow('nick');
+
+  let h1 = `
+    <tr>
+      <th class="player history-sortable"
+          rowspan="2"
+          onclick="setHistorySort('nick')">
+        Gracz <span class="sort-arrow">${nickArrow}</span>
+      </th>
+  `;
+
   for (const p of periods) {
     h1 += `<th colspan="2">${p}</th>`;
   }
   h1 += '</tr>';
 
   let h2 = '<tr>';
-  for (const _ of periods) {
-    h2 += '<th>Paczki</th><th>Punkty</th>';
+  for (const p of periods) {
+    const packArrow = historyArrow('period', p, 'paczki');
+    const pointArrow = historyArrow('period', p, 'punkty');
+
+    h2 += `
+      <th class="history-sortable"
+          onclick="setHistorySort('period', '${escapeHtmlAttr(p)}', 'paczki')">
+        Paczki <span class="sort-arrow">${packArrow}</span>
+      </th>
+      <th class="history-sortable"
+          onclick="setHistorySort('period', '${escapeHtmlAttr(p)}', 'punkty')">
+        Punkty <span class="sort-arrow">${pointArrow}</span>
+      </th>
+    `;
   }
   h2 += '</tr>';
 
   head.innerHTML = h1 + h2;
 
   let html = '';
+
   for (const nick of players) {
     html += `<tr><td class="player">${nick}</td>`;
+
     for (const p of periods) {
       const x = byKey.get(`${p}|||${nick}`);
-      if (x) {
+
+      if (x && x.punkty > 0) {
+        const topSet = top3ByPeriod.get(p) || new Set();
+        const pointClass = historyScoreClass(x.punkty, topSet.has(nick));
+
         html += `
           <td class="package-detail-cell"
               data-player="${escapeHtmlAttr(x.nick)}"
@@ -958,16 +1201,241 @@ function renderWeeklyHistory(currentRows, historyRows) {
               data-twierdze="${x.twierdze || 0}"
               data-total="${x.paczki || 0}"
               title="Najedź, aby zobaczyć rodzaje krypt">${x.paczki}</td>
-          <td>${x.punkty}</td>
+
+          <td class="${pointClass}">${x.punkty}</td>
         `;
       } else {
+        // Nie pokazujemy wartości 0 — brak wyniku = pusty znak.
         html += '<td>—</td><td>—</td>';
       }
     }
+
     html += '</tr>';
   }
+
   body.innerHTML = html;
   bindPackageTooltips();
+  refreshBottomScrollbars();
+}
+
+
+function epicScoreClass(value, isTop3) {
+  if (isTop3 && value >= LIMIT_EPICKICH) return 'cell-score-gold';
+  if (value >= LIMIT_EPICKICH) return 'cell-score-green';
+  if (value >= LIMIT_EPICKICH * 0.5) return 'cell-score-blue';
+  return 'cell-score-red';
+}
+
+function setEpicHistorySort(type, period='', field='') {
+  let defaultDir = type === 'nick' ? 'asc' : 'desc';
+
+  if (
+    epicHistorySort.type === type &&
+    epicHistorySort.period === period &&
+    epicHistorySort.field === field
+  ) {
+    epicHistorySort.dir = epicHistorySort.dir === 'asc' ? 'desc' : 'asc';
+  } else {
+    epicHistorySort = {
+      type,
+      period,
+      field,
+      dir: defaultDir
+    };
+  }
+
+  renderEpicHistoryFromGlobal();
+}
+
+function epicHistoryArrow(type, period='', field='') {
+  if (
+    epicHistorySort.type === type &&
+    epicHistorySort.period === period &&
+    epicHistorySort.field === field
+  ) {
+    return epicHistorySort.dir === 'asc' ? '▲' : '▼';
+  }
+  return '';
+}
+
+function buildEpicHistoryData(currentRows, historyRows) {
+  const all = [];
+
+  // Bieżący tydzień
+  for (const r of currentRows) {
+    if (Number(r.punkty || 0) <= 0) continue;
+
+    all.push({
+      okres: CURRENT_PERIOD_LABEL,
+      nick: r.nick,
+      punkty: Number(r.punkty || 0),
+      epickie: Number(r.epickie || 0),
+      ragnarok: Number(r.ragnarok || 0),
+      arkana: Number(r.arkana || 0),
+      omeny: Number(r.omeny || 0),
+      arachne: Number(r.arachne || 0)
+    });
+  }
+
+  // Zakończone tygodnie
+  for (const h of historyRows || []) {
+    const nick = displayNick(h['Nadawca'] || '');
+    if (!nick) continue;
+
+    const num = (v) => Number.parseInt((v ?? '0').toString().replace(',', '.')) || 0;
+    const punkty = num(h['Punkty']);
+    if (punkty <= 0) continue;
+
+    const ragnarok = num(h['Ragnarok']);
+    const arkana = num(h['Skrzynia Arkanów']);
+    const omeny = num(h['Skrzynia Mrocznych Omenów']);
+    const arachne = num(h['Arachne']);
+
+    all.push({
+      okres: (h['Okres rozliczeniowy'] || '').trim(),
+      nick,
+      punkty,
+      epickie: ragnarok + arkana + omeny + arachne,
+      ragnarok,
+      arkana,
+      omeny,
+      arachne
+    });
+  }
+
+  return all;
+}
+
+function renderEpicHistory(currentRows, historyRows) {
+  epicHistoryDataGlobal = buildEpicHistoryData(currentRows, historyRows);
+  renderEpicHistoryFromGlobal();
+}
+
+function renderEpicHistoryFromGlobal() {
+  const all = epicHistoryDataGlobal || [];
+
+  const periods = [...new Set(all.map(x => x.okres).filter(Boolean))]
+    .sort((a, b) => parsePeriodStart(b) - parsePeriodStart(a));
+
+  const byKey = new Map();
+  for (const x of all) {
+    byKey.set(`${x.okres}|||${x.nick}`, x);
+  }
+
+  let players = [...new Set(all.map(x => x.nick).filter(Boolean))];
+
+  players.sort((a, b) => {
+    let result = 0;
+
+    if (epicHistorySort.type === 'nick') {
+      result = nickSortKey(a).localeCompare(
+        nickSortKey(b),
+        'pl',
+        { sensitivity: 'base', numeric: true }
+      );
+    } else {
+      const period = epicHistorySort.period || CURRENT_PERIOD_LABEL;
+      const field = epicHistorySort.field || 'epickie';
+
+      const av = byKey.get(`${period}|||${a}`);
+      const bv = byKey.get(`${period}|||${b}`);
+
+      const an = av ? Number(av[field] || 0) : -1;
+      const bn = bv ? Number(bv[field] || 0) : -1;
+
+      result = an - bn;
+
+      if (result === 0) {
+        result = nickSortKey(a).localeCompare(
+          nickSortKey(b),
+          'pl',
+          { sensitivity: 'base', numeric: true }
+        );
+      }
+    }
+
+    return epicHistorySort.dir === 'asc' ? result : -result;
+  });
+
+  // TOP 3 epickich osobno dla każdego tygodnia, tylko po osiągnięciu limitu.
+  const top3ByPeriod = new Map();
+  for (const period of periods) {
+    const ranked = all
+      .filter(x => x.okres === period && x.epickie >= LIMIT_EPICKICH)
+      .sort((a, b) => b.epickie - a.epickie)
+      .slice(0, 3)
+      .map(x => x.nick);
+
+    top3ByPeriod.set(period, new Set(ranked));
+  }
+
+  const head = document.getElementById('epic-history-head');
+  const body = document.getElementById('epic-history-body');
+
+  const nickArrow = epicHistoryArrow('nick');
+
+  let h1 = `
+    <tr>
+      <th class="player history-sortable"
+          rowspan="2"
+          onclick="setEpicHistorySort('nick')">
+        Gracz <span class="sort-arrow">${nickArrow}</span>
+      </th>
+  `;
+
+  for (const p of periods) {
+    h1 += `<th colspan="5">${p}</th>`;
+  }
+  h1 += '</tr>';
+
+  let h2 = '<tr>';
+  for (const p of periods) {
+    const totalArrow = epicHistoryArrow('period', p, 'epickie');
+
+    h2 += `
+      <th class="history-sortable"
+          onclick="setEpicHistorySort('period', '${escapeHtmlAttr(p)}', 'epickie')">
+        Paczki epickie <span class="sort-arrow">${totalArrow}</span>
+      </th>
+      <th>Ragnarok</th>
+      <th>Arkana</th>
+      <th>Mroczne Omeny</th>
+      <th>Arachne</th>
+    `;
+  }
+  h2 += '</tr>';
+
+  head.innerHTML = h1 + h2;
+
+  let html = '';
+
+  for (const nick of players) {
+    html += `<tr><td class="player">${nick}</td>`;
+
+    for (const p of periods) {
+      const x = byKey.get(`${p}|||${nick}`);
+
+      if (x) {
+        const topSet = top3ByPeriod.get(p) || new Set();
+        const totalClass = epicScoreClass(x.epickie, topSet.has(nick));
+
+        html += `
+          <td class="${totalClass}">${x.epickie}</td>
+          <td>${x.ragnarok}</td>
+          <td>${x.arkana}</td>
+          <td>${x.omeny}</td>
+          <td>${x.arachne}</td>
+        `;
+      } else {
+        html += '<td>—</td><td>—</td><td>—</td><td>—</td><td>—</td>';
+      }
+    }
+
+    html += '</tr>';
+  }
+
+  body.innerHTML = html;
+  refreshBottomScrollbars();
 }
 
 function escapeHtmlAttr(value) {
@@ -1090,7 +1558,7 @@ async function run() {
   }
 
   const tbody = document.getElementById('weekly-history-body');
-  const tbodyEpickie = document.getElementById('tbody-epickie');
+  const tbodyEpickie = document.getElementById('epic-history-body');
   const tbodySzczegoly = document.getElementById('tbody-szczegoly');
   const tbodyPunktacja = document.getElementById('tbody-punktacja');
   const summary = document.getElementById('summary');
@@ -1106,8 +1574,8 @@ async function run() {
   `).join('');
 
   if (!Array.isArray(data) || data.length === 0) {
-    tbody.innerHTML = '<tr><td colspan="6" class="empty">Brak danych.</td></tr>';
-    tbodyEpickie.innerHTML = '<tr><td colspan="6" class="empty">Brak danych.</td></tr>';
+    tbody.innerHTML = '<tr><td class="empty">Brak danych.</td></tr>';
+    tbodyEpickie.innerHTML = '<tr><td class="empty">Brak danych.</td></tr>';
     tbodySzczegoly.innerHTML = '<tr><td colspan="5" class="empty">Brak danych.</td></tr>';
     return;
   }
@@ -1140,10 +1608,13 @@ async function run() {
     if (cat) p[cat] += 1;
   }
 
-  const rows = [...players.entries()].map(([nick, p]) => {
-    p.epickie = p.ragnarok + p.arkana + p.omeny + p.arachne;
-    return { nick, ...p };
-  });
+  const rows = [...players.entries()]
+    .map(([nick, p]) => {
+      p.epickie = p.ragnarok + p.arkana + p.omeny + p.arachne;
+      return { nick, ...p };
+    })
+    // Nie pokazuj graczy, którzy mają 0 punktów.
+    .filter(r => Number(r.punkty || 0) > 0);
 
   rows.sort((a, b) => b.punkty - a.punkty || b.epickie - a.epickie || a.nick.localeCompare(b.nick, 'pl'));
 
@@ -1151,7 +1622,7 @@ async function run() {
   epicRowsGlobal = [...rows];
 
   renderWeeklyHistory(rows, historyData);
-  renderEpicTable();
+  renderEpicHistory(rows, historyData);
 
   let htmlSzczegoly = '';
   const detailsRows = [...data].sort((a, b) => {
@@ -1166,6 +1637,9 @@ async function run() {
     const nickTxt = displayNick(row['Nadawca'] ?? '');
     const zrodloTxt = row['Źródło'] ?? '';
     const pktTxt = row['Punkty'] ?? '';
+
+    const pktNum = Number.parseInt((pktTxt || '0').toString().replace(',', '.')) || 0;
+    if (pktNum <= 0) continue;
 
     htmlSzczegoly += `
       <tr>
@@ -1190,7 +1664,7 @@ async function run() {
 run().catch(err => {
   document.getElementById('tbody').innerHTML =
     '<tr><td colspan="6" class="empty">Błąd wczytywania danych: ' + err + '</td></tr>';
-  document.getElementById('tbody-epickie').innerHTML =
+  document.getElementById('epic-history-body').innerHTML =
     '<tr><td colspan="6" class="empty">Błąd wczytywania danych: ' + err + '</td></tr>';
   document.getElementById('tbody-szczegoly').innerHTML =
     '<tr><td colspan="5" class="empty">Błąd wczytywania danych: ' + err + '</td></tr>';

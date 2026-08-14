@@ -171,6 +171,67 @@ th.sortable:hover {
   opacity: .9;
 }
 
+.package-detail-cell {
+  cursor: help;
+  position: relative;
+}
+
+.package-detail-cell:hover {
+  outline: 2px solid rgba(255,255,255,.32);
+  outline-offset: -2px;
+}
+
+.package-tooltip {
+  position: fixed;
+  z-index: 1000;
+  display: none;
+  min-width: 245px;
+  max-width: 320px;
+  padding: 10px 12px;
+  background: #161616;
+  color: #f2f2f2;
+  border: 1px solid #888;
+  border-radius: 7px;
+  box-shadow: 0 5px 18px rgba(0,0,0,.5);
+  pointer-events: none;
+  font-size: 13px;
+}
+
+.package-tooltip.visible {
+  display: block;
+}
+
+.package-tooltip-title {
+  font-weight: 700;
+  margin-bottom: 7px;
+  color: #fff;
+}
+
+.package-tooltip table {
+  min-width: 0;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.package-tooltip td {
+  border: 0;
+  border-top: 1px solid #333;
+  padding: 5px 2px;
+  text-align: left;
+  background: transparent !important;
+}
+
+.package-tooltip td:last-child {
+  text-align: right;
+  font-weight: 700;
+}
+
+.package-tooltip-hint {
+  margin-top: 7px;
+  color: #aaa;
+  font-size: 11px;
+}
+
 thead tr:nth-child(2) th {
   background: var(--head2);
   color: #111;
@@ -298,7 +359,7 @@ tbody tr:nth-child(odd) td:not(.player) {
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 15.08.2026 00:19</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 15.08.2026 00:39</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms / Wyniki tygodniowe</h1>
@@ -317,25 +378,9 @@ tbody tr:nth-child(odd) td:not(.player) {
 
   <section id="view-wyniki" class="tab-view active-view">
     <div class="table-wrap">
-      <table>
-        <thead>
-          <tr>
-            <th class="player sortable" rowspan="2"
-                onclick="sortWeekly('nick')"
-                id="weekly-sort-nick">Gracz <span class="sort-arrow" id="weekly-arrow-nick"></span></th>
-            <th class="sortable" rowspan="2"
-                onclick="sortWeekly('punkty')"
-                id="weekly-sort-punkty">Punkty <span class="sort-arrow" id="weekly-arrow-punkty"></span></th>
-            <th colspan="3">Krypty</th>
-            <th rowspan="2">Twierdze</th>
-          </tr>
-          <tr>
-            <th>zwykłe</th>
-            <th>rzadkie</th>
-            <th>epickie</th>
-          </tr>
-        </thead>
-        <tbody id="tbody"></tbody>
+      <table id="weekly-history-table">
+        <thead id="weekly-history-head"></thead>
+        <tbody id="weekly-history-body"></tbody>
       </table>
     </div>
     <div class="summary" id="summary"></div>
@@ -425,6 +470,8 @@ tbody tr:nth-child(odd) td:not(.player) {
       które ma prawo edycji tego arkusza.
     </div>
   </section>
+
+  <div id="package-tooltip" class="package-tooltip" role="tooltip" aria-hidden="true"></div>
 </div>
 
 <script src="https://accounts.google.com/gsi/client" async defer></script>
@@ -432,6 +479,7 @@ tbody tr:nth-child(odd) td:not(.player) {
 const LIMIT_PUNKTOW = 20000;
 const LIMIT_EPICKICH = 100;
 const PUNKTACJA_PACZEK = {"Bank": 0, "Skrzynia Arkanów": 0, "Skrzynia Mrocznych Omenów": 0, "Arachne": 0, "Krypta 5 poziomu": 0, "Krypta 10 poziomu": 0, "Krypta 15 poziomu": 0, "Krypta 20 poziomu": 0, "Krypta 25 poziomu": 25, "Epicka krypta 15 poziomu": 0, "Epicka krypta 20 poziomu": 100, "Epicka krypta 25 poziomu": 160, "Epicka krypta 30 poziomu": 250, "Epicka krypta 35 poziomu": 400, "Rzadka krypta 10 poziomu": 0, "Rzadka krypta 15 poziomu": 0, "Rzadka krypta 20 poziomu": 60, "Rzadka krypta 25 poziomu": 130, "Rzadka krypta 30 poziomu": 180, "Heroiczny potwor 16 poziomu": 30, "Heroiczny potwor 17 poziomu": 30, "Heroiczny potwor 18 poziomu": 30, "Heroiczny potwor 19 poziomu": 30, "Heroiczny potwor 20 poziomu": 30, "Heroiczny potwor 21 poziomu": 75, "Heroiczny potwor 22 poziomu": 75, "Heroiczny potwor 23 poziomu": 75, "Heroiczny potwor 24 poziomu": 75, "Heroiczny potwor 25 poziomu": 75, "Heroiczny potwor 26 poziomu": 100, "Heroiczny potwor 27 poziomu": 100, "Heroiczny potwor 28 poziomu": 100, "Heroiczny potwor 29 poziomu": 100, "Heroiczny potwor 30 poziomu": 100, "Heroiczny potwor 31 poziomu": 100, "Heroiczny potwor 32 poziomu": 100, "Heroiczny potwor 33 poziomu": 100, "Heroiczny potwor 34 poziomu": 100, "Heroiczny potwor 35 poziomu": 100, "Heroiczny potwor 36 poziomu": 200, "Heroiczny potwor 37 poziomu": 200, "Heroiczny potwor 38 poziomu": 200, "Heroiczny potwor 39 poziomu": 200, "Heroiczny potwor 40 poziomu": 200, "Heroiczny potwor 41 poziomu": 200, "Heroiczny potwor 42 poziomu": 200, "Heroiczny potwor 43 poziomu": 200, "Heroiczny potwor 44 poziomu": 200, "Heroiczny potwor 45 poziomu": 200, "Heroiczny potwor 46 poziomu": 200, "Epicki oddział inferno": 1, "Skrzynia z Twierdzy Elfów 10 poziomu": 0, "Skrzynia z Twierdzy Elfów 15 poziomu": 0, "Skrzynia z Twierdzy Elfów 20 poziomu": 40, "Skrzynia z Twierdzy Elfów 25 poziomu": 80, "Skrzynia z Twierdzy Elfów 30 poziomu": 150, "Skrzynia z Twierdzy Przeklętych 20 poziomu": 20, "Skrzynia z Twierdzy Przeklętych 25 poziomu": 60, "Epicki oddział nieumarłych": 1, "Epicki oddział Roju Arachne": 1, "Twierdza Elfów 10 poziomu": 0, "Twierdza Elfów 15 poziomu": 0, "Twierdza Elfów 20 poziomu": 40, "Twierdza Elfów 25 poziomu": 80, "Twierdza Elfów 30 poziomu": 150, "Twierdza Przeklętych 20 poziomu": 20, "Twierdza Przeklętych 25 poziomu": 60};
+const CURRENT_PERIOD_LABEL = "2026 09.08 - 16.08";
 
 const GOOGLE_CLIENT_ID = "575890140414-5geac03dcbv7vnmfcjdkg221gnpikab1.apps.googleusercontent.com";
 const GOOGLE_DRIVE_SCOPE = "https://www.googleapis.com/auth/drive.metadata.readonly";
@@ -815,11 +863,233 @@ function showTab(tab) {
   }
 }
 
+
+function parsePeriodStart(label) {
+  // format: "2026 09.08 - 16.08"
+  const m = (label || '').match(/(\d4)\s+(\d(1, 2))\.(\d(1, 2))/);
+  if (!m) return 0;
+  const year = Number(m[1]);
+  const day = Number(m[2]);
+  const month = Number(m[3]);
+  return new Date(year, month - 1, day).getTime();
+}
+
+function renderWeeklyHistory(currentRows, historyRows) {
+  const all = [];
+
+  // Bieżący okres — z aktualnych danych
+  for (const r of currentRows) {
+    all.push({
+      okres: CURRENT_PERIOD_LABEL,
+      nick: r.nick,
+      punkty: r.punkty,
+      krypty_zwykle: r.krypty_zwykle,
+      krypty_rzadkie: r.krypty_rzadkie,
+      krypty_epickie: r.krypty_epickie,
+      twierdze: r.twierdze,
+      paczki: r.krypty_zwykle + r.krypty_rzadkie + r.krypty_epickie + r.twierdze
+    });
+  }
+
+  // Zakończone okresy — z historii
+  for (const h of historyRows || []) {
+    const nick = displayNick(h['Nadawca'] || '');
+    if (!nick) continue;
+
+    const num = (v) => Number.parseInt((v ?? '0').toString().replace(',', '.')) || 0;
+    const zwykle = num(h['krypty zwykłe']);
+    const rzadkie = num(h['krypty rzadkie']);
+    const epickie = num(h['krypty epickie']);
+    const twierdze = num(h['Twierdze']);
+
+    all.push({
+      okres: (h['Okres rozliczeniowy'] || '').trim(),
+      nick,
+      punkty: num(h['Punkty']),
+      krypty_zwykle: zwykle,
+      krypty_rzadkie: rzadkie,
+      krypty_epickie: epickie,
+      twierdze: twierdze,
+      paczki: zwykle + rzadkie + epickie + twierdze
+    });
+  }
+
+  const periods = [...new Set(all.map(x => x.okres).filter(Boolean))]
+    .sort((a, b) => parsePeriodStart(b) - parsePeriodStart(a));
+
+  const players = [...new Set(all.map(x => x.nick).filter(Boolean))]
+    .sort((a, b) => nickSortKey(a).localeCompare(nickSortKey(b), 'pl', { sensitivity: 'base', numeric: true }));
+
+  const byKey = new Map();
+  for (const x of all) {
+    byKey.set(`${x.okres}|||${x.nick}`, x);
+  }
+
+  const head = document.getElementById('weekly-history-head');
+  const body = document.getElementById('weekly-history-body');
+
+  let h1 = '<tr><th class="player" rowspan="2">Gracz</th>';
+  for (const p of periods) {
+    h1 += `<th colspan="2">${p}</th>`;
+  }
+  h1 += '</tr>';
+
+  let h2 = '<tr>';
+  for (const _ of periods) {
+    h2 += '<th>Paczki</th><th>Punkty</th>';
+  }
+  h2 += '</tr>';
+
+  head.innerHTML = h1 + h2;
+
+  let html = '';
+  for (const nick of players) {
+    html += `<tr><td class="player">${nick}</td>`;
+    for (const p of periods) {
+      const x = byKey.get(`${p}|||${nick}`);
+      if (x) {
+        html += `
+          <td class="package-detail-cell"
+              data-player="${escapeHtmlAttr(x.nick)}"
+              data-period="${escapeHtmlAttr(x.okres)}"
+              data-zwykle="${x.krypty_zwykle || 0}"
+              data-rzadkie="${x.krypty_rzadkie || 0}"
+              data-epickie="${x.krypty_epickie || 0}"
+              data-twierdze="${x.twierdze || 0}"
+              data-total="${x.paczki || 0}"
+              title="Najedź, aby zobaczyć rodzaje krypt">${x.paczki}</td>
+          <td>${x.punkty}</td>
+        `;
+      } else {
+        html += '<td>—</td><td>—</td>';
+      }
+    }
+    html += '</tr>';
+  }
+  body.innerHTML = html;
+  bindPackageTooltips();
+}
+
+function escapeHtmlAttr(value) {
+  return (value ?? '').toString()
+    .replace(/&/g, '&amp;')
+    .replace(/"/g, '&quot;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+}
+
+function escapeHtml(value) {
+  return (value ?? '').toString()
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#039;');
+}
+
+function showPackageTooltip(cell, clientX, clientY) {
+  const tooltip = document.getElementById('package-tooltip');
+  if (!tooltip) return;
+
+  const player = cell.dataset.player || '';
+  const period = cell.dataset.period || '';
+  const zwykle = Number(cell.dataset.zwykle || 0);
+  const rzadkie = Number(cell.dataset.rzadkie || 0);
+  const epickie = Number(cell.dataset.epickie || 0);
+  const twierdze = Number(cell.dataset.twierdze || 0);
+  const total = Number(cell.dataset.total || 0);
+
+  tooltip.innerHTML = `
+    <div class="package-tooltip-title">${escapeHtml(player)} — ${escapeHtml(period)}</div>
+    <table>
+      <tr><td>Krypty zwykłe</td><td>${zwykle}</td></tr>
+      <tr><td>Krypty rzadkie</td><td>${rzadkie}</td></tr>
+      <tr><td>Krypty epickie</td><td>${epickie}</td></tr>
+      <tr><td>Twierdze</td><td>${twierdze}</td></tr>
+      <tr><td><strong>Razem</strong></td><td><strong>${total}</strong></td></tr>
+    </table>
+    <div class="package-tooltip-hint">Rozbicie paczek dla tego tygodnia.</div>
+  `;
+
+  tooltip.classList.add('visible');
+  tooltip.setAttribute('aria-hidden', 'false');
+
+  const pad = 14;
+  const rect = tooltip.getBoundingClientRect();
+
+  let x = clientX + 14;
+  let y = clientY + 14;
+
+  if (x + rect.width + pad > window.innerWidth) {
+    x = clientX - rect.width - 14;
+  }
+  if (y + rect.height + pad > window.innerHeight) {
+    y = clientY - rect.height - 14;
+  }
+
+  tooltip.style.left = Math.max(pad, x) + 'px';
+  tooltip.style.top = Math.max(pad, y) + 'px';
+}
+
+function hidePackageTooltip() {
+  const tooltip = document.getElementById('package-tooltip');
+  if (!tooltip) return;
+  tooltip.classList.remove('visible');
+  tooltip.setAttribute('aria-hidden', 'true');
+}
+
+function bindPackageTooltips() {
+  const cells = document.querySelectorAll('.package-detail-cell');
+
+  cells.forEach(cell => {
+    cell.addEventListener('mouseenter', (e) => {
+      showPackageTooltip(cell, e.clientX, e.clientY);
+    });
+
+    cell.addEventListener('mousemove', (e) => {
+      const tooltip = document.getElementById('package-tooltip');
+      if (!tooltip || !tooltip.classList.contains('visible')) return;
+
+      const pad = 14;
+      const rect = tooltip.getBoundingClientRect();
+      let x = e.clientX + 14;
+      let y = e.clientY + 14;
+
+      if (x + rect.width + pad > window.innerWidth) x = e.clientX - rect.width - 14;
+      if (y + rect.height + pad > window.innerHeight) y = e.clientY - rect.height - 14;
+
+      tooltip.style.left = Math.max(pad, x) + 'px';
+      tooltip.style.top = Math.max(pad, y) + 'px';
+    });
+
+    cell.addEventListener('mouseleave', hidePackageTooltip);
+
+    // Telefon/tablet: kliknięcie pokazuje ten sam podgląd.
+    cell.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const rect = cell.getBoundingClientRect();
+      showPackageTooltip(cell, rect.left + rect.width / 2, rect.top + rect.height / 2);
+    });
+  });
+
+  document.addEventListener('click', (e) => {
+    if (!e.target.closest('.package-detail-cell')) hidePackageTooltip();
+  }, { once: true });
+}
+
 async function run() {
   const res = await fetch('dane_paczek.json?ts=' + Date.now());
   const data = await res.json();
 
-  const tbody = document.getElementById('tbody');
+  let historyData = [];
+  try {
+    const hres = await fetch('historia_tygodniowa.json?ts=' + Date.now());
+    if (hres.ok) historyData = await hres.json();
+  } catch (_) {
+    historyData = [];
+  }
+
+  const tbody = document.getElementById('weekly-history-body');
   const tbodyEpickie = document.getElementById('tbody-epickie');
   const tbodySzczegoly = document.getElementById('tbody-szczegoly');
   const tbodyPunktacja = document.getElementById('tbody-punktacja');
@@ -880,7 +1150,7 @@ async function run() {
   weeklyRowsGlobal = [...rows];
   epicRowsGlobal = [...rows];
 
-  renderWeeklyTable();
+  renderWeeklyHistory(rows, historyData);
   renderEpicTable();
 
   let htmlSzczegoly = '';

@@ -136,7 +136,7 @@ body {
 table {
   border-collapse: collapse;
   width: 100%;
-  min-width: 1050px;
+  min-width: 1350px;
 }
 
 th, td {
@@ -221,7 +221,7 @@ tbody tr:nth-child(odd) td:not(.player) {
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 14.08.2026 21:11</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 14.08.2026 21:37</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms / Wyniki tygodniowe</h1>
@@ -244,11 +244,15 @@ tbody tr:nth-child(odd) td:not(.player) {
         <tr>
           <th class="player" rowspan="2">Gracz</th>
           <th colspan="2">Bieżący okres</th>
+          <th colspan="3">Krypty</th>
           <th colspan="4" id="epickie">Paczki epickie – szczegóły</th>
         </tr>
         <tr>
           <th>Paczki epickie</th>
           <th>Punkty</th>
+          <th>zwykłe</th>
+          <th>rzadkie</th>
+          <th>epickie</th>
           <th>Ragnarok</th>
           <th>Arkana</th>
           <th>Mroczne Omeny</th>
@@ -279,6 +283,12 @@ function classify(type, source) {
   if (t.includes('skrzynia arkanow')) return 'arkana';
   if (t.includes('heroiczny potwor') || t.includes('ragnarok')) return 'ragnarok';
 
+  if (t.includes('krypta')) {
+    if (t.includes('epick')) return 'krypty_epickie';
+    if (t.includes('rzadk')) return 'krypty_rzadkie';
+    return 'krypty_zwykle';
+  }
+
   return null;
 }
 
@@ -297,7 +307,7 @@ async function run() {
   const summary = document.getElementById('summary');
 
   if (!Array.isArray(data) || data.length === 0) {
-    tbody.innerHTML = '<tr><td colspan="7" class="empty">Brak danych.</td></tr>';
+    tbody.innerHTML = '<tr><td colspan="10" class="empty">Brak danych.</td></tr>';
     return;
   }
 
@@ -310,6 +320,9 @@ async function run() {
     if (!players.has(nick)) {
       players.set(nick, {
         punkty: 0,
+        krypty_zwykle: 0,
+        krypty_rzadkie: 0,
+        krypty_epickie: 0,
         ragnarok: 0,
         arkana: 0,
         omeny: 0,
@@ -355,6 +368,9 @@ async function run() {
         <td class="player">${r.nick}</td>
         <td class="${scoreClass(r.epickie, LIMIT_EPICKICH, topEpicSet.has(r.nick))}">${r.epickie}</td>
         <td class="${scoreClass(r.punkty, LIMIT_PUNKTOW, topPointsSet.has(r.nick))}">${r.punkty}</td>
+        <td>${r.krypty_zwykle}</td>
+        <td>${r.krypty_rzadkie}</td>
+        <td>${r.krypty_epickie}</td>
         <td>${r.ragnarok}</td>
         <td>${r.arkana}</td>
         <td>${r.omeny}</td>
@@ -374,7 +390,7 @@ async function run() {
 
 run().catch(err => {
   document.getElementById('tbody').innerHTML =
-    '<tr><td colspan="7" class="empty">Błąd wczytywania danych: ' + err + '</td></tr>';
+    '<tr><td colspan="10" class="empty">Błąd wczytywania danych: ' + err + '</td></tr>';
 });
 </script>
 

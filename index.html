@@ -155,6 +155,22 @@ thead th {
   font-weight: 700;
 }
 
+th.sortable {
+  cursor: pointer;
+  user-select: none;
+}
+
+th.sortable:hover {
+  filter: brightness(1.08);
+}
+
+.sort-arrow {
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 12px;
+  opacity: .9;
+}
+
 thead tr:nth-child(2) th {
   background: var(--head2);
   color: #111;
@@ -282,7 +298,7 @@ tbody tr:nth-child(odd) td:not(.player) {
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 14.08.2026 23:22</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 14.08.2026 23:31</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms / Wyniki tygodniowe</h1>
@@ -304,8 +320,12 @@ tbody tr:nth-child(odd) td:not(.player) {
       <table>
         <thead>
           <tr>
-            <th class="player" rowspan="2">Gracz</th>
-            <th rowspan="2">Punkty</th>
+            <th class="player sortable" rowspan="2"
+                onclick="sortWeekly('nick')"
+                id="weekly-sort-nick">Gracz <span class="sort-arrow" id="weekly-arrow-nick"></span></th>
+            <th class="sortable" rowspan="2"
+                onclick="sortWeekly('punkty')"
+                id="weekly-sort-punkty">Punkty <span class="sort-arrow" id="weekly-arrow-punkty"></span></th>
             <th colspan="3">Krypty</th>
             <th rowspan="2">Twierdze</th>
           </tr>
@@ -333,8 +353,12 @@ tbody tr:nth-child(odd) td:not(.player) {
       <table>
         <thead>
           <tr>
-            <th class="player">Gracz</th>
-            <th>Paczki epickie</th>
+            <th class="player sortable"
+                onclick="sortEpic('nick')"
+                id="epic-sort-nick">Gracz <span class="sort-arrow" id="epic-arrow-nick"></span></th>
+            <th class="sortable"
+                onclick="sortEpic('epickie')"
+                id="epic-sort-epickie">Paczki epickie <span class="sort-arrow" id="epic-arrow-epickie"></span></th>
             <th>Ragnarok</th>
             <th>Arkana</th>
             <th>Mroczne Omeny</th>
@@ -416,6 +440,12 @@ const PUNKTACJA_EDIT_URL = "https://docs.google.com/spreadsheets/d/1aa8iv2H1kQwc
 
 let managerTokenClient = null;
 let managerAccessToken = null;
+
+let weeklyRowsGlobal = [];
+let epicRowsGlobal = [];
+
+let weeklySort = { key: 'punkty', dir: 'desc' };
+let epicSort = { key: 'epickie', dir: 'desc' };
 
 function setManagerStatus(text, kind='') {
   const el = document.getElementById('manager-status');
@@ -555,6 +585,122 @@ window.addEventListener('load', () => {
   }, 250);
 });
 
+function compareRows(a, b, key, dir) {
+  let result = 0;
+
+  if (key === 'nick') {
+    result = a.nick.localeCompare(b.nick, 'pl', { sensitivity: 'base' });
+  } else {
+    const av = Number(a[key] ?? 0);
+    const bv = Number(b[key] ?? 0);
+    result = av - bv;
+  }
+
+  return dir === 'asc' ? result : -result;
+}
+
+function setSortArrow(prefix, activeKey, dir) {
+  const keys = prefix === 'weekly'
+    ? ['nick', 'punkty']
+    : ['nick', 'epickie'];
+
+  for (const key of keys) {
+    const el = document.getElementById(`${prefix}-arrow-${key}`);
+    if (!el) continue;
+    el.textContent = key === activeKey ? (dir === 'asc' ? '▲' : '▼') : '';
+  }
+}
+
+function sortWeekly(key) {
+  if (weeklySort.key === key) {
+    weeklySort.dir = weeklySort.dir === 'asc' ? 'desc' : 'asc';
+  } else {
+    weeklySort.key = key;
+    weeklySort.dir = key === 'nick' ? 'asc' : 'desc';
+  }
+
+  renderWeeklyTable();
+}
+
+function sortEpic(key) {
+  if (epicSort.key === key) {
+    epicSort.dir = epicSort.dir === 'asc' ? 'desc' : 'asc';
+  } else {
+    epicSort.key = key;
+    epicSort.dir = key === 'nick' ? 'asc' : 'desc';
+  }
+
+  renderEpicTable();
+}
+
+function renderWeeklyTable() {
+  const tbody = document.getElementById('tbody');
+  if (!tbody) return;
+
+  const rows = [...weeklyRowsGlobal].sort((a, b) =>
+    compareRows(a, b, weeklySort.key, weeklySort.dir)
+  );
+
+  const topPoints = weeklyRowsGlobal
+    .filter(r => r.punkty >= LIMIT_PUNKTOW)
+    .sort((a,b) => b.punkty - a.punkty)
+    .slice(0,3)
+    .map(r => r.nick);
+
+  const topPointsSet = new Set(topPoints);
+
+  let html = '';
+  for (const r of rows) {
+    html += `
+      <tr>
+        <td class="player">${r.nick}</td>
+        <td class="${scoreClass(r.punkty, LIMIT_PUNKTOW, topPointsSet.has(r.nick))}">${r.punkty}</td>
+        <td>${r.krypty_zwykle}</td>
+        <td>${r.krypty_rzadkie}</td>
+        <td>${r.krypty_epickie}</td>
+        <td>${r.twierdze}</td>
+      </tr>
+    `;
+  }
+
+  tbody.innerHTML = html;
+  setSortArrow('weekly', weeklySort.key, weeklySort.dir);
+}
+
+function renderEpicTable() {
+  const tbody = document.getElementById('tbody-epickie');
+  if (!tbody) return;
+
+  const rows = [...epicRowsGlobal].sort((a, b) =>
+    compareRows(a, b, epicSort.key, epicSort.dir)
+  );
+
+  const topEpic = epicRowsGlobal
+    .filter(r => r.epickie >= LIMIT_EPICKICH)
+    .sort((a,b) => b.epickie - a.epickie)
+    .slice(0,3)
+    .map(r => r.nick);
+
+  const topEpicSet = new Set(topEpic);
+
+  let html = '';
+  for (const r of rows) {
+    html += `
+      <tr>
+        <td class="player">${r.nick}</td>
+        <td class="${scoreClass(r.epickie, LIMIT_EPICKICH, topEpicSet.has(r.nick))}">${r.epickie}</td>
+        <td>${r.ragnarok}</td>
+        <td>${r.arkana}</td>
+        <td>${r.omeny}</td>
+        <td>${r.arachne}</td>
+      </tr>
+    `;
+  }
+
+  tbody.innerHTML = html;
+  setSortArrow('epic', epicSort.key, epicSort.dir);
+}
+
 function norm(s) {
   return (s ?? '').toString().trim().toLowerCase()
     .normalize('NFD').replace(/[\u0300-\u036f]/g, '');
@@ -684,52 +830,11 @@ async function run() {
 
   rows.sort((a, b) => b.punkty - a.punkty || b.epickie - a.epickie || a.nick.localeCompare(b.nick, 'pl'));
 
-  const topPoints = rows
-    .filter(r => r.punkty >= LIMIT_PUNKTOW)
-    .sort((a,b) => b.punkty - a.punkty)
-    .slice(0,3)
-    .map(r => r.nick);
+  weeklyRowsGlobal = [...rows];
+  epicRowsGlobal = [...rows];
 
-  const topEpic = rows
-    .filter(r => r.epickie >= LIMIT_EPICKICH)
-    .sort((a,b) => b.epickie - a.epickie)
-    .slice(0,3)
-    .map(r => r.nick);
-
-  const topPointsSet = new Set(topPoints);
-  const topEpicSet = new Set(topEpic);
-
-  let html = '';
-
-  for (const r of rows) {
-    html += `
-      <tr>
-        <td class="player">${r.nick}</td>
-        <td class="${scoreClass(r.punkty, LIMIT_PUNKTOW, topPointsSet.has(r.nick))}">${r.punkty}</td>
-        <td>${r.krypty_zwykle}</td>
-        <td>${r.krypty_rzadkie}</td>
-        <td>${r.krypty_epickie}</td>
-        <td>${r.twierdze}</td>
-      </tr>
-    `;
-  }
-
-  tbody.innerHTML = html;
-
-  let htmlEpickie = '';
-  for (const r of rows) {
-    htmlEpickie += `
-      <tr>
-        <td class="player">${r.nick}</td>
-        <td class="${scoreClass(r.epickie, LIMIT_EPICKICH, topEpicSet.has(r.nick))}">${r.epickie}</td>
-        <td>${r.ragnarok}</td>
-        <td>${r.arkana}</td>
-        <td>${r.omeny}</td>
-        <td>${r.arachne}</td>
-      </tr>
-    `;
-  }
-  tbodyEpickie.innerHTML = htmlEpickie;
+  renderWeeklyTable();
+  renderEpicTable();
 
   let htmlSzczegoly = '';
   const detailsRows = [...data].sort((a, b) => {

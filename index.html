@@ -201,6 +201,14 @@ tbody tr:nth-child(odd) td:not(.player) {
   font-size: 13px;
 }
 
+.tab-view {
+  display: none;
+}
+
+.tab-view.active-view {
+  display: block;
+}
+
 @media (max-width: 800px) {
   .container { padding: 16px 8px 30px; }
   .topbar-inner { padding: 0 6px; overflow-x: auto; }
@@ -214,14 +222,13 @@ tbody tr:nth-child(odd) td:not(.player) {
 <div class="topbar">
   <div class="topbar-inner">
     <div class="brand">⚔️ Total Battle</div>
-    <a class="nav-item active" href="#wyniki">Wyniki tygodniowe</a>
-    <a class="nav-item" href="#epickie">Paczki epickie</a>
-    <a class="nav-item" href="#ranking">Ranking</a>
+    <a class="nav-item active" href="#" id="tab-wyniki" onclick="showTab('wyniki'); return false;">Wyniki tygodniowe</a>
+    <a class="nav-item" href="#" id="tab-epickie" onclick="showTab('epickie'); return false;">Paczki epickie</a>
   </div>
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 14.08.2026 21:53</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 14.08.2026 22:01</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms / Wyniki tygodniowe</h1>
@@ -238,18 +245,16 @@ tbody tr:nth-child(odd) td:not(.player) {
     <span><i class="dot" style="background:var(--red)"></i> poniżej 50%</span>
   </div>
 
-  <div id="wyniki">
-    <div class="table-wrap" id="ranking">
+  <section id="view-wyniki" class="tab-view active-view">
+    <div class="table-wrap">
       <table>
         <thead>
           <tr>
             <th class="player" rowspan="2">Gracz</th>
-            <th colspan="2">Bieżący okres</th>
+            <th rowspan="2">Punkty</th>
             <th colspan="3">Krypty</th>
           </tr>
           <tr>
-            <th>Paczki epickie</th>
-            <th>Punkty</th>
             <th>zwykłe</th>
             <th>rzadkie</th>
             <th>epickie</th>
@@ -258,13 +263,18 @@ tbody tr:nth-child(odd) td:not(.player) {
         <tbody id="tbody"></tbody>
       </table>
     </div>
-  </div>
+    <div class="summary" id="summary"></div>
+  </section>
 
-  <div class="summary" id="summary"></div>
+  <section id="view-epickie" class="tab-view">
+    <div class="controls" style="margin-top:0;">
+      <h2 class="title">Paczki epickie</h2>
+      <div class="limits">
+        <div class="limit-epic">Limit paczek epickich ≥ 100</div>
+      </div>
+    </div>
 
-  <section id="epickie" style="scroll-margin-top:80px; margin-top:34px;">
-    <h2 class="title">Paczki epickie</h2>
-    <div class="table-wrap" style="margin-top:16px;">
+    <div class="table-wrap">
       <table>
         <thead>
           <tr>
@@ -315,6 +325,25 @@ function scoreClass(value, limit, isTop3) {
   return 'score-red';
 }
 
+function showTab(tab) {
+  const wynikiView = document.getElementById('view-wyniki');
+  const epickieView = document.getElementById('view-epickie');
+  const wynikiTab = document.getElementById('tab-wyniki');
+  const epickieTab = document.getElementById('tab-epickie');
+
+  if (tab === 'epickie') {
+    wynikiView.classList.remove('active-view');
+    epickieView.classList.add('active-view');
+    wynikiTab.classList.remove('active');
+    epickieTab.classList.add('active');
+  } else {
+    epickieView.classList.remove('active-view');
+    wynikiView.classList.add('active-view');
+    epickieTab.classList.remove('active');
+    wynikiTab.classList.add('active');
+  }
+}
+
 async function run() {
   const res = await fetch('dane_paczek.json?ts=' + Date.now());
   const data = await res.json();
@@ -324,7 +353,7 @@ async function run() {
   const summary = document.getElementById('summary');
 
   if (!Array.isArray(data) || data.length === 0) {
-    tbody.innerHTML = '<tr><td colspan="6" class="empty">Brak danych.</td></tr>';
+    tbody.innerHTML = '<tr><td colspan="5" class="empty">Brak danych.</td></tr>';
     tbodyEpickie.innerHTML = '<tr><td colspan="6" class="empty">Brak danych.</td></tr>';
     return;
   }
@@ -384,7 +413,6 @@ async function run() {
     html += `
       <tr>
         <td class="player">${r.nick}</td>
-        <td class="${scoreClass(r.epickie, LIMIT_EPICKICH, topEpicSet.has(r.nick))}">${r.epickie}</td>
         <td class="${scoreClass(r.punkty, LIMIT_PUNKTOW, topPointsSet.has(r.nick))}">${r.punkty}</td>
         <td>${r.krypty_zwykle}</td>
         <td>${r.krypty_rzadkie}</td>
@@ -419,7 +447,7 @@ async function run() {
 
 run().catch(err => {
   document.getElementById('tbody').innerHTML =
-    '<tr><td colspan="6" class="empty">Błąd wczytywania danych: ' + err + '</td></tr>';
+    '<tr><td colspan="5" class="empty">Błąd wczytywania danych: ' + err + '</td></tr>';
   document.getElementById('tbody-epickie').innerHTML =
     '<tr><td colspan="6" class="empty">Błąd wczytywania danych: ' + err + '</td></tr>';
 });

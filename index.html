@@ -214,14 +214,14 @@ tbody tr:nth-child(odd) td:not(.player) {
 <div class="topbar">
   <div class="topbar-inner">
     <div class="brand">⚔️ Total Battle</div>
-    <a class="nav-item active" href="#">Wyniki tygodniowe</a>
+    <a class="nav-item active" href="#wyniki">Wyniki tygodniowe</a>
     <a class="nav-item" href="#epickie">Paczki epickie</a>
     <a class="nav-item" href="#ranking">Ranking</a>
   </div>
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 14.08.2026 21:37</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 14.08.2026 21:52</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms / Wyniki tygodniowe</h1>
@@ -238,32 +238,48 @@ tbody tr:nth-child(odd) td:not(.player) {
     <span><i class="dot" style="background:var(--red)"></i> poniżej 50%</span>
   </div>
 
-  <div class="table-wrap" id="ranking">
-    <table>
-      <thead>
-        <tr>
-          <th class="player" rowspan="2">Gracz</th>
-          <th colspan="2">Bieżący okres</th>
-          <th colspan="3">Krypty</th>
-          <th colspan="4" id="epickie">Paczki epickie – szczegóły</th>
-        </tr>
-        <tr>
-          <th>Paczki epickie</th>
-          <th>Punkty</th>
-          <th>zwykłe</th>
-          <th>rzadkie</th>
-          <th>epickie</th>
-          <th>Ragnarok</th>
-          <th>Arkana</th>
-          <th>Mroczne Omeny</th>
-          <th>Arachne</th>
-        </tr>
-      </thead>
-      <tbody id="tbody"></tbody>
-    </table>
+  <div id="wyniki">
+    <div class="table-wrap" id="ranking">
+      <table>
+        <thead>
+          <tr>
+            <th class="player" rowspan="2">Gracz</th>
+            <th colspan="2">Bieżący okres</th>
+            <th colspan="3">Krypty</th>
+          </tr>
+          <tr>
+            <th>Paczki epickie</th>
+            <th>Punkty</th>
+            <th>zwykłe</th>
+            <th>rzadkie</th>
+            <th>epickie</th>
+          </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </div>
   </div>
 
   <div class="summary" id="summary"></div>
+
+  <section id="epickie" style="scroll-margin-top:80px; margin-top:34px;">
+    <h2 class="title">Paczki epickie</h2>
+    <div class="table-wrap" style="margin-top:16px;">
+      <table>
+        <thead>
+          <tr>
+            <th class="player">Gracz</th>
+            <th>Paczki epickie</th>
+            <th>Ragnarok</th>
+            <th>Arkana</th>
+            <th>Mroczne Omeny</th>
+            <th>Arachne</th>
+          </tr>
+        </thead>
+        <tbody id="tbody-epickie"></tbody>
+      </table>
+    </div>
+  </section>
 </div>
 
 <script>
@@ -304,10 +320,12 @@ async function run() {
   const data = await res.json();
 
   const tbody = document.getElementById('tbody');
+  const tbodyEpickie = document.getElementById('tbody-epickie');
   const summary = document.getElementById('summary');
 
   if (!Array.isArray(data) || data.length === 0) {
-    tbody.innerHTML = '<tr><td colspan="10" class="empty">Brak danych.</td></tr>';
+    tbody.innerHTML = '<tr><td colspan="6" class="empty">Brak danych.</td></tr>';
+    tbodyEpickie.innerHTML = '<tr><td colspan="6" class="empty">Brak danych.</td></tr>';
     return;
   }
 
@@ -371,6 +389,18 @@ async function run() {
         <td>${r.krypty_zwykle}</td>
         <td>${r.krypty_rzadkie}</td>
         <td>${r.krypty_epickie}</td>
+      </tr>
+    `;
+  }
+
+  tbody.innerHTML = html;
+
+  let htmlEpickie = '';
+  for (const r of rows) {
+    htmlEpickie += `
+      <tr>
+        <td class="player">${r.nick}</td>
+        <td class="${scoreClass(r.epickie, LIMIT_EPICKICH, topEpicSet.has(r.nick))}">${r.epickie}</td>
         <td>${r.ragnarok}</td>
         <td>${r.arkana}</td>
         <td>${r.omeny}</td>
@@ -378,8 +408,7 @@ async function run() {
       </tr>
     `;
   }
-
-  tbody.innerHTML = html;
+  tbodyEpickie.innerHTML = htmlEpickie;
 
   const iluPkt = rows.filter(r => r.punkty >= LIMIT_PUNKTOW).length;
   const iluEpic = rows.filter(r => r.epickie >= LIMIT_EPICKICH).length;
@@ -390,7 +419,9 @@ async function run() {
 
 run().catch(err => {
   document.getElementById('tbody').innerHTML =
-    '<tr><td colspan="10" class="empty">Błąd wczytywania danych: ' + err + '</td></tr>';
+    '<tr><td colspan="6" class="empty">Błąd wczytywania danych: ' + err + '</td></tr>';
+  document.getElementById('tbody-epickie').innerHTML =
+    '<tr><td colspan="6" class="empty">Błąd wczytywania danych: ' + err + '</td></tr>';
 });
 </script>
 

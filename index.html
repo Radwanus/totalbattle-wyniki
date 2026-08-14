@@ -1,38 +1,382 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pl">
 <head>
-  <meta charset="UTF-8">
-  <title>Wyniki otwierania paczek Total Battle</title>
-  <style>
-    body { font-family: Arial, sans-serif; background: #fff; }
-    .container { margin: 32px; }
-    .gdrive-link {
-      font-size: 1.1em;
-      background: #e8f3ff;
-      padding: 10px;
-      margin-bottom: 20px;
-      display: inline-block;
-      border-radius: 8px;
-      border: 1px solid #90c3fa;
-      text-decoration: none;
-      color: #0355a6;
-      font-weight: bold;
-    }
-    table { border-collapse: collapse; width: 100%; margin-top: 16px; }
-    th, td { border: 1px solid #ddd; padding: 6px 10px; text-align: center; }
-    th { background: #f1f1f1; }
-    tr:nth-child(even) { background: #fafcff; }
-    h1 { margin-bottom: 8px; }
-  </style>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Total Battle – Wyniki</title>
+<style>
+:root {
+  --bg: #121212;
+  --panel: #1a1a1a;
+  --panel2: #222;
+  --line: #6a6a6a;
+  --head: #b5291f;
+  --head2: #8f2119;
+  --text: #f2f2f2;
+  --muted: #a9a9a9;
+  --red: #ff5a45;
+  --blue: #4aa3ff;
+  --green: #55e052;
+  --gold: #ffd700;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: #181818;
+  border-bottom: 1px solid #2d2d2d;
+  box-shadow: 0 2px 10px rgba(0,0,0,.35);
+}
+
+.topbar-inner {
+  max-width: 1500px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 0;
+  min-height: 54px;
+  padding: 0 18px;
+}
+
+.brand {
+  font-weight: 700;
+  padding: 17px 18px;
+  border-right: 1px solid #444;
+}
+
+.nav-item {
+  padding: 17px 18px;
+  border-right: 1px solid #444;
+  color: #eee;
+  text-decoration: none;
+}
+
+.nav-item.active {
+  background: #242424;
+  border-bottom: 2px solid #e53a2e;
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 28px 18px 50px;
+}
+
+.meta {
+  text-align: center;
+  color: #ddd;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.title {
+  font-size: 28px;
+  margin: 0;
+}
+
+.limits {
+  display: flex;
+  gap: 22px;
+  flex-wrap: wrap;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.limit-points { color: var(--green); }
+.limit-epic { color: #75d6ff; }
+
+.legend {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin: 12px 0 22px;
+  font-size: 13px;
+  color: #ddd;
+}
+
+.legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.dot {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.table-wrap {
+  overflow: auto;
+  max-height: calc(100vh - 250px);
+  border: 1px solid #444;
+  background: #1b1b1b;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 1050px;
+}
+
+th, td {
+  border: 1px solid #777;
+  padding: 8px 9px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+thead th {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: var(--head);
+  color: #111;
+  font-weight: 700;
+}
+
+thead tr:nth-child(2) th {
+  background: var(--head2);
+  color: #111;
+  top: 35px;
+}
+
+th.player, td.player {
+  position: sticky;
+  left: 0;
+  z-index: 8;
+  text-align: left;
+}
+
+th.player {
+  background: var(--head);
+  z-index: 12;
+}
+
+td.player {
+  background: #464646;
+  font-weight: 600;
+}
+
+tbody tr:nth-child(even) td:not(.player) {
+  background: #767676;
+}
+
+tbody tr:nth-child(odd) td:not(.player) {
+  background: #5c5c5c;
+}
+
+.score-red { color: var(--red); font-weight: 700; }
+.score-blue { color: var(--blue); font-weight: 700; }
+.score-green { color: var(--green); font-weight: 700; }
+.score-gold { color: var(--gold); font-weight: 800; text-shadow: 0 0 5px rgba(255,215,0,.35); }
+
+.empty {
+  color: var(--muted);
+}
+
+.summary {
+  margin-top: 14px;
+  color: #bbb;
+  font-size: 13px;
+}
+
+@media (max-width: 800px) {
+  .container { padding: 16px 8px 30px; }
+  .topbar-inner { padding: 0 6px; overflow-x: auto; }
+  .brand, .nav-item { padding: 14px 12px; }
+  .title { font-size: 22px; }
+}
+</style>
 </head>
 <body>
-  <div class="container">
-    <h1>Wyniki otwierania paczek Total Battle</h1>
-    <a class="gdrive-link" href="https://docs.google.com/spreadsheets/d/1aa8iv2H1kQwcKnjiSvsJk0JcN0Uz76Lz19xYaW3JkTI/edit?gid=2115373872" target="_blank">
-      Przejdź do arkusza Google Sheets
-    </a>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">⚔️ Total Battle</div>
+    <a class="nav-item active" href="#">Wyniki tygodniowe</a>
+    <a class="nav-item" href="#epickie">Paczki epickie</a>
+    <a class="nav-item" href="#ranking">Ranking</a>
+  </div>
+</div>
+
+<div class="container">
+  <div class="meta">📅 Ostatnia aktualizacja: 14.08.2026 21:11</div>
+
+  <div class="controls">
+    <h1 class="title">Weekly Norms / Wyniki tygodniowe</h1>
+    <div class="limits">
+      <div class="limit-points">Limit punktów ≥ 20000</div>
+      <div class="limit-epic">Limit paczek epickich ≥ 100</div>
+    </div>
+  </div>
+
+  <div class="legend">
+    <span><i class="dot" style="background:var(--gold)"></i> TOP 3 po osiągnięciu limitu</span>
+    <span><i class="dot" style="background:var(--green)"></i> osiągnięty limit</span>
+    <span><i class="dot" style="background:var(--blue)"></i> 50–99% limitu</span>
+    <span><i class="dot" style="background:var(--red)"></i> poniżej 50%</span>
+  </div>
+
+  <div class="table-wrap" id="ranking">
+    <table>
+      <thead>
+        <tr>
+          <th class="player" rowspan="2">Gracz</th>
+          <th colspan="2">Bieżący okres</th>
+          <th colspan="4" id="epickie">Paczki epickie – szczegóły</th>
+        </tr>
+        <tr>
+          <th>Paczki epickie</th>
+          <th>Punkty</th>
+          <th>Ragnarok</th>
+          <th>Arkana</th>
+          <th>Mroczne Omeny</th>
+          <th>Arachne</th>
+        </tr>
+      </thead>
+      <tbody id="tbody"></tbody>
     </table>
   </div>
+
+  <div class="summary" id="summary"></div>
+</div>
+
+<script>
+const LIMIT_PUNKTOW = 20000;
+const LIMIT_EPICKICH = 100;
+
+function norm(s) {
+  return (s ?? '').toString().trim().toLowerCase()
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+}
+
+function classify(type, source) {
+  const t = norm((type || '') + ' ' + (source || ''));
+
+  if (t.includes('arachne')) return 'arachne';
+  if (t.includes('skrzynia mrocznych omenow')) return 'omeny';
+  if (t.includes('skrzynia arkanow')) return 'arkana';
+  if (t.includes('heroiczny potwor') || t.includes('ragnarok')) return 'ragnarok';
+
+  return null;
+}
+
+function scoreClass(value, limit, isTop3) {
+  if (isTop3 && value >= limit) return 'score-gold';
+  if (value >= limit) return 'score-green';
+  if (value >= limit * 0.5) return 'score-blue';
+  return 'score-red';
+}
+
+async function run() {
+  const res = await fetch('dane_paczek.json?ts=' + Date.now());
+  const data = await res.json();
+
+  const tbody = document.getElementById('tbody');
+  const summary = document.getElementById('summary');
+
+  if (!Array.isArray(data) || data.length === 0) {
+    tbody.innerHTML = '<tr><td colspan="7" class="empty">Brak danych.</td></tr>';
+    return;
+  }
+
+  const players = new Map();
+
+  for (const row of data) {
+    const nick = (row['Nadawca'] || '').trim();
+    if (!nick) continue;
+
+    if (!players.has(nick)) {
+      players.set(nick, {
+        punkty: 0,
+        ragnarok: 0,
+        arkana: 0,
+        omeny: 0,
+        arachne: 0
+      });
+    }
+
+    const p = players.get(nick);
+    const pkt = parseInt((row['Punkty'] || '0').toString().replace(',', '.')) || 0;
+    p.punkty += pkt;
+
+    const cat = classify(row['Typ'], row['Źródło']);
+    if (cat) p[cat] += 1;
+  }
+
+  const rows = [...players.entries()].map(([nick, p]) => {
+    p.epickie = p.ragnarok + p.arkana + p.omeny + p.arachne;
+    return { nick, ...p };
+  });
+
+  rows.sort((a, b) => b.punkty - a.punkty || b.epickie - a.epickie || a.nick.localeCompare(b.nick, 'pl'));
+
+  const topPoints = rows
+    .filter(r => r.punkty >= LIMIT_PUNKTOW)
+    .sort((a,b) => b.punkty - a.punkty)
+    .slice(0,3)
+    .map(r => r.nick);
+
+  const topEpic = rows
+    .filter(r => r.epickie >= LIMIT_EPICKICH)
+    .sort((a,b) => b.epickie - a.epickie)
+    .slice(0,3)
+    .map(r => r.nick);
+
+  const topPointsSet = new Set(topPoints);
+  const topEpicSet = new Set(topEpic);
+
+  let html = '';
+
+  for (const r of rows) {
+    html += `
+      <tr>
+        <td class="player">${r.nick}</td>
+        <td class="${scoreClass(r.epickie, LIMIT_EPICKICH, topEpicSet.has(r.nick))}">${r.epickie}</td>
+        <td class="${scoreClass(r.punkty, LIMIT_PUNKTOW, topPointsSet.has(r.nick))}">${r.punkty}</td>
+        <td>${r.ragnarok}</td>
+        <td>${r.arkana}</td>
+        <td>${r.omeny}</td>
+        <td>${r.arachne}</td>
+      </tr>
+    `;
+  }
+
+  tbody.innerHTML = html;
+
+  const iluPkt = rows.filter(r => r.punkty >= LIMIT_PUNKTOW).length;
+  const iluEpic = rows.filter(r => r.epickie >= LIMIT_EPICKICH).length;
+
+  summary.textContent =
+    `Graczy: ${rows.length} | Limit punktów osiągnęło: ${iluPkt} | Limit paczek epickich osiągnęło: ${iluEpic}`;
+}
+
+run().catch(err => {
+  document.getElementById('tbody').innerHTML =
+    '<tr><td colspan="7" class="empty">Błąd wczytywania danych: ' + err + '</td></tr>';
+});
+</script>
+
 </body>
 </html>

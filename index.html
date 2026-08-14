@@ -209,6 +209,21 @@ tbody tr:nth-child(odd) td:not(.player) {
   display: block;
 }
 
+.edit-btn {
+  display: inline-block;
+  padding: 10px 16px;
+  background: #b5291f;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #d94a3e;
+  border-radius: 6px;
+  font-weight: 700;
+}
+
+.edit-btn:hover {
+  background: #d0362a;
+}
+
 @media (max-width: 800px) {
   .container { padding: 16px 8px 30px; }
   .topbar-inner { padding: 0 6px; overflow-x: auto; }
@@ -225,11 +240,12 @@ tbody tr:nth-child(odd) td:not(.player) {
     <a class="nav-item active" href="#" id="tab-wyniki" onclick="showTab('wyniki'); return false;">Wyniki tygodniowe</a>
     <a class="nav-item" href="#" id="tab-epickie" onclick="showTab('epickie'); return false;">Paczki epickie</a>
     <a class="nav-item" href="#" id="tab-szczegoly" onclick="showTab('szczegoly'); return false;">Szczegóły</a>
+    <a class="nav-item" href="#" id="tab-punktacja" onclick="showTab('punktacja'); return false;">Punktacja</a>
   </div>
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 14.08.2026 22:18</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 14.08.2026 22:28</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms / Wyniki tygodniowe</h1>
@@ -313,11 +329,35 @@ tbody tr:nth-child(odd) td:not(.player) {
       </table>
     </div>
   </section>
+
+  <section id="view-punktacja" class="tab-view">
+    <div class="controls" style="margin-top:0;">
+      <h2 class="title">Punktacja paczek</h2>
+      <div>
+        <a class="edit-btn"
+           href="https://docs.google.com/spreadsheets/d/1aa8iv2H1kQwcKnjiSvsJk0JcN0Uz76Lz19xYaW3JkTI/edit"
+           target="_blank"
+           rel="noopener noreferrer">✏️ Edytuj punktację — Zarządca</a>
+      </div>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th style="text-align:left;">Źródło / rodzaj paczki</th>
+            <th>Punkty</th>
+          </tr>
+        </thead>
+        <tbody id="tbody-punktacja"></tbody>
+      </table>
+    </div>
+  </section>
 </div>
 
 <script>
 const LIMIT_PUNKTOW = 20000;
 const LIMIT_EPICKICH = 100;
+const PUNKTACJA_PACZEK = {"Bank": 0, "Skrzynia Arkanów": 0, "Skrzynia Mrocznych Omenów": 0, "Arachne": 0, "Krypta 5 poziomu": 0, "Krypta 10 poziomu": 0, "Krypta 15 poziomu": 0, "Krypta 20 poziomu": 0, "Krypta 25 poziomu": 25, "Epicka krypta 15 poziomu": 0, "Epicka krypta 20 poziomu": 100, "Epicka krypta 25 poziomu": 160, "Epicka krypta 30 poziomu": 250, "Epicka krypta 35 poziomu": 400, "Rzadka krypta 10 poziomu": 0, "Rzadka krypta 15 poziomu": 0, "Rzadka krypta 20 poziomu": 60, "Rzadka krypta 25 poziomu": 130, "Rzadka krypta 30 poziomu": 180, "Heroiczny potwor 16 poziomu": 30, "Heroiczny potwor 17 poziomu": 30, "Heroiczny potwor 18 poziomu": 30, "Heroiczny potwor 19 poziomu": 30, "Heroiczny potwor 20 poziomu": 30, "Heroiczny potwor 21 poziomu": 75, "Heroiczny potwor 22 poziomu": 75, "Heroiczny potwor 23 poziomu": 75, "Heroiczny potwor 24 poziomu": 75, "Heroiczny potwor 25 poziomu": 75, "Heroiczny potwor 26 poziomu": 100, "Heroiczny potwor 27 poziomu": 100, "Heroiczny potwor 28 poziomu": 100, "Heroiczny potwor 29 poziomu": 100, "Heroiczny potwor 30 poziomu": 100, "Heroiczny potwor 31 poziomu": 100, "Heroiczny potwor 32 poziomu": 100, "Heroiczny potwor 33 poziomu": 100, "Heroiczny potwor 34 poziomu": 100, "Heroiczny potwor 35 poziomu": 100, "Heroiczny potwor 36 poziomu": 200, "Heroiczny potwor 37 poziomu": 200, "Heroiczny potwor 38 poziomu": 200, "Heroiczny potwor 39 poziomu": 200, "Heroiczny potwor 40 poziomu": 200, "Heroiczny potwor 41 poziomu": 200, "Heroiczny potwor 42 poziomu": 200, "Heroiczny potwor 43 poziomu": 200, "Heroiczny potwor 44 poziomu": 200, "Heroiczny potwor 45 poziomu": 200, "Heroiczny potwor 46 poziomu": 200, "Epicki oddział inferno": 1, "Skrzynia z Twierdzy Elfów 10 poziomu": 0, "Skrzynia z Twierdzy Elfów 15 poziomu": 0, "Skrzynia z Twierdzy Elfów 20 poziomu": 40, "Skrzynia z Twierdzy Elfów 25 poziomu": 80, "Skrzynia z Twierdzy Elfów 30 poziomu": 150, "Skrzynia z Twierdzy Przeklętych 20 poziomu": 20, "Skrzynia z Twierdzy Przeklętych 25 poziomu": 60, "Epicki oddział nieumarłych": 1, "Epicki oddział Roju Arachne": 1, "Twierdza Elfów 10 poziomu": 0, "Twierdza Elfów 15 poziomu": 0, "Twierdza Elfów 20 poziomu": 40, "Twierdza Elfów 25 poziomu": 80, "Twierdza Elfów 30 poziomu": 150, "Twierdza Przeklętych 20 poziomu": 20, "Twierdza Przeklętych 25 poziomu": 60};
 
 function norm(s) {
   return (s ?? '').toString().trim().toLowerCase()
@@ -354,18 +394,22 @@ function showTab(tab) {
   const wynikiView = document.getElementById('view-wyniki');
   const epickieView = document.getElementById('view-epickie');
   const szczegolyView = document.getElementById('view-szczegoly');
+  const punktacjaView = document.getElementById('view-punktacja');
 
   const wynikiTab = document.getElementById('tab-wyniki');
   const epickieTab = document.getElementById('tab-epickie');
   const szczegolyTab = document.getElementById('tab-szczegoly');
+  const punktacjaTab = document.getElementById('tab-punktacja');
 
   wynikiView.classList.remove('active-view');
   epickieView.classList.remove('active-view');
   szczegolyView.classList.remove('active-view');
+  punktacjaView.classList.remove('active-view');
 
   wynikiTab.classList.remove('active');
   epickieTab.classList.remove('active');
   szczegolyTab.classList.remove('active');
+  punktacjaTab.classList.remove('active');
 
   if (tab === 'epickie') {
     epickieView.classList.add('active-view');
@@ -373,6 +417,9 @@ function showTab(tab) {
   } else if (tab === 'szczegoly') {
     szczegolyView.classList.add('active-view');
     szczegolyTab.classList.add('active');
+  } else if (tab === 'punktacja') {
+    punktacjaView.classList.add('active-view');
+    punktacjaTab.classList.add('active');
   } else {
     wynikiView.classList.add('active-view');
     wynikiTab.classList.add('active');
@@ -386,7 +433,18 @@ async function run() {
   const tbody = document.getElementById('tbody');
   const tbodyEpickie = document.getElementById('tbody-epickie');
   const tbodySzczegoly = document.getElementById('tbody-szczegoly');
+  const tbodyPunktacja = document.getElementById('tbody-punktacja');
   const summary = document.getElementById('summary');
+
+  const punktacjaRows = Object.entries(PUNKTACJA_PACZEK)
+    .sort((a, b) => a[0].localeCompare(b[0], 'pl'));
+
+  tbodyPunktacja.innerHTML = punktacjaRows.map(([nazwa, pkt]) => `
+    <tr>
+      <td style="text-align:left">${nazwa}</td>
+      <td>${pkt}</td>
+    </tr>
+  `).join('');
 
   if (!Array.isArray(data) || data.length === 0) {
     tbody.innerHTML = '<tr><td colspan="6" class="empty">Brak danych.</td></tr>';

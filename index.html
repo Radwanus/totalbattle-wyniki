@@ -298,7 +298,7 @@ tbody tr:nth-child(odd) td:not(.player) {
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 14.08.2026 23:42</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 14.08.2026 23:55</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms / Wyniki tygodniowe</h1>
@@ -701,6 +701,13 @@ function renderEpicTable() {
   setSortArrow('epic', epicSort.key, epicSort.dir);
 }
 
+function displayNick(raw) {
+  const s = (raw ?? '').toString().trim();
+  const normalized = norm(s).replace(/[^a-z0-9]+/g, '');
+  if (normalized.includes('gangster')) return 'ヤGANGSTERヤ';
+  return s;
+}
+
 function norm(s) {
   return (s ?? '').toString().trim().toLowerCase()
     .normalize('NFD').replace(/[\u0300-\u036f]/g, '');
@@ -798,7 +805,7 @@ async function run() {
   const players = new Map();
 
   for (const row of data) {
-    const nick = (row['Nadawca'] || '').trim();
+    const nick = displayNick(row['Nadawca'] || '');
     if (!nick) continue;
 
     if (!players.has(nick)) {
@@ -846,7 +853,7 @@ async function run() {
   for (const row of detailsRows) {
     const dataTxt = row['Data'] ?? '';
     const typTxt = row['Typ'] ?? '';
-    const nickTxt = row['Nadawca'] ?? '';
+    const nickTxt = displayNick(row['Nadawca'] ?? '');
     const zrodloTxt = row['Źródło'] ?? '';
     const pktTxt = row['Punkty'] ?? '';
 

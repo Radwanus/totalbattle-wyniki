@@ -747,6 +747,133 @@ table td.player,
   }
 }
 
+
+/* ===== PROPORTIONS + SCROLLBAR FIX 9.8.4 =====
+   Czytelne szerokości i kontener kończący się przy ostatniej kolumnie.
+*/
+
+/* Kontenery nie rozciągają się sztucznie na cały ekran.
+   Jeśli historia urośnie ponad szerokość ekranu, max-width:100% uruchomi przewijanie. */
+#weekly-table-wrap,
+#epic-table-wrap,
+#archive-krypty-wrap,
+#archive-epiki-wrap {
+  width: fit-content !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+/* Dolne suwaki mają dokładnie taką samą logikę szerokości jak tabela. */
+#weekly-bottom-scroll,
+#epic-bottom-scroll,
+#archive-krypty-bottom-scroll,
+#archive-epiki-bottom-scroll {
+  width: fit-content !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+/* Tabela ma szerokość wynikającą z kolumn, a nie z całego ekranu. */
+#weekly-history-table,
+#epic-history-table,
+#archive-krypty-table,
+#archive-epiki-table {
+  table-layout: fixed !important;
+  width: max-content !important;
+  min-width: 0 !important;
+}
+
+/* Players: komfortowo dla nicków, ale bez przesady. */
+#weekly-history-table th.player,
+#weekly-history-table td.player,
+#epic-history-table th.player,
+#epic-history-table td.player,
+#archive-krypty-table th.player,
+#archive-krypty-table td.player,
+#archive-epiki-table th.player,
+#archive-epiki-table td.player {
+  min-width: 185px !important;
+  width: 185px !important;
+  max-width: 185px !important;
+  box-sizing: border-box !important;
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+/* Crypts / Citadels: Loot Boxes oraz Points */
+#weekly-history-table th:not(.player),
+#weekly-history-table td:not(.player),
+#archive-krypty-table th:not(.player),
+#archive-krypty-table td:not(.player) {
+  min-width: 108px !important;
+  width: 108px !important;
+  max-width: 108px !important;
+  box-sizing: border-box !important;
+  padding-left: 7px !important;
+  padding-right: 7px !important;
+}
+
+/* Epic Bosses */
+#epic-history-table th:not(.player),
+#epic-history-table td:not(.player),
+#archive-epiki-table th:not(.player),
+#archive-epiki-table td:not(.player) {
+  min-width: 122px !important;
+  width: 122px !important;
+  max-width: 122px !important;
+  box-sizing: border-box !important;
+  padding-left: 7px !important;
+  padding-right: 7px !important;
+}
+
+/* Nagłówki pozostają czytelne. */
+#weekly-history-table th:not(.player),
+#epic-history-table th:not(.player),
+#archive-krypty-table th:not(.player),
+#archive-epiki-table th:not(.player) {
+  white-space: normal !important;
+  overflow-wrap: normal !important;
+  word-break: normal !important;
+  line-height: 1.15 !important;
+}
+
+/* Na telefonie lekko ciaśniej, ale nadal czytelnie. */
+@media (max-width: 700px) {
+  #weekly-history-table th.player,
+  #weekly-history-table td.player,
+  #epic-history-table th.player,
+  #epic-history-table td.player,
+  #archive-krypty-table th.player,
+  #archive-krypty-table td.player,
+  #archive-epiki-table th.player,
+  #archive-epiki-table td.player {
+    min-width: 150px !important;
+    width: 150px !important;
+    max-width: 150px !important;
+  }
+
+  #weekly-history-table th:not(.player),
+  #weekly-history-table td:not(.player),
+  #archive-krypty-table th:not(.player),
+  #archive-krypty-table td:not(.player) {
+    min-width: 92px !important;
+    width: 92px !important;
+    max-width: 92px !important;
+  }
+
+  #epic-history-table th:not(.player),
+  #epic-history-table td:not(.player),
+  #archive-epiki-table th:not(.player),
+  #archive-epiki-table td:not(.player) {
+    min-width: 104px !important;
+    width: 104px !important;
+    max-width: 104px !important;
+  }
+}
+
 </style>
 </head>
 <body>
@@ -763,7 +890,7 @@ table td.player,
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 15.08.2026 13:11</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 15.08.2026 13:24</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms</h1>

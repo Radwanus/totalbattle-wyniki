@@ -194,6 +194,16 @@ th.sortable:hover {
   outline-offset: -2px;
 }
 
+.epic-detail-cell {
+  cursor: help;
+  position: relative;
+}
+
+.epic-detail-cell:hover {
+  outline: 2px solid rgba(255,255,255,.32);
+  outline-offset: -2px;
+}
+
 .package-tooltip {
   position: fixed;
   z-index: 1000;
@@ -332,6 +342,36 @@ tbody tr:nth-child(odd) td:not(.player) {
   display: block;
 }
 
+.archive-subnav {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 18px;
+  flex-wrap: wrap;
+}
+
+.archive-subnav button {
+  padding: 9px 14px;
+  border: 1px solid #555;
+  border-radius: 6px;
+  background: #242424;
+  color: #eee;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.archive-subnav button.active {
+  background: #b5291f;
+  border-color: #d94a3e;
+}
+
+.archive-subview {
+  display: none;
+}
+
+.archive-subview.active {
+  display: block;
+}
+
 .edit-btn {
   display: inline-block;
   padding: 10px 16px;
@@ -401,11 +441,12 @@ tbody tr:nth-child(odd) td:not(.player) {
     <a class="nav-item" href="#" id="tab-epickie" onclick="showTab('epickie'); return false;">Paczki epickie</a>
     <a class="nav-item" href="#" id="tab-szczegoly" onclick="showTab('szczegoly'); return false;">Szczegóły</a>
     <a class="nav-item" href="#" id="tab-punktacja" onclick="showTab('punktacja'); return false;">Punktacja</a>
+    <a class="nav-item" href="#" id="tab-archiwum" onclick="showTab('archiwum'); return false;">Archiwum</a>
   </div>
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 15.08.2026 10:00</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 15.08.2026 11:01</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms / Wyniki tygodniowe</h1>
@@ -507,6 +548,41 @@ tbody tr:nth-child(odd) td:not(.player) {
     <div class="summary">
       Edycja jest dostępna wyłącznie po zalogowaniu kontem Google,
       które ma prawo edycji tego arkusza.
+    </div>
+  </section>
+
+  <section id="view-archiwum" class="tab-view">
+    <div class="controls" style="margin-top:0;">
+      <h2 class="title">Archiwum</h2>
+    </div>
+
+    <div class="archive-subnav">
+      <button id="archive-tab-krypty" class="active" type="button" onclick="showArchiveSubtab('krypty')">Krypty</button>
+      <button id="archive-tab-epiki" type="button" onclick="showArchiveSubtab('epiki')">Epiki</button>
+    </div>
+
+    <div id="archive-view-krypty" class="archive-subview active">
+      <div class="table-wrap" id="archive-krypty-wrap">
+        <table id="archive-krypty-table">
+          <thead id="archive-krypty-head"></thead>
+          <tbody id="archive-krypty-body"></tbody>
+        </table>
+      </div>
+      <div class="bottom-scroll" id="archive-krypty-bottom-scroll">
+        <div class="bottom-scroll-inner" id="archive-krypty-bottom-scroll-inner"></div>
+      </div>
+    </div>
+
+    <div id="archive-view-epiki" class="archive-subview">
+      <div class="table-wrap" id="archive-epiki-wrap">
+        <table id="archive-epiki-table">
+          <thead id="archive-epiki-head"></thead>
+          <tbody id="archive-epiki-body"></tbody>
+        </table>
+      </div>
+      <div class="bottom-scroll" id="archive-epiki-bottom-scroll">
+        <div class="bottom-scroll-inner" id="archive-epiki-bottom-scroll-inner"></div>
+      </div>
     </div>
   </section>
 
@@ -862,6 +938,9 @@ function classify(type, source) {
   const t = norm((type || '') + ' ' + (source || ''));
 
   if (t.includes('arachne')) return 'arachne';
+  if (t.includes('miasto cieni')) return 'miasto_cieni';
+  if (t.includes('sadny dzien')) return 'sadny_dzien';
+  if (t.includes('yokai')) return 'yokai';
   if (t.includes('skrzynia mrocznych omenow')) return 'omeny';
   if (t.includes('skrzynia arkanow')) return 'arkana';
   if (t.includes('heroiczny potwor') || t.includes('ragnarok')) return 'ragnarok';
@@ -889,21 +968,25 @@ function showTab(tab) {
   const epickieView = document.getElementById('view-epickie');
   const szczegolyView = document.getElementById('view-szczegoly');
   const punktacjaView = document.getElementById('view-punktacja');
+  const archiwumView = document.getElementById('view-archiwum');
 
   const wynikiTab = document.getElementById('tab-wyniki');
   const epickieTab = document.getElementById('tab-epickie');
   const szczegolyTab = document.getElementById('tab-szczegoly');
   const punktacjaTab = document.getElementById('tab-punktacja');
+  const archiwumTab = document.getElementById('tab-archiwum');
 
   wynikiView.classList.remove('active-view');
   epickieView.classList.remove('active-view');
   szczegolyView.classList.remove('active-view');
   punktacjaView.classList.remove('active-view');
+  archiwumView.classList.remove('active-view');
 
   wynikiTab.classList.remove('active');
   epickieTab.classList.remove('active');
   szczegolyTab.classList.remove('active');
   punktacjaTab.classList.remove('active');
+  archiwumTab.classList.remove('active');
 
   if (tab === 'epickie') {
     epickieView.classList.add('active-view');
@@ -914,12 +997,161 @@ function showTab(tab) {
   } else if (tab === 'punktacja') {
     punktacjaView.classList.add('active-view');
     punktacjaTab.classList.add('active');
+  } else if (tab === 'archiwum') {
+    archiwumView.classList.add('active-view');
+    archiwumTab.classList.add('active');
+    renderArchiveTables();
+    setTimeout(refreshBottomScrollbars, 0);
   } else {
     wynikiView.classList.add('active-view');
     wynikiTab.classList.add('active');
   }
 }
 
+
+function showArchiveSubtab(name) {
+  const kryptyBtn = document.getElementById('archive-tab-krypty');
+  const epikiBtn = document.getElementById('archive-tab-epiki');
+  const kryptyView = document.getElementById('archive-view-krypty');
+  const epikiView = document.getElementById('archive-view-epiki');
+
+  kryptyBtn.classList.toggle('active', name === 'krypty');
+  epikiBtn.classList.toggle('active', name === 'epiki');
+  kryptyView.classList.toggle('active', name === 'krypty');
+  epikiView.classList.toggle('active', name === 'epiki');
+
+  setTimeout(refreshBottomScrollbars, 0);
+}
+
+function renderArchiveTables() {
+  renderArchiveCrypts();
+  renderArchiveEpics();
+}
+
+function renderArchiveCrypts() {
+  const rows = weeklyHistoryDataGlobal || [];
+  const historyOnly = rows.filter(x => x.okres !== CURRENT_PERIOD_LABEL);
+
+  const periods = [...new Set(historyOnly.map(x => x.okres).filter(Boolean))]
+    .sort((a, b) => parsePeriodStart(b) - parsePeriodStart(a));
+
+  const players = [...new Set(historyOnly.map(x => x.nick).filter(Boolean))]
+    .sort((a, b) => nickSortKey(a).localeCompare(
+      nickSortKey(b), 'pl', { sensitivity: 'base', numeric: true }
+    ));
+
+  const byKey = new Map();
+  for (const x of historyOnly) byKey.set(`${x.okres}|||${x.nick}`, x);
+
+  const head = document.getElementById('archive-krypty-head');
+  const body = document.getElementById('archive-krypty-body');
+
+  let h1 = '<tr><th class="player" rowspan="2">Gracz</th>';
+  for (const p of periods) h1 += `<th colspan="2">${p}</th>`;
+  h1 += '</tr>';
+
+  let h2 = '<tr>';
+  for (const _ of periods) {
+    h2 += '<th>Paczki</th><th>Punkty</th>';
+  }
+  h2 += '</tr>';
+
+  head.innerHTML = h1 + h2;
+
+  let html = '';
+  for (const nick of players) {
+    html += `<tr><td class="player">${nick}</td>`;
+
+    for (const p of periods) {
+      const x = byKey.get(`${p}|||${nick}`);
+      if (x) {
+        html += `
+          <td class="package-detail-cell"
+              data-player="${escapeHtmlAttr(x.nick)}"
+              data-period="${escapeHtmlAttr(x.okres)}"
+              data-zwykle="${x.krypty_zwykle || 0}"
+              data-rzadkie="${x.krypty_rzadkie || 0}"
+              data-epickie="${x.krypty_epickie || 0}"
+              data-twierdze="${x.twierdze || 0}"
+              data-total="${x.paczki || 0}"
+              title="Najedź, aby zobaczyć rodzaje krypt">${x.paczki}</td>
+          <td>${x.punkty}</td>
+        `;
+      } else {
+        html += '<td>—</td><td>—</td>';
+      }
+    }
+
+    html += '</tr>';
+  }
+
+  body.innerHTML = html || '<tr><td class="empty">Brak danych archiwalnych.</td></tr>';
+  bindPackageTooltips();
+}
+
+function renderArchiveEpics() {
+  const rows = epicHistoryDataGlobal || [];
+  const historyOnly = rows.filter(x => x.okres !== CURRENT_PERIOD_LABEL);
+
+  const periods = [...new Set(historyOnly.map(x => x.okres).filter(Boolean))]
+    .sort((a, b) => parsePeriodStart(b) - parsePeriodStart(a));
+
+  const players = [...new Set(historyOnly.map(x => x.nick).filter(Boolean))]
+    .sort((a, b) => nickSortKey(a).localeCompare(
+      nickSortKey(b), 'pl', { sensitivity: 'base', numeric: true }
+    ));
+
+  const byKey = new Map();
+  for (const x of historyOnly) byKey.set(`${x.okres}|||${x.nick}`, x);
+
+  const head = document.getElementById('archive-epiki-head');
+  const body = document.getElementById('archive-epiki-body');
+
+  let h1 = '<tr><th class="player" rowspan="2">Gracz</th>';
+  for (const p of periods) h1 += `<th colspan="2">${p}</th>`;
+  h1 += '</tr>';
+
+  let h2 = '<tr>';
+  for (const _ of periods) {
+    h2 += '<th>Paczki epickie</th><th>Epiki</th>';
+  }
+  h2 += '</tr>';
+
+  head.innerHTML = h1 + h2;
+
+  let html = '';
+  for (const nick of players) {
+    html += `<tr><td class="player">${nick}</td>`;
+
+    for (const p of periods) {
+      const x = byKey.get(`${p}|||${nick}`);
+      if (x) {
+        html += `
+          <td>${x.epickie}</td>
+          <td class="epic-detail-cell"
+              data-player="${escapeHtmlAttr(x.nick)}"
+              data-period="${escapeHtmlAttr(x.okres)}"
+              data-ragnarok="${x.ragnarok || 0}"
+              data-arkana="${x.arkana || 0}"
+              data-omeny="${x.omeny || 0}"
+              data-arachne="${x.arachne || 0}"
+              data-miasto="${x.miasto_cieni || 0}"
+              data-sadny="${x.sadny_dzien || 0}"
+              data-yokai="${x.yokai || 0}"
+              data-total="${x.epickie || 0}"
+              title="Najedź, aby zobaczyć rodzaje epików">${x.epickie}</td>
+        `;
+      } else {
+        html += '<td>—</td><td>—</td>';
+      }
+    }
+
+    html += '</tr>';
+  }
+
+  body.innerHTML = html || '<tr><td class="empty">Brak danych archiwalnych.</td></tr>';
+  bindEpicTooltips();
+}
 
 function syncBottomScrollbar(wrapId, bottomId, innerId, tableId) {
   const wrap = document.getElementById(wrapId);
@@ -961,6 +1193,20 @@ function refreshBottomScrollbars() {
     'epic-bottom-scroll',
     'epic-bottom-scroll-inner',
     'epic-history-table'
+  );
+
+  syncBottomScrollbar(
+    'archive-krypty-wrap',
+    'archive-krypty-bottom-scroll',
+    'archive-krypty-bottom-scroll-inner',
+    'archive-krypty-table'
+  );
+
+  syncBottomScrollbar(
+    'archive-epiki-wrap',
+    'archive-epiki-bottom-scroll',
+    'archive-epiki-bottom-scroll-inner',
+    'archive-epiki-table'
   );
 }
 
@@ -1280,7 +1526,10 @@ function buildEpicHistoryData(currentRows, historyRows) {
       ragnarok: Number(r.ragnarok || 0),
       arkana: Number(r.arkana || 0),
       omeny: Number(r.omeny || 0),
-      arachne: Number(r.arachne || 0)
+      arachne: Number(r.arachne || 0),
+      miasto_cieni: Number(r.miasto_cieni || 0),
+      sadny_dzien: Number(r.sadny_dzien || 0),
+      yokai: Number(r.yokai || 0)
     });
   }
 
@@ -1297,16 +1546,22 @@ function buildEpicHistoryData(currentRows, historyRows) {
     const arkana = num(h['Skrzynia Arkanów']);
     const omeny = num(h['Skrzynia Mrocznych Omenów']);
     const arachne = num(h['Arachne']);
+    const miasto_cieni = num(h['Miasto Cieni']);
+    const sadny_dzien = num(h['Sądny dzień']);
+    const yokai = num(h['Yokai']);
 
     all.push({
       okres: (h['Okres rozliczeniowy'] || '').trim(),
       nick,
       punkty,
-      epickie: ragnarok + arkana + omeny + arachne,
+      epickie: ragnarok + arkana + omeny + arachne + miasto_cieni + sadny_dzien + yokai,
       ragnarok,
       arkana,
       omeny,
-      arachne
+      arachne,
+      miasto_cieni,
+      sadny_dzien,
+      yokai
     });
   }
 
@@ -1398,7 +1653,7 @@ function renderEpicHistoryFromGlobal() {
   `;
 
   for (const p of periods) {
-    h1 += `<th colspan="5">${p}</th>`;
+    h1 += `<th colspan="2">${p}</th>`;
   }
   h1 += '</tr>';
 
@@ -1411,10 +1666,7 @@ function renderEpicHistoryFromGlobal() {
           onclick="setEpicHistorySort('period', '${escapeHtmlAttr(p)}', 'epickie')">
         Paczki epickie <span class="sort-arrow">${totalArrow}</span>
       </th>
-      <th>Ragnarok</th>
-      <th>Arkana</th>
-      <th>Mroczne Omeny</th>
-      <th>Arachne</th>
+      <th>Epiki</th>
     `;
   }
   h2 += '</tr>';
@@ -1435,13 +1687,21 @@ function renderEpicHistoryFromGlobal() {
 
         html += `
           <td class="${totalClass}">${x.epickie}</td>
-          <td>${x.ragnarok}</td>
-          <td>${x.arkana}</td>
-          <td>${x.omeny}</td>
-          <td>${x.arachne}</td>
+          <td class="epic-detail-cell"
+              data-player="${escapeHtmlAttr(x.nick)}"
+              data-period="${escapeHtmlAttr(x.okres)}"
+              data-ragnarok="${x.ragnarok || 0}"
+              data-arkana="${x.arkana || 0}"
+              data-omeny="${x.omeny || 0}"
+              data-arachne="${x.arachne || 0}"
+              data-miasto="${x.miasto_cieni || 0}"
+              data-sadny="${x.sadny_dzien || 0}"
+              data-yokai="${x.yokai || 0}"
+              data-total="${x.epickie || 0}"
+              title="Najedź, aby zobaczyć rodzaje epików">${x.epickie}</td>
         `;
       } else {
-        html += '<td>—</td><td>—</td><td>—</td><td>—</td><td>—</td>';
+        html += '<td>—</td><td>—</td>';
       }
     }
 
@@ -1449,6 +1709,7 @@ function renderEpicHistoryFromGlobal() {
   }
 
   body.innerHTML = html;
+  bindEpicTooltips();
   refreshBottomScrollbars();
 }
 
@@ -1511,6 +1772,80 @@ function showPackageTooltip(cell, clientX, clientY) {
 
   tooltip.style.left = Math.max(pad, x) + 'px';
   tooltip.style.top = Math.max(pad, y) + 'px';
+}
+
+function showEpicTooltip(cell, clientX, clientY) {
+  const tooltip = document.getElementById('package-tooltip');
+  if (!tooltip) return;
+
+  const player = cell.dataset.player || '';
+  const period = cell.dataset.period || '';
+
+  const ragnarok = Number(cell.dataset.ragnarok || 0);
+  const arkana = Number(cell.dataset.arkana || 0);
+  const omeny = Number(cell.dataset.omeny || 0);
+  const arachne = Number(cell.dataset.arachne || 0);
+  const miasto = Number(cell.dataset.miasto || 0);
+  const sadny = Number(cell.dataset.sadny || 0);
+  const yokai = Number(cell.dataset.yokai || 0);
+  const total = Number(cell.dataset.total || 0);
+
+  tooltip.innerHTML = `
+    <div class="package-tooltip-title">${escapeHtml(player)} — ${escapeHtml(period)}</div>
+    <table>
+      <tr><td>Ragnarok</td><td>${ragnarok}</td></tr>
+      <tr><td>Arkana</td><td>${arkana}</td></tr>
+      <tr><td>Mroczne Omeny</td><td>${omeny}</td></tr>
+      <tr><td>Arachne</td><td>${arachne}</td></tr>
+      <tr><td>Miasto Cieni</td><td>${miasto}</td></tr>
+      <tr><td>Sądny dzień</td><td>${sadny}</td></tr>
+      <tr><td>Yokai</td><td>${yokai}</td></tr>
+      <tr><td><strong>Razem</strong></td><td><strong>${total}</strong></td></tr>
+    </table>
+    <div class="package-tooltip-hint">Rozbicie epików dla tego tygodnia.</div>
+  `;
+
+  tooltip.classList.add('visible');
+  tooltip.setAttribute('aria-hidden', 'false');
+
+  const pad = 14;
+  const rect = tooltip.getBoundingClientRect();
+
+  let x = clientX + 14;
+  let y = clientY + 14;
+
+  if (x + rect.width + pad > window.innerWidth) x = clientX - rect.width - 14;
+  if (y + rect.height + pad > window.innerHeight) y = clientY - rect.height - 14;
+
+  tooltip.style.left = Math.max(pad, x) + 'px';
+  tooltip.style.top = Math.max(pad, y) + 'px';
+}
+
+function bindEpicTooltips() {
+  document.querySelectorAll('.epic-detail-cell').forEach(cell => {
+    cell.addEventListener('mouseenter', (e) => showEpicTooltip(cell, e.clientX, e.clientY));
+    cell.addEventListener('mousemove', (e) => {
+      const tooltip = document.getElementById('package-tooltip');
+      if (!tooltip || !tooltip.classList.contains('visible')) return;
+
+      const pad = 14;
+      const rect = tooltip.getBoundingClientRect();
+      let x = e.clientX + 14;
+      let y = e.clientY + 14;
+
+      if (x + rect.width + pad > window.innerWidth) x = e.clientX - rect.width - 14;
+      if (y + rect.height + pad > window.innerHeight) y = e.clientY - rect.height - 14;
+
+      tooltip.style.left = Math.max(pad, x) + 'px';
+      tooltip.style.top = Math.max(pad, y) + 'px';
+    });
+    cell.addEventListener('mouseleave', hidePackageTooltip);
+    cell.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const rect = cell.getBoundingClientRect();
+      showEpicTooltip(cell, rect.left + rect.width / 2, rect.top + rect.height / 2);
+    });
+  });
 }
 
 function hidePackageTooltip() {
@@ -1610,7 +1945,10 @@ async function run() {
         ragnarok: 0,
         arkana: 0,
         omeny: 0,
-        arachne: 0
+        arachne: 0,
+        miasto_cieni: 0,
+        sadny_dzien: 0,
+        yokai: 0
       });
     }
 
@@ -1624,7 +1962,9 @@ async function run() {
 
   const rows = [...players.entries()]
     .map(([nick, p]) => {
-      p.epickie = p.ragnarok + p.arkana + p.omeny + p.arachne;
+      p.epickie =
+        p.ragnarok + p.arkana + p.omeny + p.arachne +
+        p.miasto_cieni + p.sadny_dzien + p.yokai;
       return { nick, ...p };
     })
     // Nie pokazuj graczy, którzy mają 0 punktów.
@@ -1637,6 +1977,7 @@ async function run() {
 
   renderWeeklyHistory(rows, historyData);
   renderEpicHistory(rows, historyData);
+  renderArchiveTables();
 
   let htmlSzczegoly = '';
   const detailsRows = [...data].sort((a, b) => {

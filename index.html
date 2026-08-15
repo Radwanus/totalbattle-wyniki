@@ -444,7 +444,7 @@ tbody tr:nth-child(odd) td:not(.player) {
 
 <div class="topbar">
   <div class="topbar-inner">
-    <a class="brand" href="https://totalbattle.com/pl/" target="_blank" rel="noopener noreferrer" title="Open Total Battle">⚔️ Total Battle</a>
+    <a class="brand" href="#" onclick="openTotalBattleAutoLanguage(); return false;" title="Open Total Battle">⚔️ Total Battle</a>
     <a class="nav-item active" href="#" id="tab-wyniki" onclick="showTab('wyniki'); return false;">Crypts / Citadels</a>
     <a class="nav-item" href="#" id="tab-epickie" onclick="showTab('epickie'); return false;">Epic Bosses</a>
     <a class="nav-item" href="#" id="tab-szczegoly" onclick="showTab('szczegoly'); return false;">Details</a>
@@ -454,7 +454,7 @@ tbody tr:nth-child(odd) td:not(.player) {
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 15.08.2026 12:10</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 15.08.2026 12:19</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms</h1>
@@ -967,6 +967,62 @@ function scoreClass(value, limit, isTop3) {
   if (value >= limit) return 'score-green';
   if (value >= limit * 0.5) return 'score-blue';
   return 'score-red';
+}
+
+function openTotalBattleAutoLanguage() {
+  const langs = Array.isArray(navigator.languages) && navigator.languages.length
+    ? navigator.languages
+    : [navigator.language || 'en'];
+
+  const supported = {
+    'id': 'id',
+    'de': 'de',
+    'en': 'en',
+    'es': 'es',
+    'fr': 'fr',
+    'it': 'it',
+    'nl': 'nl',
+    'no': 'no',
+    'nb': 'no',
+    'nn': 'no',
+    'pl': 'pl',
+    'pt': 'pt',
+    'sv': 'sv',
+    'tr': 'tr',
+    'ru': 'ru',
+    'ar': 'ar',
+    'ja': 'ja',
+    'ko': 'ko',
+    'zh-cn': 'zh-cn',
+    'zh-sg': 'zh-cn',
+    'zh-hans': 'zh-cn',
+    'zh-tw': 'zh-tw',
+    'zh-hk': 'zh-tw',
+    'zh-hant': 'zh-tw'
+  };
+
+  let path = 'en';
+
+  for (const raw of langs) {
+    const lang = String(raw || '').toLowerCase();
+
+    if (supported[lang]) {
+      path = supported[lang];
+      break;
+    }
+
+    const base = lang.split('-')[0];
+    if (supported[base]) {
+      path = supported[base];
+      break;
+    }
+  }
+
+  window.open(
+    `https://totalbattle.com/${path}/`,
+    '_blank',
+    'noopener,noreferrer'
+  );
 }
 
 function showTab(tab) {

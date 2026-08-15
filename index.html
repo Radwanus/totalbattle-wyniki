@@ -454,7 +454,7 @@ tbody tr:nth-child(odd) td:not(.player) {
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 15.08.2026 12:19</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 15.08.2026 12:29</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms</h1>
@@ -1109,7 +1109,7 @@ function renderArchiveCrypts() {
   const body = document.getElementById('archive-krypty-body');
 
   let h1 = '<tr><th class="player" rowspan="2">Players</th>';
-  for (const p of periods) h1 += `<th colspan="2">${p}</th>`;
+  for (const p of periods) h1 += `<th>${p}</th>`;
   h1 += '</tr>';
 
   let h2 = '<tr>';
@@ -1140,7 +1140,7 @@ function renderArchiveCrypts() {
           <td>${x.punkty}</td>
         `;
       } else {
-        html += '<td>—</td><td>—</td>';
+        html += '<td>—</td>';
       }
     }
 
@@ -1728,7 +1728,6 @@ function renderEpicHistoryFromGlobal() {
           onclick="setEpicHistorySort('period', '${escapeHtmlAttr(p)}', 'epickie')">
         Epic Bosses <span class="sort-arrow">${totalArrow}</span>
       </th>
-      <th>Epiki</th>
     `;
   }
   h2 += '</tr>';
@@ -1748,8 +1747,7 @@ function renderEpicHistoryFromGlobal() {
         const totalClass = epicScoreClass(x.epickie, topSet.has(nick));
 
         html += `
-          <td class="${totalClass}">${x.epickie}</td>
-          <td class="epic-detail-cell"
+          <td class="${totalClass} epic-detail-cell"
               data-player="${escapeHtmlAttr(x.nick)}"
               data-period="${escapeHtmlAttr(x.okres)}"
               data-ragnarok="${x.ragnarok || 0}"

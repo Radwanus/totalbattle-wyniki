@@ -438,6 +438,67 @@ tbody tr:nth-child(odd) td:not(.player) {
   .brand, .nav-item { padding: 14px 12px; }
   .title { font-size: 22px; }
 }
+
+/* ===== COMPACT TABLES 9.8 ===== */
+table th,
+table td {
+  padding: 6px 8px !important;
+  min-width: 62px !important;
+  width: auto !important;
+  white-space: nowrap;
+}
+
+table th.player,
+table td.player,
+.player-col {
+  min-width: 125px !important;
+  width: 125px !important;
+  max-width: 160px !important;
+}
+
+#weekly-history-table th:not(.player),
+#weekly-history-table td:not(.player),
+#epic-history-table th:not(.player),
+#epic-history-table td:not(.player),
+#archive-krypty-table th:not(.player),
+#archive-krypty-table td:not(.player),
+#archive-epiki-table th:not(.player),
+#archive-epiki-table td:not(.player) {
+  min-width: 70px !important;
+  padding-left: 7px !important;
+  padding-right: 7px !important;
+}
+
+@media (max-width: 700px) {
+  table th,
+  table td {
+    padding: 5px 6px !important;
+    min-width: 56px !important;
+    font-size: 13px;
+  }
+
+  table th.player,
+  table td.player,
+  .player-col {
+    min-width: 105px !important;
+    width: 105px !important;
+    max-width: 130px !important;
+  }
+
+  #weekly-history-table th:not(.player),
+  #weekly-history-table td:not(.player),
+  #epic-history-table th:not(.player),
+  #epic-history-table td:not(.player),
+  #archive-krypty-table th:not(.player),
+  #archive-krypty-table td:not(.player),
+  #archive-epiki-table th:not(.player),
+  #archive-epiki-table td:not(.player) {
+    min-width: 60px !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+}
+
 </style>
 </head>
 <body>
@@ -454,7 +515,7 @@ tbody tr:nth-child(odd) td:not(.player) {
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 15.08.2026 12:29</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 15.08.2026 12:53</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms</h1>

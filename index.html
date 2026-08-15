@@ -446,7 +446,7 @@ tbody tr:nth-child(odd) td:not(.player) {
   <div class="topbar-inner">
     <div class="brand">⚔️ Total Battle</div>
     <a class="nav-item active" href="#" id="tab-wyniki" onclick="showTab('wyniki'); return false;">Crypts / Citadels</a>
-    <a class="nav-item" href="#" id="tab-epickie" onclick="showTab('epickie'); return false;">Paczki epickie</a>
+    <a class="nav-item" href="#" id="tab-epickie" onclick="showTab('epickie'); return false;">Epic Bosses</a>
     <a class="nav-item" href="#" id="tab-szczegoly" onclick="showTab('szczegoly'); return false;">Szczegóły</a>
     <a class="nav-item" href="#" id="tab-punktacja" onclick="showTab('punktacja'); return false;">Punktacja</a>
     <a class="nav-item" href="#" id="tab-archiwum" onclick="showTab('archiwum'); return false;">Archiwum</a>
@@ -454,7 +454,7 @@ tbody tr:nth-child(odd) td:not(.player) {
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 15.08.2026 11:17</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 15.08.2026 11:29</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms / Crypts / Citadels</h1>
@@ -483,7 +483,7 @@ tbody tr:nth-child(odd) td:not(.player) {
 
   <section id="view-epickie" class="tab-view">
     <div class="controls" style="margin-top:0;">
-      <h2 class="title">Paczki epickie</h2>
+      <h2 class="title">Epic Bosses</h2>
     </div>
 
     <div class="table-limit-center limit-epic">Limit paczek epickich ≥ 100</div>
@@ -509,9 +509,9 @@ tbody tr:nth-child(odd) td:not(.player) {
           <tr>
             <th>Data</th>
             <th>Typ paczki</th>
-            <th>Gracz</th>
+            <th>Players</th>
             <th>Źródło</th>
-            <th>Punkty</th>
+            <th>Points</th>
           </tr>
         </thead>
         <tbody id="tbody-szczegoly"></tbody>
@@ -542,7 +542,7 @@ tbody tr:nth-child(odd) td:not(.player) {
         <thead>
           <tr>
             <th style="text-align:left;">Źródło / rodzaj paczki</th>
-            <th>Punkty</th>
+            <th>Points</th>
           </tr>
         </thead>
         <tbody id="tbody-punktacja"></tbody>
@@ -1049,13 +1049,13 @@ function renderArchiveCrypts() {
   const head = document.getElementById('archive-krypty-head');
   const body = document.getElementById('archive-krypty-body');
 
-  let h1 = '<tr><th class="player" rowspan="2">Gracz</th>';
+  let h1 = '<tr><th class="player" rowspan="2">Players</th>';
   for (const p of periods) h1 += `<th colspan="2">${p}</th>`;
   h1 += '</tr>';
 
   let h2 = '<tr>';
   for (const _ of periods) {
-    h2 += '<th>Paczki</th><th>Punkty</th>';
+    h2 += '<th>Loot Boxes</th><th>Points</th>';
   }
   h2 += '</tr>';
 
@@ -1110,13 +1110,13 @@ function renderArchiveEpics() {
   const head = document.getElementById('archive-epiki-head');
   const body = document.getElementById('archive-epiki-body');
 
-  let h1 = '<tr><th class="player" rowspan="2">Gracz</th>';
+  let h1 = '<tr><th class="player" rowspan="2">Players</th>';
   for (const p of periods) h1 += `<th colspan="2">${p}</th>`;
   h1 += '</tr>';
 
   let h2 = '<tr>';
   for (const _ of periods) {
-    h2 += '<th>Paczki epickie</th><th>Epiki</th>';
+    h2 += '<th>Epic Bosses</th><th>Epiki</th>';
   }
   h2 += '</tr>';
 
@@ -1299,7 +1299,7 @@ function buildWeeklyHistoryData(currentRows, historyRows) {
     if (!nick) continue;
 
     const num = (v) => Number.parseInt((v ?? '0').toString().replace(',', '.')) || 0;
-    const punkty = num(h['Punkty']);
+    const punkty = num(h['Points']);
 
     if (punkty <= 0) continue;
 
@@ -1406,7 +1406,7 @@ function renderWeeklyHistoryFromGlobal() {
       <th class="player history-sortable"
           rowspan="2"
           onclick="setHistorySort('nick')">
-        Gracz <span class="sort-arrow">${nickArrow}</span>
+        Players <span class="sort-arrow">${nickArrow}</span>
       </th>
   `;
 
@@ -1423,11 +1423,11 @@ function renderWeeklyHistoryFromGlobal() {
     h2 += `
       <th class="history-sortable"
           onclick="setHistorySort('period', '${escapeHtmlAttr(p)}', 'paczki')">
-        Paczki <span class="sort-arrow">${packArrow}</span>
+        Loot Boxes <span class="sort-arrow">${packArrow}</span>
       </th>
       <th class="history-sortable"
           onclick="setHistorySort('period', '${escapeHtmlAttr(p)}', 'punkty')">
-        Punkty <span class="sort-arrow">${pointArrow}</span>
+        Points <span class="sort-arrow">${pointArrow}</span>
       </th>
     `;
   }
@@ -1542,7 +1542,7 @@ function buildEpicHistoryData(currentRows, historyRows) {
     if (!nick) continue;
 
     const num = (v) => Number.parseInt((v ?? '0').toString().replace(',', '.')) || 0;
-    const punkty = num(h['Punkty']);
+    const punkty = num(h['Points']);
     if (punkty <= 0) continue;
 
     const ragnarok = num(h['Ragnarok']);
@@ -1651,7 +1651,7 @@ function renderEpicHistoryFromGlobal() {
       <th class="player history-sortable"
           rowspan="2"
           onclick="setEpicHistorySort('nick')">
-        Gracz <span class="sort-arrow">${nickArrow}</span>
+        Players <span class="sort-arrow">${nickArrow}</span>
       </th>
   `;
 
@@ -1667,7 +1667,7 @@ function renderEpicHistoryFromGlobal() {
     h2 += `
       <th class="history-sortable"
           onclick="setEpicHistorySort('period', '${escapeHtmlAttr(p)}', 'epickie')">
-        Paczki epickie <span class="sort-arrow">${totalArrow}</span>
+        Epic Bosses <span class="sort-arrow">${totalArrow}</span>
       </th>
       <th>Epiki</th>
     `;
@@ -1956,7 +1956,7 @@ async function run() {
     }
 
     const p = players.get(nick);
-    const pkt = parseInt((row['Punkty'] || '0').toString().replace(',', '.')) || 0;
+    const pkt = parseInt((row['Points'] || '0').toString().replace(',', '.')) || 0;
     p.punkty += pkt;
 
     const cat = classify(row['Typ'], row['Źródło']);
@@ -1994,7 +1994,7 @@ async function run() {
     const typTxt = row['Typ'] ?? '';
     const nickTxt = displayNick(row['Nadawca'] ?? '');
     const zrodloTxt = row['Źródło'] ?? '';
-    const pktTxt = row['Punkty'] ?? '';
+    const pktTxt = row['Points'] ?? '';
 
     const pktNum = Number.parseInt((pktTxt || '0').toString().replace(',', '.')) || 0;
     if (pktNum <= 0) continue;
@@ -2016,7 +2016,7 @@ async function run() {
   const iluEpic = rows.filter(r => r.epickie >= LIMIT_EPICKICH).length;
 
   summary.textContent =
-    `Graczy: ${rows.length} | Limit punktów osiągnęło: ${iluPkt} | Limit paczek epickich osiągnęło: ${iluEpic}`;
+    `Playersy: ${rows.length} | Limit punktów osiągnęło: ${iluPkt} | Limit paczek epickich osiągnęło: ${iluEpic}`;
 }
 
 run().catch(err => {

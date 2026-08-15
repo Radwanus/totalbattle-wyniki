@@ -499,6 +499,74 @@ table td.player,
   }
 }
 
+
+/* ===== EXTRA COMPACT 9.8.1 =====
+   Około 50% węższe kluczowe kolumny.
+*/
+#weekly-history-table th.player,
+#weekly-history-table td.player,
+#epic-history-table th.player,
+#epic-history-table td.player,
+#archive-krypty-table th.player,
+#archive-krypty-table td.player,
+#archive-epiki-table th.player,
+#archive-epiki-table td.player {
+  min-width: 64px !important;
+  width: 64px !important;
+  max-width: 82px !important;
+  padding-left: 3px !important;
+  padding-right: 3px !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#weekly-history-table th,
+#weekly-history-table td {
+  min-width: 35px !important;
+  padding-left: 3px !important;
+  padding-right: 3px !important;
+}
+
+#epic-history-table th,
+#epic-history-table td {
+  min-width: 35px !important;
+  padding-left: 3px !important;
+  padding-right: 3px !important;
+}
+
+/* Nagłówki mogą zawijać tekst, dzięki czemu nie wymuszają szerokiej kolumny. */
+#weekly-history-table th,
+#epic-history-table th,
+#archive-krypty-table th,
+#archive-epiki-table th {
+  white-space: normal !important;
+  line-height: 1.05;
+}
+
+@media (max-width: 700px) {
+  #weekly-history-table th.player,
+  #weekly-history-table td.player,
+  #epic-history-table th.player,
+  #epic-history-table td.player,
+  #archive-krypty-table th.player,
+  #archive-krypty-table td.player,
+  #archive-epiki-table th.player,
+  #archive-epiki-table td.player {
+    min-width: 54px !important;
+    width: 54px !important;
+    max-width: 68px !important;
+  }
+
+  #weekly-history-table th,
+  #weekly-history-table td,
+  #epic-history-table th,
+  #epic-history-table td {
+    min-width: 30px !important;
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+  }
+}
+
 </style>
 </head>
 <body>
@@ -515,7 +583,7 @@ table td.player,
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 15.08.2026 12:53</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 15.08.2026 13:02</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms</h1>

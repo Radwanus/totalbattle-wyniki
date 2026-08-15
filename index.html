@@ -567,6 +567,84 @@ table td.player,
   }
 }
 
+
+/* ===== COLUMN WIDTH CORRECTION 9.8.2 ===== */
+
+/* Players — przywrócona szerokość z wersji 9.8 */
+#weekly-history-table th.player,
+#weekly-history-table td.player,
+#epic-history-table th.player,
+#epic-history-table td.player,
+#archive-krypty-table th.player,
+#archive-krypty-table td.player,
+#archive-epiki-table th.player,
+#archive-epiki-table td.player {
+  min-width: 125px !important;
+  width: 125px !important;
+  max-width: 160px !important;
+  padding-left: 7px !important;
+  padding-right: 7px !important;
+  overflow: visible !important;
+  text-overflow: clip !important;
+}
+
+/* Loot Boxes, Points i Epic Bosses — około 50% szerokości z wersji 9.8 */
+#weekly-history-table th:not(.player),
+#weekly-history-table td:not(.player),
+#epic-history-table th:not(.player),
+#epic-history-table td:not(.player),
+#archive-krypty-table th:not(.player),
+#archive-krypty-table td:not(.player),
+#archive-epiki-table th:not(.player),
+#archive-epiki-table td:not(.player) {
+  min-width: 35px !important;
+  width: 35px !important;
+  padding-left: 3px !important;
+  padding-right: 3px !important;
+}
+
+/* Długie nagłówki nie rozszerzają kolumn. */
+#weekly-history-table th:not(.player),
+#epic-history-table th:not(.player),
+#archive-krypty-table th:not(.player),
+#archive-epiki-table th:not(.player) {
+  white-space: normal !important;
+  overflow-wrap: anywhere;
+  line-height: 1.05;
+}
+
+@media (max-width: 700px) {
+  /* Players wraca do mobilnej szerokości z 9.8 */
+  #weekly-history-table th.player,
+  #weekly-history-table td.player,
+  #epic-history-table th.player,
+  #epic-history-table td.player,
+  #archive-krypty-table th.player,
+  #archive-krypty-table td.player,
+  #archive-epiki-table th.player,
+  #archive-epiki-table td.player {
+    min-width: 105px !important;
+    width: 105px !important;
+    max-width: 130px !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+
+  #weekly-history-table th:not(.player),
+  #weekly-history-table td:not(.player),
+  #epic-history-table th:not(.player),
+  #epic-history-table td:not(.player),
+  #archive-krypty-table th:not(.player),
+  #archive-krypty-table td:not(.player),
+  #archive-epiki-table th:not(.player),
+  #archive-epiki-table td:not(.player) {
+    min-width: 30px !important;
+    width: 30px !important;
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+  }
+}
+
 </style>
 </head>
 <body>
@@ -583,7 +661,7 @@ table td.player,
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 15.08.2026 13:02</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 15.08.2026 13:06</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms</h1>

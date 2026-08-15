@@ -405,7 +405,7 @@ tbody tr:nth-child(odd) td:not(.player) {
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 15.08.2026 00:52</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 15.08.2026 10:00</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms / Wyniki tygodniowe</h1>
@@ -1090,8 +1090,15 @@ function renderWeeklyHistoryFromGlobal() {
     byKey.set(`${x.okres}|||${x.nick}`, x);
   }
 
-  // Nick pojawia się tylko wtedy, gdy ma przynajmniej jeden wynik > 0.
-  let players = [...new Set(all.map(x => x.nick).filter(Boolean))];
+  // Wyświetlamy WYŁĄCZNIE graczy obecnych w bieżącym okresie.
+  // Byli członkowie klanu pozostają w historii, ale nie zajmują wiersza
+  // w aktualnym zestawieniu. Jeśli wrócą do klanu, ich historia pojawi się ponownie.
+  let players = [...new Set(
+    all
+      .filter(x => x.okres === CURRENT_PERIOD_LABEL)
+      .map(x => x.nick)
+      .filter(Boolean)
+  )];
 
   players.sort((a, b) => {
     let result = 0;
@@ -1322,7 +1329,14 @@ function renderEpicHistoryFromGlobal() {
     byKey.set(`${x.okres}|||${x.nick}`, x);
   }
 
-  let players = [...new Set(all.map(x => x.nick).filter(Boolean))];
+  // Także tutaj pokazujemy tylko graczy obecnych w bieżącym okresie.
+  // Historia byłych członków nadal jest zachowana w danych.
+  let players = [...new Set(
+    all
+      .filter(x => x.okres === CURRENT_PERIOD_LABEL)
+      .map(x => x.nick)
+      .filter(Boolean)
+  )];
 
   players.sort((a, b) => {
     let result = 0;

@@ -444,7 +444,7 @@ tbody tr:nth-child(odd) td:not(.player) {
 
 <div class="topbar">
   <div class="topbar-inner">
-    <div class="brand">⚔️ Total Battle</div>
+    <a class="brand" href="https://totalbattle.com/pl/" target="_blank" rel="noopener noreferrer" title="Open Total Battle">⚔️ Total Battle</a>
     <a class="nav-item active" href="#" id="tab-wyniki" onclick="showTab('wyniki'); return false;">Crypts / Citadels</a>
     <a class="nav-item" href="#" id="tab-epickie" onclick="showTab('epickie'); return false;">Epic Bosses</a>
     <a class="nav-item" href="#" id="tab-szczegoly" onclick="showTab('szczegoly'); return false;">Details</a>
@@ -454,7 +454,7 @@ tbody tr:nth-child(odd) td:not(.player) {
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 15.08.2026 11:59</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 15.08.2026 12:10</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms</h1>
@@ -2019,7 +2019,7 @@ async function run() {
   const iluEpic = rows.filter(r => r.epickie >= LIMIT_EPICKICH).length;
 
   summary.textContent =
-    `Playersy: ${rows.length} | Point limit osiągnęło: ${iluPkt} | Epic pack limit osiągnęło: ${iluEpic}`;
+    `Players: ${rows.length} | The point limit has been reached: ${iluPkt} | The limit for Epic packs has been reached: ${iluEpic}`;
 }
 
 run().catch(err => {

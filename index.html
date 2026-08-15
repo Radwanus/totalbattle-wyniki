@@ -104,6 +104,14 @@ body {
 .limit-points { color: var(--green); }
 .limit-epic { color: #75d6ff; }
 
+.table-limit-center {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 4px 0 14px;
+}
+
 .legend {
   display: flex;
   gap: 16px;
@@ -446,14 +454,10 @@ tbody tr:nth-child(odd) td:not(.player) {
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 15.08.2026 11:01</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 15.08.2026 11:09</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms / Wyniki tygodniowe</h1>
-    <div class="limits">
-      <div class="limit-points">Limit punktów ≥ 20000</div>
-      <div class="limit-epic">Limit paczek epickich ≥ 100</div>
-    </div>
   </div>
 
   <div class="legend">
@@ -464,6 +468,7 @@ tbody tr:nth-child(odd) td:not(.player) {
   </div>
 
   <section id="view-wyniki" class="tab-view active-view">
+    <div class="table-limit-center limit-points">Limit punktów ≥ 20000</div>
     <div class="table-wrap" id="weekly-table-wrap">
       <table id="weekly-history-table">
         <thead id="weekly-history-head"></thead>
@@ -479,11 +484,9 @@ tbody tr:nth-child(odd) td:not(.player) {
   <section id="view-epickie" class="tab-view">
     <div class="controls" style="margin-top:0;">
       <h2 class="title">Paczki epickie</h2>
-      <div class="limits">
-        <div class="limit-epic">Limit paczek epickich ≥ 100</div>
-      </div>
     </div>
 
+    <div class="table-limit-center limit-epic">Limit paczek epickich ≥ 100</div>
     <div class="table-wrap" id="epic-table-wrap">
       <table id="epic-history-table">
         <thead id="epic-history-head"></thead>

@@ -111390,5 +111390,69 @@
     "Nadawca": "Bantysto",
     "Źródło": "Epicki oddział nieumarłych",
     "Punkty": "0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 09.08 - 16.08",
+    "Data": "2026-08-16 15:15:21",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Piotrek 1",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "180"
+  },
+  {
+    "Okres rozliczeniowy": "2026 09.08 - 16.08",
+    "Data": "2026-08-16 15:15:26",
+    "Typ": "JE -",
+    "Nadawca": "#ERROR!",
+    "Źródło": "",
+    "Punkty": "0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 09.08 - 16.08",
+    "Data": "2026-08-16 15:15:30",
+    "Typ": "JE -",
+    "Nadawca": "#ERROR!",
+    "Źródło": "",
+    "Punkty": "0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 09.08 - 16.08",
+    "Data": "2026-08-16 15:15:35",
+    "Typ": "JE -",
+    "Nadawca": "#ERROR!",
+    "Źródło": "",
+    "Punkty": "0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 09.08 - 16.08",
+    "Data": "2026-08-16 15:15:40",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "WRX",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 09.08 - 16.08",
+    "Data": "2026-08-16 15:15:40",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "WRX",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 09.08 - 16.08",
+    "Data": "2026-08-16 15:15:45",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Serelka",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "400"
+  },
+  {
+    "Okres rozliczeniowy": "2026 09.08 - 16.08",
+    "Data": "2026-08-16 15:15:50",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Serelka",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "400"
   }
 ]

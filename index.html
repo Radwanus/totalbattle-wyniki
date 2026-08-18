@@ -890,7 +890,7 @@ table td.player,
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 18.08.2026 21:27</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 18.08.2026 22:41</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms</h1>
@@ -2477,8 +2477,8 @@ async function run() {
 
   let htmlSzczegoly = '';
   const detailsRows = [...data].sort((a, b) => {
-    const da = (a['Date'] || '').toString();
-    const db = (b['Date'] || '').toString();
+    const da = (a['Data'] || '').toString();
+    const db = (b['Data'] || '').toString();
     return db.localeCompare(da);
   });
 

@@ -890,7 +890,7 @@ table td.player,
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 21.08.2026 20:25</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 21.08.2026 20:30</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms</h1>
@@ -2073,7 +2073,12 @@ function renderEpicHistory(currentRows, historyRows) {
 function renderEpicHistoryFromGlobal() {
   const all = epicHistoryDateGlobal || [];
 
+  // V81: w zakładce Epic Bosses nie pokazujemy kolumn okresów,
+  // w których wszystkie wpisy Epic Bosses są równe 0.
   const periods = [...new Set(all.map(x => x.okres).filter(Boolean))]
+    .filter(period => all.some(
+      x => x.okres === period && Number(x.epickie || 0) > 0
+    ))
     .sort((a, b) => parsePeriodStart(b) - parsePeriodStart(a));
 
   const byKey = new Map();

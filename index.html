@@ -890,7 +890,7 @@ table td.player,
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 21.08.2026 18:58</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 21.08.2026 19:19</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms</h1>
@@ -1545,7 +1545,7 @@ function renderArchiveCrypts() {
   const body = document.getElementById('archive-krypty-body');
 
   let h1 = '<tr><th class="player" rowspan="2">Players</th>';
-  for (const p of periods) h1 += `<th>${p}</th>`;
+  for (const p of periods) h1 += `<th colspan="2">${p}</th>`;
   h1 += '</tr>';
 
   let h2 = '<tr>';
@@ -1790,11 +1790,11 @@ function buildWeeklyHistoryDate(currentRows, historyRows) {
 
   // Historia: również POMIJAMY wpisy z 0 punktów.
   for (const h of historyRows || []) {
-    const nick = displayNick(h['Nadawca'] || '');
+    const nick = displayNick(h['Sender'] ?? h['Nadawca'] ?? '');
     if (!nick) continue;
 
     const num = (v) => Number.parseInt((v ?? '0').toString().replace(',', '.')) || 0;
-    const punkty = num(h['Punkty']);
+    const punkty = num(h['Points'] ?? h['Punkty']);
 
     if (punkty <= 0) continue;
 
@@ -1804,7 +1804,7 @@ function buildWeeklyHistoryDate(currentRows, historyRows) {
     const twierdze = num(h['Twierdze']);
 
     all.push({
-      okres: (h['Okres rozliczeniowy'] || '').trim(),
+      okres: (h['Period'] ?? h['Okres rozliczeniowy'] ?? '').trim(),
       nick,
       punkty,
       krypty_zwykle: zwykle,
@@ -2033,11 +2033,11 @@ function buildEpicHistoryDate(currentRows, historyRows) {
 
   // Zakończone tygodnie
   for (const h of historyRows || []) {
-    const nick = displayNick(h['Nadawca'] || '');
+    const nick = displayNick(h['Sender'] ?? h['Nadawca'] ?? '');
     if (!nick) continue;
 
     const num = (v) => Number.parseInt((v ?? '0').toString().replace(',', '.')) || 0;
-    const punkty = num(h['Punkty']);
+    const punkty = num(h['Points'] ?? h['Punkty']);
     if (punkty <= 0) continue;
 
     const ragnarok = num(h['Ragnarok']);
@@ -2049,7 +2049,7 @@ function buildEpicHistoryDate(currentRows, historyRows) {
     const yokai = num(h['Yokai']);
 
     all.push({
-      okres: (h['Okres rozliczeniowy'] || '').trim(),
+      okres: (h['Period'] ?? h['Okres rozliczeniowy'] ?? '').trim(),
       nick,
       punkty,
       epickie: ragnarok + arkana + omeny + arachne + miasto_cieni + sadny_dzien + yokai,

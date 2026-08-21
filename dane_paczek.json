@@ -17534,5 +17534,21 @@
     "Nadawca": "Merodir",
     "Źródło": "",
     "Punkty": "0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 16.08 - 23.08",
+    "Data": "2026-08-21 18:44:24",
+    "Typ": "ItemId 2079",
+    "Nadawca": "Barkley",
+    "Źródło": "",
+    "Punkty": "0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 16.08 - 23.08",
+    "Data": "2026-08-21 18:44:31",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "Scorpion",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130"
   }
 ]

@@ -890,7 +890,7 @@ table td.player,
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 21.08.2026 19:53</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 21.08.2026 20:05</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms</h1>
@@ -1606,12 +1606,12 @@ function renderArchiveEpics() {
   const body = document.getElementById('archive-epiki-body');
 
   let h1 = '<tr><th class="player" rowspan="2">Players</th>';
-  for (const p of periods) h1 += `<th colspan="2">${p}</th>`;
+  for (const p of periods) h1 += `<th>${p}</th>`;
   h1 += '</tr>';
 
   let h2 = '<tr>';
   for (const _ of periods) {
-    h2 += '<th>Epic Bosses</th><th>Epiki</th>';
+    h2 += '<th>Epic Bosses</th>';
   }
   h2 += '</tr>';
 
@@ -1625,7 +1625,6 @@ function renderArchiveEpics() {
       const x = byKey.get(`${p}|||${nick}`);
       if (x) {
         html += `
-          <td>${x.epickie}</td>
           <td class="epic-detail-cell"
               data-player="${escapeHtmlAttr(x.nick)}"
               data-period="${escapeHtmlAttr(x.okres)}"
@@ -1640,7 +1639,7 @@ function renderArchiveEpics() {
               title="Najedź, aby zobaczyć rodzaje epików">${x.epickie}</td>
         `;
       } else {
-        html += '<td>—</td><td>—</td>';
+        html += '<td>—</td>';
       }
     }
 

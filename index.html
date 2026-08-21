@@ -890,7 +890,7 @@ table td.player,
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 21.08.2026 20:42</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 21.08.2026 20:52</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms</h1>
@@ -1545,7 +1545,7 @@ function renderArchiveCrypts() {
   const body = document.getElementById('archive-krypty-body');
 
   let h1 = '<tr><th class="player" rowspan="2">Players</th>';
-  for (const p of periods) h1 += `<th colspan="2">${p}</th>`;
+  for (const p of periods) h1 += `<th colspan="2">${displayPeriodLabel(p)}</th>`;
   h1 += '</tr>';
 
   let h2 = '<tr>';
@@ -1606,7 +1606,7 @@ function renderArchiveEpics() {
   const body = document.getElementById('archive-epiki-body');
 
   let h1 = '<tr><th class="player" rowspan="2">Players</th>';
-  for (const p of periods) h1 += `<th>${p}</th>`;
+  for (const p of periods) h1 += `<th>${displayPeriodLabel(p)}</th>`;
   h1 += '</tr>';
 
   let h2 = '<tr>';
@@ -1708,6 +1708,19 @@ function refreshBottomScrollbars() {
 }
 
 window.addEventListener('resize', refreshBottomScrollbars);
+
+function displayPeriodLabel(label) {
+  const raw = (label ?? '').toString().trim();
+
+  if (
+    raw === '2026 16.08 - 23.08' ||
+    raw === '2026 09.08 - 16.08'
+  ) {
+    return raw + ' TEST';
+  }
+
+  return raw;
+}
 
 function parsePeriodStart(label) {
   // format: "2026 09.08 - 16.08"
@@ -1905,7 +1918,7 @@ function renderWeeklyHistoryFromGlobal() {
   `;
 
   for (const p of periods) {
-    h1 += `<th colspan="2">${p}</th>`;
+    h1 += `<th colspan="2">${displayPeriodLabel(p)}</th>`;
   }
   h1 += '</tr>';
 
@@ -2155,7 +2168,7 @@ function renderEpicHistoryFromGlobal() {
   `;
 
   for (const p of periods) {
-    h1 += `<th>${p}</th>`;
+    h1 += `<th>${displayPeriodLabel(p)}</th>`;
   }
   h1 += '</tr>';
 

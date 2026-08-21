@@ -18046,5 +18046,45 @@
     "Nadawca": "CaGaTaYHaN",
     "Źródło": "",
     "Punkty": "0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 16.08 - 23.08",
+    "Data": "2026-08-21 18:58:27",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Mario",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90"
+  },
+  {
+    "Okres rozliczeniowy": "2026 16.08 - 23.08",
+    "Data": "2026-08-21 18:58:27",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Serelka",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130"
+  },
+  {
+    "Okres rozliczeniowy": "2026 16.08 - 23.08",
+    "Data": "2026-08-21 18:58:32",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Scorpion",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130"
+  },
+  {
+    "Okres rozliczeniowy": "2026 16.08 - 23.08",
+    "Data": "2026-08-21 18:58:38",
+    "Typ": "ItemId 2079",
+    "Nadawca": "Merodir",
+    "Źródło": "",
+    "Punkty": "0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 16.08 - 23.08",
+    "Data": "2026-08-21 18:58:43",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Naru",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130"
   }
 ]

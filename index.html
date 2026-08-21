@@ -890,7 +890,7 @@ table td.player,
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 21.08.2026 19:20</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 21.08.2026 19:53</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms</h1>
@@ -2151,7 +2151,7 @@ function renderEpicHistoryFromGlobal() {
   `;
 
   for (const p of periods) {
-    h1 += `<th colspan="2">${p}</th>`;
+    h1 += `<th>${p}</th>`;
   }
   h1 += '</tr>';
 
@@ -2197,7 +2197,7 @@ function renderEpicHistoryFromGlobal() {
               title="Najedź, aby zobaczyć rodzaje epików">${x.epickie}</td>
         `;
       } else {
-        html += '<td>—</td><td>—</td>';
+        html += '<td>—</td>';
       }
     }
 

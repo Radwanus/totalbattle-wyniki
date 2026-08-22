@@ -5118,5 +5118,53 @@
     "Nadawca": "Mager",
     "Źródło": "",
     "Punkty": "0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 16.08 - 23.08",
+    "Data": "2026-08-22 22:27:58",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Rili",
+    "Źródło": "",
+    "Punkty": "0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 16.08 - 23.08",
+    "Data": "2026-08-22 22:27:58",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "MnA",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90"
+  },
+  {
+    "Okres rozliczeniowy": "2026 16.08 - 23.08",
+    "Data": "2026-08-22 22:28:05",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Juana de arco",
+    "Źródło": "",
+    "Punkty": "0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 16.08 - 23.08",
+    "Data": "2026-08-22 22:28:05",
+    "Typ": "ItemId 702095",
+    "Nadawca": "Pumba",
+    "Źródło": "",
+    "Punkty": "0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 16.08 - 23.08",
+    "Data": "2026-08-22 22:28:05",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Puma I",
+    "Źródło": "",
+    "Punkty": "0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 16.08 - 23.08",
+    "Data": "2026-08-22 22:28:09",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Merodir",
+    "Źródło": "",
+    "Punkty": "0"
   }
 ]

@@ -886,11 +886,18 @@ table td.player,
     <a class="nav-item" href="#" id="tab-szczegoly" onclick="showTab('szczegoly'); return false;">Details</a>
     <a class="nav-item" href="#" id="tab-punktacja" onclick="showTab('punktacja'); return false;">Scoring</a>
     <a class="nav-item" href="#" id="tab-archiwum" onclick="showTab('archiwum'); return false;">Archives</a>
+    <a class="nav-item"
+       href="http://127.0.0.1:8765/lokalizacja.html"
+       id="tab-lokalizacja"
+       target="_blank"
+       rel="noopener noreferrer"
+       style="display:none;"
+       title="Private local panel">🔒 Lokalizacja</a>
   </div>
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 23.08.2026 13:44</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 23.08.2026 13:51</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms</h1>
@@ -1085,6 +1092,19 @@ function hideManagerEdit() {
   editBtn.removeAttribute('href');
 }
 
+function hidePrivateLocation() {
+  const el = document.getElementById('tab-lokalizacja');
+  if (!el) return;
+  el.style.display = 'none';
+}
+
+function showPrivateLocation() {
+  const el = document.getElementById('tab-lokalizacja');
+  if (!el) return;
+  el.href = "http://127.0.0.1:8765/lokalizacja.html";
+  el.style.display = 'inline-block';
+}
+
 function showManagerEdit() {
   const editBtn = document.getElementById('manager-edit-btn');
   if (!editBtn) return;
@@ -1101,6 +1121,7 @@ function initManagerAuth() {
     scope: GOOGLE_DRIVE_SCOPE,
     callback: async (response) => {
       hideManagerEdit();
+      hidePrivateLocation();
 
       if (!response || response.error) {
         const msg = response?.error_description || response?.error || 'Nie udało się zalogować.';
@@ -1187,9 +1208,11 @@ async function checkManagerPermission(accessToken) {
 
     if (canEdit) {
       showManagerEdit();
+      showPrivateLocation();
       setManagerStatus('Uprawnienia Zarządcy potwierdzone.', 'ok');
     } else {
       hideManagerEdit();
+      hidePrivateLocation();
       setManagerStatus('To konto nie ma uprawnień do edycji punktacji.', 'no');
     }
   } catch (err) {
@@ -1200,6 +1223,7 @@ async function checkManagerPermission(accessToken) {
 
 window.addEventListener('load', () => {
   hideManagerEdit();
+  hidePrivateLocation();
 
   let attempts = 0;
   const timer = setInterval(() => {
@@ -1373,7 +1397,7 @@ function displayNick(raw) {
 
 function norm(s) {
   return (s ?? '').toString().trim().toLowerCase()
-    .normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    .normalize('NFD').replace(/[\\u0300-\\u036f]/g, '');
 }
 
 function classify(type, source) {
@@ -1724,7 +1748,7 @@ function displayPeriodLabel(label) {
 
 function parsePeriodStart(label) {
   // format: "2026 09.08 - 16.08"
-  const m = (label || '').match(/(\d4)\s+(\d(1, 2))\.(\d(1, 2))/);
+  const m = (label || '').match(/(\\d4)\\s+(\\d(1, 2))\\.(\\d(1, 2))/);
   if (!m) return 0;
   const year = Number(m[1]);
   const day = Number(m[2]);
@@ -2448,15 +2472,15 @@ async function run() {
     const raw = `${row['Typ'] || ''} ${row['Źródło'] || ''}`
       .toString()
       .normalize('NFD')
-      .replace(/[̀-ͯ]/g, '')
+      .replace(/[\u0300-\u036f]/g, '')
       .toLowerCase()
       .replace(/\s+/g, ' ')
       .trim();
 
-    return /rankingowa\s+skrzynia/.test(raw)
-      || /skrzynia\s+rankingowa/.test(raw)
-      || /rankingowa\s+skrzynka/.test(raw)
-      || /skrzynka\s+rankingowa/.test(raw);
+    return /\brankingowa\s+skrzynia\b/.test(raw)
+      || /\bskrzynia\s+rankingowa\b/.test(raw)
+      || /\brankingowa\s+skrzynka\b/.test(raw)
+      || /\bskrzynka\s+rankingowa\b/.test(raw);
   }
 
   for (const row of data) {

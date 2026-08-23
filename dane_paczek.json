@@ -10846,5 +10846,29 @@
     "Nadawca": "Serelka",
     "Źródło": "Epicka krypta 35 poziomu",
     "Punkty": "130"
+  },
+  {
+    "Okres rozliczeniowy": "2026 16.08 - 23.08",
+    "Data": "2026-08-23 10:06:24",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Oregon",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130"
+  },
+  {
+    "Okres rozliczeniowy": "2026 16.08 - 23.08",
+    "Data": "2026-08-23 10:06:25",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Painfont",
+    "Źródło": "",
+    "Punkty": "0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 16.08 - 23.08",
+    "Data": "2026-08-23 10:06:33",
+    "Typ": "ItemId 702096",
+    "Nadawca": "LakiLu",
+    "Źródło": "",
+    "Punkty": "0"
   }
 ]

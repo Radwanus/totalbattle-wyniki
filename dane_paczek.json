@@ -9414,5 +9414,21 @@
     "Nadawca": "Megana",
     "Źródło": "",
     "Punkty": "0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 16.08 - 23.08",
+    "Data": "2026-08-23 09:35:33",
+    "Typ": "ItemId 702096",
+    "Nadawca": "EeLL",
+    "Źródło": "",
+    "Punkty": "0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 16.08 - 23.08",
+    "Data": "2026-08-23 09:35:38",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Oregon",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90"
   }
 ]

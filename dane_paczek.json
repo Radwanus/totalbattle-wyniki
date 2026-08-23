@@ -12414,5 +12414,53 @@
     "Nadawca": "Mager",
     "Źródło": "Epicki oddział Briareosa",
     "Punkty": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-23 23:08:25",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "OSA",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-23 23:08:30",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "OSA",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-23 23:08:31",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "OSA",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-23 23:08:36",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Morfii",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-23 23:08:37",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Serafino",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-23 23:08:38",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Anaris",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "1"
   }
 ]

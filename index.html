@@ -897,7 +897,7 @@ table td.player,
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 23.08.2026 13:51</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 23.08.2026 14:02</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms</h1>
@@ -1053,6 +1053,41 @@ const PUNKTACJA_EDIT_URL = "https://docs.google.com/spreadsheets/d/1aa8iv2H1kQwc
 let managerTokenClient = null;
 let managerAccessToken = null;
 
+const MANAGER_SESSION_KEY = 'tb_manager_verified';
+const ACTIVE_TAB_SESSION_KEY = 'tb_active_tab';
+
+function rememberManagerSession(isVerified) {
+  try {
+    if (isVerified) {
+      sessionStorage.setItem(MANAGER_SESSION_KEY, '1');
+    } else {
+      sessionStorage.removeItem(MANAGER_SESSION_KEY);
+    }
+  } catch (_) {}
+}
+
+function restoreManagerSession() {
+  try {
+    return sessionStorage.getItem(MANAGER_SESSION_KEY) === '1';
+  } catch (_) {
+    return false;
+  }
+}
+
+function rememberActiveTab(tab) {
+  try {
+    sessionStorage.setItem(ACTIVE_TAB_SESSION_KEY, tab || 'wyniki');
+  } catch (_) {}
+}
+
+function restoreActiveTab() {
+  try {
+    return sessionStorage.getItem(ACTIVE_TAB_SESSION_KEY) || 'wyniki';
+  } catch (_) {
+    return 'wyniki';
+  }
+}
+
 let weeklyRowsGlobal = [];
 let epicRowsGlobal = [];
 
@@ -1149,8 +1184,6 @@ function initManagerAuth() {
 }
 
 function managerLogin() {
-  hideManagerEdit();
-
   if (!initManagerAuth()) {
     setManagerStatus('Moduł logowania Google jeszcze się ładuje. Spróbuj ponownie za chwilę.');
     setTimeout(initManagerAuth, 500);
@@ -1183,7 +1216,9 @@ async function checkManagerPermission(accessToken) {
         details = err?.error?.message || '';
       } catch (_) {}
 
+      rememberManagerSession(false);
       hideManagerEdit();
+      hidePrivateLocation();
 
       if (res.status === 401) {
         setManagerStatus('Sesja Google wygasła. Zaloguj się ponownie.', 'no');
@@ -1207,23 +1242,40 @@ async function checkManagerPermission(accessToken) {
     const canEdit = Boolean(info?.capabilities?.canEdit);
 
     if (canEdit) {
+      rememberManagerSession(true);
       showManagerEdit();
       showPrivateLocation();
       setManagerStatus('Uprawnienia Zarządcy potwierdzone.', 'ok');
     } else {
+      rememberManagerSession(false);
       hideManagerEdit();
       hidePrivateLocation();
       setManagerStatus('To konto nie ma uprawnień do edycji punktacji.', 'no');
     }
   } catch (err) {
+    rememberManagerSession(false);
     hideManagerEdit();
+    hidePrivateLocation();
     setManagerStatus('Błąd sprawdzania uprawnień: ' + (err?.message || err), 'no');
   }
 }
 
 window.addEventListener('load', () => {
-  hideManagerEdit();
-  hidePrivateLocation();
+  const managerWasVerified = restoreManagerSession();
+
+  if (managerWasVerified) {
+    showManagerEdit();
+    showPrivateLocation();
+    setManagerStatus('Uprawnienia Zarządcy potwierdzone — sesja przywrócona.', 'ok');
+  } else {
+    hideManagerEdit();
+    hidePrivateLocation();
+  }
+
+  // Po odświeżeniu wróć do ostatnio oglądanej zakładki,
+  // zamiast zawsze otwierać Crypts / Citadels.
+  const savedTab = restoreActiveTab();
+  showTab(savedTab);
 
   let attempts = 0;
   const timer = setInterval(() => {
@@ -1486,6 +1538,8 @@ function openTotalBattleAutoLanguage() {
 }
 
 function showTab(tab) {
+  rememberActiveTab(tab);
+
   const wynikiView = document.getElementById('view-wyniki');
   const epickieView = document.getElementById('view-epickie');
   const szczegolyView = document.getElementById('view-szczegoly');

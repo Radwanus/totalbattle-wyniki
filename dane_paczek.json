@@ -13374,5 +13374,29 @@
     "Nadawca": "Max72",
     "Źródło": "Skarbiec Starożytnych 45 poziomu",
     "Punkty": "0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-23 23:30:55",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Melania",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-23 23:31:03",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Barkley",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-23 23:31:07",
+    "Typ": "Skrzynia Orków",
+    "Nadawca": "Painfont",
+    "Źródło": "Krypta 20 poziomu",
+    "Punkty": "0"
   }
 ]

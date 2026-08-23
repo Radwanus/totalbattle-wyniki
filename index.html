@@ -896,7 +896,7 @@ table td.player,
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 23.08.2026 21:45</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 23.08.2026 22:13</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms</h1>
@@ -1550,6 +1550,7 @@ function norm(s) {
 function classify(type, source) {
   const t = norm((type || '') + ' ' + (source || ''));
 
+  if (t.includes('briareos')) return 'briareos';
   if (t.includes('arachne')) return 'arachne';
   if (t.includes('miasto cieni')) return 'miasto_cieni';
   if (t.includes('sadny dzien')) return 'sadny_dzien';
@@ -1895,7 +1896,11 @@ function renderArchiveTables() {
 
 function renderArchiveCrypts() {
   const rows = weeklyHistoryDateGlobal || [];
-  const historyOnly = rows.filter(x => x.okres !== CURRENT_PERIOD_LABEL);
+  const historyOnly = rows.filter(
+    x => x.okres !== CURRENT_PERIOD_LABEL &&
+         x.okres !== '2026 16.08 - 23.08' &&
+         x.okres !== '2026 16.08 - 23.08 TEST'
+  );
 
   const periods = [...new Set(historyOnly.map(x => x.okres).filter(Boolean))]
     .sort((a, b) => parsePeriodStart(b) - parsePeriodStart(a));
@@ -1956,7 +1961,11 @@ function renderArchiveCrypts() {
 
 function renderArchiveEpics() {
   const rows = epicHistoryDateGlobal || [];
-  const historyOnly = rows.filter(x => x.okres !== CURRENT_PERIOD_LABEL);
+  const historyOnly = rows.filter(
+    x => x.okres !== CURRENT_PERIOD_LABEL &&
+         x.okres !== '2026 16.08 - 23.08' &&
+         x.okres !== '2026 16.08 - 23.08 TEST'
+  );
 
   const periods = [...new Set(historyOnly.map(x => x.okres).filter(Boolean))]
     .sort((a, b) => parsePeriodStart(b) - parsePeriodStart(a));
@@ -2002,6 +2011,7 @@ function renderArchiveEpics() {
               data-miasto="${x.miasto_cieni || 0}"
               data-sadny="${x.sadny_dzien || 0}"
               data-yokai="${x.yokai || 0}"
+              data-briareos="${x.briareos || 0}"
               data-total="${x.epickie || 0}"
               title="Najedź, aby zobaczyć rodzaje epików">${x.epickie}</td>
         `;
@@ -2077,16 +2087,8 @@ function refreshBottomScrollbars() {
 window.addEventListener('resize', refreshBottomScrollbars);
 
 function displayPeriodLabel(label) {
-  const raw = (label ?? '').toString().trim();
-
-  if (
-    raw === '2026 16.08 - 23.08' ||
-    raw === '2026 09.08 - 16.08'
-  ) {
-    return raw + ' TEST';
-  }
-
-  return raw;
+  // V105: żadnego automatycznego dopisywania "TEST".
+  return (label ?? '').toString().trim();
 }
 
 function parsePeriodStart(label) {
@@ -2205,8 +2207,10 @@ function renderWeeklyHistory(currentRows, historyRows) {
 function renderWeeklyHistoryFromGlobal() {
   const all = weeklyHistoryDateGlobal || [];
 
-  const periods = [...new Set(all.map(x => x.okres).filter(Boolean))]
-    .sort((a, b) => parsePeriodStart(b) - parsePeriodStart(a));
+  // V105: aktywna tabela pokazuje WYŁĄCZNIE bieżący okres.
+  const periods = all.some(x => x.okres === CURRENT_PERIOD_LABEL)
+    ? [CURRENT_PERIOD_LABEL]
+    : [];
 
   const byKey = new Map();
   for (const x of all) {
@@ -2406,7 +2410,8 @@ function buildEpicHistoryDate(currentRows, historyRows) {
       arachne: Number(r.arachne || 0),
       miasto_cieni: Number(r.miasto_cieni || 0),
       sadny_dzien: Number(r.sadny_dzien || 0),
-      yokai: Number(r.yokai || 0)
+      yokai: Number(r.yokai || 0),
+      briareos: Number(r.briareos || 0)
     });
   }
 
@@ -2426,19 +2431,21 @@ function buildEpicHistoryDate(currentRows, historyRows) {
     const miasto_cieni = num(h['Miasto Cieni']);
     const sadny_dzien = num(h['Sądny dzień']);
     const yokai = num(h['Yokai']);
+    const briareos = num(h['Briareos']);
 
     all.push({
       okres: (h['Period'] ?? h['Okres rozliczeniowy'] ?? '').trim(),
       nick,
       punkty,
-      epickie: ragnarok + arkana + omeny + arachne + miasto_cieni + sadny_dzien + yokai,
+      epickie: ragnarok + arkana + omeny + arachne + miasto_cieni + sadny_dzien + yokai + briareos,
       ragnarok,
       arkana,
       omeny,
       arachne,
       miasto_cieni,
       sadny_dzien,
-      yokai
+      yokai,
+      briareos
     });
   }
 
@@ -2453,13 +2460,11 @@ function renderEpicHistory(currentRows, historyRows) {
 function renderEpicHistoryFromGlobal() {
   const all = epicHistoryDateGlobal || [];
 
-  // V81: w zakładce Epic Bosses nie pokazujemy kolumn okresów,
-  // w których wszystkie wpisy Epic Bosses są równe 0.
-  const periods = [...new Set(all.map(x => x.okres).filter(Boolean))]
-    .filter(period => all.some(
-      x => x.okres === period && Number(x.epickie || 0) > 0
-    ))
-    .sort((a, b) => parsePeriodStart(b) - parsePeriodStart(a));
+  // V105: aktywna tabela Epic Bosses pokazuje WYŁĄCZNIE bieżący okres.
+  // Kolumna pozostaje widoczna także przy zerowych wynikach, jeśli okres istnieje.
+  const periods = all.some(x => x.okres === CURRENT_PERIOD_LABEL)
+    ? [CURRENT_PERIOD_LABEL]
+    : [];
 
   const byKey = new Map();
   for (const x of all) {
@@ -2577,6 +2582,7 @@ function renderEpicHistoryFromGlobal() {
               data-miasto="${x.miasto_cieni || 0}"
               data-sadny="${x.sadny_dzien || 0}"
               data-yokai="${x.yokai || 0}"
+              data-briareos="${x.briareos || 0}"
               data-total="${x.epickie || 0}"
               title="Najedź, aby zobaczyć rodzaje epików">${x.epickie}</td>
         `;
@@ -2668,6 +2674,7 @@ function showEpicTooltip(cell, clientX, clientY) {
   const miasto = Number(cell.dataset.miasto || 0);
   const sadny = Number(cell.dataset.sadny || 0);
   const yokai = Number(cell.dataset.yokai || 0);
+  const briareos = Number(cell.dataset.briareos || 0);
   const total = Number(cell.dataset.total || 0);
 
   tooltip.innerHTML = `
@@ -2680,6 +2687,7 @@ function showEpicTooltip(cell, clientX, clientY) {
       <tr><td>Miasto Cieni</td><td>${miasto}</td></tr>
       <tr><td>Sądny dzień</td><td>${sadny}</td></tr>
       <tr><td>Yokai</td><td>${yokai}</td></tr>
+      <tr><td>Briareos</td><td>${briareos}</td></tr>
       <tr><td><strong>Razem</strong></td><td><strong>${total}</strong></td></tr>
     </table>
     <div class="package-tooltip-hint">Rozbicie epików dla tego tygodnia.</div>
@@ -2844,7 +2852,8 @@ async function run() {
         arachne: 0,
         miasto_cieni: 0,
         sadny_dzien: 0,
-        yokai: 0
+        yokai: 0,
+        briareos: 0
       });
     }
 
@@ -2860,7 +2869,7 @@ async function run() {
     .map(([nick, p]) => {
       p.epickie =
         p.ragnarok + p.arkana + p.omeny + p.arachne +
-        p.miasto_cieni + p.sadny_dzien + p.yokai;
+        p.miasto_cieni + p.sadny_dzien + p.yokai + p.briareos;
       return { nick, ...p };
     })
     // Nie pokazuj graczy, którzy mają 0 punktów.

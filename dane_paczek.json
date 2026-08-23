@@ -12158,5 +12158,61 @@
     "Nadawca": "Arek",
     "Źródło": "Epicki oddział Briareosa",
     "Punkty": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-23 23:02:35",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "OSA",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-23 23:02:38",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Doctor Sleep",
+    "Źródło": "Krypta 5 poziomu",
+    "Punkty": "0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-23 23:02:41",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Zioło",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-23 23:02:42",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-23 23:02:43",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "OSA",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-23 23:02:46",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "OSA",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-23 23:02:49",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Barkley",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "1"
   }
 ]

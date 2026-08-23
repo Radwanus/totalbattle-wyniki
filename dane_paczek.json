@@ -12214,5 +12214,29 @@
     "Nadawca": "Barkley",
     "Źródło": "Epicki oddział Briareosa",
     "Punkty": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-23 23:03:00",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Rili",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-23 23:03:00",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Melania",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-23 23:03:03",
+    "Typ": "Skrzynia Orków",
+    "Nadawca": "Doctor Sleep",
+    "Źródło": "Krypta 5 poziomu",
+    "Punkty": "0"
   }
 ]

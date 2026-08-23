@@ -11622,5 +11622,37 @@
     "Nadawca": "OSA",
     "Źródło": "Epicka krypta 30 poziomu",
     "Punkty": "100"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-23 22:52:29",
+    "Typ": "Szafirowa Skrzynia",
+    "Nadawca": "Max72",
+    "Źródło": "Skarbiec Starożytnych 45 poziomu",
+    "Punkty": "0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-23 22:52:38",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "David",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-23 22:52:44",
+    "Typ": "Skrzynia Kobry",
+    "Nadawca": "Morfii",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-23 22:52:47",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "David",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130"
   }
 ]

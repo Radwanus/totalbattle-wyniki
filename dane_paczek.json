@@ -13222,5 +13222,45 @@
     "Nadawca": "Barkley",
     "Źródło": "Rzadka krypta 25 poziomu",
     "Punkty": "30"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-23 23:27:06",
+    "Typ": "Szafirowa Skrzynia",
+    "Nadawca": "Max72",
+    "Źródło": "Skarbiec Starożytnych 45 poziomu",
+    "Punkty": "0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-23 23:27:15",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "OSA",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-23 23:27:21",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Barkley",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-23 23:27:30",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "OSA",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-23 23:27:34",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "OSA",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100"
   }
 ]

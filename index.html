@@ -887,17 +887,16 @@ table td.player,
     <a class="nav-item" href="#" id="tab-punktacja" onclick="showTab('punktacja'); return false;">Scoring</a>
     <a class="nav-item" href="#" id="tab-archiwum" onclick="showTab('archiwum'); return false;">Archives</a>
     <a class="nav-item"
-       href="http://127.0.0.1:8765/lokalizacja.html"
+       href="#"
        id="tab-lokalizacja"
-       target="_blank"
-       rel="noopener noreferrer"
+       onclick="showTab('lokalizacja'); return false;"
        style="display:none;"
-       title="Private local panel">🔒 Lokalizacja</a>
+       title="Private manager view">🔒 Lokalizacja</a>
   </div>
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 23.08.2026 14:15</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 23.08.2026 16:12</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms</h1>
@@ -1000,6 +999,63 @@ table td.player,
     </div>
   </section>
 
+  <section id="view-lokalizacja" class="tab-view">
+    <div class="controls" style="margin-top:0;">
+      <h2 class="title">🔒 Lokalizacja</h2>
+      <div class="manager-tools">
+        <button type="button"
+                class="manager-login-btn"
+                onclick="loadLocationData(true)">↻ Odśwież dane</button>
+        <span id="location-status" class="manager-status"></span>
+      </div>
+    </div>
+
+    <div class="summary" style="margin-bottom:12px;">
+      Dane prywatne Zarządców. Nie są publikowane w plikach GitHub Pages.
+    </div>
+
+    <div class="controls">
+      <input id="location-search"
+             type="search"
+             placeholder="Szukaj gracza, kraju, kodu lub providera…"
+             oninput="renderLocationTable()"
+             style="min-width:280px; padding:9px 12px;">
+      <select id="location-status-filter"
+              onchange="renderLocationTable()"
+              style="padding:9px 12px;">
+        <option value="ALL">Wszyscy</option>
+        <option value="ACTIVE">Bieżący</option>
+        <option value="FORMER">Byli</option>
+      </select>
+      <select id="location-country-filter"
+              onchange="renderLocationTable()"
+              style="padding:9px 12px;">
+        <option value="ALL">Wszystkie kraje</option>
+      </select>
+    </div>
+
+    <div class="table-wrap">
+      <table id="location-table">
+        <thead>
+          <tr>
+            <th style="text-align:left;">Gracz</th>
+            <th>Status</th>
+            <th>Kod kraju</th>
+            <th>Kraj</th>
+            <th>Provider / konto</th>
+            <th>AccountID</th>
+            <th>FirstSeen</th>
+            <th>LastSeen</th>
+            <th>GUID</th>
+          </tr>
+        </thead>
+        <tbody id="location-body">
+          <tr><td colspan="9">Zaloguj się jako Zarządca, aby pobrać dane.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
   <section id="view-archiwum" class="tab-view">
     <div class="controls" style="margin-top:0;">
       <h2 class="title">Archives</h2>
@@ -1046,7 +1102,7 @@ const PUNKTACJA_PACZEK = {"Bank": 0, "Skrzynia Arkanów": 0, "Skrzynia Mrocznych
 const CURRENT_PERIOD_LABEL = "2026 16.08 - 23.08";
 
 const GOOGLE_CLIENT_ID = "575890140414-5geac03dcbv7vnmfcjdkg221gnpikab1.apps.googleusercontent.com";
-const GOOGLE_DRIVE_SCOPE = "https://www.googleapis.com/auth/drive.metadata.readonly";
+const GOOGLE_DRIVE_SCOPE = "https://www.googleapis.com/auth/drive.metadata.readonly https://www.googleapis.com/auth/spreadsheets.readonly";
 const SPREADSHEET_FILE_ID = "1aa8iv2H1kQwcKnjiSvsJk0JcN0Uz76Lz19xYaW3JkTI";
 const PUNKTACJA_EDIT_URL = "https://docs.google.com/spreadsheets/d/1aa8iv2H1kQwcKnjiSvsJk0JcN0Uz76Lz19xYaW3JkTI/edit#gid=720098777";
 
@@ -1054,7 +1110,38 @@ let managerTokenClient = null;
 let managerAccessToken = null;
 
 const MANAGER_SESSION_KEY = 'tb_manager_verified';
+const MANAGER_TOKEN_KEY = 'tb_manager_access_token';
+const MANAGER_TOKEN_EXPIRES_KEY = 'tb_manager_token_expires';
 const ACTIVE_TAB_SESSION_KEY = 'tb_active_tab';
+
+let locationRowsGlobal = [];
+
+function rememberManagerToken(token, expiresInSec=3600) {
+  try {
+    if (!token) {
+      sessionStorage.removeItem(MANAGER_TOKEN_KEY);
+      sessionStorage.removeItem(MANAGER_TOKEN_EXPIRES_KEY);
+      return;
+    }
+    const expiresAt = Date.now() + Math.max(60, Number(expiresInSec || 3600) - 60) * 1000;
+    sessionStorage.setItem(MANAGER_TOKEN_KEY, token);
+    sessionStorage.setItem(MANAGER_TOKEN_EXPIRES_KEY, String(expiresAt));
+  } catch (_) {}
+}
+
+function restoreManagerToken() {
+  try {
+    const token = sessionStorage.getItem(MANAGER_TOKEN_KEY);
+    const expiresAt = Number(sessionStorage.getItem(MANAGER_TOKEN_EXPIRES_KEY) || 0);
+    if (!token || !expiresAt || Date.now() >= expiresAt) {
+      rememberManagerToken(null);
+      return null;
+    }
+    return token;
+  } catch (_) {
+    return null;
+  }
+}
 
 function rememberManagerSession(isVerified) {
   try {
@@ -1136,7 +1223,6 @@ function hidePrivateLocation() {
 function showPrivateLocation() {
   const el = document.getElementById('tab-lokalizacja');
   if (!el) return;
-  el.href = "http://127.0.0.1:8765/lokalizacja.html";
   el.style.display = 'inline-block';
 }
 
@@ -1165,6 +1251,7 @@ function initManagerAuth() {
       }
 
       managerAccessToken = response.access_token || null;
+      rememberManagerToken(managerAccessToken, response.expires_in || 3600);
       if (!managerAccessToken) {
         setManagerStatus('Google nie zwrócił tokena dostępu.', 'no');
         return;
@@ -1217,6 +1304,8 @@ async function checkManagerPermission(accessToken) {
       } catch (_) {}
 
       rememberManagerSession(false);
+      rememberManagerToken(null);
+      managerAccessToken = null;
       hideManagerEdit();
       hidePrivateLocation();
 
@@ -1246,6 +1335,9 @@ async function checkManagerPermission(accessToken) {
       showManagerEdit();
       showPrivateLocation();
       setManagerStatus('Uprawnienia Zarządcy potwierdzone.', 'ok');
+      if (restoreActiveTab() === 'lokalizacja') {
+        loadLocationData(false);
+      }
     } else {
       rememberManagerSession(false);
       hideManagerEdit();
@@ -1254,6 +1346,8 @@ async function checkManagerPermission(accessToken) {
     }
   } catch (err) {
     rememberManagerSession(false);
+    rememberManagerToken(null);
+    managerAccessToken = null;
     hideManagerEdit();
     hidePrivateLocation();
     setManagerStatus('Błąd sprawdzania uprawnień: ' + (err?.message || err), 'no');
@@ -1261,6 +1355,7 @@ async function checkManagerPermission(accessToken) {
 }
 
 window.addEventListener('load', () => {
+  managerAccessToken = restoreManagerToken();
   const managerWasVerified = restoreManagerSession();
 
   if (managerWasVerified) {
@@ -1537,6 +1632,186 @@ function openTotalBattleAutoLanguage() {
   );
 }
 
+
+function setLocationStatus(text, kind='') {
+  const el = document.getElementById('location-status');
+  if (!el) return;
+  el.textContent = text || '';
+  el.classList.remove('ok', 'no');
+  if (kind) el.classList.add(kind);
+}
+
+function countryName(code) {
+  code = String(code || '').trim().toUpperCase();
+  if (!code) return 'Nieznany';
+  try {
+    const dn = new Intl.DisplayNames(['pl'], {type:'region'});
+    return dn.of(code) || code;
+  } catch (_) {
+    return code;
+  }
+}
+
+function escapeLocationHtml(value) {
+  return String(value ?? '').replace(/[&<>"']/g, c => ({
+    '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'
+  }[c]));
+}
+
+function rebuildLocationCountryFilter() {
+  const sel = document.getElementById('location-country-filter');
+  if (!sel) return;
+
+  const previous = sel.value || 'ALL';
+  const codes = [...new Set(
+    locationRowsGlobal.map(r => r.country_code).filter(Boolean)
+  )].sort();
+
+  sel.innerHTML = '<option value="ALL">Wszystkie kraje</option>';
+  for (const code of codes) {
+    const opt = document.createElement('option');
+    opt.value = code;
+    opt.textContent = `${code} — ${countryName(code)}`;
+    sel.appendChild(opt);
+  }
+
+  if ([...sel.options].some(o => o.value === previous)) {
+    sel.value = previous;
+  }
+}
+
+function renderLocationTable() {
+  const body = document.getElementById('location-body');
+  if (!body) return;
+
+  const q = (document.getElementById('location-search')?.value || '')
+    .trim().toLowerCase();
+  const status = document.getElementById('location-status-filter')?.value || 'ALL';
+  const country = document.getElementById('location-country-filter')?.value || 'ALL';
+
+  const rows = locationRowsGlobal.filter(r => {
+    if (status !== 'ALL' && r.status !== status) return false;
+    if (country !== 'ALL' && r.country_code !== country) return false;
+
+    const hay = [
+      r.nick, r.status, r.country_code, countryName(r.country_code),
+      r.provider, r.account_id, r.first_seen, r.last_seen, r.guid
+    ].join(' ').toLowerCase();
+
+    return !q || hay.includes(q);
+  });
+
+  if (!rows.length) {
+    body.innerHTML = '<tr><td colspan="9">Brak danych spełniających filtr.</td></tr>';
+    return;
+  }
+
+  body.innerHTML = rows.map(r => `
+    <tr>
+      <td style="text-align:left;"><b>${escapeLocationHtml(r.nick)}</b></td>
+      <td>${escapeLocationHtml(r.status)}</td>
+      <td>${escapeLocationHtml(r.country_code)}</td>
+      <td>${escapeLocationHtml(countryName(r.country_code))}</td>
+      <td>${escapeLocationHtml(r.provider)}</td>
+      <td>${escapeLocationHtml(r.account_id)}</td>
+      <td>${escapeLocationHtml(r.first_seen)}</td>
+      <td>${escapeLocationHtml(r.last_seen)}</td>
+      <td>${escapeLocationHtml(r.guid)}</td>
+    </tr>
+  `).join('');
+}
+
+async function loadLocationData(forceLogin=false) {
+  let token = managerAccessToken || restoreManagerToken();
+  managerAccessToken = token;
+
+  if (!restoreManagerSession()) {
+    setLocationStatus('Najpierw zaloguj się jako Zarządca w zakładce Scoring.', 'no');
+    return;
+  }
+
+  if (!token) {
+    setLocationStatus('Sesja Google wymaga odświeżenia. Kliknij „Zaloguj jako Zarządca” w Scoring.', 'no');
+    if (forceLogin) managerLogin();
+    return;
+  }
+
+  setLocationStatus('Pobieram prywatne dane z Google…');
+
+  try {
+    const range = encodeURIComponent('Lokalizacja!A1:H2000');
+    const url =
+      'https://sheets.googleapis.com/v4/spreadsheets/' +
+      encodeURIComponent(SPREADSHEET_FILE_ID) +
+      '/values/' + range;
+
+    const res = await fetch(url, {
+      headers: {
+        'Authorization': 'Bearer ' + token,
+        'Accept': 'application/json'
+      }
+    });
+
+    if (res.status === 401) {
+      rememberManagerToken(null);
+      managerAccessToken = null;
+      setLocationStatus('Sesja Google wygasła. Zaloguj się ponownie jako Zarządca.', 'no');
+      return;
+    }
+
+    if (res.status === 403) {
+      setLocationStatus('To konto nie ma dostępu do prywatnych danych Lokalizacja.', 'no');
+      return;
+    }
+
+    if (!res.ok) {
+      let details = '';
+      try {
+        const err = await res.json();
+        details = err?.error?.message || '';
+      } catch (_) {}
+      throw new Error('HTTP ' + res.status + (details ? ': ' + details : ''));
+    }
+
+    const payload = await res.json();
+    const values = Array.isArray(payload.values) ? payload.values : [];
+
+    if (values.length <= 1) {
+      locationRowsGlobal = [];
+      rebuildLocationCountryFilter();
+      renderLocationTable();
+      setLocationStatus(
+        'Zakładka Lokalizacja jest jeszcze pusta. Potrzebny jest poprawny odczyt rosteru przez Liczarkę.',
+        'no'
+      );
+      return;
+    }
+
+    locationRowsGlobal = values.slice(1).map(row => ({
+      nick: row[0] || '',
+      status: row[1] || '',
+      country_code: String(row[2] || '').toUpperCase(),
+      provider: row[3] || '',
+      account_id: row[4] || '',
+      first_seen: row[5] || '',
+      last_seen: row[6] || '',
+      guid: row[7] || ''
+    }));
+
+    rebuildLocationCountryFilter();
+    renderLocationTable();
+
+    const active = locationRowsGlobal.filter(r => r.status === 'ACTIVE').length;
+    const former = locationRowsGlobal.filter(r => r.status === 'FORMER').length;
+    setLocationStatus(
+      `Pobrano ${locationRowsGlobal.length} graczy — bieżący: ${active}, byli: ${former}.`,
+      'ok'
+    );
+  } catch (err) {
+    setLocationStatus('Błąd pobierania Lokalizacji: ' + (err?.message || err), 'no');
+  }
+}
+
 function showTab(tab) {
   rememberActiveTab(tab);
 
@@ -1545,24 +1820,28 @@ function showTab(tab) {
   const szczegolyView = document.getElementById('view-szczegoly');
   const punktacjaView = document.getElementById('view-punktacja');
   const archiwumView = document.getElementById('view-archiwum');
+  const lokalizacjaView = document.getElementById('view-lokalizacja');
 
   const wynikiTab = document.getElementById('tab-wyniki');
   const epickieTab = document.getElementById('tab-epickie');
   const szczegolyTab = document.getElementById('tab-szczegoly');
   const punktacjaTab = document.getElementById('tab-punktacja');
   const archiwumTab = document.getElementById('tab-archiwum');
+  const lokalizacjaTab = document.getElementById('tab-lokalizacja');
 
   wynikiView.classList.remove('active-view');
   epickieView.classList.remove('active-view');
   szczegolyView.classList.remove('active-view');
   punktacjaView.classList.remove('active-view');
   archiwumView.classList.remove('active-view');
+  lokalizacjaView.classList.remove('active-view');
 
   wynikiTab.classList.remove('active');
   epickieTab.classList.remove('active');
   szczegolyTab.classList.remove('active');
   punktacjaTab.classList.remove('active');
   archiwumTab.classList.remove('active');
+  lokalizacjaTab.classList.remove('active');
 
   if (tab === 'epickie') {
     epickieView.classList.add('active-view');
@@ -1578,6 +1857,16 @@ function showTab(tab) {
     archiwumTab.classList.add('active');
     renderArchiveTables();
     setTimeout(refreshBottomScrollbars, 0);
+  } else if (tab === 'lokalizacja') {
+    if (!restoreManagerSession()) {
+      punktacjaView.classList.add('active-view');
+      punktacjaTab.classList.add('active');
+      setManagerStatus('Najpierw zaloguj się jako Zarządca.', 'no');
+      return;
+    }
+    lokalizacjaView.classList.add('active-view');
+    lokalizacjaTab.classList.add('active');
+    loadLocationData(false);
   } else {
     wynikiView.classList.add('active-view');
     wynikiTab.classList.add('active');

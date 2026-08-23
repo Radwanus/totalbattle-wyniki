@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Total Battle — Koło Fortuny</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#090b0e;color:#eee;font-family:Segoe UI,Arial,sans-serif}
+.top{height:58px;display:flex;align-items:center;background:#0d0f12;border-bottom:1px solid #30343a}
+.brand{color:#9c42e9;font-weight:700;padding:0 24px}.nav{padding:19px 22px;border-left:1px solid #292e34}.nav.active{border-bottom:3px solid #ef3b27}
+.page{max-width:1500px;margin:auto;padding:28px}.section{display:grid;grid-template-columns:minmax(450px,1fr) 500px 330px;gap:24px;margin-bottom:48px}
+h2{margin:0 0 6px}.limit{color:#5af365;font-weight:700;margin-bottom:16px}
+.card{background:linear-gradient(#12161b,#0b0e12);border:1px solid #363c44;border-radius:6px;overflow:hidden}
+table{width:100%;border-collapse:collapse}th{background:#aa2b20;text-align:left;padding:11px}td{padding:10px;border-top:1px solid #343a41}td:last-child{background:#8f2119;font-weight:700}
+.top3{margin-top:14px;padding:12px;border:1px solid #363c44;border-radius:6px;background:#0b0f13}.top3 h3{margin:0 0 10px;text-align:center;color:#f0bd47}
+.trow{display:grid;grid-template-columns:36px 1fr 40px;padding:7px 0;border-bottom:1px solid #262c32}.trow:last-child{border:0}.ch{color:#ffc52f;font-weight:900}
+.wtitle{text-align:center;color:#f0bd47;font-size:23px;font-weight:900;margin-bottom:8px}.stage{position:relative;width:480px;height:540px;margin:auto}
+.pointer{position:absolute;left:50%;top:0;transform:translateX(-50%);z-index:20;border-left:18px solid transparent;border-right:18px solid transparent;border-top:54px solid #eab23e}
+.rim{position:absolute;left:50%;top:30px;transform:translateX(-50%);width:420px;height:420px;border-radius:50%;background:#1d160f;border:8px solid #b8832e;box-shadow:0 0 0 4px #111,0 0 0 7px #d6a24a,0 18px 38px #000b}
+.dw{position:absolute;inset:14px;border-radius:50%;overflow:hidden}.disc{width:100%;height:100%;border-radius:50%;transition:none;background:conic-gradient(#be1d22 0 30deg,#ef6d0f 30deg 60deg,#e9bd16 60deg 90deg,#168c27 90deg 120deg,#1898b9 120deg 150deg,#155399 150deg 180deg,#4c237f 180deg 210deg,#b42454 210deg 240deg,#995211 240deg 270deg,#2d4152 270deg 300deg,#189caf 300deg 330deg,#7132a2 330deg 360deg);position:relative}
+.disc:after{content:"";position:absolute;inset:0;border-radius:50%;background:repeating-conic-gradient(transparent 0 29.2deg,#111 29.2deg 30deg)}
+.hub{position:absolute;left:50%;top:240px;transform:translate(-50%,-50%);width:90px;height:90px;border-radius:50%;display:grid;place-items:center;background:radial-gradient(circle at 35% 30%,#ffe28b,#b3771c 45%,#482908 75%);border:5px solid #241507;box-shadow:0 0 0 3px #d49b31;z-index:12;font-size:40px}
+.base{position:absolute;left:50%;bottom:10px;transform:translateX(-50%);width:290px;height:62px;border-radius:50%;background:radial-gradient(ellipse,#453a2d 0 39%,#1d1711 42% 68%,#090807 70%);border:1px solid #715534}
+.play{position:absolute;left:50%;bottom:54px;transform:translateX(-50%);width:205px;height:62px;border-radius:50%/34%;z-index:15;display:flex;align-items:center;justify-content:center;color:#ffe761;font-weight:900;font-size:29px;background:linear-gradient(#ff7e68 0 14%,#bf2a20 15% 61%,#65110b 62%);box-shadow:0 0 25px #ff341fbb,inset 0 5px 5px #ffd2c088,inset 0 -8px 8px #300707,0 14px 0 #4a0c08;transition:.16s}
+.play.ready{cursor:pointer}.play.down{transform:translate(-50%,29px);color:transparent;filter:grayscale(1) brightness(.55);box-shadow:inset 0 5px 5px #aaa4,inset 0 -8px 8px #111,0 2px 0 #222}.play.disabled{color:#777;filter:grayscale(1) brightness(.62);box-shadow:0 12px 0 #222}
+
+.side{padding:14px}.side h3{text-align:center;margin:0 0 12px}.last{text-align:center;color:#f2c14b;font-size:22px;font-weight:900;padding-bottom:10px}.hist{display:grid;grid-template-columns:82px 44px 1fr 68px;gap:6px;padding:7px 0;border-bottom:1px solid #272d34;font-size:13px}
+input{width:100%;padding:11px;background:#080b0e;color:#fff;border:1px solid #424a53;border-radius:4px;text-transform:uppercase}button{width:100%;padding:10px;margin-top:9px;border:1px solid #555;border-radius:4px;background:linear-gradient(#393f46,#22272c);color:#fff;font-weight:800;cursor:pointer}
+.ok{display:none;margin-top:9px;padding:8px;border:1px solid #257b31;color:#62ff70;border-radius:4px}.counter{text-align:center;margin-top:11px;font-size:18px}.counter strong{color:#59f466;font-size:25px}.next{display:none;background:linear-gradient(#e7a920,#9b6107);color:#181006;border-color:#ffc54b}
+.tabpage{display:none}.tabpage.active-tab{display:block}.nav[data-tab]{cursor:pointer}
+@media(max-width:1200px){.section{grid-template-columns:1fr}.stage{max-width:100%}}
+</style>
+</head>
+<body>
+<div class="top">
+  <div class="brand">⚔️ Total Battle</div>
+  <div class="nav active" data-tab="crypt-tab">Crypts / Citadels</div>
+  <div class="nav" data-tab="epic-tab">Epic Bosses</div>
+  <div class="nav">Details</div>
+  <div class="nav">Scoring</div>
+  <div class="nav">Archives</div>
+</div>
+<div class="page">
+  <div id="crypt-tab" class="tabpage active-tab"><div id="crypt"></div></div>
+  <div id="epic-tab" class="tabpage"><div id="epic"></div></div>
+</div>
+<script>
+const sections=[
+{root:'crypt',title:'Crypts / Citadels',limit:'Point limit ≥ 20000',wheel:'WHEEL OF FORTUNE<br>CRYPTS',code:'CRYPTS-DEMO-TOP1',player:'MnA',spins:3,rows:[['①','MnA',37,3610],['②','RestInPeace',16,2080],['③','Juana de arco',9,900],['4','Szymuś',3,390],['5','Arfa',3,390]],top:[['🥇','MnA','3×'],['🥈','RestInPeace','2×'],['🥉','Juana de arco','1×']]},
+{root:'epic',title:'Epic Bosses',limit:'Epic pack limit ≥ 50000',wheel:'WHEEL OF FORTUNE<br>EPIC BOSSES',code:'EPIC-DEMO-TOP2',player:'ShadowViper',spins:2,rows:[['①','DragonSlayer',18,7240],['②','ShadowViper',12,5400],['③','BloodReaper',7,3150],['4','NightHunter',5,2250],['5','SoulCrusher',3,1350]],top:[['🥇','DragonSlayer','3×'],['🥈','ShadowViper','2×'],['🥉','BloodReaper','1×']]}
+];
+function make(s){
+const rows=s.rows.map(r=>`<tr><td>${r[0]}</td><td><b>${r[1]}</b></td><td>${r[2]}</td><td>${r[3]}</td></tr>`).join('');
+const top=s.top.map(r=>`<div class="trow"><span>${r[0]}</span><b>${r[1]}</b><span class="ch">${r[2]}</span></div>`).join('');
+document.getElementById(s.root).innerHTML=`<h2>${s.title}</h2><div class="limit">${s.limit}</div><div class="section">
+<div><div class="card"><table><thead><tr><th>#</th><th>Players</th><th>Loot Boxes</th><th>Points</th></tr></thead><tbody>${rows}</tbody></table></div><div class="top3"><h3>TOP 3 — Wheel chances</h3>${top}</div></div>
+<div><div class="wtitle">${s.wheel}</div><div class="stage"><div class="pointer"></div><div class="rim"><div class="dw"><div class="disc" id="${s.root}-disc"></div></div></div><div class="hub">⚔</div><div class="base"></div><div class="play disabled" id="${s.root}-play">PLAY</div></div></div>
+<div><div class="card side"><h3>LATEST RESULTS</h3><div class="last" id="${s.root}-last">—</div><div id="${s.root}-history"></div></div><div class="card side" style="margin-top:14px"><h3>ENTER YOUR CODE</h3><input id="${s.root}-code" value="${s.code}"><button id="${s.root}-activate">ACTIVATE</button><div class="ok" id="${s.root}-ok"></div><div class="counter">Spins remaining: <strong id="${s.root}-left">0</strong></div><button class="next" id="${s.root}-next">CONTINUE</button></div></div>
+</div>`;
+controller(s);
+}
+function controller(s){
+const d=id=>document.getElementById(s.root+'-'+id),disc=d('disc'),play=d('play'),left=d('left'),ok=d('ok'),next=d('next'),last=d('last'),hist=document.getElementById(s.root+'-history');let remaining=0,busy=false,active=false;
+d('activate').onclick=()=>{if(d('code').value.trim().toUpperCase()!=s.code){ok.style.display='block';ok.style.color='#ff6a5b';ok.textContent='✕ Invalid or expired code.';return}active=true;remaining=s.spins;left.textContent=remaining;ok.style.display='block';ok.style.color='#62ff70';ok.textContent='✓ Valid code. Player: '+s.player;d('activate').disabled=true;ready()};
+function ready(){play.className='play '+(active&&remaining>0&&!busy?'ready':'disabled')}
+let currentAngle=0;
+play.onclick=async()=>{if(!active||remaining<=0||busy)return;
+busy=true;
+play.className='play down';
+next.style.display='none';
+
+const seg=Math.floor(Math.random()*12)+1;
+
+// Stały obrót w jednym kierunku.
+// 8 pełnych obrotów + dokładne ustawienie wybranego segmentu pod wskaźnikiem.
+const segmentTarget=360-(seg-1)*30-15;
+const currentNormalized=((currentAngle%360)+360)%360;
+let deltaToTarget=(segmentTarget-currentNormalized+360)%360;
+
+// Ciągły model ruchu:
+// 1) stała prędkość,
+// 2) płynne hamowanie zaczynające się z dokładnie tej samej prędkości,
+// bez skoku prędkości pomiędzy fazami.
+
+const omegaDegPerSec = 720;   // stała prędkość: 2 obroty / s
+const constantTime = 2.8;     // czas ruchu jednostajnego
+const brakeTime = 2.6;        // czas naturalnego hamowania
+
+// Faza 1 — jednostajnie.
+const constantDelta = omegaDegPerSec * constantTime;
+currentAngle += constantDelta;
+
+disc.style.transition = `transform ${constantTime}s linear`;
+disc.style.transform = `rotate(${currentAngle}deg)`;
+await new Promise(r=>setTimeout(r, constantTime*1000));
+
+// Faza 2 — hamowanie z tej samej prędkości początkowej.
+// Przy liniowym spadku prędkości do zera droga hamowania to:
+// s = 0.5 * omega * t
+const naturalBrakeDelta = 0.5 * omegaDegPerSec * brakeTime;
+
+// Dostosowujemy końcówkę wyłącznie o pełne obroty + dokładny segment,
+// tak aby nie zmieniać zauważalnie prędkości startowej hamowania.
+const projectedEnd = currentAngle + naturalBrakeDelta;
+const projectedNorm = ((projectedEnd % 360) + 360) % 360;
+let correction = (segmentTarget - projectedNorm + 360) % 360;
+
+// Jeśli korekta byłaby zbyt duża, dokładamy pełny obrót.
+// Dzięki temu faza hamowania pozostaje długa i naturalna.
+let brakeDelta = naturalBrakeDelta + correction;
+while (brakeDelta < 900) brakeDelta += 360;
+
+// cubic-bezier(0.333, 0.667, 0.667, 1)
+// odpowiada ruchowi zbliżonemu do stałego opóźnienia:
+// na początku ma pełną prędkość, a na końcu prędkość schodzi do zera.
+currentAngle += brakeDelta;
+
+disc.style.transition =
+  `transform ${brakeTime}s cubic-bezier(0.333, 0.667, 0.667, 1)`;
+disc.style.transform = `rotate(${currentAngle}deg)`;
+
+await new Promise(r=>setTimeout(r, brakeTime*1000));
+
+remaining--;
+left.textContent=remaining;
+last.textContent=s.player+' — Segment '+seg;
+const now=new Date(),date=now.toLocaleDateString('en-GB'),time=now.toLocaleTimeString('en-GB',{hour:'2-digit',minute:'2-digit'});
+const row=document.createElement('div');
+row.className='hist';
+row.innerHTML=`<span>${date}</span><span>${time}</span><span>${s.player}</span><b>Segment ${seg}</b>`;
+hist.prepend(row);
+
+busy=false;
+if(remaining>0){
+play.className='play disabled';
+next.style.display='block';
+next.textContent='CONTINUE — remaining '+remaining
+}else ready()
+};
+next.onclick=()=>{next.style.display='none';ready()}
+}
+
+document.querySelectorAll('.nav[data-tab]').forEach(tab=>{
+  tab.addEventListener('click',()=>{
+    document.querySelectorAll('.nav[data-tab]').forEach(x=>x.classList.remove('active'));
+    tab.classList.add('active');
+    document.querySelectorAll('.tabpage').forEach(p=>p.classList.remove('active-tab'));
+    document.getElementById(tab.dataset.tab).classList.add('active-tab');
+  });
+});
+
+sections.forEach(make);
+</script>
+</body></html>

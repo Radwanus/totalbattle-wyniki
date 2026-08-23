@@ -13398,5 +13398,37 @@
     "Nadawca": "Painfont",
     "Źródło": "Krypta 20 poziomu",
     "Punkty": "0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-23 23:31:13",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Barkley",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-23 23:31:16",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "Barkley",
+    "Źródło": "Epicka krypta 25 poziomu",
+    "Punkty": "40"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-23 23:31:52",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Zioło",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-23 23:32:04",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Evlin",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "1"
   }
 ]

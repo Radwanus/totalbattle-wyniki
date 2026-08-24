@@ -39742,5 +39742,41 @@
     "Źródło": "Rzadka krypta 25 poziomu",
     "Punkty": "30",
     "Count": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 11:25:29",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Szymuś",
+    "Źródło": "Rzadka krypta 25 poziomu",
+    "Punkty": "30",
+    "Count": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 11:25:30",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Androzar",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 11:25:40",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Bohun",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "2",
+    "Count": "2"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 11:25:40",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Szymuś",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1"
   }
 ]

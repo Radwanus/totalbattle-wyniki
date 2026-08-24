@@ -23590,5 +23590,45 @@
     "Nadawca": "Kariel",
     "Źródło": "Epicki oddział Briareosa",
     "Punkty": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 06:43:41",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "David",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 06:43:41",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Kariel",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 06:43:41",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "David",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 06:43:43",
+    "Typ": "Skrzynia z Twierdzy Elfów",
+    "Nadawca": "RestInPeace",
+    "Źródło": "Twierdza 30 poziomu",
+    "Punkty": "80"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 06:43:54",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "David",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130"
   }
 ]

@@ -25446,5 +25446,37 @@
     "Nadawca": "Puma I",
     "Źródło": "Epicka krypta 30 poziomu",
     "Punkty": "100"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 08:05:14",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Nerdailas",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 08:05:27",
+    "Typ": "Skrzynia z Twierdzy Przeklętych",
+    "Nadawca": "Eyrodor",
+    "Źródło": "Twierdza 25 poziomu",
+    "Punkty": "10"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 08:05:35",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Stefan",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 08:05:42",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Puma I",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100"
   }
 ]

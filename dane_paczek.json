@@ -28750,5 +28750,29 @@
     "Nadawca": "Puma I",
     "Źródło": "Rzadka krypta 25 poziomu",
     "Punkty": "30"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 09:17:51",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "David",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 09:17:52",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Puma I",
+    "Źródło": "Rzadka krypta 25 poziomu",
+    "Punkty": "30"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 09:17:53",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130"
   }
 ]

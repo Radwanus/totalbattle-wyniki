@@ -30598,5 +30598,29 @@
     "Nadawca": "iRfan",
     "Źródło": "Epicki oddział Briareosa",
     "Punkty": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 10:03:58",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "OSA",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 10:04:00",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "remix",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 10:04:05",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "All Father",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130"
   }
 ]

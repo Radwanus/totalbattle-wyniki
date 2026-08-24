@@ -26246,5 +26246,37 @@
     "Nadawca": "ヤGANGSTERヤ",
     "Źródło": "Epicki oddział Briareosa",
     "Punkty": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 08:24:25",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "Zioło",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 08:24:26",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Puma I",
+    "Źródło": "Epicka krypta 25 poziomu",
+    "Punkty": "40"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 08:24:37",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Puma I",
+    "Źródło": "Epicka krypta 25 poziomu",
+    "Punkty": "40"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 08:24:42",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Zioło",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130"
   }
 ]

@@ -896,7 +896,7 @@ table td.player,
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 24.08.2026 10:14</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 24.08.2026 11:25</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms</h1>
@@ -2813,7 +2813,7 @@ async function run() {
   if (!Array.isArray(data) || data.length === 0) {
     tbody.innerHTML = '<tr><td class="empty">Brak danych.</td></tr>';
     tbodyEpickie.innerHTML = '<tr><td class="empty">Brak danych.</td></tr>';
-    tbodySzczegoly.innerHTML = '<tr><td colspan="5" class="empty">Brak danych.</td></tr>';
+    tbodySzczegoly.innerHTML = '<tr><td colspan="6" class="empty">Brak danych.</td></tr>';
     return;
   }
 
@@ -2859,10 +2859,14 @@ async function run() {
 
     const p = players.get(nick);
     const pkt = parseInt((row['Punkty'] || '0').toString().replace(',', '.')) || 0;
+    const countRaw = parseInt((row['Count'] || '1').toString().replace(',', '.')) || 1;
+    const physicalCount = Math.max(1, countRaw);
+
+    // Punkty w V106 są już sumą dla całego Count danego rekordu.
     p.punkty += pkt;
 
     const cat = classify(row['Typ'], row['Źródło']);
-    if (cat) p[cat] += 1;
+    if (cat) p[cat] += physicalCount;
   }
 
   const rows = [...players.entries()]

@@ -24670,5 +24670,21 @@
     "Nadawca": "Seda",
     "Źródło": "Epicki oddział Briareosa",
     "Punkty": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 07:41:25",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Zioło",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 07:41:39",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Zioło",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130"
   }
 ]

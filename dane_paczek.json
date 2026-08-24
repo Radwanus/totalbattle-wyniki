@@ -25646,5 +25646,29 @@
     "Nadawca": "Puma I",
     "Źródło": "Epicka krypta 30 poziomu",
     "Punkty": "100"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 08:11:31",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Zioło",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 08:11:35",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Zioło",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 08:11:45",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Arashiran",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "1"
   }
 ]

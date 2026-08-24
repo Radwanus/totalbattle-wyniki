@@ -27942,5 +27942,21 @@
     "Nadawca": "Stefan",
     "Źródło": "Epicki oddział Briareosa",
     "Punkty": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 09:03:36",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Jarek",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 09:03:38",
+    "Typ": "ItemId 5411",
+    "Nadawca": "LakiLu",
+    "Źródło": "",
+    "Punkty": "0"
   }
 ]

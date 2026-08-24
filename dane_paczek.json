@@ -30246,5 +30246,61 @@
     "Nadawca": "Puma I",
     "Źródło": "Rzadka krypta 25 poziomu",
     "Punkty": "30"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 09:56:47",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "All Father",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 09:56:54",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Centri",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 09:57:00",
+    "Typ": "Zapomniana Skrzynia",
+    "Nadawca": "Puma I",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 09:57:01",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Morfii",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 09:57:05",
+    "Typ": "Kościana Skrzynia",
+    "Nadawca": "Puma I",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 09:57:09",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "remix",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 09:57:21",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Bohun",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "1"
   }
 ]

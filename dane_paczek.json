@@ -30694,5 +30694,21 @@
     "Nadawca": "OSA",
     "Źródło": "Epicki oddział Briareosa",
     "Punkty": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 10:07:00",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Puma I",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 10:07:05",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Puma I",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100"
   }
 ]

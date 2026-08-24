@@ -30174,5 +30174,29 @@
     "Nadawca": "OSA",
     "Źródło": "Epicki oddział Briareosa",
     "Punkty": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 09:55:11",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "All Father",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 09:55:16",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Puma I",
+    "Źródło": "Rzadka krypta 25 poziomu",
+    "Punkty": "30"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 09:55:20",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Puma I",
+    "Źródło": "Rzadka krypta 25 poziomu",
+    "Punkty": "30"
   }
 ]

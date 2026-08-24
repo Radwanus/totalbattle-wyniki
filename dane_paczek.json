@@ -28454,5 +28454,21 @@
     "Nadawca": "David",
     "Źródło": "",
     "Punkty": "0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 09:12:57",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 09:13:06",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "WRX",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130"
   }
 ]

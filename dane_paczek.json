@@ -30566,5 +30566,29 @@
     "Nadawca": "All Father",
     "Źródło": "Epicka krypta 35 poziomu",
     "Punkty": "130"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 10:03:17",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "OSA",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 10:03:18",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Puma I",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 10:03:23",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Puma I",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100"
   }
 ]

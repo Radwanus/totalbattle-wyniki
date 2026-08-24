@@ -886,17 +886,11 @@ table td.player,
     <a class="nav-item" href="#" id="tab-szczegoly" onclick="showTab('szczegoly'); return false;">Details</a>
     <a class="nav-item" href="#" id="tab-punktacja" onclick="showTab('punktacja'); return false;">Scoring</a>
     <a class="nav-item" href="#" id="tab-archiwum" onclick="showTab('archiwum'); return false;">Archives</a>
-    <a class="nav-item"
-       href="#"
-       id="tab-lokalizacja"
-       onclick="showTab('lokalizacja'); return false;"
-       style="display:none;"
-       title="Private manager view">🔒 Lokalizacja</a>
   </div>
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 24.08.2026 16:54</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 24.08.2026 17:43</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms</h1>
@@ -999,63 +993,6 @@ table td.player,
     </div>
   </section>
 
-  <section id="view-lokalizacja" class="tab-view">
-    <div class="controls" style="margin-top:0;">
-      <h2 class="title">🔒 Lokalizacja</h2>
-      <div class="manager-tools">
-        <button type="button"
-                class="manager-login-btn"
-                onclick="loadLocationData(true)">↻ Odśwież dane</button>
-        <span id="location-status" class="manager-status"></span>
-      </div>
-    </div>
-
-    <div class="summary" style="margin-bottom:12px;">
-      Dane prywatne Zarządców. Nie są publikowane w plikach GitHub Pages.
-    </div>
-
-    <div class="controls">
-      <input id="location-search"
-             type="search"
-             placeholder="Szukaj gracza, kraju, kodu lub providera…"
-             oninput="renderLocationTable()"
-             style="min-width:280px; padding:9px 12px;">
-      <select id="location-status-filter"
-              onchange="renderLocationTable()"
-              style="padding:9px 12px;">
-        <option value="ALL">Wszyscy</option>
-        <option value="ACTIVE">Bieżący</option>
-        <option value="FORMER">Byli</option>
-      </select>
-      <select id="location-country-filter"
-              onchange="renderLocationTable()"
-              style="padding:9px 12px;">
-        <option value="ALL">Wszystkie kraje</option>
-      </select>
-    </div>
-
-    <div class="table-wrap">
-      <table id="location-table">
-        <thead>
-          <tr>
-            <th style="text-align:left;">Gracz</th>
-            <th>Status</th>
-            <th>Kod kraju</th>
-            <th>Kraj</th>
-            <th>Provider / konto</th>
-            <th>AccountID</th>
-            <th>FirstSeen</th>
-            <th>LastSeen</th>
-            <th>GUID</th>
-          </tr>
-        </thead>
-        <tbody id="location-body">
-          <tr><td colspan="9">Zaloguj się jako Zarządca, aby pobrać dane.</td></tr>
-        </tbody>
-      </table>
-    </div>
-  </section>
-
   <section id="view-archiwum" class="tab-view">
     <div class="controls" style="margin-top:0;">
       <h2 class="title">Archives</h2>
@@ -1098,82 +1035,16 @@ table td.player,
 <script>
 const LIMIT_PUNKTOW = 20000;
 const LIMIT_EPICKICH = 100;
-const PUNKTACJA_PACZEK = {"Bank": 0, "Skrzynia Arkanów": 0, "Skrzynia Mrocznych Omenów": 0, "Arachne": 0, "Krypta 5 poziomu": 0, "Krypta 10 poziomu": 0, "Krypta 15 poziomu": 0, "Krypta 20 poziomu": 0, "Krypta 25 poziomu": 4, "Epicka krypta 15 poziomu": 0, "Epicka krypta 20 poziomu": 10, "Epicka krypta 25 poziomu": 40, "Epicka krypta 30 poziomu": 100, "Epicka krypta 35 poziomu": 130, "Rzadka krypta 10 poziomu": 0, "Rzadka krypta 15 poziomu": 0, "Rzadka krypta 20 poziomu": 0, "Rzadka krypta 25 poziomu": 30, "Rzadka krypta 30 poziomu": 90, "Heroiczny potwor 16 poziomu": 0, "Heroiczny potwor 17 poziomu": 0, "Heroiczny potwor 18 poziomu": 0, "Heroiczny potwor 19 poziomu": 0, "Heroiczny potwor 20 poziomu": 0, "Heroiczny potwor 21 poziomu": 0, "Heroiczny potwor 22 poziomu": 0, "Heroiczny potwor 23 poziomu": 0, "Heroiczny potwor 24 poziomu": 0, "Heroiczny potwor 25 poziomu": 0, "Heroiczny potwor 26 poziomu": 30, "Heroiczny potwor 27 poziomu": 30, "Heroiczny potwor 28 poziomu": 30, "Heroiczny potwor 29 poziomu": 30, "Heroiczny potwor 30 poziomu": 30, "Heroiczny potwor 31 poziomu": 30, "Heroiczny potwor 32 poziomu": 30, "Heroiczny potwor 33 poziomu": 30, "Heroiczny potwor 34 poziomu": 30, "Heroiczny potwor 35 poziomu": 30, "Heroiczny potwor 36 poziomu": 30, "Heroiczny potwor 37 poziomu": 30, "Heroiczny potwor 38 poziomu": 30, "Heroiczny potwor 39 poziomu": 30, "Heroiczny potwor 40 poziomu": 30, "Heroiczny potwor 41 poziomu": 60, "Heroiczny potwor 42 poziomu": 60, "Heroiczny potwor 43 poziomu": 60, "Heroiczny potwor 44 poziomu": 60, "Heroiczny potwor 45 poziomu": 60, "Heroiczny potwor 46 poziomu": 200, "Epicki oddział inferno": 1, "Skrzynia z Twierdzy Elfów 10 poziomu": 0, "Skrzynia z Twierdzy Elfów 15 poziomu": 0, "Skrzynia z Twierdzy Elfów 20 poziomu": 0, "Skrzynia z Twierdzy Elfów 25 poziomu": 20, "Skrzynia z Twierdzy Elfów 30 poziomu": 80, "Skrzynia z Twierdzy Przeklętych 20 poziomu": 5, "Skrzynia z Twierdzy Przeklętych 25 poziomu": 10, "Epicki oddział nieumarłych": 1, "Epicki oddział Roju Arachne": 1, "Epicki oddział Briareosa": 1, "Sklep Hermesa": 0, "Skrzynia Hermesa": 0, "Twierdza Elfów 10 poziomu": 0, "Twierdza Elfów 15 poziomu": 0, "Twierdza Elfów 20 poziomu": 0, "Twierdza Elfów 25 poziomu": 20, "Twierdza Elfów 30 poziomu": 80, "Twierdza Przeklętych 20 poziomu": 5, "Twierdza Przeklętych 25 poziomu": 10};
+const PUNKTACJA_PACZEK = {"Bank": 0, "Skrzynia Arkanów": 0, "Skrzynia Mrocznych Omenów": 0, "Arachne": 0, "Krypta 5 poziomu": 0, "Krypta 10 poziomu": 0, "Krypta 15 poziomu": 0, "Krypta 20 poziomu": 0, "Krypta 25 poziomu": 4, "Epicka krypta 15 poziomu": 0, "Epicka krypta 20 poziomu": 10, "Epicka krypta 25 poziomu": 40, "Epicka krypta 30 poziomu": 100, "Epicka krypta 35 poziomu": 130, "Rzadka krypta 10 poziomu": 0, "Rzadka krypta 15 poziomu": 0, "Rzadka krypta 20 poziomu": 0, "Rzadka krypta 25 poziomu": 30, "Rzadka krypta 30 poziomu": 90, "Heroiczny potwor 16 poziomu": 0, "Heroiczny potwor 17 poziomu": 0, "Heroiczny potwor 18 poziomu": 0, "Heroiczny potwor 19 poziomu": 0, "Heroiczny potwor 20 poziomu": 0, "Heroiczny potwor 21 poziomu": 0, "Heroiczny potwor 22 poziomu": 0, "Heroiczny potwor 23 poziomu": 0, "Heroiczny potwor 24 poziomu": 0, "Heroiczny potwor 25 poziomu": 0, "Heroiczny potwor 26 poziomu": 30, "Heroiczny potwor 27 poziomu": 30, "Heroiczny potwor 28 poziomu": 30, "Heroiczny potwor 29 poziomu": 30, "Heroiczny potwor 30 poziomu": 30, "Heroiczny potwor 31 poziomu": 30, "Heroiczny potwor 32 poziomu": 30, "Heroiczny potwor 33 poziomu": 30, "Heroiczny potwor 34 poziomu": 30, "Heroiczny potwor 35 poziomu": 30, "Heroiczny potwor 36 poziomu": 30, "Heroiczny potwor 37 poziomu": 30, "Heroiczny potwor 38 poziomu": 30, "Heroiczny potwor 39 poziomu": 30, "Heroiczny potwor 40 poziomu": 30, "Heroiczny potwor 41 poziomu": 60, "Heroiczny potwor 42 poziomu": 60, "Heroiczny potwor 43 poziomu": 60, "Heroiczny potwor 44 poziomu": 60, "Heroiczny potwor 45 poziomu": 60, "Heroiczny potwor 46 poziomu": 200, "Epicki oddział inferno": 1, "Skrzynia z Twierdzy Elfów 10 poziomu": 0, "Skrzynia z Twierdzy Elfów 15 poziomu": 0, "Skrzynia z Twierdzy Elfów 20 poziomu": 0, "Skrzynia z Twierdzy Elfów 25 poziomu": 20, "Skrzynia z Twierdzy Elfów 30 poziomu": 80, "Skrzynia z Twierdzy Przeklętych 20 poziomu": 5, "Skrzynia z Twierdzy Przeklętych 25 poziomu": 10, "Epicki oddział nieumarłych": 1, "Epicki oddział Roju Arachne": 1, "Twierdza Elfów 10 poziomu": 0, "Twierdza Elfów 15 poziomu": 0, "Twierdza Elfów 20 poziomu": 0, "Twierdza Elfów 25 poziomu": 20, "Twierdza Elfów 30 poziomu": 80, "Twierdza Przeklętych 20 poziomu": 5, "Twierdza Przeklętych 25 poziomu": 10, "Epicki oddział Briareosa": 1};
 const CURRENT_PERIOD_LABEL = "2026 23.08 - 30.08";
 
 const GOOGLE_CLIENT_ID = "575890140414-5geac03dcbv7vnmfcjdkg221gnpikab1.apps.googleusercontent.com";
-const GOOGLE_DRIVE_SCOPE = "https://www.googleapis.com/auth/drive.metadata.readonly https://www.googleapis.com/auth/spreadsheets.readonly";
+const GOOGLE_DRIVE_SCOPE = "https://www.googleapis.com/auth/drive.metadata.readonly";
 const SPREADSHEET_FILE_ID = "1aa8iv2H1kQwcKnjiSvsJk0JcN0Uz76Lz19xYaW3JkTI";
 const PUNKTACJA_EDIT_URL = "https://docs.google.com/spreadsheets/d/1aa8iv2H1kQwcKnjiSvsJk0JcN0Uz76Lz19xYaW3JkTI/edit#gid=720098777";
 
 let managerTokenClient = null;
 let managerAccessToken = null;
-
-const MANAGER_SESSION_KEY = 'tb_manager_verified';
-const MANAGER_TOKEN_KEY = 'tb_manager_access_token';
-const MANAGER_TOKEN_EXPIRES_KEY = 'tb_manager_token_expires';
-const ACTIVE_TAB_SESSION_KEY = 'tb_active_tab';
-
-let locationRowsGlobal = [];
-
-function rememberManagerToken(token, expiresInSec=3600) {
-  try {
-    if (!token) {
-      sessionStorage.removeItem(MANAGER_TOKEN_KEY);
-      sessionStorage.removeItem(MANAGER_TOKEN_EXPIRES_KEY);
-      return;
-    }
-    const expiresAt = Date.now() + Math.max(60, Number(expiresInSec || 3600) - 60) * 1000;
-    sessionStorage.setItem(MANAGER_TOKEN_KEY, token);
-    sessionStorage.setItem(MANAGER_TOKEN_EXPIRES_KEY, String(expiresAt));
-  } catch (_) {}
-}
-
-function restoreManagerToken() {
-  try {
-    const token = sessionStorage.getItem(MANAGER_TOKEN_KEY);
-    const expiresAt = Number(sessionStorage.getItem(MANAGER_TOKEN_EXPIRES_KEY) || 0);
-    if (!token || !expiresAt || Date.now() >= expiresAt) {
-      rememberManagerToken(null);
-      return null;
-    }
-    return token;
-  } catch (_) {
-    return null;
-  }
-}
-
-function rememberManagerSession(isVerified) {
-  try {
-    if (isVerified) {
-      sessionStorage.setItem(MANAGER_SESSION_KEY, '1');
-    } else {
-      sessionStorage.removeItem(MANAGER_SESSION_KEY);
-    }
-  } catch (_) {}
-}
-
-function restoreManagerSession() {
-  try {
-    return sessionStorage.getItem(MANAGER_SESSION_KEY) === '1';
-  } catch (_) {
-    return false;
-  }
-}
-
-function rememberActiveTab(tab) {
-  try {
-    sessionStorage.setItem(ACTIVE_TAB_SESSION_KEY, tab || 'wyniki');
-  } catch (_) {}
-}
-
-function restoreActiveTab() {
-  try {
-    return sessionStorage.getItem(ACTIVE_TAB_SESSION_KEY) || 'wyniki';
-  } catch (_) {
-    return 'wyniki';
-  }
-}
 
 let weeklyRowsGlobal = [];
 let epicRowsGlobal = [];
@@ -1214,18 +1085,6 @@ function hideManagerEdit() {
   editBtn.removeAttribute('href');
 }
 
-function hidePrivateLocation() {
-  const el = document.getElementById('tab-lokalizacja');
-  if (!el) return;
-  el.style.display = 'none';
-}
-
-function showPrivateLocation() {
-  const el = document.getElementById('tab-lokalizacja');
-  if (!el) return;
-  el.style.display = 'inline-block';
-}
-
 function showManagerEdit() {
   const editBtn = document.getElementById('manager-edit-btn');
   if (!editBtn) return;
@@ -1242,7 +1101,6 @@ function initManagerAuth() {
     scope: GOOGLE_DRIVE_SCOPE,
     callback: async (response) => {
       hideManagerEdit();
-      hidePrivateLocation();
 
       if (!response || response.error) {
         const msg = response?.error_description || response?.error || 'Nie udało się zalogować.';
@@ -1251,7 +1109,6 @@ function initManagerAuth() {
       }
 
       managerAccessToken = response.access_token || null;
-      rememberManagerToken(managerAccessToken, response.expires_in || 3600);
       if (!managerAccessToken) {
         setManagerStatus('Google nie zwrócił tokena dostępu.', 'no');
         return;
@@ -1271,6 +1128,8 @@ function initManagerAuth() {
 }
 
 function managerLogin() {
+  hideManagerEdit();
+
   if (!initManagerAuth()) {
     setManagerStatus('Moduł logowania Google jeszcze się ładuje. Spróbuj ponownie za chwilę.');
     setTimeout(initManagerAuth, 500);
@@ -1303,11 +1162,7 @@ async function checkManagerPermission(accessToken) {
         details = err?.error?.message || '';
       } catch (_) {}
 
-      rememberManagerSession(false);
-      rememberManagerToken(null);
-      managerAccessToken = null;
       hideManagerEdit();
-      hidePrivateLocation();
 
       if (res.status === 401) {
         setManagerStatus('Sesja Google wygasła. Zaloguj się ponownie.', 'no');
@@ -1331,46 +1186,20 @@ async function checkManagerPermission(accessToken) {
     const canEdit = Boolean(info?.capabilities?.canEdit);
 
     if (canEdit) {
-      rememberManagerSession(true);
       showManagerEdit();
-      showPrivateLocation();
       setManagerStatus('Uprawnienia Zarządcy potwierdzone.', 'ok');
-      if (restoreActiveTab() === 'lokalizacja') {
-        loadLocationData(false);
-      }
     } else {
-      rememberManagerSession(false);
       hideManagerEdit();
-      hidePrivateLocation();
       setManagerStatus('To konto nie ma uprawnień do edycji punktacji.', 'no');
     }
   } catch (err) {
-    rememberManagerSession(false);
-    rememberManagerToken(null);
-    managerAccessToken = null;
     hideManagerEdit();
-    hidePrivateLocation();
     setManagerStatus('Błąd sprawdzania uprawnień: ' + (err?.message || err), 'no');
   }
 }
 
 window.addEventListener('load', () => {
-  managerAccessToken = restoreManagerToken();
-  const managerWasVerified = restoreManagerSession();
-
-  if (managerWasVerified) {
-    showManagerEdit();
-    showPrivateLocation();
-    setManagerStatus('Uprawnienia Zarządcy potwierdzone — sesja przywrócona.', 'ok');
-  } else {
-    hideManagerEdit();
-    hidePrivateLocation();
-  }
-
-  // Po odświeżeniu wróć do ostatnio oglądanej zakładki,
-  // zamiast zawsze otwierać Crypts / Citadels.
-  const savedTab = restoreActiveTab();
-  showTab(savedTab);
+  hideManagerEdit();
 
   let attempts = 0;
   const timer = setInterval(() => {
@@ -1544,13 +1373,12 @@ function displayNick(raw) {
 
 function norm(s) {
   return (s ?? '').toString().trim().toLowerCase()
-    .normalize('NFD').replace(/[\\u0300-\\u036f]/g, '');
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 }
 
 function classify(type, source) {
   const t = norm((type || '') + ' ' + (source || ''));
 
-  if (t.includes('briareos')) return 'briareos';
   if (t.includes('arachne')) return 'arachne';
   if (t.includes('miasto cieni')) return 'miasto_cieni';
   if (t.includes('sadny dzien')) return 'sadny_dzien';
@@ -1633,216 +1461,30 @@ function openTotalBattleAutoLanguage() {
   );
 }
 
-
-function setLocationStatus(text, kind='') {
-  const el = document.getElementById('location-status');
-  if (!el) return;
-  el.textContent = text || '';
-  el.classList.remove('ok', 'no');
-  if (kind) el.classList.add(kind);
-}
-
-function countryName(code) {
-  code = String(code || '').trim().toUpperCase();
-  if (!code) return 'Nieznany';
-  try {
-    const dn = new Intl.DisplayNames(['pl'], {type:'region'});
-    return dn.of(code) || code;
-  } catch (_) {
-    return code;
-  }
-}
-
-function escapeLocationHtml(value) {
-  return String(value ?? '').replace(/[&<>"']/g, c => ({
-    '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'
-  }[c]));
-}
-
-function rebuildLocationCountryFilter() {
-  const sel = document.getElementById('location-country-filter');
-  if (!sel) return;
-
-  const previous = sel.value || 'ALL';
-  const codes = [...new Set(
-    locationRowsGlobal.map(r => r.country_code).filter(Boolean)
-  )].sort();
-
-  sel.innerHTML = '<option value="ALL">Wszystkie kraje</option>';
-  for (const code of codes) {
-    const opt = document.createElement('option');
-    opt.value = code;
-    opt.textContent = `${code} — ${countryName(code)}`;
-    sel.appendChild(opt);
-  }
-
-  if ([...sel.options].some(o => o.value === previous)) {
-    sel.value = previous;
-  }
-}
-
-function renderLocationTable() {
-  const body = document.getElementById('location-body');
-  if (!body) return;
-
-  const q = (document.getElementById('location-search')?.value || '')
-    .trim().toLowerCase();
-  const status = document.getElementById('location-status-filter')?.value || 'ALL';
-  const country = document.getElementById('location-country-filter')?.value || 'ALL';
-
-  const rows = locationRowsGlobal.filter(r => {
-    if (status !== 'ALL' && r.status !== status) return false;
-    if (country !== 'ALL' && r.country_code !== country) return false;
-
-    const hay = [
-      r.nick, r.status, r.country_code, countryName(r.country_code),
-      r.provider, r.account_id, r.first_seen, r.last_seen, r.guid
-    ].join(' ').toLowerCase();
-
-    return !q || hay.includes(q);
-  });
-
-  if (!rows.length) {
-    body.innerHTML = '<tr><td colspan="9">Brak danych spełniających filtr.</td></tr>';
-    return;
-  }
-
-  body.innerHTML = rows.map(r => `
-    <tr>
-      <td style="text-align:left;"><b>${escapeLocationHtml(r.nick)}</b></td>
-      <td>${escapeLocationHtml(r.status)}</td>
-      <td>${escapeLocationHtml(r.country_code)}</td>
-      <td>${escapeLocationHtml(countryName(r.country_code))}</td>
-      <td>${escapeLocationHtml(r.provider)}</td>
-      <td>${escapeLocationHtml(r.account_id)}</td>
-      <td>${escapeLocationHtml(r.first_seen)}</td>
-      <td>${escapeLocationHtml(r.last_seen)}</td>
-      <td>${escapeLocationHtml(r.guid)}</td>
-    </tr>
-  `).join('');
-}
-
-async function loadLocationData(forceLogin=false) {
-  let token = managerAccessToken || restoreManagerToken();
-  managerAccessToken = token;
-
-  if (!restoreManagerSession()) {
-    setLocationStatus('Najpierw zaloguj się jako Zarządca w zakładce Scoring.', 'no');
-    return;
-  }
-
-  if (!token) {
-    setLocationStatus('Sesja Google wymaga odświeżenia. Kliknij „Zaloguj jako Zarządca” w Scoring.', 'no');
-    if (forceLogin) managerLogin();
-    return;
-  }
-
-  setLocationStatus('Pobieram prywatne dane z Google…');
-
-  try {
-    const range = encodeURIComponent('Lokalizacja!A1:H2000');
-    const url =
-      'https://sheets.googleapis.com/v4/spreadsheets/' +
-      encodeURIComponent(SPREADSHEET_FILE_ID) +
-      '/values/' + range;
-
-    const res = await fetch(url, {
-      headers: {
-        'Authorization': 'Bearer ' + token,
-        'Accept': 'application/json'
-      }
-    });
-
-    if (res.status === 401) {
-      rememberManagerToken(null);
-      managerAccessToken = null;
-      setLocationStatus('Sesja Google wygasła. Zaloguj się ponownie jako Zarządca.', 'no');
-      return;
-    }
-
-    if (res.status === 403) {
-      setLocationStatus('To konto nie ma dostępu do prywatnych danych Lokalizacja.', 'no');
-      return;
-    }
-
-    if (!res.ok) {
-      let details = '';
-      try {
-        const err = await res.json();
-        details = err?.error?.message || '';
-      } catch (_) {}
-      throw new Error('HTTP ' + res.status + (details ? ': ' + details : ''));
-    }
-
-    const payload = await res.json();
-    const values = Array.isArray(payload.values) ? payload.values : [];
-
-    if (values.length <= 1) {
-      locationRowsGlobal = [];
-      rebuildLocationCountryFilter();
-      renderLocationTable();
-      setLocationStatus(
-        'Zakładka Lokalizacja jest jeszcze pusta. Potrzebny jest poprawny odczyt rosteru przez Liczarkę.',
-        'no'
-      );
-      return;
-    }
-
-    locationRowsGlobal = values.slice(1).map(row => ({
-      nick: row[0] || '',
-      status: row[1] || '',
-      country_code: String(row[2] || '').toUpperCase(),
-      provider: row[3] || '',
-      account_id: row[4] || '',
-      first_seen: row[5] || '',
-      last_seen: row[6] || '',
-      guid: row[7] || ''
-    }));
-
-    rebuildLocationCountryFilter();
-    renderLocationTable();
-
-    const active = locationRowsGlobal.filter(r => r.status === 'ACTIVE').length;
-    const former = locationRowsGlobal.filter(r => r.status === 'FORMER').length;
-    setLocationStatus(
-      `Pobrano ${locationRowsGlobal.length} graczy — bieżący: ${active}, byli: ${former}.`,
-      'ok'
-    );
-  } catch (err) {
-    setLocationStatus('Błąd pobierania Lokalizacji: ' + (err?.message || err), 'no');
-  }
-}
-
 function showTab(tab) {
-  rememberActiveTab(tab);
-
   const wynikiView = document.getElementById('view-wyniki');
   const epickieView = document.getElementById('view-epickie');
   const szczegolyView = document.getElementById('view-szczegoly');
   const punktacjaView = document.getElementById('view-punktacja');
   const archiwumView = document.getElementById('view-archiwum');
-  const lokalizacjaView = document.getElementById('view-lokalizacja');
 
   const wynikiTab = document.getElementById('tab-wyniki');
   const epickieTab = document.getElementById('tab-epickie');
   const szczegolyTab = document.getElementById('tab-szczegoly');
   const punktacjaTab = document.getElementById('tab-punktacja');
   const archiwumTab = document.getElementById('tab-archiwum');
-  const lokalizacjaTab = document.getElementById('tab-lokalizacja');
 
   wynikiView.classList.remove('active-view');
   epickieView.classList.remove('active-view');
   szczegolyView.classList.remove('active-view');
   punktacjaView.classList.remove('active-view');
   archiwumView.classList.remove('active-view');
-  lokalizacjaView.classList.remove('active-view');
 
   wynikiTab.classList.remove('active');
   epickieTab.classList.remove('active');
   szczegolyTab.classList.remove('active');
   punktacjaTab.classList.remove('active');
   archiwumTab.classList.remove('active');
-  lokalizacjaTab.classList.remove('active');
 
   if (tab === 'epickie') {
     epickieView.classList.add('active-view');
@@ -1858,16 +1500,6 @@ function showTab(tab) {
     archiwumTab.classList.add('active');
     renderArchiveTables();
     setTimeout(refreshBottomScrollbars, 0);
-  } else if (tab === 'lokalizacja') {
-    if (!restoreManagerSession()) {
-      punktacjaView.classList.add('active-view');
-      punktacjaTab.classList.add('active');
-      setManagerStatus('Najpierw zaloguj się jako Zarządca.', 'no');
-      return;
-    }
-    lokalizacjaView.classList.add('active-view');
-    lokalizacjaTab.classList.add('active');
-    loadLocationData(false);
   } else {
     wynikiView.classList.add('active-view');
     wynikiTab.classList.add('active');
@@ -1896,11 +1528,7 @@ function renderArchiveTables() {
 
 function renderArchiveCrypts() {
   const rows = weeklyHistoryDateGlobal || [];
-  const historyOnly = rows.filter(
-    x => x.okres !== CURRENT_PERIOD_LABEL &&
-         x.okres !== '2026 16.08 - 23.08' &&
-         x.okres !== '2026 16.08 - 23.08 TEST'
-  );
+  const historyOnly = rows.filter(x => x.okres !== CURRENT_PERIOD_LABEL);
 
   const periods = [...new Set(historyOnly.map(x => x.okres).filter(Boolean))]
     .sort((a, b) => parsePeriodStart(b) - parsePeriodStart(a));
@@ -1961,11 +1589,7 @@ function renderArchiveCrypts() {
 
 function renderArchiveEpics() {
   const rows = epicHistoryDateGlobal || [];
-  const historyOnly = rows.filter(
-    x => x.okres !== CURRENT_PERIOD_LABEL &&
-         x.okres !== '2026 16.08 - 23.08' &&
-         x.okres !== '2026 16.08 - 23.08 TEST'
-  );
+  const historyOnly = rows.filter(x => x.okres !== CURRENT_PERIOD_LABEL);
 
   const periods = [...new Set(historyOnly.map(x => x.okres).filter(Boolean))]
     .sort((a, b) => parsePeriodStart(b) - parsePeriodStart(a));
@@ -2011,7 +1635,6 @@ function renderArchiveEpics() {
               data-miasto="${x.miasto_cieni || 0}"
               data-sadny="${x.sadny_dzien || 0}"
               data-yokai="${x.yokai || 0}"
-              data-briareos="${x.briareos || 0}"
               data-total="${x.epickie || 0}"
               title="Najedź, aby zobaczyć rodzaje epików">${x.epickie}</td>
         `;
@@ -2087,13 +1710,21 @@ function refreshBottomScrollbars() {
 window.addEventListener('resize', refreshBottomScrollbars);
 
 function displayPeriodLabel(label) {
-  // V105: żadnego automatycznego dopisywania "TEST".
-  return (label ?? '').toString().trim();
+  const raw = (label ?? '').toString().trim();
+
+  if (
+    raw === '2026 16.08 - 23.08' ||
+    raw === '2026 09.08 - 16.08'
+  ) {
+    return raw + ' TEST';
+  }
+
+  return raw;
 }
 
 function parsePeriodStart(label) {
   // format: "2026 09.08 - 16.08"
-  const m = (label || '').match(/(\\d4)\\s+(\\d(1, 2))\\.(\\d(1, 2))/);
+  const m = (label || '').match(/(\d4)\s+(\d(1, 2))\.(\d(1, 2))/);
   if (!m) return 0;
   const year = Number(m[1]);
   const day = Number(m[2]);
@@ -2207,10 +1838,8 @@ function renderWeeklyHistory(currentRows, historyRows) {
 function renderWeeklyHistoryFromGlobal() {
   const all = weeklyHistoryDateGlobal || [];
 
-  // V105: aktywna tabela pokazuje WYŁĄCZNIE bieżący okres.
-  const periods = all.some(x => x.okres === CURRENT_PERIOD_LABEL)
-    ? [CURRENT_PERIOD_LABEL]
-    : [];
+  const periods = [...new Set(all.map(x => x.okres).filter(Boolean))]
+    .sort((a, b) => parsePeriodStart(b) - parsePeriodStart(a));
 
   const byKey = new Map();
   for (const x of all) {
@@ -2410,8 +2039,7 @@ function buildEpicHistoryDate(currentRows, historyRows) {
       arachne: Number(r.arachne || 0),
       miasto_cieni: Number(r.miasto_cieni || 0),
       sadny_dzien: Number(r.sadny_dzien || 0),
-      yokai: Number(r.yokai || 0),
-      briareos: Number(r.briareos || 0)
+      yokai: Number(r.yokai || 0)
     });
   }
 
@@ -2431,21 +2059,19 @@ function buildEpicHistoryDate(currentRows, historyRows) {
     const miasto_cieni = num(h['Miasto Cieni']);
     const sadny_dzien = num(h['Sądny dzień']);
     const yokai = num(h['Yokai']);
-    const briareos = num(h['Briareos']);
 
     all.push({
       okres: (h['Period'] ?? h['Okres rozliczeniowy'] ?? '').trim(),
       nick,
       punkty,
-      epickie: ragnarok + arkana + omeny + arachne + miasto_cieni + sadny_dzien + yokai + briareos,
+      epickie: ragnarok + arkana + omeny + arachne + miasto_cieni + sadny_dzien + yokai,
       ragnarok,
       arkana,
       omeny,
       arachne,
       miasto_cieni,
       sadny_dzien,
-      yokai,
-      briareos
+      yokai
     });
   }
 
@@ -2460,11 +2086,13 @@ function renderEpicHistory(currentRows, historyRows) {
 function renderEpicHistoryFromGlobal() {
   const all = epicHistoryDateGlobal || [];
 
-  // V105: aktywna tabela Epic Bosses pokazuje WYŁĄCZNIE bieżący okres.
-  // Kolumna pozostaje widoczna także przy zerowych wynikach, jeśli okres istnieje.
-  const periods = all.some(x => x.okres === CURRENT_PERIOD_LABEL)
-    ? [CURRENT_PERIOD_LABEL]
-    : [];
+  // V81: w zakładce Epic Bosses nie pokazujemy kolumn okresów,
+  // w których wszystkie wpisy Epic Bosses są równe 0.
+  const periods = [...new Set(all.map(x => x.okres).filter(Boolean))]
+    .filter(period => all.some(
+      x => x.okres === period && Number(x.epickie || 0) > 0
+    ))
+    .sort((a, b) => parsePeriodStart(b) - parsePeriodStart(a));
 
   const byKey = new Map();
   for (const x of all) {
@@ -2582,7 +2210,6 @@ function renderEpicHistoryFromGlobal() {
               data-miasto="${x.miasto_cieni || 0}"
               data-sadny="${x.sadny_dzien || 0}"
               data-yokai="${x.yokai || 0}"
-              data-briareos="${x.briareos || 0}"
               data-total="${x.epickie || 0}"
               title="Najedź, aby zobaczyć rodzaje epików">${x.epickie}</td>
         `;
@@ -2674,7 +2301,6 @@ function showEpicTooltip(cell, clientX, clientY) {
   const miasto = Number(cell.dataset.miasto || 0);
   const sadny = Number(cell.dataset.sadny || 0);
   const yokai = Number(cell.dataset.yokai || 0);
-  const briareos = Number(cell.dataset.briareos || 0);
   const total = Number(cell.dataset.total || 0);
 
   tooltip.innerHTML = `
@@ -2687,7 +2313,6 @@ function showEpicTooltip(cell, clientX, clientY) {
       <tr><td>Miasto Cieni</td><td>${miasto}</td></tr>
       <tr><td>Sądny dzień</td><td>${sadny}</td></tr>
       <tr><td>Yokai</td><td>${yokai}</td></tr>
-      <tr><td>Briareos</td><td>${briareos}</td></tr>
       <tr><td><strong>Razem</strong></td><td><strong>${total}</strong></td></tr>
     </table>
     <div class="package-tooltip-hint">Rozbicie epików dla tego tygodnia.</div>
@@ -2813,29 +2438,13 @@ async function run() {
   if (!Array.isArray(data) || data.length === 0) {
     tbody.innerHTML = '<tr><td class="empty">Brak danych.</td></tr>';
     tbodyEpickie.innerHTML = '<tr><td class="empty">Brak danych.</td></tr>';
-    tbodySzczegoly.innerHTML = '<tr><td colspan="6" class="empty">Brak danych.</td></tr>';
+    tbodySzczegoly.innerHTML = '<tr><td colspan="5" class="empty">Brak danych.</td></tr>';
     return;
   }
 
   const players = new Map();
 
-  function isRankingChest(row) {
-    const raw = `${row['Typ'] || ''} ${row['Źródło'] || ''}`
-      .toString()
-      .normalize('NFD')
-      .replace(/[\u0300-\u036f]/g, '')
-      .toLowerCase()
-      .replace(/\s+/g, ' ')
-      .trim();
-
-    return /\brankingowa\s+skrzynia\b/.test(raw)
-      || /\bskrzynia\s+rankingowa\b/.test(raw)
-      || /\brankingowa\s+skrzynka\b/.test(raw)
-      || /\bskrzynka\s+rankingowa\b/.test(raw);
-  }
-
   for (const row of data) {
-    if (isRankingChest(row)) continue;
     const nick = displayNick(row['Nadawca'] || '');
     if (!nick) continue;
 
@@ -2852,28 +2461,23 @@ async function run() {
         arachne: 0,
         miasto_cieni: 0,
         sadny_dzien: 0,
-        yokai: 0,
-        briareos: 0
+        yokai: 0
       });
     }
 
     const p = players.get(nick);
     const pkt = parseInt((row['Punkty'] || '0').toString().replace(',', '.')) || 0;
-    const countRaw = parseInt((row['Count'] || '1').toString().replace(',', '.')) || 1;
-    const physicalCount = Math.max(1, countRaw);
-
-    // Punkty w V106 są już sumą dla całego Count danego rekordu.
     p.punkty += pkt;
 
     const cat = classify(row['Typ'], row['Źródło']);
-    if (cat) p[cat] += physicalCount;
+    if (cat) p[cat] += 1;
   }
 
   const rows = [...players.entries()]
     .map(([nick, p]) => {
       p.epickie =
         p.ragnarok + p.arkana + p.omeny + p.arachne +
-        p.miasto_cieni + p.sadny_dzien + p.yokai + p.briareos;
+        p.miasto_cieni + p.sadny_dzien + p.yokai;
       return { nick, ...p };
     })
     // Nie pokazuj graczy, którzy mają 0 punktów.

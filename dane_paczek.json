@@ -24214,5 +24214,29 @@
     "Nadawca": "GinoPL",
     "Źródło": "Epicki oddział Briareosa",
     "Punkty": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 07:15:56",
+    "Typ": "Ognista Skrzynia",
+    "Nadawca": "Zioło",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 07:15:59",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "David",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 07:16:00",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Zioło",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4"
   }
 ]

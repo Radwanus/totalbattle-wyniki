@@ -30734,5 +30734,53 @@
     "Nadawca": "RAFAL PL",
     "Źródło": "Epicka krypta 35 poziomu",
     "Punkty": "130"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 10:08:04",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Puma I",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 10:08:07",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Puma I",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 10:08:13",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "All Father",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 10:08:20",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "RAFAL PL",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 10:08:28",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Bohun",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-24 10:08:37",
+    "Typ": "Skrzynia z Twierdzy Elfów",
+    "Nadawca": "RestInPeace",
+    "Źródło": "Twierdza 30 poziomu",
+    "Punkty": "80"
   }
 ]

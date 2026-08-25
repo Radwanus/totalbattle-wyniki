@@ -144196,5 +144196,374 @@
     "Źródło": "Rzadka krypta 30 poziomu",
     "Punkty": "90",
     "Count": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-26 00:08:02",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Jedi Qui Gon Jinn",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-26 00:08:07",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Cahir",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-26 00:08:11",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Jedi Qui Gon Jinn",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-26 00:08:11",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Juana la loca",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "2"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-26 00:08:12",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "4"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-26 00:08:16",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "OSA",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-26 00:08:18",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Cahir",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-26 00:08:23",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "KaNUyKuSu",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "4"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-26 00:08:28",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Cahir",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-26 00:08:37",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "Bohun",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-26 00:08:38",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Bantysto",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "4"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-26 00:08:39",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Jedi Qui Gon Jinn",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-26 00:08:40",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "KaNUyKuSu",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-26 00:08:43",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Bohun",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "4"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-26 00:08:44",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Serelka",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-26 00:08:45",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Juana la loca",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "2"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-26 00:08:48",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Jedi Qui Gon Jinn",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-26 00:08:51",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-26 00:08:51",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Cahir",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-26 00:08:56",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "KaNUyKuSu",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "4"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-26 00:08:57",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Cahir",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-26 00:08:57",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Emma",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "4"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-26 00:08:58",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Merodir",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "2"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-26 00:09:00",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Serelka",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "4"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-26 00:09:02",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Max72",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-26 00:09:04",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "OSA",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-26 00:09:10",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "janos88",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-26 00:09:11",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "KaNUyKuSu",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-26 00:09:13",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-26 00:09:15",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Jedi Qui Gon Jinn",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-26 00:09:16",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Cahir",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-26 00:09:24",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Jedi Qui Gon Jinn",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-26 00:09:26",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Cahir",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-26 00:09:41",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Cahir",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-26 00:09:49",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "OSA",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-26 00:09:53",
+    "Typ": "Piaskowa Skrzynia",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-26 00:09:53",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Jedi Qui Gon Jinn",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-26 00:09:57",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Cahir",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-26 00:10:03",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Jedi Qui Gon Jinn",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-26 00:10:04",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Serelka",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-26 00:10:06",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Cahir",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1"
   }
 ]

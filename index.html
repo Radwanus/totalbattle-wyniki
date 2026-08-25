@@ -896,7 +896,7 @@ table td.player,
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 25.08.2026 19:43</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 25.08.2026 22:14</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms</h1>
@@ -1098,7 +1098,7 @@ table td.player,
 <script>
 const LIMIT_PUNKTOW = 20000;
 const LIMIT_EPICKICH = 100;
-const PUNKTACJA_PACZEK = {"Bank": 0, "Skrzynia Arkanów": 0, "Skrzynia Mrocznych Omenów": 0, "Arachne": 0, "Krypta 5 poziomu": 0, "Krypta 10 poziomu": 0, "Krypta 15 poziomu": 0, "Krypta 20 poziomu": 0, "Krypta 25 poziomu": 4, "Epicka krypta 15 poziomu": 0, "Epicka krypta 20 poziomu": 10, "Epicka krypta 25 poziomu": 40, "Epicka krypta 30 poziomu": 100, "Epicka krypta 35 poziomu": 130, "Rzadka krypta 10 poziomu": 0, "Rzadka krypta 15 poziomu": 0, "Rzadka krypta 20 poziomu": 0, "Rzadka krypta 25 poziomu": 30, "Rzadka krypta 30 poziomu": 90, "Heroiczny potwor 16 poziomu": 0, "Heroiczny potwor 17 poziomu": 0, "Heroiczny potwor 18 poziomu": 0, "Heroiczny potwor 19 poziomu": 0, "Heroiczny potwor 20 poziomu": 0, "Heroiczny potwor 21 poziomu": 0, "Heroiczny potwor 22 poziomu": 0, "Heroiczny potwor 23 poziomu": 0, "Heroiczny potwor 24 poziomu": 0, "Heroiczny potwor 25 poziomu": 0, "Heroiczny potwor 26 poziomu": 0, "Heroiczny potwor 27 poziomu": 0, "Heroiczny potwor 28 poziomu": 0, "Heroiczny potwor 29 poziomu": 0, "Heroiczny potwor 30 poziomu": 0, "Heroiczny potwor 31 poziomu": 0, "Heroiczny potwor 32 poziomu": 0, "Heroiczny potwor 33 poziomu": 0, "Heroiczny potwor 34 poziomu": 0, "Heroiczny potwor 35 poziomu": 0, "Heroiczny potwor 36 poziomu": 0, "Heroiczny potwor 37 poziomu": 0, "Heroiczny potwor 38 poziomu": 0, "Heroiczny potwor 39 poziomu": 0, "Heroiczny potwor 40 poziomu": 0, "Heroiczny potwor 41 poziomu": 0, "Heroiczny potwor 42 poziomu": 0, "Heroiczny potwor 43 poziomu": 0, "Heroiczny potwor 44 poziomu": 0, "Heroiczny potwor 45 poziomu": 0, "Heroiczny potwor 46 poziomu": 0, "Epicki oddział inferno": 0, "Skrzynia z Twierdzy Elfów 10 poziomu": 0, "Skrzynia z Twierdzy Elfów 15 poziomu": 0, "Skrzynia z Twierdzy Elfów 20 poziomu": 0, "Skrzynia z Twierdzy Elfów 25 poziomu": 20, "Skrzynia z Twierdzy Elfów 30 poziomu": 80, "Skrzynia z Twierdzy Przeklętych 20 poziomu": 5, "Skrzynia z Twierdzy Przeklętych 25 poziomu": 10, "Epicki oddział nieumarłych": 0, "Epicki oddział Roju Arachne": 0, "Epicki oddział Briareosa": 0, "Sklep Hermesa": 0, "Skrzynia Hermesa": 0, "Twierdza Elfów 10 poziomu": 0, "Twierdza Elfów 15 poziomu": 0, "Twierdza Elfów 20 poziomu": 0, "Twierdza Elfów 25 poziomu": 20, "Twierdza Elfów 30 poziomu": 80, "Twierdza Przeklętych 20 poziomu": 5, "Twierdza Przeklętych 25 poziomu": 10};
+const PUNKTACJA_PACZEK = {"Bank": 0, "Skrzynia Arkanów": 0, "Skrzynia Mrocznych Omenów": 0, "Arachne": 0, "Krypta 5 poziomu": 0, "Krypta 10 poziomu": 0, "Krypta 15 poziomu": 0, "Krypta 20 poziomu": 0, "Krypta 25 poziomu": 4, "Epicka krypta 15 poziomu": 0, "Epicka krypta 20 poziomu": 10, "Epicka krypta 25 poziomu": 40, "Epicka krypta 30 poziomu": 100, "Epicka krypta 35 poziomu": 130, "Rzadka krypta 10 poziomu": 0, "Rzadka krypta 15 poziomu": 0, "Rzadka krypta 20 poziomu": 0, "Rzadka krypta 25 poziomu": 30, "Rzadka krypta 30 poziomu": 90, "Heroiczny potwor 16 poziomu": 0, "Heroiczny potwor 17 poziomu": 0, "Heroiczny potwor 18 poziomu": 0, "Heroiczny potwor 19 poziomu": 0, "Heroiczny potwor 20 poziomu": 0, "Heroiczny potwor 21 poziomu": 0, "Heroiczny potwor 22 poziomu": 0, "Heroiczny potwor 23 poziomu": 0, "Heroiczny potwor 24 poziomu": 0, "Heroiczny potwor 25 poziomu": 0, "Heroiczny potwor 26 poziomu": 0, "Heroiczny potwor 27 poziomu": 0, "Heroiczny potwor 28 poziomu": 0, "Heroiczny potwor 29 poziomu": 0, "Heroiczny potwor 30 poziomu": 0, "Heroiczny potwor 31 poziomu": 0, "Heroiczny potwor 32 poziomu": 0, "Heroiczny potwor 33 poziomu": 0, "Heroiczny potwor 34 poziomu": 0, "Heroiczny potwor 35 poziomu": 0, "Heroiczny potwor 36 poziomu": 0, "Heroiczny potwor 37 poziomu": 0, "Heroiczny potwor 38 poziomu": 0, "Heroiczny potwor 39 poziomu": 0, "Heroiczny potwor 40 poziomu": 0, "Heroiczny potwor 41 poziomu": 0, "Heroiczny potwor 42 poziomu": 0, "Heroiczny potwor 43 poziomu": 0, "Heroiczny potwor 44 poziomu": 0, "Heroiczny potwor 45 poziomu": 0, "Heroiczny potwor 46 poziomu": 0, "Epicki oddział inferno": 0, "Skrzynia z Twierdzy Elfów 10 poziomu": 0, "Skrzynia z Twierdzy Elfów 15 poziomu": 0, "Skrzynia z Twierdzy Elfów 20 poziomu": 0, "Skrzynia z Twierdzy Elfów 25 poziomu": 20, "Skrzynia z Twierdzy Elfów 30 poziomu": 80, "Skrzynia z Twierdzy Przeklętych 20 poziomu": 5, "Skrzynia z Twierdzy Przeklętych 25 poziomu": 10, "Epicki oddział nieumarłych": 0, "Epicki oddział Roju Arachne": 0, "Epicki oddział Briareosa": 0, "Epicki oddział jormungandów": 0, "Skrzynia Jormunganda": 0, "Epicki oddział fenrirów": 0, "Skrzynia Fenrira": 0, "Sklep Hermesa": 0, "Skrzynia Hermesa": 0, "Twierdza Elfów 10 poziomu": 0, "Twierdza Elfów 15 poziomu": 0, "Twierdza Elfów 20 poziomu": 0, "Twierdza Elfów 25 poziomu": 20, "Twierdza Elfów 30 poziomu": 80, "Twierdza Przeklętych 20 poziomu": 5, "Twierdza Przeklętych 25 poziomu": 10};
 const CURRENT_PERIOD_LABEL = "2026 23.08 - 30.08";
 
 const GOOGLE_CLIENT_ID = "575890140414-5geac03dcbv7vnmfcjdkg221gnpikab1.apps.googleusercontent.com";
@@ -1551,6 +1551,8 @@ function epicBossCategory(type, source) {
   const t = norm((type || '') + ' ' + (source || ''));
 
   if (t.includes('hermes') || t.includes('krypta')) return null;
+  if (/\bitemid\s+2085\b/.test(t) || t.includes('jormungand')) return 'jormungand';
+  if (/\bitemid\s+2084\b/.test(t) || t.includes('fenrir')) return 'fenrir';
   if (t.includes('briareos')) return 'briareos';
   if (t.includes('epicki oddzial inferno') || t.includes('epic inferno')) return 'inferno';
   if (t.includes('epicki oddzial nieumarlych') || t.includes('epic undead')) return 'nieumarli';
@@ -2030,6 +2032,8 @@ function renderArchiveEpics() {
               data-inferno="${x.inferno || 0}"
               data-nieumarli="${x.nieumarli || 0}"
               data-inne-epic="${x.inne_epic || 0}"
+              data-jormungand="${x.jormungand || 0}"
+              data-fenrir="${x.fenrir || 0}"
               data-total="${x.epickie || 0}"
               title="Najedź, aby zobaczyć fizyczne skrzynki Epic Bosses (Count)">${x.epickie}</td>
         `;
@@ -2435,7 +2439,9 @@ function buildEpicHistoryDate(currentRows, historyRows) {
       briareos: Number(r.briareos || 0),
       inferno: Number(r.inferno || 0),
       nieumarli: Number(r.nieumarli || 0),
-      inne_epic: Number(r.inne_epic || 0)
+      inne_epic: Number(r.inne_epic || 0),
+      jormungand: Number(r.jormungand || 0),
+      fenrir: Number(r.fenrir || 0)
     });
   }
 
@@ -2462,13 +2468,15 @@ function buildEpicHistoryDate(currentRows, historyRows) {
     const inferno = num(h['Epicki oddział inferno']);
     const nieumarli = num(h['Epicki oddział nieumarłych']);
     const inne_epic = num(h['Inne Epic Bosses']);
+    const jormungand = num(h['Jormungand']);
+    const fenrir = num(h['Fenrir']);
 
     all.push({
       okres: historyPeriod,
       nick,
       punkty,
       // V164: Epic Bosses to liczba fizycznych skrzynek, zawsze suma szczegółów dymka.
-      epickie: ragnarok + arkana + omeny + arachne + miasto_cieni + sadny_dzien + yokai + briareos + inferno + nieumarli + inne_epic,
+      epickie: ragnarok + arkana + omeny + arachne + miasto_cieni + sadny_dzien + yokai + briareos + inferno + nieumarli + inne_epic + jormungand + fenrir,
       ragnarok,
       arkana,
       omeny,
@@ -2479,7 +2487,9 @@ function buildEpicHistoryDate(currentRows, historyRows) {
       briareos,
       inferno,
       nieumarli,
-      inne_epic
+      inne_epic,
+      jormungand,
+      fenrir
     });
   }
 
@@ -2620,6 +2630,8 @@ function renderEpicHistoryFromGlobal() {
               data-inferno="${x.inferno || 0}"
               data-nieumarli="${x.nieumarli || 0}"
               data-inne-epic="${x.inne_epic || 0}"
+              data-jormungand="${x.jormungand || 0}"
+              data-fenrir="${x.fenrir || 0}"
               data-total="${x.epickie || 0}"
               title="Najedź, aby zobaczyć fizyczne skrzynki Epic Bosses (Count)">${x.epickie}</td>
         `;
@@ -2715,6 +2727,8 @@ function showEpicTooltip(cell, clientX, clientY) {
   const inferno = Number(cell.dataset.inferno || 0);
   const nieumarli = Number(cell.dataset.nieumarli || 0);
   const inneEpic = Number(cell.dataset.inneEpic || 0);
+  const jormungand = Number(cell.dataset.jormungand || 0);
+  const fenrir = Number(cell.dataset.fenrir || 0);
   const total = Number(cell.dataset.total || 0);
 
   tooltip.innerHTML = `
@@ -2731,6 +2745,8 @@ function showEpicTooltip(cell, clientX, clientY) {
       <tr><td>Epicki oddział inferno</td><td>${inferno}</td></tr>
       <tr><td>Epicki oddział nieumarłych</td><td>${nieumarli}</td></tr>
       <tr><td>Inne Epic Bosses</td><td>${inneEpic}</td></tr>
+      <tr><td>Jormungand</td><td>${jormungand}</td></tr>
+      <tr><td>Fenrir</td><td>${fenrir}</td></tr>
       <tr><td><strong>Epic Bosses — razem</strong></td><td><strong>${total}</strong></td></tr>
     </table>
     <div class="package-tooltip-hint">Fizyczne skrzynki (Count) z podziałem na wszystkie kategorie Epic Bosses.</div>
@@ -2899,7 +2915,9 @@ async function run() {
         briareos: 0,
         inferno: 0,
         nieumarli: 0,
-        inne_epic: 0
+        inne_epic: 0,
+        jormungand: 0,
+        fenrir: 0
       });
     }
 
@@ -2932,7 +2950,9 @@ async function run() {
         Number(p.briareos || 0) +
         Number(p.inferno || 0) +
         Number(p.nieumarli || 0) +
-        Number(p.inne_epic || 0);
+        Number(p.inne_epic || 0) +
+        Number(p.jormungand || 0) +
+        Number(p.fenrir || 0);
       return { nick, ...p };
     });
 

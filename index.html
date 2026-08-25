@@ -896,7 +896,7 @@ table td.player,
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 25.08.2026 22:14</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 25.08.2026 22:49</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms</h1>
@@ -1544,7 +1544,7 @@ function displayNick(raw) {
 
 function norm(s) {
   return (s ?? '').toString().trim().toLowerCase()
-    .normalize('NFD').replace(/[\\u0300-\\u036f]/g, '');
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/ł/g, 'l');
 }
 
 function epicBossCategory(type, source) {
@@ -2115,7 +2115,7 @@ function displayPeriodLabel(label) {
 
 function parsePeriodStart(label) {
   // format: "2026 09.08 - 16.08"
-  const m = (label || '').match(/(\\d4)\\s+(\\d(1, 2))\\.(\\d(1, 2))/);
+  const m = (label || '').match(/(\d4)\s+(\d(1, 2))\.(\d(1, 2))/);
   if (!m) return 0;
   const year = Number(m[1]);
   const day = Number(m[2]);

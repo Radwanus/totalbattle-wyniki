@@ -896,7 +896,7 @@ table td.player,
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 25.08.2026 17:58</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 25.08.2026 18:48</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms</h1>
@@ -2186,14 +2186,18 @@ function buildWeeklyHistoryDate(currentRows, historyRows) {
     });
   }
 
-  // V139: historia — zachowujemy także wpisy z 0 punktów.
+  // V165: historia służy WYŁĄCZNIE zakończonym tygodniom.
+  // Wpis Historii z CURRENT_PERIOD_LABEL nie może nadpisać świeżych
+  // wartości policzonych wyżej bezpośrednio z dane_paczek.json.
   for (const h of historyRows || []) {
+    const historyPeriod = (h['Period'] ?? h['Okres rozliczeniowy'] ?? '').trim();
+    if (!historyPeriod || historyPeriod === CURRENT_PERIOD_LABEL) continue;
+
     const nick = displayNick(h['Sender'] ?? h['Nadawca'] ?? '');
     if (!nick) continue;
 
     const num = (v) => Number.parseInt((v ?? '0').toString().replace(',', '.')) || 0;
     const punkty = num(h['Points'] ?? h['Punkty']);
-
 
     const zwykle = num(h['krypty zwykłe']);
     const rzadkie = num(h['krypty rzadkie']);
@@ -2201,7 +2205,7 @@ function buildWeeklyHistoryDate(currentRows, historyRows) {
     const twierdze = num(h['Twierdze']);
 
     all.push({
-      okres: (h['Period'] ?? h['Okres rozliczeniowy'] ?? '').trim(),
+      okres: historyPeriod,
       nick,
       punkty,
       krypty_zwykle: zwykle,
@@ -2337,7 +2341,9 @@ function renderWeeklyHistoryFromGlobal() {
     for (const p of periods) {
       const x = byKey.get(`${p}|||${nick}`);
 
-      if (x && x.punkty > 0) {
+      // V165: fizyczne Loot Boxes są niezależne od tego, czy punktacja wynosi 0.
+      // Jeśli istnieje rekord gracza w bieżącym okresie, pokazujemy realne Count i pełny dymek.
+      if (x) {
         const topSet = top3ByPeriod.get(p) || new Set();
         const pointClass = historyScoreClass(x.punkty, topSet.has(nick));
 
@@ -2355,7 +2361,7 @@ function renderWeeklyHistoryFromGlobal() {
           <td class="${pointClass}">${x.punkty}</td>
         `;
       } else {
-        // Nie pokazujemy wartości 0 — brak wyniku = pusty znak.
+        // Brak rekordu dla gracza/okresu = brak danych.
         html += '<td>—</td><td>—</td>';
       }
     }
@@ -2433,8 +2439,12 @@ function buildEpicHistoryDate(currentRows, historyRows) {
     });
   }
 
-  // Zakończone tygodnie
+  // V165: historia zasila tylko zakończone tygodnie.
+  // Bieżący okres zawsze pochodzi ze świeżego dane_paczek.json.
   for (const h of historyRows || []) {
+    const historyPeriod = (h['Period'] ?? h['Okres rozliczeniowy'] ?? '').trim();
+    if (!historyPeriod || historyPeriod === CURRENT_PERIOD_LABEL) continue;
+
     const nick = displayNick(h['Sender'] ?? h['Nadawca'] ?? '');
     if (!nick) continue;
 
@@ -2454,7 +2464,7 @@ function buildEpicHistoryDate(currentRows, historyRows) {
     const inne_epic = num(h['Inne Epic Bosses']);
 
     all.push({
-      okres: (h['Period'] ?? h['Okres rozliczeniowy'] ?? '').trim(),
+      okres: historyPeriod,
       nick,
       punkty,
       // V164: Epic Bosses to liczba fizycznych skrzynek, zawsze suma szczegółów dymka.

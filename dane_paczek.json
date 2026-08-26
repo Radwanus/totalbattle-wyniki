@@ -185569,5 +185569,41 @@
     "Źródło": "Epicka krypta 30 poziomu",
     "Punkty": "100",
     "Count": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-26 19:06:17",
+    "Typ": "ItemId 1244",
+    "Nadawca": "TUFUR",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-26 19:06:35",
+    "Typ": "ItemId 1244",
+    "Nadawca": "VLD",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-26 19:06:38",
+    "Typ": "ItemId 1244",
+    "Nadawca": "Konserwiusz",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-26 19:06:41",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Piotrek 1",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1"
   }
 ]

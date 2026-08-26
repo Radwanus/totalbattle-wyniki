@@ -896,7 +896,7 @@ table td.player,
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 26.08.2026 20:12</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 26.08.2026 20:26</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms</h1>
@@ -1939,7 +1939,7 @@ function renderArchiveCrypts() {
 
   let h2 = '<tr>';
   for (const _ of periods) {
-    h2 += '<th>Loot Boxes</th><th>Points</th><th>Pozycja w rankingu</th>';
+    h2 += '<th>Loot Boxes</th><th>Points</th><th>Position in the ranking</th>';
   }
   h2 += '</tr>';
 
@@ -2005,7 +2005,7 @@ function renderArchiveEpics() {
 
   let h2 = '<tr>';
   for (const _ of periods) {
-    h2 += '<th>Epic Bosses</th><th>Pozycja w rankingu</th>';
+    h2 += '<th>Epic Bosses</th><th>Position in the ranking</th>';
   }
   h2 += '</tr>';
 
@@ -2350,7 +2350,7 @@ function renderWeeklyHistoryFromGlobal() {
           onclick="setHistorySort('period', '${escapeHtmlAttr(p)}', 'punkty')">
         Points <span class="sort-arrow">${pointArrow}</span>
       </th>
-      <th>Pozycja w rankingu</th>
+      <th>Position in the ranking</th>
     `;
   }
   h2 += '</tr>';
@@ -2618,7 +2618,7 @@ function renderEpicHistoryFromGlobal() {
           onclick="setEpicHistorySort('period', '${escapeHtmlAttr(p)}', 'epickie')">
         Epic Bosses <span class="sort-arrow">${totalArrow}</span>
       </th>
-      <th>Pozycja w rankingu</th>
+      <th>Position in the ranking</th>
     `;
   }
   h2 += '</tr>';

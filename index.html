@@ -896,7 +896,7 @@ table td.player,
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 26.08.2026 19:27</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 26.08.2026 20:11</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms</h1>
@@ -1934,12 +1934,12 @@ function renderArchiveCrypts() {
   const body = document.getElementById('archive-krypty-body');
 
   let h1 = '<tr><th class="player" rowspan="2">Players</th>';
-  for (const p of periods) h1 += `<th colspan="2">${displayPeriodLabel(p)}</th>`;
+  for (const p of periods) h1 += `<th colspan="3">${displayPeriodLabel(p)}</th>`;
   h1 += '</tr>';
 
   let h2 = '<tr>';
   for (const _ of periods) {
-    h2 += '<th>Loot Boxes</th><th>Points</th>';
+    h2 += '<th>Loot Boxes</th><th>Points</th><th>Pozycja w rankingu</th>';
   }
   h2 += '</tr>';
 
@@ -1963,9 +1963,10 @@ function renderArchiveCrypts() {
               data-total="${x.paczki || 0}"
               title="Najedź, aby zobaczyć rodzaje krypt">${x.paczki}</td>
           <td>${x.punkty}</td>
+          <td class="rank-cell">${v173RankForPeriod(p, nick)}</td>
         `;
       } else {
-        html += '<td>—</td>';
+        html += '<td>—</td><td>—</td><td>—</td>';
       }
     }
 
@@ -1999,12 +2000,12 @@ function renderArchiveEpics() {
   const body = document.getElementById('archive-epiki-body');
 
   let h1 = '<tr><th class="player" rowspan="2">Players</th>';
-  for (const p of periods) h1 += `<th>${displayPeriodLabel(p)}</th>`;
+  for (const p of periods) h1 += `<th colspan="2">${displayPeriodLabel(p)}</th>`;
   h1 += '</tr>';
 
   let h2 = '<tr>';
   for (const _ of periods) {
-    h2 += '<th>Epic Bosses</th>';
+    h2 += '<th>Epic Bosses</th><th>Pozycja w rankingu</th>';
   }
   h2 += '</tr>';
 
@@ -2036,9 +2037,10 @@ function renderArchiveEpics() {
               data-fenrir="${x.fenrir || 0}"
               data-total="${x.epickie || 0}"
               title="Najedź, aby zobaczyć fizyczne skrzynki Epic Bosses (Count)">${x.epickie}</td>
+          <td class="rank-cell">${v173RankForPeriod(p, nick)}</td>
         `;
       } else {
-        html += '<td>—</td>';
+        html += '<td>—</td><td>—</td>';
       }
     }
 
@@ -2122,6 +2124,23 @@ function parsePeriodStart(label) {
   const month = Number(m[3]);
   return new Date(year, month - 1, day).getTime();
 }
+
+function v173RankForPeriod(period, nick) {
+  const all = weeklyHistoryDateGlobal || [];
+  const byNick = new Map();
+  for (const x of all) {
+    if (x.okres !== period || !x.nick) continue;
+    byNick.set(x.nick, Number(x.punkty || 0));
+  }
+  if (!byNick.has(nick)) return '—';
+  const target = Number(byNick.get(nick) || 0);
+  let better = 0;
+  for (const points of byNick.values()) {
+    if (Number(points || 0) > target) better += 1;
+  }
+  return better + 1;
+}
+
 
 function historyScoreClass(value, isTop3) {
   if (isTop3 && value >= LIMIT_PUNKTOW) return 'cell-score-gold';
@@ -2313,7 +2332,7 @@ function renderWeeklyHistoryFromGlobal() {
   `;
 
   for (const p of periods) {
-    h1 += `<th colspan="2">${displayPeriodLabel(p)}</th>`;
+    h1 += `<th colspan="3">${displayPeriodLabel(p)}</th>`;
   }
   h1 += '</tr>';
 
@@ -2331,6 +2350,7 @@ function renderWeeklyHistoryFromGlobal() {
           onclick="setHistorySort('period', '${escapeHtmlAttr(p)}', 'punkty')">
         Points <span class="sort-arrow">${pointArrow}</span>
       </th>
+      <th>Pozycja w rankingu</th>
     `;
   }
   h2 += '</tr>';
@@ -2363,10 +2383,11 @@ function renderWeeklyHistoryFromGlobal() {
               title="Najedź, aby zobaczyć rodzaje krypt">${x.paczki}</td>
 
           <td class="${pointClass}">${x.punkty}</td>
+          <td class="rank-cell">${v173RankForPeriod(p, nick)}</td>
         `;
       } else {
         // Brak rekordu dla gracza/okresu = brak danych.
-        html += '<td>—</td><td>—</td>';
+        html += '<td>—</td><td>—</td><td>—</td>';
       }
     }
 
@@ -2584,7 +2605,7 @@ function renderEpicHistoryFromGlobal() {
   `;
 
   for (const p of periods) {
-    h1 += `<th>${displayPeriodLabel(p)}</th>`;
+    h1 += `<th colspan="2">${displayPeriodLabel(p)}</th>`;
   }
   h1 += '</tr>';
 
@@ -2597,6 +2618,7 @@ function renderEpicHistoryFromGlobal() {
           onclick="setEpicHistorySort('period', '${escapeHtmlAttr(p)}', 'epickie')">
         Epic Bosses <span class="sort-arrow">${totalArrow}</span>
       </th>
+      <th>Pozycja w rankingu</th>
     `;
   }
   h2 += '</tr>';
@@ -2634,9 +2656,10 @@ function renderEpicHistoryFromGlobal() {
               data-fenrir="${x.fenrir || 0}"
               data-total="${x.epickie || 0}"
               title="Najedź, aby zobaczyć fizyczne skrzynki Epic Bosses (Count)">${x.epickie}</td>
+          <td class="rank-cell">${v173RankForPeriod(p, nick)}</td>
         `;
       } else {
-        html += '<td>—</td>';
+        html += '<td>—</td><td>—</td>';
       }
     }
 

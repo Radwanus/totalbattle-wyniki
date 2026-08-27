@@ -258318,5 +258318,85 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "327de611e8aa8e17ef4c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-27 17:22:49",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Max72",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-27 17:23:00",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Ildanen",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "865e1ddb9398b80fcfee"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-27 17:23:10",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "ヤGANGSTERヤ",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "91e9806adb5b128d07e7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-27 17:23:19",
+    "Typ": "Skrzynia Jormunganda",
+    "Nadawca": "ヤGANGSTERヤ",
+    "Źródło": "Epicki oddział jormungandów",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "91e9806adb5b128d07e7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-27 17:23:19",
+    "Typ": "Skrzynia Jormunganda",
+    "Nadawca": "Little G",
+    "Źródło": "Epicki oddział jormungandów",
+    "Punkty": "0",
+    "Count": "6",
+    "PlayerKey": "46c96dda81f5b20d7ed9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-27 17:23:19",
+    "Typ": "Skrzynia Jormunganda",
+    "Nadawca": "KaNUyKuSu",
+    "Źródło": "Epicki oddział jormungandów",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "228cde099bbaa3090942"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-27 17:23:19",
+    "Typ": "Skrzynia Jormunganda",
+    "Nadawca": "Doctor Sleep",
+    "Źródło": "Epicki oddział jormungandów",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "1da739de3268c2024714"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-27 17:23:19",
+    "Typ": "Skrzynia Jormunganda",
+    "Nadawca": "Mario",
+    "Źródło": "Epicki oddział jormungandów",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "03547e958de090bf525f"
   }
 ]

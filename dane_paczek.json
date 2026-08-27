@@ -277678,5 +277678,65 @@
     "Punkty": "30",
     "Count": "1",
     "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-27 23:30:58",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Rzadka krypta 25 poziomu",
+    "Punkty": "30",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-27 23:31:11",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Rzadka krypta 25 poziomu",
+    "Punkty": "30",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-27 23:31:27",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-27 23:31:42",
+    "Typ": "ItemId 2060",
+    "Nadawca": "Szymuś",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "29912f64a12eb981cb92"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-27 23:31:53",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "All Father",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "3312a785fa52cc29a3b4"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-27 23:31:57",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
   }
 ]

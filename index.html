@@ -874,6 +874,53 @@ table td.player,
   }
 }
 
+
+/* ===== V177B WHEEL FRONTEND INTEGRATION ===== */
+.v177b-wheel-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+  width: 100%;
+}
+
+.v177b-table-column {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.v177b-wheel-frame {
+  display: block;
+  flex: 0 0 720px;
+  width: 720px;
+  height: 760px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  background: #050505;
+  box-sizing: border-box;
+}
+
+.v177b-winners-frame {
+  display: block;
+  width: 100%;
+  height: 650px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  background: #050505;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1350px) {
+  .v177b-wheel-layout {
+    flex-direction: column;
+  }
+
+  .v177b-wheel-frame {
+    width: 100%;
+    max-width: 760px;
+    flex-basis: auto;
+  }
+}
+
 </style>
 </head>
 <body>
@@ -883,6 +930,10 @@ table td.player,
     <a class="brand" href="#" onclick="openTotalBattleAutoLanguage(); return false;" title="Open Total Battle">⚔️ Total Battle</a>
     <a class="nav-item active" href="#" id="tab-wyniki" onclick="showTab('wyniki'); return false;">Crypts / Citadels</a>
     <a class="nav-item" href="#" id="tab-epickie" onclick="showTab('epickie'); return false;">Epic Bosses</a>
+    <a class="nav-item"
+       href="#"
+       id="tab-winners"
+       onclick="showV177BWinners(); return false;">Winners</a>
     <a class="nav-item" href="#" id="tab-szczegoly" onclick="showTab('szczegoly'); return false;">Details</a>
     <a class="nav-item" href="#" id="tab-punktacja" onclick="showTab('punktacja'); return false;">Scoring</a>
     <a class="nav-item" href="#" id="tab-archiwum" onclick="showTab('archiwum'); return false;">Archives</a>
@@ -896,7 +947,7 @@ table td.player,
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 27.08.2026 18:03</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 27.08.2026 19:35</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms</h1>
@@ -913,7 +964,9 @@ table td.player,
     <div class="controls" style="margin-top:0;">
       <h2 class="title">Crypts / Citadels</h2>
     </div>
-    <div class="table-limit-center limit-points">Point limit ≥ 20000</div>
+    <div class="v177b-wheel-layout">
+      <div class="v177b-table-column">
+<div class="table-limit-center limit-points">Point limit ≥ 20000</div>
     <div class="table-wrap" id="weekly-table-wrap">
       <table id="weekly-history-table">
         <thead id="weekly-history-head"></thead>
@@ -924,6 +977,9 @@ table td.player,
       <div class="bottom-scroll-inner" id="weekly-bottom-scroll-inner"></div>
     </div>
     <div class="summary" id="summary"></div>
+      </div>
+      <iframe class="v177b-wheel-frame" src="wheel.html?embed=crypt" title="Wheel of Fortune - crypt" loading="eager"></iframe>
+    </div>
   </section>
 
   <section id="view-epickie" class="tab-view">
@@ -931,7 +987,9 @@ table td.player,
       <h2 class="title">Epic Bosses</h2>
     </div>
 
-    <div class="table-limit-center limit-epic">Epic pack limit ≥ 100</div>
+    <div class="v177b-wheel-layout">
+      <div class="v177b-table-column">
+<div class="table-limit-center limit-epic">Epic pack limit ≥ 100</div>
     <div class="table-wrap" id="epic-table-wrap">
       <table id="epic-history-table">
         <thead id="epic-history-head"></thead>
@@ -941,9 +999,24 @@ table td.player,
     <div class="bottom-scroll" id="epic-bottom-scroll">
       <div class="bottom-scroll-inner" id="epic-bottom-scroll-inner"></div>
     </div>
+      </div>
+      <iframe class="v177b-wheel-frame" src="wheel.html?embed=epic" title="Wheel of Fortune - epic" loading="eager"></iframe>
+    </div>
   </section>
 
-  <section id="view-szczegoly" class="tab-view">
+  
+  <section id="view-winners" class="tab-view">
+    <div class="controls" style="margin-top:0;">
+      <h2 class="title">Winners</h2>
+    </div>
+
+    <iframe class="v177b-winners-frame"
+            src="wheel.html?embed=winners"
+            title="Wheel of Fortune Winners"
+            loading="eager"></iframe>
+  </section>
+
+<section id="view-szczegoly" class="tab-view">
     <div class="controls" style="margin-top:0;">
       <h2 class="title">Details</h2>
     </div>
@@ -3103,6 +3176,38 @@ run().catch(err => {
     '<tr><td colspan="6" class="empty">Błąd wczytywania danych: ' + err + '</td></tr>';
   document.getElementById('tbody-szczegoly').innerHTML =
     '<tr><td colspan="5" class="empty">Błąd wczytywania danych: ' + err + '</td></tr>';
+});
+</script>
+
+
+<script>
+/* V177B WHEEL FRONTEND INTEGRATION */
+function showV177BWinners() {
+  document.querySelectorAll('.tab-view').forEach(function(el) {
+    el.classList.remove('active-view');
+  });
+
+  document.querySelectorAll('.nav-item').forEach(function(el) {
+    el.classList.remove('active');
+  });
+
+  var view = document.getElementById('view-winners');
+  var tab = document.getElementById('tab-winners');
+
+  if (view) view.classList.add('active-view');
+  if (tab) tab.classList.add('active');
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('.nav-item:not(#tab-winners)').forEach(function(el) {
+    el.addEventListener('click', function() {
+      var winnersView = document.getElementById('view-winners');
+      var winnersTab = document.getElementById('tab-winners');
+
+      if (winnersView) winnersView.classList.remove('active-view');
+      if (winnersTab) winnersTab.classList.remove('active');
+    });
+  });
 });
 </script>
 

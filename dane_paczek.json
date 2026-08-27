@@ -281368,5 +281368,195 @@
     "Punkty": "90",
     "Count": "1",
     "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-28 00:36:59",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "Mustafa cimbombom",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "448ab8ed04708bcb3345"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-28 00:37:00",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-28 00:37:06",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Cahir",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "327de611e8aa8e17ef4c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-28 00:37:15",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-28 00:37:32",
+    "Typ": "ItemId 2060",
+    "Nadawca": "Jedi Qui Gon Jinn",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "cc518556cc44310be810"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-28 00:37:43",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Rzadka krypta 25 poziomu",
+    "Punkty": "30",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-28 00:37:45",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Cahir",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "327de611e8aa8e17ef4c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-28 00:38:01",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "Mustafa cimbombom",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "448ab8ed04708bcb3345"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-28 00:38:04",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-28 00:38:20",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Cahir",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "327de611e8aa8e17ef4c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-28 00:38:35",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-28 00:38:40",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "Mustafa cimbombom",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "448ab8ed04708bcb3345"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-28 00:38:42",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Cahir",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "327de611e8aa8e17ef4c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-28 00:38:46",
+    "Typ": "ItemId 2060",
+    "Nadawca": "Jedi Qui Gon Jinn",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "cc518556cc44310be810"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-28 00:38:58",
+    "Typ": "ItemId 2060",
+    "Nadawca": "janos88",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3b11e53512c8ea33b126"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-28 00:38:58",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Cahir",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "327de611e8aa8e17ef4c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-28 00:39:10",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-28 00:39:28",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "Mustafa cimbombom",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "448ab8ed04708bcb3345"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-28 00:39:41",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Cahir",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "327de611e8aa8e17ef4c"
   }
 ]

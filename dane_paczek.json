@@ -276218,5 +276218,45 @@
     "Punkty": "90",
     "Count": "1",
     "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-27 23:05:53",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Arek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "394e8b5667748eb6bfd3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-27 23:05:56",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "RestInPeace",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "5251f5d4a492761e9741"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-27 23:06:00",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-27 23:06:04",
+    "Typ": "ItemId 701010",
+    "Nadawca": "Szymuś",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "29912f64a12eb981cb92"
   }
 ]

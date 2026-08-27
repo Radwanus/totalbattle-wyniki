@@ -270018,5 +270018,35 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-27 21:17:50",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Pumba",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "b445d588a166843e7d6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-27 21:17:57",
+    "Typ": "ItemId 701010",
+    "Nadawca": "WOJTUS",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3d476999a1883ef73b71"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-27 21:18:07",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Domino",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "a4d9cc04ceaa47510b5e"
   }
 ]

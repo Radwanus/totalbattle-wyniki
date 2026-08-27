@@ -278608,5 +278608,65 @@
     "Punkty": "30",
     "Count": "1",
     "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-27 23:52:09",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-27 23:52:10",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Painfont",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-27 23:52:26",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "Mustafa cimbombom",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "448ab8ed04708bcb3345"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-27 23:52:30",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-27 23:52:31",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Domino",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "a4d9cc04ceaa47510b5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-27 23:52:55",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Painfont",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "5d911333f80adab41eb8"
   }
 ]

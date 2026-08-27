@@ -896,7 +896,7 @@ table td.player,
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 27.08.2026 16:48</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 27.08.2026 17:10</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms</h1>
@@ -1977,6 +1977,76 @@ function renderArchiveCrypts() {
   bindPackageTooltips();
 }
 
+
+// ============================================================
+// V175 SEPARATE EPIC RANKING
+//
+// Crypts:
+//   v173RankForPeriod(...) -> Points
+//
+// Epic Bosses:
+//   v175EpicRankForPeriod(...) -> physical Epic Count
+//
+// Competition ranking:
+//   100 -> 1
+//    90 -> 2
+//    90 -> 2
+//    70 -> 4
+// ============================================================
+
+function v175EpicRankForPeriod(byKey, period, nick) {
+  if (!byKey || typeof byKey.get !== 'function') {
+    return '—';
+  }
+
+  const key =
+    String(period) + '|||' + String(nick);
+
+  const target = byKey.get(key);
+
+  if (!target) {
+    return '—';
+  }
+
+  const rawTarget = Number(
+    target.epickie || 0
+  );
+
+  const targetValue =
+    Number.isFinite(rawTarget)
+      ? rawTarget
+      : 0;
+
+  let rank = 1;
+
+  for (const x of byKey.values()) {
+    if (!x) continue;
+
+    if (
+      String(x.okres || '') !==
+      String(period || '')
+    ) {
+      continue;
+    }
+
+    const rawValue = Number(
+      x.epickie || 0
+    );
+
+    const value =
+      Number.isFinite(rawValue)
+        ? rawValue
+        : 0;
+
+    if (value > targetValue) {
+      rank += 1;
+    }
+  }
+
+  return rank;
+}
+
+
 function renderArchiveEpics() {
   const rows = epicHistoryDateGlobal || [];
   const historyOnly = rows.filter(
@@ -2037,7 +2107,7 @@ function renderArchiveEpics() {
               data-fenrir="${x.fenrir || 0}"
               data-total="${x.epickie || 0}"
               title="Najedź, aby zobaczyć fizyczne skrzynki Epic Bosses (Count)">${x.epickie}</td>
-          <td class="rank-cell">${v173RankForPeriod(p, nick)}</td>
+          <td class="rank-cell">${v175EpicRankForPeriod(byKey, p, nick)}</td>
         `;
       } else {
         html += '<td>—</td><td>—</td>';
@@ -2656,7 +2726,7 @@ function renderEpicHistoryFromGlobal() {
               data-fenrir="${x.fenrir || 0}"
               data-total="${x.epickie || 0}"
               title="Najedź, aby zobaczyć fizyczne skrzynki Epic Bosses (Count)">${x.epickie}</td>
-          <td class="rank-cell">${v173RankForPeriod(p, nick)}</td>
+          <td class="rank-cell">${v175EpicRankForPeriod(byKey, p, nick)}</td>
         `;
       } else {
         html += '<td>—</td><td>—</td>';

@@ -276908,5 +276908,35 @@
     "Punkty": "30",
     "Count": "1",
     "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-27 23:16:33",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Emma",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "91bce92a50014246b125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-27 23:16:50",
+    "Typ": "ItemId 2060",
+    "Nadawca": "Scorpion",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "4a23112ad05733bec9fd"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-27 23:16:53",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
   }
 ]

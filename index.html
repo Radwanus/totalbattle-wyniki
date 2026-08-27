@@ -890,8 +890,8 @@ table td.player,
 
 .v177b-wheel-frame {
   display: block;
-  flex: 0 0 980px;
-  width: 980px;
+  flex: 0 0 900px;
+  width: 900px;
   height: 820px;
   border: 1px solid #333;
   border-radius: 10px;
@@ -916,7 +916,7 @@ table td.player,
 
   .v177b-wheel-frame {
     width: 100%;
-    max-width: 980px;
+    max-width: 900px;
     flex-basis: auto;
   }
 }
@@ -967,6 +967,44 @@ table td.player,
   }
 }
 
+
+
+/* ===== V177C3 RANKING COLUMN VISIBILITY ===== */
+
+/* Lewa cz ma wystarczajco duo miejsca na komplet 4 kolumn. */
+#view-wyniki .v177b-table-column {
+  min-width: 535px !important;
+}
+
+/* Position in the ranking nie moe zosta cinite. */
+#weekly-history-table th:nth-child(4),
+#weekly-history-table td:nth-child(4) {
+  min-width: 120px !important;
+  width: 120px !important;
+  max-width: 120px !important;
+  box-sizing: border-box !important;
+}
+
+/* Na desktopie nie chcemy poziomego przewijania,
+   jeli pena tabela mieci si obok koa. */
+@media (min-width: 1351px) {
+  #view-wyniki #weekly-table-wrap {
+    overflow-x: visible !important;
+  }
+}
+
+/* Telefon pozostaje responsywny i moe przewija tabel poziomo. */
+@media (max-width: 700px) {
+  #view-wyniki .v177b-table-column {
+    min-width: 0 !important;
+  }
+
+  #view-wyniki #weekly-table-wrap {
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
 </style>
 </head>
 <body>
@@ -993,7 +1031,7 @@ table td.player,
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 27.08.2026 19:57</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 27.08.2026 20:01</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms</h1>

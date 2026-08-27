@@ -257628,5 +257628,25 @@
     "Punkty": "0",
     "Count": "3",
     "PlayerKey": "0dc31a9c73dcd599c691"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-27 17:10:45",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Max72",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-27 17:10:55",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Arashiran",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "ee1fdbf4964c53453785"
   }
 ]

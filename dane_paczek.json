@@ -348678,5 +348678,25 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "6f9006dd095735ea99a9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 01:45:18",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "Scorpion",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "4a23112ad05733bec9fd"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 01:46:03",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Scorpion",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "4a23112ad05733bec9fd"
   }
 ]

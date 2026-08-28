@@ -343228,5 +343228,45 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "a4d9cc04ceaa47510b5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-28 23:33:41",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Mustafa cimbombom",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "448ab8ed04708bcb3345"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-28 23:34:31",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Mustafa cimbombom",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "448ab8ed04708bcb3345"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-28 23:34:46",
+    "Typ": "Skrzynia Warsztatu Gnomów",
+    "Nadawca": "Aegnor",
+    "Źródło": "Krypta 10 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "75472fc3379be2cfb042"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-28 23:34:47",
+    "Typ": "Skrzynia Orków",
+    "Nadawca": "Aegnor",
+    "Źródło": "Krypta 10 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "75472fc3379be2cfb042"
   }
 ]

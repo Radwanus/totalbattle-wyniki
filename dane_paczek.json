@@ -294288,5 +294288,65 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "24d65d586acbdf6f930e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-28 06:06:27",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Olginad",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ef961d78fad6c266872a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-28 06:06:50",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Rili",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "24d65d586acbdf6f930e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-28 06:07:05",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Olginad",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ef961d78fad6c266872a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-28 06:07:22",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Rili",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "24d65d586acbdf6f930e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-28 06:07:33",
+    "Typ": "ItemId 2060",
+    "Nadawca": "Androzar",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3a4cb18a2d1a16c9c02b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-28 06:07:44",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "Olginad",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ef961d78fad6c266872a"
   }
 ]

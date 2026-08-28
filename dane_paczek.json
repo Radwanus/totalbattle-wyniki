@@ -343188,5 +343188,45 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "a4d9cc04ceaa47510b5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-28 23:32:51",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Szybki Kriss",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "49bc493bb219270d30fc"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-28 23:33:02",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Mustafa cimbombom",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "448ab8ed04708bcb3345"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-28 23:33:07",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Éomer",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "8fb45f09445785ab6654"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-28 23:33:22",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Domino",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "a4d9cc04ceaa47510b5e"
   }
 ]

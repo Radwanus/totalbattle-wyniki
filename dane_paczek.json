@@ -343488,5 +343488,55 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "e5b8495dc8f8d8736c78"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-28 23:40:00",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Little G",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "46c96dda81f5b20d7ed9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-28 23:40:05",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Arek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "394e8b5667748eb6bfd3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-28 23:40:07",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "Barbarella666",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "e5b8495dc8f8d8736c78"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-28 23:40:08",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Little G",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "46c96dda81f5b20d7ed9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-28 23:40:19",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Little G",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "46c96dda81f5b20d7ed9"
   }
 ]

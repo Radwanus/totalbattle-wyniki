@@ -348118,5 +348118,25 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "6f9006dd095735ea99a9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 00:51:45",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "OSA",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "6f9006dd095735ea99a9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 00:52:01",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "ALEX 82",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "8210d0e3cc68669c5208"
   }
 ]

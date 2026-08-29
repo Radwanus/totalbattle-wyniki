@@ -351448,5 +351448,45 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "0ac6b794e655966c923f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 06:55:51",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "VLD",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "d54588a077b9aa5b871a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 06:56:10",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Seda",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "dae3507af1b4dd1392af"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 06:56:23",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Kariel",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "0ac6b794e655966c923f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 06:56:34",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "VLD",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "d54588a077b9aa5b871a"
   }
 ]

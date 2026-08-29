@@ -363848,5 +363848,55 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "dae3507af1b4dd1392af"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 10:46:08",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Jedi Qui Gon Jinn",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "cc518556cc44310be810"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 10:46:12",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Serafino",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "25fd16f36bf014d81ed7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 10:46:15",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Bantysto",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "7ec9423d816a1b73f07e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 10:46:22",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Serafino",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "25fd16f36bf014d81ed7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 10:46:33",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Jedi Qui Gon Jinn",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "cc518556cc44310be810"
   }
 ]

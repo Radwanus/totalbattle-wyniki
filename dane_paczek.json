@@ -379318,5 +379318,25 @@
     "Punkty": "4",
     "Count": "1",
     "PlayerKey": "a851d5c740ddb224897c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 17:00:33",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "abrej22",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "a851d5c740ddb224897c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 17:00:47",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "abrej22",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "a851d5c740ddb224897c"
   }
 ]

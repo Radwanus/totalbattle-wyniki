@@ -348878,5 +348878,45 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "fb1c981a98da28792d33"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 01:59:35",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "MnA",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fb1c981a98da28792d33"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 01:59:43",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Centri",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "3a22feceb9cf2de7eca8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 01:59:44",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "ALEX 82",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 02:00:07",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "MnA",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fb1c981a98da28792d33"
   }
 ]

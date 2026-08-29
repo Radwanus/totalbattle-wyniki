@@ -354778,5 +354778,35 @@
     "Punkty": "90",
     "Count": "1",
     "PlayerKey": "b445d588a166843e7d6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 08:06:45",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Mieciu",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "5523e42cd1d58a7a7936"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 08:06:47",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "Rili",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "24d65d586acbdf6f930e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 08:07:22",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "Rili",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "24d65d586acbdf6f930e"
   }
 ]

@@ -378808,5 +378808,45 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "91bce92a50014246b125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 16:32:25",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Ildanen",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "865e1ddb9398b80fcfee"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 16:32:33",
+    "Typ": "Skrzynia z Twierdzy Elfów",
+    "Nadawca": "Ildanen",
+    "Źródło": "Twierdza 30 poziomu",
+    "Punkty": "80",
+    "Count": "1",
+    "PlayerKey": "865e1ddb9398b80fcfee"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 16:32:37",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Ildanen",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "865e1ddb9398b80fcfee"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 16:32:52",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "Emma",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "91bce92a50014246b125"
   }
 ]

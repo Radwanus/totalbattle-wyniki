@@ -354908,5 +354908,45 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "a851d5c740ddb224897c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 08:13:11",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "Tojak",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "805f3f04e34bedb658f4"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 08:13:14",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "abrej22",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "a851d5c740ddb224897c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 08:13:15",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Tojak",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "805f3f04e34bedb658f4"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 08:13:33",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "abrej22",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "a851d5c740ddb224897c"
   }
 ]

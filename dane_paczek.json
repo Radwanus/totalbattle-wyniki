@@ -382028,5 +382028,45 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "8fb45f09445785ab6654"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 18:18:25",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "RaFSaN RaFi",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "c101c6308abfb10e36ef"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 18:18:30",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "RaFSaN RaFi",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "c101c6308abfb10e36ef"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 18:18:33",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Mario",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "03547e958de090bf525f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 18:18:33",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Juana la loca",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "dc7aa45f448f22adfe4d"
   }
 ]

@@ -370818,5 +370818,125 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "448ab8ed04708bcb3345"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 13:01:23",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Éomer",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8fb45f09445785ab6654"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 13:01:36",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Nerdailas",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "cb920a76b7f747a54aff"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 13:01:40",
+    "Typ": "Kościana Skrzynia",
+    "Nadawca": "RestInPeace",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "5251f5d4a492761e9741"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 13:01:47",
+    "Typ": "Skrzynia Orków",
+    "Nadawca": "RestInPeace",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "5251f5d4a492761e9741"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 13:02:04",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Mustafa cimbombom",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "448ab8ed04708bcb3345"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 13:02:17",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Nerdailas",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "cb920a76b7f747a54aff"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 13:02:17",
+    "Typ": "Elegancka Skrzynia",
+    "Nadawca": "RestInPeace",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "5251f5d4a492761e9741"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 13:02:18",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Éomer",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8fb45f09445785ab6654"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 13:02:29",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "Éomer",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8fb45f09445785ab6654"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 13:02:34",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "Domino",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "a4d9cc04ceaa47510b5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 13:02:40",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "EeLL",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "a15b608703c3ba6fe2da"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 13:02:40",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Éomer",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8fb45f09445785ab6654"
   }
 ]

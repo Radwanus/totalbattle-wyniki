@@ -379588,5 +379588,25 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "a851d5c740ddb224897c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 17:08:16",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Konserwiusz",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "21c8940b5d1d200fb005"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 17:12:03",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "RestInPeace",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "5251f5d4a492761e9741"
   }
 ]

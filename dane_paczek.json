@@ -374668,5 +374668,55 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "d54588a077b9aa5b871a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 14:09:10",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Juana la loca",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "dc7aa45f448f22adfe4d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 14:09:12",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "VLD",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "d54588a077b9aa5b871a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 14:09:19",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "iRfan",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "e5bc7939193cf10888b3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 14:09:27",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "VLD",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "d54588a077b9aa5b871a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 14:09:32",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "VLD",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "d54588a077b9aa5b871a"
   }
 ]

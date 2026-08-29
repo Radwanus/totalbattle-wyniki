@@ -375428,5 +375428,35 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "e363aa37cf47e1f42c58"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 14:40:16",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "WRX",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8e78f16c78795da40d8c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 14:40:18",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Mager",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "e363aa37cf47e1f42c58"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 14:40:24",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Mariano244",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "1da51b68f42324d68739"
   }
 ]

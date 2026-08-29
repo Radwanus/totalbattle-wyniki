@@ -375708,5 +375708,35 @@
     "Punkty": "90",
     "Count": "1",
     "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 14:44:55",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Mariano244",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "1da51b68f42324d68739"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 14:44:55",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Arfa",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "4828772199789880089d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 14:45:19",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "WRX",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8e78f16c78795da40d8c"
   }
 ]

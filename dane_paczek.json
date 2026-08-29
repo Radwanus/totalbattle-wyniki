@@ -377578,5 +377578,25 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "4828772199789880089d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 15:45:47",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "Arfa",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "4828772199789880089d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 15:45:53",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "Arfa",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "4828772199789880089d"
   }
 ]

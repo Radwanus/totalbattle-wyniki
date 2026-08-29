@@ -379118,5 +379118,25 @@
     "Punkty": "100",
     "Count": "1",
     "PlayerKey": "821531d29e661d88ca32"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 16:52:14",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Zarina",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "821531d29e661d88ca32"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 16:52:16",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Zarina",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "821531d29e661d88ca32"
   }
 ]

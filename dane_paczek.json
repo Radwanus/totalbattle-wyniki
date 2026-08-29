@@ -364648,5 +364648,45 @@
     "Punkty": "4",
     "Count": "1",
     "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 11:01:40",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "ALEX 82",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 11:02:09",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "Jedi Qui Gon Jinn",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "cc518556cc44310be810"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 11:02:26",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "ALEX 82",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 11:02:26",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Nerdailas",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "cb920a76b7f747a54aff"
   }
 ]

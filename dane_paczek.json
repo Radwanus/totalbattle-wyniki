@@ -374278,5 +374278,55 @@
     "Punkty": "90",
     "Count": "1",
     "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 14:03:36",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "iRfan",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "e5bc7939193cf10888b3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 14:03:37",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Juana la loca",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "dc7aa45f448f22adfe4d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 14:03:51",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Max72",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 14:03:54",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Androzar",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3a4cb18a2d1a16c9c02b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 14:04:00",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "VLD",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "d54588a077b9aa5b871a"
   }
 ]

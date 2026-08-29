@@ -355678,5 +355678,25 @@
     "Punkty": "0",
     "Count": "2",
     "PlayerKey": "49bc493bb219270d30fc"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 08:34:58",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Mr T R A P",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "2cf3a8ed585be212af23"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 08:35:07",
+    "Typ": "Skrzynia Kobry",
+    "Nadawca": "Rili",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "24d65d586acbdf6f930e"
   }
 ]

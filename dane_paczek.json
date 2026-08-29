@@ -376448,5 +376448,35 @@
     "Punkty": "90",
     "Count": "1",
     "PlayerKey": "4a23112ad05733bec9fd"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 15:14:34",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "EeLL",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "a15b608703c3ba6fe2da"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 15:14:38",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "EeLL",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "a15b608703c3ba6fe2da"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 15:14:55",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Scorpion",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "4a23112ad05733bec9fd"
   }
 ]

@@ -378768,5 +378768,25 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "91bce92a50014246b125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 16:30:44",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Juana la loca",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "dc7aa45f448f22adfe4d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 16:30:52",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Ildanen",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "865e1ddb9398b80fcfee"
   }
 ]

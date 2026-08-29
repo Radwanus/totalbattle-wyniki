@@ -373688,5 +373688,45 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "d54588a077b9aa5b871a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 13:53:24",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "VLD",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "d54588a077b9aa5b871a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 13:53:26",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "StaH",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 13:53:32",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "VLD",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "d54588a077b9aa5b871a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 13:53:44",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "EeLL",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "a15b608703c3ba6fe2da"
   }
 ]

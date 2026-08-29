@@ -375958,5 +375958,45 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "8e78f16c78795da40d8c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 14:50:26",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Nerdailas",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "cb920a76b7f747a54aff"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 14:50:39",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "Zarina",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "821531d29e661d88ca32"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 14:50:40",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "Zarina",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "821531d29e661d88ca32"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 14:50:42",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "Juana la loca",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "dc7aa45f448f22adfe4d"
   }
 ]

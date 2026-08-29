@@ -375598,5 +375598,115 @@
     "Punkty": "90",
     "Count": "1",
     "PlayerKey": "1da51b68f42324d68739"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 14:43:47",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Arfa",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "4828772199789880089d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 14:44:01",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Max72",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 14:44:03",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "WRX",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8e78f16c78795da40d8c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 14:44:12",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "Mariano244",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "1da51b68f42324d68739"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 14:44:23",
+    "Typ": "Zwykła Skrzynia Bogactwa",
+    "Nadawca": "Zarina",
+    "Źródło": "Bogactwo klanu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "821531d29e661d88ca32"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 14:44:23",
+    "Typ": "Niestandardowa Skrzynia Bogactwa",
+    "Nadawca": "Zarina",
+    "Źródło": "Bogactwo klanu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "821531d29e661d88ca32"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 14:44:23",
+    "Typ": "Rzadka Skrzynia Bogactwa",
+    "Nadawca": "Zarina",
+    "Źródło": "Bogactwo klanu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "821531d29e661d88ca32"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 14:44:23",
+    "Typ": "Epicka Skrzynia Bogactwa",
+    "Nadawca": "Zarina",
+    "Źródło": "Bogactwo klanu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "821531d29e661d88ca32"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 14:44:23",
+    "Typ": "Legendarna Skrzynia Bogactwa",
+    "Nadawca": "Zarina",
+    "Źródło": "Bogactwo klanu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "821531d29e661d88ca32"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 14:44:23",
+    "Typ": "Mityczna Skrzynia Bogactwa",
+    "Nadawca": "Zarina",
+    "Źródło": "Bogactwo klanu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "821531d29e661d88ca32"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 14:44:37",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Max72",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
   }
 ]

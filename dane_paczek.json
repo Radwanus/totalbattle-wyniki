@@ -356128,5 +356128,85 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "2cf3a8ed585be212af23"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 08:43:48",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Mario",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "03547e958de090bf525f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 08:43:50",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Szybki Kriss",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "49bc493bb219270d30fc"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 08:43:58",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "RAFAL PL",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ff001bef965a35cc675a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 08:44:00",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "Rili",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "24d65d586acbdf6f930e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 08:44:08",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "Szybki Kriss",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "49bc493bb219270d30fc"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 08:44:10",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "RaFSaN RaFi",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "c101c6308abfb10e36ef"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 08:44:15",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "Mr T R A P",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "2cf3a8ed585be212af23"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 08:44:21",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "Szybki Kriss",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "49bc493bb219270d30fc"
   }
 ]

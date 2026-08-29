@@ -371378,5 +371378,55 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 13:09:12",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "Éomer",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8fb45f09445785ab6654"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 13:09:13",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Éomer",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "8fb45f09445785ab6654"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 13:09:13",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "Domino",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "a4d9cc04ceaa47510b5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 13:09:16",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Nerdailas",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "cb920a76b7f747a54aff"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 13:09:23",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Éomer",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8fb45f09445785ab6654"
   }
 ]

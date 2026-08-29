@@ -376368,5 +376368,25 @@
     "Punkty": "90",
     "Count": "1",
     "PlayerKey": "4a23112ad05733bec9fd"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 15:04:13",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Nerdailas",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "cb920a76b7f747a54aff"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 15:04:16",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "RestInPeace",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "5251f5d4a492761e9741"
   }
 ]

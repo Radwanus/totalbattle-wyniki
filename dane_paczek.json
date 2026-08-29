@@ -351328,5 +351328,55 @@
     "Punkty": "4",
     "Count": "1",
     "PlayerKey": "0ac6b794e655966c923f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 06:32:15",
+    "Typ": "Zwykła Skrzynia Bogactwa",
+    "Nadawca": "Rain",
+    "Źródło": "Bogactwo klanu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "17513ddcb0f4db94a0f6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 06:32:15",
+    "Typ": "Niestandardowa Skrzynia Bogactwa",
+    "Nadawca": "Rain",
+    "Źródło": "Bogactwo klanu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "17513ddcb0f4db94a0f6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 06:32:15",
+    "Typ": "Rzadka Skrzynia Bogactwa",
+    "Nadawca": "Rain",
+    "Źródło": "Bogactwo klanu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "17513ddcb0f4db94a0f6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 06:32:15",
+    "Typ": "Epicka Skrzynia Bogactwa",
+    "Nadawca": "Rain",
+    "Źródło": "Bogactwo klanu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "17513ddcb0f4db94a0f6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 06:32:15",
+    "Typ": "Legendarna Skrzynia Bogactwa",
+    "Nadawca": "Rain",
+    "Źródło": "Bogactwo klanu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "17513ddcb0f4db94a0f6"
   }
 ]

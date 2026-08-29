@@ -365738,5 +365738,25 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "ba45562d23421d65eb5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 11:31:35",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Jedi Qui Gon Jinn",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "cc518556cc44310be810"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 11:31:43",
+    "Typ": "ItemId 700009",
+    "Nadawca": "Konserwiusz",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "21c8940b5d1d200fb005"
   }
 ]

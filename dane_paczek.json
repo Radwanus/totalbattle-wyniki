@@ -372598,5 +372598,45 @@
     "Punkty": "90",
     "Count": "1",
     "PlayerKey": "cb920a76b7f747a54aff"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 13:32:29",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "VLD",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "d54588a077b9aa5b871a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 13:32:38",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Juana la loca",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "dc7aa45f448f22adfe4d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 13:32:55",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Scorpion",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "4a23112ad05733bec9fd"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-29 13:33:06",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "VLD",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "d54588a077b9aa5b871a"
   }
 ]

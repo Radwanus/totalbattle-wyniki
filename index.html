@@ -1006,6 +1006,8 @@ table td.player,
 }
 
 </style>
+
+<!-- V194A UNIQUE ARCHIVE RANK + 74643 -->
 </head>
 <body>
 
@@ -1733,6 +1735,8 @@ function epicBossCategory(type, source) {
 
   if (t.includes('hermes') || t.includes('krypta')) return null;
   if (/\bitemid\s+2060\b/.test(t)) return 'sadny_dzien';
+  // V194A: ItemId 74643 / Epicki oddzial spopielonych -> Inne Epic Bosses.
+  if (/\bitemid\s+74643\b/.test(t) || t.includes('epicki oddzial spopielonych')) return 'inne_epic';
   if (/\bitemid\s+2085\b/.test(t) || t.includes('jormungand')) return 'jormungand';
   if (/\bitemid\s+2084\b/.test(t) || t.includes('fenrir')) return 'fenrir';
   if (t.includes('briareos')) return 'briareos';
@@ -2178,57 +2182,33 @@ function renderArchiveCrypts() {
 // ============================================================
 
 function v175EpicRankForPeriod(byKey, period, nick) {
-  if (!byKey || typeof byKey.get !== 'function') {
+  if (!byKey || typeof byKey.values !== 'function') {
     return '—';
   }
 
-  const key =
-    String(period) + '|||' + String(nick);
+  const rows = [...byKey.values()]
+    .filter(x => x && String(x.okres || '') === String(period || '') && x.nick);
 
-  const target = byKey.get(key);
+  rows.sort((a, b) => {
+    const de = Number(b.epickie || 0) - Number(a.epickie || 0);
+    if (de !== 0) return de;
 
-  if (!target) {
-    return '—';
-  }
+    const dp = Number(b.punkty || 0) - Number(a.punkty || 0);
+    if (dp !== 0) return dp;
 
-  const rawTarget = Number(
-    target.epickie || 0
-  );
+    const an = nickSortKey(a.nick);
+    const bn = nickSortKey(b.nick);
+    const byNick = an.localeCompare(bn, 'pl', { sensitivity: 'base', numeric: true });
+    if (byNick !== 0) return byNick;
 
-  const targetValue =
-    Number.isFinite(rawTarget)
-      ? rawTarget
-      : 0;
-
-  let rank = 1;
-
-  for (const x of byKey.values()) {
-    if (!x) continue;
-
-    if (
-      String(x.okres || '') !==
-      String(period || '')
-    ) {
-      continue;
-    }
-
-    const rawValue = Number(
-      x.epickie || 0
+    return String(a.nick).localeCompare(
+      String(b.nick), 'pl', { sensitivity: 'base', numeric: true }
     );
+  });
 
-    const value =
-      Number.isFinite(rawValue)
-        ? rawValue
-        : 0;
-
-    if (value > targetValue) {
-      rank += 1;
-    }
-  }
-
-  return rank;
+  const idx = rows.findIndex(x => String(x.nick) === String(nick));
+  return idx >= 0 ? idx + 1 : '—';
 }
-
 
 function renderArchiveEpics() {
   const rows = epicHistoryDateGlobal || [];
@@ -2379,46 +2359,28 @@ function parsePeriodStart(label) {
 }
 
 function v173RankForPeriod(period, nick) {
-  const all = weeklyHistoryDateGlobal || [];
-  const byNick = new Map();
-  for (const x of all) {
-    if (x.okres !== period || !x.nick) continue;
-    byNick.set(x.nick, Number(x.punkty || 0));
-  }
-  if (!byNick.has(nick)) return '—';
-  const target = Number(byNick.get(nick) || 0);
-  let better = 0;
-  for (const points of byNick.values()) {
-    if (Number(points || 0) > target) better += 1;
-  }
-  return better + 1;
-}
+  const rows = (weeklyHistoryDateGlobal || [])
+    .filter(x => x && String(x.okres || '') === String(period || '') && x.nick);
 
+  rows.sort((a, b) => {
+    const dp = Number(b.punkty || 0) - Number(a.punkty || 0);
+    if (dp !== 0) return dp;
 
+    const dl = Number(b.paczki || 0) - Number(a.paczki || 0);
+    if (dl !== 0) return dl;
 
-// ============================================================
-// V192 — limity zależne od okresu.
-// 30.08.2026+ : Crypts/Citadels 26000, Epic Bosses 150.
-// Starsze okresy: 20000 / 100.
-// ============================================================
-const V192_LIMIT_SWITCH_START = new Date(2026, 7, 30).getTime();
-const V192_LEGACY_LIMIT_PUNKTOW = 20000;
-const V192_LEGACY_LIMIT_EPICKICH = 100;
+    const an = nickSortKey(a.nick);
+    const bn = nickSortKey(b.nick);
+    const byKey = an.localeCompare(bn, 'pl', { sensitivity: 'base', numeric: true });
+    if (byKey !== 0) return byKey;
 
-function limitsForPeriod(period) {
-  const start = parsePeriodStart(period);
+    return String(a.nick).localeCompare(
+      String(b.nick), 'pl', { sensitivity: 'base', numeric: true }
+    );
+  });
 
-  if (start && start < V192_LIMIT_SWITCH_START) {
-    return {
-      points: V192_LEGACY_LIMIT_PUNKTOW,
-      epic: V192_LEGACY_LIMIT_EPICKICH
-    };
-  }
-
-  return {
-    points: LIMIT_PUNKTOW,
-    epic: LIMIT_EPICKICH
-  };
+  const idx = rows.findIndex(x => String(x.nick) === String(nick));
+  return idx >= 0 ? idx + 1 : '—';
 }
 
 function historyScoreClass(value, isTop3, period=CURRENT_PERIOD_LABEL) {

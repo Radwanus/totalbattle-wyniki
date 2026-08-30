@@ -415638,5 +415638,55 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "89abaf01d0870e8d1ebf"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-30 15:48:22",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "RestInPeace",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "5251f5d4a492761e9741"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-30 15:48:28",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Karolek",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "89abaf01d0870e8d1ebf"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-30 15:48:31",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "RestInPeace",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "5251f5d4a492761e9741"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-30 15:48:35",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Karolek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "89abaf01d0870e8d1ebf"
+  },
+  {
+    "Okres rozliczeniowy": "2026 23.08 - 30.08",
+    "Data": "2026-08-30 15:48:41",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Mario",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "03547e958de090bf525f"
   }
 ]

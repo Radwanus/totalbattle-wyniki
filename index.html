@@ -2381,6 +2381,31 @@ function v173RankForPeriod(period, nick) {
   return idx >= 0 ? idx + 1 : '—';
 }
 
+// ============================================================
+// V192 / V194E — limity zależne od okresu.
+// 30.08.2026+ : Crypts/Citadels 26000, Epic Bosses 150.
+// Starsze okresy: 20000 / 100.
+// ============================================================
+const V192_LIMIT_SWITCH_START = new Date(2026, 7, 30).getTime();
+const V192_LEGACY_LIMIT_PUNKTOW = 20000;
+const V192_LEGACY_LIMIT_EPICKICH = 100;
+
+function limitsForPeriod(period) {
+  const start = parsePeriodStart(period);
+
+  if (start && start < V192_LIMIT_SWITCH_START) {
+    return {
+      points: V192_LEGACY_LIMIT_PUNKTOW,
+      epic: V192_LEGACY_LIMIT_EPICKICH
+    };
+  }
+
+  return {
+    points: LIMIT_PUNKTOW,
+    epic: LIMIT_EPICKICH
+  };
+}
+
 function historyScoreClass(value, isTop3, period=CURRENT_PERIOD_LABEL) {
   const limit = limitsForPeriod(period).points;
   if (isTop3 && value >= limit) return 'cell-score-gold';
@@ -3268,7 +3293,7 @@ async function run() {
 }
 
 run().catch(err => {
-  document.getElementById('tbody').innerHTML =
+  document.getElementById('weekly-history-body').innerHTML =
     '<tr><td colspan="6" class="empty">Błąd wczytywania danych: ' + err + '</td></tr>';
   document.getElementById('epic-history-body').innerHTML =
     '<tr><td colspan="6" class="empty">Błąd wczytywania danych: ' + err + '</td></tr>';

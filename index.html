@@ -1031,7 +1031,7 @@ table td.player,
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 30.08.2026 18:41</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 30.08.2026 19:37</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms</h1>
@@ -1050,7 +1050,7 @@ table td.player,
     </div>
     <div class="v177b-wheel-layout">
       <div class="v177b-table-column">
-<div class="table-limit-center limit-points">Point limit ≥ 20000</div>
+<div class="table-limit-center limit-points">Point limit ≥ 26000</div>
     <div class="table-wrap" id="weekly-table-wrap">
       <table id="weekly-history-table">
         <thead id="weekly-history-head"></thead>
@@ -1073,7 +1073,7 @@ table td.player,
 
     <div class="v177b-wheel-layout">
       <div class="v177b-table-column">
-<div class="table-limit-center limit-epic">Epic pack limit ≥ 100</div>
+<div class="table-limit-center limit-epic">Epic pack limit ≥ 150</div>
     <div class="table-wrap" id="epic-table-wrap">
       <table id="epic-history-table">
         <thead id="epic-history-head"></thead>
@@ -1253,10 +1253,10 @@ table td.player,
 
 <script src="https://accounts.google.com/gsi/client" async defer></script>
 <script>
-const LIMIT_PUNKTOW = 20000;
-const LIMIT_EPICKICH = 100;
+const LIMIT_PUNKTOW = 26000;
+const LIMIT_EPICKICH = 150;
 const PUNKTACJA_PACZEK = {"Bank": 0, "Skrzynia Arkanów": 0, "Skrzynia Mrocznych Omenów": 0, "Arachne": 0, "Krypta 5 poziomu": 0, "Krypta 10 poziomu": 0, "Krypta 15 poziomu": 0, "Krypta 20 poziomu": 0, "Krypta 25 poziomu": 4, "Epicka krypta 15 poziomu": 0, "Epicka krypta 20 poziomu": 10, "Epicka krypta 25 poziomu": 40, "Epicka krypta 30 poziomu": 100, "Epicka krypta 35 poziomu": 130, "Rzadka krypta 10 poziomu": 0, "Rzadka krypta 15 poziomu": 0, "Rzadka krypta 20 poziomu": 0, "Rzadka krypta 25 poziomu": 30, "Rzadka krypta 30 poziomu": 90, "Heroiczny potwor 16 poziomu": 0, "Heroiczny potwor 17 poziomu": 0, "Heroiczny potwor 18 poziomu": 0, "Heroiczny potwor 19 poziomu": 0, "Heroiczny potwor 20 poziomu": 0, "Heroiczny potwor 21 poziomu": 0, "Heroiczny potwor 22 poziomu": 0, "Heroiczny potwor 23 poziomu": 0, "Heroiczny potwor 24 poziomu": 0, "Heroiczny potwor 25 poziomu": 0, "Heroiczny potwor 26 poziomu": 30, "Heroiczny potwor 27 poziomu": 30, "Heroiczny potwor 28 poziomu": 30, "Heroiczny potwor 29 poziomu": 30, "Heroiczny potwor 30 poziomu": 30, "Heroiczny potwor 31 poziomu": 30, "Heroiczny potwor 32 poziomu": 30, "Heroiczny potwor 33 poziomu": 30, "Heroiczny potwor 34 poziomu": 30, "Heroiczny potwor 35 poziomu": 30, "Heroiczny potwor 36 poziomu": 30, "Heroiczny potwor 37 poziomu": 30, "Heroiczny potwor 38 poziomu": 30, "Heroiczny potwor 39 poziomu": 30, "Heroiczny potwor 40 poziomu": 30, "Heroiczny potwor 41 poziomu": 60, "Heroiczny potwor 42 poziomu": 60, "Heroiczny potwor 43 poziomu": 60, "Heroiczny potwor 44 poziomu": 60, "Heroiczny potwor 45 poziomu": 60, "Heroiczny potwor 46 poziomu": 200, "Epicki oddział inferno": 0, "Skrzynia z Twierdzy Elfów 10 poziomu": 0, "Skrzynia z Twierdzy Elfów 15 poziomu": 0, "Skrzynia z Twierdzy Elfów 20 poziomu": 0, "Skrzynia z Twierdzy Elfów 25 poziomu": 20, "Skrzynia z Twierdzy Elfów 30 poziomu": 80, "Skrzynia z Twierdzy Przeklętych 20 poziomu": 5, "Skrzynia z Twierdzy Przeklętych 25 poziomu": 10, "Epicki oddział nieumarłych": 0, "Epicki oddział Roju Arachne": 0, "Epicki oddział Briareosa": 0, "Epicki oddział jormungandów": 0, "Skrzynia Jormunganda": 0, "Epicki oddział fenrirów": 0, "Skrzynia Fenrira": 0, "Sklep Hermesa": 0, "Skrzynia Hermesa": 0, "Twierdza Elfów 10 poziomu": 0, "Twierdza Elfów 15 poziomu": 0, "Twierdza Elfów 20 poziomu": 0, "Twierdza Elfów 25 poziomu": 20, "Twierdza Elfów 30 poziomu": 80, "Twierdza Przeklętych 20 poziomu": 5, "Twierdza Przeklętych 25 poziomu": 10};
-const CURRENT_PERIOD_LABEL = "2026 23.08 - 30.08";
+const CURRENT_PERIOD_LABEL = "2026 30.08 - 06.09";
 
 const GOOGLE_CLIENT_ID = "575890140414-5geac03dcbv7vnmfcjdkg221gnpikab1.apps.googleusercontent.com";
 const GOOGLE_DRIVE_SCOPE = "https://www.googleapis.com/auth/drive.metadata.readonly https://www.googleapis.com/auth/spreadsheets.readonly";
@@ -2395,10 +2395,37 @@ function v173RankForPeriod(period, nick) {
 }
 
 
-function historyScoreClass(value, isTop3) {
-  if (isTop3 && value >= LIMIT_PUNKTOW) return 'cell-score-gold';
-  if (value >= LIMIT_PUNKTOW) return 'cell-score-green';
-  if (value >= LIMIT_PUNKTOW * 0.5) return 'cell-score-blue';
+
+// ============================================================
+// V192 — limity zależne od okresu.
+// 30.08.2026+ : Crypts/Citadels 26000, Epic Bosses 150.
+// Starsze okresy: 20000 / 100.
+// ============================================================
+const V192_LIMIT_SWITCH_START = new Date(2026, 7, 30).getTime();
+const V192_LEGACY_LIMIT_PUNKTOW = 20000;
+const V192_LEGACY_LIMIT_EPICKICH = 100;
+
+function limitsForPeriod(period) {
+  const start = parsePeriodStart(period);
+
+  if (start && start < V192_LIMIT_SWITCH_START) {
+    return {
+      points: V192_LEGACY_LIMIT_PUNKTOW,
+      epic: V192_LEGACY_LIMIT_EPICKICH
+    };
+  }
+
+  return {
+    points: LIMIT_PUNKTOW,
+    epic: LIMIT_EPICKICH
+  };
+}
+
+function historyScoreClass(value, isTop3, period=CURRENT_PERIOD_LABEL) {
+  const limit = limitsForPeriod(period).points;
+  if (isTop3 && value >= limit) return 'cell-score-gold';
+  if (value >= limit) return 'cell-score-green';
+  if (value >= limit * 0.5) return 'cell-score-blue';
   return 'cell-score-red';
 }
 
@@ -2562,7 +2589,7 @@ function renderWeeklyHistoryFromGlobal() {
 
   for (const period of periods) {
     const ranked = all
-      .filter(x => x.okres === period && x.punkty >= LIMIT_PUNKTOW)
+      .filter(x => x.okres === period && x.punkty >= limitsForPeriod(period).points)
       .sort((a, b) => b.punkty - a.punkty)
       .slice(0, 3)
       .map(x => x.nick);
@@ -2622,7 +2649,7 @@ function renderWeeklyHistoryFromGlobal() {
       // Jeśli istnieje rekord gracza w bieżącym okresie, pokazujemy realne Count i pełny dymek.
       if (x) {
         const topSet = top3ByPeriod.get(p) || new Set();
-        const pointClass = historyScoreClass(x.punkty, topSet.has(nick));
+        const pointClass = historyScoreClass(x.punkty, topSet.has(nick), p);
 
         html += `
           <td class="package-detail-cell"
@@ -2653,10 +2680,11 @@ function renderWeeklyHistoryFromGlobal() {
 }
 
 
-function epicScoreClass(value, isTop3) {
-  if (isTop3 && value >= LIMIT_EPICKICH) return 'cell-score-gold';
-  if (value >= LIMIT_EPICKICH) return 'cell-score-green';
-  if (value >= LIMIT_EPICKICH * 0.5) return 'cell-score-blue';
+function epicScoreClass(value, isTop3, period=CURRENT_PERIOD_LABEL) {
+  const limit = limitsForPeriod(period).epic;
+  if (isTop3 && value >= limit) return 'cell-score-gold';
+  if (value >= limit) return 'cell-score-green';
+  if (value >= limit * 0.5) return 'cell-score-blue';
   return 'cell-score-red';
 }
 
@@ -2835,7 +2863,7 @@ function renderEpicHistoryFromGlobal() {
   const top3ByPeriod = new Map();
   for (const period of periods) {
     const ranked = all
-      .filter(x => x.okres === period && x.epickie >= LIMIT_EPICKICH)
+      .filter(x => x.okres === period && x.epickie >= limitsForPeriod(period).epic)
       .sort((a, b) => b.epickie - a.epickie)
       .slice(0, 3)
       .map(x => x.nick);
@@ -2888,7 +2916,7 @@ function renderEpicHistoryFromGlobal() {
 
       if (x) {
         const topSet = top3ByPeriod.get(p) || new Set();
-        const totalClass = epicScoreClass(x.epickie, topSet.has(nick));
+        const totalClass = epicScoreClass(x.epickie, topSet.has(nick), p);
 
         html += `
           <td class="${totalClass} epic-detail-cell"

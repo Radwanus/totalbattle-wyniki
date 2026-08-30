@@ -1031,7 +1031,7 @@ table td.player,
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 30.08.2026 15:50</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 30.08.2026 17:24</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms</h1>
@@ -1708,10 +1708,12 @@ function epicBossCategory(type, source) {
   const t = norm((type || '') + ' ' + (source || ''));
 
   if (t.includes('hermes') || t.includes('krypta')) return null;
+  if (/\bitemid\s+2060\b/.test(t)) return 'sadny_dzien';
   if (/\bitemid\s+2085\b/.test(t) || t.includes('jormungand')) return 'jormungand';
   if (/\bitemid\s+2084\b/.test(t) || t.includes('fenrir')) return 'fenrir';
   if (t.includes('briareos')) return 'briareos';
   if (t.includes('epicki oddzial inferno') || t.includes('epic inferno')) return 'inferno';
+  if (t.includes('skrzynia epickiego potwora') && (t.includes('epicki oddzial nieumarlych') || t.includes('epic undead'))) return 'sadny_dzien';
   if (t.includes('epicki oddzial nieumarlych') || t.includes('epic undead')) return 'nieumarli';
   if (t.includes('arachne')) return 'arachne';
   if (t.includes('miasto cieni')) return 'miasto_cieni';

@@ -1031,7 +1031,7 @@ table td.player,
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 31.08.2026 22:05</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 31.08.2026 22:24</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms</h1>
@@ -1733,6 +1733,8 @@ function epicBossCategory(type, source) {
 
   if (t.includes('hermes') || t.includes('krypta')) return null;
   if (/\bitemid\s+2060\b/.test(t)) return 'sadny_dzien';
+  // V195B: ItemId 2066 = Skrzynia Ognistej Hydry -> Armagedon (internal key: inferno).
+  if (/\bitemid\s+2066\b/.test(t) || t.includes('skrzynia ognistej hydry')) return 'inferno';
   // V194A: ItemId 74643 / Epicki oddzial spopielonych -> Inne Epic Bosses.
   if (/\bitemid\s+74643\b/.test(t) || t.includes('epicki oddzial spopielonych')) return 'inne_epic';
   if (/\bitemid\s+2085\b/.test(t) || t.includes('jormungand')) return 'jormungand';
@@ -3031,7 +3033,7 @@ function showEpicTooltip(cell, clientX, clientY) {
       <tr><td>Sądny dzień</td><td>${sadny}</td></tr>
       <tr><td>Yokai</td><td>${yokai}</td></tr>
       <tr><td>Briareos</td><td>${briareos}</td></tr>
-      <tr><td>Epicki oddział inferno</td><td>${inferno}</td></tr>
+      <tr><td>Armagedon</td><td>${inferno}</td></tr>
       <tr><td>Epicki oddział nieumarłych</td><td>${nieumarli}</td></tr>
       <tr><td>Inne Epic Bosses</td><td>${inneEpic}</td></tr>
       <tr><td>Jormungand</td><td>${jormungand}</td></tr>

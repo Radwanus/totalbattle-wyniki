@@ -133178,5 +133178,75 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "ee1fdbf4964c53453785"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-01 19:22:51",
+    "Typ": "Skrzynia Ognistej Hydry",
+    "Nadawca": "Arashiran",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "ee1fdbf4964c53453785"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-01 19:23:04",
+    "Typ": "Skrzynia Ognistej Hydry",
+    "Nadawca": "LakiLu",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "0dc31a9c73dcd599c691"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-01 19:23:05",
+    "Typ": "Skrzynia Ognistej Hydry",
+    "Nadawca": "Androzar",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3a4cb18a2d1a16c9c02b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-01 19:23:07",
+    "Typ": "Skrzynia Ognistej Hydry",
+    "Nadawca": "Cahir",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "327de611e8aa8e17ef4c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-01 19:23:08",
+    "Typ": "Skrzynia Ognistej Hydry",
+    "Nadawca": "Osingmet",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-01 19:23:10",
+    "Typ": "Skrzynia Ognistej Hydry",
+    "Nadawca": "CaGaTaYHaN",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "0d3b575b791d499b9aa8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-01 19:23:11",
+    "Typ": "Skrzynia Ognistej Hydry",
+    "Nadawca": "Olginad",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "ef961d78fad6c266872a"
   }
 ]

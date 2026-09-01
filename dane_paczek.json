@@ -141148,5 +141148,135 @@
     "Punkty": "100",
     "Count": "1",
     "PlayerKey": "3b72c8642cb4720b717c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-01 21:29:06",
+    "Typ": "Skrzynia Ognistej Hydry",
+    "Nadawca": "Melania",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-01 21:29:07",
+    "Typ": "Skrzynia Ognistej Hydry",
+    "Nadawca": "Rafi",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "81c34c9290ef01018d2e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-01 21:29:12",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Alfonso DIOS Magno",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "3b72c8642cb4720b717c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-01 21:29:18",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Alfonso DIOS Magno",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "3b72c8642cb4720b717c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-01 21:29:24",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Cahir",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "327de611e8aa8e17ef4c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-01 21:29:25",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "OSA",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "6f9006dd095735ea99a9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-01 21:29:25",
+    "Typ": "Skrzynia Ognistej Hydry",
+    "Nadawca": "WOJTUS",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3d476999a1883ef73b71"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-01 21:29:26",
+    "Typ": "Skrzynia Ognistej Hydry",
+    "Nadawca": "Evlin",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "0e032a736308995a4fd1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-01 21:29:27",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "Doctor Sleep",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "1da739de3268c2024714"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-01 21:29:31",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "Cahir",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "327de611e8aa8e17ef4c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-01 21:29:34",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "Alfonso DIOS Magno",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "3b72c8642cb4720b717c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-01 21:29:40",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "Cahir",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "327de611e8aa8e17ef4c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-01 21:29:42",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Olginad",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "ef961d78fad6c266872a"
   }
 ]

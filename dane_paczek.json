@@ -209538,5 +209538,115 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "b9183084a6fabd5c96f9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-02 21:07:18",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Osingmet",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-02 21:07:24",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Vanyar",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "193584cc28c5f45526c3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-02 21:07:25",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Naru",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "c19b743b1d635c8c7300"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-02 21:07:35",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Androzar",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "3a4cb18a2d1a16c9c02b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-02 21:07:48",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Osingmet",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-02 21:07:48",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "Fofur",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "b9183084a6fabd5c96f9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-02 21:07:52",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "StaH",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-02 21:08:01",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Osingmet",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-02 21:08:08",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Mieciu",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "5523e42cd1d58a7a7936"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-02 21:08:16",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "Fofur",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "b9183084a6fabd5c96f9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-02 21:08:17",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Androzar",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "3a4cb18a2d1a16c9c02b"
   }
 ]

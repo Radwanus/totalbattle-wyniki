@@ -210258,5 +210258,35 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "4becffe51dc124eb6540"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-02 21:17:25",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "aSSe",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "4becffe51dc124eb6540"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-02 21:17:37",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "aSSe",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "4becffe51dc124eb6540"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-02 21:17:45",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "VLD",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "d54588a077b9aa5b871a"
   }
 ]

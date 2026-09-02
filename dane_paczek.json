@@ -154328,5 +154328,85 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-02 06:20:04",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "DjKro",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-02 06:20:21",
+    "Typ": "Skrzynia Ognistej Hydry",
+    "Nadawca": "WALEEDO7",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "37a097fe0068d3dec8b8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-02 06:20:39",
+    "Typ": "Zwykła Skrzynia Bogactwa",
+    "Nadawca": "Ildanen",
+    "Źródło": "Bogactwo klanu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "865e1ddb9398b80fcfee"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-02 06:20:39",
+    "Typ": "Niestandardowa Skrzynia Bogactwa",
+    "Nadawca": "Ildanen",
+    "Źródło": "Bogactwo klanu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "865e1ddb9398b80fcfee"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-02 06:20:39",
+    "Typ": "Rzadka Skrzynia Bogactwa",
+    "Nadawca": "Ildanen",
+    "Źródło": "Bogactwo klanu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "865e1ddb9398b80fcfee"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-02 06:20:39",
+    "Typ": "Epicka Skrzynia Bogactwa",
+    "Nadawca": "Ildanen",
+    "Źródło": "Bogactwo klanu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "865e1ddb9398b80fcfee"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-02 06:20:39",
+    "Typ": "Legendarna Skrzynia Bogactwa",
+    "Nadawca": "Ildanen",
+    "Źródło": "Bogactwo klanu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "865e1ddb9398b80fcfee"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-02 06:20:43",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "DjKro",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
   }
 ]

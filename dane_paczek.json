@@ -234198,5 +234198,45 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "3a4cb18a2d1a16c9c02b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-03 06:30:09",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Mieciu",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "5523e42cd1d58a7a7936"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-03 06:30:16",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Mieciu",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "5523e42cd1d58a7a7936"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-03 06:30:24",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "DjKro",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-03 06:30:26",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Puma I",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9323644e25dfd9632cf1"
   }
 ]

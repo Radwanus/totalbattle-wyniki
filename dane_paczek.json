@@ -234288,5 +234288,45 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "9323644e25dfd9632cf1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-03 06:31:45",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "DjKro",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-03 06:31:50",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "Mieciu",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "5523e42cd1d58a7a7936"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-03 06:31:51",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Kariel",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "0ac6b794e655966c923f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-03 06:31:53",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Puma I",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9323644e25dfd9632cf1"
   }
 ]

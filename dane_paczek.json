@@ -327418,5 +327418,25 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "a15b608703c3ba6fe2da"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-04 19:12:34",
+    "Typ": "ItemId 703030",
+    "Nadawca": "Coris",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "ee7ce793739e3d387b2a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-04 19:12:36",
+    "Typ": "ItemId 703030",
+    "Nadawca": "Cahir",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "7",
+    "PlayerKey": "327de611e8aa8e17ef4c"
   }
 ]

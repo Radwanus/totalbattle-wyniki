@@ -299128,5 +299128,35 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "9f4d3a2c4be744f7dbdb"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-04 06:54:31",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Szybki Kriss",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "49bc493bb219270d30fc"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-04 06:54:36",
+    "Typ": "ItemId 703030",
+    "Nadawca": "CaGaTaYHaN",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "0d3b575b791d499b9aa8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-04 06:54:54",
+    "Typ": "ItemId 703030",
+    "Nadawca": "GinoPL",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "1f5e6cd41b556c281825"
   }
 ]

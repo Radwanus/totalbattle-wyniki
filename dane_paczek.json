@@ -322928,5 +322928,35 @@
     "Punkty": "90",
     "Count": "1",
     "PlayerKey": "ef961d78fad6c266872a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-04 18:18:41",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Olginad",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "ef961d78fad6c266872a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-04 18:18:59",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Osingmet",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-04 18:19:05",
+    "Typ": "ItemId 703030",
+    "Nadawca": "Rafi",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "81c34c9290ef01018d2e"
   }
 ]

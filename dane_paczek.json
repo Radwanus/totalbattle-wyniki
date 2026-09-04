@@ -323228,5 +323228,65 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "3a4cb18a2d1a16c9c02b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-04 18:25:35",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "Osingmet",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-04 18:25:49",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Androzar",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "3a4cb18a2d1a16c9c02b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-04 18:26:07",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Osingmet",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-04 18:26:10",
+    "Typ": "ItemId 6601",
+    "Nadawca": "WALEEDO7",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "37a097fe0068d3dec8b8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-04 18:26:11",
+    "Typ": "ItemId 703030",
+    "Nadawca": "Anaris",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "983f01fd0263653f2f51"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-04 18:26:13",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Nerdailas",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "cb920a76b7f747a54aff"
   }
 ]

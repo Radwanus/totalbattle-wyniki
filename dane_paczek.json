@@ -322988,5 +322988,35 @@
     "Punkty": "0",
     "Count": "2",
     "PlayerKey": "c101c6308abfb10e36ef"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-04 18:19:56",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Olginad",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "ef961d78fad6c266872a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-04 18:20:20",
+    "Typ": "ItemId 703030",
+    "Nadawca": "Anaris",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "983f01fd0263653f2f51"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-04 18:20:39",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Olginad",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "ef961d78fad6c266872a"
   }
 ]

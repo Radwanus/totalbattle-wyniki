@@ -323288,5 +323288,35 @@
     "Punkty": "100",
     "Count": "1",
     "PlayerKey": "cb920a76b7f747a54aff"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-04 18:26:49",
+    "Typ": "ItemId 6612",
+    "Nadawca": "WALEEDO7",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "37a097fe0068d3dec8b8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-04 18:26:50",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "MnA",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fb1c981a98da28792d33"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-04 18:27:08",
+    "Typ": "ItemId 703030",
+    "Nadawca": "Olginad",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "ef961d78fad6c266872a"
   }
 ]

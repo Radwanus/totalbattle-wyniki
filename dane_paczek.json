@@ -326818,5 +326818,25 @@
     "Punkty": "0",
     "Count": "2",
     "PlayerKey": "193584cc28c5f45526c3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-04 19:08:34",
+    "Typ": "ItemId 703030",
+    "Nadawca": "KaNUyKuSu",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "228cde099bbaa3090942"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-04 19:08:55",
+    "Typ": "ItemId 703030",
+    "Nadawca": "Zioło",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "4df01774ba542ec518dd"
   }
 ]

@@ -323058,5 +323058,35 @@
     "Punkty": "90",
     "Count": "1",
     "PlayerKey": "ef961d78fad6c266872a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-04 18:22:12",
+    "Typ": "ItemId 703030",
+    "Nadawca": "abrej22",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "a851d5c740ddb224897c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-04 18:22:21",
+    "Typ": "ItemId 703030",
+    "Nadawca": "Arfa",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "4828772199789880089d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-04 18:22:29",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Olginad",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "ef961d78fad6c266872a"
   }
 ]

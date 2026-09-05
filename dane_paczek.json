@@ -351718,5 +351718,75 @@
     "Punkty": "100",
     "Count": "1",
     "PlayerKey": "b6b1e0e854aa8a649f3c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-05 10:48:47",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "Barkley",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "b6b1e0e854aa8a649f3c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-05 10:48:51",
+    "Typ": "ItemId 703030",
+    "Nadawca": "Szybki Kriss",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "49bc493bb219270d30fc"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-05 10:48:55",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Barkley",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "b6b1e0e854aa8a649f3c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-05 10:48:58",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "MSlayer",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "b777a0647e386f7a290c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-05 10:49:04",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "MSlayer",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "b777a0647e386f7a290c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-05 10:49:09",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "Konserwiusz",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "21c8940b5d1d200fb005"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-05 10:49:10",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "MSlayer",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "b777a0647e386f7a290c"
   }
 ]

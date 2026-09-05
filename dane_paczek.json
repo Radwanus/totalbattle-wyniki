@@ -350778,5 +350778,65 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "ff001bef965a35cc675a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-05 10:40:30",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Serafino",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "25fd16f36bf014d81ed7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-05 10:40:37",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "RAFAL PL",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ff001bef965a35cc675a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-05 10:40:39",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "MSlayer",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "b777a0647e386f7a290c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-05 10:40:41",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "MSlayer",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "b777a0647e386f7a290c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-05 10:40:45",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Konserwiusz",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "21c8940b5d1d200fb005"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-05 10:40:46",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "MSlayer",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "b777a0647e386f7a290c"
   }
 ]

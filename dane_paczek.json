@@ -352168,5 +352168,85 @@
     "Punkty": "100",
     "Count": "1",
     "PlayerKey": "b6b1e0e854aa8a649f3c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-05 10:54:18",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "ALEX 82",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-05 10:54:19",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "Barkley",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "b6b1e0e854aa8a649f3c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-05 10:54:37",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Barkley",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "b6b1e0e854aa8a649f3c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-05 10:54:46",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Barkley",
+    "Źródło": "Epicka krypta 25 poziomu",
+    "Punkty": "40",
+    "Count": "1",
+    "PlayerKey": "b6b1e0e854aa8a649f3c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-05 10:54:53",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Barkley",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "b6b1e0e854aa8a649f3c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-05 10:54:54",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "ALEX 82",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-05 10:55:04",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "KRISS",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "63747c28b1baf69e3e5d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-05 10:55:08",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Barkley",
+    "Źródło": "Rzadka krypta 25 poziomu",
+    "Punkty": "30",
+    "Count": "1",
+    "PlayerKey": "b6b1e0e854aa8a649f3c"
   }
 ]

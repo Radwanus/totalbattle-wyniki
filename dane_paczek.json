@@ -418858,5 +418858,45 @@
     "Punkty": "0",
     "Count": "8",
     "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-06 16:42:06",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Oregon",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "ba45562d23421d65eb5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-06 16:42:08",
+    "Typ": "Klanowa Skrzynia Przyspieszenia Marszu",
+    "Nadawca": "Oregon",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "ba45562d23421d65eb5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-06 16:42:10",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Oregon",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "ba45562d23421d65eb5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-06 16:42:44",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Barkley",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "b6b1e0e854aa8a649f3c"
   }
 ]

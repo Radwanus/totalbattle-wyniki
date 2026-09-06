@@ -409008,5 +409008,35 @@
     "Punkty": "0",
     "Count": "5",
     "PlayerKey": "3b72c8642cb4720b717c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-06 13:27:30",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Barbarella666",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "e5b8495dc8f8d8736c78"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-06 13:27:36",
+    "Typ": "Legendarna Skrzynia Spopielonych",
+    "Nadawca": "Arashiran",
+    "Źródło": "Epicki oddział spopielonych",
+    "Punkty": "0",
+    "Count": "5",
+    "PlayerKey": "ee1fdbf4964c53453785"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-06 13:27:40",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "Barbarella666",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "e5b8495dc8f8d8736c78"
   }
 ]

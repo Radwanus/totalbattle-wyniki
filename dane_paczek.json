@@ -408698,5 +408698,35 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "3a22feceb9cf2de7eca8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-06 13:23:56",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Barbarella666",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "e5b8495dc8f8d8736c78"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-06 13:24:04",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Centri",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "3a22feceb9cf2de7eca8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 30.08 - 06.09",
+    "Data": "2026-09-06 13:24:21",
+    "Typ": "Legendarna Skrzynia Spopielonych",
+    "Nadawca": "Painfont",
+    "Źródło": "Epicki oddział spopielonych",
+    "Punkty": "0",
+    "Count": "5",
+    "PlayerKey": "5d911333f80adab41eb8"
   }
 ]

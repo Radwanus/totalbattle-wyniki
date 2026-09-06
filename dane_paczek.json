@@ -8608,5 +8608,65 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 06.09 - 13.09",
+    "Data": "2026-09-06 23:12:18",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Barbarella666",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "e5b8495dc8f8d8736c78"
+  },
+  {
+    "Okres rozliczeniowy": "2026 06.09 - 13.09",
+    "Data": "2026-09-06 23:12:28",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Gucio",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "eec27a0f38e5bad7037e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 06.09 - 13.09",
+    "Data": "2026-09-06 23:12:39",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "DjKro",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 06.09 - 13.09",
+    "Data": "2026-09-06 23:12:53",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Barbarella666",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "e5b8495dc8f8d8736c78"
+  },
+  {
+    "Okres rozliczeniowy": "2026 06.09 - 13.09",
+    "Data": "2026-09-06 23:13:10",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "DjKro",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 06.09 - 13.09",
+    "Data": "2026-09-06 23:13:11",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Gucio",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "eec27a0f38e5bad7037e"
   }
 ]

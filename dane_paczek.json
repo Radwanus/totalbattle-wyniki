@@ -63718,5 +63718,75 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "b6b1e0e854aa8a649f3c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 06.09 - 13.09",
+    "Data": "2026-09-07 22:22:53",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "Barkley",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "b6b1e0e854aa8a649f3c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 06.09 - 13.09",
+    "Data": "2026-09-07 22:23:03",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Lady DAIRA",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "1b99a5953bedc09b2447"
+  },
+  {
+    "Okres rozliczeniowy": "2026 06.09 - 13.09",
+    "Data": "2026-09-07 22:23:03",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "EeLL",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "a15b608703c3ba6fe2da"
+  },
+  {
+    "Okres rozliczeniowy": "2026 06.09 - 13.09",
+    "Data": "2026-09-07 22:23:06",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "PUREC",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "aaed1d7d5f289df49f4e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 06.09 - 13.09",
+    "Data": "2026-09-07 22:23:09",
+    "Typ": "ItemId 2072",
+    "Nadawca": "Szybki Kriss",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "49bc493bb219270d30fc"
+  },
+  {
+    "Okres rozliczeniowy": "2026 06.09 - 13.09",
+    "Data": "2026-09-07 22:23:11",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "Barkley",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "b6b1e0e854aa8a649f3c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 06.09 - 13.09",
+    "Data": "2026-09-07 22:23:17",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Panoramix",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "0c57cac25796935e5dc5"
   }
 ]

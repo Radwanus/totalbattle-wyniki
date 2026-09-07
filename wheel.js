@@ -136,24 +136,80 @@ function buildDisc(svg){
       const prize=PRIZES[idx].name;
       last.textContent=`${player} - ${prize}`;
       const now=new Date(result.spun_at || Date.now()),date=now.toLocaleDateString('en-GB'),time=now.toLocaleTimeString('en-GB',{hour:'2-digit',minute:'2-digit'});
-      const row=document.createElement('div');row.className='hist';row.innerHTML=`<span>${escapeHtml(date)}</span><span>${escapeHtml(time)}</span><span>${escapeHtml(player)}</span><b>${escapeHtml(prize)}</b>`;hist.prepend(row);
+      const row=document.createElement('div');row.className='hist';row.innerHTML=`<span>${escapeHtml(date)}</span><span>${escapeHtml(time)}</span><span>${escapeHtml(player)}</span><b>${escapeHtml(prize)}</b>`;hist.prepend(row);loadWinners();
       busy=false;
       if(remaining>0){play.className='play disabled';next.style.display='block';next.textContent='CONTINUE - remaining '+remaining}else{active=false;ready();showMessage('✓ All available spins have been used.',true)}
     };
     next.onclick=()=>{next.style.display='none';ready()};
   }
 
-  async function loadWinners(){
-    const body=document.getElementById('winners-body');
-    if(!apiReady()){body.innerHTML='<tr><td colspan="5" class="empty">Secure backend is not configured yet.</td></tr>';return}
-    try{
-      const r=await fetch(API_BASE+'/api/winners?limit=100');
-      const data=await r.json();if(!r.ok)throw new Error(data.error||'Request failed.');
-      if(!data.winners?.length){body.innerHTML='<tr><td colspan="5" class="empty">No completed spins yet.</td></tr>';return}
-      body.innerHTML=data.winners.map(w=>{const dt=new Date(w.spun_at);return `<tr><td>${escapeHtml(dt.toLocaleString('en-GB'))}</td><td><b>${escapeHtml(w.player)}</b></td><td>${escapeHtml(w.wheel==='crypt'?'Crypts / Citadels':'Epic Bosses')}</td><td>${escapeHtml(w.rank)}</td><td><b>${escapeHtml(w.prize_name)}</b></td></tr>`}).join('');
-    }catch(e){body.innerHTML=`<tr><td colspan="5" class="empty">${escapeHtml(e.message)}</td></tr>`}
+  // V177D LATEST RESULTS BY WHEEL
+  function renderLatestResults(winners){
+    ['crypt','epic'].forEach(kind=>{
+      const last=document.getElementById(kind+'-last');
+      const hist=document.getElementById(kind+'-history');
+      if(!last||!hist)return;
+
+      const rows=(Array.isArray(winners)?winners:[])
+        .filter(w=>w.wheel===kind)
+        .sort((a,b)=>new Date(b.spun_at)-new Date(a.spun_at));
+
+      if(!rows.length){
+        last.textContent='-';
+        hist.innerHTML='';
+        return;
+      }
+
+      const newest=rows[0];
+      last.textContent=`${newest.player} - ${newest.prize_name}`;
+
+      hist.innerHTML=rows.slice(0,10).map(w=>{
+        const dt=new Date(w.spun_at);
+        const date=dt.toLocaleDateString('en-GB');
+        const time=dt.toLocaleTimeString('en-GB',{
+          hour:'2-digit',
+          minute:'2-digit'
+        });
+
+        return `<div class="hist"><span>${escapeHtml(date)}</span><span>${escapeHtml(time)}</span><span>${escapeHtml(w.player)}</span><b>${escapeHtml(w.prize_name)}</b></div>`;
+      }).join('');
+    });
   }
 
+  async function loadWinners(){
+    const body=document.getElementById('winners-body');
+
+    if(!apiReady()){
+      body.innerHTML='<tr><td colspan="5" class="empty">Secure backend is not configured yet.</td></tr>';
+      renderLatestResults([]);
+      return;
+    }
+
+    try{
+      const r=await fetch(API_BASE+'/api/winners?limit=100');
+      const data=await r.json();
+
+      if(!r.ok)throw new Error(data.error||'Request failed.');
+
+      const winners=Array.isArray(data.winners)?data.winners:[];
+
+      renderLatestResults(winners);
+
+      if(!winners.length){
+        body.innerHTML='<tr><td colspan="5" class="empty">No completed spins yet.</td></tr>';
+        return;
+      }
+
+      body.innerHTML=winners.map(w=>{
+        const dt=new Date(w.spun_at);
+
+        return `<tr><td>${escapeHtml(dt.toLocaleString('en-GB'))}</td><td><b>${escapeHtml(w.player)}</b></td><td>${escapeHtml(w.wheel==='crypt'?'Crypts / Citadels':'Epic Bosses')}</td><td>${escapeHtml(w.rank)}</td><td><b>${escapeHtml(w.prize_name)}</b></td></tr>`;
+      }).join('');
+
+    }catch(e){
+      body.innerHTML=`<tr><td colspan="5" class="empty">${escapeHtml(e.message)}</td></tr>`;
+    }
+  }
   controller('crypt','CRYPTS / CITADELS');
   controller('epic','EPIC BOSSES');
   document.querySelectorAll('.nav[data-tab]').forEach(tab=>tab.addEventListener('click',()=>{
@@ -162,4 +218,5 @@ function buildDisc(svg){
     if(tab.dataset.tab==='winners-tab')loadWinners();
   }));
   document.getElementById('refresh-winners').onclick=loadWinners;
+  loadWinners();
 })();

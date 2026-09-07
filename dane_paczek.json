@@ -64798,5 +64798,25 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "aaed1d7d5f289df49f4e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 06.09 - 13.09",
+    "Data": "2026-09-07 22:33:00",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Arek",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "394e8b5667748eb6bfd3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 06.09 - 13.09",
+    "Data": "2026-09-07 22:33:09",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Barkley",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "b6b1e0e854aa8a649f3c"
   }
 ]

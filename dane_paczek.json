@@ -65628,5 +65628,25 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "8c9c6af60262fb89cd7c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 06.09 - 13.09",
+    "Data": "2026-09-07 22:40:18",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "PUREC",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "aaed1d7d5f289df49f4e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 06.09 - 13.09",
+    "Data": "2026-09-07 22:40:20",
+    "Typ": "Drewniana Skrzynia Zapasów",
+    "Nadawca": "Juana la loca",
+    "Źródło": "Zapasy klanowe",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "dc7aa45f448f22adfe4d"
   }
 ]

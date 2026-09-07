@@ -63058,5 +63058,45 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "b6b1e0e854aa8a649f3c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 06.09 - 13.09",
+    "Data": "2026-09-07 22:17:27",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "PUREC",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "aaed1d7d5f289df49f4e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 06.09 - 13.09",
+    "Data": "2026-09-07 22:17:27",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "Barkley",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "b6b1e0e854aa8a649f3c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 06.09 - 13.09",
+    "Data": "2026-09-07 22:17:32",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "Barkley",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "b6b1e0e854aa8a649f3c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 06.09 - 13.09",
+    "Data": "2026-09-07 22:17:32",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "PUREC",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "aaed1d7d5f289df49f4e"
   }
 ]

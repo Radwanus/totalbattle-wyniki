@@ -114038,5 +114038,35 @@
     "Punkty": "100",
     "Count": "1",
     "PlayerKey": "25fd16f36bf014d81ed7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 06.09 - 13.09",
+    "Data": "2026-09-08 17:35:51",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Stefan",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 06.09 - 13.09",
+    "Data": "2026-09-08 17:35:56",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "Serafino",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "25fd16f36bf014d81ed7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 06.09 - 13.09",
+    "Data": "2026-09-08 17:36:05",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "SEBA",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "77532d8f35fdf467a275"
   }
 ]

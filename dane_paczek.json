@@ -117818,5 +117818,25 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "2db6dd7fcbb9231b69d5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 06.09 - 13.09",
+    "Data": "2026-09-08 18:24:53",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Doctor Sleep",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "1da739de3268c2024714"
+  },
+  {
+    "Okres rozliczeniowy": "2026 06.09 - 13.09",
+    "Data": "2026-09-08 18:25:03",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Olginad",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "ef961d78fad6c266872a"
   }
 ]

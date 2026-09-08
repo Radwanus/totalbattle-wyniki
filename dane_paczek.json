@@ -114378,5 +114378,35 @@
     "Punkty": "80",
     "Count": "1",
     "PlayerKey": "c412d87552de70104a82"
+  },
+  {
+    "Okres rozliczeniowy": "2026 06.09 - 13.09",
+    "Data": "2026-09-08 17:39:12",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "SEBA",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "77532d8f35fdf467a275"
+  },
+  {
+    "Okres rozliczeniowy": "2026 06.09 - 13.09",
+    "Data": "2026-09-08 17:39:15",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Merodir",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "f69ed0075a652c655a5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 06.09 - 13.09",
+    "Data": "2026-09-08 17:39:29",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "SEBA",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "77532d8f35fdf467a275"
   }
 ]

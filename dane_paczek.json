@@ -114468,5 +114468,65 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "f69ed0075a652c655a5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 06.09 - 13.09",
+    "Data": "2026-09-08 17:40:04",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "RaFSaN RaFi",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "c101c6308abfb10e36ef"
+  },
+  {
+    "Okres rozliczeniowy": "2026 06.09 - 13.09",
+    "Data": "2026-09-08 17:40:04",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "RaFSaN RaFi",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "c101c6308abfb10e36ef"
+  },
+  {
+    "Okres rozliczeniowy": "2026 06.09 - 13.09",
+    "Data": "2026-09-08 17:40:05",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "SEBA",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "77532d8f35fdf467a275"
+  },
+  {
+    "Okres rozliczeniowy": "2026 06.09 - 13.09",
+    "Data": "2026-09-08 17:40:16",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "SEBA",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "77532d8f35fdf467a275"
+  },
+  {
+    "Okres rozliczeniowy": "2026 06.09 - 13.09",
+    "Data": "2026-09-08 17:40:20",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "Piotrek 1",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "3a5eb183b5b6981c27c4"
+  },
+  {
+    "Okres rozliczeniowy": "2026 06.09 - 13.09",
+    "Data": "2026-09-08 17:40:22",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "RaFSaN RaFi",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "c101c6308abfb10e36ef"
   }
 ]

@@ -114348,5 +114348,35 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "f69ed0075a652c655a5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 06.09 - 13.09",
+    "Data": "2026-09-08 17:38:48",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "SEBA",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "77532d8f35fdf467a275"
+  },
+  {
+    "Okres rozliczeniowy": "2026 06.09 - 13.09",
+    "Data": "2026-09-08 17:39:01",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "SEBA",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "77532d8f35fdf467a275"
+  },
+  {
+    "Okres rozliczeniowy": "2026 06.09 - 13.09",
+    "Data": "2026-09-08 17:39:09",
+    "Typ": "Skrzynia z Twierdzy Elfów",
+    "Nadawca": "InternetCash",
+    "Źródło": "Twierdza 30 poziomu",
+    "Punkty": "80",
+    "Count": "1",
+    "PlayerKey": "c412d87552de70104a82"
   }
 ]

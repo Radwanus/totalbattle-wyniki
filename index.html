@@ -1031,7 +1031,7 @@ table td.player,
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 08.09.2026 19:26</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 09.09.2026 00:16</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms</h1>
@@ -1733,6 +1733,8 @@ function epicBossCategory(type, source) {
 
   if (t.includes('hermes') || t.includes('krypta')) return null;
   if (/\bitemid\s+2060\b/.test(t)) return 'sadny_dzien';
+  // V225A: exact ItemId 2072 = Miasto Cieni.
+  if (/\bitemid\s+2072\b/.test(t)) return 'miasto_cieni';
   // V195B: ItemId 2066 = Skrzynia Ognistej Hydry -> Armagedon (internal key: inferno).
   if (/\bitemid\s+2066\b/.test(t) || t.includes('skrzynia ognistej hydry')) return 'inferno';
   // V194A: ItemId 74643 / Epicki oddzial spopielonych -> Inne Epic Bosses.

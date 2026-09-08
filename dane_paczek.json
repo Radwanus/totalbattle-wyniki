@@ -116168,5 +116168,45 @@
     "Punkty": "100",
     "Count": "1",
     "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 06.09 - 13.09",
+    "Data": "2026-09-08 17:57:29",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Merodir",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "f69ed0075a652c655a5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 06.09 - 13.09",
+    "Data": "2026-09-08 17:57:31",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "RaFSaN RaFi",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "c101c6308abfb10e36ef"
+  },
+  {
+    "Okres rozliczeniowy": "2026 06.09 - 13.09",
+    "Data": "2026-09-08 17:57:40",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "InternetCash",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "c412d87552de70104a82"
+  },
+  {
+    "Okres rozliczeniowy": "2026 06.09 - 13.09",
+    "Data": "2026-09-08 17:57:43",
+    "Typ": "Skrzynia z Twierdzy Elfów",
+    "Nadawca": "Mieciu",
+    "Źródło": "Twierdza 30 poziomu",
+    "Punkty": "80",
+    "Count": "1",
+    "PlayerKey": "5523e42cd1d58a7a7936"
   }
 ]

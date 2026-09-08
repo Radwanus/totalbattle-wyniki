@@ -115068,5 +115068,35 @@
     "Punkty": "100",
     "Count": "1",
     "PlayerKey": "c101c6308abfb10e36ef"
+  },
+  {
+    "Okres rozliczeniowy": "2026 06.09 - 13.09",
+    "Data": "2026-09-08 17:45:39",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Cahir",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "327de611e8aa8e17ef4c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 06.09 - 13.09",
+    "Data": "2026-09-08 17:45:41",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "RAFAL PL",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ff001bef965a35cc675a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 06.09 - 13.09",
+    "Data": "2026-09-08 17:45:45",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "RaFSaN RaFi",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "c101c6308abfb10e36ef"
   }
 ]

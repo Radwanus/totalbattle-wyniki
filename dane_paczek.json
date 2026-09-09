@@ -179808,5 +179808,45 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "3a4cb18a2d1a16c9c02b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 06.09 - 13.09",
+    "Data": "2026-09-09 19:55:35",
+    "Typ": "Zapomniana Skrzynia",
+    "Nadawca": "Eyrodor",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "8c9c6af60262fb89cd7c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 06.09 - 13.09",
+    "Data": "2026-09-09 19:55:51",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Little G",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "46c96dda81f5b20d7ed9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 06.09 - 13.09",
+    "Data": "2026-09-09 19:56:22",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "Mieciu",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "5523e42cd1d58a7a7936"
+  },
+  {
+    "Okres rozliczeniowy": "2026 06.09 - 13.09",
+    "Data": "2026-09-09 19:56:38",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "Mieciu",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "5523e42cd1d58a7a7936"
   }
 ]

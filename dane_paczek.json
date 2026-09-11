@@ -309998,5 +309998,25 @@
     "Punkty": "0",
     "Count": "4",
     "PlayerKey": "5523e42cd1d58a7a7936"
+  },
+  {
+    "Okres rozliczeniowy": "2026 06.09 - 13.09",
+    "Data": "2026-09-11 20:38:00",
+    "Typ": "Klanowa Skrzynia Przyspieszenia Marszu",
+    "Nadawca": "Mieciu",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "5523e42cd1d58a7a7936"
+  },
+  {
+    "Okres rozliczeniowy": "2026 06.09 - 13.09",
+    "Data": "2026-09-11 20:38:02",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Mieciu",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "5523e42cd1d58a7a7936"
   }
 ]

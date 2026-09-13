@@ -1005,6 +1005,131 @@ table td.player,
   }
 }
 
+
+/* V250 RESTORE EPIC RESULTS + FIT TOP3 TO WHEEL */
+
+/* V248 opakował iframe w nowy kontener. Kontener ma przejąć dokładnie
+   geometrię dawnego iframe: 900 px jako stała prawa kolumna. */
+.v177b-wheel-layout > .v248-wheel-column {
+  flex: 0 0 900px !important;
+  width: 900px !important;
+  min-width: 900px !important;
+  max-width: 900px !important;
+  box-sizing: border-box !important;
+}
+
+/* Sam iframe w wrapperze ma zajmować dokładnie szerokość wrappera. */
+.v177b-wheel-layout > .v248-wheel-column > .v177b-wheel-frame {
+  display: block !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+  flex: none !important;
+}
+
+/* Przywrócenie normalnej szerokości głównej tabeli Epic Bosses.
+   Crypts miało już ten bezpiecznik od V177C3. */
+#view-epickie .v177b-table-column {
+  flex: 1 1 auto !important;
+  min-width: 535px !important;
+  width: auto !important;
+  max-width: none !important;
+}
+
+/* TOP3 ma mieć DOKŁADNIE szerokość koła/wrappera, a nie globalną
+   minimalną szerokość zwykłych tabel wynikowych. */
+#view-wyniki #v248-prev-top3-crypt,
+#view-epickie #v248-prev-top3-epic {
+  display: block !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+  overflow: hidden !important;
+}
+
+#view-wyniki #v248-prev-top3-crypt .v248-prev-top3-card,
+#view-epickie #v248-prev-top3-epic .v248-prev-top3-card {
+  display: block !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  box-sizing: border-box !important;
+  overflow: hidden !important;
+}
+
+#view-wyniki #v248-prev-top3-crypt .v248-prev-top3-card table,
+#view-epickie #v248-prev-top3-epic .v248-prev-top3-card table {
+  display: table !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+  table-layout: fixed !important;
+  margin: 0 !important;
+  box-sizing: border-box !important;
+}
+
+#view-wyniki #v248-prev-top3-crypt .v248-prev-top3-card th,
+#view-wyniki #v248-prev-top3-crypt .v248-prev-top3-card td,
+#view-epickie #v248-prev-top3-epic .v248-prev-top3-card th,
+#view-epickie #v248-prev-top3-epic .v248-prev-top3-card td {
+  min-width: 0 !important;
+  box-sizing: border-box !important;
+}
+
+/* # i Spins są wąskie; Player bierze resztę szerokości koła. */
+#view-wyniki #v248-prev-top3-crypt .v248-prev-top3-card th:nth-child(1),
+#view-wyniki #v248-prev-top3-crypt .v248-prev-top3-card td:nth-child(1),
+#view-epickie #v248-prev-top3-epic .v248-prev-top3-card th:nth-child(1),
+#view-epickie #v248-prev-top3-epic .v248-prev-top3-card td:nth-child(1) {
+  width: 52px !important;
+  min-width: 52px !important;
+  max-width: 52px !important;
+}
+
+#view-wyniki #v248-prev-top3-crypt .v248-prev-top3-card th:nth-child(2),
+#view-wyniki #v248-prev-top3-crypt .v248-prev-top3-card td:nth-child(2),
+#view-epickie #v248-prev-top3-epic .v248-prev-top3-card th:nth-child(2),
+#view-epickie #v248-prev-top3-epic .v248-prev-top3-card td:nth-child(2) {
+  width: auto !important;
+  min-width: 0 !important;
+  max-width: none !important;
+}
+
+#view-wyniki #v248-prev-top3-crypt .v248-prev-top3-card th:nth-child(3),
+#view-wyniki #v248-prev-top3-crypt .v248-prev-top3-card td:nth-child(3),
+#view-epickie #v248-prev-top3-epic .v248-prev-top3-card th:nth-child(3),
+#view-epickie #v248-prev-top3-epic .v248-prev-top3-card td:nth-child(3) {
+  width: 82px !important;
+  min-width: 82px !important;
+  max-width: 82px !important;
+  text-align: center !important;
+}
+
+#view-wyniki #v248-prev-top3-crypt .v248-nick,
+#view-epickie #v248-prev-top3-epic .v248-nick {
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+}
+
+/* Zachowanie zgodne z dawnym V177B na węższych ekranach. */
+@media (max-width: 1350px) {
+  .v177b-wheel-layout > .v248-wheel-column {
+    flex: 0 1 auto !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 900px !important;
+  }
+
+  #view-epickie .v177b-table-column {
+    min-width: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
+
 </style>
 </head>
 <body>
@@ -1031,7 +1156,7 @@ table td.player,
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 13.09.2026 23:31</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 13.09.2026 23:40</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms</h1>

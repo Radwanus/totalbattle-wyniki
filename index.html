@@ -1031,7 +1031,7 @@ table td.player,
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 13.09.2026 22:49</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 13.09.2026 23:08</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms</h1>
@@ -1062,7 +1062,10 @@ table td.player,
     </div>
     <div class="summary" id="summary"></div>
       </div>
-      <iframe class="v177b-wheel-frame" src="wheel.html?embed=crypt" title="Wheel of Fortune - crypt" loading="eager"></iframe>
+      <div class="v248-wheel-column">
+        <iframe class="v177b-wheel-frame" src="wheel.html?embed=crypt" title="Wheel of Fortune - crypt" loading="eager"></iframe>
+        <div id="v248-prev-top3-crypt"></div>
+      </div>
     </div>
   </section>
 
@@ -1084,7 +1087,10 @@ table td.player,
       <div class="bottom-scroll-inner" id="epic-bottom-scroll-inner"></div>
     </div>
       </div>
-      <iframe class="v177b-wheel-frame" src="wheel.html?embed=epic" title="Wheel of Fortune - epic" loading="eager"></iframe>
+      <div class="v248-wheel-column">
+        <iframe class="v177b-wheel-frame" src="wheel.html?embed=epic" title="Wheel of Fortune - epic" loading="eager"></iframe>
+        <div id="v248-prev-top3-epic"></div>
+      </div>
     </div>
   </section>
 
@@ -2140,9 +2146,218 @@ function v247bArchiveResultClass(value, isTop3, kind, period) {
   return 'cell-score-red';
 }
 
+
+// V248 DOM archive colors + previous TOP3 cards
+function v248CompletedHistoryRows(rows) {
+  return (rows || []).filter(
+    x => x &&
+         x.okres &&
+         x.okres !== CURRENT_PERIOD_LABEL &&
+         x.okres !== '2026 16.08 - 23.08' &&
+         x.okres !== '2026 16.08 - 23.08 TEST'
+  );
+}
+
+function v248PreviousFinishedPeriod(rows) {
+  const periods = [...new Set(v248CompletedHistoryRows(rows).map(x => x.okres).filter(Boolean))]
+    .sort((a, b) => parsePeriodStart(b) - parsePeriodStart(a));
+  return periods.length ? periods[0] : '';
+}
+
+function v248Top3Rows(rows, period, field, tieField) {
+  return v248CompletedHistoryRows(rows)
+    .filter(x =>
+      String(x.okres || '') === String(period || '') &&
+      String(x.nick || '').trim()
+    )
+    .slice()
+    .sort((a, b) => {
+      const primary = Number(b[field] || 0) - Number(a[field] || 0);
+      if (primary !== 0) return primary;
+
+      const secondary = Number(b[tieField] || 0) - Number(a[tieField] || 0);
+      if (secondary !== 0) return secondary;
+
+      const an = nickSortKey(a.nick || '');
+      const bn = nickSortKey(b.nick || '');
+      const byNick = an.localeCompare(
+        bn, 'pl', { sensitivity: 'base', numeric: true }
+      );
+      if (byNick !== 0) return byNick;
+
+      return String(a.nick || '').localeCompare(
+        String(b.nick || ''),
+        'pl',
+        { sensitivity: 'base', numeric: true }
+      );
+    })
+    .slice(0, 3);
+}
+
+function v248SpinsForPlace(placeIndex) {
+  return placeIndex === 0 ? 3 : (placeIndex === 1 ? 2 : 1);
+}
+
+function v248ArchiveResultClass(value, isTop3, kind, period) {
+  const n = Number(value || 0);
+  const limits = limitsForPeriod(period);
+  const limit = kind === 'epic'
+    ? Number(limits.epic || 0)
+    : Number(limits.points || 0);
+
+  if (isTop3) return 'cell-score-gold';
+  if (n >= limit) return 'cell-score-green';
+  return 'cell-score-red';
+}
+
+function v248SetScoreClass(cell, cls) {
+  if (!cell || !cls) return;
+  cell.classList.remove('cell-score-gold', 'cell-score-green', 'cell-score-blue', 'cell-score-red');
+  cell.classList.add(cls);
+}
+
+function v248ApplyArchiveCryptColors(body, periods, historyOnly) {
+  if (!body) return;
+
+  const top3ByPeriod = new Map();
+  for (const p of periods) {
+    top3ByPeriod.set(p, new Set(
+      v248Top3Rows(historyOnly, p, 'punkty', 'epickie').map(x => String(x.nick || ''))
+    ));
+  }
+
+  for (const tr of Array.from(body.querySelectorAll('tr'))) {
+    const tds = Array.from(tr.querySelectorAll('td'));
+    if (!tds.length) continue;
+
+    const nick = String((tds[0]?.textContent || '')).trim();
+    if (!nick || tds[0].classList.contains('empty')) continue;
+
+    for (let i = 0; i < periods.length; i++) {
+      const p = periods[i];
+      const cell = tds[2 + i * 3];
+      if (!cell) continue;
+
+      const raw = String(cell.textContent || '').trim();
+      if (!raw || raw === '—') continue;
+
+      const cls = v248ArchiveResultClass(
+        Number(raw || 0),
+        (top3ByPeriod.get(p) || new Set()).has(nick),
+        'points',
+        p
+      );
+      v248SetScoreClass(cell, cls);
+    }
+  }
+}
+
+function v248ApplyArchiveEpicColors(body, periods, historyOnly) {
+  if (!body) return;
+
+  const top3ByPeriod = new Map();
+  for (const p of periods) {
+    top3ByPeriod.set(p, new Set(
+      v248Top3Rows(historyOnly, p, 'epickie', 'punkty').map(x => String(x.nick || ''))
+    ));
+  }
+
+  for (const tr of Array.from(body.querySelectorAll('tr'))) {
+    const tds = Array.from(tr.querySelectorAll('td'));
+    if (!tds.length) continue;
+
+    const nick = String((tds[0]?.textContent || '')).trim();
+    if (!nick || tds[0].classList.contains('empty')) continue;
+
+    for (let i = 0; i < periods.length; i++) {
+      const p = periods[i];
+      const cell = tds[1 + i * 2];
+      if (!cell) continue;
+
+      const raw = String(cell.textContent || '').trim();
+      if (!raw || raw === '—') continue;
+
+      const cls = v248ArchiveResultClass(
+        Number(raw || 0),
+        (top3ByPeriod.get(p) || new Set()).has(nick),
+        'epic',
+        p
+      );
+      v248SetScoreClass(cell, cls);
+    }
+  }
+}
+
+function v248PrevTop3CardHtml(title, period, topRows) {
+  const prettyPeriod = period ? displayPeriodLabel(period) : '—';
+
+  if (!topRows || !topRows.length) {
+    return `
+      <div class="v248-prev-top3-card">
+        <h3>${title}</h3>
+        <div class="v248-sub">Previous finished period: ${prettyPeriod}</div>
+        <div class="v248-empty">No completed ranking data.</div>
+      </div>
+    `;
+  }
+
+  const rowsHtml = topRows.map((row, idx) => `
+    <tr>
+      <td class="v248-place">${idx + 1}</td>
+      <td class="v248-nick">${escapeHtml(row.nick || '')}</td>
+      <td class="v248-spins">${v248SpinsForPlace(idx)}</td>
+    </tr>
+  `).join('');
+
+  return `
+    <div class="v248-prev-top3-card">
+      <h3>${title}</h3>
+      <div class="v248-sub">Previous finished period: ${prettyPeriod}</div>
+      <table>
+        <thead>
+          <tr>
+            <th class="v248-place">#</th>
+            <th>Player</th>
+            <th>Spins</th>
+          </tr>
+        </thead>
+        <tbody>${rowsHtml}</tbody>
+      </table>
+    </div>
+  `;
+}
+
+function v248RenderPrevTop3Cards() {
+  const cryptTarget = document.getElementById('v248-prev-top3-crypt');
+  const epicTarget = document.getElementById('v248-prev-top3-epic');
+
+  if (cryptTarget) {
+    const rows = weeklyHistoryDateGlobal || [];
+    const period = v248PreviousFinishedPeriod(rows);
+    const topRows = period ? v248Top3Rows(rows, period, 'punkty', 'epickie') : [];
+    cryptTarget.innerHTML = v248PrevTop3CardHtml(
+      'TOP 3 — previous period',
+      period,
+      topRows
+    );
+  }
+
+  if (epicTarget) {
+    const rows = epicHistoryDateGlobal || [];
+    const period = v248PreviousFinishedPeriod(rows);
+    const topRows = period ? v248Top3Rows(rows, period, 'epickie', 'punkty') : [];
+    epicTarget.innerHTML = v248PrevTop3CardHtml(
+      'TOP 3 — previous period',
+      period,
+      topRows
+    );
+  }
+}
+
 function renderArchiveTables() {
   renderArchiveCrypts();
   renderArchiveEpics();
+  v248RenderPrevTop3Cards();
 }
 
 function renderArchiveCrypts() {
@@ -2214,6 +2429,7 @@ function renderArchiveCrypts() {
   }
 
   body.innerHTML = html || '<tr><td class="empty">Brak danych archiwalnych.</td></tr>';
+  v248ApplyArchiveCryptColors(body, periods, historyOnly);
   bindPackageTooltips();
 }
 
@@ -2334,6 +2550,7 @@ function renderArchiveEpics() {
   }
 
   body.innerHTML = html || '<tr><td class="empty">Brak danych archiwalnych.</td></tr>';
+  v248ApplyArchiveEpicColors(body, periods, historyOnly);
   bindEpicTooltips();
 }
 

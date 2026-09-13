@@ -1031,7 +1031,7 @@ table td.player,
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 13.09.2026 22:31</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 13.09.2026 22:48</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms</h1>
@@ -2095,6 +2095,51 @@ function showArchiveSubtab(name) {
   setTimeout(refreshBottomScrollbars, 0);
 }
 
+
+// V247B ARCHIVES COLORS — TOP3 gold / limit green / below limit red
+function v247bArchiveTop3(rows, period, field) {
+  const ranked = (rows || [])
+    .filter(x =>
+      x &&
+      String(x.okres || '') === String(period || '') &&
+      Number(x[field] || 0) > 0
+    )
+    .slice()
+    .sort((a, b) => {
+      const dv = Number(b[field] || 0) - Number(a[field] || 0);
+      if (dv !== 0) return dv;
+
+      const an = nickSortKey(a.nick || '');
+      const bn = nickSortKey(b.nick || '');
+      const byNick = an.localeCompare(
+        bn, 'pl', { sensitivity: 'base', numeric: true }
+      );
+      if (byNick !== 0) return byNick;
+
+      return String(a.nick || '').localeCompare(
+        String(b.nick || ''),
+        'pl',
+        { sensitivity: 'base', numeric: true }
+      );
+    })
+    .slice(0, 3)
+    .map(x => String(x.nick || ''));
+
+  return new Set(ranked);
+}
+
+function v247bArchiveResultClass(value, isTop3, kind, period) {
+  const n = Number(value || 0);
+  const limits = limitsForPeriod(period);
+  const limit = kind === 'epic'
+    ? Number(limits.epic || 0)
+    : Number(limits.points || 0);
+
+  if (isTop3) return 'cell-score-gold';
+  if (n >= limit) return 'cell-score-green';
+  return 'cell-score-red';
+}
+
 function renderArchiveTables() {
   renderArchiveCrypts();
   renderArchiveEpics();
@@ -2119,6 +2164,11 @@ function renderArchiveCrypts() {
   const byKey = new Map();
   for (const x of historyOnly) byKey.set(`${x.okres}|||${x.nick}`, x);
 
+  const top3ByPeriod = new Map();
+  for (const p of periods) {
+    top3ByPeriod.set(p, v247bArchiveTop3(historyOnly, p, 'punkty'));
+  }
+
   const head = document.getElementById('archive-krypty-head');
   const body = document.getElementById('archive-krypty-body');
 
@@ -2141,6 +2191,7 @@ function renderArchiveCrypts() {
     for (const p of periods) {
       const x = byKey.get(`${p}|||${nick}`);
       if (x) {
+        const topSet = top3ByPeriod.get(p) || new Set();
         html += `
           <td class="package-detail-cell"
               data-player="${escapeHtmlAttr(x.nick)}"
@@ -2151,7 +2202,7 @@ function renderArchiveCrypts() {
               data-twierdze="${x.twierdze || 0}"
               data-total="${x.paczki || 0}"
               title="Najedź, aby zobaczyć rodzaje krypt">${x.paczki}</td>
-          <td>${x.punkty}</td>
+          <td class="${v247bArchiveResultClass(x.punkty, topSet.has(nick), 'points', p)}">${x.punkty}</td>
           <td class="rank-cell">${v173RankForPeriod(p, nick)}</td>
         `;
       } else {
@@ -2908,7 +2959,7 @@ function renderEpicHistoryFromGlobal() {
         const totalClass = epicScoreClass(x.epickie, topSet.has(nick), p);
 
         html += `
-          <td class="${totalClass} epic-detail-cell"
+          <td class="${v247bArchiveResultClass(x.epickie, topSet.has(nick), 'epic', p)} epic-detail-cell"
               data-player="${escapeHtmlAttr(x.nick)}"
               data-period="${escapeHtmlAttr(x.okres)}"
               data-ragnarok="${x.ragnarok || 0}"

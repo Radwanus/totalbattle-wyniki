@@ -1,985 +1,5 @@
 [
   {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:49:54",
-    "Typ": "Skrzynia Skarabeusza",
-    "Nadawca": "Domino",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "a4d9cc04ceaa47510b5e"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:49:59",
-    "Typ": "Skrzynia Z Białego Drewna",
-    "Nadawca": "Domino",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "a4d9cc04ceaa47510b5e"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:50:02",
-    "Typ": "Porzucona Skrzynia",
-    "Nadawca": "Éomer",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "8fb45f09445785ab6654"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:50:06",
-    "Typ": "ItemId 2079",
-    "Nadawca": "Piotrek 1",
-    "Źródło": "",
-    "Punkty": "0",
-    "Count": "1",
-    "PlayerKey": "3a5eb183b5b6981c27c4"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:50:12",
-    "Typ": "Skrzynia Z Trillium",
-    "Nadawca": "Éomer",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "8fb45f09445785ab6654"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:50:14",
-    "Typ": "Skrzynia Barbarzyńców",
-    "Nadawca": "Barbarella666",
-    "Źródło": "Epicka krypta 30 poziomu",
-    "Punkty": "100",
-    "Count": "1",
-    "PlayerKey": "e5b8495dc8f8d8736c78"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:50:18",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "BART2O2PL",
-    "Źródło": "Rzadka krypta 25 poziomu",
-    "Punkty": "30",
-    "Count": "1",
-    "PlayerKey": "f11e94ab451a8ee02fae"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:50:25",
-    "Typ": "Skrzynia Skarabeusza",
-    "Nadawca": "Éomer",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "8fb45f09445785ab6654"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:50:27",
-    "Typ": "Pleciona Skrzynia",
-    "Nadawca": "MnA",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "fb1c981a98da28792d33"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:50:41",
-    "Typ": "Skrzynia Kapłana",
-    "Nadawca": "Éomer",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "8fb45f09445785ab6654"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:50:46",
-    "Typ": "Skrzynia Harpii",
-    "Nadawca": "Domino",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "a4d9cc04ceaa47510b5e"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:50:48",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "BART2O2PL",
-    "Źródło": "Rzadka krypta 25 poziomu",
-    "Punkty": "30",
-    "Count": "1",
-    "PlayerKey": "f11e94ab451a8ee02fae"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:50:52",
-    "Typ": "Porzucona Skrzynia",
-    "Nadawca": "Barbarella666",
-    "Źródło": "Epicka krypta 30 poziomu",
-    "Punkty": "100",
-    "Count": "1",
-    "PlayerKey": "e5b8495dc8f8d8736c78"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:50:54",
-    "Typ": "Skrzynia Przeklętych",
-    "Nadawca": "Éomer",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "8fb45f09445785ab6654"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:50:56",
-    "Typ": "Skrzynia Z Białego Drewna",
-    "Nadawca": "Domino",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "a4d9cc04ceaa47510b5e"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:50:58",
-    "Typ": "ItemId 2079",
-    "Nadawca": "Tojak",
-    "Źródło": "",
-    "Punkty": "0",
-    "Count": "1",
-    "PlayerKey": "805f3f04e34bedb658f4"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:51:01",
-    "Typ": "Skrzynia Domu Grozy",
-    "Nadawca": "Éomer",
-    "Źródło": "Epicka krypta 30 poziomu",
-    "Punkty": "100",
-    "Count": "1",
-    "PlayerKey": "8fb45f09445785ab6654"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:51:06",
-    "Typ": "Skrzynia Przeklętych",
-    "Nadawca": "MnA",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "fb1c981a98da28792d33"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:51:24",
-    "Typ": "Pleciona Skrzynia",
-    "Nadawca": "Éomer",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "8fb45f09445785ab6654"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:51:26",
-    "Typ": "Skrzynia Skarabeusza",
-    "Nadawca": "Barbarella666",
-    "Źródło": "Epicka krypta 30 poziomu",
-    "Punkty": "100",
-    "Count": "1",
-    "PlayerKey": "e5b8495dc8f8d8736c78"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:51:27",
-    "Typ": "ItemId 2079",
-    "Nadawca": "Piotrek 1",
-    "Źródło": "",
-    "Punkty": "0",
-    "Count": "1",
-    "PlayerKey": "3a5eb183b5b6981c27c4"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:51:34",
-    "Typ": "ItemId 2079",
-    "Nadawca": "Max72",
-    "Źródło": "",
-    "Punkty": "0",
-    "Count": "1",
-    "PlayerKey": "636bce343193dbfb545b"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:51:40",
-    "Typ": "ItemId 2079",
-    "Nadawca": "VLD",
-    "Źródło": "",
-    "Punkty": "0",
-    "Count": "2",
-    "PlayerKey": "d54588a077b9aa5b871a"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:51:44",
-    "Typ": "ItemId 2079",
-    "Nadawca": "Ildanen",
-    "Źródło": "",
-    "Punkty": "0",
-    "Count": "1",
-    "PlayerKey": "865e1ddb9398b80fcfee"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:51:46",
-    "Typ": "Skrzynia Kapłana",
-    "Nadawca": "Domino",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "a4d9cc04ceaa47510b5e"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:51:48",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "BART2O2PL",
-    "Źródło": "Rzadka krypta 25 poziomu",
-    "Punkty": "30",
-    "Count": "1",
-    "PlayerKey": "f11e94ab451a8ee02fae"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:51:51",
-    "Typ": "Skrzynia Domu Grozy",
-    "Nadawca": "Domino",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "a4d9cc04ceaa47510b5e"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:51:52",
-    "Typ": "ItemId 2079",
-    "Nadawca": "Piotrek 1",
-    "Źródło": "",
-    "Punkty": "0",
-    "Count": "1",
-    "PlayerKey": "3a5eb183b5b6981c27c4"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:52:04",
-    "Typ": "Skrzynia Starożytnego Bastionu",
-    "Nadawca": "Barbarella666",
-    "Źródło": "Epicka krypta 30 poziomu",
-    "Punkty": "100",
-    "Count": "1",
-    "PlayerKey": "e5b8495dc8f8d8736c78"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:52:04",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "BART2O2PL",
-    "Źródło": "Rzadka krypta 25 poziomu",
-    "Punkty": "30",
-    "Count": "1",
-    "PlayerKey": "f11e94ab451a8ee02fae"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:52:08",
-    "Typ": "Skrzynia Skarabeusza",
-    "Nadawca": "Éomer",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "8fb45f09445785ab6654"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:52:19",
-    "Typ": "Skrzynia Skorpiona",
-    "Nadawca": "Éomer",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "8fb45f09445785ab6654"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:52:20",
-    "Typ": "Skrzynia Domu Grozy",
-    "Nadawca": "MnA",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "fb1c981a98da28792d33"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:52:34",
-    "Typ": "Skrzynia Z Białego Drewna",
-    "Nadawca": "Domino",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "a4d9cc04ceaa47510b5e"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:52:35",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "BART2O2PL",
-    "Źródło": "Rzadka krypta 25 poziomu",
-    "Punkty": "30",
-    "Count": "1",
-    "PlayerKey": "f11e94ab451a8ee02fae"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:52:36",
-    "Typ": "Skrzynia Skorpiona",
-    "Nadawca": "Domino",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "a4d9cc04ceaa47510b5e"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:52:43",
-    "Typ": "Skrzynia Skarabeusza",
-    "Nadawca": "Barbarella666",
-    "Źródło": "Epicka krypta 30 poziomu",
-    "Punkty": "100",
-    "Count": "1",
-    "PlayerKey": "e5b8495dc8f8d8736c78"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:52:49",
-    "Typ": "Porzucona Skrzynia",
-    "Nadawca": "Éomer",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "8fb45f09445785ab6654"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:52:58",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "BART2O2PL",
-    "Źródło": "Rzadka krypta 25 poziomu",
-    "Punkty": "30",
-    "Count": "1",
-    "PlayerKey": "f11e94ab451a8ee02fae"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:52:58",
-    "Typ": "Pleciona Skrzynia",
-    "Nadawca": "Éomer",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "8fb45f09445785ab6654"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:53:05",
-    "Typ": "Skrzynia Skarabeusza",
-    "Nadawca": "MnA",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "fb1c981a98da28792d33"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:53:12",
-    "Typ": "Skrzynia Minotaura",
-    "Nadawca": "Éomer",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "8fb45f09445785ab6654"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:53:20",
-    "Typ": "Skrzynia Domu Grozy",
-    "Nadawca": "Barbarella666",
-    "Źródło": "Epicka krypta 30 poziomu",
-    "Punkty": "100",
-    "Count": "1",
-    "PlayerKey": "e5b8495dc8f8d8736c78"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:53:23",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "BART2O2PL",
-    "Źródło": "Rzadka krypta 25 poziomu",
-    "Punkty": "30",
-    "Count": "1",
-    "PlayerKey": "f11e94ab451a8ee02fae"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:53:32",
-    "Typ": "Skrzynia Skarabeusza",
-    "Nadawca": "Domino",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "a4d9cc04ceaa47510b5e"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:53:36",
-    "Typ": "Skrzynia Przeklętych",
-    "Nadawca": "Domino",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "a4d9cc04ceaa47510b5e"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:53:37",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "BART2O2PL",
-    "Źródło": "Rzadka krypta 25 poziomu",
-    "Punkty": "30",
-    "Count": "1",
-    "PlayerKey": "f11e94ab451a8ee02fae"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:53:50",
-    "Typ": "Skrzynia Harpii",
-    "Nadawca": "Éomer",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "8fb45f09445785ab6654"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:53:58",
-    "Typ": "Pleciona Skrzynia",
-    "Nadawca": "Éomer",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "8fb45f09445785ab6654"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:54:01",
-    "Typ": "Skrzynia Z Tytanowej Stali",
-    "Nadawca": "Barbarella666",
-    "Źródło": "Epicka krypta 30 poziomu",
-    "Punkty": "100",
-    "Count": "1",
-    "PlayerKey": "e5b8495dc8f8d8736c78"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:54:16",
-    "Typ": "Skrzynia Minotaura",
-    "Nadawca": "Éomer",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "8fb45f09445785ab6654"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:54:19",
-    "Typ": "Żółwia Skrzynia",
-    "Nadawca": "MnA",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "fb1c981a98da28792d33"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:54:20",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "BART2O2PL",
-    "Źródło": "Rzadka krypta 25 poziomu",
-    "Punkty": "30",
-    "Count": "1",
-    "PlayerKey": "f11e94ab451a8ee02fae"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:54:20",
-    "Typ": "Skrzynia Harpii",
-    "Nadawca": "Domino",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "a4d9cc04ceaa47510b5e"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:54:27",
-    "Typ": "Skrzynia Skorpiona",
-    "Nadawca": "Domino",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "a4d9cc04ceaa47510b5e"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:54:31",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "BART2O2PL",
-    "Źródło": "Rzadka krypta 25 poziomu",
-    "Punkty": "30",
-    "Count": "1",
-    "PlayerKey": "f11e94ab451a8ee02fae"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:54:31",
-    "Typ": "Kobaltowa Skrzynia",
-    "Nadawca": "Éomer",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "8fb45f09445785ab6654"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:54:47",
-    "Typ": "Skrzynia Z Białego Drewna",
-    "Nadawca": "Éomer",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "8fb45f09445785ab6654"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:55:02",
-    "Typ": "ItemId 2079",
-    "Nadawca": "Piotrek 1",
-    "Źródło": "",
-    "Punkty": "0",
-    "Count": "1",
-    "PlayerKey": "3a5eb183b5b6981c27c4"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:55:06",
-    "Typ": "ItemId 2079",
-    "Nadawca": "Ildanen",
-    "Źródło": "",
-    "Punkty": "0",
-    "Count": "1",
-    "PlayerKey": "865e1ddb9398b80fcfee"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:55:06",
-    "Typ": "Skrzynia Przeklętych",
-    "Nadawca": "Domino",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "a4d9cc04ceaa47510b5e"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:55:09",
-    "Typ": "Skrzynia Barbarzyńców",
-    "Nadawca": "Éomer",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "8fb45f09445785ab6654"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:55:19",
-    "Typ": "Pleciona Skrzynia",
-    "Nadawca": "Éomer",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "8fb45f09445785ab6654"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:55:26",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "BART2O2PL",
-    "Źródło": "Rzadka krypta 25 poziomu",
-    "Punkty": "30",
-    "Count": "1",
-    "PlayerKey": "f11e94ab451a8ee02fae"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:55:34",
-    "Typ": "Starożytna Skrzynia Wojownika",
-    "Nadawca": "MnA",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "fb1c981a98da28792d33"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:55:34",
-    "Typ": "Skrzynia Skarabeusza",
-    "Nadawca": "Éomer",
-    "Źródło": "Epicka krypta 30 poziomu",
-    "Punkty": "100",
-    "Count": "1",
-    "PlayerKey": "8fb45f09445785ab6654"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:55:40",
-    "Typ": "ItemId 2079",
-    "Nadawca": "Serafino",
-    "Źródło": "",
-    "Punkty": "0",
-    "Count": "1",
-    "PlayerKey": "25fd16f36bf014d81ed7"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:55:40",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "BART2O2PL",
-    "Źródło": "Rzadka krypta 25 poziomu",
-    "Punkty": "30",
-    "Count": "1",
-    "PlayerKey": "f11e94ab451a8ee02fae"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:56:09",
-    "Typ": "ItemId 2079",
-    "Nadawca": "Karolek",
-    "Źródło": "",
-    "Punkty": "0",
-    "Count": "1",
-    "PlayerKey": "89abaf01d0870e8d1ebf"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:56:10",
-    "Typ": "Skrzynia Z Tytanowej Stali",
-    "Nadawca": "Domino",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "a4d9cc04ceaa47510b5e"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:56:11",
-    "Typ": "Żółwia Skrzynia",
-    "Nadawca": "Domino",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "a4d9cc04ceaa47510b5e"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:56:21",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "BART2O2PL",
-    "Źródło": "Rzadka krypta 25 poziomu",
-    "Punkty": "30",
-    "Count": "1",
-    "PlayerKey": "f11e94ab451a8ee02fae"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:56:26",
-    "Typ": "ItemId 2079",
-    "Nadawca": "Éomer",
-    "Źródło": "",
-    "Punkty": "0",
-    "Count": "2",
-    "PlayerKey": "8fb45f09445785ab6654"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:56:36",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "BART2O2PL",
-    "Źródło": "Rzadka krypta 25 poziomu",
-    "Punkty": "30",
-    "Count": "1",
-    "PlayerKey": "f11e94ab451a8ee02fae"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:56:39",
-    "Typ": "ItemId 2079",
-    "Nadawca": "Karolek",
-    "Źródło": "",
-    "Punkty": "0",
-    "Count": "1",
-    "PlayerKey": "89abaf01d0870e8d1ebf"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:56:40",
-    "Typ": "ItemId 2079",
-    "Nadawca": "Piotrek 1",
-    "Źródło": "",
-    "Punkty": "0",
-    "Count": "1",
-    "PlayerKey": "3a5eb183b5b6981c27c4"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:56:47",
-    "Typ": "Skrzynia Starożytnego Bastionu",
-    "Nadawca": "MnA",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "fb1c981a98da28792d33"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:56:57",
-    "Typ": "Skrzynia Z Białego Drewna",
-    "Nadawca": "Domino",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "a4d9cc04ceaa47510b5e"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:56:59",
-    "Typ": "Elegancka Skrzynia",
-    "Nadawca": "Max72",
-    "Źródło": "Krypta 25 poziomu",
-    "Punkty": "4",
-    "Count": "1",
-    "PlayerKey": "636bce343193dbfb545b"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:57:05",
-    "Typ": "Skrzynia Przeklętych",
-    "Nadawca": "Domino",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "a4d9cc04ceaa47510b5e"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:57:18",
-    "Typ": "ItemId 2079",
-    "Nadawca": "Max72",
-    "Źródło": "",
-    "Punkty": "0",
-    "Count": "1",
-    "PlayerKey": "636bce343193dbfb545b"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:57:19",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "BART2O2PL",
-    "Źródło": "Rzadka krypta 25 poziomu",
-    "Punkty": "30",
-    "Count": "1",
-    "PlayerKey": "f11e94ab451a8ee02fae"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:57:39",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "BART2O2PL",
-    "Źródło": "Rzadka krypta 25 poziomu",
-    "Punkty": "30",
-    "Count": "1",
-    "PlayerKey": "f11e94ab451a8ee02fae"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:57:40",
-    "Typ": "ItemId 2079",
-    "Nadawca": "Max72",
-    "Źródło": "",
-    "Punkty": "0",
-    "Count": "2",
-    "PlayerKey": "636bce343193dbfb545b"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:58:01",
-    "Typ": "ItemId 2079",
-    "Nadawca": "Max72",
-    "Źródło": "",
-    "Punkty": "0",
-    "Count": "1",
-    "PlayerKey": "636bce343193dbfb545b"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:58:11",
-    "Typ": "Skrzynia Barbarzyńców",
-    "Nadawca": "MnA",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "fb1c981a98da28792d33"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:58:16",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "BART2O2PL",
-    "Źródło": "Rzadka krypta 25 poziomu",
-    "Punkty": "30",
-    "Count": "1",
-    "PlayerKey": "f11e94ab451a8ee02fae"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:58:22",
-    "Typ": "Skrzynia Kobry",
-    "Nadawca": "Max72",
-    "Źródło": "Krypta 25 poziomu",
-    "Punkty": "4",
-    "Count": "1",
-    "PlayerKey": "636bce343193dbfb545b"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:58:30",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "BART2O2PL",
-    "Źródło": "Rzadka krypta 25 poziomu",
-    "Punkty": "30",
-    "Count": "1",
-    "PlayerKey": "f11e94ab451a8ee02fae"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:58:38",
-    "Typ": "Skrzynia Skarabeusza",
-    "Nadawca": "Domino",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "a4d9cc04ceaa47510b5e"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:58:45",
-    "Typ": "Skrzynia Starożytnego Bastionu",
-    "Nadawca": "Domino",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "a4d9cc04ceaa47510b5e"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:59:06",
-    "Typ": "Skrzynia Warsztatu Gnomów",
-    "Nadawca": "Max72",
-    "Źródło": "Krypta 25 poziomu",
-    "Punkty": "4",
-    "Count": "1",
-    "PlayerKey": "636bce343193dbfb545b"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:59:08",
-    "Typ": "Skrzynia Z Trillium",
-    "Nadawca": "Domino",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "a4d9cc04ceaa47510b5e"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:59:13",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "BART2O2PL",
-    "Źródło": "Rzadka krypta 25 poziomu",
-    "Punkty": "30",
-    "Count": "1",
-    "PlayerKey": "f11e94ab451a8ee02fae"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:59:27",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "BART2O2PL",
-    "Źródło": "Rzadka krypta 25 poziomu",
-    "Punkty": "30",
-    "Count": "1",
-    "PlayerKey": "f11e94ab451a8ee02fae"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:59:27",
-    "Typ": "Żółwia Skrzynia",
-    "Nadawca": "Domino",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "a4d9cc04ceaa47510b5e"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:59:32",
-    "Typ": "Starożytna Skrzynia Wojownika",
-    "Nadawca": "MnA",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "fb1c981a98da28792d33"
-  },
-  {
-    "Okres rozliczeniowy": "2026 06.09 - 13.09",
-    "Data": "2026-09-13 18:59:42",
-    "Typ": "Skrzynia Z Trillium",
-    "Nadawca": "Domino",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "a4d9cc04ceaa47510b5e"
-  },
-  {
     "Okres rozliczeniowy": "2026 13.09 - 20.09",
     "Data": "2026-09-13 19:01:48",
     "Typ": "Rzadka Smocza Skrzynia",
@@ -2998,5 +2018,3005 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:36:09",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Androzar",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3a4cb18a2d1a16c9c02b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:36:14",
+    "Typ": "ItemId 702061",
+    "Nadawca": "iRfan",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "e5bc7939193cf10888b3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:36:41",
+    "Typ": "ItemId 702061",
+    "Nadawca": "WARIAT",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:36:57",
+    "Typ": "ItemId 702061",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:37:12",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Stefan",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:37:42",
+    "Typ": "ItemId 702061",
+    "Nadawca": "TUFUR",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "5fe3b9e073708fe54f86"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:37:46",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Mager",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "e363aa37cf47e1f42c58"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:37:52",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Oregon",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "ba45562d23421d65eb5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:38:05",
+    "Typ": "ItemId 702061",
+    "Nadawca": "WARIAT",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:38:08",
+    "Typ": "ItemId 702061",
+    "Nadawca": "ALEX 82",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:38:14",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Puma I",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "9323644e25dfd9632cf1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:38:16",
+    "Typ": "ItemId 702061",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:38:26",
+    "Typ": "ItemId 702061",
+    "Nadawca": "WRX",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "8e78f16c78795da40d8c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:38:27",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Zlosnica CP",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "ec07a02e8f7da89f8b24"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:38:36",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Osingmet",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:38:38",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Dagger",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:38:41",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Androzar",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3a4cb18a2d1a16c9c02b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:38:41",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Cahir",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "327de611e8aa8e17ef4c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:38:42",
+    "Typ": "ItemId 702061",
+    "Nadawca": "StaH",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:38:43",
+    "Typ": "ItemId 702061",
+    "Nadawca": "ALEX 82",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:38:44",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Zioło",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "4df01774ba542ec518dd"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:39:26",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "Mateusz",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "2a3f1119db9ed1178e79"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:39:37",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Oregon",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "ba45562d23421d65eb5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:40:52",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Melania",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:41:01",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Oregon",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "ba45562d23421d65eb5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:41:07",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Eyrodor",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "8c9c6af60262fb89cd7c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:41:19",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Rili",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "24d65d586acbdf6f930e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:41:29",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Panoramix",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "0c57cac25796935e5dc5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:41:36",
+    "Typ": "ItemId 702061",
+    "Nadawca": "HassanYEMEN",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "6d7f0562a0ccae85ce6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:41:39",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Mateusz",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "2a3f1119db9ed1178e79"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:41:49",
+    "Typ": "ItemId 702061",
+    "Nadawca": "WRX",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "8e78f16c78795da40d8c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:41:51",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Jarek",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:41:52",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Mieciu",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "5523e42cd1d58a7a7936"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:41:53",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Nerdailas",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "cb920a76b7f747a54aff"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:41:58",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Rili",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "24d65d586acbdf6f930e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:42:00",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Puma I",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "9323644e25dfd9632cf1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:42:20",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Mager",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "e363aa37cf47e1f42c58"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:42:32",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Osingmet",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:42:37",
+    "Typ": "ItemId 702061",
+    "Nadawca": "WARIAT",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:42:44",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Zarina",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "821531d29e661d88ca32"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:43:02",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Mateusz",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "2a3f1119db9ed1178e79"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:43:16",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Oregon",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "ba45562d23421d65eb5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:43:39",
+    "Typ": "ItemId 702061",
+    "Nadawca": "WARIAT",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:43:50",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Pumba",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "b445d588a166843e7d6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:44:05",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Trueray",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "0e7df54b0b39a51da02a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:44:19",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Zioło",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "4df01774ba542ec518dd"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:44:21",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Androzar",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3a4cb18a2d1a16c9c02b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:44:43",
+    "Typ": "ItemId 702061",
+    "Nadawca": "WRX",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "8e78f16c78795da40d8c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:44:43",
+    "Typ": "ItemId 702061",
+    "Nadawca": "WARIAT",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:44:44",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Pumba",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "b445d588a166843e7d6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:44:45",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Mager",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "e363aa37cf47e1f42c58"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:44:46",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Max72",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:44:49",
+    "Typ": "ItemId 702061",
+    "Nadawca": "ALEX 82",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:44:54",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Osingmet",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:44:56",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Zarina",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "821531d29e661d88ca32"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:46:32",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Mateusz",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "2a3f1119db9ed1178e79"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:46:46",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Eyrodor",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "8c9c6af60262fb89cd7c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:47:12",
+    "Typ": "ItemId 702061",
+    "Nadawca": "WARIAT",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:47:16",
+    "Typ": "ItemId 702061",
+    "Nadawca": "ALEX 82",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:47:30",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Puma I",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "9323644e25dfd9632cf1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:47:32",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Zlosnica CP",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "ec07a02e8f7da89f8b24"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:47:32",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Oregon",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "ba45562d23421d65eb5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:47:33",
+    "Typ": "ItemId 702061",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:47:46",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Melania",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:47:47",
+    "Typ": "ItemId 702061",
+    "Nadawca": "ALEX 82",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:47:51",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "Mateusz",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "2a3f1119db9ed1178e79"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:48:12",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Oregon",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "ba45562d23421d65eb5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:48:16",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Mager",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "e363aa37cf47e1f42c58"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:48:22",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Androzar",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3a4cb18a2d1a16c9c02b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:48:26",
+    "Typ": "ItemId 702061",
+    "Nadawca": "ALEX 82",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:48:43",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Oregon",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "ba45562d23421d65eb5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:48:44",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Melania",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:48:46",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Eyrodor",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "8c9c6af60262fb89cd7c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:48:52",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Zioło",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "4df01774ba542ec518dd"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:48:53",
+    "Typ": "ItemId 702061",
+    "Nadawca": "WARIAT",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:48:58",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Juana la loca",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "dc7aa45f448f22adfe4d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:49:00",
+    "Typ": "ItemId 702061",
+    "Nadawca": "WRX",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "8e78f16c78795da40d8c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:49:01",
+    "Typ": "ItemId 702061",
+    "Nadawca": "ALEX 82",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:49:08",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Tojak",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "805f3f04e34bedb658f4"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:49:09",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Mager",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "e363aa37cf47e1f42c58"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:49:11",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Rili",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "24d65d586acbdf6f930e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:49:14",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Nerdailas",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "cb920a76b7f747a54aff"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:49:16",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Zarina",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "821531d29e661d88ca32"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:49:20",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Oregon",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "ba45562d23421d65eb5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:49:21",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Stefan",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:49:40",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Puma I",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "9323644e25dfd9632cf1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:49:48",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Mieciu",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "5523e42cd1d58a7a7936"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:49:56",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Szymuś",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "29912f64a12eb981cb92"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:49:56",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Stefan",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:49:59",
+    "Typ": "ItemId 702061",
+    "Nadawca": "WARIAT",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:50:04",
+    "Typ": "ItemId 702061",
+    "Nadawca": "ALEX 82",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:50:04",
+    "Typ": "ItemId 702061",
+    "Nadawca": "WALEEDO7",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "37a097fe0068d3dec8b8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:50:43",
+    "Typ": "ItemId 702061",
+    "Nadawca": "WRX",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "8e78f16c78795da40d8c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:50:46",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "Mateusz",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "2a3f1119db9ed1178e79"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:51:48",
+    "Typ": "ItemId 702061",
+    "Nadawca": "WRX",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "8e78f16c78795da40d8c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:51:49",
+    "Typ": "ItemId 702061",
+    "Nadawca": "ALEX 82",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:52:15",
+    "Typ": "ItemId 702061",
+    "Nadawca": "ALEX 82",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:52:30",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Éomer",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "8fb45f09445785ab6654"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:52:53",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Juana la loca",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "dc7aa45f448f22adfe4d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:53:15",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Zioło",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "4df01774ba542ec518dd"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:53:15",
+    "Typ": "ItemId 702061",
+    "Nadawca": "WRX",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "8e78f16c78795da40d8c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:53:23",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Szymuś",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "29912f64a12eb981cb92"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:53:30",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Stefan",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:53:32",
+    "Typ": "ItemId 702061",
+    "Nadawca": "DjKro",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:53:33",
+    "Typ": "ItemId 702061",
+    "Nadawca": "HassanYEMEN",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "6d7f0562a0ccae85ce6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:53:35",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Mieciu",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "5523e42cd1d58a7a7936"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:54:05",
+    "Typ": "ItemId 702061",
+    "Nadawca": "WARIAT",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:54:49",
+    "Typ": "ItemId 702061",
+    "Nadawca": "WOJTUS",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "3d476999a1883ef73b71"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:55:04",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Mateusz",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "2a3f1119db9ed1178e79"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:55:15",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Doctor Sleep",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "1da739de3268c2024714"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:55:32",
+    "Typ": "ItemId 702061",
+    "Nadawca": "WARIAT",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:55:47",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Jedi Qui Gon Jinn",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "cc518556cc44310be810"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:56:32",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Tojak",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "805f3f04e34bedb658f4"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:56:36",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Zioło",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "4df01774ba542ec518dd"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:56:37",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Doctor Sleep",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "1da739de3268c2024714"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:56:40",
+    "Typ": "ItemId 702061",
+    "Nadawca": "RaFSaN RaFi",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "c101c6308abfb10e36ef"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:56:42",
+    "Typ": "ItemId 702061",
+    "Nadawca": "WOJTUS",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3d476999a1883ef73b71"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:56:49",
+    "Typ": "ItemId 702061",
+    "Nadawca": "WARIAT",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:56:50",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Osingmet",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:56:57",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Szymuś",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "29912f64a12eb981cb92"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:58:04",
+    "Typ": "ItemId 702061",
+    "Nadawca": "TUFUR",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "5fe3b9e073708fe54f86"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:58:32",
+    "Typ": "ItemId 2079",
+    "Nadawca": "Rili",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "24d65d586acbdf6f930e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:58:37",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Jedi Qui Gon Jinn",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "cc518556cc44310be810"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:58:38",
+    "Typ": "ItemId 2079",
+    "Nadawca": "Mateusz",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "2a3f1119db9ed1178e79"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:58:49",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Serafino",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "25fd16f36bf014d81ed7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 19:59:31",
+    "Typ": "ItemId 702061",
+    "Nadawca": "WOJTUS",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3d476999a1883ef73b71"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:00:13",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Zarina",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "821531d29e661d88ca32"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:00:36",
+    "Typ": "ItemId 702061",
+    "Nadawca": "WOJTUS",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3d476999a1883ef73b71"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:01:03",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Eyrodor",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "8c9c6af60262fb89cd7c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:01:30",
+    "Typ": "ItemId 702061",
+    "Nadawca": "WALEEDO7",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "37a097fe0068d3dec8b8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:01:47",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Éomer",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "8fb45f09445785ab6654"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:02:27",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Stefan",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:02:33",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Doctor Sleep",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "1da739de3268c2024714"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:02:38",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Zioło",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "4df01774ba542ec518dd"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:03:18",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Painfont",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:03:26",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Éomer",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "8fb45f09445785ab6654"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:03:34",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Zarina",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "821531d29e661d88ca32"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:03:35",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Mateusz",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "2a3f1119db9ed1178e79"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:03:37",
+    "Typ": "ItemId 702061",
+    "Nadawca": "RAFAL PL",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "ff001bef965a35cc675a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:03:47",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Eyrodor",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "8c9c6af60262fb89cd7c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:03:53",
+    "Typ": "ItemId 702061",
+    "Nadawca": "RaFSaN RaFi",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "c101c6308abfb10e36ef"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:04:01",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Panoramix",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "0c57cac25796935e5dc5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:04:03",
+    "Typ": "ItemId 702061",
+    "Nadawca": "WALEEDO7",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "37a097fe0068d3dec8b8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:04:05",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Serafino",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "25fd16f36bf014d81ed7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:04:05",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Osingmet",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:04:12",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Tojak",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "805f3f04e34bedb658f4"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:05:00",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Doctor Sleep",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "1da739de3268c2024714"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:05:07",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Melania",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:05:27",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Pumba",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "b445d588a166843e7d6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:06:01",
+    "Typ": "ItemId 702061",
+    "Nadawca": "RAFAL PL",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "ff001bef965a35cc675a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:06:12",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Anaris",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "983f01fd0263653f2f51"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:06:20",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Mariano244",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "1da51b68f42324d68739"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:06:36",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Rain",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "17513ddcb0f4db94a0f6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:06:40",
+    "Typ": "ItemId 2079",
+    "Nadawca": "TUFUR",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "5fe3b9e073708fe54f86"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:06:46",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Eyrodor",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "8c9c6af60262fb89cd7c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:06:46",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Osingmet",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:06:50",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Éomer",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "8fb45f09445785ab6654"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:07:03",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Melania",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:08:10",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Juana la loca",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "dc7aa45f448f22adfe4d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:10:13",
+    "Typ": "ItemId 2079",
+    "Nadawca": "Osingmet",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:10:55",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Éomer",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "8fb45f09445785ab6654"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:10:56",
+    "Typ": "ItemId 702061",
+    "Nadawca": "RAFAL PL",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "ff001bef965a35cc675a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:10:57",
+    "Typ": "ItemId 2079",
+    "Nadawca": "Serafino",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "25fd16f36bf014d81ed7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:11:03",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Zarina",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "821531d29e661d88ca32"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:11:16",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Konserwiusz",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "21c8940b5d1d200fb005"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:11:20",
+    "Typ": "ItemId 702061",
+    "Nadawca": "WALEEDO7",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "37a097fe0068d3dec8b8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:11:29",
+    "Typ": "ItemId 702061",
+    "Nadawca": "RaFSaN RaFi",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "c101c6308abfb10e36ef"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:11:32",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Éomer",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "8fb45f09445785ab6654"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:11:33",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Mariano244",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "1da51b68f42324d68739"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:11:39",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Doctor Sleep",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "1da739de3268c2024714"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:11:55",
+    "Typ": "ItemId 2079",
+    "Nadawca": "TUFUR",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "5fe3b9e073708fe54f86"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:12:09",
+    "Typ": "ItemId 2079",
+    "Nadawca": "Rili",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "24d65d586acbdf6f930e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:12:19",
+    "Typ": "ItemId 2079",
+    "Nadawca": "Osingmet",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:12:41",
+    "Typ": "ItemId 2079",
+    "Nadawca": "InternetCash",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "c412d87552de70104a82"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:13:34",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Morfii",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "641a95ee97d6ecedcdf9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:14:00",
+    "Typ": "ItemId 702061",
+    "Nadawca": "RAFAL PL",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "ff001bef965a35cc675a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:14:25",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Serafino",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "25fd16f36bf014d81ed7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:14:25",
+    "Typ": "ItemId 702061",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:14:48",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Morfii",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "641a95ee97d6ecedcdf9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:15:38",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Eyrodor",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "8c9c6af60262fb89cd7c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:16:05",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Konserwiusz",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "21c8940b5d1d200fb005"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:16:19",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Morfii",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "641a95ee97d6ecedcdf9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:17:04",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Alfonso DIOS Magno",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3b72c8642cb4720b717c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:17:27",
+    "Typ": "ItemId 702061",
+    "Nadawca": "DjKro",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:17:28",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Stefan",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:17:33",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Painfont",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:17:36",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Szybki Kriss",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "49bc493bb219270d30fc"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:17:54",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Serafino",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "25fd16f36bf014d81ed7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:17:58",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Nerdailas",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "cb920a76b7f747a54aff"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:18:03",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Eyrodor",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "8c9c6af60262fb89cd7c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:18:08",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Alfonso DIOS Magno",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3b72c8642cb4720b717c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:18:08",
+    "Typ": "ItemId 702061",
+    "Nadawca": "DjKro",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:18:13",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Pumba",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "b445d588a166843e7d6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:18:14",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Éomer",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "8fb45f09445785ab6654"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:18:16",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Piotrek 1",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3a5eb183b5b6981c27c4"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:18:16",
+    "Typ": "ItemId 702061",
+    "Nadawca": "WALEEDO7",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "37a097fe0068d3dec8b8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:19:33",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Stefan",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:20:11",
+    "Typ": "ItemId 702061",
+    "Nadawca": "DjKro",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:21:05",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Melania",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:21:07",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Konserwiusz",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "21c8940b5d1d200fb005"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:21:24",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Eyrodor",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "8c9c6af60262fb89cd7c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:21:31",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Pumba",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "b445d588a166843e7d6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:21:36",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Mateusz",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "2a3f1119db9ed1178e79"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:21:42",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Anaris",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "983f01fd0263653f2f51"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:21:42",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Szymuś",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "29912f64a12eb981cb92"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:21:44",
+    "Typ": "ItemId 702061",
+    "Nadawca": "InternetCash",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "c412d87552de70104a82"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:22:30",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "DjKro",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:22:57",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Morfii",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "641a95ee97d6ecedcdf9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:23:07",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "DjKro",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:23:44",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "DjKro",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:24:03",
+    "Typ": "ItemId 2079",
+    "Nadawca": "Puma I",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "9323644e25dfd9632cf1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:24:17",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "DjKro",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:24:57",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Morfii",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "641a95ee97d6ecedcdf9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:25:16",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "DjKro",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:25:48",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "Mateusz",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "2a3f1119db9ed1178e79"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:25:48",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Alfonso DIOS Magno",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3b72c8642cb4720b717c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:26:03",
+    "Typ": "ItemId 2079",
+    "Nadawca": "EeLL",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "a15b608703c3ba6fe2da"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:26:05",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "DjKro",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:26:21",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Alfonso DIOS Magno",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3b72c8642cb4720b717c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:26:26",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Melania",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:26:27",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Melania",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:26:39",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Tojak",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "805f3f04e34bedb658f4"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:26:43",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "DjKro",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:27:17",
+    "Typ": "ItemId 2079",
+    "Nadawca": "EeLL",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "a15b608703c3ba6fe2da"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:27:20",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "DjKro",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:27:24",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Alfonso DIOS Magno",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3b72c8642cb4720b717c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:27:25",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Nerdailas",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "cb920a76b7f747a54aff"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:27:33",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "Mateusz",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "2a3f1119db9ed1178e79"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:27:39",
+    "Typ": "ItemId 2079",
+    "Nadawca": "EeLL",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "a15b608703c3ba6fe2da"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:28:00",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "DjKro",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:28:01",
+    "Typ": "ItemId 2079",
+    "Nadawca": "EeLL",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "a15b608703c3ba6fe2da"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:28:06",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Alfonso DIOS Magno",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "3b72c8642cb4720b717c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:28:11",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Rain",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "17513ddcb0f4db94a0f6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:28:24",
+    "Typ": "ItemId 2079",
+    "Nadawca": "EeLL",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "a15b608703c3ba6fe2da"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:28:30",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Jarek",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:28:33",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Mateusz",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "2a3f1119db9ed1178e79"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:28:35",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Alfonso DIOS Magno",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3b72c8642cb4720b717c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:28:39",
+    "Typ": "ItemId 702061",
+    "Nadawca": "WALEEDO7",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "37a097fe0068d3dec8b8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:28:42",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "DjKro",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:29:10",
+    "Typ": "Zwykła Skrzynia Bogactwa",
+    "Nadawca": "Ildanen",
+    "Źródło": "Bogactwo klanu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "865e1ddb9398b80fcfee"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:29:11",
+    "Typ": "Niestandardowa Skrzynia Bogactwa",
+    "Nadawca": "Ildanen",
+    "Źródło": "Bogactwo klanu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "865e1ddb9398b80fcfee"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:29:11",
+    "Typ": "Rzadka Skrzynia Bogactwa",
+    "Nadawca": "Ildanen",
+    "Źródło": "Bogactwo klanu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "865e1ddb9398b80fcfee"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:29:11",
+    "Typ": "Epicka Skrzynia Bogactwa",
+    "Nadawca": "Ildanen",
+    "Źródło": "Bogactwo klanu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "865e1ddb9398b80fcfee"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:29:11",
+    "Typ": "Legendarna Skrzynia Bogactwa",
+    "Nadawca": "Ildanen",
+    "Źródło": "Bogactwo klanu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "865e1ddb9398b80fcfee"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:29:23",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "DjKro",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:29:36",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Morfii",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "641a95ee97d6ecedcdf9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:29:59",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Melania",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:30:05",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "DjKro",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:30:44",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "DjKro",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:30:46",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Painfont",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:30:53",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Nerdailas",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "cb920a76b7f747a54aff"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:31:06",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Mateusz",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "2a3f1119db9ed1178e79"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:31:09",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Stefan",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:31:11",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Mateusz",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "2a3f1119db9ed1178e79"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:31:20",
+    "Typ": "ItemId 2079",
+    "Nadawca": "Eyrodor",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "8c9c6af60262fb89cd7c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:31:21",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "DjKro",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:31:44",
+    "Typ": "Zapomniana Skrzynia",
+    "Nadawca": "EeLL",
+    "Źródło": "Krypta 5 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "a15b608703c3ba6fe2da"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:31:48",
+    "Typ": "Kościana Skrzynia",
+    "Nadawca": "EeLL",
+    "Źródło": "Krypta 10 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "a15b608703c3ba6fe2da"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:31:48",
+    "Typ": "Piaskowa Skrzynia",
+    "Nadawca": "EeLL",
+    "Źródło": "Krypta 10 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "a15b608703c3ba6fe2da"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:31:53",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "DjKro",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:32:22",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Pumba",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "b445d588a166843e7d6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:32:29",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Painfont",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:32:32",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "DjKro",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:32:34",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Ildanen",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "865e1ddb9398b80fcfee"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:33:14",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "DjKro",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:33:23",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Tojak",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "805f3f04e34bedb658f4"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:33:29",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Serafino",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "25fd16f36bf014d81ed7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:33:31",
+    "Typ": "ItemId 702061",
+    "Nadawca": "szczenius88",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "a01659a1f9a1613f71da"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:33:31",
+    "Typ": "Kościana Skrzynia",
+    "Nadawca": "Eyrodor",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "8c9c6af60262fb89cd7c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:33:42",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Painfont",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:33:49",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Stefan",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:33:52",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Anaris",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "983f01fd0263653f2f51"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:33:54",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Mateusz",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "2a3f1119db9ed1178e79"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:33:56",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Ildanen",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "865e1ddb9398b80fcfee"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:33:56",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Cahir",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "327de611e8aa8e17ef4c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:33:59",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "DjKro",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:34:02",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Eyrodor",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "8c9c6af60262fb89cd7c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:34:15",
+    "Typ": "ItemId 702061",
+    "Nadawca": "szczenius88",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "a01659a1f9a1613f71da"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:34:34",
+    "Typ": "ItemId 702061",
+    "Nadawca": "RAFAL PL",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "ff001bef965a35cc675a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:34:45",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "Mateusz",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "2a3f1119db9ed1178e79"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:34:48",
+    "Typ": "ItemId 702061",
+    "Nadawca": "szczenius88",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "a01659a1f9a1613f71da"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:34:49",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "DjKro",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:34:58",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Mager",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "e363aa37cf47e1f42c58"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:35:05",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Eyrodor",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "8c9c6af60262fb89cd7c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:35:08",
+    "Typ": "Skrzynia Orków",
+    "Nadawca": "Nerdailas",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "cb920a76b7f747a54aff"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:35:13",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Zarina",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "821531d29e661d88ca32"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:35:13",
+    "Typ": "ItemId 702061",
+    "Nadawca": "RAFAL PL",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "ff001bef965a35cc675a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:35:38",
+    "Typ": "ItemId 702061",
+    "Nadawca": "szczenius88",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "a01659a1f9a1613f71da"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:35:43",
+    "Typ": "ItemId 702061",
+    "Nadawca": "RAFAL PL",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "ff001bef965a35cc675a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:35:44",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "DjKro",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:35:57",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Mager",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "e363aa37cf47e1f42c58"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:35:59",
+    "Typ": "Kościana Skrzynia",
+    "Nadawca": "Nerdailas",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "cb920a76b7f747a54aff"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:36:12",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Barbarella666",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "e5b8495dc8f8d8736c78"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:36:13",
+    "Typ": "ItemId 702061",
+    "Nadawca": "szczenius88",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "a01659a1f9a1613f71da"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:36:14",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Eyrodor",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "8c9c6af60262fb89cd7c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:36:39",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Mager",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "e363aa37cf47e1f42c58"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:36:43",
+    "Typ": "ItemId 702061",
+    "Nadawca": "WALEEDO7",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "37a097fe0068d3dec8b8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:36:46",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Stefan",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:36:47",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Melania",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-13 20:36:50",
+    "Typ": "ItemId 702061",
+    "Nadawca": "Zarina",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "821531d29e661d88ca32"
   }
 ]

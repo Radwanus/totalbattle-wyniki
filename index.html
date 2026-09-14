@@ -1156,7 +1156,7 @@ table td.player,
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 14.09.2026 06:39</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 14.09.2026 17:51</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms</h1>
@@ -1868,6 +1868,9 @@ function epicBossCategory(type, source) {
   if (/\bitemid\s+2072\b/.test(t)) return 'miasto_cieni';
   // V195B: ItemId 2066 = Skrzynia Ognistej Hydry -> Armagedon (internal key: inferno).
   if (/\bitemid\s+2066\b/.test(t) || t.includes('skrzynia ognistej hydry')) return 'inferno';
+  // V252B: ItemId 2079 / Skrzynia Piekielnego Kowala = Piekielna Kuźnia.
+  // Source może być Epicki oddział inferno, ale event jest osobny od Armagedonu.
+  if (/\bitemid\s+2079\b/.test(t) || t.includes('skrzynia piekielnego kowala')) return 'piekielna_kuznia';
   // V194A: ItemId 74643 / Epicki oddzial spopielonych -> Inne Epic Bosses.
   if (/\bitemid\s+74643\b/.test(t) || t.includes('epicki oddzial spopielonych')) return 'inne_epic';
   if (/\bitemid\s+2085\b/.test(t) || t.includes('jormungand')) return 'jormungand';
@@ -2658,6 +2661,7 @@ function renderArchiveEpics() {
               data-yokai="${x.yokai || 0}"
               data-briareos="${x.briareos || 0}"
               data-inferno="${x.inferno || 0}"
+              data-piekielna-kuznia="${x.piekielna_kuznia || 0}"
               data-nieumarli="${x.nieumarli || 0}"
               data-inne-epic="${x.inne_epic || 0}"
               data-jormungand="${x.jormungand || 0}"
@@ -3122,6 +3126,7 @@ function buildEpicHistoryDate(currentRows, historyRows) {
       yokai: Number(r.yokai || 0),
       briareos: Number(r.briareos || 0),
       inferno: Number(r.inferno || 0),
+      piekielna_kuznia: Number(r.piekielna_kuznia || 0),
       nieumarli: Number(r.nieumarli || 0),
       inne_epic: Number(r.inne_epic || 0),
       jormungand: Number(r.jormungand || 0),
@@ -3150,6 +3155,7 @@ function buildEpicHistoryDate(currentRows, historyRows) {
     const yokai = num(h['Yokai']);
     const briareos = num(h['Briareos']);
     const inferno = num(h['Epicki oddział inferno']);
+    const piekielna_kuznia = num(h['Piekielna Kuźnia']);
     const nieumarli = num(h['Epicki oddział nieumarłych']);
     const inne_epic = num(h['Inne Epic Bosses']);
     const jormungand = num(h['Jormungand']);
@@ -3160,7 +3166,7 @@ function buildEpicHistoryDate(currentRows, historyRows) {
       nick,
       punkty,
       // V164: Epic Bosses to liczba fizycznych skrzynek, zawsze suma szczegółów dymka.
-      epickie: ragnarok + arkana + omeny + arachne + miasto_cieni + sadny_dzien + yokai + briareos + inferno + nieumarli + inne_epic + jormungand + fenrir,
+      epickie: ragnarok + arkana + omeny + arachne + miasto_cieni + sadny_dzien + yokai + briareos + inferno + piekielna_kuznia + nieumarli + inne_epic + jormungand + fenrir,
       ragnarok,
       arkana,
       omeny,
@@ -3170,6 +3176,7 @@ function buildEpicHistoryDate(currentRows, historyRows) {
       yokai,
       briareos,
       inferno,
+      piekielna_kuznia,
       nieumarli,
       inne_epic,
       jormungand,
@@ -3313,6 +3320,7 @@ function renderEpicHistoryFromGlobal() {
               data-yokai="${x.yokai || 0}"
               data-briareos="${x.briareos || 0}"
               data-inferno="${x.inferno || 0}"
+              data-piekielna-kuznia="${x.piekielna_kuznia || 0}"
               data-nieumarli="${x.nieumarli || 0}"
               data-inne-epic="${x.inne_epic || 0}"
               data-jormungand="${x.jormungand || 0}"
@@ -3411,6 +3419,7 @@ function showEpicTooltip(cell, clientX, clientY) {
   const yokai = Number(cell.dataset.yokai || 0);
   const briareos = Number(cell.dataset.briareos || 0);
   const inferno = Number(cell.dataset.inferno || 0);
+  const piekielnaKuznia = Number(cell.dataset.piekielnaKuznia || 0);
   const nieumarli = Number(cell.dataset.nieumarli || 0);
   const inneEpic = Number(cell.dataset.inneEpic || 0);
   const jormungand = Number(cell.dataset.jormungand || 0);
@@ -3429,6 +3438,7 @@ function showEpicTooltip(cell, clientX, clientY) {
       <tr><td>Yokai</td><td>${yokai}</td></tr>
       <tr><td>Briareos</td><td>${briareos}</td></tr>
       <tr><td>Armagedon</td><td>${inferno}</td></tr>
+      <tr><td>Piekielna Kuźnia</td><td>${piekielnaKuznia}</td></tr>
       <tr><td>Epicki oddział nieumarłych</td><td>${nieumarli}</td></tr>
       <tr><td>Inne Epic Bosses</td><td>${inneEpic}</td></tr>
       <tr><td>Jormungand</td><td>${jormungand}</td></tr>
@@ -3600,6 +3610,7 @@ async function run() {
         yokai: 0,
         briareos: 0,
         inferno: 0,
+        piekielna_kuznia: 0,
         nieumarli: 0,
         inne_epic: 0,
         jormungand: 0,
@@ -3635,6 +3646,7 @@ async function run() {
         Number(p.yokai || 0) +
         Number(p.briareos || 0) +
         Number(p.inferno || 0) +
+        Number(p.piekielna_kuznia || 0) +
         Number(p.nieumarli || 0) +
         Number(p.inne_epic || 0) +
         Number(p.jormungand || 0) +

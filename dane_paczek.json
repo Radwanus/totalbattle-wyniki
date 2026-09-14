@@ -60898,5 +60898,45 @@
     "Punkty": "80",
     "Count": "1",
     "PlayerKey": "0e7df54b0b39a51da02a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-14 18:14:05",
+    "Typ": "Skrzynia z Twierdzy Elfów",
+    "Nadawca": "Arashiran",
+    "Źródło": "Twierdza 30 poziomu",
+    "Punkty": "80",
+    "Count": "1",
+    "PlayerKey": "ee1fdbf4964c53453785"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-14 18:14:07",
+    "Typ": "Skrzynia z Twierdzy Elfów",
+    "Nadawca": "Arashiran",
+    "Źródło": "Twierdza 30 poziomu",
+    "Punkty": "80",
+    "Count": "1",
+    "PlayerKey": "ee1fdbf4964c53453785"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-14 18:14:11",
+    "Typ": "Skrzynia Piekielnego Kowala",
+    "Nadawca": "Éomer",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "8fb45f09445785ab6654"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-14 18:14:12",
+    "Typ": "Skrzynia Piekielnego Kowala",
+    "Nadawca": "Moralsa",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "2aa0e06ca13aad2ebb10"
   }
 ]

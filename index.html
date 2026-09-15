@@ -1156,7 +1156,7 @@ table td.player,
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 15.09.2026 20:51</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 15.09.2026 21:02</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms</h1>
@@ -2499,7 +2499,7 @@ function renderArchiveCrypts() {
   );
 
   const periods = [...new Set(historyOnly.map(x => x.okres).filter(Boolean))]
-    .sort((a, b) => parsePeriodStart(b) - parsePeriodStart(a));
+    .sort((a, b) => v249dArchivePeriodKey(b) - v249dArchivePeriodKey(a));
 
   const players = [...new Set(historyOnly.map(x => x.nick).filter(Boolean))]
     .sort((a, b) => nickSortKey(a).localeCompare(
@@ -2619,7 +2619,7 @@ function renderArchiveEpics() {
   );
 
   const periods = [...new Set(historyOnly.map(x => x.okres).filter(Boolean))]
-    .sort((a, b) => parsePeriodStart(b) - parsePeriodStart(a));
+    .sort((a, b) => v249dArchivePeriodKey(b) - v249dArchivePeriodKey(a));
 
   const players = [...new Set(historyOnly.map(x => x.nick).filter(Boolean))]
     .sort((a, b) => nickSortKey(a).localeCompare(
@@ -2749,6 +2749,27 @@ window.addEventListener('resize', refreshBottomScrollbars);
 function displayPeriodLabel(label) {
   // V105: żadnego automatycznego dopisywania "TEST".
   return (label ?? '').toString().trim();
+}
+
+function v249dArchivePeriodKey(label) {
+  // Bez regex i bez Date(): 2026 06.09 - 13.09 -> 20260906
+  const s = String(label || '').trim();
+  const sp = s.indexOf(' ');
+  if (sp <= 0) return -1;
+  const year = Number(s.slice(0, sp));
+  const rest = s.slice(sp + 1);
+  const dot = rest.indexOf('.');
+  if (dot <= 0) return -1;
+  const day = Number(rest.slice(0, dot));
+  const afterDot = rest.slice(dot + 1);
+  let endMonth = afterDot.indexOf(' ');
+  if (endMonth < 0) endMonth = afterDot.length;
+  const month = Number(afterDot.slice(0, endMonth));
+  if (!Number.isFinite(year) || !Number.isFinite(month) || !Number.isFinite(day) ||
+      year < 2000 || month < 1 || month > 12 || day < 1 || day > 31) {
+    return -1;
+  }
+  return year * 10000 + month * 100 + day;
 }
 
 function parsePeriodStart(label) {

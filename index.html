@@ -1156,7 +1156,7 @@ table td.player,
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 15.09.2026 19:09</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 15.09.2026 20:18</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms</h1>
@@ -2499,6 +2499,9 @@ function renderArchiveCrypts() {
 
   const periods = [...new Set(historyOnly.map(x => x.okres).filter(Boolean))]
     .sort((a, b) => parsePeriodStart(b) - parsePeriodStart(a));
+    // V249B ARCHIVE NEWEST LEFT
+    for (let i = periods.length - 1; i >= 0; i--) if (!periods[i] || periods[i] === 'Period' || parsePeriodStart(periods[i]) <= 0) periods.splice(i, 1);
+    periods.sort((a, b) => parsePeriodStart(b) - parsePeriodStart(a));
 
   const players = [...new Set(historyOnly.map(x => x.nick).filter(Boolean))]
     .sort((a, b) => nickSortKey(a).localeCompare(
@@ -2618,6 +2621,9 @@ function renderArchiveEpics() {
 
   const periods = [...new Set(historyOnly.map(x => x.okres).filter(Boolean))]
     .sort((a, b) => parsePeriodStart(b) - parsePeriodStart(a));
+    // V249B ARCHIVE NEWEST LEFT
+    for (let i = periods.length - 1; i >= 0; i--) if (!periods[i] || periods[i] === 'Period' || parsePeriodStart(periods[i]) <= 0) periods.splice(i, 1);
+    periods.sort((a, b) => parsePeriodStart(b) - parsePeriodStart(a));
 
   const players = [...new Set(historyOnly.map(x => x.nick).filter(Boolean))]
     .sort((a, b) => nickSortKey(a).localeCompare(

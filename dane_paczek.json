@@ -110248,5 +110248,105 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "37a097fe0068d3dec8b8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-15 20:19:11",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Megana",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "2db6dd7fcbb9231b69d5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-15 20:19:18",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Éomer",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "8fb45f09445785ab6654"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-15 20:19:21",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "Osingmet",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-15 20:19:31",
+    "Typ": "ItemId 702096",
+    "Nadawca": "ALEX 82",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-15 20:19:32",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Eyrodor",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "8c9c6af60262fb89cd7c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-15 20:19:32",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Androzar",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3a4cb18a2d1a16c9c02b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-15 20:19:35",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Cahir",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "327de611e8aa8e17ef4c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-15 20:19:36",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Konserwiusz",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "21c8940b5d1d200fb005"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-15 20:19:38",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Mager",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "e363aa37cf47e1f42c58"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-15 20:19:41",
+    "Typ": "ItemId 702096",
+    "Nadawca": "szczenius88",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "a01659a1f9a1613f71da"
   }
 ]

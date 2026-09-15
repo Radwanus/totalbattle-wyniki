@@ -1156,7 +1156,7 @@ table td.player,
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 15.09.2026 07:25</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 15.09.2026 17:58</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms</h1>
@@ -1863,6 +1863,7 @@ function epicBossCategory(type, source) {
   if (v189NonEpicSpecial(type, source)) return null;
 
   if (t.includes('hermes') || t.includes('krypta')) return null;
+  if (t.includes('chimera')) return 'chimera';
   if (/\bitemid\s+2060\b/.test(t)) return 'sadny_dzien';
   // V225A: exact ItemId 2072 = Miasto Cieni.
   if (/\bitemid\s+2072\b/.test(t)) return 'miasto_cieni';
@@ -2663,6 +2664,7 @@ function renderArchiveEpics() {
               data-inferno="${x.inferno || 0}"
               data-piekielna-kuznia="${x.piekielna_kuznia || 0}"
               data-nieumarli="${x.nieumarli || 0}"
+              data-chimera="${x.chimera || 0}"
               data-inne-epic="${x.inne_epic || 0}"
               data-jormungand="${x.jormungand || 0}"
               data-fenrir="${x.fenrir || 0}"
@@ -3130,7 +3132,8 @@ function buildEpicHistoryDate(currentRows, historyRows) {
       nieumarli: Number(r.nieumarli || 0),
       inne_epic: Number(r.inne_epic || 0),
       jormungand: Number(r.jormungand || 0),
-      fenrir: Number(r.fenrir || 0)
+      fenrir: Number(r.fenrir || 0),
+      chimera: Number(r.chimera || 0)
     });
   }
 
@@ -3160,13 +3163,14 @@ function buildEpicHistoryDate(currentRows, historyRows) {
     const inne_epic = num(h['Inne Epic Bosses']);
     const jormungand = num(h['Jormungand']);
     const fenrir = num(h['Fenrir']);
+    const chimera = num(h['Chimera']);
 
     all.push({
       okres: historyPeriod,
       nick,
       punkty,
       // V164: Epic Bosses to liczba fizycznych skrzynek, zawsze suma szczegółów dymka.
-      epickie: ragnarok + arkana + omeny + arachne + miasto_cieni + sadny_dzien + yokai + briareos + inferno + piekielna_kuznia + nieumarli + inne_epic + jormungand + fenrir,
+      epickie: ragnarok + arkana + omeny + arachne + miasto_cieni + sadny_dzien + yokai + briareos + inferno + piekielna_kuznia + nieumarli + inne_epic + jormungand + fenrir + chimera,
       ragnarok,
       arkana,
       omeny,
@@ -3180,7 +3184,8 @@ function buildEpicHistoryDate(currentRows, historyRows) {
       nieumarli,
       inne_epic,
       jormungand,
-      fenrir
+      fenrir,
+      chimera
     });
   }
 
@@ -3322,6 +3327,7 @@ function renderEpicHistoryFromGlobal() {
               data-inferno="${x.inferno || 0}"
               data-piekielna-kuznia="${x.piekielna_kuznia || 0}"
               data-nieumarli="${x.nieumarli || 0}"
+              data-chimera="${x.chimera || 0}"
               data-inne-epic="${x.inne_epic || 0}"
               data-jormungand="${x.jormungand || 0}"
               data-fenrir="${x.fenrir || 0}"
@@ -3421,6 +3427,7 @@ function showEpicTooltip(cell, clientX, clientY) {
   const inferno = Number(cell.dataset.inferno || 0);
   const piekielnaKuznia = Number(cell.dataset.piekielnaKuznia || 0);
   const nieumarli = Number(cell.dataset.nieumarli || 0);
+  const chimera = Number(cell.dataset.chimera || 0);
   const inneEpic = Number(cell.dataset.inneEpic || 0);
   const jormungand = Number(cell.dataset.jormungand || 0);
   const fenrir = Number(cell.dataset.fenrir || 0);
@@ -3440,6 +3447,7 @@ function showEpicTooltip(cell, clientX, clientY) {
       <tr><td>Armagedon</td><td>${inferno}</td></tr>
       <tr><td>Piekielna Kuźnia</td><td>${piekielnaKuznia}</td></tr>
       <tr><td>Epicki oddział nieumarłych</td><td>${nieumarli}</td></tr>
+      <tr><td>Chimera</td><td>${chimera}</td></tr>
       <tr><td>Inne Epic Bosses</td><td>${inneEpic}</td></tr>
       <tr><td>Jormungand</td><td>${jormungand}</td></tr>
       <tr><td>Fenrir</td><td>${fenrir}</td></tr>
@@ -3614,7 +3622,8 @@ async function run() {
         nieumarli: 0,
         inne_epic: 0,
         jormungand: 0,
-        fenrir: 0
+        fenrir: 0,
+        chimera: 0
       });
     }
 
@@ -3627,9 +3636,9 @@ async function run() {
     const physicalCount = Number.isFinite(countParsed) && countParsed >= 1 ? countParsed : 0;
 
     // V164: Epic Bosses zawsze 0 pkt, również dla historycznie błędnej wartości w JSON.
-    if (!isEpicBossType(row['Typ'], row['Źródło'])) p.punkty += pkt;
+    if (row['KC915EpicCategory'] !== 'chimera' && !isEpicBossType(row['Typ'], row['Źródło'])) p.punkty += pkt;
 
-    const cat = classify(row['Typ'], row['Źródło']);
+    const cat = row['KC915EpicCategory'] === 'chimera' ? 'chimera' : classify(row['Typ'], row['Źródło']);
     if (cat) p[cat] += physicalCount;
   }
 
@@ -3650,7 +3659,8 @@ async function run() {
         Number(p.nieumarli || 0) +
         Number(p.inne_epic || 0) +
         Number(p.jormungand || 0) +
-        Number(p.fenrir || 0);
+        Number(p.fenrir || 0) +
+        Number(p.chimera || 0);
       return { nick, ...p };
     });
 

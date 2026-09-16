@@ -221218,5 +221218,965 @@
     "Punkty": "0",
     "Count": "3",
     "PlayerKey": "63747c28b1baf69e3e5d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 23:47:53",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "KRISS",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "63747c28b1baf69e3e5d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 23:47:56",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Éomer",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "5",
+    "PlayerKey": "8fb45f09445785ab6654"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 23:48:29",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 23:51:20",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 23:51:28",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "KRISS",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "63747c28b1baf69e3e5d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 23:51:29",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Moralsa",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "11",
+    "PlayerKey": "2aa0e06ca13aad2ebb10"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 23:53:20",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "GinoPL",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "1f5e6cd41b556c281825"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 23:54:29",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Éomer",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "5",
+    "PlayerKey": "8fb45f09445785ab6654"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 23:55:06",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Merodir",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "f69ed0075a652c655a5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 23:56:21",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Merodir",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "f69ed0075a652c655a5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 23:56:32",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "MnA",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "fb1c981a98da28792d33"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 23:57:30",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Éomer",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "6",
+    "PlayerKey": "8fb45f09445785ab6654"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 23:59:48",
+    "Typ": "Szafirowa Skrzynia",
+    "Nadawca": "Becia",
+    "Źródło": "Skarbiec Starożytnych 45 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "24738c8bece50b3182c0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 23:59:54",
+    "Typ": "Skrzynia Orków",
+    "Nadawca": "Bantysto",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "7ec9423d816a1b73f07e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:00:26",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "GinoPL",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "1f5e6cd41b556c281825"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:01:25",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "EeLL",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "a15b608703c3ba6fe2da"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:02:04",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "SEBA",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "77532d8f35fdf467a275"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:02:09",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:02:25",
+    "Typ": "Szafirowa Skrzynia",
+    "Nadawca": "Becia",
+    "Źródło": "Skarbiec Starożytnych 45 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "24738c8bece50b3182c0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:02:40",
+    "Typ": "Skrzynia Kobry",
+    "Nadawca": "Bantysto",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "7ec9423d816a1b73f07e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:02:45",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "SEBA",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "77532d8f35fdf467a275"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:02:53",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "MnA",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "fb1c981a98da28792d33"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:03:30",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "SEBA",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "77532d8f35fdf467a275"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:03:56",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Moralsa",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "11",
+    "PlayerKey": "2aa0e06ca13aad2ebb10"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:04:00",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "SEBA",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "77532d8f35fdf467a275"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:04:02",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Éomer",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "8fb45f09445785ab6654"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:04:53",
+    "Typ": "Szafirowa Skrzynia",
+    "Nadawca": "Becia",
+    "Źródło": "Skarbiec Starożytnych 45 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "24738c8bece50b3182c0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:06:08",
+    "Typ": "Zwykła Skrzynia Bogactwa",
+    "Nadawca": "Becia",
+    "Źródło": "Bogactwo klanu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "24738c8bece50b3182c0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:06:08",
+    "Typ": "Niestandardowa Skrzynia Bogactwa",
+    "Nadawca": "Becia",
+    "Źródło": "Bogactwo klanu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "24738c8bece50b3182c0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:06:08",
+    "Typ": "Rzadka Skrzynia Bogactwa",
+    "Nadawca": "Becia",
+    "Źródło": "Bogactwo klanu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "24738c8bece50b3182c0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:06:08",
+    "Typ": "Epicka Skrzynia Bogactwa",
+    "Nadawca": "Becia",
+    "Źródło": "Bogactwo klanu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "24738c8bece50b3182c0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:06:08",
+    "Typ": "Legendarna Skrzynia Bogactwa",
+    "Nadawca": "Becia",
+    "Źródło": "Bogactwo klanu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "24738c8bece50b3182c0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:06:31",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Radwanus",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "56010da3684b36109339"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:07:08",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:07:29",
+    "Typ": "Szafirowa Skrzynia",
+    "Nadawca": "Becia",
+    "Źródło": "Skarbiec Starożytnych 45 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "24738c8bece50b3182c0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:09:21",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Éomer",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "5",
+    "PlayerKey": "8fb45f09445785ab6654"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:09:50",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "EeLL",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "a15b608703c3ba6fe2da"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:10:05",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:10:17",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "GinoPL",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "1f5e6cd41b556c281825"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:10:29",
+    "Typ": "Szafirowa Skrzynia",
+    "Nadawca": "Becia",
+    "Źródło": "Skarbiec Starożytnych 45 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "24738c8bece50b3182c0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:10:32",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Moralsa",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "9",
+    "PlayerKey": "2aa0e06ca13aad2ebb10"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:10:37",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "MnA",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "fb1c981a98da28792d33"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:10:46",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:13:14",
+    "Typ": "Szafirowa Skrzynia",
+    "Nadawca": "Becia",
+    "Źródło": "Skarbiec Starożytnych 45 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "24738c8bece50b3182c0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:14:50",
+    "Typ": "Szafirowa Skrzynia",
+    "Nadawca": "Becia",
+    "Źródło": "Skarbiec Starożytnych 45 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "24738c8bece50b3182c0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:17:25",
+    "Typ": "Szafirowa Skrzynia",
+    "Nadawca": "Becia",
+    "Źródło": "Skarbiec Starożytnych 45 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "24738c8bece50b3182c0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:18:03",
+    "Typ": "Skrzynia Gladiatora",
+    "Nadawca": "Max72",
+    "Źródło": "Arena",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:18:07",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "MnA",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "fb1c981a98da28792d33"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:18:32",
+    "Typ": "Elegancka Skrzynia",
+    "Nadawca": "Moralsa",
+    "Źródło": "Krypta 10 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "2aa0e06ca13aad2ebb10"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:18:41",
+    "Typ": "ItemId 5613",
+    "Nadawca": "Moralsa",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "2aa0e06ca13aad2ebb10"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:18:46",
+    "Typ": "Skrzynia Orków",
+    "Nadawca": "Moralsa",
+    "Źródło": "Krypta 10 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "2aa0e06ca13aad2ebb10"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:19:22",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Éomer",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "5",
+    "PlayerKey": "8fb45f09445785ab6654"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:20:14",
+    "Typ": "Szafirowa Skrzynia",
+    "Nadawca": "Becia",
+    "Źródło": "Skarbiec Starożytnych 45 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "24738c8bece50b3182c0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:20:45",
+    "Typ": "Skrzynia Hermesa",
+    "Nadawca": "Éomer",
+    "Źródło": "Sklep Hermesa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "8fb45f09445785ab6654"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:20:46",
+    "Typ": "Skrzynia Hermesa",
+    "Nadawca": "Éomer",
+    "Źródło": "Sklep Hermesa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "8fb45f09445785ab6654"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:20:47",
+    "Typ": "Skrzynia Hermesa",
+    "Nadawca": "Éomer",
+    "Źródło": "Sklep Hermesa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "8fb45f09445785ab6654"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:20:48",
+    "Typ": "Skrzynia Hermesa",
+    "Nadawca": "Éomer",
+    "Źródło": "Sklep Hermesa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "8fb45f09445785ab6654"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:20:49",
+    "Typ": "Skrzynia Hermesa",
+    "Nadawca": "Éomer",
+    "Źródło": "Sklep Hermesa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "8fb45f09445785ab6654"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:23:01",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "EeLL",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "a15b608703c3ba6fe2da"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:23:19",
+    "Typ": "Szafirowa Skrzynia",
+    "Nadawca": "Becia",
+    "Źródło": "Skarbiec Starożytnych 45 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "24738c8bece50b3182c0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:23:38",
+    "Typ": "Skrzynia Majów",
+    "Nadawca": "Mager",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "e363aa37cf47e1f42c58"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:23:42",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Megana",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "2db6dd7fcbb9231b69d5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:24:19",
+    "Typ": "Piekielna Skrzynia",
+    "Nadawca": "Mager",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "e363aa37cf47e1f42c58"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:24:58",
+    "Typ": "Ognista Skrzynia",
+    "Nadawca": "Mager",
+    "Źródło": "Krypta 20 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "e363aa37cf47e1f42c58"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:25:27",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:26:00",
+    "Typ": "Szafirowa Skrzynia",
+    "Nadawca": "Becia",
+    "Źródło": "Skarbiec Starożytnych 45 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "24738c8bece50b3182c0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:26:44",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "SEBA",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "77532d8f35fdf467a275"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:26:47",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Megana",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "2db6dd7fcbb9231b69d5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:27:06",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "SEBA",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "77532d8f35fdf467a275"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:27:06",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Max72",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "5",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:27:08",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:28:40",
+    "Typ": "Szafirowa Skrzynia",
+    "Nadawca": "Becia",
+    "Źródło": "Skarbiec Starożytnych 45 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "24738c8bece50b3182c0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:30:55",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Éomer",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "6",
+    "PlayerKey": "8fb45f09445785ab6654"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:31:23",
+    "Typ": "Szafirowa Skrzynia",
+    "Nadawca": "TUFUR",
+    "Źródło": "Skarbiec Starożytnych 45 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "5fe3b9e073708fe54f86"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:33:24",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Éomer",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "5",
+    "PlayerKey": "8fb45f09445785ab6654"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:34:14",
+    "Typ": "Szafirowa Skrzynia",
+    "Nadawca": "Max72",
+    "Źródło": "Skarbiec Starożytnych 45 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:34:17",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "GinoPL",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "1f5e6cd41b556c281825"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:36:18",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "GinoPL",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "1f5e6cd41b556c281825"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:37:01",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "GinoPL",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "1f5e6cd41b556c281825"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:37:14",
+    "Typ": "Szafirowa Skrzynia",
+    "Nadawca": "Max72",
+    "Źródło": "Skarbiec Starożytnych 45 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:38:08",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "GinoPL",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "1f5e6cd41b556c281825"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:38:48",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "SEBA",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "77532d8f35fdf467a275"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:38:50",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "GinoPL",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "1f5e6cd41b556c281825"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:39:31",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "SEBA",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "77532d8f35fdf467a275"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:39:58",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "SEBA",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "77532d8f35fdf467a275"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:40:11",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Max72",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:40:13",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "GinoPL",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "1f5e6cd41b556c281825"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:40:18",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Éomer",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "8fb45f09445785ab6654"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:40:23",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Cahir",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "327de611e8aa8e17ef4c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:40:33",
+    "Typ": "Szafirowa Skrzynia",
+    "Nadawca": "MnA",
+    "Źródło": "Skarbiec Starożytnych 45 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "fb1c981a98da28792d33"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:41:56",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "SEBA",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "77532d8f35fdf467a275"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:43:48",
+    "Typ": "Szafirowa Skrzynia",
+    "Nadawca": "TUFUR",
+    "Źródło": "Skarbiec Starożytnych 45 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "5fe3b9e073708fe54f86"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:44:12",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "ALEX 82",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:47:06",
+    "Typ": "Szafirowa Skrzynia",
+    "Nadawca": "TUFUR",
+    "Źródło": "Skarbiec Starożytnych 45 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "5fe3b9e073708fe54f86"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:49:29",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "MnA",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "fb1c981a98da28792d33"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 00:50:14",
+    "Typ": "Szafirowa Skrzynia",
+    "Nadawca": "TUFUR",
+    "Źródło": "Skarbiec Starożytnych 45 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "5fe3b9e073708fe54f86"
   }
 ]

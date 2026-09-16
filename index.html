@@ -1156,7 +1156,7 @@ table td.player,
 </div>
 
 <div class="container">
-  <div class="meta">📅 Ostatnia aktualizacja: 16.09.2026 07:03</div>
+  <div class="meta">📅 Ostatnia aktualizacja: 16.09.2026 19:32</div>
 
   <div class="controls">
     <h1 class="title">Weekly Norms</h1>
@@ -1863,6 +1863,8 @@ function epicBossCategory(type, source) {
   if (v189NonEpicSpecial(type, source)) return null;
 
   if (t.includes('hermes') || t.includes('krypta')) return null;
+  // V254_BAZYLISZEK_702061_HTML
+  if (/\bitemid\s+702061\b/.test(t) || t.includes('bazylisz')) return 'bazyliszek';
   if (t.includes('chimera')) return 'chimera';
   if (/\bitemid\s+2060\b/.test(t)) return 'sadny_dzien';
   // V225A: exact ItemId 2072 = Miasto Cieni.
@@ -2670,6 +2672,7 @@ function renderArchiveEpics() {
               data-inne-epic="${x.inne_epic || 0}"
               data-jormungand="${x.jormungand || 0}"
               data-fenrir="${x.fenrir || 0}"
+              data-bazyliszek="${x.bazyliszek || 0}"
               data-total="${x.epickie || 0}"
               title="Najedź, aby zobaczyć fizyczne skrzynki Epic Bosses (Count)">${x.epickie}</td>
           <td class="rank-cell">${v175EpicRankForPeriod(byKey, p, nick)}</td>
@@ -3156,6 +3159,7 @@ function buildEpicHistoryDate(currentRows, historyRows) {
       inne_epic: Number(r.inne_epic || 0),
       jormungand: Number(r.jormungand || 0),
       fenrir: Number(r.fenrir || 0),
+      bazyliszek: Number(r.bazyliszek || 0),
       chimera: Number(r.chimera || 0)
     });
   }
@@ -3186,6 +3190,7 @@ function buildEpicHistoryDate(currentRows, historyRows) {
     const inne_epic = num(h['Inne Epic Bosses']);
     const jormungand = num(h['Jormungand']);
     const fenrir = num(h['Fenrir']);
+    const bazyliszek = num(h['Bazyliszek']);
     const chimera = num(h['Chimera']);
 
     all.push({
@@ -3193,7 +3198,7 @@ function buildEpicHistoryDate(currentRows, historyRows) {
       nick,
       punkty,
       // V164: Epic Bosses to liczba fizycznych skrzynek, zawsze suma szczegółów dymka.
-      epickie: ragnarok + arkana + omeny + arachne + miasto_cieni + sadny_dzien + yokai + briareos + inferno + piekielna_kuznia + nieumarli + inne_epic + jormungand + fenrir + chimera,
+      epickie: ragnarok + arkana + omeny + arachne + miasto_cieni + sadny_dzien + yokai + briareos + inferno + piekielna_kuznia + nieumarli + inne_epic + jormungand + fenrir + bazyliszek + chimera,
       ragnarok,
       arkana,
       omeny,
@@ -3208,6 +3213,7 @@ function buildEpicHistoryDate(currentRows, historyRows) {
       inne_epic,
       jormungand,
       fenrir,
+      bazyliszek,
       chimera
     });
   }
@@ -3354,6 +3360,7 @@ function renderEpicHistoryFromGlobal() {
               data-inne-epic="${x.inne_epic || 0}"
               data-jormungand="${x.jormungand || 0}"
               data-fenrir="${x.fenrir || 0}"
+              data-bazyliszek="${x.bazyliszek || 0}"
               data-total="${x.epickie || 0}"
               title="Najedź, aby zobaczyć fizyczne skrzynki Epic Bosses (Count)">${x.epickie}</td>
           <td class="rank-cell">${v175EpicRankForPeriod(byKey, p, nick)}</td>
@@ -3454,6 +3461,7 @@ function showEpicTooltip(cell, clientX, clientY) {
   const inneEpic = Number(cell.dataset.inneEpic || 0);
   const jormungand = Number(cell.dataset.jormungand || 0);
   const fenrir = Number(cell.dataset.fenrir || 0);
+  const bazyliszek = Number(cell.dataset.bazyliszek || 0);
   const total = Number(cell.dataset.total || 0);
 
   tooltip.innerHTML = `
@@ -3474,6 +3482,7 @@ function showEpicTooltip(cell, clientX, clientY) {
       <tr><td>Inne Epic Bosses</td><td>${inneEpic}</td></tr>
       <tr><td>Jormungand</td><td>${jormungand}</td></tr>
       <tr><td>Fenrir</td><td>${fenrir}</td></tr>
+      <tr><td>Bazyliszek</td><td>${bazyliszek}</td></tr>
       <tr><td><strong>Epic Bosses — razem</strong></td><td><strong>${total}</strong></td></tr>
     </table>
     <div class="package-tooltip-hint">Fizyczne skrzynki (Count) z podziałem na wszystkie kategorie Epic Bosses.</div>
@@ -3646,6 +3655,7 @@ async function run() {
         inne_epic: 0,
         jormungand: 0,
         fenrir: 0,
+        bazyliszek: 0,
         chimera: 0
       });
     }
@@ -3683,6 +3693,7 @@ async function run() {
         Number(p.inne_epic || 0) +
         Number(p.jormungand || 0) +
         Number(p.fenrir || 0) +
+        Number(p.bazyliszek || 0) +
         Number(p.chimera || 0);
       return { nick, ...p };
     });

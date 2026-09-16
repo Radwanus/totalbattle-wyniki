@@ -212728,5 +212728,55 @@
     "Punkty": "0",
     "Count": "2",
     "PlayerKey": "81c34c9290ef01018d2e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 21:10:56",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "InternetCash",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "c412d87552de70104a82"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 21:10:58",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Éomer",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "8fb45f09445785ab6654"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 21:11:01",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Szymuś",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "29912f64a12eb981cb92"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 21:11:01",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Barkley",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "5",
+    "PlayerKey": "b6b1e0e854aa8a649f3c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 21:12:12",
+    "Typ": "Szafirowa Skrzynia",
+    "Nadawca": "Arek",
+    "Źródło": "Skarbiec Starożytnych 45 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "394e8b5667748eb6bfd3"
   }
 ]

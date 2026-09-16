@@ -147758,5 +147758,3005 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "983f01fd0263653f2f51"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:42:47",
+    "Typ": "ItemId 702096",
+    "Nadawca": "StaH",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:42:49",
+    "Typ": "ItemId 702095",
+    "Nadawca": "Anaris",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "983f01fd0263653f2f51"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:42:50",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Jarek",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:43:30",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Morfii",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "641a95ee97d6ecedcdf9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:43:32",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Jarek",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:43:33",
+    "Typ": "ItemId 702096",
+    "Nadawca": "StaH",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:44:00",
+    "Typ": "ItemId 702096",
+    "Nadawca": "VLD",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "d54588a077b9aa5b871a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:44:05",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Truthbourne",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "475bff774491f99e531e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:44:06",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:44:29",
+    "Typ": "ItemId 702095",
+    "Nadawca": "Anaris",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "983f01fd0263653f2f51"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:44:29",
+    "Typ": "ItemId 702096",
+    "Nadawca": "VLD",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "d54588a077b9aa5b871a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:44:30",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "Morfii",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "641a95ee97d6ecedcdf9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:44:34",
+    "Typ": "Skrzynia Warsztatu Gnomów",
+    "Nadawca": "Piotrek 1",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "3a5eb183b5b6981c27c4"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:44:36",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:45:09",
+    "Typ": "ItemId 702096",
+    "Nadawca": "StaH",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:45:10",
+    "Typ": "ItemId 702096",
+    "Nadawca": "VLD",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "d54588a077b9aa5b871a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:45:15",
+    "Typ": "Elegancka Skrzynia",
+    "Nadawca": "Piotrek 1",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "3a5eb183b5b6981c27c4"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:45:18",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Morfii",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "641a95ee97d6ecedcdf9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:45:23",
+    "Typ": "ItemId 702095",
+    "Nadawca": "Anaris",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "983f01fd0263653f2f51"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:45:33",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:45:45",
+    "Typ": "ItemId 702096",
+    "Nadawca": "StaH",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:45:47",
+    "Typ": "ItemId 702096",
+    "Nadawca": "VLD",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "d54588a077b9aa5b871a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:45:50",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "RAFAL PL",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ff001bef965a35cc675a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:45:55",
+    "Typ": "Kamienna Skrzynia",
+    "Nadawca": "Piotrek 1",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "3a5eb183b5b6981c27c4"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:46:15",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:46:25",
+    "Typ": "ItemId 702096",
+    "Nadawca": "VLD",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "d54588a077b9aa5b871a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:46:28",
+    "Typ": "ItemId 702096",
+    "Nadawca": "StaH",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:46:49",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:47:12",
+    "Typ": "ItemId 702096",
+    "Nadawca": "StaH",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:47:13",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "Morfii",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "641a95ee97d6ecedcdf9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:47:16",
+    "Typ": "ItemId 702096",
+    "Nadawca": "VLD",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "d54588a077b9aa5b871a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:47:23",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:47:26",
+    "Typ": "ItemId 702095",
+    "Nadawca": "Anaris",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "983f01fd0263653f2f51"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:47:55",
+    "Typ": "ItemId 702096",
+    "Nadawca": "StaH",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:47:55",
+    "Typ": "ItemId 702096",
+    "Nadawca": "VLD",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "d54588a077b9aa5b871a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:48:06",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "RAFAL PL",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ff001bef965a35cc675a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:48:06",
+    "Typ": "ItemId 702095",
+    "Nadawca": "Anaris",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "983f01fd0263653f2f51"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:48:27",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Piotrek 1",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3a5eb183b5b6981c27c4"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:48:32",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:48:32",
+    "Typ": "ItemId 702096",
+    "Nadawca": "VLD",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "d54588a077b9aa5b871a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:48:40",
+    "Typ": "ItemId 702096",
+    "Nadawca": "StaH",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:48:46",
+    "Typ": "ItemId 702095",
+    "Nadawca": "Anaris",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "983f01fd0263653f2f51"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:48:49",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "RAFAL PL",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ff001bef965a35cc675a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:49:17",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:49:21",
+    "Typ": "ItemId 702096",
+    "Nadawca": "VLD",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "d54588a077b9aa5b871a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:49:21",
+    "Typ": "ItemId 702096",
+    "Nadawca": "StaH",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:49:36",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "RAFAL PL",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ff001bef965a35cc675a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:49:54",
+    "Typ": "ItemId 702095",
+    "Nadawca": "Anaris",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "983f01fd0263653f2f51"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:49:57",
+    "Typ": "ItemId 702096",
+    "Nadawca": "VLD",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "d54588a077b9aa5b871a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:50:00",
+    "Typ": "ItemId 702096",
+    "Nadawca": "StaH",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:50:15",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Piotrek 1",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3a5eb183b5b6981c27c4"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:50:23",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "RAFAL PL",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ff001bef965a35cc675a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:50:30",
+    "Typ": "ItemId 702096",
+    "Nadawca": "VLD",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "d54588a077b9aa5b871a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:50:43",
+    "Typ": "ItemId 702095",
+    "Nadawca": "Anaris",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "983f01fd0263653f2f51"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:50:51",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:50:59",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "RAFAL PL",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ff001bef965a35cc675a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:51:07",
+    "Typ": "ItemId 702096",
+    "Nadawca": "VLD",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "d54588a077b9aa5b871a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:51:24",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Truthbourne",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "475bff774491f99e531e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:51:37",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:51:39",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "RAFAL PL",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ff001bef965a35cc675a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:51:45",
+    "Typ": "ItemId 702096",
+    "Nadawca": "VLD",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "d54588a077b9aa5b871a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:51:46",
+    "Typ": "ItemId 702096",
+    "Nadawca": "StaH",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:52:17",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:52:25",
+    "Typ": "ItemId 702096",
+    "Nadawca": "VLD",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "d54588a077b9aa5b871a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:52:29",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "RAFAL PL",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ff001bef965a35cc675a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:52:34",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "RaFSaN RaFi",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "c101c6308abfb10e36ef"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:52:35",
+    "Typ": "ItemId 702096",
+    "Nadawca": "StaH",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:53:01",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:53:15",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "RAFAL PL",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ff001bef965a35cc675a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:53:15",
+    "Typ": "ItemId 702096",
+    "Nadawca": "VLD",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "d54588a077b9aa5b871a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:53:22",
+    "Typ": "ItemId 702096",
+    "Nadawca": "StaH",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:53:34",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Dagger",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:53:36",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:53:55",
+    "Typ": "ItemId 702096",
+    "Nadawca": "VLD",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "d54588a077b9aa5b871a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:54:04",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "RAFAL PL",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ff001bef965a35cc675a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:54:08",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:54:11",
+    "Typ": "ItemId 702096",
+    "Nadawca": "StaH",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:54:22",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Dagger",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:54:30",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:54:32",
+    "Typ": "ItemId 702096",
+    "Nadawca": "VLD",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "d54588a077b9aa5b871a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:54:40",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:54:48",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "RAFAL PL",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ff001bef965a35cc675a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:54:55",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:54:56",
+    "Typ": "ItemId 702096",
+    "Nadawca": "StaH",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:55:03",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Dagger",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:55:12",
+    "Typ": "ItemId 702096",
+    "Nadawca": "VLD",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "d54588a077b9aa5b871a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:55:12",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:55:13",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicka krypta 25 poziomu",
+    "Punkty": "40",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:55:32",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "RAFAL PL",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ff001bef965a35cc675a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:55:34",
+    "Typ": "ItemId 702096",
+    "Nadawca": "StaH",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:55:41",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:55:44",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Dagger",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:55:47",
+    "Typ": "ItemId 702096",
+    "Nadawca": "VLD",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "d54588a077b9aa5b871a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:55:55",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Dagger",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:56:13",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:56:17",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "RAFAL PL",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ff001bef965a35cc675a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:56:25",
+    "Typ": "ItemId 702096",
+    "Nadawca": "StaH",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:56:50",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:56:51",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Dagger",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:56:53",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Dagger",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:56:54",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "RAFAL PL",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ff001bef965a35cc675a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:57:07",
+    "Typ": "ItemId 702096",
+    "Nadawca": "StaH",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:57:17",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:57:22",
+    "Typ": "ItemId 702096",
+    "Nadawca": "VLD",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "d54588a077b9aa5b871a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:57:22",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:57:38",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Dagger",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:57:45",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Dagger",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:57:50",
+    "Typ": "ItemId 702096",
+    "Nadawca": "StaH",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:57:56",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:57:57",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "RAFAL PL",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ff001bef965a35cc675a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:58:04",
+    "Typ": "ItemId 702096",
+    "Nadawca": "VLD",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "d54588a077b9aa5b871a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:58:07",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:58:21",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Dagger",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:58:31",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:58:39",
+    "Typ": "ItemId 702096",
+    "Nadawca": "StaH",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:58:41",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:58:41",
+    "Typ": "ItemId 702096",
+    "Nadawca": "VLD",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "d54588a077b9aa5b871a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:58:51",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:59:16",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Dagger",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:59:16",
+    "Typ": "ItemId 702096",
+    "Nadawca": "VLD",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "d54588a077b9aa5b871a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:59:24",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Dagger",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:59:31",
+    "Typ": "ItemId 702095",
+    "Nadawca": "StaH",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 04:59:57",
+    "Typ": "ItemId 702096",
+    "Nadawca": "VLD",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "d54588a077b9aa5b871a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:00:01",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "RaFSaN RaFi",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "c101c6308abfb10e36ef"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:00:06",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Dagger",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:00:31",
+    "Typ": "ItemId 702094",
+    "Nadawca": "StaH",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:00:34",
+    "Typ": "ItemId 702096",
+    "Nadawca": "VLD",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "d54588a077b9aa5b871a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:00:52",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Dagger",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:00:57",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:01:06",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:01:15",
+    "Typ": "ItemId 702096",
+    "Nadawca": "VLD",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "d54588a077b9aa5b871a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:01:23",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:01:30",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:01:34",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicka krypta 25 poziomu",
+    "Punkty": "40",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:01:46",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:01:53",
+    "Typ": "ItemId 702096",
+    "Nadawca": "VLD",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "d54588a077b9aa5b871a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:01:57",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:02:29",
+    "Typ": "ItemId 702096",
+    "Nadawca": "VLD",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "d54588a077b9aa5b871a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:02:34",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:02:48",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Dagger",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:02:53",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:03:06",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "RAFAL PL",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ff001bef965a35cc675a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:03:06",
+    "Typ": "ItemId 702096",
+    "Nadawca": "VLD",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "d54588a077b9aa5b871a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:03:10",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:03:39",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Dagger",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:03:43",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:03:47",
+    "Typ": "ItemId 702096",
+    "Nadawca": "VLD",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "d54588a077b9aa5b871a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:04:15",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:04:19",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Dagger",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:04:29",
+    "Typ": "ItemId 702096",
+    "Nadawca": "VLD",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "d54588a077b9aa5b871a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:04:36",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:04:43",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Dagger",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:05:02",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:05:05",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Dagger",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:05:13",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:05:25",
+    "Typ": "ItemId 702096",
+    "Nadawca": "VLD",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "d54588a077b9aa5b871a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:05:26",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:05:28",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Dagger",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:05:31",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:05:32",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Dagger",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:05:50",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:05:53",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Dagger",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:06:01",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:06:04",
+    "Typ": "ItemId 702096",
+    "Nadawca": "VLD",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "d54588a077b9aa5b871a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:06:04",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:06:22",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:06:30",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Dagger",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:06:33",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicka krypta 25 poziomu",
+    "Punkty": "40",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:06:39",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:06:40",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:06:43",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Dagger",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:06:46",
+    "Typ": "ItemId 702096",
+    "Nadawca": "VLD",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "d54588a077b9aa5b871a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:06:51",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:07:24",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:07:28",
+    "Typ": "ItemId 702096",
+    "Nadawca": "VLD",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "d54588a077b9aa5b871a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:07:29",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Dagger",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:07:45",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:07:56",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:08:00",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:08:11",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:08:19",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:08:37",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:08:40",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:08:56",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Dagger",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:08:59",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:09:05",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:09:14",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicka krypta 25 poziomu",
+    "Punkty": "40",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:09:29",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:09:48",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:09:54",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Dagger",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:10:09",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:10:13",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Dagger",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:10:20",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:10:24",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Dagger",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:10:30",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:10:37",
+    "Typ": "ItemId 702096",
+    "Nadawca": "VLD",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "d54588a077b9aa5b871a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:10:37",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:10:49",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:10:52",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:10:56",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Dagger",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:11:05",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:11:19",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicka krypta 25 poziomu",
+    "Punkty": "40",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:11:23",
+    "Typ": "ItemId 702096",
+    "Nadawca": "VLD",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "d54588a077b9aa5b871a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:11:25",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:11:30",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Dagger",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:11:34",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:11:38",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:11:49",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Morfii",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "641a95ee97d6ecedcdf9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:11:54",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:12:09",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Dagger",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:12:09",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:12:11",
+    "Typ": "ItemId 702096",
+    "Nadawca": "VLD",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "d54588a077b9aa5b871a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:12:21",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:12:23",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Dagger",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:12:44",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:12:48",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:12:51",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:12:57",
+    "Typ": "ItemId 702096",
+    "Nadawca": "VLD",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "d54588a077b9aa5b871a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:12:57",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "Morfii",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "641a95ee97d6ecedcdf9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:13:03",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Dagger",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:13:12",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:13:16",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:13:17",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:13:29",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:13:31",
+    "Typ": "ItemId 702096",
+    "Nadawca": "VLD",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "d54588a077b9aa5b871a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:13:45",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:13:49",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Dagger",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:13:58",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:14:04",
+    "Typ": "ItemId 702096",
+    "Nadawca": "VLD",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "d54588a077b9aa5b871a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:14:14",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "Morfii",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "641a95ee97d6ecedcdf9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:14:14",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Dagger",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:14:16",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:14:21",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:14:24",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:14:27",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Dagger",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:14:36",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:14:41",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Dagger",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:15:00",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:15:11",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "Morfii",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "641a95ee97d6ecedcdf9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:15:16",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:15:25",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:15:27",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Dagger",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:15:47",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicka krypta 25 poziomu",
+    "Punkty": "40",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:15:49",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:16:02",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:16:04",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:16:06",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Morfii",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "641a95ee97d6ecedcdf9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:16:10",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:16:11",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Dagger",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:16:23",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Dagger",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:16:24",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "RAFAL PL",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ff001bef965a35cc675a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:16:36",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:16:43",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Dagger",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:16:50",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:16:57",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "RAFAL PL",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ff001bef965a35cc675a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:17:04",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "Morfii",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "641a95ee97d6ecedcdf9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:17:08",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:17:17",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:17:31",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Dagger",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:17:43",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:17:46",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "PUREC",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "aaed1d7d5f289df49f4e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:17:51",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "PUREC",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "aaed1d7d5f289df49f4e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:17:59",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:18:14",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "RAFAL PL",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ff001bef965a35cc675a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:18:14",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:18:22",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "PUREC",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "aaed1d7d5f289df49f4e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:18:33",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "PUREC",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "aaed1d7d5f289df49f4e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:18:43",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Morfii",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "641a95ee97d6ecedcdf9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:18:44",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:18:47",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "RAFAL PL",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ff001bef965a35cc675a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:18:52",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "PUREC",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "aaed1d7d5f289df49f4e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:19:03",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "PUREC",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "aaed1d7d5f289df49f4e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:19:14",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Dagger",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:19:16",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:19:22",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "RAFAL PL",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ff001bef965a35cc675a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:19:22",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "PUREC",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "aaed1d7d5f289df49f4e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:19:25",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:19:34",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "PUREC",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "aaed1d7d5f289df49f4e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:19:46",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:19:52",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "PUREC",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "aaed1d7d5f289df49f4e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:19:57",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "RAFAL PL",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ff001bef965a35cc675a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:20:01",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "Morfii",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "641a95ee97d6ecedcdf9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:20:01",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Dagger",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:20:04",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "PUREC",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "aaed1d7d5f289df49f4e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:20:22",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "PUREC",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "aaed1d7d5f289df49f4e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:20:27",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Dagger",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:20:35",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "PUREC",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "aaed1d7d5f289df49f4e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:20:36",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "RAFAL PL",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ff001bef965a35cc675a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:20:38",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Dagger",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:20:40",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Dagger",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:20:56",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "PUREC",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "aaed1d7d5f289df49f4e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:21:07",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "PUREC",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "aaed1d7d5f289df49f4e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:21:14",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Dagger",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:21:15",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "RAFAL PL",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ff001bef965a35cc675a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:21:24",
+    "Typ": "ItemId 702095",
+    "Nadawca": "DjKro",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:21:28",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "PUREC",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "aaed1d7d5f289df49f4e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:21:37",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Morfii",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "641a95ee97d6ecedcdf9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:21:40",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "PUREC",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "aaed1d7d5f289df49f4e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:21:52",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Dagger",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-16 05:21:54",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "RAFAL PL",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ff001bef965a35cc675a"
   }
 ]

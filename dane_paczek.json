@@ -267168,5 +267168,45 @@
     "Punkty": "100",
     "Count": "1",
     "PlayerKey": "24fcf41a2fa1a5e65ea7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 22:06:47",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "BeBeŞAli",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "24fcf41a2fa1a5e65ea7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 22:07:31",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "BeBeŞAli",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "24fcf41a2fa1a5e65ea7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 22:07:40",
+    "Typ": "Klanowa Skrzynia Potwora Sądnego Dnia",
+    "Nadawca": "Evlin",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "75",
+    "PlayerKey": "0e032a736308995a4fd1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 22:08:10",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "BeBeŞAli",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "24fcf41a2fa1a5e65ea7"
   }
 ]

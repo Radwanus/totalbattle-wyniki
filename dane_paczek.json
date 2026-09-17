@@ -266928,5 +266928,65 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "24fcf41a2fa1a5e65ea7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 21:50:14",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "BeBeŞAli",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "24fcf41a2fa1a5e65ea7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 21:50:59",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "BeBeŞAli",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "24fcf41a2fa1a5e65ea7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 21:51:01",
+    "Typ": "Klanowa Skrzynia Potwora Sądnego Dnia",
+    "Nadawca": "David",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "78",
+    "PlayerKey": "34603dc7fec46c58216f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 21:51:39",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "BeBeŞAli",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "24fcf41a2fa1a5e65ea7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 21:51:39",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "remix",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "46551fca77e6b18a9f7d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 21:51:41",
+    "Typ": "Klanowa Skrzynia Przyspieszenia Marszu",
+    "Nadawca": "remix",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "46551fca77e6b18a9f7d"
   }
 ]

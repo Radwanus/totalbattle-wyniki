@@ -267338,5 +267338,35 @@
     "Punkty": "90",
     "Count": "1",
     "PlayerKey": "24fcf41a2fa1a5e65ea7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 22:16:04",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "BeBeŞAli",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "24fcf41a2fa1a5e65ea7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 22:16:42",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Eyrodor",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "8c9c6af60262fb89cd7c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 22:17:02",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "BeBeŞAli",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "24fcf41a2fa1a5e65ea7"
   }
 ]

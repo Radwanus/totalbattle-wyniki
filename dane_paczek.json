@@ -266848,5 +266848,45 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "24fcf41a2fa1a5e65ea7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 21:46:26",
+    "Typ": "Klanowa Skrzynia Potwora Sądnego Dnia",
+    "Nadawca": "MSlayer",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "78",
+    "PlayerKey": "b777a0647e386f7a290c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 21:46:29",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "BeBeŞAli",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "24fcf41a2fa1a5e65ea7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 21:47:06",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "BeBeŞAli",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "24fcf41a2fa1a5e65ea7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-17 21:47:41",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "BeBeŞAli",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "24fcf41a2fa1a5e65ea7"
   }
 ]

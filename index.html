@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="pl">
 <head>
 <meta charset="utf-8"/>
@@ -2291,7 +2291,7 @@ function v248CompletedHistoryRows(rows) {
 
 function v248PreviousFinishedPeriod(rows) {
   const periods = [...new Set(v248CompletedHistoryRows(rows).map(x => x.okres).filter(Boolean))]
-    .sort((a, b) => parsePeriodStart(b) - parsePeriodStart(a));
+    .sort((a, b) => v249dArchivePeriodKey(b) - v249dArchivePeriodKey(a));
   return periods.length ? periods[0] : '';
 }
 
@@ -2777,7 +2777,7 @@ function v249dArchivePeriodKey(label) {
 
 function parsePeriodStart(label) {
   // format: "2026 09.08 - 16.08"
-  const m = (label || '').match(/(\d4)\s+(\d(1, 2))\.(\d(1, 2))/);
+  const m = (label || '').match(/(\d{4})\s+(\d{1,2})\.(\d{1,2})/);
   if (!m) return 0;
   const year = Number(m[1]);
   const day = Number(m[2]);

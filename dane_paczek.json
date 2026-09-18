@@ -276358,5 +276358,15 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "0dc31a9c73dcd599c691"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-18 06:53:37",
+    "Typ": "Skrzynia Wymiany Klanowej",
+    "Nadawca": "Stefan",
+    "Źródło": "Wymiana klanowa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "0c7a8b2ba309383e1d53"
   }
 ]

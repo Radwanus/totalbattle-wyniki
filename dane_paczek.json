@@ -349448,5 +349448,105 @@
     "Punkty": "0",
     "Count": "3",
     "PlayerKey": "77532d8f35fdf467a275"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-19 10:31:32",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Zarina",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "5",
+    "PlayerKey": "821531d29e661d88ca32"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-19 10:31:33",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "remix",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "46551fca77e6b18a9f7d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-19 10:31:41",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Konserwiusz",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "21c8940b5d1d200fb005"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-19 10:31:56",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Karolek",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "89abaf01d0870e8d1ebf"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-19 10:32:02",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "Oregon",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ba45562d23421d65eb5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-19 10:32:08",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Mateusz",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "2a3f1119db9ed1178e79"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-19 10:32:11",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Barkley",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "b6b1e0e854aa8a649f3c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-19 10:32:17",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "remix",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "46551fca77e6b18a9f7d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-19 10:32:18",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "9",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-19 10:32:19",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Oregon",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ba45562d23421d65eb5e"
   }
 ]

@@ -427428,5 +427428,45 @@
     "Punkty": "0",
     "Count": "5",
     "PlayerKey": "1da739de3268c2024714"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-20 16:44:12",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "ALEX 82",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-20 16:44:46",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "ALEX 82",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-20 16:44:55",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "Max72",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-20 16:45:14",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "OSA",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "6f9006dd095735ea99a9"
   }
 ]

@@ -12008,5 +12008,25 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "394e8b5667748eb6bfd3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 20.09 - 27.09",
+    "Data": "2026-09-20 23:34:09",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Lady DAIRA",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "1b99a5953bedc09b2447"
+  },
+  {
+    "Okres rozliczeniowy": "2026 20.09 - 27.09",
+    "Data": "2026-09-20 23:34:18",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "DRAGONETTI36O",
+    "Źródło": "Epicka krypta 25 poziomu",
+    "Punkty": "40",
+    "Count": "1",
+    "PlayerKey": "581953a28479e8606e75"
   }
 ]

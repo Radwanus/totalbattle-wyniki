@@ -10748,5 +10748,55 @@
     "Punkty": "90",
     "Count": "1",
     "PlayerKey": "b9183084a6fabd5c96f9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 20.09 - 27.09",
+    "Data": "2026-09-20 22:57:10",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "DjKro",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 20.09 - 27.09",
+    "Data": "2026-09-20 22:57:21",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Arek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "394e8b5667748eb6bfd3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 20.09 - 27.09",
+    "Data": "2026-09-20 22:57:47",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Fofur",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "b9183084a6fabd5c96f9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 20.09 - 27.09",
+    "Data": "2026-09-20 22:57:52",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "DjKro",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 20.09 - 27.09",
+    "Data": "2026-09-20 22:58:22",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "DjKro",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
   }
 ]

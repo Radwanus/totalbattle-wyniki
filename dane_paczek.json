@@ -427468,5 +427468,145 @@
     "Punkty": "0",
     "Count": "3",
     "PlayerKey": "6f9006dd095735ea99a9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-20 16:45:29",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "LakiLu",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "0dc31a9c73dcd599c691"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-20 16:45:31",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Evlin",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "0e032a736308995a4fd1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-20 16:45:39",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "ALEX 82",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-20 16:45:41",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "Max72",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-20 16:46:03",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Doctor Sleep",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "1da739de3268c2024714"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-20 16:46:10",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "OSA",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "6f9006dd095735ea99a9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-20 16:46:20",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Mario",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "03547e958de090bf525f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-20 16:46:26",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Max72",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-20 16:46:33",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "ALEX 82",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-20 16:46:38",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Evlin",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "0e032a736308995a4fd1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-20 16:46:41",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Pumba",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "b445d588a166843e7d6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-20 16:47:00",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Max72",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-20 16:47:06",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "OSA",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "6f9006dd095735ea99a9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-20 16:47:13",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Pumba",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "b445d588a166843e7d6d"
   }
 ]

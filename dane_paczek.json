@@ -11768,5 +11768,65 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "602a1fd9467b64dcd2de"
+  },
+  {
+    "Okres rozliczeniowy": "2026 20.09 - 27.09",
+    "Data": "2026-09-20 23:26:23",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Lady DAIRA",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "1b99a5953bedc09b2447"
+  },
+  {
+    "Okres rozliczeniowy": "2026 20.09 - 27.09",
+    "Data": "2026-09-20 23:26:30",
+    "Typ": "Skrzynia Warsztatu Gnomów",
+    "Nadawca": "DRAGONETTI36O",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "581953a28479e8606e75"
+  },
+  {
+    "Okres rozliczeniowy": "2026 20.09 - 27.09",
+    "Data": "2026-09-20 23:26:36",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Arek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "394e8b5667748eb6bfd3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 20.09 - 27.09",
+    "Data": "2026-09-20 23:26:43",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 20.09 - 27.09",
+    "Data": "2026-09-20 23:27:15",
+    "Typ": "Skrzynia Majów",
+    "Nadawca": "DRAGONETTI36O",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "581953a28479e8606e75"
+  },
+  {
+    "Okres rozliczeniowy": "2026 20.09 - 27.09",
+    "Data": "2026-09-20 23:27:17",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Arek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "394e8b5667748eb6bfd3"
   }
 ]

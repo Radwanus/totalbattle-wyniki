@@ -428228,5 +428228,65 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-20 16:57:42",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Max72",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-20 16:58:24",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Max72",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-20 16:58:50",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "janos88",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "3b11e53512c8ea33b126"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-20 16:58:54",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "OSA",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "6f9006dd095735ea99a9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-20 16:59:02",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "janos88",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "3b11e53512c8ea33b126"
+  },
+  {
+    "Okres rozliczeniowy": "2026 13.09 - 20.09",
+    "Data": "2026-09-20 16:59:11",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "janos88",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "3b11e53512c8ea33b126"
   }
 ]

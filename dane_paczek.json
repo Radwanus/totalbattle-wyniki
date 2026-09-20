@@ -11738,5 +11738,35 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "394e8b5667748eb6bfd3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 20.09 - 27.09",
+    "Data": "2026-09-20 23:25:03",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 20.09 - 27.09",
+    "Data": "2026-09-20 23:25:43",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "Arek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "394e8b5667748eb6bfd3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 20.09 - 27.09",
+    "Data": "2026-09-20 23:26:03",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "CİGERXUN",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "602a1fd9467b64dcd2de"
   }
 ]

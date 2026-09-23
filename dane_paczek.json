@@ -176838,5 +176838,85 @@
     "Punkty": "100",
     "Count": "1",
     "PlayerKey": "3a22feceb9cf2de7eca8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 20.09 - 27.09",
+    "Data": "2026-09-23 22:33:33",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Doctor Sleep",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "1da739de3268c2024714"
+  },
+  {
+    "Okres rozliczeniowy": "2026 20.09 - 27.09",
+    "Data": "2026-09-23 22:33:39",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "Centri",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "3a22feceb9cf2de7eca8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 20.09 - 27.09",
+    "Data": "2026-09-23 22:33:42",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Buddy",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "aa6bef0e9d492aa0e9f4"
+  },
+  {
+    "Okres rozliczeniowy": "2026 20.09 - 27.09",
+    "Data": "2026-09-23 22:33:43",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Max72",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 20.09 - 27.09",
+    "Data": "2026-09-23 22:33:47",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Centri",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "3a22feceb9cf2de7eca8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 20.09 - 27.09",
+    "Data": "2026-09-23 22:34:11",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Max72",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 20.09 - 27.09",
+    "Data": "2026-09-23 22:34:11",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "Doctor Sleep",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "1da739de3268c2024714"
+  },
+  {
+    "Okres rozliczeniowy": "2026 20.09 - 27.09",
+    "Data": "2026-09-23 22:34:23",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "PUREC",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "aaed1d7d5f289df49f4e"
   }
 ]

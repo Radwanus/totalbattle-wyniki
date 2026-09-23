@@ -174718,5 +174718,35 @@
     "Punkty": "100",
     "Count": "1",
     "PlayerKey": "3a22feceb9cf2de7eca8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 20.09 - 27.09",
+    "Data": "2026-09-23 21:55:10",
+    "Typ": "Skrzynia Wymiany Klanowej",
+    "Nadawca": "LakiLu",
+    "Źródło": "Wymiana klanowa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "0dc31a9c73dcd599c691"
+  },
+  {
+    "Okres rozliczeniowy": "2026 20.09 - 27.09",
+    "Data": "2026-09-23 21:55:36",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "AYDIN67",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "44b7445fcd45625fec4d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 20.09 - 27.09",
+    "Data": "2026-09-23 21:56:11",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "AYDIN67",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "44b7445fcd45625fec4d"
   }
 ]

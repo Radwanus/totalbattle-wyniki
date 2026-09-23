@@ -174778,5 +174778,25 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "44b7445fcd45625fec4d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 20.09 - 27.09",
+    "Data": "2026-09-23 21:58:57",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "AYDIN67",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "44b7445fcd45625fec4d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 20.09 - 27.09",
+    "Data": "2026-09-23 21:58:57",
+    "Typ": "Skrzynia Wymiany Klanowej",
+    "Nadawca": "CİGERXUN",
+    "Źródło": "Wymiana klanowa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "602a1fd9467b64dcd2de"
   }
 ]

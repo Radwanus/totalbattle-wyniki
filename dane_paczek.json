@@ -173178,5 +173178,45 @@
     "Punkty": "0",
     "Count": "8",
     "PlayerKey": "6f9006dd095735ea99a9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 20.09 - 27.09",
+    "Data": "2026-09-23 21:10:42",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "LakiLu",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "0dc31a9c73dcd599c691"
+  },
+  {
+    "Okres rozliczeniowy": "2026 20.09 - 27.09",
+    "Data": "2026-09-23 21:11:13",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Alfonso DIOS Magno",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "3b72c8642cb4720b717c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 20.09 - 27.09",
+    "Data": "2026-09-23 21:11:19",
+    "Typ": "Klanowa Skrzynia Przyspieszenia Marszu",
+    "Nadawca": "Alfonso DIOS Magno",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3b72c8642cb4720b717c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 20.09 - 27.09",
+    "Data": "2026-09-23 21:11:21",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Alfonso DIOS Magno",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "3b72c8642cb4720b717c"
   }
 ]

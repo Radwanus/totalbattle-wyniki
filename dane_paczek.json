@@ -144068,5 +144068,75 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 20.09 - 27.09",
+    "Data": "2026-09-23 07:06:31",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "Mariano244",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "1da51b68f42324d68739"
+  },
+  {
+    "Okres rozliczeniowy": "2026 20.09 - 27.09",
+    "Data": "2026-09-23 07:06:55",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Olginad",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ef961d78fad6c266872a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 20.09 - 27.09",
+    "Data": "2026-09-23 07:06:59",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "StaH",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 20.09 - 27.09",
+    "Data": "2026-09-23 07:07:29",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Mariano244",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "1da51b68f42324d68739"
+  },
+  {
+    "Okres rozliczeniowy": "2026 20.09 - 27.09",
+    "Data": "2026-09-23 07:07:29",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Olginad",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ef961d78fad6c266872a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 20.09 - 27.09",
+    "Data": "2026-09-23 07:07:31",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "StaH",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 20.09 - 27.09",
+    "Data": "2026-09-23 07:08:05",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "StaH",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9a2f8ee710525e75bee0"
   }
 ]

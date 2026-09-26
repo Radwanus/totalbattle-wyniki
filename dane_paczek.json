@@ -256278,5 +256278,55 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "1da51b68f42324d68739"
+  },
+  {
+    "Okres rozliczeniowy": "2026 20.09 - 27.09",
+    "Data": "2026-09-26 10:27:35",
+    "Typ": "Skrzynia Ognistej Hydry",
+    "Nadawca": "Trueray",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "0e7df54b0b39a51da02a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 20.09 - 27.09",
+    "Data": "2026-09-26 10:27:49",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Mariano244",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "1da51b68f42324d68739"
+  },
+  {
+    "Okres rozliczeniowy": "2026 20.09 - 27.09",
+    "Data": "2026-09-26 10:28:28",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Mariano244",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "1da51b68f42324d68739"
+  },
+  {
+    "Okres rozliczeniowy": "2026 20.09 - 27.09",
+    "Data": "2026-09-26 10:28:41",
+    "Typ": "Skrzynia Ognistej Hydry",
+    "Nadawca": "Melania",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 20.09 - 27.09",
+    "Data": "2026-09-26 10:29:08",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Mariano244",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "1da51b68f42324d68739"
   }
 ]

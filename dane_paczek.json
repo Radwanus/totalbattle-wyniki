@@ -23168,5 +23168,45 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "3a5eb183b5b6981c27c4"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-09-28 06:37:51",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Barkley",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "b6b1e0e854aa8a649f3c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-09-28 06:38:28",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Piotrek 1",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3a5eb183b5b6981c27c4"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-09-28 06:38:46",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Mario",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "03547e958de090bf525f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-09-28 06:39:24",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Piotrek 1",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3a5eb183b5b6981c27c4"
   }
 ]

@@ -81208,5 +81208,75 @@
     "Punkty": "0",
     "Count": "4",
     "PlayerKey": "b9183084a6fabd5c96f9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-09-29 18:07:14",
+    "Typ": "ItemId 703073",
+    "Nadawca": "Fofur",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "b9183084a6fabd5c96f9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-09-29 18:07:20",
+    "Typ": "ItemId 703072",
+    "Nadawca": "Centri",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "3a22feceb9cf2de7eca8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-09-29 18:07:20",
+    "Typ": "ItemId 703072",
+    "Nadawca": "Fofur",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "b9183084a6fabd5c96f9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-09-29 18:07:20",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Alfonso DIOS Magno",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "3b72c8642cb4720b717c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-09-29 18:07:25",
+    "Typ": "ItemId 703072",
+    "Nadawca": "Fofur",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "b9183084a6fabd5c96f9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-09-29 18:07:25",
+    "Typ": "ItemId 703071",
+    "Nadawca": "Fofur",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "6",
+    "PlayerKey": "b9183084a6fabd5c96f9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-09-29 18:07:34",
+    "Typ": "ItemId 703071",
+    "Nadawca": "Fofur",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "6",
+    "PlayerKey": "b9183084a6fabd5c96f9"
   }
 ]

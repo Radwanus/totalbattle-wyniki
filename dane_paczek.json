@@ -82128,5 +82128,75 @@
     "Punkty": "0",
     "Count": "2",
     "PlayerKey": "c101c6308abfb10e36ef"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-09-29 18:38:15",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Nerdailas",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "cb920a76b7f747a54aff"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-09-29 18:38:22",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Mieciu",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "5523e42cd1d58a7a7936"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-09-29 18:39:02",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "RaFSaN RaFi",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "c101c6308abfb10e36ef"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-09-29 18:39:08",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "HassanYEMEN",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "6d7f0562a0ccae85ce6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-09-29 18:39:24",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Mieciu",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "5",
+    "PlayerKey": "5523e42cd1d58a7a7936"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-09-29 18:39:30",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Jarek",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "5",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-09-29 18:39:31",
+    "Typ": "ItemId 703073",
+    "Nadawca": "RAFAL PL",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "ff001bef965a35cc675a"
   }
 ]

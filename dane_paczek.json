@@ -82198,5 +82198,25 @@
     "Punkty": "0",
     "Count": "4",
     "PlayerKey": "ff001bef965a35cc675a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-09-29 18:41:36",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "RaFSaN RaFi",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "c101c6308abfb10e36ef"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-09-29 18:41:39",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Mario",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "03547e958de090bf525f"
   }
 ]

@@ -82368,5 +82368,35 @@
     "Punkty": "0",
     "Count": "3",
     "PlayerKey": "394e8b5667748eb6bfd3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-09-29 18:47:35",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "HassanYEMEN",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "6d7f0562a0ccae85ce6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-09-29 18:47:41",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Mario",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "03547e958de090bf525f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-09-29 18:47:57",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "TUFUR",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "5fe3b9e073708fe54f86"
   }
 ]

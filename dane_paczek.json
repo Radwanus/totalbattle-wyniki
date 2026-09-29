@@ -60108,5 +60108,45 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "03547e958de090bf525f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-09-29 06:48:07",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Mario",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "03547e958de090bf525f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-09-29 06:48:27",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "janos88",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "3b11e53512c8ea33b126"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-09-29 06:48:56",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Mario",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "03547e958de090bf525f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-09-29 06:49:21",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "GinoPL",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "1f5e6cd41b556c281825"
   }
 ]

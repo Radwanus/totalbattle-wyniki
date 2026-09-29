@@ -79528,5 +79528,45 @@
     "Punkty": "0",
     "Count": "2",
     "PlayerKey": "3d476999a1883ef73b71"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-09-29 17:29:48",
+    "Typ": "ItemId 703072",
+    "Nadawca": "WOJTUS",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "3d476999a1883ef73b71"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-09-29 17:30:13",
+    "Typ": "ItemId 703071",
+    "Nadawca": "Mateusz",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "6",
+    "PlayerKey": "2a3f1119db9ed1178e79"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-09-29 17:30:19",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Piotrek 1",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3a5eb183b5b6981c27c4"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-09-29 17:30:22",
+    "Typ": "ItemId 703072",
+    "Nadawca": "Rili",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "24d65d586acbdf6f930e"
   }
 ]

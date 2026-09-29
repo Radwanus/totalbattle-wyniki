@@ -82448,5 +82448,115 @@
     "Punkty": "0",
     "Count": "2",
     "PlayerKey": "03547e958de090bf525f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-09-29 18:49:39",
+    "Typ": "ItemId 703071",
+    "Nadawca": "TUFUR",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "6",
+    "PlayerKey": "5fe3b9e073708fe54f86"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-09-29 18:49:45",
+    "Typ": "ItemId 703071",
+    "Nadawca": "TUFUR",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "5fe3b9e073708fe54f86"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-09-29 18:49:48",
+    "Typ": "ItemId 703071",
+    "Nadawca": "TUFUR",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "5fe3b9e073708fe54f86"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-09-29 18:49:59",
+    "Typ": "ItemId 703071",
+    "Nadawca": "TUFUR",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "5fe3b9e073708fe54f86"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-09-29 18:50:01",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Serelka",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "9a5455a401480b9d8137"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-09-29 18:50:03",
+    "Typ": "ItemId 703071",
+    "Nadawca": "TUFUR",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "5fe3b9e073708fe54f86"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-09-29 18:50:10",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Alfonso DIOS Magno",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "3b72c8642cb4720b717c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-09-29 18:50:31",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Domino",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "a4d9cc04ceaa47510b5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-09-29 18:50:46",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Alfonso DIOS Magno",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "3b72c8642cb4720b717c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-09-29 18:51:03",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Serelka",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "9a5455a401480b9d8137"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-09-29 18:51:08",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Mager",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "e363aa37cf47e1f42c58"
   }
 ]

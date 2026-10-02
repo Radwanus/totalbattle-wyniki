@@ -199218,5 +199218,85 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "e5bc7939193cf10888b3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-10-02 20:10:35",
+    "Typ": "Kościana Skrzynia",
+    "Nadawca": "Maki II Degustator",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "fe888b930a0bdbccadf5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-10-02 20:10:43",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Jedi Qui Gon Jinn",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "cc518556cc44310be810"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-10-02 20:11:04",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Pumba",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "b445d588a166843e7d6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-10-02 20:11:09",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Androzar",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3a4cb18a2d1a16c9c02b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-10-02 20:11:10",
+    "Typ": "Ognista Skrzynia",
+    "Nadawca": "Maki II Degustator",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "fe888b930a0bdbccadf5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-10-02 20:11:11",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Dasty",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "d55aae0b9321d71a9aba"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-10-02 20:11:15",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Osingmet",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-10-02 20:11:18",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
   }
 ]

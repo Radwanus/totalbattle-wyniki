@@ -274738,5 +274738,55 @@
     "Punkty": "0",
     "Count": "3",
     "PlayerKey": "63747c28b1baf69e3e5d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-10-03 23:54:58",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Maki II Degustator",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fe888b930a0bdbccadf5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-10-03 23:55:15",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "KRISS",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "63747c28b1baf69e3e5d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-10-03 23:55:51",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "KRISS",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "63747c28b1baf69e3e5d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-10-03 23:56:02",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Maki II Degustator",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fe888b930a0bdbccadf5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-10-03 23:56:41",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Maki II Degustator",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fe888b930a0bdbccadf5"
   }
 ]

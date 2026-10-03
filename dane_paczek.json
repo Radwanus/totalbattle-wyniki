@@ -256158,5 +256158,95 @@
     "Punkty": "4",
     "Count": "1",
     "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-10-03 19:18:15",
+    "Typ": "Skrzynia z Twierdzy Elfów",
+    "Nadawca": "Ildanen",
+    "Źródło": "Twierdza 30 poziomu",
+    "Punkty": "80",
+    "Count": "1",
+    "PlayerKey": "865e1ddb9398b80fcfee"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-10-03 19:18:17",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Rili",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "24d65d586acbdf6f930e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-10-03 19:18:43",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Max72",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-10-03 19:19:04",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Rili",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "24d65d586acbdf6f930e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-10-03 19:19:17",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Konserwiusz",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "21c8940b5d1d200fb005"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-10-03 19:19:21",
+    "Typ": "Skrzynia Warsztatu Gnomów",
+    "Nadawca": "Painfont",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-10-03 19:19:25",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Megana",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "2db6dd7fcbb9231b69d5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-10-03 19:19:45",
+    "Typ": "Skrzynia Orków",
+    "Nadawca": "Arashiran",
+    "Źródło": "Krypta 10 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "ee1fdbf4964c53453785"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-10-03 19:19:45",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "Max72",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
   }
 ]

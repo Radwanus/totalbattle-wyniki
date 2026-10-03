@@ -257178,5 +257178,85 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "cc518556cc44310be810"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-10-03 19:36:56",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "Domino",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "a4d9cc04ceaa47510b5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-10-03 19:37:01",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Max72",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-10-03 19:37:09",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "Domino",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "a4d9cc04ceaa47510b5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-10-03 19:37:15",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Arek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "394e8b5667748eb6bfd3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-10-03 19:37:47",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Arek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "394e8b5667748eb6bfd3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-10-03 19:37:52",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Max72",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-10-03 19:38:20",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "Max72",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 27.09 - 04.10",
+    "Data": "2026-10-03 19:38:21",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Arek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "394e8b5667748eb6bfd3"
   }
 ]

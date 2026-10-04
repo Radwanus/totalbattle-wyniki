@@ -18828,5 +18828,55 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "4b92faa8f98e7b3ad6fb"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-04 23:12:25",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "Megana",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "2db6dd7fcbb9231b69d5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-04 23:12:33",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Becia",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "24738c8bece50b3182c0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-04 23:13:09",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Max72",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-04 23:13:14",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Becia",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "24738c8bece50b3182c0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-04 23:13:25",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "Megana",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "2db6dd7fcbb9231b69d5"
   }
 ]

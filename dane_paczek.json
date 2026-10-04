@@ -15938,5 +15938,105 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "24738c8bece50b3182c0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-04 22:29:07",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Mejas the Monkey",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "48af37bd7c846c16d698"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-04 22:29:15",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "Little G",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "46c96dda81f5b20d7ed9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-04 22:29:23",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Becia",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "24738c8bece50b3182c0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-04 22:29:27",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Little G",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "46c96dda81f5b20d7ed9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-04 22:29:31",
+    "Typ": "Skrzynia z Twierdzy Elfów",
+    "Nadawca": "Jarek",
+    "Źródło": "Twierdza 30 poziomu",
+    "Punkty": "80",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-04 22:29:45",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Max72",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-04 22:29:48",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Becia",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "24738c8bece50b3182c0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-04 22:30:09",
+    "Typ": "Szafirowa Skrzynia",
+    "Nadawca": "Mejas the Monkey",
+    "Źródło": "Skarbiec Starożytnych 45 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "48af37bd7c846c16d698"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-04 22:30:19",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Max72",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-04 22:30:29",
+    "Typ": "Skrzynia z Twierdzy Elfów",
+    "Nadawca": "Jarek",
+    "Źródło": "Twierdza 30 poziomu",
+    "Punkty": "80",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
   }
 ]

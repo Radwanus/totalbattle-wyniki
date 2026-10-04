@@ -19708,5 +19708,75 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "2db6dd7fcbb9231b69d5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-04 23:35:13",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Melania",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-04 23:35:24",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Melania",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-04 23:35:27",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "Megana",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "2db6dd7fcbb9231b69d5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-04 23:35:51",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "Max72",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-04 23:35:58",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Melania",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-04 23:36:16",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "Megana",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "2db6dd7fcbb9231b69d5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-04 23:36:18",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "Melania",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
   }
 ]

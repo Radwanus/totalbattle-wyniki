@@ -18158,5 +18158,115 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "805f3f04e34bedb658f4"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-04 23:00:46",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Little G",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "46c96dda81f5b20d7ed9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-04 23:00:49",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Megana",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "2db6dd7fcbb9231b69d5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-04 23:00:52",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Little G",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "46c96dda81f5b20d7ed9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-04 23:00:52",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "Sturm Brightblade",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "4b92faa8f98e7b3ad6fb"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-04 23:01:00",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "Max72",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-04 23:01:07",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Little G",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "46c96dda81f5b20d7ed9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-04 23:01:20",
+    "Typ": "Skrzynia z Twierdzy Elfów",
+    "Nadawca": "Nerdailas",
+    "Źródło": "Twierdza 30 poziomu",
+    "Punkty": "80",
+    "Count": "1",
+    "PlayerKey": "cb920a76b7f747a54aff"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-04 23:01:25",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Tojak",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "805f3f04e34bedb658f4"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-04 23:01:43",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Megana",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "2db6dd7fcbb9231b69d5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-04 23:02:00",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "TUFUR",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "5fe3b9e073708fe54f86"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-04 23:02:08",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Tojak",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "805f3f04e34bedb658f4"
   }
 ]

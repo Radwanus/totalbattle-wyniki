@@ -888,5 +888,95 @@
     "Punkty": "4",
     "Count": "1",
     "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-04 19:20:47",
+    "Typ": "Skrzynia Orków",
+    "Nadawca": "Potens",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "65387dc40fc8753aa389"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-04 19:20:49",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Melania",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-04 19:21:07",
+    "Typ": "Szafirowa Skrzynia",
+    "Nadawca": "Osingmet",
+    "Źródło": "Skarbiec Starożytnych 45 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-04 19:21:16",
+    "Typ": "Kościana Skrzynia",
+    "Nadawca": "Stefan",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-04 19:21:44",
+    "Typ": "Szafirowa Skrzynia",
+    "Nadawca": "TUFUR",
+    "Źródło": "Skarbiec Starożytnych 45 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "5fe3b9e073708fe54f86"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-04 19:22:00",
+    "Typ": "Szafirowa Skrzynia",
+    "Nadawca": "Little G",
+    "Źródło": "Skarbiec Starożytnych 45 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "46c96dda81f5b20d7ed9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-04 19:22:51",
+    "Typ": "Piekielna Skrzynia",
+    "Nadawca": "Potens",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "65387dc40fc8753aa389"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-04 19:23:29",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Potens",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "65387dc40fc8753aa389"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-04 19:23:44",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "TUFUR",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "5fe3b9e073708fe54f86"
   }
 ]

@@ -19238,5 +19238,75 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "24738c8bece50b3182c0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-04 23:21:58",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "Max72",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-04 23:22:13",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Painfont",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-04 23:22:18",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Becia",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "24738c8bece50b3182c0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-04 23:22:23",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Megana",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "2db6dd7fcbb9231b69d5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-04 23:22:59",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Becia",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "24738c8bece50b3182c0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-04 23:22:59",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Max72",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-04 23:23:17",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "Megana",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "2db6dd7fcbb9231b69d5"
   }
 ]

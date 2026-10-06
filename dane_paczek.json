@@ -119838,5 +119838,45 @@
     "Punkty": "100",
     "Count": "1",
     "PlayerKey": "5523e42cd1d58a7a7936"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 18:52:45",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Nerdailas",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "cb920a76b7f747a54aff"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 18:53:43",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Nerdailas",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "cb920a76b7f747a54aff"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 18:54:22",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Arfa",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "4828772199789880089d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 18:54:30",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "Little G",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "46c96dda81f5b20d7ed9"
   }
 ]

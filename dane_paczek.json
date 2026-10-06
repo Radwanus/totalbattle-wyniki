@@ -119658,5 +119658,15 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "b889bd01e4d23a3cdd70"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 18:37:09",
+    "Typ": "Skrzynia Wymiany Klanowej",
+    "Nadawca": "KRISS",
+    "Źródło": "Wymiana klanowa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "63747c28b1baf69e3e5d"
   }
 ]

@@ -134900,5 +134900,145 @@
     "Punkty": "90",
     "Count": "1",
     "PlayerKey": "2aa0e06ca13aad2ebb10"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 22:51:28",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "JWR RULETKA",
+    "Źródło": "Epicka krypta 25 poziomu",
+    "Punkty": "40",
+    "Count": "1",
+    "PlayerKey": "a94460bb9577d28083f6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 22:51:31",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Centri",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "3a22feceb9cf2de7eca8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 22:51:33",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Moralsa",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "2aa0e06ca13aad2ebb10"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 22:51:59",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Centri",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "3a22feceb9cf2de7eca8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 22:52:02",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Moralsa",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "2aa0e06ca13aad2ebb10"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 22:52:15",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Moralsa",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "2aa0e06ca13aad2ebb10"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 22:52:17",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Centri",
+    "Źródło": "Epicka krypta 25 poziomu",
+    "Punkty": "40",
+    "Count": "1",
+    "PlayerKey": "3a22feceb9cf2de7eca8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 22:52:33",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Centri",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "3a22feceb9cf2de7eca8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 22:52:36",
+    "Typ": "Kamienna Skrzynia",
+    "Nadawca": "Lady DAIRA",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "1b99a5953bedc09b2447"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 22:52:38",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Moralsa",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "2aa0e06ca13aad2ebb10"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 22:52:48",
+    "Typ": "Skrzynia Piekielnego Kowala",
+    "Nadawca": "Barkley",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "b6b1e0e854aa8a649f3c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 22:52:48",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Moralsa",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "2aa0e06ca13aad2ebb10"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 22:52:51",
+    "Typ": "Ognista Skrzynia",
+    "Nadawca": "Lady DAIRA",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "1b99a5953bedc09b2447"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 22:53:02",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Moralsa",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "2aa0e06ca13aad2ebb10"
   }
 ]

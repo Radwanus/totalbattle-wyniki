@@ -128935,5 +128935,99 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "983f01fd0263653f2f51"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 20:43:58",
+    "Typ": "Skrzynia Piekielnego Kowala",
+    "Nadawca": "Moralsa",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "2aa0e06ca13aad2ebb10"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 20:44:06",
+    "Typ": "Skrzynia Piekielnego Kowala",
+    "Nadawca": "Megana",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "2db6dd7fcbb9231b69d5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 20:44:08",
+    "Typ": "Skrzynia Chimery",
+    "Nadawca": "Jedi Qui Gon Jinn",
+    "Źródło": "Epicki oddział Chimery",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "cc518556cc44310be810",
+    "KC915EpicCategory": "chimera"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 20:44:08",
+    "Typ": "Skrzynia Chimery",
+    "Nadawca": "Bohun",
+    "Źródło": "Epicki oddział Chimery",
+    "Punkty": "0",
+    "Count": "5",
+    "PlayerKey": "9f6cadf34f080fbc5536",
+    "KC915EpicCategory": "chimera"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 20:44:09",
+    "Typ": "Skrzynia Chimery",
+    "Nadawca": "OSA",
+    "Źródło": "Epicki oddział Chimery",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "6f9006dd095735ea99a9",
+    "KC915EpicCategory": "chimera"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 20:44:09",
+    "Typ": "Skrzynia Chimery",
+    "Nadawca": "Mager",
+    "Źródło": "Epicki oddział Chimery",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "e363aa37cf47e1f42c58",
+    "KC915EpicCategory": "chimera"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 20:44:22",
+    "Typ": "Skrzynia Piekielnego Kowala",
+    "Nadawca": "Olginad",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "ef961d78fad6c266872a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 20:44:39",
+    "Typ": "Skrzynia Piekielnego Kowala",
+    "Nadawca": "Megana",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "2db6dd7fcbb9231b69d5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 20:45:03",
+    "Typ": "Skrzynia Piekielnego Kowala",
+    "Nadawca": "Megana",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "2db6dd7fcbb9231b69d5"
   }
 ]

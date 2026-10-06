@@ -129029,5 +129029,88 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "2db6dd7fcbb9231b69d5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 20:45:57",
+    "Typ": "Skrzynia Piekielnego Kowala",
+    "Nadawca": "Max72",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 20:46:10",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "Ildanen",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "865e1ddb9398b80fcfee"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 20:46:21",
+    "Typ": "Skrzynia Piekielnego Kowala",
+    "Nadawca": "Max72",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 20:46:44",
+    "Typ": "Skrzynia Piekielnego Kowala",
+    "Nadawca": "Max72",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 20:47:18",
+    "Typ": "Skrzynia Piekielnego Kowala",
+    "Nadawca": "Max72",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 20:47:40",
+    "Typ": "Skrzynia Chimery",
+    "Nadawca": "Lady DAIRA",
+    "Źródło": "Epicki oddział Chimery",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "1b99a5953bedc09b2447",
+    "KC915EpicCategory": "chimera"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 20:47:40",
+    "Typ": "Skrzynia Chimery",
+    "Nadawca": "Bohun",
+    "Źródło": "Epicki oddział Chimery",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "9f6cadf34f080fbc5536",
+    "KC915EpicCategory": "chimera"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 20:47:40",
+    "Typ": "Skrzynia Chimery",
+    "Nadawca": "Olginad",
+    "Źródło": "Epicki oddział Chimery",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "ef961d78fad6c266872a",
+    "KC915EpicCategory": "chimera"
   }
 ]

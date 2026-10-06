@@ -119148,5 +119148,25 @@
     "Punkty": "30",
     "Count": "1",
     "PlayerKey": "5fe3b9e073708fe54f86"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 18:11:13",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Little G",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "46c96dda81f5b20d7ed9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 18:12:33",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "TUFUR",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "5fe3b9e073708fe54f86"
   }
 ]

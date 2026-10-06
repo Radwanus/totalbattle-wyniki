@@ -128810,5 +128810,130 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "1a9d6ebecbef2b288a62"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 20:42:18",
+    "Typ": "Skrzynia Piekielnego Kowala",
+    "Nadawca": "Megana",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "2db6dd7fcbb9231b69d5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 20:42:28",
+    "Typ": "Skrzynia Piekielnego Kowala",
+    "Nadawca": "Mieciu",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "5523e42cd1d58a7a7936"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 20:42:35",
+    "Typ": "Skrzynia Chimery",
+    "Nadawca": "Jedi Qui Gon Jinn",
+    "Źródło": "Epicki oddział Chimery",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "cc518556cc44310be810",
+    "KC915EpicCategory": "chimera"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 20:42:36",
+    "Typ": "Skrzynia Chimery",
+    "Nadawca": "OSA",
+    "Źródło": "Epicki oddział Chimery",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "6f9006dd095735ea99a9",
+    "KC915EpicCategory": "chimera"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 20:42:36",
+    "Typ": "Skrzynia Chimery",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Epicki oddział Chimery",
+    "Punkty": "0",
+    "Count": "9",
+    "PlayerKey": "f11e94ab451a8ee02fae",
+    "KC915EpicCategory": "chimera"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 20:42:36",
+    "Typ": "Skrzynia Chimery",
+    "Nadawca": "Morfii",
+    "Źródło": "Epicki oddział Chimery",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "641a95ee97d6ecedcdf9",
+    "KC915EpicCategory": "chimera"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 20:42:36",
+    "Typ": "Skrzynia Chimery",
+    "Nadawca": "Ildanen",
+    "Źródło": "Epicki oddział Chimery",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "865e1ddb9398b80fcfee",
+    "KC915EpicCategory": "chimera"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 20:42:53",
+    "Typ": "Skrzynia Piekielnego Kowala",
+    "Nadawca": "Olginad",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "ef961d78fad6c266872a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 20:43:09",
+    "Typ": "Skrzynia Piekielnego Kowala",
+    "Nadawca": "Megana",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "2db6dd7fcbb9231b69d5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 20:43:19",
+    "Typ": "Skrzynia Piekielnego Kowala",
+    "Nadawca": "Max72",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 20:43:33",
+    "Typ": "Skrzynia Piekielnego Kowala",
+    "Nadawca": "Olginad",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "ef961d78fad6c266872a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 20:43:42",
+    "Typ": "Skrzynia Piekielnego Kowala",
+    "Nadawca": "Anaris",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "983f01fd0263653f2f51"
   }
 ]

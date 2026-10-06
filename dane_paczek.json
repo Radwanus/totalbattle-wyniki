@@ -119648,5 +119648,15 @@
     "Punkty": "90",
     "Count": "1",
     "PlayerKey": "ee7ce793739e3d387b2a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 18:33:03",
+    "Typ": "Skrzynia Wymiany Klanowej",
+    "Nadawca": "SANTY",
+    "Źródło": "Wymiana klanowa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "b889bd01e4d23a3cdd70"
   }
 ]

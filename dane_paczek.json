@@ -119128,5 +119128,25 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "a4d9cc04ceaa47510b5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 18:09:28",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Domino",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "a4d9cc04ceaa47510b5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 18:09:38",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "TUFUR",
+    "Źródło": "Rzadka krypta 25 poziomu",
+    "Punkty": "30",
+    "Count": "1",
+    "PlayerKey": "5fe3b9e073708fe54f86"
   }
 ]

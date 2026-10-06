@@ -128665,5 +128665,150 @@
     "Punkty": "90",
     "Count": "1",
     "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 20:38:21",
+    "Typ": "Skrzynia Piekielnego Kowala",
+    "Nadawca": "Moralsa",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "2aa0e06ca13aad2ebb10"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 20:39:00",
+    "Typ": "Skrzynia Piekielnego Kowala",
+    "Nadawca": "Moralsa",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "2aa0e06ca13aad2ebb10"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 20:39:08",
+    "Typ": "Skrzynia Piekielnego Kowala",
+    "Nadawca": "Osingmet",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 20:40:02",
+    "Typ": "Skrzynia Chimery",
+    "Nadawca": "Domino",
+    "Źródło": "Epicki oddział Chimery",
+    "Punkty": "0",
+    "Count": "6",
+    "PlayerKey": "a4d9cc04ceaa47510b5e",
+    "KC915EpicCategory": "chimera"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 20:40:02",
+    "Typ": "Skrzynia Chimery",
+    "Nadawca": "OSA",
+    "Źródło": "Epicki oddział Chimery",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "6f9006dd095735ea99a9",
+    "KC915EpicCategory": "chimera"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 20:40:02",
+    "Typ": "Skrzynia Chimery",
+    "Nadawca": "Jedi Qui Gon Jinn",
+    "Źródło": "Epicki oddział Chimery",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "cc518556cc44310be810",
+    "KC915EpicCategory": "chimera"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 20:40:02",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "StaH",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 20:40:02",
+    "Typ": "Skrzynia Chimery",
+    "Nadawca": "Anaris",
+    "Źródło": "Epicki oddział Chimery",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "983f01fd0263653f2f51",
+    "KC915EpicCategory": "chimera"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 20:40:02",
+    "Typ": "Skrzynia Chimery",
+    "Nadawca": "Lady DAIRA",
+    "Źródło": "Epicki oddział Chimery",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "1b99a5953bedc09b2447",
+    "KC915EpicCategory": "chimera"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 20:40:36",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "StaH",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 20:40:55",
+    "Typ": "Skrzynia Piekielnego Kowala",
+    "Nadawca": "Mieciu",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "5523e42cd1d58a7a7936"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 20:41:36",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "StaH",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 20:41:47",
+    "Typ": "Skrzynia Piekielnego Kowala",
+    "Nadawca": "Olginad",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "ef961d78fad6c266872a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-06 20:41:49",
+    "Typ": "Skrzynia Piekielnego Kowala",
+    "Nadawca": "Martini",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "1a9d6ebecbef2b288a62"
   }
 ]

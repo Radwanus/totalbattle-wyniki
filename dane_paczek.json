@@ -148620,5 +148620,65 @@
     "Punkty": "100",
     "Count": "1",
     "PlayerKey": "24d65d586acbdf6f930e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-07 06:00:14",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "DjKro",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-07 06:00:27",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Rili",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "24d65d586acbdf6f930e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-07 06:00:57",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "DjKro",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-07 06:00:59",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Rili",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "24d65d586acbdf6f930e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-07 06:01:31",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Rili",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "24d65d586acbdf6f930e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-07 06:01:39",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "DjKro",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
   }
 ]

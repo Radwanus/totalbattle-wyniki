@@ -149070,5 +149070,58 @@
     "Punkty": "100",
     "Count": "1",
     "PlayerKey": "24d65d586acbdf6f930e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-07 06:14:05",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "DjKro",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-07 06:14:45",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "DjKro",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-07 06:14:58",
+    "Typ": "Skrzynia Chimery",
+    "Nadawca": "DjKro",
+    "Źródło": "Epicki oddział Chimery",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6",
+    "KC915EpicCategory": "chimera"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-07 06:14:58",
+    "Typ": "Skrzynia Chimery",
+    "Nadawca": "THE VLD",
+    "Źródło": "Epicki oddział Chimery",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "22beab11a17cbf661eca",
+    "KC915EpicCategory": "chimera"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-07 06:14:58",
+    "Typ": "Skrzynia Chimery",
+    "Nadawca": "VULCAN",
+    "Źródło": "Epicki oddział Chimery",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "04b37110e9b45cb6b4e3",
+    "KC915EpicCategory": "chimera"
   }
 ]

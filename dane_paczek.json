@@ -148742,5 +148742,55 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-07 06:03:37",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "DjKro",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-07 06:03:42",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Rili",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "24d65d586acbdf6f930e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-07 06:04:14",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "DjKro",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-07 06:04:35",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "Rili",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "24d65d586acbdf6f930e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-07 06:04:48",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "DjKro",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
   }
 ]

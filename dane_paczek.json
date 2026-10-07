@@ -179303,5 +179303,65 @@
     "Punkty": "4",
     "Count": "1",
     "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-07 21:04:29",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Megana",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "2db6dd7fcbb9231b69d5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-07 21:04:41",
+    "Typ": "Elegancka Skrzynia",
+    "Nadawca": "StaH",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-07 21:05:11",
+    "Typ": "Piekielna Skrzynia",
+    "Nadawca": "StaH",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-07 21:05:21",
+    "Typ": "Skrzynia Bazyliszka",
+    "Nadawca": "π BOYKA π",
+    "Źródło": "Epicki oddział Bazyliszka",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "5bab5ed0df474c2132b0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-07 21:05:31",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "Megana",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "2db6dd7fcbb9231b69d5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-07 21:05:36",
+    "Typ": "Skrzynia Piekielnego Kowala",
+    "Nadawca": "Fofur",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "b9183084a6fabd5c96f9"
   }
 ]

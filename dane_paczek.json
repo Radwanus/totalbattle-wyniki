@@ -194123,5 +194123,55 @@
     "Punkty": "90",
     "Count": "1",
     "PlayerKey": "24d65d586acbdf6f930e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-08 06:16:59",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Rili",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "24d65d586acbdf6f930e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-08 06:17:02",
+    "Typ": "Skrzynia Bazyliszka",
+    "Nadawca": "WOJTUS",
+    "Źródło": "Epicki oddział Bazyliszka",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3d476999a1883ef73b71"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-08 06:17:42",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Rili",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "24d65d586acbdf6f930e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-08 06:18:26",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Rili",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "24d65d586acbdf6f930e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-08 06:18:29",
+    "Typ": "Skrzynia Bazyliszka",
+    "Nadawca": "WOJTUS",
+    "Źródło": "Epicki oddział Bazyliszka",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "3d476999a1883ef73b71"
   }
 ]

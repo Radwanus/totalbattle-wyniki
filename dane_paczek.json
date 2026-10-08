@@ -194203,5 +194203,25 @@
     "Punkty": "0",
     "Count": "2",
     "PlayerKey": "49bc493bb219270d30fc"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-08 06:22:01",
+    "Typ": "Skrzynia Bazyliszka",
+    "Nadawca": "Szybki Kriss",
+    "Źródło": "Epicki oddział Bazyliszka",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "49bc493bb219270d30fc"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-08 06:23:38",
+    "Typ": "Skrzynia Bazyliszka",
+    "Nadawca": "Szybki Kriss",
+    "Źródło": "Epicki oddział Bazyliszka",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "49bc493bb219270d30fc"
   }
 ]

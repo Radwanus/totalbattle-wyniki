@@ -194253,5 +194253,85 @@
     "Punkty": "0",
     "Count": "2",
     "PlayerKey": "49bc493bb219270d30fc"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-08 06:29:12",
+    "Typ": "Skrzynia Bazyliszka",
+    "Nadawca": "Szybki Kriss",
+    "Źródło": "Epicki oddział Bazyliszka",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "49bc493bb219270d30fc"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-08 06:29:15",
+    "Typ": "Skrzynia Piekielnego Kowala",
+    "Nadawca": "Nerdailas",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "cb920a76b7f747a54aff"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-08 06:29:40",
+    "Typ": "Skrzynia Bazyliszka",
+    "Nadawca": "Szybki Kriss",
+    "Źródło": "Epicki oddział Bazyliszka",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "49bc493bb219270d30fc"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-08 06:29:59",
+    "Typ": "Skrzynia Piekielnego Kowala",
+    "Nadawca": "Osingmet",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-08 06:30:15",
+    "Typ": "Skrzynia Piekielnego Kowala",
+    "Nadawca": "RaFSaN RaFi",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "c101c6308abfb10e36ef"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-08 06:30:30",
+    "Typ": "Skrzynia Piekielnego Kowala",
+    "Nadawca": "Nerdailas",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "cb920a76b7f747a54aff"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-08 06:30:31",
+    "Typ": "Skrzynia Piekielnego Kowala",
+    "Nadawca": "Osingmet",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-08 06:30:41",
+    "Typ": "Skrzynia Piekielnego Kowala",
+    "Nadawca": "RaFSaN RaFi",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "c101c6308abfb10e36ef"
   }
 ]

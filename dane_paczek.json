@@ -193953,5 +193953,45 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-08 06:09:51",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Rili",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "24d65d586acbdf6f930e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-08 06:10:42",
+    "Typ": "Skrzynia Piekielnego Kowala",
+    "Nadawca": "RaFSaN RaFi",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "c101c6308abfb10e36ef"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-08 06:10:58",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Rili",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "24d65d586acbdf6f930e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-08 06:11:39",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Rili",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "24d65d586acbdf6f930e"
   }
 ]

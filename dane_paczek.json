@@ -222383,5 +222383,35 @@
     "Punkty": "100",
     "Count": "1",
     "PlayerKey": "24d65d586acbdf6f930e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 05:56:45",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "Rili",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "24d65d586acbdf6f930e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 05:57:25",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Rili",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "24d65d586acbdf6f930e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 05:58:09",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Rili",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "24d65d586acbdf6f930e"
   }
 ]

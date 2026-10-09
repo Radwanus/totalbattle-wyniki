@@ -235213,5 +235213,45 @@
     "Punkty": "0",
     "Count": "2",
     "PlayerKey": "5fe3b9e073708fe54f86"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 14:51:09",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "TUFUR",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "5fe3b9e073708fe54f86"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 14:51:16",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "Painfont",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 14:52:04",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Painfont",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 14:53:11",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Coris",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "ee7ce793739e3d387b2a"
   }
 ]

@@ -226213,5 +226213,65 @@
     "Punkty": "90",
     "Count": "1",
     "PlayerKey": "dac0063c8b110482320a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 09:37:50",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "F",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "dac0063c8b110482320a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 09:38:05",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Morfii",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "641a95ee97d6ecedcdf9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 09:38:14",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "F",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "dac0063c8b110482320a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 09:38:20",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "F",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "dac0063c8b110482320a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 09:38:49",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "F",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "dac0063c8b110482320a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 09:39:12",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Morfii",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "641a95ee97d6ecedcdf9"
   }
 ]

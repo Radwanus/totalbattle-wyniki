@@ -235723,5 +235723,25 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "48af37bd7c846c16d698"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 15:14:43",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Painfont",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 15:15:59",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Mejas the Monkey",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "48af37bd7c846c16d698"
   }
 ]

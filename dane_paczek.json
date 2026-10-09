@@ -239053,5 +239053,55 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "c19b743b1d635c8c7300"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 16:51:33",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "Naru",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "c19b743b1d635c8c7300"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 16:52:11",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "Naru",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "c19b743b1d635c8c7300"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 16:52:50",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "Naru",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "c19b743b1d635c8c7300"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 16:53:40",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Naru",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "c19b743b1d635c8c7300"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 16:53:44",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Martini",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "1a9d6ebecbef2b288a62"
   }
 ]

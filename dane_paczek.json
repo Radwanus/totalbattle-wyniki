@@ -234923,5 +234923,65 @@
     "Punkty": "100",
     "Count": "1",
     "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 14:35:48",
+    "Typ": "Skrzynia Hermesa",
+    "Nadawca": "Pumba",
+    "Źródło": "Sklep Hermesa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "b445d588a166843e7d6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 14:35:49",
+    "Typ": "Skrzynia Hermesa",
+    "Nadawca": "Pumba",
+    "Źródło": "Sklep Hermesa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "b445d588a166843e7d6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 14:35:50",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Stefan",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 14:35:51",
+    "Typ": "Skrzynia Hermesa",
+    "Nadawca": "Pumba",
+    "Źródło": "Sklep Hermesa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "b445d588a166843e7d6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 14:35:52",
+    "Typ": "Skrzynia Hermesa",
+    "Nadawca": "Pumba",
+    "Źródło": "Sklep Hermesa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "b445d588a166843e7d6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 14:35:53",
+    "Typ": "Skrzynia Hermesa",
+    "Nadawca": "Pumba",
+    "Źródło": "Sklep Hermesa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "b445d588a166843e7d6d"
   }
 ]

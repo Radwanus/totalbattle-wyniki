@@ -233503,5 +233503,65 @@
     "Punkty": "100",
     "Count": "1",
     "PlayerKey": "983f01fd0263653f2f51"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 13:24:15",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "CHRISTOV",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "dab55c4208248ce1ef48"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 13:24:15",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Anaris",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "983f01fd0263653f2f51"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 13:24:53",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Anaris",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "983f01fd0263653f2f51"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 13:25:24",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "PUREC",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "aaed1d7d5f289df49f4e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 13:25:36",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Anaris",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "983f01fd0263653f2f51"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 13:26:24",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "Anaris",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "983f01fd0263653f2f51"
   }
 ]

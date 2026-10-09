@@ -222463,5 +222463,25 @@
     "Punkty": "20",
     "Count": "1",
     "PlayerKey": "ac483a3eb762dd413066"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 06:33:49",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Karodor",
+    "Źródło": "Rzadka krypta 25 poziomu",
+    "Punkty": "30",
+    "Count": "1",
+    "PlayerKey": "ac483a3eb762dd413066"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 06:34:44",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Karodor",
+    "Źródło": "Rzadka krypta 25 poziomu",
+    "Punkty": "30",
+    "Count": "1",
+    "PlayerKey": "ac483a3eb762dd413066"
   }
 ]

@@ -225673,5 +225673,75 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "0ac6b794e655966c923f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 09:26:40",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Kariel",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "0ac6b794e655966c923f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 09:27:24",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Nemesis",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "7f6a27f202fc1e2c98c9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 09:27:40",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Little G",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "46c96dda81f5b20d7ed9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 09:27:44",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "iRfan",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "e5bc7939193cf10888b3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 09:28:19",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Morfii",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "641a95ee97d6ecedcdf9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 09:28:21",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "iRfan",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "e5bc7939193cf10888b3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 09:28:24",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Little G",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "46c96dda81f5b20d7ed9"
   }
 ]

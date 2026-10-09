@@ -233903,5 +233903,65 @@
     "Punkty": "100",
     "Count": "1",
     "PlayerKey": "dab55c4208248ce1ef48"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 13:38:02",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "RAFAL PL",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "ff001bef965a35cc675a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 13:38:36",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "CHRISTOV",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "dab55c4208248ce1ef48"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 13:38:39",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "WOJTUS",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3d476999a1883ef73b71"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 13:38:53",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "PUREC",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "aaed1d7d5f289df49f4e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 13:39:14",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Centri",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3a22feceb9cf2de7eca8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 13:39:30",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "CHRISTOV",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "dab55c4208248ce1ef48"
   }
 ]

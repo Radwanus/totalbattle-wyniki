@@ -223373,5 +223373,55 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "5523e42cd1d58a7a7936"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 07:58:30",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Mariano244",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "1da51b68f42324d68739"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 07:58:32",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "F",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "dac0063c8b110482320a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 07:58:57",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Mieciu",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "5523e42cd1d58a7a7936"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 07:59:32",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Potens",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "65387dc40fc8753aa389"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 08:00:17",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Potens",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "65387dc40fc8753aa389"
   }
 ]

@@ -232973,5 +232973,25 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "4828772199789880089d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 12:59:02",
+    "Typ": "ItemId 6642",
+    "Nadawca": "Naru",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "c19b743b1d635c8c7300"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 13:01:13",
+    "Typ": "Zapomniana Skrzynia",
+    "Nadawca": "Stefan",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "0c7a8b2ba309383e1d53"
   }
 ]

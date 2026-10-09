@@ -223543,5 +223543,35 @@
     "Punkty": "90",
     "Count": "1",
     "PlayerKey": "1da51b68f42324d68739"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 08:08:04",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Mariano244",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "1da51b68f42324d68739"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 08:08:27",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Stefan",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 08:08:52",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Mariano244",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "1da51b68f42324d68739"
   }
 ]

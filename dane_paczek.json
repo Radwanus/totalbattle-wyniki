@@ -233073,5 +233073,25 @@
     "Punkty": "100",
     "Count": "1",
     "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 13:07:10",
+    "Typ": "Runiczna Skrzynia",
+    "Nadawca": "Jedi Qui Gon Jinn",
+    "Źródło": "Runiczny oddział napaści 45 poz.",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "cc518556cc44310be810"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 13:07:47",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Anaris",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "983f01fd0263653f2f51"
   }
 ]

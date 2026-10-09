@@ -224353,5 +224353,55 @@
     "Punkty": "80",
     "Count": "1",
     "PlayerKey": "dac0063c8b110482320a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 08:37:17",
+    "Typ": "Skrzynia z Twierdzy Elfów",
+    "Nadawca": "F",
+    "Źródło": "Twierdza 30 poziomu",
+    "Punkty": "80",
+    "Count": "1",
+    "PlayerKey": "dac0063c8b110482320a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 08:37:23",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Martini",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "1a9d6ebecbef2b288a62"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 08:37:36",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Sturm Brightblade",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "4b92faa8f98e7b3ad6fb"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 08:38:13",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Stefan",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 08:38:13",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Martini",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "1a9d6ebecbef2b288a62"
   }
 ]

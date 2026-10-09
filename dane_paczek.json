@@ -233213,5 +233213,75 @@
     "Punkty": "100",
     "Count": "1",
     "PlayerKey": "983f01fd0263653f2f51"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 13:15:06",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Anaris",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "983f01fd0263653f2f51"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 13:16:13",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "Anaris",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "983f01fd0263653f2f51"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 13:16:19",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "WOJTUS",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3d476999a1883ef73b71"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 13:16:46",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "BJÖRN IRONSIDE",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "b3911dcb98f8b78db978"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 13:16:46",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Anaris",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "983f01fd0263653f2f51"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 13:17:01",
+    "Typ": "Skrzynia Warsztatu Gnomów",
+    "Nadawca": "SANTY",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "b889bd01e4d23a3cdd70"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 13:17:15",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Anaris",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "983f01fd0263653f2f51"
   }
 ]

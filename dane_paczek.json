@@ -222293,5 +222293,55 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "0e032a736308995a4fd1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 05:53:52",
+    "Typ": "Zwykła Skrzynia Bogactwa",
+    "Nadawca": "Ildanen",
+    "Źródło": "Bogactwo klanu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "865e1ddb9398b80fcfee"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 05:53:52",
+    "Typ": "Niestandardowa Skrzynia Bogactwa",
+    "Nadawca": "Ildanen",
+    "Źródło": "Bogactwo klanu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "865e1ddb9398b80fcfee"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 05:53:52",
+    "Typ": "Rzadka Skrzynia Bogactwa",
+    "Nadawca": "Ildanen",
+    "Źródło": "Bogactwo klanu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "865e1ddb9398b80fcfee"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 05:53:52",
+    "Typ": "Epicka Skrzynia Bogactwa",
+    "Nadawca": "Ildanen",
+    "Źródło": "Bogactwo klanu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "865e1ddb9398b80fcfee"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 05:53:52",
+    "Typ": "Legendarna Skrzynia Bogactwa",
+    "Nadawca": "Ildanen",
+    "Źródło": "Bogactwo klanu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "865e1ddb9398b80fcfee"
   }
 ]

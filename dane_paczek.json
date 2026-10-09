@@ -222813,5 +222813,25 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "1da739de3268c2024714"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 07:13:14",
+    "Typ": "Elegancka Skrzynia",
+    "Nadawca": "LakiLu",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "0dc31a9c73dcd599c691"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 07:13:55",
+    "Typ": "Piekielna Skrzynia",
+    "Nadawca": "LakiLu",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "0dc31a9c73dcd599c691"
   }
 ]

@@ -237593,5 +237593,35 @@
     "Punkty": "100",
     "Count": "1",
     "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 16:14:20",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "Naru",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "c19b743b1d635c8c7300"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 16:15:07",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Naru",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "c19b743b1d635c8c7300"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 16:15:54",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "Naru",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "c19b743b1d635c8c7300"
   }
 ]

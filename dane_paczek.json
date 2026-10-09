@@ -223063,5 +223063,45 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "65387dc40fc8753aa389"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 07:45:02",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "Potens",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "65387dc40fc8753aa389"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 07:45:33",
+    "Typ": "Runiczna Skrzynia",
+    "Nadawca": "Mariano244",
+    "Źródło": "Runiczny oddział napaści 45 poz.",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "1da51b68f42324d68739"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 07:46:25",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Megana",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "2db6dd7fcbb9231b69d5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 07:46:46",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Potens",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "65387dc40fc8753aa389"
   }
 ]

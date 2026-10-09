@@ -234133,5 +234133,55 @@
     "Punkty": "4",
     "Count": "1",
     "PlayerKey": "1b99a5953bedc09b2447"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 13:53:15",
+    "Typ": "Skrzynia Orków",
+    "Nadawca": "Lady DAIRA",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "1b99a5953bedc09b2447"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 13:53:35",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "OSA",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "6f9006dd095735ea99a9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 13:54:00",
+    "Typ": "Skrzynia Warsztatu Gnomów",
+    "Nadawca": "Lady DAIRA",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "1b99a5953bedc09b2447"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 13:54:07",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "OSA",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "6f9006dd095735ea99a9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 13:54:30",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "OSA",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "6f9006dd095735ea99a9"
   }
 ]

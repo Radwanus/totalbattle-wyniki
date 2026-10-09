@@ -223213,5 +223213,75 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "dac0063c8b110482320a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 07:51:44",
+    "Typ": "Skrzynia Orków",
+    "Nadawca": "F",
+    "Źródło": "Krypta 15 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "dac0063c8b110482320a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 07:52:03",
+    "Typ": "Skrzynia Orków",
+    "Nadawca": "F",
+    "Źródło": "Krypta 10 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "dac0063c8b110482320a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 07:52:07",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Mejas the Monkey",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "48af37bd7c846c16d698"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 07:52:36",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Mariano244",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "1da51b68f42324d68739"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 07:53:14",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Mieciu",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "5523e42cd1d58a7a7936"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 07:53:48",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "ヤGANGSTERヤ",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "91e9806adb5b128d07e7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-09 07:53:50",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Mieciu",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "5523e42cd1d58a7a7936"
   }
 ]

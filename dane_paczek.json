@@ -315163,5 +315163,115 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "89abaf01d0870e8d1ebf"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 12:07:20",
+    "Typ": "ItemId 702096",
+    "Nadawca": "DjKro",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 12:07:36",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Hichem 25",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "1de4143c427ea9bf54fd"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 12:07:50",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Karolek",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "89abaf01d0870e8d1ebf"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 12:08:10",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Domino",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "a4d9cc04ceaa47510b5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 12:08:16",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Hichem 25",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "1de4143c427ea9bf54fd"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 12:08:27",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Karolek",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "89abaf01d0870e8d1ebf"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 12:08:55",
+    "Typ": "ItemId 702096",
+    "Nadawca": "LakiLu",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "0dc31a9c73dcd599c691"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 12:09:17",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Karolek",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "89abaf01d0870e8d1ebf"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 12:09:24",
+    "Typ": "ItemId 702096",
+    "Nadawca": "DjKro",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 12:09:44",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Hichem 25",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "1de4143c427ea9bf54fd"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 12:09:44",
+    "Typ": "ItemId 702096",
+    "Nadawca": "LakiLu",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "0dc31a9c73dcd599c691"
   }
 ]

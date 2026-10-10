@@ -340953,5 +340953,125 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "e5bc7939193cf10888b3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 19:28:27",
+    "Typ": "Skrzynia z Twierdzy Elfów",
+    "Nadawca": "Hichem 25",
+    "Źródło": "Twierdza 30 poziomu",
+    "Punkty": "80",
+    "Count": "1",
+    "PlayerKey": "1de4143c427ea9bf54fd"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 19:29:04",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Nerdailas",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "cb920a76b7f747a54aff"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 19:29:06",
+    "Typ": "Piekielna Skrzynia",
+    "Nadawca": "ALEX 82",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 19:29:48",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Doctor Sleep",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "1da739de3268c2024714"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 19:29:50",
+    "Typ": "Elegancka Skrzynia",
+    "Nadawca": "CHRISTOV",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "dab55c4208248ce1ef48"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 19:29:58",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "ヤGANGSTERヤ",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "91e9806adb5b128d07e7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 19:30:03",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Zarina",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "821531d29e661d88ca32"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 19:30:29",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Painfont",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 19:30:29",
+    "Typ": "Skrzynia Kobry",
+    "Nadawca": "CHRISTOV",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "dab55c4208248ce1ef48"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 19:30:44",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Serelka",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "9a5455a401480b9d8137"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 19:30:49",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "Nerdailas",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "cb920a76b7f747a54aff"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 19:30:52",
+    "Typ": "Piaskowa Skrzynia",
+    "Nadawca": "ALEX 82",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "8210d0e3cc68669c5208"
   }
 ]

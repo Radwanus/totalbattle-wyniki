@@ -348373,5 +348373,85 @@
     "Punkty": "0",
     "Count": "2",
     "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 21:13:32",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "THE VLD",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "22beab11a17cbf661eca"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 21:14:07",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "THE VLD",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "22beab11a17cbf661eca"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 21:14:21",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Mejas the Monkey",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "48af37bd7c846c16d698"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 21:14:38",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "F",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "dac0063c8b110482320a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 21:14:45",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "THE VLD",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "22beab11a17cbf661eca"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 21:15:09",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "THE VLD",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "22beab11a17cbf661eca"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 21:15:18",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Fofur",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "b9183084a6fabd5c96f9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 21:15:30",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Konserwiusz",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "21c8940b5d1d200fb005"
   }
 ]

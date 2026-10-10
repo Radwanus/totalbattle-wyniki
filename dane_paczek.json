@@ -339673,5 +339673,45 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "2db6dd7fcbb9231b69d5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 19:00:32",
+    "Typ": "Elegancka Skrzynia",
+    "Nadawca": "Lady DAIRA",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "1b99a5953bedc09b2447"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 19:01:21",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Eyrodor",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "8c9c6af60262fb89cd7c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 19:01:57",
+    "Typ": "Kamienna Skrzynia",
+    "Nadawca": "Eyrodor",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "8c9c6af60262fb89cd7c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 19:02:40",
+    "Typ": "Zapomniana Skrzynia",
+    "Nadawca": "Eyrodor",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "8c9c6af60262fb89cd7c"
   }
 ]

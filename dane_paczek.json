@@ -298213,5 +298213,75 @@
     "Punkty": "100",
     "Count": "1",
     "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 07:41:52",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Tojak",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "805f3f04e34bedb658f4"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 07:42:04",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Szybki Kriss",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "49bc493bb219270d30fc"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 07:42:07",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Szybki Kriss",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "49bc493bb219270d30fc"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 07:43:11",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Hichem 25",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "1de4143c427ea9bf54fd"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 07:43:27",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Szybki Kriss",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "49bc493bb219270d30fc"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 07:43:28",
+    "Typ": "ItemId 702096",
+    "Nadawca": "ヤGANGSTERヤ",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "91e9806adb5b128d07e7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 07:43:41",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Szybki Kriss",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "49bc493bb219270d30fc"
   }
 ]

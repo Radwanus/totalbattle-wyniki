@@ -325443,5 +325443,95 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "16aa9a592af41556bf1b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 15:33:19",
+    "Typ": "ItemId 702096",
+    "Nadawca": "THE VLD",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "22beab11a17cbf661eca"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 15:33:20",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Serelka",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9a5455a401480b9d8137"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 15:34:00",
+    "Typ": "ItemId 211001",
+    "Nadawca": "OIozgurOI",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "16aa9a592af41556bf1b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 15:34:08",
+    "Typ": "ItemId 702096",
+    "Nadawca": "THE VLD",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "22beab11a17cbf661eca"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 15:34:08",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Megana",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "2db6dd7fcbb9231b69d5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 15:34:35",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Serelka",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9a5455a401480b9d8137"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 15:34:50",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Serafino",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "25fd16f36bf014d81ed7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 15:34:56",
+    "Typ": "ItemId 702096",
+    "Nadawca": "THE VLD",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "22beab11a17cbf661eca"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 15:35:29",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Megana",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "2db6dd7fcbb9231b69d5"
   }
 ]

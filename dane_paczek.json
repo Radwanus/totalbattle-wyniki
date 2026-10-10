@@ -317843,5 +317843,115 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "5bab5ed0df474c2132b0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 13:04:43",
+    "Typ": "ItemId 702095",
+    "Nadawca": "π BOYKA π",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "5bab5ed0df474c2132b0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 13:04:56",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Arashiran",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "ee1fdbf4964c53453785"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 13:04:57",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "iRfan",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "e5bc7939193cf10888b3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 13:05:37",
+    "Typ": "ItemId 702094",
+    "Nadawca": "π BOYKA π",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "5bab5ed0df474c2132b0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 13:05:38",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Arashiran",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "ee1fdbf4964c53453785"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 13:05:40",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "iRfan",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "e5bc7939193cf10888b3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 13:05:40",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Domino",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "a4d9cc04ceaa47510b5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 13:05:50",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Karolek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "89abaf01d0870e8d1ebf"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 13:06:15",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Arashiran",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "ee1fdbf4964c53453785"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 13:06:25",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "iRfan",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "e5bc7939193cf10888b3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 13:06:31",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "Karolek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "89abaf01d0870e8d1ebf"
   }
 ]

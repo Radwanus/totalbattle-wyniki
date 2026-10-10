@@ -345173,5 +345173,115 @@
     "Punkty": "4",
     "Count": "1",
     "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 20:22:41",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Dasty",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "d55aae0b9321d71a9aba"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 20:22:46",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Dasty",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "d55aae0b9321d71a9aba"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 20:22:55",
+    "Typ": "Piaskowa Skrzynia",
+    "Nadawca": "StaH",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 20:23:35",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "ALEX 82",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 20:23:38",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Dasty",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "d55aae0b9321d71a9aba"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 20:23:38",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "StaH",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 20:23:52",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Dasty",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "d55aae0b9321d71a9aba"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 20:24:13",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "StaH",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 20:24:25",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Dasty",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "d55aae0b9321d71a9aba"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 20:24:29",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Dasty",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "d55aae0b9321d71a9aba"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 20:24:32",
+    "Typ": "Kamienna Skrzynia",
+    "Nadawca": "EeLL",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "a15b608703c3ba6fe2da"
   }
 ]

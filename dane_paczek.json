@@ -339783,5 +339783,105 @@
     "Punkty": "0",
     "Count": "2",
     "PlayerKey": "16aa9a592af41556bf1b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 19:05:38",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Eyrodor",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8c9c6af60262fb89cd7c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 19:06:00",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "TUFUR",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "5fe3b9e073708fe54f86"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 19:06:19",
+    "Typ": "Kościana Skrzynia",
+    "Nadawca": "π BOYKA π",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "5bab5ed0df474c2132b0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 19:06:37",
+    "Typ": "Skrzynia Gladiatora",
+    "Nadawca": "Lady DAIRA",
+    "Źródło": "Arena",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "1b99a5953bedc09b2447"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 19:07:00",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Pumba",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "b445d588a166843e7d6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 19:07:02",
+    "Typ": "Skrzynia Kobry",
+    "Nadawca": "Mariano244",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "1da51b68f42324d68739"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 19:07:10",
+    "Typ": "Kościana Skrzynia",
+    "Nadawca": "RAFAL PL",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "ff001bef965a35cc675a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 19:07:18",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "WOJTUS",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3d476999a1883ef73b71"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 19:07:42",
+    "Typ": "Skrzynia Majów",
+    "Nadawca": "RAFAL PL",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "ff001bef965a35cc675a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 19:07:44",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Mariano244",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "1da51b68f42324d68739"
   }
 ]

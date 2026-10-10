@@ -323913,5 +323913,65 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "e363aa37cf47e1f42c58"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 14:34:00",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Stefan",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 14:34:07",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Domino",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "a4d9cc04ceaa47510b5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 14:34:39",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Stefan",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 14:34:47",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Hichem 25",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "1de4143c427ea9bf54fd"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 14:35:09",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Domino",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "a4d9cc04ceaa47510b5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 14:36:02",
+    "Typ": "ItemId 702096",
+    "Nadawca": "VULCAN",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "04b37110e9b45cb6b4e3"
   }
 ]

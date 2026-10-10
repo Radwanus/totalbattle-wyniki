@@ -334853,5 +334853,55 @@
     "Punkty": "100",
     "Count": "1",
     "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 17:47:10",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 17:48:14",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 17:48:17",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Jarek",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 17:48:27",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 17:48:29",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Serelka",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "9a5455a401480b9d8137"
   }
 ]

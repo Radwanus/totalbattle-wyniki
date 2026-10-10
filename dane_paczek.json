@@ -306123,5 +306123,45 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "46c96dda81f5b20d7ed9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 09:30:27",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Little G",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "46c96dda81f5b20d7ed9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 09:30:28",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Evlin",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "0e032a736308995a4fd1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 09:30:57",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Olginad",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "ef961d78fad6c266872a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 09:31:41",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Evlin",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "0e032a736308995a4fd1"
   }
 ]

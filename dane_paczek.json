@@ -349463,5 +349463,125 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "9a5455a401480b9d8137"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 21:44:19",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Rili",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "24d65d586acbdf6f930e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 21:44:33",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "Mieciu",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "5523e42cd1d58a7a7936"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 21:44:39",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "F",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "dac0063c8b110482320a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 21:45:18",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "TUFUR",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "5fe3b9e073708fe54f86"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 21:45:21",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Rili",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "24d65d586acbdf6f930e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 21:45:26",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "EeLL",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "a15b608703c3ba6fe2da"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 21:45:38",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Domino",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "5",
+    "PlayerKey": "a4d9cc04ceaa47510b5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 21:45:39",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Mariano244",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "5",
+    "PlayerKey": "1da51b68f42324d68739"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 21:45:41",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Arek",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "394e8b5667748eb6bfd3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 21:45:44",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Mieciu",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "5523e42cd1d58a7a7936"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 21:46:18",
+    "Typ": "Szafirowa Skrzynia",
+    "Nadawca": "Moralsa",
+    "Źródło": "Skarbiec Starożytnych 45 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "2aa0e06ca13aad2ebb10"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 21:46:18",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Mieciu",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "5523e42cd1d58a7a7936"
   }
 ]

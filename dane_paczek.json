@@ -301503,5 +301503,235 @@
     "Punkty": "100",
     "Count": "1",
     "PlayerKey": "983f01fd0263653f2f51"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 08:28:12",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Szybki Kriss",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "49bc493bb219270d30fc"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 08:28:14",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Arfa",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "4828772199789880089d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 08:28:14",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Kariel",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "0ac6b794e655966c923f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 08:28:29",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "Stefan",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 08:28:36",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Bohun",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "9f6cadf34f080fbc5536"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 08:28:43",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Szybki Kriss",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "49bc493bb219270d30fc"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 08:28:43",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Anaris",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "983f01fd0263653f2f51"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 08:28:51",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Arfa",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "4828772199789880089d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 08:28:55",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Kariel",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "0ac6b794e655966c923f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 08:29:02",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Szybki Kriss",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "49bc493bb219270d30fc"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 08:29:14",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Szybki Kriss",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "49bc493bb219270d30fc"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 08:29:15",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Bohun",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "9f6cadf34f080fbc5536"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 08:29:23",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Arfa",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "4828772199789880089d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 08:29:27",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Anaris",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "983f01fd0263653f2f51"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 08:29:29",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Stefan",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 08:29:29",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Kariel",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "0ac6b794e655966c923f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 08:29:37",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Szybki Kriss",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "49bc493bb219270d30fc"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 08:29:57",
+    "Typ": "ItemId 702094",
+    "Nadawca": "Tai",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "147917aa8bf97bc03b15"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 08:30:01",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Arfa",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "4828772199789880089d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 08:30:02",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Kariel",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "0ac6b794e655966c923f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 08:30:08",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Anaris",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "983f01fd0263653f2f51"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 08:30:16",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Szybki Kriss",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "49bc493bb219270d30fc"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 08:30:23",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Stefan",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "0c7a8b2ba309383e1d53"
   }
 ]

@@ -297033,5 +297033,55 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 07:05:13",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Merodir",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "f69ed0075a652c655a5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 07:05:27",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Stefan",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 07:05:42",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "Merodir",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "f69ed0075a652c655a5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 07:06:23",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Merodir",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "f69ed0075a652c655a5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 07:07:09",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "Merodir",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "f69ed0075a652c655a5e"
   }
 ]

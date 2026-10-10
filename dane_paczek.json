@@ -319953,5 +319953,285 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "81c34c9290ef01018d2e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 13:38:41",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "Karolek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "89abaf01d0870e8d1ebf"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 13:38:42",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "StaH",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 13:38:47",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Pumba",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "b445d588a166843e7d6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 13:38:48",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Arashiran",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "ee1fdbf4964c53453785"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 13:39:01",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "Karolek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "89abaf01d0870e8d1ebf"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 13:39:08",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "Karolek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "89abaf01d0870e8d1ebf"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 13:39:09",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Pumba",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "b445d588a166843e7d6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 13:39:17",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Rafi",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "81c34c9290ef01018d2e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 13:39:22",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Arashiran",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "ee1fdbf4964c53453785"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 13:39:28",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Pumba",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "b445d588a166843e7d6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 13:39:30",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "StaH",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 13:39:30",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Megana",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "2db6dd7fcbb9231b69d5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 13:39:32",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Eyrodor",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "8c9c6af60262fb89cd7c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 13:39:33",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Karolek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "89abaf01d0870e8d1ebf"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 13:39:48",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Karolek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "89abaf01d0870e8d1ebf"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 13:39:58",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Arashiran",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "ee1fdbf4964c53453785"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 13:40:10",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "WOJTUS",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "3d476999a1883ef73b71"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 13:40:16",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Rafi",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "81c34c9290ef01018d2e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 13:40:24",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "StaH",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 13:40:28",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Pumba",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "b445d588a166843e7d6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 13:40:35",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Karolek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "89abaf01d0870e8d1ebf"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 13:40:37",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Eyrodor",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "8c9c6af60262fb89cd7c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 13:40:38",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Arashiran",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "ee1fdbf4964c53453785"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 13:40:58",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Rafi",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "81c34c9290ef01018d2e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 13:41:01",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "Karolek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "89abaf01d0870e8d1ebf"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 13:41:01",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "WOJTUS",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "3d476999a1883ef73b71"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 13:41:04",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "EeLL",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "a15b608703c3ba6fe2da"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 13:41:05",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "StaH",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9a2f8ee710525e75bee0"
   }
 ]

@@ -340033,5 +340033,105 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "1b99a5953bedc09b2447"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 19:13:11",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "OIozgurOI",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "16aa9a592af41556bf1b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 19:13:15",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Mieciu",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "5523e42cd1d58a7a7936"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 19:13:22",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "KRISS",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "63747c28b1baf69e3e5d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 19:13:23",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Mariano244",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "1da51b68f42324d68739"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 19:13:27",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "WOJTUS",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "3d476999a1883ef73b71"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 19:13:32",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Moralsa",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "2aa0e06ca13aad2ebb10"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 19:14:26",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Serelka",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "9a5455a401480b9d8137"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 19:14:42",
+    "Typ": "Skrzynia Majów",
+    "Nadawca": "Nerdailas",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "cb920a76b7f747a54aff"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 19:14:42",
+    "Typ": "Skrzynia Orków",
+    "Nadawca": "Painfont",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 19:15:31",
+    "Typ": "Elegancka Skrzynia",
+    "Nadawca": "Painfont",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "5d911333f80adab41eb8"
   }
 ]

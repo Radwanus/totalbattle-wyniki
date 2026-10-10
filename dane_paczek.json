@@ -325343,5 +325343,105 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 15:30:47",
+    "Typ": "ItemId 702096",
+    "Nadawca": "THE VLD",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "22beab11a17cbf661eca"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 15:31:00",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Serelka",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9a5455a401480b9d8137"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 15:31:17",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Serafino",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "25fd16f36bf014d81ed7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 15:31:21",
+    "Typ": "ItemId 702096",
+    "Nadawca": "THE VLD",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "22beab11a17cbf661eca"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 15:31:55",
+    "Typ": "ItemId 702096",
+    "Nadawca": "THE VLD",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "22beab11a17cbf661eca"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 15:31:59",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "OIozgurOI",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "16aa9a592af41556bf1b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 15:32:10",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "Serelka",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9a5455a401480b9d8137"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 15:32:20",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Serafino",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "25fd16f36bf014d81ed7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 15:32:25",
+    "Typ": "ItemId 702096",
+    "Nadawca": "THE VLD",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "22beab11a17cbf661eca"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 15:33:08",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "OIozgurOI",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "16aa9a592af41556bf1b"
   }
 ]

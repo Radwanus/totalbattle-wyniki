@@ -313313,5 +313313,105 @@
     "Punkty": "100",
     "Count": "1",
     "PlayerKey": "cb920a76b7f747a54aff"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 11:32:52",
+    "Typ": "ItemId 702095",
+    "Nadawca": "π BOYKA π",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "5bab5ed0df474c2132b0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 11:32:57",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "ALEX 82",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 11:33:19",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Nerdailas",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "cb920a76b7f747a54aff"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 11:33:28",
+    "Typ": "ItemId 702095",
+    "Nadawca": "π BOYKA π",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "5bab5ed0df474c2132b0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 11:33:33",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "ALEX 82",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 11:34:05",
+    "Typ": "ItemId 702096",
+    "Nadawca": "DjKro",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 11:34:15",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "ALEX 82",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 11:34:30",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "Rili",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "24d65d586acbdf6f930e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 11:34:50",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "ALEX 82",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 11:34:55",
+    "Typ": "ItemId 702096",
+    "Nadawca": "DjKro",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
   }
 ]

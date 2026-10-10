@@ -354443,5 +354443,55 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "24738c8bece50b3182c0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-11 00:01:33",
+    "Typ": "Zwykła Skrzynia Bogactwa",
+    "Nadawca": "Becia",
+    "Źródło": "Bogactwo klanu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "24738c8bece50b3182c0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-11 00:01:33",
+    "Typ": "Niestandardowa Skrzynia Bogactwa",
+    "Nadawca": "Becia",
+    "Źródło": "Bogactwo klanu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "24738c8bece50b3182c0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-11 00:01:33",
+    "Typ": "Rzadka Skrzynia Bogactwa",
+    "Nadawca": "Becia",
+    "Źródło": "Bogactwo klanu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "24738c8bece50b3182c0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-11 00:01:33",
+    "Typ": "Epicka Skrzynia Bogactwa",
+    "Nadawca": "Becia",
+    "Źródło": "Bogactwo klanu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "24738c8bece50b3182c0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-11 00:01:33",
+    "Typ": "Legendarna Skrzynia Bogactwa",
+    "Nadawca": "Becia",
+    "Źródło": "Bogactwo klanu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "24738c8bece50b3182c0"
   }
 ]

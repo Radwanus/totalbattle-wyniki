@@ -324693,5 +324693,45 @@
     "Punkty": "0",
     "Count": "2",
     "PlayerKey": "1da739de3268c2024714"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 15:02:02",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "BJÖRN IRONSIDE",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "b3911dcb98f8b78db978"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 15:02:12",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Serafino",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "25fd16f36bf014d81ed7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 15:02:46",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Doctor Sleep",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "1da739de3268c2024714"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 15:03:11",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Eyrodor",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "8c9c6af60262fb89cd7c"
   }
 ]

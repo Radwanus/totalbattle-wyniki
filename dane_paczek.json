@@ -297773,5 +297773,75 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "1de4143c427ea9bf54fd"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 07:31:54",
+    "Typ": "ItemId 702096",
+    "Nadawca": "abrej22",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "a851d5c740ddb224897c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 07:31:59",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Hichem 25",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "1de4143c427ea9bf54fd"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 07:32:37",
+    "Typ": "ItemId 702096",
+    "Nadawca": "abrej22",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "a851d5c740ddb224897c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 07:32:56",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Hichem 25",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "1de4143c427ea9bf54fd"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 07:33:18",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "PUREC",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "aaed1d7d5f289df49f4e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 07:33:20",
+    "Typ": "ItemId 702096",
+    "Nadawca": "abrej22",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "a851d5c740ddb224897c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 07:33:36",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Hichem 25",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "1de4143c427ea9bf54fd"
   }
 ]

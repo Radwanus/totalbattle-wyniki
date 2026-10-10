@@ -322093,5 +322093,185 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 14:01:18",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Rafi",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "81c34c9290ef01018d2e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 14:01:18",
+    "Typ": "ItemId 702096",
+    "Nadawca": "VULCAN",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "04b37110e9b45cb6b4e3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 14:01:29",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Mager",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "e363aa37cf47e1f42c58"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 14:01:43",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "Anaris",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "983f01fd0263653f2f51"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 14:01:49",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "Karolek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "89abaf01d0870e8d1ebf"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 14:01:55",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Rafi",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "81c34c9290ef01018d2e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 14:02:02",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "StaH",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 14:02:06",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Karolek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "89abaf01d0870e8d1ebf"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 14:02:24",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "Anaris",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "983f01fd0263653f2f51"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 14:02:36",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Karolek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "89abaf01d0870e8d1ebf"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 14:02:39",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Rafi",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "81c34c9290ef01018d2e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 14:02:51",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "StaH",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 14:03:03",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "Anaris",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "983f01fd0263653f2f51"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 14:03:19",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Pumba",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "b445d588a166843e7d6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 14:03:23",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Rafi",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "81c34c9290ef01018d2e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 14:03:37",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "Anaris",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "983f01fd0263653f2f51"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 14:03:38",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "StaH",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 14:03:40",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Barkley",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "b6b1e0e854aa8a649f3c"
   }
 ]

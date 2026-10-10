@@ -354593,5 +354593,45 @@
     "Punkty": "0",
     "Count": "2",
     "PlayerKey": "16aa9a592af41556bf1b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-11 00:49:40",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "OIozgurOI",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "16aa9a592af41556bf1b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-11 00:50:15",
+    "Typ": "Skrzynia Majów",
+    "Nadawca": "Kariel",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "0ac6b794e655966c923f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-11 00:50:50",
+    "Typ": "Skrzynia Kobry",
+    "Nadawca": "Kariel",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "0ac6b794e655966c923f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-11 00:51:28",
+    "Typ": "Kamienna Skrzynia",
+    "Nadawca": "Kariel",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "0ac6b794e655966c923f"
   }
 ]

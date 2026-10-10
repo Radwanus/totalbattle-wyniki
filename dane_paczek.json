@@ -306563,5 +306563,75 @@
     "Punkty": "0",
     "Count": "3",
     "PlayerKey": "46c96dda81f5b20d7ed9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 09:47:23",
+    "Typ": "ItemId 702096",
+    "Nadawca": "WOJTUS",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3d476999a1883ef73b71"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 09:47:25",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Melania",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 09:47:32",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "iRfan",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "e5bc7939193cf10888b3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 09:48:05",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Rili",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "24d65d586acbdf6f930e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 09:48:05",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Melania",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 09:48:50",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Melania",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 09:48:54",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "iRfan",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "e5bc7939193cf10888b3"
   }
 ]

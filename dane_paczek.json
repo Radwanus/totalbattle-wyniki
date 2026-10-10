@@ -306263,5 +306263,75 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "ef961d78fad6c266872a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 09:37:27",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Olginad",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "ef961d78fad6c266872a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 09:37:31",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Evlin",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "0e032a736308995a4fd1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 09:37:41",
+    "Typ": "ItemId 702092",
+    "Nadawca": "Tai",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "147917aa8bf97bc03b15"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 09:37:43",
+    "Typ": "ItemId 702096",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 09:37:55",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "iRfan",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "e5bc7939193cf10888b3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 09:37:55",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Olginad",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "ef961d78fad6c266872a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 09:38:44",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "iRfan",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "e5bc7939193cf10888b3"
   }
 ]

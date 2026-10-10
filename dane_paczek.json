@@ -352853,5 +352853,135 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "1a9d6ebecbef2b288a62"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 23:15:55",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "MnA",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fb1c981a98da28792d33"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 23:15:56",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Fofur",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "b9183084a6fabd5c96f9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 23:15:59",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Oregon",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "ba45562d23421d65eb5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 23:16:31",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Oregon",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "ba45562d23421d65eb5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 23:16:36",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Fofur",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "b9183084a6fabd5c96f9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 23:16:36",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "F",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "dac0063c8b110482320a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 23:16:38",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "MnA",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fb1c981a98da28792d33"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 23:17:21",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Ildanen",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "865e1ddb9398b80fcfee"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 23:17:27",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Little G",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "46c96dda81f5b20d7ed9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 23:17:49",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Oregon",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "ba45562d23421d65eb5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 23:17:50",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "MnA",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fb1c981a98da28792d33"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 23:18:08",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Morfii",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "641a95ee97d6ecedcdf9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-10 23:18:17",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Martini",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "1a9d6ebecbef2b288a62"
   }
 ]

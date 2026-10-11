@@ -16318,5 +16318,55 @@
     "Punkty": "100",
     "Count": "1",
     "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-12 01:41:50",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-12 01:42:08",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-12 01:42:22",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-12 01:42:58",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-12 01:43:16",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
   }
 ]

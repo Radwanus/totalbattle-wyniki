@@ -15688,5 +15688,75 @@
     "Punkty": "100",
     "Count": "1",
     "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-12 01:19:40",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-12 01:19:58",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-12 01:20:18",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-12 01:20:34",
+    "Typ": "Skrzynia Wymiany Klanowej",
+    "Nadawca": "Maximus",
+    "Źródło": "Wymiana klanowa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "98b649a6214069ae7c3f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-12 01:20:37",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-12 01:20:51",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-12 01:21:05",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "f11e94ab451a8ee02fae"
   }
 ]

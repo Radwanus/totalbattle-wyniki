@@ -356063,5 +356063,25 @@
     "Punkty": "80",
     "Count": "1",
     "PlayerKey": "865e1ddb9398b80fcfee"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-11 02:48:39",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Ildanen",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "865e1ddb9398b80fcfee"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-11 02:50:51",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Ildanen",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "865e1ddb9398b80fcfee"
   }
 ]

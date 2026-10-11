@@ -13958,5 +13958,65 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "24738c8bece50b3182c0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-12 00:06:10",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "ALEX 82",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-12 00:06:13",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Becia",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "24738c8bece50b3182c0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-12 00:06:49",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Becia",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "24738c8bece50b3182c0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-12 00:06:54",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "ALEX 82",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-12 00:07:25",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "Becia",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "24738c8bece50b3182c0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-12 00:07:33",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "ALEX 82",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8210d0e3cc68669c5208"
   }
 ]

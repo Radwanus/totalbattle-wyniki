@@ -14788,5 +14788,35 @@
     "Punkty": "80",
     "Count": "1",
     "PlayerKey": "dac0063c8b110482320a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-12 00:40:05",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Mavedi",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "9be9aa0125abb7655b24"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-12 00:40:44",
+    "Typ": "Skrzynia z Twierdzy Elfów",
+    "Nadawca": "F",
+    "Źródło": "Twierdza 30 poziomu",
+    "Punkty": "80",
+    "Count": "1",
+    "PlayerKey": "dac0063c8b110482320a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-12 00:41:16",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Mavedi",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "9be9aa0125abb7655b24"
   }
 ]

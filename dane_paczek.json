@@ -355833,5 +355833,35 @@
     "Punkty": "0",
     "Count": "3",
     "PlayerKey": "865e1ddb9398b80fcfee"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-11 02:20:48",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "SANTY",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "b889bd01e4d23a3cdd70"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-11 02:20:58",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Ildanen",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "865e1ddb9398b80fcfee"
+  },
+  {
+    "Okres rozliczeniowy": "2026 04.10 - 11.10",
+    "Data": "2026-10-11 02:22:02",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Ildanen",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "865e1ddb9398b80fcfee"
   }
 ]

@@ -19728,5 +19728,35 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "24738c8bece50b3182c0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-12 04:11:16",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "T U F U R",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "5fe3b9e073708fe54f86"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-12 04:11:52",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "T U F U R",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "5fe3b9e073708fe54f86"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-12 04:12:38",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "T U F U R",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "5fe3b9e073708fe54f86"
   }
 ]

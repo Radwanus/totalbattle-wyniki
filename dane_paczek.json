@@ -16788,5 +16788,25 @@
     "Punkty": "90",
     "Count": "1",
     "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-12 02:12:35",
+    "Typ": "Skrzynia Wymiany Klanowej",
+    "Nadawca": "Melania",
+    "Źródło": "Wymiana klanowa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-12 02:12:54",
+    "Typ": "Skrzynia z Twierdzy Elfów",
+    "Nadawca": "Jarek",
+    "Źródło": "Twierdza 10 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
   }
 ]

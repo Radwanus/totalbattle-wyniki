@@ -80228,5 +80228,125 @@
     "Punkty": "0",
     "Count": "3",
     "PlayerKey": "0e032a736308995a4fd1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-12 21:30:50",
+    "Typ": "Skrzynia Jormunganda",
+    "Nadawca": "Becia",
+    "Źródło": "Epicki oddział jormungandów",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "24738c8bece50b3182c0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-12 21:30:50",
+    "Typ": "Skrzynia Jormunganda",
+    "Nadawca": "Evlin",
+    "Źródło": "Epicki oddział jormungandów",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "0e032a736308995a4fd1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-12 21:30:50",
+    "Typ": "Skrzynia Jormunganda",
+    "Nadawca": "OSA",
+    "Źródło": "Epicki oddział jormungandów",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "6f9006dd095735ea99a9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-12 21:31:00",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Mejas the Monkey",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "48af37bd7c846c16d698"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-12 21:31:18",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "ヤGANGSTERヤ",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "91e9806adb5b128d07e7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-12 21:31:50",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Mejas the Monkey",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "5",
+    "PlayerKey": "48af37bd7c846c16d698"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-12 21:32:17",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Barkley",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "6",
+    "PlayerKey": "b6b1e0e854aa8a649f3c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-12 21:32:22",
+    "Typ": "Skrzynia Jormunganda",
+    "Nadawca": "Merodir",
+    "Źródło": "Epicki oddział jormungandów",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "f69ed0075a652c655a5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-12 21:32:22",
+    "Typ": "Skrzynia Jormunganda",
+    "Nadawca": "Nerdailas",
+    "Źródło": "Epicki oddział jormungandów",
+    "Punkty": "0",
+    "Count": "6",
+    "PlayerKey": "cb920a76b7f747a54aff"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-12 21:32:22",
+    "Typ": "Skrzynia Jormunganda",
+    "Nadawca": "Morfii",
+    "Źródło": "Epicki oddział jormungandów",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "641a95ee97d6ecedcdf9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-12 21:32:22",
+    "Typ": "Skrzynia Jormunganda",
+    "Nadawca": "Konserwiusz",
+    "Źródło": "Epicki oddział jormungandów",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "21c8940b5d1d200fb005"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-12 21:32:27",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Domino",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "5",
+    "PlayerKey": "a4d9cc04ceaa47510b5e"
   }
 ]

@@ -19068,5 +19068,75 @@
     "Punkty": "100",
     "Count": "1",
     "PlayerKey": "5fe3b9e073708fe54f86"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-12 03:52:25",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Zarina",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "821531d29e661d88ca32"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-12 03:53:00",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "T U F U R",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "5fe3b9e073708fe54f86"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-12 03:53:04",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Zarina",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "821531d29e661d88ca32"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-12 03:53:08",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "T U F U R",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "5fe3b9e073708fe54f86"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-12 03:53:31",
+    "Typ": "Skrzynia z Twierdzy Elfów",
+    "Nadawca": "Arrinel",
+    "Źródło": "Twierdza 25 poziomu",
+    "Punkty": "20",
+    "Count": "1",
+    "PlayerKey": "0bd9c3ae8c7a8fed4dbe"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-12 03:53:40",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Zarina",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "821531d29e661d88ca32"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-12 03:53:53",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "T U F U R",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "5fe3b9e073708fe54f86"
   }
 ]

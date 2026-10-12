@@ -19758,5 +19758,15 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "5fe3b9e073708fe54f86"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-12 04:13:26",
+    "Typ": "Skrzynia Wymiany Klanowej",
+    "Nadawca": "Mejas the Monkey",
+    "Źródło": "Wymiana klanowa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "48af37bd7c846c16d698"
   }
 ]

@@ -113538,5 +113538,25 @@
     "Punkty": "0",
     "Count": "4",
     "PlayerKey": "0dc31a9c73dcd599c691"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 10:36:20",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Eyrodor",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "8c9c6af60262fb89cd7c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 10:37:01",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Arfa",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "4828772199789880089d"
   }
 ]

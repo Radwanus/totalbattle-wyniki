@@ -116788,5 +116788,75 @@
     "Punkty": "0",
     "Count": "3",
     "PlayerKey": "448ab8ed04708bcb3345"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 12:08:50",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "ヤGANGSTERヤ",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "91e9806adb5b128d07e7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 12:09:12",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Arfa",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "4828772199789880089d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 12:09:50",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Mustafa cimbombom",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "448ab8ed04708bcb3345"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 12:10:01",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Arfa",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "4828772199789880089d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 12:10:08",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "ヤGANGSTERヤ",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "91e9806adb5b128d07e7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 12:10:10",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Rafi",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "81c34c9290ef01018d2e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 12:10:17",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Mustafa cimbombom",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "448ab8ed04708bcb3345"
   }
 ]

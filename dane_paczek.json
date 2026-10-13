@@ -121058,5 +121058,55 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "8abe34bcf47b72c7f5f0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 14:03:56",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Hichem 25",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "1de4143c427ea9bf54fd"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 14:03:56",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "V I R U S",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8abe34bcf47b72c7f5f0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 14:04:47",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "YUSUF",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "6b2f01f15a27ca48ece5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 14:04:54",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "V I R U S",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8abe34bcf47b72c7f5f0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 14:05:31",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "YUSUF",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "6b2f01f15a27ca48ece5"
   }
 ]

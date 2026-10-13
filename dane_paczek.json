@@ -109258,5 +109258,85 @@
     "Punkty": "0",
     "Count": "5",
     "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 09:28:30",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Eyrodor",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "7",
+    "PlayerKey": "8c9c6af60262fb89cd7c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 09:28:35",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Arrinel",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "0bd9c3ae8c7a8fed4dbe"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 09:28:41",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "F",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "6",
+    "PlayerKey": "dac0063c8b110482320a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 09:29:55",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Centri",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "3a22feceb9cf2de7eca8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 09:29:57",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "ヤGANGSTERヤ",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "91e9806adb5b128d07e7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 09:29:57",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Centri",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "3a22feceb9cf2de7eca8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 09:30:25",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Centri",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "3a22feceb9cf2de7eca8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 09:30:46",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Centri",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "3a22feceb9cf2de7eca8"
   }
 ]

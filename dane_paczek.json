@@ -104938,5 +104938,95 @@
     "Punkty": "4",
     "Count": "1",
     "PlayerKey": "a851d5c740ddb224897c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 07:05:15",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Konserwiusz",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "21c8940b5d1d200fb005"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 07:05:15",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Rain",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "17513ddcb0f4db94a0f6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 07:05:16",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "GinoPL",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "1f5e6cd41b556c281825"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 07:05:43",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "abrej22",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "a851d5c740ddb224897c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 07:05:51",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Rain",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "17513ddcb0f4db94a0f6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 07:06:25",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Rain",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "17513ddcb0f4db94a0f6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 07:06:30",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "GinoPL",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "1f5e6cd41b556c281825"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 07:06:48",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "abrej22",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "a851d5c740ddb224897c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 07:07:03",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Rain",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "17513ddcb0f4db94a0f6"
   }
 ]

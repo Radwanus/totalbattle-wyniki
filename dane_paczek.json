@@ -105608,5 +105608,55 @@
     "Punkty": "0",
     "Count": "3",
     "PlayerKey": "17513ddcb0f4db94a0f6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 07:34:28",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Tojak",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "805f3f04e34bedb658f4"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 07:34:28",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Konserwiusz",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "21c8940b5d1d200fb005"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 07:35:15",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Rain",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "17513ddcb0f4db94a0f6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 07:35:36",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Tojak",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "805f3f04e34bedb658f4"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 07:35:36",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Mejas the Monkey",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "6",
+    "PlayerKey": "48af37bd7c846c16d698"
   }
 ]

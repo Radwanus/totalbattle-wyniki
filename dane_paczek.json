@@ -113478,5 +113478,35 @@
     "Punkty": "0",
     "Count": "5",
     "PlayerKey": "0dc31a9c73dcd599c691"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 10:32:11",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Eyrodor",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "8c9c6af60262fb89cd7c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 10:32:14",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "ヤGANGSTERヤ",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "91e9806adb5b128d07e7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 10:33:14",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Eyrodor",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "8c9c6af60262fb89cd7c"
   }
 ]

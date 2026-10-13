@@ -114888,5 +114888,35 @@
     "Punkty": "90",
     "Count": "1",
     "PlayerKey": "0dc31a9c73dcd599c691"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 11:37:39",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "LakiLu",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "0dc31a9c73dcd599c691"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 11:38:21",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Anaris",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "983f01fd0263653f2f51"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 11:38:48",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "LakiLu",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "0dc31a9c73dcd599c691"
   }
 ]

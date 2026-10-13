@@ -117588,5 +117588,95 @@
     "Punkty": "0",
     "Count": "3",
     "PlayerKey": "3d476999a1883ef73b71"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 12:35:27",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Hichem 25",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "1de4143c427ea9bf54fd"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 12:36:05",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Konserwiusz",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "21c8940b5d1d200fb005"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 12:36:05",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "WOJTUS",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "3d476999a1883ef73b71"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 12:36:13",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "CHRISTOV",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "dab55c4208248ce1ef48"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 12:36:53",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "WOJTUS",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "3d476999a1883ef73b71"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 12:37:07",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "F",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "dac0063c8b110482320a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 12:37:14",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Hichem 25",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "1de4143c427ea9bf54fd"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 12:37:19",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Olginad",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "5",
+    "PlayerKey": "ef961d78fad6c266872a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 12:37:22",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "F",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "dac0063c8b110482320a"
   }
 ]

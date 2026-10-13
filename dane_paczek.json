@@ -118028,5 +118028,95 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "8abe34bcf47b72c7f5f0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 12:53:56",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Arfa",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "4828772199789880089d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 12:54:17",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "V I R U S",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8abe34bcf47b72c7f5f0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 12:54:30",
+    "Typ": "Skrzynia z Twierdzy Elfów",
+    "Nadawca": "F",
+    "Źródło": "Twierdza 30 poziomu",
+    "Punkty": "80",
+    "Count": "1",
+    "PlayerKey": "dac0063c8b110482320a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 12:54:34",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "CHRISTOV",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "dab55c4208248ce1ef48"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 12:54:51",
+    "Typ": "Skrzynia z Twierdzy Elfów",
+    "Nadawca": "F",
+    "Źródło": "Twierdza 30 poziomu",
+    "Punkty": "80",
+    "Count": "1",
+    "PlayerKey": "dac0063c8b110482320a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 12:54:59",
+    "Typ": "Skrzynia z Twierdzy Elfów",
+    "Nadawca": "F",
+    "Źródło": "Twierdza 30 poziomu",
+    "Punkty": "80",
+    "Count": "1",
+    "PlayerKey": "dac0063c8b110482320a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 12:55:07",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "V I R U S",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8abe34bcf47b72c7f5f0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 12:55:29",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Megana",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "2db6dd7fcbb9231b69d5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 12:55:31",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Arfa",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "4828772199789880089d"
   }
 ]

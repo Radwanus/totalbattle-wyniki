@@ -108708,5 +108708,65 @@
     "Punkty": "0",
     "Count": "6",
     "PlayerKey": "25fd16f36bf014d81ed7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 09:04:09",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Eyrodor",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "5",
+    "PlayerKey": "8c9c6af60262fb89cd7c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 09:04:19",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Doctor Sleep",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "1da739de3268c2024714"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 09:05:28",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Eyrodor",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "5",
+    "PlayerKey": "8c9c6af60262fb89cd7c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 09:05:31",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Maki II Degustator",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "5",
+    "PlayerKey": "fe888b930a0bdbccadf5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 09:05:44",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Mager",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "e363aa37cf47e1f42c58"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 09:05:46",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Doctor Sleep",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "1da739de3268c2024714"
   }
 ]

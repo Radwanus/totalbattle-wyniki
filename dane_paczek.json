@@ -114048,5 +114048,35 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "91e9806adb5b128d07e7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 10:50:02",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "LakiLu",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "0dc31a9c73dcd599c691"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 10:50:26",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "ヤGANGSTERヤ",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "91e9806adb5b128d07e7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 10:50:32",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "OIozgurOI",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "16aa9a592af41556bf1b"
   }
 ]

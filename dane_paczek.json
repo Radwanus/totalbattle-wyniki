@@ -112868,5 +112868,115 @@
     "Punkty": "0",
     "Count": "5",
     "PlayerKey": "dac0063c8b110482320a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 10:18:30",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Melania",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 10:18:39",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "7",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 10:18:39",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "V I R U S",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8abe34bcf47b72c7f5f0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 10:18:47",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Coris",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "6",
+    "PlayerKey": "ee7ce793739e3d387b2a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 10:18:52",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Eyrodor",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "8c9c6af60262fb89cd7c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 10:19:22",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "V I R U S",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8abe34bcf47b72c7f5f0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 10:19:45",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "ヤGANGSTERヤ",
+    "Źródło": "Epicka krypta 25 poziomu",
+    "Punkty": "40",
+    "Count": "1",
+    "PlayerKey": "91e9806adb5b128d07e7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 10:20:01",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "V I R U S",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8abe34bcf47b72c7f5f0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 10:20:32",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "V I R U S",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8abe34bcf47b72c7f5f0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 10:20:38",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "OIozgurOI",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "16aa9a592af41556bf1b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 10:20:38",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Naru",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "c19b743b1d635c8c7300"
   }
 ]

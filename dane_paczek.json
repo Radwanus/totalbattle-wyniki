@@ -123398,5 +123398,85 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "8abe34bcf47b72c7f5f0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 15:06:25",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 15:06:34",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "V I R U S",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8abe34bcf47b72c7f5f0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 15:06:53",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Anaris",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "983f01fd0263653f2f51"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 15:07:11",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "V I R U S",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8abe34bcf47b72c7f5f0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 15:07:12",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Barkley",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "6",
+    "PlayerKey": "b6b1e0e854aa8a649f3c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 15:07:23",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Lady DAIRA",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "1b99a5953bedc09b2447"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 15:07:46",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "V I R U S",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8abe34bcf47b72c7f5f0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 15:07:59",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Barkley",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "5",
+    "PlayerKey": "b6b1e0e854aa8a649f3c"
   }
 ]

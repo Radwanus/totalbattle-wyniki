@@ -132628,5 +132628,95 @@
     "Punkty": "0",
     "Count": "4",
     "PlayerKey": "5523e42cd1d58a7a7936"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 19:31:00",
+    "Typ": "Drewniana Skrzynia Zapasów",
+    "Nadawca": "Doctor Sleep",
+    "Źródło": "Zapasy klanowe",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "1da739de3268c2024714"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 19:31:01",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Megana",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "2db6dd7fcbb9231b69d5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 19:31:46",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "Megana",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "2db6dd7fcbb9231b69d5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 19:32:27",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Arashiran",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "ee1fdbf4964c53453785"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 19:32:27",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Megana",
+    "Źródło": "Rzadka krypta 25 poziomu",
+    "Punkty": "30",
+    "Count": "1",
+    "PlayerKey": "2db6dd7fcbb9231b69d5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 19:32:30",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "StaH",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 19:32:40",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Maximus",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "98b649a6214069ae7c3f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 19:33:00",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "Megana",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "2db6dd7fcbb9231b69d5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 19:33:01",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Arashiran",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "ee1fdbf4964c53453785"
   }
 ]

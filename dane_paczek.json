@@ -121578,5 +121578,65 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "8abe34bcf47b72c7f5f0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 14:20:45",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "V I R U S",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8abe34bcf47b72c7f5f0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 14:20:54",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Konserwiusz",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "21c8940b5d1d200fb005"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 14:21:22",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "V I R U S",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8abe34bcf47b72c7f5f0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 14:21:24",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Tojak",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "805f3f04e34bedb658f4"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 14:21:39",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Konserwiusz",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "21c8940b5d1d200fb005"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 14:21:50",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "V I R U S",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8abe34bcf47b72c7f5f0"
   }
 ]

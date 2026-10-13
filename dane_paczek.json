@@ -119108,5 +119108,95 @@
     "Punkty": "90",
     "Count": "1",
     "PlayerKey": "21c8940b5d1d200fb005"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 13:16:25",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "V I R U S",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8abe34bcf47b72c7f5f0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 13:16:29",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "Coris",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "ee7ce793739e3d387b2a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 13:16:35",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Little G",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "5",
+    "PlayerKey": "46c96dda81f5b20d7ed9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 13:16:52",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Konserwiusz",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "21c8940b5d1d200fb005"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 13:17:03",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "V I R U S",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8abe34bcf47b72c7f5f0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 13:17:09",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "Coris",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "ee7ce793739e3d387b2a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 13:17:28",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Konserwiusz",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "21c8940b5d1d200fb005"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 13:17:43",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "V I R U S",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8abe34bcf47b72c7f5f0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-13 13:17:48",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Coris",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "ee7ce793739e3d387b2a"
   }
 ]

@@ -198468,5 +198468,85 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "448ab8ed04708bcb3345"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 20:37:04",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Doctor Sleep",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "1da739de3268c2024714"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 20:37:14",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Osingmet",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 20:37:41",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "Rili",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "24d65d586acbdf6f930e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 20:37:53",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "RAFAL PL",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ff001bef965a35cc675a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 20:38:24",
+    "Typ": "Runiczna Skrzynia",
+    "Nadawca": "MnA",
+    "Źródło": "Runiczny oddział napaści 45 poz.",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "fb1c981a98da28792d33"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 20:38:25",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "Rili",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "24d65d586acbdf6f930e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 20:38:27",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "Domino",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "a4d9cc04ceaa47510b5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 20:38:40",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Doctor Sleep",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "1da739de3268c2024714"
   }
 ]

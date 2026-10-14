@@ -204548,5 +204548,235 @@
     "Punkty": "0",
     "Count": "2",
     "PlayerKey": "48af37bd7c846c16d698"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 22:32:30",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Doctor Sleep",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "1da739de3268c2024714"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 22:32:31",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Nerdailas",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "cb920a76b7f747a54aff"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 22:32:33",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Megana",
+    "Źródło": "Rzadka krypta 25 poziomu",
+    "Punkty": "30",
+    "Count": "1",
+    "PlayerKey": "2db6dd7fcbb9231b69d5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 22:32:36",
+    "Typ": "Skrzynia z Twierdzy Elfów",
+    "Nadawca": "Arashiran",
+    "Źródło": "Twierdza 30 poziomu",
+    "Punkty": "80",
+    "Count": "1",
+    "PlayerKey": "ee1fdbf4964c53453785"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 22:32:46",
+    "Typ": "Skrzynia z Twierdzy Elfów",
+    "Nadawca": "Arashiran",
+    "Źródło": "Twierdza 30 poziomu",
+    "Punkty": "80",
+    "Count": "1",
+    "PlayerKey": "ee1fdbf4964c53453785"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 22:32:51",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Doctor Sleep",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "1da739de3268c2024714"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 22:33:00",
+    "Typ": "Skrzynia z Twierdzy Elfów",
+    "Nadawca": "Arashiran",
+    "Źródło": "Twierdza 30 poziomu",
+    "Punkty": "80",
+    "Count": "1",
+    "PlayerKey": "ee1fdbf4964c53453785"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 22:33:02",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Doctor Sleep",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "1da739de3268c2024714"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 22:33:04",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Nerdailas",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "cb920a76b7f747a54aff"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 22:33:22",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Megana",
+    "Źródło": "Rzadka krypta 25 poziomu",
+    "Punkty": "30",
+    "Count": "1",
+    "PlayerKey": "2db6dd7fcbb9231b69d5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 22:33:27",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "EeLL",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "a15b608703c3ba6fe2da"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 22:33:29",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Doctor Sleep",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "1da739de3268c2024714"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 22:33:33",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "EeLL",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "a15b608703c3ba6fe2da"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 22:33:35",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Doctor Sleep",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "1da739de3268c2024714"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 22:33:39",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "Nerdailas",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "cb920a76b7f747a54aff"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 22:33:45",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "Megana",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "2db6dd7fcbb9231b69d5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 22:33:54",
+    "Typ": "Skrzynia z Twierdzy Elfów",
+    "Nadawca": "Arashiran",
+    "Źródło": "Twierdza 30 poziomu",
+    "Punkty": "80",
+    "Count": "1",
+    "PlayerKey": "ee1fdbf4964c53453785"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 22:34:04",
+    "Typ": "Skrzynia z Twierdzy Elfów",
+    "Nadawca": "Arashiran",
+    "Źródło": "Twierdza 30 poziomu",
+    "Punkty": "80",
+    "Count": "1",
+    "PlayerKey": "ee1fdbf4964c53453785"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 22:34:05",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Doctor Sleep",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "1da739de3268c2024714"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 22:34:06",
+    "Typ": "Runiczna Skrzynia",
+    "Nadawca": "WARIAT",
+    "Źródło": "Runiczny oddział napaści 45 poz.",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 22:34:15",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Doctor Sleep",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "1da739de3268c2024714"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 22:34:25",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "Nerdailas",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "cb920a76b7f747a54aff"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 22:34:35",
+    "Typ": "Skrzynia z Twierdzy Elfów",
+    "Nadawca": "Arashiran",
+    "Źródło": "Twierdza 30 poziomu",
+    "Punkty": "80",
+    "Count": "1",
+    "PlayerKey": "ee1fdbf4964c53453785"
   }
 ]

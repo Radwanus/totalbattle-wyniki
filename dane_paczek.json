@@ -209378,5 +209378,85 @@
     "Punkty": "100",
     "Count": "1",
     "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 23:47:22",
+    "Typ": "Skrzynia z Twierdzy Elfów",
+    "Nadawca": "Arashiran",
+    "Źródło": "Twierdza 30 poziomu",
+    "Punkty": "80",
+    "Count": "1",
+    "PlayerKey": "ee1fdbf4964c53453785"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 23:47:25",
+    "Typ": "Skrzynia z Twierdzy Elfów",
+    "Nadawca": "Arashiran",
+    "Źródło": "Twierdza 30 poziomu",
+    "Punkty": "80",
+    "Count": "1",
+    "PlayerKey": "ee1fdbf4964c53453785"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 23:48:02",
+    "Typ": "Skrzynia Kobry",
+    "Nadawca": "Sturm Brightblade",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "4b92faa8f98e7b3ad6fb"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 23:48:09",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "PUREC",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "aaed1d7d5f289df49f4e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 23:48:31",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "T U F U R",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "5fe3b9e073708fe54f86"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 23:48:33",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "King of YEMEN",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "6d7f0562a0ccae85ce6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 23:48:45",
+    "Typ": "Piaskowa Skrzynia",
+    "Nadawca": "Sturm Brightblade",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "4b92faa8f98e7b3ad6fb"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 23:49:20",
+    "Typ": "Elegancka Skrzynia",
+    "Nadawca": "Sturm Brightblade",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "4b92faa8f98e7b3ad6fb"
   }
 ]

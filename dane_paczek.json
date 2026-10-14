@@ -206778,5 +206778,95 @@
     "Punkty": "0",
     "Count": "2",
     "PlayerKey": "5fe3b9e073708fe54f86"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 23:01:38",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Bohun",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "9f6cadf34f080fbc5536"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 23:01:46",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Bohun",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "9f6cadf34f080fbc5536"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 23:01:57",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Pumba",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "b445d588a166843e7d6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 23:02:46",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Pumba",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "b445d588a166843e7d6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 23:03:00",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Bohun",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "9f6cadf34f080fbc5536"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 23:03:10",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Pumba",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "b445d588a166843e7d6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 23:03:11",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Painfont",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 23:03:30",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Mejas the Monkey",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "48af37bd7c846c16d698"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 23:03:32",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "Oregon",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ba45562d23421d65eb5e"
   }
 ]

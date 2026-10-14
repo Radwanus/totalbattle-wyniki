@@ -209458,5 +209458,55 @@
     "Punkty": "4",
     "Count": "1",
     "PlayerKey": "4b92faa8f98e7b3ad6fb"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 23:50:13",
+    "Typ": "Elegancka Skrzynia",
+    "Nadawca": "Sturm Brightblade",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "4b92faa8f98e7b3ad6fb"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 23:51:16",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Sturm Brightblade",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "4b92faa8f98e7b3ad6fb"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 23:51:42",
+    "Typ": "Skrzynia z Twierdzy Elfów",
+    "Nadawca": "Arashiran",
+    "Źródło": "Twierdza 30 poziomu",
+    "Punkty": "80",
+    "Count": "1",
+    "PlayerKey": "ee1fdbf4964c53453785"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 23:51:58",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Sturm Brightblade",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "4b92faa8f98e7b3ad6fb"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 23:51:59",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "T U F U R",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "5fe3b9e073708fe54f86"
   }
 ]

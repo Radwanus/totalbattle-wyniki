@@ -201878,5 +201878,65 @@
     "Punkty": "90",
     "Count": "1",
     "PlayerKey": "1da739de3268c2024714"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 21:44:50",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Doctor Sleep",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "1da739de3268c2024714"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 21:45:05",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Doctor Sleep",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "1da739de3268c2024714"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 21:45:19",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Bohun",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "9f6cadf34f080fbc5536"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 21:45:19",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Doctor Sleep",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "1da739de3268c2024714"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 21:45:53",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "OSA",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "6f9006dd095735ea99a9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 21:46:21",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Bohun",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "9f6cadf34f080fbc5536"
   }
 ]

@@ -200888,5 +200888,45 @@
     "Punkty": "90",
     "Count": "1",
     "PlayerKey": "1da739de3268c2024714"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 21:26:27",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "King of YEMEN",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "6d7f0562a0ccae85ce6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 21:26:28",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "MnA",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "fb1c981a98da28792d33"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 21:26:58",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "Domino",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "a4d9cc04ceaa47510b5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 21:27:03",
+    "Typ": "Runiczna Skrzynia",
+    "Nadawca": "Painfont",
+    "Źródło": "Runiczny oddział napaści 45 poz.",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "5d911333f80adab41eb8"
   }
 ]

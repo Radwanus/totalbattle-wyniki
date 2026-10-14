@@ -200758,5 +200758,135 @@
     "Punkty": "90",
     "Count": "1",
     "PlayerKey": "1da739de3268c2024714"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 21:23:24",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Doctor Sleep",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "1da739de3268c2024714"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 21:23:48",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Doctor Sleep",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "1da739de3268c2024714"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 21:23:59",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Doctor Sleep",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "1da739de3268c2024714"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 21:24:04",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "MnA",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "fb1c981a98da28792d33"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 21:24:13",
+    "Typ": "Runiczna Skrzynia",
+    "Nadawca": "Painfont",
+    "Źródło": "Runiczny oddział napaści 45 poz.",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 21:24:27",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Domino",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "a4d9cc04ceaa47510b5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 21:24:28",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Doctor Sleep",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "1da739de3268c2024714"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 21:24:37",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Serelka",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "9a5455a401480b9d8137"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 21:24:38",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Doctor Sleep",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "1da739de3268c2024714"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 21:24:38",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "MnA",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "fb1c981a98da28792d33"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 21:25:03",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Doctor Sleep",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "1da739de3268c2024714"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 21:25:20",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Domino",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "a4d9cc04ceaa47510b5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-14 21:25:21",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Doctor Sleep",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "1da739de3268c2024714"
   }
 ]

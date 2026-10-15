@@ -218888,5 +218888,135 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "0ac6b794e655966c923f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 07:46:52",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "Maki II Degustator",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fe888b930a0bdbccadf5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 07:46:58",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "Kariel",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "0ac6b794e655966c923f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 07:47:00",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "Maki II Degustator",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fe888b930a0bdbccadf5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 07:47:19",
+    "Typ": "Skrzynia z Twierdzy Elfów",
+    "Nadawca": "Kariel",
+    "Źródło": "Twierdza 30 poziomu",
+    "Punkty": "80",
+    "Count": "1",
+    "PlayerKey": "0ac6b794e655966c923f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 07:47:32",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Kariel",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "0ac6b794e655966c923f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 07:47:33",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "THE VLD",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "22beab11a17cbf661eca"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 07:48:04",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Kariel",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "0ac6b794e655966c923f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 07:48:06",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "iRfan",
+    "Źródło": "Krypta 20 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "e5bc7939193cf10888b3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 07:48:08",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Mejas the Monkey",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "48af37bd7c846c16d698"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 07:48:10",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "THE VLD",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "22beab11a17cbf661eca"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 07:48:21",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "iRfan",
+    "Źródło": "Krypta 20 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "e5bc7939193cf10888b3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 07:48:38",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Kariel",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "0ac6b794e655966c923f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 07:48:57",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "F",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "dac0063c8b110482320a"
   }
 ]

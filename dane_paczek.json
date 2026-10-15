@@ -242888,5 +242888,35 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "3d476999a1883ef73b71"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 16:30:17",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "abrej22",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "a851d5c740ddb224897c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 16:30:39",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "WOJTUS",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "3d476999a1883ef73b71"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 16:31:01",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "WOJTUS",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "3d476999a1883ef73b71"
   }
 ]

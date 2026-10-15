@@ -267388,5 +267388,25 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "2db6dd7fcbb9231b69d5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-16 01:49:40",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Truthbourne",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "475bff774491f99e531e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-16 01:49:46",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Truthbourne",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "475bff774491f99e531e"
   }
 ]

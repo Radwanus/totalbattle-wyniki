@@ -267188,5 +267188,55 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "2db6dd7fcbb9231b69d5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-16 01:27:08",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Megana",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "2db6dd7fcbb9231b69d5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-16 01:27:34",
+    "Typ": "Skrzynia Orków",
+    "Nadawca": "Jarek",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-16 01:27:57",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Megana",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "2db6dd7fcbb9231b69d5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-16 01:28:38",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Jarek",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-16 01:28:41",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "Megana",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "2db6dd7fcbb9231b69d5"
   }
 ]

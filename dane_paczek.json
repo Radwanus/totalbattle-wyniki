@@ -226808,5 +226808,85 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "9a5455a401480b9d8137"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 09:23:23",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Maki II Degustator",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fe888b930a0bdbccadf5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 09:23:38",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Maki II Degustator",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "fe888b930a0bdbccadf5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 09:24:32",
+    "Typ": "Klanowa Skrzynia Jormunganda",
+    "Nadawca": "Maki II Degustator",
+    "Źródło": "Nagroda eventowa Ragnaroka",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "fe888b930a0bdbccadf5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 09:24:33",
+    "Typ": "Klanowa Skrzynia Jormunganda",
+    "Nadawca": "Maki II Degustator",
+    "Źródło": "Nagroda eventowa Ragnaroka",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "fe888b930a0bdbccadf5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 09:24:33",
+    "Typ": "Klanowa Skrzynia Jormunganda",
+    "Nadawca": "Maki II Degustator",
+    "Źródło": "Nagroda eventowa Ragnaroka",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "fe888b930a0bdbccadf5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 09:24:34",
+    "Typ": "Klanowa Skrzynia Jormunganda",
+    "Nadawca": "Maki II Degustator",
+    "Źródło": "Nagroda eventowa Ragnaroka",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "fe888b930a0bdbccadf5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 09:24:34",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Serelka",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9a5455a401480b9d8137"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 09:24:35",
+    "Typ": "Klanowa Skrzynia Jormunganda",
+    "Nadawca": "Maki II Degustator",
+    "Źródło": "Nagroda eventowa Ragnaroka",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "fe888b930a0bdbccadf5"
   }
 ]

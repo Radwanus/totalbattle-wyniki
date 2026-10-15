@@ -236218,5 +236218,25 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 12:50:18",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 12:50:25",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
   }
 ]

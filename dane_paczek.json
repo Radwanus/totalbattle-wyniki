@@ -237018,5 +237018,85 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "448ab8ed04708bcb3345"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 13:24:19",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Sturm Brightblade",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "4b92faa8f98e7b3ad6fb"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 13:24:39",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Lady DAIRA",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "1b99a5953bedc09b2447"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 13:25:00",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Sturm Brightblade",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "4b92faa8f98e7b3ad6fb"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 13:25:12",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Lady DAIRA",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "1b99a5953bedc09b2447"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 13:25:14",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Martini",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "1a9d6ebecbef2b288a62"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 13:25:37",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Mustafa cimbombom",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "448ab8ed04708bcb3345"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 13:25:47",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Lady DAIRA",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "1b99a5953bedc09b2447"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 13:26:29",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Martini",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "1a9d6ebecbef2b288a62"
   }
 ]

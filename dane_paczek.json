@@ -241308,5 +241308,65 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "6d7f0562a0ccae85ce6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 15:49:47",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Mustafa cimbombom",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "448ab8ed04708bcb3345"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 15:49:53",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "King of YEMEN",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "6d7f0562a0ccae85ce6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 15:50:00",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Ildanen",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "865e1ddb9398b80fcfee"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 15:50:09",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "THE VLD",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "22beab11a17cbf661eca"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 15:51:17",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "THE VLD",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "22beab11a17cbf661eca"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 15:51:43",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "Martini",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "1a9d6ebecbef2b288a62"
   }
 ]

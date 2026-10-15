@@ -237148,5 +237148,45 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "6f9006dd095735ea99a9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 13:34:20",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Mustafa cimbombom",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "448ab8ed04708bcb3345"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 13:34:56",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "OSA",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "6f9006dd095735ea99a9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 13:35:23",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "Mustafa cimbombom",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "448ab8ed04708bcb3345"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 13:35:59",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "OSA",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "6f9006dd095735ea99a9"
   }
 ]

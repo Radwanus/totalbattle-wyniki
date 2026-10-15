@@ -229258,5 +229258,95 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "b777a0647e386f7a290c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 10:18:27",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Mieciu",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "5523e42cd1d58a7a7936"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 10:18:31",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Serafino",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "25fd16f36bf014d81ed7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 10:18:56",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Serafino",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "25fd16f36bf014d81ed7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 10:19:39",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "Serafino",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "25fd16f36bf014d81ed7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 10:19:40",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Mieciu",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "5523e42cd1d58a7a7936"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 10:19:48",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Mieciu",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "5523e42cd1d58a7a7936"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 10:19:54",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Serafino",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "25fd16f36bf014d81ed7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 10:20:42",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Serafino",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "25fd16f36bf014d81ed7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 10:20:47",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "Mieciu",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "5523e42cd1d58a7a7936"
   }
 ]

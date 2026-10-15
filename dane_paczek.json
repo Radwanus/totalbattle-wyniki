@@ -231378,5 +231378,135 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "25fd16f36bf014d81ed7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 10:58:42",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "Serafino",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "25fd16f36bf014d81ed7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 10:59:02",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "Serafino",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "25fd16f36bf014d81ed7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 10:59:36",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Serafino",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "25fd16f36bf014d81ed7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 10:59:43",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Rafi",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "81c34c9290ef01018d2e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 10:59:55",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "Serafino",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "25fd16f36bf014d81ed7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 11:00:00",
+    "Typ": "Kamienna Skrzynia",
+    "Nadawca": "Berta",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "71ff6225db52c3c58f34"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 11:00:01",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "Rafi",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "81c34c9290ef01018d2e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 11:00:07",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "ヤGANGSTERヤ",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "91e9806adb5b128d07e7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 11:00:07",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Serafino",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "25fd16f36bf014d81ed7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 11:00:45",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Serafino",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "25fd16f36bf014d81ed7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 11:00:51",
+    "Typ": "Skrzynia Kobry",
+    "Nadawca": "Berta",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "71ff6225db52c3c58f34"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 11:00:55",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "Serafino",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "25fd16f36bf014d81ed7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-15 11:01:06",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Rafi",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "81c34c9290ef01018d2e"
   }
 ]

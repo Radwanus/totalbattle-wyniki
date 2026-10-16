@@ -277328,5 +277328,25 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "dab55c4208248ce1ef48"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-16 10:11:35",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "CHRISTOV",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "dab55c4208248ce1ef48"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-16 10:12:15",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "CHRISTOV",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "dab55c4208248ce1ef48"
   }
 ]

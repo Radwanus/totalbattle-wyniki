@@ -274098,5 +274098,105 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "6f9006dd095735ea99a9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-16 08:19:37",
+    "Typ": "Zapomniana Skrzynia",
+    "Nadawca": "abrej22",
+    "Źródło": "Krypta 10 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "a851d5c740ddb224897c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-16 08:19:53",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Mager",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "e363aa37cf47e1f42c58"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-16 08:20:15",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "OSA",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "6f9006dd095735ea99a9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-16 08:20:22",
+    "Typ": "Ognista Skrzynia",
+    "Nadawca": "abrej22",
+    "Źródło": "Krypta 20 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "a851d5c740ddb224897c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-16 08:21:01",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Mager",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "e363aa37cf47e1f42c58"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-16 08:21:13",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "OSA",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "6f9006dd095735ea99a9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-16 08:21:21",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Pumba",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "b445d588a166843e7d6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-16 08:21:32",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Pumba",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "b445d588a166843e7d6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-16 08:21:38",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Hichem 25",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "1de4143c427ea9bf54fd"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-16 08:21:39",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Mager",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "e363aa37cf47e1f42c58"
   }
 ]

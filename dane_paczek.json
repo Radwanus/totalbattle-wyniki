@@ -276698,5 +276698,35 @@
     "Punkty": "0",
     "Count": "2",
     "PlayerKey": "9a2f8ee710525e75bee0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-16 09:30:00",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "OSA",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "6f9006dd095735ea99a9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-16 09:30:05",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Kariel",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "0ac6b794e655966c923f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-16 09:30:40",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "OSA",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "6f9006dd095735ea99a9"
   }
 ]

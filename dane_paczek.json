@@ -267698,5 +267698,25 @@
     "Punkty": "4",
     "Count": "1",
     "PlayerKey": "77532d8f35fdf467a275"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-16 02:30:04",
+    "Typ": "Ognista Skrzynia",
+    "Nadawca": "SEBA",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "77532d8f35fdf467a275"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-16 02:31:17",
+    "Typ": "Piaskowa Skrzynia",
+    "Nadawca": "SEBA",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "77532d8f35fdf467a275"
   }
 ]

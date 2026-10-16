@@ -277048,5 +277048,25 @@
     "Punkty": "0",
     "Count": "3",
     "PlayerKey": "25fd16f36bf014d81ed7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-16 09:52:49",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Karolek",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "89abaf01d0870e8d1ebf"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-16 09:53:02",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "PUREC",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "aaed1d7d5f289df49f4e"
   }
 ]

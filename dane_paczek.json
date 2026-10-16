@@ -277498,5 +277498,45 @@
     "Punkty": "0",
     "Count": "4",
     "PlayerKey": "a4d9cc04ceaa47510b5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-16 10:21:34",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-16 10:21:59",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "PUREC",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "aaed1d7d5f289df49f4e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-16 10:22:16",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-16 10:22:59",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
   }
 ]

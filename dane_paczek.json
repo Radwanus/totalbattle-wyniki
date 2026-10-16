@@ -276738,5 +276738,75 @@
     "Punkty": "0",
     "Count": "2",
     "PlayerKey": "0ac6b794e655966c923f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-16 09:34:42",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Melania",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-16 09:35:09",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Kariel",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "0ac6b794e655966c923f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-16 09:35:11",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "RAFAL PL",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ff001bef965a35cc675a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-16 09:35:16",
+    "Typ": "ItemId 703029",
+    "Nadawca": "Melania",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-16 09:35:44",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "RAFAL PL",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ff001bef965a35cc675a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-16 09:36:14",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "RAFAL PL",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ff001bef965a35cc675a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-16 09:36:23",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Kariel",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "0ac6b794e655966c923f"
   }
 ]

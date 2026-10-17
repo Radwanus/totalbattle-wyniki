@@ -348428,5 +348428,45 @@
     "Punkty": "0",
     "Count": "8",
     "PlayerKey": "1f5e6cd41b556c281825"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 20:45:53",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Sturm Brightblade",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "4b92faa8f98e7b3ad6fb"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 20:46:10",
+    "Typ": "Skrzynia Gladiatora",
+    "Nadawca": "WARIAT",
+    "Źródło": "Arena",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 20:46:16",
+    "Typ": "Skrzynia Kobry",
+    "Nadawca": "Painfont",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 20:48:05",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Sturm Brightblade",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "4b92faa8f98e7b3ad6fb"
   }
 ]

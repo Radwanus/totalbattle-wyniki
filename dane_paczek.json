@@ -343418,5 +343418,985 @@
     "Punkty": "0",
     "Count": "3",
     "PlayerKey": "fe888b930a0bdbccadf5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:45:56",
+    "Typ": "Skrzynia Unii",
+    "Nadawca": "OSA",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "6f9006dd095735ea99a9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:46:03",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Domino",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "a4d9cc04ceaa47510b5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:46:09",
+    "Typ": "Skrzynia Unii",
+    "Nadawca": "OSA",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "6f9006dd095735ea99a9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:47:39",
+    "Typ": "ItemId 703072",
+    "Nadawca": "Jedi Qui Gon Jinn",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "cc518556cc44310be810"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:47:56",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Zioło",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "4df01774ba542ec518dd"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:48:34",
+    "Typ": "ItemId 703072",
+    "Nadawca": "Jedi Qui Gon Jinn",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "cc518556cc44310be810"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:48:37",
+    "Typ": "ItemId 703072",
+    "Nadawca": "Jedi Qui Gon Jinn",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "cc518556cc44310be810"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:48:39",
+    "Typ": "ItemId 703072",
+    "Nadawca": "Jedi Qui Gon Jinn",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "cc518556cc44310be810"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:48:48",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Maki II Degustator",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "fe888b930a0bdbccadf5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:48:50",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Osingmet",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:49:18",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Painfont",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:49:54",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Painfont",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:50:32",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Painfont",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:50:47",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Melania",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:51:08",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Painfont",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:51:10",
+    "Typ": "ItemId 703072",
+    "Nadawca": "WARIAT",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:51:15",
+    "Typ": "ItemId 703072",
+    "Nadawca": "WARIAT",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:51:16",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Maki II Degustator",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "fe888b930a0bdbccadf5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:51:19",
+    "Typ": "ItemId 703072",
+    "Nadawca": "WARIAT",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:51:23",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Mager",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "e363aa37cf47e1f42c58"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:51:24",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Serafino",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "25fd16f36bf014d81ed7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:51:33",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Hichem 25",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "1de4143c427ea9bf54fd"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:51:34",
+    "Typ": "ItemId 703073",
+    "Nadawca": "Mario",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "03547e958de090bf525f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:51:38",
+    "Typ": "ItemId 703073",
+    "Nadawca": "Mario",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "03547e958de090bf525f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:51:39",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Melania",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:51:43",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Painfont",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:51:51",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Olginad",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "ef961d78fad6c266872a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:51:52",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Osingmet",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "5",
+    "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:52:44",
+    "Typ": "ItemId 703072",
+    "Nadawca": "Mario",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "03547e958de090bf525f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:52:49",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Maki II Degustator",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "fe888b930a0bdbccadf5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:52:50",
+    "Typ": "ItemId 703072",
+    "Nadawca": "Mario",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "03547e958de090bf525f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:52:54",
+    "Typ": "ItemId 703072",
+    "Nadawca": "Mario",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "03547e958de090bf525f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:53:19",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Painfont",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:54:44",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Melania",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:55:03",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Painfont",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:55:12",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Mager",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "e363aa37cf47e1f42c58"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:55:31",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Zioło",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "4df01774ba542ec518dd"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:56:10",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Painfont",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:56:12",
+    "Typ": "ItemId 703073",
+    "Nadawca": "Centri",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "3a22feceb9cf2de7eca8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:56:18",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Eyrodor",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "8c9c6af60262fb89cd7c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:56:24",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Max72",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:56:50",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:56:53",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "YUSUF",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "6b2f01f15a27ca48ece5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:57:00",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Mager",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "e363aa37cf47e1f42c58"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:57:05",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "YUSUF",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "6b2f01f15a27ca48ece5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:57:27",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Painfont",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:57:30",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Hichem 25",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "1de4143c427ea9bf54fd"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:57:34",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Jarek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:57:52",
+    "Typ": "ItemId 703073",
+    "Nadawca": "Osingmet",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:57:56",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Hichem 25",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "1de4143c427ea9bf54fd"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:58:02",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Mager",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "e363aa37cf47e1f42c58"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:58:03",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Painfont",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:58:16",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Jarek",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:58:17",
+    "Typ": "ItemId 703073",
+    "Nadawca": "Osingmet",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:58:30",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Painfont",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:58:32",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Melania",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:58:35",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Hichem 25",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "1de4143c427ea9bf54fd"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:58:36",
+    "Typ": "ItemId 703072",
+    "Nadawca": "Osingmet",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:58:39",
+    "Typ": "ItemId 703072",
+    "Nadawca": "Osingmet",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:58:44",
+    "Typ": "ItemId 703072",
+    "Nadawca": "Osingmet",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:58:59",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Painfont",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:59:00",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Hichem 25",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "1de4143c427ea9bf54fd"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:59:00",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Jarek",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:59:12",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Olginad",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "ef961d78fad6c266872a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:59:16",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Melania",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:59:18",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Mager",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "e363aa37cf47e1f42c58"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:59:25",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Hichem 25",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "1de4143c427ea9bf54fd"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 18:59:35",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Jarek",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "fbf719b1f0b7b8376476"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 19:00:04",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Painfont",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 19:00:26",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Melania",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 19:00:29",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Eyrodor",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "8c9c6af60262fb89cd7c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 19:00:33",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Mario",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "03547e958de090bf525f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 19:00:39",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Hichem 25",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "1de4143c427ea9bf54fd"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 19:00:55",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Painfont",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 19:01:10",
+    "Typ": "ItemId 703019",
+    "Nadawca": "Zarina",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2120",
+    "PlayerKey": "821531d29e661d88ca32"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 19:01:11",
+    "Typ": "Skrzynia Arkanów",
+    "Nadawca": "Domino",
+    "Źródło": "Wydarzenie Mroczne Omeny",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "a4d9cc04ceaa47510b5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 19:06:36",
+    "Typ": "Skrzynia Wymiany Klanowej",
+    "Nadawca": "ALEX 82",
+    "Źródło": "Wymiana klanowa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 19:08:41",
+    "Typ": "Skrzynia Wymiany Klanowej",
+    "Nadawca": "Alfonso DIOS Magno",
+    "Źródło": "Wymiana klanowa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3b72c8642cb4720b717c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 19:11:02",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Coris",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "ee7ce793739e3d387b2a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 19:11:14",
+    "Typ": "Skrzynia Wymiany Klanowej",
+    "Nadawca": "VULCAN",
+    "Źródło": "Wymiana klanowa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "04b37110e9b45cb6b4e3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 19:11:41",
+    "Typ": "Skrzynia Warsztatu Gnomów",
+    "Nadawca": "Coris",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "ee7ce793739e3d387b2a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 19:12:35",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "LakiLu",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "0dc31a9c73dcd599c691"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 19:12:52",
+    "Typ": "Kościana Skrzynia",
+    "Nadawca": "Coris",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "ee7ce793739e3d387b2a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 19:13:13",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "LakiLu",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "0dc31a9c73dcd599c691"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 19:13:49",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "LakiLu",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "0dc31a9c73dcd599c691"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 19:14:15",
+    "Typ": "Skrzynia Majów",
+    "Nadawca": "Barkley",
+    "Źródło": "Krypta 15 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "b6b1e0e854aa8a649f3c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 19:14:22",
+    "Typ": "Skrzynia Wymiany Klanowej",
+    "Nadawca": "Zeta",
+    "Źródło": "Wymiana klanowa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "da76e7be3e25fbc97c3c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 19:14:30",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "LakiLu",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "0dc31a9c73dcd599c691"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 19:14:53",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Barkley",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "b6b1e0e854aa8a649f3c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 19:14:55",
+    "Typ": "Skrzynia Kobry",
+    "Nadawca": "Barkley",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "b6b1e0e854aa8a649f3c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 19:14:57",
+    "Typ": "Skrzynia Gladiatora",
+    "Nadawca": "ALEX 82",
+    "Źródło": "Arena",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 19:15:21",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Szybki Kriss",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "49bc493bb219270d30fc"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 19:15:30",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "YUSUF",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "6b2f01f15a27ca48ece5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 19:15:35",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "LakiLu",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "0dc31a9c73dcd599c691"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 19:15:47",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "YUSUF",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "6b2f01f15a27ca48ece5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 19:16:14",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "LakiLu",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "0dc31a9c73dcd599c691"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 19:16:19",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "YUSUF",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "6b2f01f15a27ca48ece5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 19:16:51",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "YUSUF",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "6b2f01f15a27ca48ece5"
   }
 ]

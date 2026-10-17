@@ -344398,5 +344398,75 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "6b2f01f15a27ca48ece5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 19:17:14",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "LakiLu",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "0dc31a9c73dcd599c691"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 19:17:54",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "LakiLu",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "0dc31a9c73dcd599c691"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 19:18:35",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "LakiLu",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "0dc31a9c73dcd599c691"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 19:19:04",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "MnA",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "fb1c981a98da28792d33"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 19:19:07",
+    "Typ": "Elegancka Skrzynia",
+    "Nadawca": "YUSUF",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "6b2f01f15a27ca48ece5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 19:19:20",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "LakiLu",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "0dc31a9c73dcd599c691"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-17 19:19:45",
+    "Typ": "Zapomniana Skrzynia",
+    "Nadawca": "YUSUF",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "6b2f01f15a27ca48ece5"
   }
 ]

@@ -421668,5 +421668,755 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "da76e7be3e25fbc97c3c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:34:10",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Painfont",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:34:13",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Arek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "394e8b5667748eb6bfd3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:34:14",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Zeta",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "da76e7be3e25fbc97c3c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:34:22",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "Martini",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "1a9d6ebecbef2b288a62"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:34:25",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "Zeta",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "da76e7be3e25fbc97c3c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:34:30",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "Martini",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "1a9d6ebecbef2b288a62"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:34:32",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Zeta",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "da76e7be3e25fbc97c3c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:34:34",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Moralsa",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "2aa0e06ca13aad2ebb10"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:34:40",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "Zeta",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "da76e7be3e25fbc97c3c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:34:48",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Arek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "394e8b5667748eb6bfd3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:35:04",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:35:18",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Moralsa",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "2aa0e06ca13aad2ebb10"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:35:27",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:35:28",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Arek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "394e8b5667748eb6bfd3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:35:37",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Fofur",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "b9183084a6fabd5c96f9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:35:39",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "Martini",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "1a9d6ebecbef2b288a62"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:35:51",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "Martini",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "1a9d6ebecbef2b288a62"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:35:59",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "Moralsa",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "2aa0e06ca13aad2ebb10"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:36:01",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Fofur",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "b9183084a6fabd5c96f9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:36:09",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "Arek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "394e8b5667748eb6bfd3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:36:22",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "Fofur",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "b9183084a6fabd5c96f9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:36:23",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "Max72",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:36:24",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Martini",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "1a9d6ebecbef2b288a62"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:36:31",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Fofur",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "b9183084a6fabd5c96f9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:36:41",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "Moralsa",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "2aa0e06ca13aad2ebb10"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:36:45",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "Arek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "394e8b5667748eb6bfd3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:36:48",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Martini",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "1a9d6ebecbef2b288a62"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:36:54",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "Fofur",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "b9183084a6fabd5c96f9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:37:11",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Max72",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:37:12",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "Fofur",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "b9183084a6fabd5c96f9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:37:18",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Fofur",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "b9183084a6fabd5c96f9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:37:21",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "Moralsa",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "2aa0e06ca13aad2ebb10"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:37:28",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Arek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "394e8b5667748eb6bfd3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:37:40",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "Fofur",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "b9183084a6fabd5c96f9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:37:57",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Painfont",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:38:05",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Arek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "394e8b5667748eb6bfd3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:38:08",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Max72",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:38:21",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "Fofur",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "b9183084a6fabd5c96f9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:38:37",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Max72",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:38:43",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Arek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "394e8b5667748eb6bfd3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:38:44",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Martini",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "1a9d6ebecbef2b288a62"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:38:47",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "Martini",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "1a9d6ebecbef2b288a62"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:39:05",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Max72",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:39:26",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "Martini",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "1a9d6ebecbef2b288a62"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:39:29",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Arek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "394e8b5667748eb6bfd3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:39:38",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Max72",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:39:38",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Martini",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "1a9d6ebecbef2b288a62"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:39:45",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:39:57",
+    "Typ": "Skrzynia z Twierdzy Elfów",
+    "Nadawca": "Truthbourne",
+    "Źródło": "Twierdza 30 poziomu",
+    "Punkty": "80",
+    "Count": "1",
+    "PlayerKey": "475bff774491f99e531e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:40:00",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:40:04",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Arek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "394e8b5667748eb6bfd3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:40:09",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Max72",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:40:36",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:40:36",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Arek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "394e8b5667748eb6bfd3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:40:38",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "Max72",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:40:48",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:40:59",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:41:07",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "Max72",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:41:10",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Arek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "394e8b5667748eb6bfd3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:41:36",
+    "Typ": "Skrzynia z Twierdzy Elfów",
+    "Nadawca": "Truthbourne",
+    "Źródło": "Twierdza 30 poziomu",
+    "Punkty": "80",
+    "Count": "1",
+    "PlayerKey": "475bff774491f99e531e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:41:36",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Max72",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:41:52",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "Arek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "394e8b5667748eb6bfd3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:42:09",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "Max72",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:42:36",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:42:37",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Arek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "394e8b5667748eb6bfd3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:42:52",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Max72",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:42:55",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:43:05",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:43:18",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Arek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "394e8b5667748eb6bfd3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:43:37",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "Max72",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:43:41",
+    "Typ": "Skrzynia Wymiany Klanowej",
+    "Nadawca": "Fofur",
+    "Źródło": "Wymiana klanowa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "b9183084a6fabd5c96f9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:43:59",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Arek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "394e8b5667748eb6bfd3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:44:43",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Arek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "394e8b5667748eb6bfd3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:45:25",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Arek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "394e8b5667748eb6bfd3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 11.10 - 18.10",
+    "Data": "2026-10-18 18:46:05",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Arek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "394e8b5667748eb6bfd3"
   }
 ]

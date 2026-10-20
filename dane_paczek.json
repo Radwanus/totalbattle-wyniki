@@ -151488,5 +151488,35 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "77532d8f35fdf467a275"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-21 00:54:12",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "YUSUF",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "6b2f01f15a27ca48ece5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-21 00:56:48",
+    "Typ": "ItemId 8889101",
+    "Nadawca": "SEBA",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "77532d8f35fdf467a275"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-21 00:57:14",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "YUSUF",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "6b2f01f15a27ca48ece5"
   }
 ]

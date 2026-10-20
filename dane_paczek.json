@@ -85228,5 +85228,45 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "03547e958de090bf525f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-20 05:29:45",
+    "Typ": "Skrzynia Ognistej Hydry",
+    "Nadawca": "RaFSaN RaFi",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "c101c6308abfb10e36ef"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-20 05:32:21",
+    "Typ": "Skrzynia Ognistej Hydry",
+    "Nadawca": "RaFSaN RaFi",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "c101c6308abfb10e36ef"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-20 05:33:17",
+    "Typ": "Skrzynia Ognistej Hydry",
+    "Nadawca": "RaFSaN RaFi",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "c101c6308abfb10e36ef"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-20 05:33:46",
+    "Typ": "Skrzynia Ognistej Hydry",
+    "Nadawca": "Mario",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "03547e958de090bf525f"
   }
 ]

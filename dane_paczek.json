@@ -152788,5 +152788,65 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "9f85337b8477e72ad538"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-21 01:42:34",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "Iron",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9f85337b8477e72ad538"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-21 01:42:46",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "Bohun",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9f6cadf34f080fbc5536"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-21 01:43:00",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Bohun",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "9f6cadf34f080fbc5536"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-21 01:43:04",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Iron",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9f85337b8477e72ad538"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-21 01:44:06",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "Iron",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9f85337b8477e72ad538"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-21 01:44:43",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "Iron",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9f85337b8477e72ad538"
   }
 ]

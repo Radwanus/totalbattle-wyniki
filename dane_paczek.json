@@ -153008,5 +153008,65 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "9f85337b8477e72ad538"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-21 01:51:14",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Bohun",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9f6cadf34f080fbc5536"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-21 01:51:14",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Iron",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9f85337b8477e72ad538"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-21 01:51:41",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "Iron",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9f85337b8477e72ad538"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-21 01:52:34",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "Iron",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9f85337b8477e72ad538"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-21 01:53:26",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Iron",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9f85337b8477e72ad538"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-21 01:54:19",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "Iron",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9f85337b8477e72ad538"
   }
 ]

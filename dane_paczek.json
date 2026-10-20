@@ -151728,5 +151728,115 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "9f85337b8477e72ad538"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-21 01:07:29",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "F",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "dac0063c8b110482320a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-21 01:07:39",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Domino",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "a4d9cc04ceaa47510b5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-21 01:07:46",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "F",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "dac0063c8b110482320a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-21 01:07:58",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Domino",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "a4d9cc04ceaa47510b5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-21 01:08:25",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "Iron",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9f85337b8477e72ad538"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-21 01:08:42",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "Iron",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9f85337b8477e72ad538"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-21 01:08:57",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Iron",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9f85337b8477e72ad538"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-21 01:09:26",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Iron",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9f85337b8477e72ad538"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-21 01:09:57",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "Iron",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9f85337b8477e72ad538"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-21 01:10:29",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "KAZ",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-21 01:10:31",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Iron",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9f85337b8477e72ad538"
   }
 ]

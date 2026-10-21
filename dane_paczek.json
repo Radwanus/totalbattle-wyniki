@@ -155008,5 +155008,85 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "c101c6308abfb10e36ef"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-21 03:42:11",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "RaFSaN RaFi",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "c101c6308abfb10e36ef"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-21 03:42:33",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Bohun",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "9f6cadf34f080fbc5536"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-21 03:42:49",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "RaFSaN RaFi",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "c101c6308abfb10e36ef"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-21 03:43:14",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "RaFSaN RaFi",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "c101c6308abfb10e36ef"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-21 03:43:51",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "RaFSaN RaFi",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "c101c6308abfb10e36ef"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-21 03:44:05",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Bohun",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "9f6cadf34f080fbc5536"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-21 03:44:32",
+    "Typ": "ItemId 8889101",
+    "Nadawca": "RaFSaN RaFi",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "c101c6308abfb10e36ef"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-21 03:44:54",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Bohun",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "9f6cadf34f080fbc5536"
   }
 ]

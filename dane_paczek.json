@@ -218748,5 +218748,35 @@
     "Punkty": "0",
     "Count": "2",
     "PlayerKey": "fb1c981a98da28792d33"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-22 01:16:51",
+    "Typ": "ItemId 8889101",
+    "Nadawca": "Ildanen",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "865e1ddb9398b80fcfee"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-22 01:17:22",
+    "Typ": "ItemId 8889101",
+    "Nadawca": "Ildanen",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "865e1ddb9398b80fcfee"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-22 01:18:16",
+    "Typ": "ItemId 8889101",
+    "Nadawca": "Ildanen",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "865e1ddb9398b80fcfee"
   }
 ]

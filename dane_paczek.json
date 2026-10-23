@@ -298808,5 +298808,65 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "46c96dda81f5b20d7ed9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-23 03:26:22",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "KRISS",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "63747c28b1baf69e3e5d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-23 03:26:59",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "KRISS",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "63747c28b1baf69e3e5d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-23 03:27:57",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "KRISS",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "63747c28b1baf69e3e5d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-23 03:28:45",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Little G",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "46c96dda81f5b20d7ed9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-23 03:28:47",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "KRISS",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "63747c28b1baf69e3e5d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-23 03:29:26",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "KRISS",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "63747c28b1baf69e3e5d"
   }
 ]

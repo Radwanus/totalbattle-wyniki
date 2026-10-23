@@ -358828,5 +358828,45 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-24 01:29:00",
+    "Typ": "ItemId 8889101",
+    "Nadawca": "Mager",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "e363aa37cf47e1f42c58"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-24 01:29:28",
+    "Typ": "ItemId 8889101",
+    "Nadawca": "Mager",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "e363aa37cf47e1f42c58"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-24 01:29:33",
+    "Typ": "ItemId 8889101",
+    "Nadawca": "MnA",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "fb1c981a98da28792d33"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-24 01:31:39",
+    "Typ": "ItemId 8889101",
+    "Nadawca": "Mager",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "e363aa37cf47e1f42c58"
   }
 ]

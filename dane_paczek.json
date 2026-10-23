@@ -348638,5 +348638,125 @@
     "Punkty": "0",
     "Count": "4",
     "PlayerKey": "b777a0647e386f7a290c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-23 21:11:15",
+    "Typ": "Klanowa Skrzynia Przyspieszenia Marszu",
+    "Nadawca": "MSlayer",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "b777a0647e386f7a290c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-23 21:11:16",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "MSlayer",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "b777a0647e386f7a290c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-23 21:11:29",
+    "Typ": "ItemId 8889101",
+    "Nadawca": "Osingmet",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-23 21:11:29",
+    "Typ": "ItemId 8889101",
+    "Nadawca": "Moralsa",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "2aa0e06ca13aad2ebb10"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-23 21:11:57",
+    "Typ": "ItemId 8889101",
+    "Nadawca": "Moralsa",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "2aa0e06ca13aad2ebb10"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-23 21:12:33",
+    "Typ": "ItemId 8889101",
+    "Nadawca": "Osingmet",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-23 21:12:41",
+    "Typ": "ItemId 8889101",
+    "Nadawca": "Moralsa",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "2aa0e06ca13aad2ebb10"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-23 21:12:52",
+    "Typ": "Klanowa Skrzynia Potwora Sądnego Dnia",
+    "Nadawca": "OSA",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "76",
+    "PlayerKey": "6f9006dd095735ea99a9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-23 21:12:59",
+    "Typ": "ItemId 8889101",
+    "Nadawca": "Maki II Degustator",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "fe888b930a0bdbccadf5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-23 21:13:24",
+    "Typ": "ItemId 8889101",
+    "Nadawca": "Moralsa",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "2aa0e06ca13aad2ebb10"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-23 21:13:50",
+    "Typ": "ItemId 8889101",
+    "Nadawca": "Moralsa",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "2aa0e06ca13aad2ebb10"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-23 21:14:42",
+    "Typ": "ItemId 8889101",
+    "Nadawca": "Maki II Degustator",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "fe888b930a0bdbccadf5"
   }
 ]

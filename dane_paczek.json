@@ -356198,5 +356198,125 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "d55aae0b9321d71a9aba"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-23 23:26:44",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Dasty",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "d55aae0b9321d71a9aba"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-23 23:26:55",
+    "Typ": "Skrzynia z Twierdzy Elfów",
+    "Nadawca": "Painfont",
+    "Źródło": "Twierdza 30 poziomu",
+    "Punkty": "80",
+    "Count": "1",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-23 23:27:00",
+    "Typ": "Skrzynia Warsztatu Gnomów",
+    "Nadawca": "Mieciu",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "5523e42cd1d58a7a7936"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-23 23:27:32",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Dasty",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "d55aae0b9321d71a9aba"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-23 23:27:37",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Dasty",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "d55aae0b9321d71a9aba"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-23 23:27:46",
+    "Typ": "Skrzynia Orków",
+    "Nadawca": "Mieciu",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "5523e42cd1d58a7a7936"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-23 23:27:54",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Mieciu",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "5523e42cd1d58a7a7936"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-23 23:28:49",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Arek",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "394e8b5667748eb6bfd3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-23 23:29:01",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "Dasty",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "d55aae0b9321d71a9aba"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-23 23:29:11",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "Dasty",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "d55aae0b9321d71a9aba"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-23 23:29:25",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Arek",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "394e8b5667748eb6bfd3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-23 23:29:41",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Mieciu",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "5523e42cd1d58a7a7936"
   }
 ]

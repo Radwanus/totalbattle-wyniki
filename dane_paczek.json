@@ -357008,5 +357008,25 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "77532d8f35fdf467a275"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-23 23:54:04",
+    "Typ": "ItemId 8889101",
+    "Nadawca": "SEBA",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "77532d8f35fdf467a275"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-23 23:55:00",
+    "Typ": "ItemId 8889101",
+    "Nadawca": "SEBA",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "77532d8f35fdf467a275"
   }
 ]

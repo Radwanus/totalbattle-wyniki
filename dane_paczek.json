@@ -357028,5 +357028,45 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "77532d8f35fdf467a275"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-23 23:56:51",
+    "Typ": "ItemId 8889101",
+    "Nadawca": "SEBA",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "77532d8f35fdf467a275"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-23 23:57:42",
+    "Typ": "ItemId 8889101",
+    "Nadawca": "OSA",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "6f9006dd095735ea99a9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-23 23:57:43",
+    "Typ": "ItemId 8889101",
+    "Nadawca": "SEBA",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "77532d8f35fdf467a275"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-23 23:58:14",
+    "Typ": "ItemId 8889101",
+    "Nadawca": "OSA",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "6f9006dd095735ea99a9"
   }
 ]

@@ -1,0 +1,371 @@
+/* [JWR] Relaks — Royal Portal V2. Visual only; never modifies rankings or Wheel logic. */
+:root{--royal-gold:#d9a54b;--royal-champagne:#ffe3a2;--royal-edge:#8b5521;--royal-purple:#320f48;--royal-midnight:#0c0812}
+html{background:#0d0812}
+body{position:relative;min-height:100vh;color:#f7ecd6!important;background:radial-gradient(ellipse at 50% 290px,#342039 0,#1b1023 45%,#0d0812 100%) fixed!important}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;background:linear-gradient(90deg,#0008 0,transparent 20%,transparent 80%,#0009),url('./jwr_royal_assets/royal_castle.webp') center top/auto 640px no-repeat;opacity:.24}
+body::after{content:"";position:fixed;pointer-events:none;z-index:0;inset:75px 0 0;background:url('./jwr_royal_assets/royal_left.webp') left top/120px auto no-repeat,url('./jwr_royal_assets/royal_right.webp') right top/120px auto no-repeat;opacity:.88;filter:drop-shadow(0 0 7px #000a)}
+.topbar,.container{position:relative;z-index:1}
+.topbar{background:linear-gradient(180deg,#1b0c25,#3b1446 52%,#110819)!important;border-bottom:3px ridge #d5a757!important;box-shadow:0 6px 22px #000d,0 1px 0 #fae2a7!important}
+.topbar-inner{max-width:1400px!important;flex-wrap:wrap}
+.brand,.topbar .nav-item{font-family:Georgia,serif!important;font-weight:bold!important;letter-spacing:.05px;color:#f8d88b!important;background:linear-gradient(170deg,#240d2e,#3e1750 45%,#110819)!important;border-left:1px solid #b88b42!important;border-right:1px solid #b88b42!important;border-radius:2px 2px 0 0;text-shadow:0 2px 3px #000;box-shadow:inset 0 2px 0 #bd8a4444,inset 0 -2px 0 #2b1026}
+.topbar .nav-item.active,.topbar .nav-item:hover{color:#fff4bc!important;background:linear-gradient(180deg,#5f2870 0%,#2f0c40 70%,#210729)!important;box-shadow:inset 0 0 19px #efbb7a50,0 0 9px #b9804066;border-bottom:3px solid #ffd079!important}
+.container{max-width:1390px!important;padding-left:clamp(20px,4vw,66px)!important;padding-right:clamp(20px,4vw,66px)!important}
+.meta{margin-top:23px!important;margin-bottom:6px!important;color:#ffe0a1!important;text-shadow:0 1px 3px #000;letter-spacing:.2px}
+.meta::before,.meta::after{content:'❦';color:#bb8837;margin:0 .65em}
+img[src*='herb_jwr_relaks_honor_relax_glory']{display:block!important;margin:8px auto 14px!important;max-width:min(240px,70vw)!important;height:auto!important;max-height:260px!important;object-fit:contain!important;filter:drop-shadow(0 0 13px #c88d4f3c)}
+/* Gold-carved parchment banners: section text stays real, selectable HTML */
+.container .controls:has(>h1),.container .controls:has(>h2),.container .controls:has(>.title){position:relative;isolation:isolate;max-width:760px;margin-top:10px;min-height:63px;display:flex;align-items:center;justify-content:center}
+.container .controls:has(>.title)::before{content:"";position:absolute;z-index:-1;inset:-1px -19px;background:url('./jwr_royal_assets/royal_ribbon.svg') center/100% 100% no-repeat;pointer-events:none}
+.container .title,.container h1,.container h2{color:#ffe1a0!important;text-shadow:0 2px 2px #000,0 0 5px #a36c2b;font-family:Georgia,serif!important}
+.container .controls .title{font-size:clamp(19px,2vw,29px)!important;margin:0!important;padding:8px 20px;text-align:center}
+.container .legend{color:#f5ebde!important;padding:4px 8px 10px}
+/* RICH FRAMES outside existing scrollable areas: no table layout or widths touched */
+.container .table-wrap,.container .history-wrap,.container .wheel-panel,.container .winners-panel,.container .archive-panel,.container .score-panel,.container .details-panel{position:relative;border:3px ridge #c89849!important;border-radius:7px!important;box-shadow:inset 0 0 0 1px #ffde8b88,0 0 0 2px #270c31,0 5px 14px #0009!important;background-color:#100c16}
+.container .table-wrap::before,.container .history-wrap::before{content:"";position:absolute;inset:0;pointer-events:none;z-index:2;background:url('./jwr_royal_assets/royal_corner.svg') left top/49px 49px no-repeat,url('./jwr_royal_assets/royal_corner.svg') right top/49px 49px no-repeat;opacity:.7}
+.container table{border-collapse:separate!important;border-spacing:0!important;border:1px solid #855c2d!important;box-shadow:0 0 0 1px #f1c97244}
+.container table th{background:linear-gradient(180deg,#52175f,#280d37)!important;color:#fbe09c!important;border-color:#ad7935!important;font-family:Georgia,serif;font-weight:bold!important;text-shadow:0 1px 1px #000}
+.container table td{border-color:#6f5540!important}
+
+.container table tr:hover td{filter:brightness(1.10)}
+.container .table-limit-center{color:#d9f078!important;text-shadow:0 1px 4px #000}
+/* Separate iframe is still fully operable. Only its surrounding frame is decorated. */
+iframe[src*='wheel'],iframe[src*='kolo']{border:3px ridge #c59854!important;border-radius:8px;box-shadow:0 0 0 2px #351044,0 7px 22px #000a!important}
+/* Other existing panels: subtle gilding without changing their internal controls */
+.container [class*='panel'],.container [class*='box']{border-color:#946831}
+button:focus-visible,a:focus-visible{outline:2px solid #ffe69c!important;outline-offset:2px}
+@media(max-width:1540px){body::after{background-size:70px auto,70px auto;opacity:.54}}
+@media(max-width:980px){body::after{display:none}.container{padding-inline:12px!important}.container .controls:has(>.title){max-width:100%}.container .controls:has(>.title)::before{inset:0 0}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+
+
+/* ================================================================
+   JWR ROYAL V2.1 — readability and proportional ornaments
+   Existing tabs, tables, private panel and embedded wheel logic intact.
+   ================================================================ */
+/* The previous centered castle texture created a conspicuous vertical
+   rectangle behind the transparent clan crest. Replace it with a seamless
+   uniform background; keep castle architecture solely at outer edges. */
+body::before{
+  background:radial-gradient(ellipse at 50% 12%,rgba(87,43,93,.13),transparent 65%)!important;
+  opacity:1!important;
+}
+body::after{
+  inset:75px 0 0!important;
+  background-position:left top,right top!important;
+  background-size:clamp(58px,6vw,100px) auto,clamp(58px,6vw,100px) auto!important;
+  opacity:.62!important;
+}
+/* Portrait-sized clan crest, free of artificial rectangular backplates */
+.container img[src*='herb_jwr_relaks_honor_relax_glory']{
+  display:block!important;
+  width:min(220px,60vw)!important;
+  max-width:220px!important;
+  max-height:232px!important;
+  height:auto!important;
+  margin:4px auto 10px!important;
+  background:transparent!important;
+  box-shadow:none!important;
+}
+/* Smaller, consistent banners across all native content sections */
+.container .controls:has(>.title){
+  box-sizing:border-box!important;
+  width:min(100%,560px)!important;
+  max-width:560px!important;
+  min-height:46px!important;
+  margin:14px auto 8px!important;
+  padding:0 23px!important;
+  isolation:isolate;
+}
+.container .controls:has(>.title)::before{
+  inset:0!important;
+  background-size:100% 100%!important;
+  opacity:.96!important;
+}
+.container .controls .title{
+  font-size:clamp(17px,1.6vw,23px)!important;
+  line-height:1.25!important;
+  padding:6px 12px!important;
+  letter-spacing:.12px;
+}
+/* Prevent the decorative corners from covering data or scrollbars */
+.container .table-wrap::before,.container .history-wrap::before{
+  background:none!important;
+  display:none!important;
+}
+.container .table-wrap,.container .history-wrap{
+  border:2px solid #b68a46!important;
+  border-radius:5px!important;
+  overflow:auto;
+  box-shadow:inset 0 0 0 1px #ffe2a13b,0 3px 12px #0008!important;
+}
+/* Preserve user-defined limit/rank colors rather than replacing all cell fills */
+
+/* Wheel iframe remains clickable; gold only around the frame */
+iframe[src*='wheel'],iframe[src*='kolo']{
+  border:2px solid #a8793d!important;
+  box-shadow:0 0 0 1px #3a143f,0 4px 12px #0008!important;
+}
+@media(max-width:1100px){
+  body::after{opacity:.27!important;background-size:55px auto,55px auto!important}
+  .container .controls:has(>.title){width:min(100%,500px)!important}
+}
+@media(max-width:760px){
+  body::after{display:none!important}
+  .container .controls:has(>.title){width:100%!important;min-height:44px!important;padding:0 8px!important}
+  .container .controls .title{font-size:18px!important}
+}
+
+/* JWR Royal V2.2: page-wide architectural setting; visual-only override. */
+/* Replace clipped poster-strips with an integrated grand-hall background. */
+html{background:#100917!important}
+body{
+  background:
+    radial-gradient(ellipse 85% 48% at 50% 19%,rgba(126,71,120,.31),transparent 75%),
+    repeating-linear-gradient(90deg,transparent 0,transparent 84px,rgba(205,148,63,.025) 85px,transparent 87px),
+    linear-gradient(90deg,#100a13 0%,#25142b 9%,#301b39 30%,#29152f 51%,#301b39 70%,#25142b 91%,#100a13 100%) fixed!important;
+}
+body::before{
+  position:fixed!important;inset:120px 0 0!important;
+  background:
+    linear-gradient(90deg,rgba(13,7,19,.30),transparent 18%,transparent 82%,rgba(13,7,19,.30)),
+    url('./jwr_royal_assets/royal_castle.webp') center top/auto 920px no-repeat!important;
+  opacity:.075!important;filter:blur(9px);pointer-events:none!important
+}
+body::after{
+  position:fixed!important;inset:155px 0 0!important;
+  background:
+    url('./jwr_royal_assets/royal_left.webp') left center/auto 100% no-repeat,
+    url('./jwr_royal_assets/royal_right.webp') right center/auto 100% no-repeat!important;
+  opacity:.28!important;filter:none!important;
+  pointer-events:none!important;
+  -webkit-mask-image:linear-gradient(90deg,#0000 0%,#000 9%,#000 91%,#0000 100%)!important;
+  mask-image:linear-gradient(90deg,#0000 0%,#000 9%,#000 91%,#0000 100%)!important
+}
+/* The actual content is surrounded by a full-width, subtle carved frame. */
+.container{
+  position:relative!important;isolation:isolate;
+  max-width:1390px!important;
+  min-height:calc(100vh - 155px);
+  padding:23px clamp(24px,4.2vw,70px) 100px!important;
+  background:
+    radial-gradient(ellipse at 50% 10%,rgba(110,52,95,.16),transparent 65%),
+    repeating-linear-gradient(0deg,transparent 0 34px,rgba(217,166,87,.017) 35px 36px),
+    linear-gradient(90deg,rgba(28,14,36,.84),rgba(48,26,51,.59) 10%,rgba(48,25,52,.61) 90%,rgba(28,14,36,.84))!important;
+  border-left:3px double rgba(213,155,73,.66)!important;
+  border-right:3px double rgba(213,155,73,.66)!important;
+  box-shadow:0 0 0 7px rgba(20,8,27,.5),0 0 65px #0009,inset 0 0 65px rgba(0,0,0,.28)!important;
+}
+.container::before{
+  content:'';pointer-events:none;position:absolute;inset:9px;
+  border:1px solid rgba(235,187,105,.28);z-index:-1;
+  background:
+    url('./jwr_royal_assets/royal_corner.svg') left top/74px 74px no-repeat,
+    url('./jwr_royal_assets/royal_corner.svg') right top/74px 74px no-repeat,
+    url('./jwr_royal_assets/royal_corner.svg') left bottom/74px 74px no-repeat,
+    url('./jwr_royal_assets/royal_corner.svg') right bottom/74px 74px no-repeat;
+  opacity:.45;
+}
+/* Heraldic details extend through the content, not just the edges. */
+.container .legend{
+  width:fit-content;max-width:100%;margin:8px auto 18px!important;
+  border-block:1px solid rgba(218,161,76,.34);
+  padding:10px 15px!important;
+  background:linear-gradient(90deg,transparent,rgba(52,23,62,.43) 13%,rgba(52,23,62,.43) 87%,transparent);
+}
+.container .controls:has(>.title){margin-inline:auto!important}
+.container .controls:has(>.title)::after{
+  content:'✦';position:absolute;bottom:-8px;left:50%;transform:translateX(-50%);
+  color:#e0b861;font-size:13px;text-shadow:0 1px 3px #000;pointer-events:none;
+}
+.container .tab-view{position:relative;z-index:1;min-width:0}
+.container .v177b-wheel-layout{column-gap:22px!important;row-gap:22px}
+.container .table-wrap,.container .history-wrap{
+  border:2px ridge #d4a25d!important;
+  box-shadow:0 0 0 3px rgba(51,15,58,.85),0 8px 24px #0008!important;
+}
+/* Do NOT set backgrounds or foregrounds on td: score-* and cell-score-* define status colors. */
+.container table td{border-color:#8f6543!important}
+.container table tr:hover td{filter:brightness(1.06)}
+.container .v248-wheel-column,
+.container .v177b-table-column{min-width:0}
+iframe[src*='wheel'],iframe[src*='kolo']{max-width:100%}
+/* Crest remains optically detached from the historic background asset. */
+.jwr-royal-crest{background:transparent!important;box-shadow:none!important}
+@media(max-width:1450px){
+ body::after{opacity:.16!important}
+ .container{max-width:calc(100% - 48px)!important}
+}
+@media(max-width:900px){
+ body::after{display:none!important}
+ .container{max-width:calc(100% - 12px)!important;padding:18px 12px 60px!important}
+ .container::before{background-size:38px 38px,38px 38px,38px 38px,38px 38px}
+}
+
+/* JWR_ROYAL_V23_FINISH: safe visual polish over V2.2. */
+/* A continuous illuminated panel rather than isolated side poster strips. */
+body::after {
+  background-image:none!important;
+  opacity:0!important;
+}
+.container {
+  background-image:
+    radial-gradient(ellipse 95% 480px at 50% 180px,rgba(98,43,91,.18),transparent 85%),
+    repeating-linear-gradient(90deg,transparent 0 170px,rgba(228,178,92,.015) 171px 172px,transparent 173px),
+    linear-gradient(90deg,rgba(26,12,34,.90),rgba(51,27,55,.75) 11%,rgba(52,26,56,.76) 50%,rgba(51,27,55,.75) 89%,rgba(26,12,34,.90))!important;
+  border-left:3px double #9e7239!important;
+  border-right:3px double #9e7239!important;
+}
+/* Architectural pillars fit within the illuminated spread, fading inward and downward. */
+.container::after {
+  content:'';pointer-events:none;position:absolute;
+  left:7px;right:7px;top:230px;bottom:0;z-index:-1;
+  background:
+    linear-gradient(90deg,rgba(28,13,36,.17),rgba(28,13,36,.89) 15%,rgba(28,13,36,.96) 18%,transparent 26%,transparent 74%,rgba(28,13,36,.96) 82%,rgba(28,13,36,.89) 85%,rgba(28,13,36,.17)),
+    url('./jwr_royal_assets/royal_left.webp') left top / 110px auto repeat-y,
+    url('./jwr_royal_assets/royal_right.webp') right top / 110px auto repeat-y;
+  opacity:.17;
+  -webkit-mask-image:linear-gradient(to bottom,transparent 0%,#000 6%,#000 88%,transparent 100%);
+  mask-image:linear-gradient(to bottom,transparent 0%,#000 6%,#000 88%,transparent 100%);
+}
+/* Uniform ornate display headings without changing content box dimensions. */
+.container .controls:has(>.title) {
+  max-width:560px!important;
+  overflow:visible;
+  filter:drop-shadow(0 3px 7px #08030bab);
+}
+.container .controls:has(>.title)::before {
+  background-image:url('./jwr_royal_assets/royal_ribbon.svg')!important;
+}
+.container .controls .title{letter-spacing:.28px!important;text-wrap:balance}
+/* A horizontal gold separator keeps long sections visually connected. */
+.container .legend {
+  border-bottom:1px solid #a6794b80!important;
+  background:linear-gradient(90deg,transparent,rgba(70,31,70,.33) 14%,rgba(70,31,70,.33) 86%,transparent)!important;
+}
+/* Ornamental corners sit on frames, NOT on the ranking text or scrollbars. */
+.container .table-wrap::before,
+.container .history-wrap::before{display:none!important}
+.container .table-wrap,.container .history-wrap{
+  outline:1px solid rgba(240,192,105,.44)!important;
+  outline-offset:3px!important;
+  overflow:auto;
+}
+/* Only frame the wheel's iframe. Never touch its internal game controls. */
+iframe[src*='wheel.html'] {outline:1px solid rgba(236,188,94,.55);outline-offset:3px}
+/* The entire portal keeps original status classes and their semantic colors.
+   NO table td backgrounds/colors/filters are assigned by this version. */
+.container table tr:hover td{filter:none!important}
+/* Subtle gold boundary on sections that contain tables and widgets. */
+#view-wyniki,#view-epickie,#view-winners,#view-szczegoly,#view-punktacja,#view-archiwum{
+  background-image:linear-gradient(180deg,rgba(90,39,96,.075),transparent 270px);
+}
+/* Keep manager controls and archive scrollbars clickable. */
+.container::before,.container::after{pointer-events:none!important}
+@media(max-width:1040px){
+ .container::after{display:none!important}
+ .container .controls:has(>.title){max-width:min(100%,530px)!important}
+}
+@media(max-width:700px){
+ .container{border-left-width:1px!important;border-right-width:1px!important}
+ .container .controls:has(>.title){max-width:100%!important}
+}
+
+/* BEGIN JWR_FULLSCREEN_V24 */
+/* JWR RELAKS — Royal Wallpaper V2.4. Full-page, not side stickers.
+   Purely presentational. No edits to score classes, limits or controls. */
+:root { --jwr-gold:#d9ac5c; --jwr-night:#13091b; }
+html {background:#16091e!important;}
+body {
+  min-height:100vh;
+  position:relative;
+  isolation:isolate;
+  background-color:#210c2a!important;
+  background-image:
+    radial-gradient(ellipse 85% 45% at 50% 10%,rgba(132,67,122,.31),transparent 85%),
+    linear-gradient(90deg,rgba(11,4,19,.43),transparent 16%,transparent 84%,rgba(11,4,19,.43)),
+    radial-gradient(circle at 50% 50%,#4a254d 0,#26122f 58%,#12091a 100%)!important;
+  background-attachment:fixed!important;
+}
+/* Wallpaper covers the full browser width: quilted damask, medallions and gold inlays. */
+body::before {
+  content:''!important;
+  position:fixed!important;
+  inset:0!important;
+  z-index:0!important;
+  pointer-events:none!important;
+  opacity:1!important;
+  background-image:
+    url('./jwr_royal_assets/jwr_royal_wallpaper_v24.svg'),
+    radial-gradient(ellipse at 50% 12%,rgba(133,76,124,.22),transparent 68%)!important;
+  background-repeat:repeat, no-repeat!important;
+  background-size:380px 380px, cover!important;
+  background-position:center top, center center!important;
+  filter:none!important;
+}
+/* No cropped, free-standing side strips. The wallpaper supplies the architectural atmosphere. */
+body::after {content:none!important;display:none!important;background:none!important;}
+/* The portal is a framed hall within the wallpaper, never an isolated empty rectangle. */
+.container {
+  position:relative!important;
+  isolation:isolate;
+  max-width:1390px!important;
+  background:
+    linear-gradient(180deg,rgba(64,31,66,.72),rgba(33,14,43,.74) 540px,rgba(18,9,27,.87) 100%)!important;
+  border:3px double rgba(220,169,88,.82)!important;
+  border-top:0!important;
+  border-bottom:0!important;
+  box-shadow:
+    inset 0 0 0 1px rgba(247,211,139,.25),
+    inset 0 0 66px rgba(12,4,19,.60),
+    0 0 0 8px rgba(32,11,36,.38),
+    0 0 46px 14px rgba(8,2,14,.48)!important;
+}
+.container::before {
+  content:''!important;
+  position:absolute!important;
+  pointer-events:none!important;
+  z-index:-1!important;
+  inset:0!important;
+  opacity:.44!important;
+  background-image:url('./jwr_royal_assets/jwr_royal_wallpaper_v24.svg')!important;
+  background-repeat:repeat!important;
+  background-size:380px 380px!important;
+  background-position:center top!important;
+  mask-image:linear-gradient(180deg,#000 0,rgba(0,0,0,.8) 38%,rgba(0,0,0,.3) 100%)!important;
+}
+.container::after {content:none!important;display:none!important;}
+/* A royal lintel over each visible section, leaving tables and widgets functional. */
+.container > section.tab-view {
+  position:relative;
+  border:1px solid rgba(196,145,64,.22);
+  border-radius:12px;
+  padding:12px 10px 26px;
+  margin-bottom:26px;
+  box-shadow:inset 0 12px 30px rgba(171,93,140,.09);
+  background:linear-gradient(180deg,rgba(84,40,83,.20),rgba(16,6,23,.10) 380px)!important;
+}
+.container .controls:has(>.title) {
+  width:min(100%,560px)!important;
+  filter:drop-shadow(0 3px 8px #0007);
+}
+/* Gold relief retained, but don't override class/status colors in table cells. */
+.container .table-wrap,.container .history-wrap {
+  box-shadow:inset 0 0 0 1px #eac47655,0 5px 18px #0009!important;
+}
+.container table td,
+.container table td[class*='score'],
+.container table td[class*='cell-score'] {
+  /* Deliberately no background or color declaration here. */
+}
+/* Keep overall royal atmosphere behind existing wheel iframe, don't style the wheel document. */
+.container iframe[src*='wheel.html'] {
+  border:2px solid #b58a47!important;
+  box-shadow:0 0 0 2px #391340,0 12px 28px #0009!important;
+}
+@media(max-width:800px){
+ body::before{background-size:290px 290px,cover!important}
+ .container{border-width:1px!important;padding-inline:12px!important}
+ .container::before{background-size:290px 290px!important}
+ .container > section.tab-view{padding-inline:4px}
+}
+/* END JWR_FULLSCREEN_V24 */

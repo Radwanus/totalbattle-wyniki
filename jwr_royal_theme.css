@@ -1,0 +1,136 @@
+html, body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #f4e7c2;
+  background:
+    linear-gradient(rgba(22,10,6,0.55), rgba(22,10,6,0.70)),
+    url("./jwr_royal_assets/royal_full_bg.png") center top / cover fixed no-repeat !important;
+  background-color: #1a0f0a !important;
+}
+
+/* Gówna warstwa treci */
+.container,
+main,
+section,
+.content,
+.wrapper,
+.page,
+#content,
+#main {
+  background: transparent !important;
+}
+
+/* Subtelne przyciemnienie sekcji */
+.hero,
+.panel,
+.block,
+.card,
+.table-wrap,
+.wheel-wrap,
+.results-wrap,
+.code-panel,
+.guide-box,
+.archive-box {
+  background: rgba(26, 12, 10, 0.52) !important;
+  border: 1px solid rgba(214, 168, 78, 0.55) !important;
+  box-shadow: 0 10px 30px rgba(0,0,0,.30);
+  border-radius: 12px;
+  backdrop-filter: blur(1.5px);
+}
+
+/* Nagówek / menu */
+.nav,
+nav,
+.navbar,
+.tabs,
+.menu,
+header {
+  background: linear-gradient(180deg, rgba(49,17,58,0.92), rgba(25,10,31,0.92)) !important;
+  border-bottom: 1px solid rgba(214,168,78,.7) !important;
+}
+
+nav a, .nav a, .tabs a, .menu a, header a {
+  color: #f3d98a !important;
+  text-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
+
+nav a:hover, .nav a:hover, .tabs a:hover, .menu a:hover, header a:hover {
+  color: #fff0b3 !important;
+}
+
+/* Tytuy */
+h1, h2, h3, h4, .section-title, .title {
+  color: #f2d37a !important;
+  text-shadow: 0 2px 4px rgba(0,0,0,.45);
+}
+
+/* Tabele – NIE ruszamy ta komórek z kolorami punktów */
+table {
+  background: rgba(18, 10, 10, 0.45) !important;
+  border: 1px solid rgba(214,168,78,.55) !important;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+table th {
+  background: linear-gradient(180deg, rgba(83,24,95,0.92), rgba(48,17,58,0.92)) !important;
+  color: #f3db94 !important;
+  border-color: rgba(214,168,78,.55) !important;
+}
+
+table td {
+  border-color: rgba(214,168,78,.28) !important;
+  color: #f6edd0;
+}
+
+/* Nie nadpisujemy kolorów wyników/top/limitów */
+td[style*="background"],
+tr[style*="background"],
+.top3,
+.limit-ok,
+.limit-mid,
+.limit-low {
+  filter: none !important;
+}
+
+/* Formularze i przyciski */
+input, select, textarea {
+  background: rgba(12,12,16,.75) !important;
+  color: #f6edd0 !important;
+  border: 1px solid rgba(214,168,78,.45) !important;
+}
+
+button, .btn {
+  background: linear-gradient(180deg, #5a2a78, #321542) !important;
+  color: #f4e7c2 !important;
+  border: 1px solid rgba(214,168,78,.65) !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,.25);
+}
+
+button:hover, .btn:hover {
+  filter: brightness(1.08);
+}
+
+/* Hero z herbem */
+.crest-wrap, .hero-crest, .herb-wrap {
+  background: transparent !important;
+}
+
+/* Guide i inne podstrony */
+body.guide-page,
+.guide-page,
+#guide,
+.guide-content {
+  background-color: transparent !important;
+}
+
+/* Obszary koa fortuny / wyników */
+#wheel, .wheel, .wheel-panel, .latest-results, .code-box {
+  background: rgba(8,8,12,0.72) !important;
+  border: 1px solid rgba(214,168,78,.55) !important;
+  border-radius: 14px;
+}

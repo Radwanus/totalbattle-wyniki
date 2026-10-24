@@ -1,0 +1,3791 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Total Battle – Wyniki</title>
+<style>
+:root {
+  --bg: #121212;
+  --panel: #1a1a1a;
+  --panel2: #222;
+  --line: #6a6a6a;
+  --head: #b5291f;
+  --head2: #8f2119;
+  --text: #f2f2f2;
+  --muted: #a9a9a9;
+  --red: #ff5a45;
+  --blue: #4aa3ff;
+  --green: #55e052;
+  --gold: #ffd700;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: #181818;
+  border-bottom: 1px solid #2d2d2d;
+  box-shadow: 0 2px 10px rgba(0,0,0,.35);
+}
+
+.topbar-inner {
+  max-width: 1500px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 0;
+  min-height: 54px;
+  padding: 0 18px;
+}
+
+.brand {
+  font-weight: 700;
+  padding: 17px 18px;
+  border-right: 1px solid #444;
+}
+
+.nav-item {
+  padding: 17px 18px;
+  border-right: 1px solid #444;
+  color: #eee;
+  text-decoration: none;
+}
+
+.nav-item.active {
+  background: #242424;
+  border-bottom: 2px solid #e53a2e;
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 28px 18px 50px;
+}
+
+.meta {
+  text-align: center;
+  color: #ddd;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.title {
+  font-size: 28px;
+  margin: 0;
+}
+
+.limits {
+  display: flex;
+  gap: 22px;
+  flex-wrap: wrap;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.limit-points { color: var(--green); }
+.limit-epic { color: #75d6ff; }
+
+.table-limit-center {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 4px 0 14px;
+}
+
+.legend {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin: 12px 0 22px;
+  font-size: 13px;
+  color: #ddd;
+}
+
+.legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.dot {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.table-wrap {
+  overflow: auto;
+  max-height: calc(100vh - 250px);
+  border: 1px solid #444;
+  background: #1b1b1b;
+}
+
+.bottom-scroll {
+  overflow-x: auto;
+  overflow-y: hidden;
+  height: 18px;
+  margin-top: 6px;
+  border: 1px solid #333;
+  background: #181818;
+}
+
+.bottom-scroll-inner {
+  height: 1px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 1350px;
+}
+
+th, td {
+  border: 1px solid #777;
+  padding: 8px 9px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+thead th {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: var(--head);
+  color: #111;
+  font-weight: 700;
+}
+
+th.sortable {
+  cursor: pointer;
+  user-select: none;
+}
+
+th.sortable:hover {
+  filter: brightness(1.08);
+}
+
+.sort-arrow {
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 12px;
+  opacity: .9;
+}
+
+.package-detail-cell {
+  cursor: help;
+  position: relative;
+}
+
+.package-detail-cell:hover {
+  outline: 2px solid rgba(255,255,255,.32);
+  outline-offset: -2px;
+}
+
+.epic-detail-cell {
+  cursor: help;
+  position: relative;
+}
+
+.epic-detail-cell:hover {
+  outline: 2px solid rgba(255,255,255,.32);
+  outline-offset: -2px;
+}
+
+.package-tooltip {
+  position: fixed;
+  z-index: 1000;
+  display: none;
+  min-width: 245px;
+  max-width: 320px;
+  padding: 10px 12px;
+  background: #161616;
+  color: #f2f2f2;
+  border: 1px solid #888;
+  border-radius: 7px;
+  box-shadow: 0 5px 18px rgba(0,0,0,.5);
+  pointer-events: none;
+  font-size: 13px;
+}
+
+.package-tooltip.visible {
+  display: block;
+}
+
+.package-tooltip-title {
+  font-weight: 700;
+  margin-bottom: 7px;
+  color: #fff;
+}
+
+.package-tooltip table {
+  min-width: 0;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.package-tooltip td {
+  border: 0;
+  border-top: 1px solid #333;
+  padding: 5px 2px;
+  text-align: left;
+  background: transparent !important;
+}
+
+.package-tooltip td:last-child {
+  text-align: right;
+  font-weight: 700;
+}
+
+.package-tooltip-hint {
+  margin-top: 7px;
+  color: #aaa;
+  font-size: 11px;
+}
+
+thead tr:nth-child(2) th {
+  background: var(--head2);
+  color: #111;
+  top: 35px;
+}
+
+th.player, td.player {
+  position: sticky;
+  left: 0;
+  z-index: 8;
+  text-align: left;
+}
+
+th.player {
+  background: var(--head);
+  z-index: 12;
+}
+
+td.player {
+  background: #464646;
+  font-weight: 600;
+}
+
+tbody tr:nth-child(even) td:not(.player) {
+  background: #767676;
+}
+
+tbody tr:nth-child(odd) td:not(.player) {
+  background: #5c5c5c;
+}
+
+.score-red { color: var(--red); font-weight: 700; }
+.score-blue { color: var(--blue); font-weight: 700; }
+.score-green { color: var(--green); font-weight: 700; }
+.score-gold { color: var(--gold); font-weight: 800; text-shadow: 0 0 5px rgba(255,215,0,.35); }
+
+.cell-score-red {
+  background: #b3261e !important;
+  color: #fff !important;
+  font-weight: 700;
+}
+
+.cell-score-blue {
+  background: #1976b8 !important;
+  color: #fff !important;
+  font-weight: 700;
+}
+
+.cell-score-green {
+  background: #1f8f35 !important;
+  color: #fff !important;
+  font-weight: 700;
+}
+
+.cell-score-gold {
+  background: #d4af00 !important;
+  color: #111 !important;
+  font-weight: 800;
+}
+
+.history-sortable {
+  cursor: pointer;
+  user-select: none;
+}
+
+.history-sortable:hover {
+  filter: brightness(1.08);
+}
+
+.empty {
+  color: var(--muted);
+}
+
+.summary {
+  margin-top: 14px;
+  color: #bbb;
+  font-size: 13px;
+}
+
+.tab-view {
+  display: none;
+}
+
+.tab-view.active-view {
+  display: block;
+}
+
+.archive-subnav {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 18px;
+  flex-wrap: wrap;
+}
+
+.archive-subnav button {
+  padding: 9px 14px;
+  border: 1px solid #555;
+  border-radius: 6px;
+  background: #242424;
+  color: #eee;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.archive-subnav button.active {
+  background: #b5291f;
+  border-color: #d94a3e;
+}
+
+.archive-subview {
+  display: none;
+}
+
+.archive-subview.active {
+  display: block;
+}
+
+.edit-btn {
+  display: inline-block;
+  padding: 10px 16px;
+  background: #b5291f;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #d94a3e;
+  border-radius: 6px;
+  font-weight: 700;
+}
+
+.edit-btn:hover {
+  background: #d0362a;
+}
+
+.manager-tools {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.manager-login-btn {
+  display: inline-block;
+  padding: 10px 16px;
+  background: #2c2c2c;
+  color: #fff;
+  border: 1px solid #666;
+  border-radius: 6px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.manager-login-btn:hover {
+  background: #3a3a3a;
+}
+
+.manager-status {
+  color: #bbb;
+  font-size: 13px;
+  max-width: 420px;
+}
+
+.manager-status.ok {
+  color: var(--green);
+}
+
+.manager-status.no {
+  color: #ff8b7b;
+}
+
+@media (max-width: 800px) {
+  .container { padding: 16px 8px 30px; }
+  .topbar-inner { padding: 0 6px; overflow-x: auto; }
+  .brand, .nav-item { padding: 14px 12px; }
+  .title { font-size: 22px; }
+}
+
+/* ===== COMPACT TABLES 9.8 ===== */
+table th,
+table td {
+  padding: 6px 8px !important;
+  min-width: 62px !important;
+  width: auto !important;
+  white-space: nowrap;
+}
+
+table th.player,
+table td.player,
+.player-col {
+  min-width: 125px !important;
+  width: 125px !important;
+  max-width: 160px !important;
+}
+
+#weekly-history-table th:not(.player),
+#weekly-history-table td:not(.player),
+#epic-history-table th:not(.player),
+#epic-history-table td:not(.player),
+#archive-krypty-table th:not(.player),
+#archive-krypty-table td:not(.player),
+#archive-epiki-table th:not(.player),
+#archive-epiki-table td:not(.player) {
+  min-width: 70px !important;
+  padding-left: 7px !important;
+  padding-right: 7px !important;
+}
+
+@media (max-width: 700px) {
+  table th,
+  table td {
+    padding: 5px 6px !important;
+    min-width: 56px !important;
+    font-size: 13px;
+  }
+
+  table th.player,
+  table td.player,
+  .player-col {
+    min-width: 105px !important;
+    width: 105px !important;
+    max-width: 130px !important;
+  }
+
+  #weekly-history-table th:not(.player),
+  #weekly-history-table td:not(.player),
+  #epic-history-table th:not(.player),
+  #epic-history-table td:not(.player),
+  #archive-krypty-table th:not(.player),
+  #archive-krypty-table td:not(.player),
+  #archive-epiki-table th:not(.player),
+  #archive-epiki-table td:not(.player) {
+    min-width: 60px !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+}
+
+
+/* ===== EXTRA COMPACT 9.8.1 =====
+   Około 50% węższe kluczowe kolumny.
+*/
+#weekly-history-table th.player,
+#weekly-history-table td.player,
+#epic-history-table th.player,
+#epic-history-table td.player,
+#archive-krypty-table th.player,
+#archive-krypty-table td.player,
+#archive-epiki-table th.player,
+#archive-epiki-table td.player {
+  min-width: 64px !important;
+  width: 64px !important;
+  max-width: 82px !important;
+  padding-left: 3px !important;
+  padding-right: 3px !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#weekly-history-table th,
+#weekly-history-table td {
+  min-width: 35px !important;
+  padding-left: 3px !important;
+  padding-right: 3px !important;
+}
+
+#epic-history-table th,
+#epic-history-table td {
+  min-width: 35px !important;
+  padding-left: 3px !important;
+  padding-right: 3px !important;
+}
+
+/* Nagłówki mogą zawijać tekst, dzięki czemu nie wymuszają szerokiej kolumny. */
+#weekly-history-table th,
+#epic-history-table th,
+#archive-krypty-table th,
+#archive-epiki-table th {
+  white-space: normal !important;
+  line-height: 1.05;
+}
+
+@media (max-width: 700px) {
+  #weekly-history-table th.player,
+  #weekly-history-table td.player,
+  #epic-history-table th.player,
+  #epic-history-table td.player,
+  #archive-krypty-table th.player,
+  #archive-krypty-table td.player,
+  #archive-epiki-table th.player,
+  #archive-epiki-table td.player {
+    min-width: 54px !important;
+    width: 54px !important;
+    max-width: 68px !important;
+  }
+
+  #weekly-history-table th,
+  #weekly-history-table td,
+  #epic-history-table th,
+  #epic-history-table td {
+    min-width: 30px !important;
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+  }
+}
+
+
+/* ===== COLUMN WIDTH CORRECTION 9.8.2 ===== */
+
+/* Players — przywrócona szerokość z wersji 9.8 */
+#weekly-history-table th.player,
+#weekly-history-table td.player,
+#epic-history-table th.player,
+#epic-history-table td.player,
+#archive-krypty-table th.player,
+#archive-krypty-table td.player,
+#archive-epiki-table th.player,
+#archive-epiki-table td.player {
+  min-width: 125px !important;
+  width: 125px !important;
+  max-width: 160px !important;
+  padding-left: 7px !important;
+  padding-right: 7px !important;
+  overflow: visible !important;
+  text-overflow: clip !important;
+}
+
+/* Loot Boxes, Points i Epic Bosses — około 50% szerokości z wersji 9.8 */
+#weekly-history-table th:not(.player),
+#weekly-history-table td:not(.player),
+#epic-history-table th:not(.player),
+#epic-history-table td:not(.player),
+#archive-krypty-table th:not(.player),
+#archive-krypty-table td:not(.player),
+#archive-epiki-table th:not(.player),
+#archive-epiki-table td:not(.player) {
+  min-width: 35px !important;
+  width: 35px !important;
+  padding-left: 3px !important;
+  padding-right: 3px !important;
+}
+
+/* Długie nagłówki nie rozszerzają kolumn. */
+#weekly-history-table th:not(.player),
+#epic-history-table th:not(.player),
+#archive-krypty-table th:not(.player),
+#archive-epiki-table th:not(.player) {
+  white-space: normal !important;
+  overflow-wrap: anywhere;
+  line-height: 1.05;
+}
+
+@media (max-width: 700px) {
+  /* Players wraca do mobilnej szerokości z 9.8 */
+  #weekly-history-table th.player,
+  #weekly-history-table td.player,
+  #epic-history-table th.player,
+  #epic-history-table td.player,
+  #archive-krypty-table th.player,
+  #archive-krypty-table td.player,
+  #archive-epiki-table th.player,
+  #archive-epiki-table td.player {
+    min-width: 105px !important;
+    width: 105px !important;
+    max-width: 130px !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+
+  #weekly-history-table th:not(.player),
+  #weekly-history-table td:not(.player),
+  #epic-history-table th:not(.player),
+  #epic-history-table td:not(.player),
+  #archive-krypty-table th:not(.player),
+  #archive-krypty-table td:not(.player),
+  #archive-epiki-table th:not(.player),
+  #archive-epiki-table td:not(.player) {
+    min-width: 30px !important;
+    width: 30px !important;
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+  }
+}
+
+
+/* ===== REAL COLUMN WIDTH FIX 9.8.3 =====
+   Przeglądarka nie może już rozciągać Players do wolnej przestrzeni.
+*/
+#weekly-history-table,
+#epic-history-table,
+#archive-krypty-table,
+#archive-epiki-table {
+  table-layout: fixed !important;
+  width: max-content !important;
+  min-width: max-content !important;
+}
+
+/* Players — szerokość dobrana do typowych nicków, bez zajmowania połowy ekranu */
+#weekly-history-table th.player,
+#weekly-history-table td.player,
+#epic-history-table th.player,
+#epic-history-table td.player,
+#archive-krypty-table th.player,
+#archive-krypty-table td.player,
+#archive-epiki-table th.player,
+#archive-epiki-table td.player {
+  min-width: 150px !important;
+  width: 150px !important;
+  max-width: 150px !important;
+  box-sizing: border-box !important;
+  padding-left: 7px !important;
+  padding-right: 7px !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+}
+
+/* Wąskie kolumny liczbowe */
+#weekly-history-table th:not(.player),
+#weekly-history-table td:not(.player),
+#archive-krypty-table th:not(.player),
+#archive-krypty-table td:not(.player) {
+  min-width: 82px !important;
+  width: 82px !important;
+  max-width: 82px !important;
+  box-sizing: border-box !important;
+  padding-left: 4px !important;
+  padding-right: 4px !important;
+}
+
+#epic-history-table th:not(.player),
+#epic-history-table td:not(.player),
+#archive-epiki-table th:not(.player),
+#archive-epiki-table td:not(.player) {
+  min-width: 88px !important;
+  width: 88px !important;
+  max-width: 88px !important;
+  box-sizing: border-box !important;
+  padding-left: 4px !important;
+  padding-right: 4px !important;
+}
+
+/* Długie nagłówki mogą się zawijać, ale kolumny nie rosną */
+#weekly-history-table th:not(.player),
+#epic-history-table th:not(.player),
+#archive-krypty-table th:not(.player),
+#archive-epiki-table th:not(.player) {
+  white-space: normal !important;
+  overflow-wrap: anywhere !important;
+  line-height: 1.1 !important;
+}
+
+/* Mobilnie jeszcze trochę ciaśniej */
+@media (max-width: 700px) {
+  #weekly-history-table th.player,
+  #weekly-history-table td.player,
+  #epic-history-table th.player,
+  #epic-history-table td.player,
+  #archive-krypty-table th.player,
+  #archive-krypty-table td.player,
+  #archive-epiki-table th.player,
+  #archive-epiki-table td.player {
+    min-width: 120px !important;
+    width: 120px !important;
+    max-width: 120px !important;
+  }
+
+  #weekly-history-table th:not(.player),
+  #weekly-history-table td:not(.player),
+  #archive-krypty-table th:not(.player),
+  #archive-krypty-table td:not(.player) {
+    min-width: 68px !important;
+    width: 68px !important;
+    max-width: 68px !important;
+  }
+
+  #epic-history-table th:not(.player),
+  #epic-history-table td:not(.player),
+  #archive-epiki-table th:not(.player),
+  #archive-epiki-table td:not(.player) {
+    min-width: 74px !important;
+    width: 74px !important;
+    max-width: 74px !important;
+  }
+}
+
+
+/* ===== PROPORTIONS + SCROLLBAR FIX 9.8.4 =====
+   Czytelne szerokości i kontener kończący się przy ostatniej kolumnie.
+*/
+
+/* Kontenery nie rozciągają się sztucznie na cały ekran.
+   Jeśli historia urośnie ponad szerokość ekranu, max-width:100% uruchomi przewijanie. */
+#weekly-table-wrap,
+#epic-table-wrap,
+#archive-krypty-wrap,
+#archive-epiki-wrap {
+  width: fit-content !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+/* Dolne suwaki mają dokładnie taką samą logikę szerokości jak tabela. */
+#weekly-bottom-scroll,
+#epic-bottom-scroll,
+#archive-krypty-bottom-scroll,
+#archive-epiki-bottom-scroll {
+  width: fit-content !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+/* Tabela ma szerokość wynikającą z kolumn, a nie z całego ekranu. */
+#weekly-history-table,
+#epic-history-table,
+#archive-krypty-table,
+#archive-epiki-table {
+  table-layout: fixed !important;
+  width: max-content !important;
+  min-width: 0 !important;
+}
+
+/* Players: komfortowo dla nicków, ale bez przesady. */
+#weekly-history-table th.player,
+#weekly-history-table td.player,
+#epic-history-table th.player,
+#epic-history-table td.player,
+#archive-krypty-table th.player,
+#archive-krypty-table td.player,
+#archive-epiki-table th.player,
+#archive-epiki-table td.player {
+  min-width: 185px !important;
+  width: 185px !important;
+  max-width: 185px !important;
+  box-sizing: border-box !important;
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+/* Crypts / Citadels: Loot Boxes oraz Points */
+#weekly-history-table th:not(.player),
+#weekly-history-table td:not(.player),
+#archive-krypty-table th:not(.player),
+#archive-krypty-table td:not(.player) {
+  min-width: 108px !important;
+  width: 108px !important;
+  max-width: 108px !important;
+  box-sizing: border-box !important;
+  padding-left: 7px !important;
+  padding-right: 7px !important;
+}
+
+/* Epic Bosses */
+#epic-history-table th:not(.player),
+#epic-history-table td:not(.player),
+#archive-epiki-table th:not(.player),
+#archive-epiki-table td:not(.player) {
+  min-width: 122px !important;
+  width: 122px !important;
+  max-width: 122px !important;
+  box-sizing: border-box !important;
+  padding-left: 7px !important;
+  padding-right: 7px !important;
+}
+
+/* Nagłówki pozostają czytelne. */
+#weekly-history-table th:not(.player),
+#epic-history-table th:not(.player),
+#archive-krypty-table th:not(.player),
+#archive-epiki-table th:not(.player) {
+  white-space: normal !important;
+  overflow-wrap: normal !important;
+  word-break: normal !important;
+  line-height: 1.15 !important;
+}
+
+/* Na telefonie lekko ciaśniej, ale nadal czytelnie. */
+@media (max-width: 700px) {
+  #weekly-history-table th.player,
+  #weekly-history-table td.player,
+  #epic-history-table th.player,
+  #epic-history-table td.player,
+  #archive-krypty-table th.player,
+  #archive-krypty-table td.player,
+  #archive-epiki-table th.player,
+  #archive-epiki-table td.player {
+    min-width: 150px !important;
+    width: 150px !important;
+    max-width: 150px !important;
+  }
+
+  #weekly-history-table th:not(.player),
+  #weekly-history-table td:not(.player),
+  #archive-krypty-table th:not(.player),
+  #archive-krypty-table td:not(.player) {
+    min-width: 92px !important;
+    width: 92px !important;
+    max-width: 92px !important;
+  }
+
+  #epic-history-table th:not(.player),
+  #epic-history-table td:not(.player),
+  #archive-epiki-table th:not(.player),
+  #archive-epiki-table td:not(.player) {
+    min-width: 104px !important;
+    width: 104px !important;
+    max-width: 104px !important;
+  }
+}
+
+
+/* ===== V177B WHEEL FRONTEND INTEGRATION ===== */
+.v177b-wheel-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+  width: 100%;
+}
+
+.v177b-table-column {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.v177b-wheel-frame {
+  display: block;
+  flex: 0 0 900px;
+  width: 900px;
+  height: 820px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  background: #050505;
+  box-sizing: border-box;
+}
+
+.v177b-winners-frame {
+  display: block;
+  width: 100%;
+  height: 650px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  background: #050505;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1350px) {
+  .v177b-wheel-layout {
+    flex-direction: column;
+  }
+
+  .v177b-wheel-frame {
+    width: 100%;
+    max-width: 900px;
+    flex-basis: auto;
+  }
+}
+
+
+
+/* ===== V177C1 MOBILE IFRAMES ===== */
+@media (max-width: 700px) {
+
+  .v177b-wheel-layout {
+    display: block !important;
+    width: 100% !important;
+  }
+
+  .v177b-table-column {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .v177b-wheel-frame {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 900px !important;
+    margin: 16px 0 0 !important;
+    border-radius: 8px;
+  }
+
+  .v177b-winners-frame {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 760px !important;
+  }
+
+  .container {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
+}
+
+@media (max-width: 420px) {
+  .v177b-wheel-frame {
+    height: 940px !important;
+  }
+}
+
+
+
+/* ===== V177C3 RANKING COLUMN VISIBILITY ===== */
+
+/* Lewa cz ma wystarczajco duo miejsca na komplet 4 kolumn. */
+#view-wyniki .v177b-table-column {
+  min-width: 535px !important;
+}
+
+/* Position in the ranking nie moe zosta cinite. */
+#weekly-history-table th:nth-child(4),
+#weekly-history-table td:nth-child(4) {
+  min-width: 120px !important;
+  width: 120px !important;
+  max-width: 120px !important;
+  box-sizing: border-box !important;
+}
+
+/* Na desktopie nie chcemy poziomego przewijania,
+   jeli pena tabela mieci si obok koa. */
+@media (min-width: 1351px) {
+  #view-wyniki #weekly-table-wrap {
+    overflow-x: visible !important;
+  }
+}
+
+/* Telefon pozostaje responsywny i moe przewija tabel poziomo. */
+@media (max-width: 700px) {
+  #view-wyniki .v177b-table-column {
+    min-width: 0 !important;
+  }
+
+  #view-wyniki #weekly-table-wrap {
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+
+/* V250 RESTORE EPIC RESULTS + FIT TOP3 TO WHEEL */
+
+/* V248 opakował iframe w nowy kontener. Kontener ma przejąć dokładnie
+   geometrię dawnego iframe: 900 px jako stała prawa kolumna. */
+.v177b-wheel-layout > .v248-wheel-column {
+  flex: 0 0 900px !important;
+  width: 900px !important;
+  min-width: 900px !important;
+  max-width: 900px !important;
+  box-sizing: border-box !important;
+}
+
+/* Sam iframe w wrapperze ma zajmować dokładnie szerokość wrappera. */
+.v177b-wheel-layout > .v248-wheel-column > .v177b-wheel-frame {
+  display: block !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+  flex: none !important;
+}
+
+/* Przywrócenie normalnej szerokości głównej tabeli Epic Bosses.
+   Crypts miało już ten bezpiecznik od V177C3. */
+#view-epickie .v177b-table-column {
+  flex: 1 1 auto !important;
+  min-width: 535px !important;
+  width: auto !important;
+  max-width: none !important;
+}
+
+/* TOP3 ma mieć DOKŁADNIE szerokość koła/wrappera, a nie globalną
+   minimalną szerokość zwykłych tabel wynikowych. */
+#view-wyniki #v248-prev-top3-crypt,
+#view-epickie #v248-prev-top3-epic {
+  display: block !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+  overflow: hidden !important;
+}
+
+#view-wyniki #v248-prev-top3-crypt .v248-prev-top3-card,
+#view-epickie #v248-prev-top3-epic .v248-prev-top3-card {
+  display: block !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  box-sizing: border-box !important;
+  overflow: hidden !important;
+}
+
+#view-wyniki #v248-prev-top3-crypt .v248-prev-top3-card table,
+#view-epickie #v248-prev-top3-epic .v248-prev-top3-card table {
+  display: table !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+  table-layout: fixed !important;
+  margin: 0 !important;
+  box-sizing: border-box !important;
+}
+
+#view-wyniki #v248-prev-top3-crypt .v248-prev-top3-card th,
+#view-wyniki #v248-prev-top3-crypt .v248-prev-top3-card td,
+#view-epickie #v248-prev-top3-epic .v248-prev-top3-card th,
+#view-epickie #v248-prev-top3-epic .v248-prev-top3-card td {
+  min-width: 0 !important;
+  box-sizing: border-box !important;
+}
+
+/* # i Spins są wąskie; Player bierze resztę szerokości koła. */
+#view-wyniki #v248-prev-top3-crypt .v248-prev-top3-card th:nth-child(1),
+#view-wyniki #v248-prev-top3-crypt .v248-prev-top3-card td:nth-child(1),
+#view-epickie #v248-prev-top3-epic .v248-prev-top3-card th:nth-child(1),
+#view-epickie #v248-prev-top3-epic .v248-prev-top3-card td:nth-child(1) {
+  width: 52px !important;
+  min-width: 52px !important;
+  max-width: 52px !important;
+}
+
+#view-wyniki #v248-prev-top3-crypt .v248-prev-top3-card th:nth-child(2),
+#view-wyniki #v248-prev-top3-crypt .v248-prev-top3-card td:nth-child(2),
+#view-epickie #v248-prev-top3-epic .v248-prev-top3-card th:nth-child(2),
+#view-epickie #v248-prev-top3-epic .v248-prev-top3-card td:nth-child(2) {
+  width: auto !important;
+  min-width: 0 !important;
+  max-width: none !important;
+}
+
+#view-wyniki #v248-prev-top3-crypt .v248-prev-top3-card th:nth-child(3),
+#view-wyniki #v248-prev-top3-crypt .v248-prev-top3-card td:nth-child(3),
+#view-epickie #v248-prev-top3-epic .v248-prev-top3-card th:nth-child(3),
+#view-epickie #v248-prev-top3-epic .v248-prev-top3-card td:nth-child(3) {
+  width: 82px !important;
+  min-width: 82px !important;
+  max-width: 82px !important;
+  text-align: center !important;
+}
+
+#view-wyniki #v248-prev-top3-crypt .v248-nick,
+#view-epickie #v248-prev-top3-epic .v248-nick {
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+}
+
+/* Zachowanie zgodne z dawnym V177B na węższych ekranach. */
+@media (max-width: 1350px) {
+  .v177b-wheel-layout > .v248-wheel-column {
+    flex: 0 1 auto !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 900px !important;
+  }
+
+  #view-epickie .v177b-table-column {
+    min-width: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
+
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="#" onclick="openTotalBattleAutoLanguage(); return false;" title="Open Total Battle">⚔️ Total Battle</a>
+    <a class="nav-item active" href="#" id="tab-wyniki" onclick="showTab('wyniki'); return false;">Crypts / Citadels</a>
+    <a class="nav-item" href="#" id="tab-epickie" onclick="showTab('epickie'); return false;">Epic Bosses</a>
+    <a class="nav-item"
+       href="#"
+       id="tab-winners"
+       onclick="showV177BWinners(); return false;">Winners</a>
+    <a class="nav-item" href="#" id="tab-szczegoly" onclick="showTab('szczegoly'); return false;">Details</a>
+    <a class="nav-item" href="#" id="tab-punktacja" onclick="showTab('punktacja'); return false;">Scoring</a>
+    <a class="nav-item" href="#" id="tab-archiwum" onclick="showTab('archiwum'); return false;">Archives</a>
+    <a class="nav-item"
+       href="#"
+       id="tab-lokalizacja"
+       onclick="showTab('lokalizacja'); return false;"
+       style="display:none;"
+       title="Private manager view">🔒 Lokalizacja</a>
+  </div>
+</div>
+
+<div class="container">
+  <div class="meta">📅 Ostatnia aktualizacja: 22.10.2026 17:51</div>
+
+  <div class="controls">
+    <h1 class="title">Weekly Norms</h1>
+  </div>
+
+  <div class="legend">
+    <span><i class="dot" style="background:var(--gold)"></i> TOP 3 after reaching the limit</span>
+    <span><i class="dot" style="background:var(--green)"></i> limit reached</span>
+    <span><i class="dot" style="background:var(--blue)"></i> 50–99% of the limit</span>
+    <span><i class="dot" style="background:var(--red)"></i> below 50%</span>
+  </div>
+
+  <section id="view-wyniki" class="tab-view active-view">
+    <div class="controls" style="margin-top:0;">
+      <h2 class="title">Crypts / Citadels</h2>
+    </div>
+    <div class="v177b-wheel-layout">
+      <div class="v177b-table-column">
+<div class="table-limit-center limit-points">Point limit ≥ 26000</div>
+    <div class="table-wrap" id="weekly-table-wrap">
+      <table id="weekly-history-table">
+        <thead id="weekly-history-head"></thead>
+        <tbody id="weekly-history-body"></tbody>
+      </table>
+    </div>
+    <div class="bottom-scroll" id="weekly-bottom-scroll">
+      <div class="bottom-scroll-inner" id="weekly-bottom-scroll-inner"></div>
+    </div>
+    <div class="summary" id="summary"></div>
+      </div>
+      <div class="v248-wheel-column">
+        <iframe class="v177b-wheel-frame" src="wheel.html?embed=crypt" title="Wheel of Fortune - crypt" loading="eager"></iframe>
+        <div id="v248-prev-top3-crypt"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="view-epickie" class="tab-view">
+    <div class="controls" style="margin-top:0;">
+      <h2 class="title">Epic Bosses</h2>
+    </div>
+
+    <div class="v177b-wheel-layout">
+      <div class="v177b-table-column">
+<div class="table-limit-center limit-epic">Epic pack limit ≥ 150</div>
+    <div class="table-wrap" id="epic-table-wrap">
+      <table id="epic-history-table">
+        <thead id="epic-history-head"></thead>
+        <tbody id="epic-history-body"></tbody>
+      </table>
+    </div>
+    <div class="bottom-scroll" id="epic-bottom-scroll">
+      <div class="bottom-scroll-inner" id="epic-bottom-scroll-inner"></div>
+    </div>
+      </div>
+      <div class="v248-wheel-column">
+        <iframe class="v177b-wheel-frame" src="wheel.html?embed=epic" title="Wheel of Fortune - epic" loading="eager"></iframe>
+        <div id="v248-prev-top3-epic"></div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="view-winners" class="tab-view">
+    <div class="controls" style="margin-top:0;">
+      <h2 class="title">Winners</h2>
+    </div>
+
+    <iframe class="v177b-winners-frame"
+            src="wheel.html?embed=winners"
+            title="Wheel of Fortune Winners"
+            loading="eager"></iframe>
+  </section>
+
+<section id="view-szczegoly" class="tab-view">
+    <div class="controls" style="margin-top:0;">
+      <h2 class="title">Details</h2>
+    </div>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Type of package</th>
+            <th>Players</th>
+            <th>Source</th>
+            <th>Points</th>
+          </tr>
+        </thead>
+        <tbody id="tbody-szczegoly"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="view-punktacja" class="tab-view">
+    <div class="controls" style="margin-top:0;">
+      <h2 class="title">Box scoring</h2>
+      <div class="manager-tools">
+        <button id="manager-login-btn"
+                class="manager-login-btn"
+                type="button"
+                onclick="managerLogin()">🔐 Zaloguj jako Zarządca</button>
+
+        <a id="manager-edit-btn"
+           class="edit-btn"
+           target="_blank"
+           rel="noopener noreferrer"
+           style="display:none;">✏️ Edytuj punktację — Zarządca</a>
+
+        <span id="manager-status" class="manager-status"></span>
+      </div>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th style="text-align:left;">Source / rodzaj paczki</th>
+            <th>Points</th>
+          </tr>
+        </thead>
+        <tbody id="tbody-punktacja"></tbody>
+      </table>
+    </div>
+    <div class="summary">
+      Edycja jest dostępna wyłącznie po zalogowaniu kontem Google,
+      które ma prawo edycji tego arkusza.
+    </div>
+  </section>
+
+  <section id="view-lokalizacja" class="tab-view">
+    <div class="controls" style="margin-top:0;">
+      <h2 class="title">🔒 Lokalizacja</h2>
+      <div class="manager-tools">
+        <button type="button"
+                class="manager-login-btn"
+                onclick="loadLocationData(true)">↻ Odśwież dane</button>
+        <span id="location-status" class="manager-status"></span>
+      </div>
+    </div>
+
+    <div class="summary" style="margin-bottom:12px;">
+      Dane prywatne Zarządców. Nie są publikowane w plikach GitHub Pages.
+    </div>
+
+    <div class="controls">
+      <input id="location-search"
+             type="search"
+             placeholder="Szukaj gracza, kraju, kodu lub providera…"
+             oninput="renderLocationTable()"
+             style="min-width:280px; padding:9px 12px;">
+      <select id="location-status-filter"
+              onchange="renderLocationTable()"
+              style="padding:9px 12px;">
+        <option value="ALL">Wszyscy</option>
+        <option value="ACTIVE">Bieżący</option>
+        <option value="FORMER">Byli</option>
+      </select>
+      <select id="location-country-filter"
+              onchange="renderLocationTable()"
+              style="padding:9px 12px;">
+        <option value="ALL">Wszystkie kraje</option>
+      </select>
+    </div>
+
+    <div class="table-wrap">
+      <table id="location-table">
+        <thead>
+          <tr>
+            <th style="text-align:left;">Gracz</th>
+            <th>Status</th>
+            <th>Kod kraju</th>
+            <th>Kraj</th>
+            <th>Provider / konto</th>
+            <th>AccountID</th>
+            <th>FirstSeen</th>
+            <th>LastSeen</th>
+            <th>GUID</th>
+          </tr>
+        </thead>
+        <tbody id="location-body">
+          <tr><td colspan="9">Zaloguj się jako Zarządca, aby pobrać dane.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="view-archiwum" class="tab-view">
+    <div class="controls" style="margin-top:0;">
+      <h2 class="title">Archives</h2>
+    </div>
+
+    <div class="archive-subnav">
+      <button id="archive-tab-krypty" class="active" type="button" onclick="showArchiveSubtab('krypty')">Krypty</button>
+      <button id="archive-tab-epiki" type="button" onclick="showArchiveSubtab('epiki')">Epiki</button>
+    </div>
+
+    <div id="archive-view-krypty" class="archive-subview active">
+      <div class="table-wrap" id="archive-krypty-wrap">
+        <table id="archive-krypty-table">
+          <thead id="archive-krypty-head"></thead>
+          <tbody id="archive-krypty-body"></tbody>
+        </table>
+      </div>
+      <div class="bottom-scroll" id="archive-krypty-bottom-scroll">
+        <div class="bottom-scroll-inner" id="archive-krypty-bottom-scroll-inner"></div>
+      </div>
+    </div>
+
+    <div id="archive-view-epiki" class="archive-subview">
+      <div class="table-wrap" id="archive-epiki-wrap">
+        <table id="archive-epiki-table">
+          <thead id="archive-epiki-head"></thead>
+          <tbody id="archive-epiki-body"></tbody>
+        </table>
+      </div>
+      <div class="bottom-scroll" id="archive-epiki-bottom-scroll">
+        <div class="bottom-scroll-inner" id="archive-epiki-bottom-scroll-inner"></div>
+      </div>
+    </div>
+  </section>
+
+  <div id="package-tooltip" class="package-tooltip" role="tooltip" aria-hidden="true"></div>
+</div>
+
+<script src="https://accounts.google.com/gsi/client" async defer></script>
+<script>
+const LIMIT_PUNKTOW = 26000;
+const LIMIT_EPICKICH = 150;
+const PUNKTACJA_PACZEK = {"Bank": 0, "Skrzynia Arkanów": 0, "Skrzynia Mrocznych Omenów": 0, "Arachne": 0, "Krypta 5 poziomu": 0, "Krypta 10 poziomu": 0, "Krypta 15 poziomu": 0, "Krypta 20 poziomu": 0, "Krypta 25 poziomu": 4, "Epicka krypta 15 poziomu": 0, "Epicka krypta 20 poziomu": 10, "Epicka krypta 25 poziomu": 40, "Epicka krypta 30 poziomu": 100, "Epicka krypta 35 poziomu": 130, "Rzadka krypta 10 poziomu": 0, "Rzadka krypta 15 poziomu": 0, "Rzadka krypta 20 poziomu": 0, "Rzadka krypta 25 poziomu": 30, "Rzadka krypta 30 poziomu": 90, "Heroiczny potwor 16 poziomu": 0, "Heroiczny potwor 17 poziomu": 0, "Heroiczny potwor 18 poziomu": 0, "Heroiczny potwor 19 poziomu": 0, "Heroiczny potwor 20 poziomu": 0, "Heroiczny potwor 21 poziomu": 0, "Heroiczny potwor 22 poziomu": 0, "Heroiczny potwor 23 poziomu": 0, "Heroiczny potwor 24 poziomu": 0, "Heroiczny potwor 25 poziomu": 0, "Heroiczny potwor 26 poziomu": 30, "Heroiczny potwor 27 poziomu": 30, "Heroiczny potwor 28 poziomu": 30, "Heroiczny potwor 29 poziomu": 30, "Heroiczny potwor 30 poziomu": 30, "Heroiczny potwor 31 poziomu": 30, "Heroiczny potwor 32 poziomu": 30, "Heroiczny potwor 33 poziomu": 30, "Heroiczny potwor 34 poziomu": 30, "Heroiczny potwor 35 poziomu": 30, "Heroiczny potwor 36 poziomu": 30, "Heroiczny potwor 37 poziomu": 30, "Heroiczny potwor 38 poziomu": 30, "Heroiczny potwor 39 poziomu": 30, "Heroiczny potwor 40 poziomu": 30, "Heroiczny potwor 41 poziomu": 60, "Heroiczny potwor 42 poziomu": 60, "Heroiczny potwor 43 poziomu": 60, "Heroiczny potwor 44 poziomu": 60, "Heroiczny potwor 45 poziomu": 60, "Heroiczny potwor 46 poziomu": 200, "Epicki oddział inferno": 0, "Skrzynia z Twierdzy Elfów 10 poziomu": 0, "Skrzynia z Twierdzy Elfów 15 poziomu": 0, "Skrzynia z Twierdzy Elfów 20 poziomu": 0, "Skrzynia z Twierdzy Elfów 25 poziomu": 20, "Skrzynia z Twierdzy Elfów 30 poziomu": 80, "Skrzynia z Twierdzy Przeklętych 20 poziomu": 5, "Skrzynia z Twierdzy Przeklętych 25 poziomu": 10, "Epicki oddział nieumarłych": 0, "Epicki oddział Roju Arachne": 0, "Epicki oddział Briareosa": 0, "Epicki oddział jormungandów": 0, "Skrzynia Jormunganda": 0, "Epicki oddział fenrirów": 0, "Skrzynia Fenrira": 0, "Sklep Hermesa": 0, "Skrzynia Hermesa": 0, "Twierdza Elfów 10 poziomu": 0, "Twierdza Elfów 15 poziomu": 0, "Twierdza Elfów 20 poziomu": 0, "Twierdza Elfów 25 poziomu": 20, "Twierdza Elfów 30 poziomu": 80, "Twierdza Przeklętych 20 poziomu": 5, "Twierdza Przeklętych 25 poziomu": 10};
+const CURRENT_PERIOD_LABEL = "2026 18.10 - 25.10";
+
+const GOOGLE_CLIENT_ID = "575890140414-5geac03dcbv7vnmfcjdkg221gnpikab1.apps.googleusercontent.com";
+const GOOGLE_DRIVE_SCOPE = "https://www.googleapis.com/auth/drive.metadata.readonly https://www.googleapis.com/auth/spreadsheets.readonly";
+const SPREADSHEET_FILE_ID = "1aa8iv2H1kQwcKnjiSvsJk0JcN0Uz76Lz19xYaW3JkTI";
+const PUNKTACJA_EDIT_URL = "https://docs.google.com/spreadsheets/d/1aa8iv2H1kQwcKnjiSvsJk0JcN0Uz76Lz19xYaW3JkTI/edit#gid=720098777";
+
+let managerTokenClient = null;
+let managerAccessToken = null;
+
+const MANAGER_SESSION_KEY = 'tb_manager_verified';
+const MANAGER_TOKEN_KEY = 'tb_manager_access_token';
+const MANAGER_TOKEN_EXPIRES_KEY = 'tb_manager_token_expires';
+const ACTIVE_TAB_SESSION_KEY = 'tb_active_tab';
+
+let locationRowsGlobal = [];
+
+function rememberManagerToken(token, expiresInSec=3600) {
+  try {
+    if (!token) {
+      sessionStorage.removeItem(MANAGER_TOKEN_KEY);
+      sessionStorage.removeItem(MANAGER_TOKEN_EXPIRES_KEY);
+      return;
+    }
+    const expiresAt = Date.now() + Math.max(60, Number(expiresInSec || 3600) - 60) * 1000;
+    sessionStorage.setItem(MANAGER_TOKEN_KEY, token);
+    sessionStorage.setItem(MANAGER_TOKEN_EXPIRES_KEY, String(expiresAt));
+  } catch (_) {}
+}
+
+function restoreManagerToken() {
+  try {
+    const token = sessionStorage.getItem(MANAGER_TOKEN_KEY);
+    const expiresAt = Number(sessionStorage.getItem(MANAGER_TOKEN_EXPIRES_KEY) || 0);
+    if (!token || !expiresAt || Date.now() >= expiresAt) {
+      rememberManagerToken(null);
+      return null;
+    }
+    return token;
+  } catch (_) {
+    return null;
+  }
+}
+
+function rememberManagerSession(isVerified) {
+  try {
+    if (isVerified) {
+      sessionStorage.setItem(MANAGER_SESSION_KEY, '1');
+    } else {
+      sessionStorage.removeItem(MANAGER_SESSION_KEY);
+    }
+  } catch (_) {}
+}
+
+function restoreManagerSession() {
+  try {
+    return sessionStorage.getItem(MANAGER_SESSION_KEY) === '1';
+  } catch (_) {
+    return false;
+  }
+}
+
+function rememberActiveTab(tab) {
+  try {
+    sessionStorage.setItem(ACTIVE_TAB_SESSION_KEY, tab || 'wyniki');
+  } catch (_) {}
+}
+
+function restoreActiveTab() {
+  try {
+    return sessionStorage.getItem(ACTIVE_TAB_SESSION_KEY) || 'wyniki';
+  } catch (_) {
+    return 'wyniki';
+  }
+}
+
+let weeklyRowsGlobal = [];
+let epicRowsGlobal = [];
+
+let weeklySort = { key: 'punkty', dir: 'desc' };
+let epicSort = { key: 'epickie', dir: 'desc' };
+
+// Sortowanie tabeli historii:
+// domyślnie po punktach bieżącego okresu malejąco.
+let weeklyHistorySort = {
+  type: 'period',
+  period: CURRENT_PERIOD_LABEL,
+  field: 'punkty',
+  dir: 'desc'
+};
+let weeklyHistoryDateGlobal = [];
+
+let epicHistorySort = {
+  type: 'period',
+  period: CURRENT_PERIOD_LABEL,
+  field: 'epickie',
+  dir: 'desc'
+};
+let epicHistoryDateGlobal = [];
+
+function setManagerStatus(text, kind='') {
+  const el = document.getElementById('manager-status');
+  if (!el) return;
+  el.textContent = text || '';
+  el.classList.remove('ok', 'no');
+  if (kind) el.classList.add(kind);
+}
+
+function hideManagerEdit() {
+  const editBtn = document.getElementById('manager-edit-btn');
+  if (!editBtn) return;
+  editBtn.style.display = 'none';
+  editBtn.removeAttribute('href');
+}
+
+function hidePrivateLocation() {
+  const el = document.getElementById('tab-lokalizacja');
+  if (!el) return;
+  el.style.display = 'none';
+}
+
+function showPrivateLocation() {
+  const el = document.getElementById('tab-lokalizacja');
+  if (!el) return;
+  el.style.display = 'inline-block';
+}
+
+function showManagerEdit() {
+  const editBtn = document.getElementById('manager-edit-btn');
+  if (!editBtn) return;
+  editBtn.href = PUNKTACJA_EDIT_URL;
+  editBtn.style.display = 'inline-block';
+}
+
+function initManagerAuth() {
+  if (managerTokenClient) return true;
+  if (!window.google || !google.accounts || !google.accounts.oauth2) return false;
+
+  managerTokenClient = google.accounts.oauth2.initTokenClient({
+    client_id: GOOGLE_CLIENT_ID,
+    scope: GOOGLE_DRIVE_SCOPE,
+    callback: async (response) => {
+      hideManagerEdit();
+      hidePrivateLocation();
+
+      if (!response || response.error) {
+        const msg = response?.error_description || response?.error || 'Nie udało się zalogować.';
+        setManagerStatus('Logowanie nie powiodło się: ' + msg, 'no');
+        return;
+      }
+
+      managerAccessToken = response.access_token || null;
+      rememberManagerToken(managerAccessToken, response.expires_in || 3600);
+      if (!managerAccessToken) {
+        setManagerStatus('Google nie zwrócił tokena dostępu.', 'no');
+        return;
+      }
+
+      setManagerStatus('Sprawdzam uprawnienia do arkusza…');
+      await checkManagerPermission(managerAccessToken);
+    },
+    error_callback: (err) => {
+      hideManagerEdit();
+      const typ = err?.type || 'nieznany błąd';
+      setManagerStatus('Przerwano logowanie: ' + typ, 'no');
+    }
+  });
+
+  return true;
+}
+
+function managerLogin() {
+  if (!initManagerAuth()) {
+    setManagerStatus('Moduł logowania Google jeszcze się ładuje. Spróbuj ponownie za chwilę.');
+    setTimeout(initManagerAuth, 500);
+    return;
+  }
+
+  setManagerStatus('Otwieram logowanie Google…');
+  managerTokenClient.requestAccessToken({prompt: 'select_account'});
+}
+
+async function checkManagerPermission(accessToken) {
+  try {
+    const url =
+      'https://www.googleapis.com/drive/v3/files/' +
+      encodeURIComponent(SPREADSHEET_FILE_ID) +
+      '?fields=id,name,capabilities(canEdit)&supportsAllDrives=true';
+
+    const res = await fetch(url, {
+      method: 'GET',
+      headers: {
+        'Authorization': 'Bearer ' + accessToken,
+        'Accept': 'application/json'
+      }
+    });
+
+    if (!res.ok) {
+      let details = '';
+      try {
+        const err = await res.json();
+        details = err?.error?.message || '';
+      } catch (_) {}
+
+      rememberManagerSession(false);
+      rememberManagerToken(null);
+      managerAccessToken = null;
+      hideManagerEdit();
+      hidePrivateLocation();
+
+      if (res.status === 401) {
+        setManagerStatus('Sesja Google wygasła. Zaloguj się ponownie.', 'no');
+      } else if (res.status === 403) {
+        setManagerStatus(
+          'To konto nie może sprawdzić uprawnień do arkusza' +
+          (details ? ': ' + details : '.'),
+          'no'
+        );
+      } else {
+        setManagerStatus(
+          'Nie udało się sprawdzić uprawnień (HTTP ' + res.status + ')' +
+          (details ? ': ' + details : '.'),
+          'no'
+        );
+      }
+      return;
+    }
+
+    const info = await res.json();
+    const canEdit = Boolean(info?.capabilities?.canEdit);
+
+    if (canEdit) {
+      rememberManagerSession(true);
+      showManagerEdit();
+      showPrivateLocation();
+      setManagerStatus('Uprawnienia Zarządcy potwierdzone.', 'ok');
+      if (restoreActiveTab() === 'lokalizacja') {
+        loadLocationData(false);
+      }
+    } else {
+      rememberManagerSession(false);
+      hideManagerEdit();
+      hidePrivateLocation();
+      setManagerStatus('To konto nie ma uprawnień do edycji punktacji.', 'no');
+    }
+  } catch (err) {
+    rememberManagerSession(false);
+    rememberManagerToken(null);
+    managerAccessToken = null;
+    hideManagerEdit();
+    hidePrivateLocation();
+    setManagerStatus('Błąd sprawdzania uprawnień: ' + (err?.message || err), 'no');
+  }
+}
+
+window.addEventListener('load', () => {
+  managerAccessToken = restoreManagerToken();
+  const managerWasVerified = restoreManagerSession();
+
+  if (managerWasVerified) {
+    showManagerEdit();
+    showPrivateLocation();
+    setManagerStatus('Uprawnienia Zarządcy potwierdzone — sesja przywrócona.', 'ok');
+  } else {
+    hideManagerEdit();
+    hidePrivateLocation();
+  }
+
+  // Po odświeżeniu wróć do ostatnio oglądanej zakładki,
+  // zamiast zawsze otwierać Crypts / Citadels.
+  const savedTab = restoreActiveTab();
+  showTab(savedTab);
+
+  let attempts = 0;
+  const timer = setInterval(() => {
+    attempts += 1;
+    if (initManagerAuth() || attempts >= 20) clearInterval(timer);
+  }, 250);
+});
+
+function nickSortKey(nick) {
+  // Sortowanie graczy ignoruje ozdobniki przed/za nickiem.
+  // Przykład: ヤGANGSTERヤ jest sortowany jak GANGSTER, czyli pod literą G.
+  const s = (nick ?? '').toString().trim();
+
+  // Szukamy pierwszego fragmentu zaczynającego się literą/cyfrą łacińską.
+  // Zachowujemy dalszą treść nicku, ale odrzucamy ozdobniki z początku.
+  const match = s.match(/[A-Za-z0-9][A-Za-z0-9 _.-]*/);
+  if (match) return match[0].trim();
+
+  // Awaryjnie usuwamy znaki niebędące literami/cyframi z początku i końca.
+  return s
+    .replace(/^[^A-Za-z0-9]+/, '')
+    .replace(/[^A-Za-z0-9]+$/, '')
+    .trim();
+}
+
+function compareRows(a, b, key, dir) {
+  let result = 0;
+
+  if (key === 'nick') {
+    const an = nickSortKey(a.nick);
+    const bn = nickSortKey(b.nick);
+    result = an.localeCompare(bn, 'pl', { sensitivity: 'base', numeric: true });
+
+    // Gdy klucz sortowania jest identyczny, dopiero wtedy stabilizujemy kolejność pełnym nickiem.
+    if (result === 0) {
+      result = a.nick.localeCompare(b.nick, 'pl', { sensitivity: 'base', numeric: true });
+    }
+  } else {
+    const av = Number(a[key] ?? 0);
+    const bv = Number(b[key] ?? 0);
+    result = av - bv;
+  }
+
+  return dir === 'asc' ? result : -result;
+}
+
+function setSortArrow(prefix, activeKey, dir) {
+  const keys = prefix === 'weekly'
+    ? ['nick', 'punkty']
+    : ['nick', 'epickie'];
+
+  for (const key of keys) {
+    const el = document.getElementById(`${prefix}-arrow-${key}`);
+    if (!el) continue;
+    el.textContent = key === activeKey ? (dir === 'asc' ? '▲' : '▼') : '';
+  }
+}
+
+function sortWeekly(key) {
+  if (weeklySort.key === key) {
+    weeklySort.dir = weeklySort.dir === 'asc' ? 'desc' : 'asc';
+  } else {
+    weeklySort.key = key;
+    weeklySort.dir = key === 'nick' ? 'asc' : 'desc';
+  }
+
+  renderWeeklyTable();
+}
+
+function sortEpic(key) {
+  if (epicSort.key === key) {
+    epicSort.dir = epicSort.dir === 'asc' ? 'desc' : 'asc';
+  } else {
+    epicSort.key = key;
+    epicSort.dir = key === 'nick' ? 'asc' : 'desc';
+  }
+
+  renderEpicTable();
+}
+
+function renderWeeklyTable() {
+  const tbody = document.getElementById('tbody');
+  if (!tbody) return;
+
+  const rows = [...weeklyRowsGlobal].sort((a, b) =>
+    compareRows(a, b, weeklySort.key, weeklySort.dir)
+  );
+
+  const topPoints = weeklyRowsGlobal
+    .filter(r => r.punkty >= LIMIT_PUNKTOW)
+    .sort((a,b) => b.punkty - a.punkty)
+    .slice(0,3)
+    .map(r => r.nick);
+
+  const topPointsSet = new Set(topPoints);
+
+  let html = '';
+  for (const r of rows) {
+    html += `
+      <tr>
+        <td class="player">${r.nick}</td>
+        <td class="${scoreClass(r.punkty, LIMIT_PUNKTOW, topPointsSet.has(r.nick))}">${r.punkty}</td>
+        <td>${r.krypty_zwykle}</td>
+        <td>${r.krypty_rzadkie}</td>
+        <td>${r.krypty_epickie}</td>
+        <td>${r.twierdze}</td>
+      </tr>
+    `;
+  }
+
+  tbody.innerHTML = html;
+  setSortArrow('weekly', weeklySort.key, weeklySort.dir);
+}
+
+function renderEpicTable() {
+  const tbody = document.getElementById('tbody-epickie');
+  if (!tbody) return;
+
+  const rows = [...epicRowsGlobal].sort((a, b) =>
+    compareRows(a, b, epicSort.key, epicSort.dir)
+  );
+
+  const topEpic = epicRowsGlobal
+    .filter(r => r.epickie >= LIMIT_EPICKICH)
+    .sort((a,b) => b.epickie - a.epickie)
+    .slice(0,3)
+    .map(r => r.nick);
+
+  const topEpicSet = new Set(topEpic);
+
+  let html = '';
+  for (const r of rows) {
+    html += `
+      <tr>
+        <td class="player">${r.nick}</td>
+        <td class="${scoreClass(r.epickie, LIMIT_EPICKICH, topEpicSet.has(r.nick))}">${r.epickie}</td>
+        <td>${r.ragnarok}</td>
+        <td>${r.arkana}</td>
+        <td>${r.omeny}</td>
+        <td>${r.arachne}</td>
+      </tr>
+    `;
+  }
+
+  tbody.innerHTML = html;
+  setSortArrow('epic', epicSort.key, epicSort.dir);
+}
+
+function displayNick(raw) {
+  const s = (raw ?? '').toString().trim();
+  const normalized = norm(s).replace(/[^a-z0-9]+/g, '');
+  if (normalized.includes('gangster')) return 'ヤGANGSTERヤ';
+
+  // Scalenie historycznych błędnych wariantów OCR.
+  if (normalized === 'avc' || normalized === 'avci') return 'A V C I';
+
+  // Prawidłowa pisownia MSlayer.
+  if (normalized === 'mslayer') return 'MSlayer';
+
+  // Mustafa cimbombom jest prawidłowy; Mustafa cinbombom -> poprawny wariant.
+  if (normalized === 'mustafacinbombom') return 'Mustafa cimbombom';
+
+  // Piotrek 1 jest prawidłowy; Piotrekl / Piotrek I -> Piotrek 1.
+  if (normalized === 'piotrekl' || normalized === 'piotreki') return 'Piotrek 1';
+
+  // RestInPeace jest prawidłowy; RestinPeace / RestnPeace -> RestInPeace.
+  if (normalized === 'restinpeace' || normalized === 'restnpeace') return 'RestInPeace';
+
+  return s;
+}
+
+function norm(s) {
+  return (s ?? '').toString().trim().toLowerCase()
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/ł/g, 'l');
+}
+
+function v189NonEpicSpecial(type, source) {
+  const typeOnly = norm(type || '');
+  const t = norm((type || '') + ' ' + (source || ''));
+
+  if (t.includes('heroiczny potwor')) return true;
+
+  const exactTypes = new Set([
+    'klanowa skrzynia jormunganda',
+    'klanowa skrzynia fenrira',
+    'skrzynia mimika',
+    'klanowa skrzynia przyspieszenia marszu',
+    'klanowa skrzynia kamienia milowego sadnego dnia',
+    'klanowa skrzynia potwora sadnego dnia',
+    'skrzynia wymiany klanowej',
+    'drewniana skrzynia zapasow',
+    'brazowa skrzynia zapasow',
+    'srebrna skrzynia zapasow'
+  ]);
+
+  return exactTypes.has(typeOnly);
+}
+
+function epicBossCategory(type, source) {
+  const t = norm((type || '') + ' ' + (source || ''));
+
+  if (v189NonEpicSpecial(type, source)) return null;
+
+  if (t.includes('hermes') || t.includes('krypta')) return null;
+  // V254_BAZYLISZEK_702061_HTML
+  if (/\bitemid\s+702061\b/.test(t) || t.includes('bazylisz')) return 'bazyliszek';
+  if (t.includes('chimera')) return 'chimera';
+  if (/\bitemid\s+2060\b/.test(t)) return 'sadny_dzien';
+  // V225A: exact ItemId 2072 = Miasto Cieni.
+  if (/\bitemid\s+2072\b/.test(t)) return 'miasto_cieni';
+  // V195B: ItemId 2066 = Skrzynia Ognistej Hydry -> Armagedon (internal key: inferno).
+  if (/\bitemid\s+2066\b/.test(t) || t.includes('skrzynia ognistej hydry')) return 'inferno';
+  // V252B: ItemId 2079 / Skrzynia Piekielnego Kowala = Piekielna Kuźnia.
+  // Source może być Epicki oddział inferno, ale event jest osobny od Armagedonu.
+  if (/\bitemid\s+2079\b/.test(t) || t.includes('skrzynia piekielnego kowala')) return 'piekielna_kuznia';
+  // V194A: ItemId 74643 / Epicki oddzial spopielonych -> Inne Epic Bosses.
+  if (/\bitemid\s+74643\b/.test(t) || t.includes('epicki oddzial spopielonych')) return 'inne_epic';
+  if (/\bitemid\s+2085\b/.test(t) || t.includes('jormungand')) return 'jormungand';
+  if (/\bitemid\s+2084\b/.test(t) || t.includes('fenrir')) return 'fenrir';
+  if (t.includes('briareos')) return 'briareos';
+  if (t.includes('epicki oddzial inferno') || t.includes('epic inferno')) return 'inferno';
+  if (t.includes('skrzynia epickiego potwora') && (t.includes('epicki oddzial nieumarlych') || t.includes('epic undead'))) return 'sadny_dzien';
+  if (t.includes('epicki oddzial nieumarlych') || t.includes('epic undead')) return 'nieumarli';
+  if (t.includes('arachne')) return 'arachne';
+  if (t.includes('miasto cieni')) return 'miasto_cieni';
+  if (t.includes('sadny dzien')) return 'sadny_dzien';
+  if (t.includes('yokai')) return 'yokai';
+  if (t.includes('skrzynia mrocznych omenow')) return 'omeny';
+  if (t.includes('skrzynia arkanow')) return 'arkana';
+  if (t.includes('ragnarok')) return 'ragnarok';
+  if (t.includes('epicki oddzial') || t.includes('epic boss') || t.includes('epic unit')) return 'inne_epic';
+  return null;
+}
+
+function isEpicBossType(type, source) {
+  return epicBossCategory(type, source) !== null;
+}
+
+function classify(type, source) {
+  const t = norm((type || '') + ' ' + (source || ''));
+  const epicCat = epicBossCategory(type, source);
+  if (epicCat) return epicCat;
+
+  if (t.includes('krypta')) {
+    if (t.includes('epick')) return 'krypty_epickie';
+    if (t.includes('rzadk')) return 'krypty_rzadkie';
+    return 'krypty_zwykle';
+  }
+
+  if (t.includes('twierdza')) return 'twierdze';
+
+  return null;
+}
+
+function scoreClass(value, limit, isTop3) {
+  if (isTop3 && value >= limit) return 'score-gold';
+  if (value >= limit) return 'score-green';
+  if (value >= limit * 0.5) return 'score-blue';
+  return 'score-red';
+}
+
+function openTotalBattleAutoLanguage() {
+  const langs = Array.isArray(navigator.languages) && navigator.languages.length
+    ? navigator.languages
+    : [navigator.language || 'en'];
+
+  const supported = {
+    'id': 'id',
+    'de': 'de',
+    'en': 'en',
+    'es': 'es',
+    'fr': 'fr',
+    'it': 'it',
+    'nl': 'nl',
+    'no': 'no',
+    'nb': 'no',
+    'nn': 'no',
+    'pl': 'pl',
+    'pt': 'pt',
+    'sv': 'sv',
+    'tr': 'tr',
+    'ru': 'ru',
+    'ar': 'ar',
+    'ja': 'ja',
+    'ko': 'ko',
+    'zh-cn': 'zh-cn',
+    'zh-sg': 'zh-cn',
+    'zh-hans': 'zh-cn',
+    'zh-tw': 'zh-tw',
+    'zh-hk': 'zh-tw',
+    'zh-hant': 'zh-tw'
+  };
+
+  let path = 'en';
+
+  for (const raw of langs) {
+    const lang = String(raw || '').toLowerCase();
+
+    if (supported[lang]) {
+      path = supported[lang];
+      break;
+    }
+
+    const base = lang.split('-')[0];
+    if (supported[base]) {
+      path = supported[base];
+      break;
+    }
+  }
+
+  window.open(
+    `https://totalbattle.com/${path}/`,
+    '_blank',
+    'noopener,noreferrer'
+  );
+}
+
+
+function setLocationStatus(text, kind='') {
+  const el = document.getElementById('location-status');
+  if (!el) return;
+  el.textContent = text || '';
+  el.classList.remove('ok', 'no');
+  if (kind) el.classList.add(kind);
+}
+
+function countryName(code) {
+  code = String(code || '').trim().toUpperCase();
+  if (!code) return 'Nieznany';
+  try {
+    const dn = new Intl.DisplayNames(['pl'], {type:'region'});
+    return dn.of(code) || code;
+  } catch (_) {
+    return code;
+  }
+}
+
+function escapeLocationHtml(value) {
+  return String(value ?? '').replace(/[&<>"']/g, c => ({
+    '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'
+  }[c]));
+}
+
+function rebuildLocationCountryFilter() {
+  const sel = document.getElementById('location-country-filter');
+  if (!sel) return;
+
+  const previous = sel.value || 'ALL';
+  const codes = [...new Set(
+    locationRowsGlobal.map(r => r.country_code).filter(Boolean)
+  )].sort();
+
+  sel.innerHTML = '<option value="ALL">Wszystkie kraje</option>';
+  for (const code of codes) {
+    const opt = document.createElement('option');
+    opt.value = code;
+    opt.textContent = `${code} — ${countryName(code)}`;
+    sel.appendChild(opt);
+  }
+
+  if ([...sel.options].some(o => o.value === previous)) {
+    sel.value = previous;
+  }
+}
+
+function renderLocationTable() {
+  const body = document.getElementById('location-body');
+  if (!body) return;
+
+  const q = (document.getElementById('location-search')?.value || '')
+    .trim().toLowerCase();
+  const status = document.getElementById('location-status-filter')?.value || 'ALL';
+  const country = document.getElementById('location-country-filter')?.value || 'ALL';
+
+  const rows = locationRowsGlobal.filter(r => {
+    if (status !== 'ALL' && r.status !== status) return false;
+    if (country !== 'ALL' && r.country_code !== country) return false;
+
+    const hay = [
+      r.nick, r.status, r.country_code, countryName(r.country_code),
+      r.provider, r.account_id, r.first_seen, r.last_seen, r.guid
+    ].join(' ').toLowerCase();
+
+    return !q || hay.includes(q);
+  });
+
+  if (!rows.length) {
+    body.innerHTML = '<tr><td colspan="9">Brak danych spełniających filtr.</td></tr>';
+    return;
+  }
+
+  body.innerHTML = rows.map(r => `
+    <tr>
+      <td style="text-align:left;"><b>${escapeLocationHtml(r.nick)}</b></td>
+      <td>${escapeLocationHtml(r.status)}</td>
+      <td>${escapeLocationHtml(r.country_code)}</td>
+      <td>${escapeLocationHtml(countryName(r.country_code))}</td>
+      <td>${escapeLocationHtml(r.provider)}</td>
+      <td>${escapeLocationHtml(r.account_id)}</td>
+      <td>${escapeLocationHtml(r.first_seen)}</td>
+      <td>${escapeLocationHtml(r.last_seen)}</td>
+      <td>${escapeLocationHtml(r.guid)}</td>
+    </tr>
+  `).join('');
+}
+
+async function loadLocationData(forceLogin=false) {
+  let token = managerAccessToken || restoreManagerToken();
+  managerAccessToken = token;
+
+  if (!restoreManagerSession()) {
+    setLocationStatus('Najpierw zaloguj się jako Zarządca w zakładce Scoring.', 'no');
+    return;
+  }
+
+  if (!token) {
+    setLocationStatus('Sesja Google wymaga odświeżenia. Kliknij „Zaloguj jako Zarządca” w Scoring.', 'no');
+    if (forceLogin) managerLogin();
+    return;
+  }
+
+  setLocationStatus('Pobieram prywatne dane z Google…');
+
+  try {
+    const range = encodeURIComponent('Lokalizacja!A1:H2000');
+    const url =
+      'https://sheets.googleapis.com/v4/spreadsheets/' +
+      encodeURIComponent(SPREADSHEET_FILE_ID) +
+      '/values/' + range;
+
+    const res = await fetch(url, {
+      headers: {
+        'Authorization': 'Bearer ' + token,
+        'Accept': 'application/json'
+      }
+    });
+
+    if (res.status === 401) {
+      rememberManagerToken(null);
+      managerAccessToken = null;
+      setLocationStatus('Sesja Google wygasła. Zaloguj się ponownie jako Zarządca.', 'no');
+      return;
+    }
+
+    if (res.status === 403) {
+      setLocationStatus('To konto nie ma dostępu do prywatnych danych Lokalizacja.', 'no');
+      return;
+    }
+
+    if (!res.ok) {
+      let details = '';
+      try {
+        const err = await res.json();
+        details = err?.error?.message || '';
+      } catch (_) {}
+      throw new Error('HTTP ' + res.status + (details ? ': ' + details : ''));
+    }
+
+    const payload = await res.json();
+    const values = Array.isArray(payload.values) ? payload.values : [];
+
+    if (values.length <= 1) {
+      locationRowsGlobal = [];
+      rebuildLocationCountryFilter();
+      renderLocationTable();
+      setLocationStatus(
+        'Zakładka Lokalizacja jest jeszcze pusta. Potrzebny jest poprawny odczyt rosteru przez Liczarkę.',
+        'no'
+      );
+      return;
+    }
+
+    locationRowsGlobal = values.slice(1).map(row => ({
+      nick: row[0] || '',
+      status: row[1] || '',
+      country_code: String(row[2] || '').toUpperCase(),
+      provider: row[3] || '',
+      account_id: row[4] || '',
+      first_seen: row[5] || '',
+      last_seen: row[6] || '',
+      guid: row[7] || ''
+    }));
+
+    rebuildLocationCountryFilter();
+    renderLocationTable();
+
+    const active = locationRowsGlobal.filter(r => r.status === 'ACTIVE').length;
+    const former = locationRowsGlobal.filter(r => r.status === 'FORMER').length;
+    setLocationStatus(
+      `Pobrano ${locationRowsGlobal.length} graczy — bieżący: ${active}, byli: ${former}.`,
+      'ok'
+    );
+  } catch (err) {
+    setLocationStatus('Błąd pobierania Lokalizacji: ' + (err?.message || err), 'no');
+  }
+}
+
+function showTab(tab) {
+  rememberActiveTab(tab);
+
+  const wynikiView = document.getElementById('view-wyniki');
+  const epickieView = document.getElementById('view-epickie');
+  const szczegolyView = document.getElementById('view-szczegoly');
+  const punktacjaView = document.getElementById('view-punktacja');
+  const archiwumView = document.getElementById('view-archiwum');
+  const lokalizacjaView = document.getElementById('view-lokalizacja');
+
+  const wynikiTab = document.getElementById('tab-wyniki');
+  const epickieTab = document.getElementById('tab-epickie');
+  const szczegolyTab = document.getElementById('tab-szczegoly');
+  const punktacjaTab = document.getElementById('tab-punktacja');
+  const archiwumTab = document.getElementById('tab-archiwum');
+  const lokalizacjaTab = document.getElementById('tab-lokalizacja');
+
+  wynikiView.classList.remove('active-view');
+  epickieView.classList.remove('active-view');
+  szczegolyView.classList.remove('active-view');
+  punktacjaView.classList.remove('active-view');
+  archiwumView.classList.remove('active-view');
+  lokalizacjaView.classList.remove('active-view');
+
+  wynikiTab.classList.remove('active');
+  epickieTab.classList.remove('active');
+  szczegolyTab.classList.remove('active');
+  punktacjaTab.classList.remove('active');
+  archiwumTab.classList.remove('active');
+  lokalizacjaTab.classList.remove('active');
+
+  if (tab === 'epickie') {
+    epickieView.classList.add('active-view');
+    epickieTab.classList.add('active');
+  } else if (tab === 'szczegoly') {
+    szczegolyView.classList.add('active-view');
+    szczegolyTab.classList.add('active');
+  } else if (tab === 'punktacja') {
+    punktacjaView.classList.add('active-view');
+    punktacjaTab.classList.add('active');
+  } else if (tab === 'archiwum') {
+    archiwumView.classList.add('active-view');
+    archiwumTab.classList.add('active');
+    renderArchiveTables();
+    setTimeout(refreshBottomScrollbars, 0);
+  } else if (tab === 'lokalizacja') {
+    if (!restoreManagerSession()) {
+      punktacjaView.classList.add('active-view');
+      punktacjaTab.classList.add('active');
+      setManagerStatus('Najpierw zaloguj się jako Zarządca.', 'no');
+      return;
+    }
+    lokalizacjaView.classList.add('active-view');
+    lokalizacjaTab.classList.add('active');
+    loadLocationData(false);
+  } else {
+    wynikiView.classList.add('active-view');
+    wynikiTab.classList.add('active');
+  }
+}
+
+
+function showArchiveSubtab(name) {
+  const kryptyBtn = document.getElementById('archive-tab-krypty');
+  const epikiBtn = document.getElementById('archive-tab-epiki');
+  const kryptyView = document.getElementById('archive-view-krypty');
+  const epikiView = document.getElementById('archive-view-epiki');
+
+  kryptyBtn.classList.toggle('active', name === 'krypty');
+  epikiBtn.classList.toggle('active', name === 'epiki');
+  kryptyView.classList.toggle('active', name === 'krypty');
+  epikiView.classList.toggle('active', name === 'epiki');
+
+  setTimeout(refreshBottomScrollbars, 0);
+}
+
+
+// V247B ARCHIVES COLORS — TOP3 gold / limit green / below limit red
+function v247bArchiveTop3(rows, period, field) {
+  const ranked = (rows || [])
+    .filter(x =>
+      x &&
+      String(x.okres || '') === String(period || '') &&
+      Number(x[field] || 0) > 0
+    )
+    .slice()
+    .sort((a, b) => {
+      const dv = Number(b[field] || 0) - Number(a[field] || 0);
+      if (dv !== 0) return dv;
+
+      const an = nickSortKey(a.nick || '');
+      const bn = nickSortKey(b.nick || '');
+      const byNick = an.localeCompare(
+        bn, 'pl', { sensitivity: 'base', numeric: true }
+      );
+      if (byNick !== 0) return byNick;
+
+      return String(a.nick || '').localeCompare(
+        String(b.nick || ''),
+        'pl',
+        { sensitivity: 'base', numeric: true }
+      );
+    })
+    .slice(0, 3)
+    .map(x => String(x.nick || ''));
+
+  return new Set(ranked);
+}
+
+function v247bArchiveResultClass(value, isTop3, kind, period) {
+  const n = Number(value || 0);
+  const limits = limitsForPeriod(period);
+  const limit = kind === 'epic'
+    ? Number(limits.epic || 0)
+    : Number(limits.points || 0);
+
+  if (isTop3) return 'cell-score-gold';
+  if (n >= limit) return 'cell-score-green';
+  return 'cell-score-red';
+}
+
+
+// V248 DOM archive colors + previous TOP3 cards
+function v248CompletedHistoryRows(rows) {
+  return (rows || []).filter(
+    x => x &&
+         x.okres &&
+         x.okres !== CURRENT_PERIOD_LABEL &&
+         x.okres !== '2026 16.08 - 23.08' &&
+         x.okres !== '2026 16.08 - 23.08 TEST'
+  );
+}
+
+function v248PreviousFinishedPeriod(rows) {
+  const periods = [...new Set(v248CompletedHistoryRows(rows).map(x => x.okres).filter(Boolean))]
+    .sort((a, b) => v249dArchivePeriodKey(b) - v249dArchivePeriodKey(a));
+  return periods.length ? periods[0] : '';
+}
+
+function v248Top3Rows(rows, period, field, tieField) {
+  return v248CompletedHistoryRows(rows)
+    .filter(x =>
+      String(x.okres || '') === String(period || '') &&
+      String(x.nick || '').trim()
+    )
+    .slice()
+    .sort((a, b) => {
+      const primary = Number(b[field] || 0) - Number(a[field] || 0);
+      if (primary !== 0) return primary;
+
+      const secondary = Number(b[tieField] || 0) - Number(a[tieField] || 0);
+      if (secondary !== 0) return secondary;
+
+      const an = nickSortKey(a.nick || '');
+      const bn = nickSortKey(b.nick || '');
+      const byNick = an.localeCompare(
+        bn, 'pl', { sensitivity: 'base', numeric: true }
+      );
+      if (byNick !== 0) return byNick;
+
+      return String(a.nick || '').localeCompare(
+        String(b.nick || ''),
+        'pl',
+        { sensitivity: 'base', numeric: true }
+      );
+    })
+    .slice(0, 3);
+}
+
+function v248SpinsForPlace(placeIndex) {
+  return placeIndex === 0 ? 3 : (placeIndex === 1 ? 2 : 1);
+}
+
+function v248ArchiveResultClass(value, isTop3, kind, period) {
+  const n = Number(value || 0);
+  const limits = limitsForPeriod(period);
+  const limit = kind === 'epic'
+    ? Number(limits.epic || 0)
+    : Number(limits.points || 0);
+
+  if (isTop3) return 'cell-score-gold';
+  if (n >= limit) return 'cell-score-green';
+  return 'cell-score-red';
+}
+
+function v248SetScoreClass(cell, cls) {
+  if (!cell || !cls) return;
+  cell.classList.remove('cell-score-gold', 'cell-score-green', 'cell-score-blue', 'cell-score-red');
+  cell.classList.add(cls);
+}
+
+function v248ApplyArchiveCryptColors(body, periods, historyOnly) {
+  if (!body) return;
+
+  const top3ByPeriod = new Map();
+  for (const p of periods) {
+    top3ByPeriod.set(p, new Set(
+      v248Top3Rows(historyOnly, p, 'punkty', 'epickie').map(x => String(x.nick || ''))
+    ));
+  }
+
+  for (const tr of Array.from(body.querySelectorAll('tr'))) {
+    const tds = Array.from(tr.querySelectorAll('td'));
+    if (!tds.length) continue;
+
+    const nick = String((tds[0]?.textContent || '')).trim();
+    if (!nick || tds[0].classList.contains('empty')) continue;
+
+    for (let i = 0; i < periods.length; i++) {
+      const p = periods[i];
+      const cell = tds[2 + i * 3];
+      if (!cell) continue;
+
+      const raw = String(cell.textContent || '').trim();
+      if (!raw || raw === '—') continue;
+
+      const cls = v248ArchiveResultClass(
+        Number(raw || 0),
+        (top3ByPeriod.get(p) || new Set()).has(nick),
+        'points',
+        p
+      );
+      v248SetScoreClass(cell, cls);
+    }
+  }
+}
+
+function v248ApplyArchiveEpicColors(body, periods, historyOnly) {
+  if (!body) return;
+
+  const top3ByPeriod = new Map();
+  for (const p of periods) {
+    top3ByPeriod.set(p, new Set(
+      v248Top3Rows(historyOnly, p, 'epickie', 'punkty').map(x => String(x.nick || ''))
+    ));
+  }
+
+  for (const tr of Array.from(body.querySelectorAll('tr'))) {
+    const tds = Array.from(tr.querySelectorAll('td'));
+    if (!tds.length) continue;
+
+    const nick = String((tds[0]?.textContent || '')).trim();
+    if (!nick || tds[0].classList.contains('empty')) continue;
+
+    for (let i = 0; i < periods.length; i++) {
+      const p = periods[i];
+      const cell = tds[1 + i * 2];
+      if (!cell) continue;
+
+      const raw = String(cell.textContent || '').trim();
+      if (!raw || raw === '—') continue;
+
+      const cls = v248ArchiveResultClass(
+        Number(raw || 0),
+        (top3ByPeriod.get(p) || new Set()).has(nick),
+        'epic',
+        p
+      );
+      v248SetScoreClass(cell, cls);
+    }
+  }
+}
+
+function v248PrevTop3CardHtml(title, period, topRows) {
+  const prettyPeriod = period ? displayPeriodLabel(period) : '—';
+
+  if (!topRows || !topRows.length) {
+    return `
+      <div class="v248-prev-top3-card">
+        <h3>${title}</h3>
+        <div class="v248-sub">Previous finished period: ${prettyPeriod}</div>
+        <div class="v248-empty">No completed ranking data.</div>
+      </div>
+    `;
+  }
+
+  const rowsHtml = topRows.map((row, idx) => `
+    <tr>
+      <td class="v248-place">${idx + 1}</td>
+      <td class="v248-nick">${escapeHtml(row.nick || '')}</td>
+      <td class="v248-spins">${v248SpinsForPlace(idx)}</td>
+    </tr>
+  `).join('');
+
+  return `
+    <div class="v248-prev-top3-card">
+      <h3>${title}</h3>
+      <div class="v248-sub">Previous finished period: ${prettyPeriod}</div>
+      <table>
+        <thead>
+          <tr>
+            <th class="v248-place">#</th>
+            <th>Player</th>
+            <th>Spins</th>
+          </tr>
+        </thead>
+        <tbody>${rowsHtml}</tbody>
+      </table>
+    </div>
+  `;
+}
+
+function v248RenderPrevTop3Cards() {
+  const cryptTarget = document.getElementById('v248-prev-top3-crypt');
+  const epicTarget = document.getElementById('v248-prev-top3-epic');
+
+  if (cryptTarget) {
+    const rows = weeklyHistoryDateGlobal || [];
+    const period = v248PreviousFinishedPeriod(rows);
+    const topRows = period ? v248Top3Rows(rows, period, 'punkty', 'epickie') : [];
+    cryptTarget.innerHTML = v248PrevTop3CardHtml(
+      'TOP 3 — previous period',
+      period,
+      topRows
+    );
+  }
+
+  if (epicTarget) {
+    const rows = epicHistoryDateGlobal || [];
+    const period = v248PreviousFinishedPeriod(rows);
+    const topRows = period ? v248Top3Rows(rows, period, 'epickie', 'punkty') : [];
+    epicTarget.innerHTML = v248PrevTop3CardHtml(
+      'TOP 3 — previous period',
+      period,
+      topRows
+    );
+  }
+}
+
+function renderArchiveTables() {
+  renderArchiveCrypts();
+  renderArchiveEpics();
+  v248RenderPrevTop3Cards();
+}
+
+function renderArchiveCrypts() {
+  const rows = weeklyHistoryDateGlobal || [];
+  const historyOnly = rows.filter(
+    x => x.okres !== CURRENT_PERIOD_LABEL &&
+         x.okres !== 'Period' &&
+         x.okres !== '2026 16.08 - 23.08' &&
+         x.okres !== '2026 16.08 - 23.08 TEST'
+  );
+
+  const periods = [...new Set(historyOnly.map(x => x.okres).filter(Boolean))]
+    .sort((a, b) => v249dArchivePeriodKey(b) - v249dArchivePeriodKey(a));
+
+  const players = [...new Set(historyOnly.map(x => x.nick).filter(Boolean))]
+    .sort((a, b) => nickSortKey(a).localeCompare(
+      nickSortKey(b), 'pl', { sensitivity: 'base', numeric: true }
+    ));
+
+  const byKey = new Map();
+  for (const x of historyOnly) byKey.set(`${x.okres}|||${x.nick}`, x);
+
+  const top3ByPeriod = new Map();
+  for (const p of periods) {
+    top3ByPeriod.set(p, v247bArchiveTop3(historyOnly, p, 'punkty'));
+  }
+
+  const head = document.getElementById('archive-krypty-head');
+  const body = document.getElementById('archive-krypty-body');
+
+  let h1 = '<tr><th class="player" rowspan="2">Players</th>';
+  for (const p of periods) h1 += `<th colspan="3">${displayPeriodLabel(p)}</th>`;
+  h1 += '</tr>';
+
+  let h2 = '<tr>';
+  for (const _ of periods) {
+    h2 += '<th>Loot Boxes</th><th>Points</th><th>Position in the ranking</th>';
+  }
+  h2 += '</tr>';
+
+  head.innerHTML = h1 + h2;
+
+  let html = '';
+  for (const nick of players) {
+    html += `<tr><td class="player">${nick}</td>`;
+
+    for (const p of periods) {
+      const x = byKey.get(`${p}|||${nick}`);
+      if (x) {
+        const topSet = top3ByPeriod.get(p) || new Set();
+        html += `
+          <td class="package-detail-cell"
+              data-player="${escapeHtmlAttr(x.nick)}"
+              data-period="${escapeHtmlAttr(x.okres)}"
+              data-zwykle="${x.krypty_zwykle || 0}"
+              data-rzadkie="${x.krypty_rzadkie || 0}"
+              data-epickie="${x.krypty_epickie || 0}"
+              data-twierdze="${x.twierdze || 0}"
+              data-total="${x.paczki || 0}"
+              title="Najedź, aby zobaczyć rodzaje krypt">${x.paczki}</td>
+          <td class="${v247bArchiveResultClass(x.punkty, topSet.has(nick), 'points', p)}">${x.punkty}</td>
+          <td class="rank-cell">${v173RankForPeriod(p, nick)}</td>
+        `;
+      } else {
+        html += '<td>—</td><td>—</td><td>—</td>';
+      }
+    }
+
+    html += '</tr>';
+  }
+
+  body.innerHTML = html || '<tr><td class="empty">Brak danych archiwalnych.</td></tr>';
+  v248ApplyArchiveCryptColors(body, periods, historyOnly);
+  bindPackageTooltips();
+}
+
+
+// ============================================================
+// V175 SEPARATE EPIC RANKING
+//
+// Crypts:
+//   v173RankForPeriod(...) -> Points
+//
+// Epic Bosses:
+//   v175EpicRankForPeriod(...) -> physical Epic Count
+//
+// Competition ranking:
+//   100 -> 1
+//    90 -> 2
+//    90 -> 2
+//    70 -> 4
+// ============================================================
+
+function v175EpicRankForPeriod(byKey, period, nick) {
+  if (!byKey || typeof byKey.values !== 'function') {
+    return '—';
+  }
+
+  const rows = [...byKey.values()]
+    .filter(x => x && String(x.okres || '') === String(period || '') && x.nick);
+
+  rows.sort((a, b) => {
+    const de = Number(b.epickie || 0) - Number(a.epickie || 0);
+    if (de !== 0) return de;
+
+    const dp = Number(b.punkty || 0) - Number(a.punkty || 0);
+    if (dp !== 0) return dp;
+
+    const an = nickSortKey(a.nick);
+    const bn = nickSortKey(b.nick);
+    const byNick = an.localeCompare(bn, 'pl', { sensitivity: 'base', numeric: true });
+    if (byNick !== 0) return byNick;
+
+    return String(a.nick).localeCompare(
+      String(b.nick), 'pl', { sensitivity: 'base', numeric: true }
+    );
+  });
+
+  const idx = rows.findIndex(x => String(x.nick) === String(nick));
+  return idx >= 0 ? idx + 1 : '—';
+}
+
+function renderArchiveEpics() {
+  const rows = epicHistoryDateGlobal || [];
+  const historyOnly = rows.filter(
+    x => x.okres !== CURRENT_PERIOD_LABEL &&
+         x.okres !== 'Period' &&
+         x.okres !== '2026 16.08 - 23.08' &&
+         x.okres !== '2026 16.08 - 23.08 TEST'
+  );
+
+  const periods = [...new Set(historyOnly.map(x => x.okres).filter(Boolean))]
+    .sort((a, b) => v249dArchivePeriodKey(b) - v249dArchivePeriodKey(a));
+
+  const players = [...new Set(historyOnly.map(x => x.nick).filter(Boolean))]
+    .sort((a, b) => nickSortKey(a).localeCompare(
+      nickSortKey(b), 'pl', { sensitivity: 'base', numeric: true }
+    ));
+
+  const byKey = new Map();
+  for (const x of historyOnly) byKey.set(`${x.okres}|||${x.nick}`, x);
+
+  const head = document.getElementById('archive-epiki-head');
+  const body = document.getElementById('archive-epiki-body');
+
+  let h1 = '<tr><th class="player" rowspan="2">Players</th>';
+  for (const p of periods) h1 += `<th colspan="2">${displayPeriodLabel(p)}</th>`;
+  h1 += '</tr>';
+
+  let h2 = '<tr>';
+  for (const _ of periods) {
+    h2 += '<th>Epic Bosses</th><th>Position in the ranking</th>';
+  }
+  h2 += '</tr>';
+
+  head.innerHTML = h1 + h2;
+
+  let html = '';
+  for (const nick of players) {
+    html += `<tr><td class="player">${nick}</td>`;
+
+    for (const p of periods) {
+      const x = byKey.get(`${p}|||${nick}`);
+      if (x) {
+        html += `
+          <td class="epic-detail-cell"
+              data-player="${escapeHtmlAttr(x.nick)}"
+              data-period="${escapeHtmlAttr(x.okres)}"
+              data-ragnarok="${x.ragnarok || 0}"
+              data-arkana="${x.arkana || 0}"
+              data-omeny="${x.omeny || 0}"
+              data-arachne="${x.arachne || 0}"
+              data-miasto="${x.miasto_cieni || 0}"
+              data-sadny="${x.sadny_dzien || 0}"
+              data-yokai="${x.yokai || 0}"
+              data-briareos="${x.briareos || 0}"
+              data-inferno="${x.inferno || 0}"
+              data-piekielna-kuznia="${x.piekielna_kuznia || 0}"
+              data-nieumarli="${x.nieumarli || 0}"
+              data-chimera="${x.chimera || 0}"
+              data-inne-epic="${x.inne_epic || 0}"
+              data-jormungand="${x.jormungand || 0}"
+              data-fenrir="${x.fenrir || 0}"
+              data-bazyliszek="${x.bazyliszek || 0}"
+              data-total="${x.epickie || 0}"
+              title="Najedź, aby zobaczyć fizyczne skrzynki Epic Bosses (Count)">${x.epickie}</td>
+          <td class="rank-cell">${v175EpicRankForPeriod(byKey, p, nick)}</td>
+        `;
+      } else {
+        html += '<td>—</td><td>—</td>';
+      }
+    }
+
+    html += '</tr>';
+  }
+
+  body.innerHTML = html || '<tr><td class="empty">Brak danych archiwalnych.</td></tr>';
+  v248ApplyArchiveEpicColors(body, periods, historyOnly);
+  bindEpicTooltips();
+}
+
+function syncBottomScrollbar(wrapId, bottomId, innerId, tableId) {
+  const wrap = document.getElementById(wrapId);
+  const bottom = document.getElementById(bottomId);
+  const inner = document.getElementById(innerId);
+  const table = document.getElementById(tableId);
+
+  if (!wrap || !bottom || !inner || !table) return;
+
+  inner.style.width = table.scrollWidth + 'px';
+
+  let syncing = false;
+
+  wrap.onscroll = () => {
+    if (syncing) return;
+    syncing = true;
+    bottom.scrollLeft = wrap.scrollLeft;
+    syncing = false;
+  };
+
+  bottom.onscroll = () => {
+    if (syncing) return;
+    syncing = true;
+    wrap.scrollLeft = bottom.scrollLeft;
+    syncing = false;
+  };
+}
+
+function refreshBottomScrollbars() {
+  syncBottomScrollbar(
+    'weekly-table-wrap',
+    'weekly-bottom-scroll',
+    'weekly-bottom-scroll-inner',
+    'weekly-history-table'
+  );
+
+  syncBottomScrollbar(
+    'epic-table-wrap',
+    'epic-bottom-scroll',
+    'epic-bottom-scroll-inner',
+    'epic-history-table'
+  );
+
+  syncBottomScrollbar(
+    'archive-krypty-wrap',
+    'archive-krypty-bottom-scroll',
+    'archive-krypty-bottom-scroll-inner',
+    'archive-krypty-table'
+  );
+
+  syncBottomScrollbar(
+    'archive-epiki-wrap',
+    'archive-epiki-bottom-scroll',
+    'archive-epiki-bottom-scroll-inner',
+    'archive-epiki-table'
+  );
+}
+
+window.addEventListener('resize', refreshBottomScrollbars);
+
+function displayPeriodLabel(label) {
+  // V105: żadnego automatycznego dopisywania "TEST".
+  return (label ?? '').toString().trim();
+}
+
+function v249dArchivePeriodKey(label) {
+  // Bez regex i bez Date(): 2026 06.09 - 13.09 -> 20260906
+  const s = String(label || '').trim();
+  const sp = s.indexOf(' ');
+  if (sp <= 0) return -1;
+  const year = Number(s.slice(0, sp));
+  const rest = s.slice(sp + 1);
+  const dot = rest.indexOf('.');
+  if (dot <= 0) return -1;
+  const day = Number(rest.slice(0, dot));
+  const afterDot = rest.slice(dot + 1);
+  let endMonth = afterDot.indexOf(' ');
+  if (endMonth < 0) endMonth = afterDot.length;
+  const month = Number(afterDot.slice(0, endMonth));
+  if (!Number.isFinite(year) || !Number.isFinite(month) || !Number.isFinite(day) ||
+      year < 2000 || month < 1 || month > 12 || day < 1 || day > 31) {
+    return -1;
+  }
+  return year * 10000 + month * 100 + day;
+}
+
+function parsePeriodStart(label) {
+  // format: "2026 09.08 - 16.08"
+  const m = (label || '').match(/(\d{4})\s+(\d{1,2})\.(\d{1,2})/);
+  if (!m) return 0;
+  const year = Number(m[1]);
+  const day = Number(m[2]);
+  const month = Number(m[3]);
+  return new Date(year, month - 1, day).getTime();
+}
+
+function v173RankForPeriod(period, nick) {
+  const rows = (weeklyHistoryDateGlobal || [])
+    .filter(x => x && String(x.okres || '') === String(period || '') && x.nick);
+
+  rows.sort((a, b) => {
+    const dp = Number(b.punkty || 0) - Number(a.punkty || 0);
+    if (dp !== 0) return dp;
+
+    const dl = Number(b.paczki || 0) - Number(a.paczki || 0);
+    if (dl !== 0) return dl;
+
+    const an = nickSortKey(a.nick);
+    const bn = nickSortKey(b.nick);
+    const byKey = an.localeCompare(bn, 'pl', { sensitivity: 'base', numeric: true });
+    if (byKey !== 0) return byKey;
+
+    return String(a.nick).localeCompare(
+      String(b.nick), 'pl', { sensitivity: 'base', numeric: true }
+    );
+  });
+
+  const idx = rows.findIndex(x => String(x.nick) === String(nick));
+  return idx >= 0 ? idx + 1 : '—';
+}
+
+// ============================================================
+// V192 / V194E — limity zależne od okresu.
+// 30.08.2026+ : Crypts/Citadels 26000, Epic Bosses 150.
+// Starsze okresy: 20000 / 100.
+// ============================================================
+const V192_LIMIT_SWITCH_START = new Date(2026, 7, 30).getTime();
+const V192_LEGACY_LIMIT_PUNKTOW = 20000;
+const V192_LEGACY_LIMIT_EPICKICH = 100;
+
+function limitsForPeriod(period) {
+  const start = parsePeriodStart(period);
+
+  if (start && start < V192_LIMIT_SWITCH_START) {
+    return {
+      points: V192_LEGACY_LIMIT_PUNKTOW,
+      epic: V192_LEGACY_LIMIT_EPICKICH
+    };
+  }
+
+  return {
+    points: LIMIT_PUNKTOW,
+    epic: LIMIT_EPICKICH
+  };
+}
+
+function historyScoreClass(value, isTop3, period=CURRENT_PERIOD_LABEL) {
+  const limit = limitsForPeriod(period).points;
+  if (isTop3 && value >= limit) return 'cell-score-gold';
+  if (value >= limit) return 'cell-score-green';
+  if (value >= limit * 0.5) return 'cell-score-blue';
+  return 'cell-score-red';
+}
+
+function setHistorySort(type, period='', field='') {
+  let defaultDir = 'asc';
+
+  if (type === 'nick') {
+    defaultDir = 'asc';
+  } else {
+    defaultDir = 'desc';
+  }
+
+  if (
+    weeklyHistorySort.type === type &&
+    weeklyHistorySort.period === period &&
+    weeklyHistorySort.field === field
+  ) {
+    weeklyHistorySort.dir = weeklyHistorySort.dir === 'asc' ? 'desc' : 'asc';
+  } else {
+    weeklyHistorySort = {
+      type,
+      period,
+      field,
+      dir: defaultDir
+    };
+  }
+
+  renderWeeklyHistoryFromGlobal();
+}
+
+function historyArrow(type, period='', field='') {
+  if (
+    weeklyHistorySort.type === type &&
+    weeklyHistorySort.period === period &&
+    weeklyHistorySort.field === field
+  ) {
+    return weeklyHistorySort.dir === 'asc' ? '▲' : '▼';
+  }
+  return '';
+}
+
+function buildWeeklyHistoryDate(currentRows, historyRows) {
+  const all = [];
+
+  // V139: bieżący okres — pokazujemy wszystkich graczy.
+  for (const r of currentRows) {
+
+    all.push({
+      okres: CURRENT_PERIOD_LABEL,
+      nick: r.nick,
+      punkty: Number(r.punkty || 0),
+      krypty_zwykle: Number(r.krypty_zwykle || 0),
+      krypty_rzadkie: Number(r.krypty_rzadkie || 0),
+      krypty_epickie: Number(r.krypty_epickie || 0),
+      twierdze: Number(r.twierdze || 0),
+      paczki:
+        Number(r.krypty_zwykle || 0) +
+        Number(r.krypty_rzadkie || 0) +
+        Number(r.krypty_epickie || 0) +
+        Number(r.twierdze || 0)
+    });
+  }
+
+  // V165: historia służy WYŁĄCZNIE zakończonym tygodniom.
+  // Wpis Historii z CURRENT_PERIOD_LABEL nie może nadpisać świeżych
+  // wartości policzonych wyżej bezpośrednio z dane_paczek.json.
+  for (const h of historyRows || []) {
+    const historyPeriod = (h['Period'] ?? h['Okres rozliczeniowy'] ?? '').trim();
+    if (!historyPeriod || historyPeriod === CURRENT_PERIOD_LABEL) continue;
+
+    const nick = displayNick(h['Sender'] ?? h['Nadawca'] ?? '');
+    if (!nick) continue;
+
+    const num = (v) => Number.parseInt((v ?? '0').toString().replace(',', '.')) || 0;
+    const punkty = num(h['Points'] ?? h['Punkty']);
+
+    const zwykle = num(h['krypty zwykłe']);
+    const rzadkie = num(h['krypty rzadkie']);
+    const epickie = num(h['krypty epickie']);
+    const twierdze = num(h['Twierdze']);
+
+    all.push({
+      okres: historyPeriod,
+      nick,
+      punkty,
+      krypty_zwykle: zwykle,
+      krypty_rzadkie: rzadkie,
+      krypty_epickie: epickie,
+      twierdze,
+      paczki: zwykle + rzadkie + epickie + twierdze
+    });
+  }
+
+  return all;
+}
+
+function renderWeeklyHistory(currentRows, historyRows) {
+  weeklyHistoryDateGlobal = buildWeeklyHistoryDate(currentRows, historyRows);
+  renderWeeklyHistoryFromGlobal();
+}
+
+function renderWeeklyHistoryFromGlobal() {
+  const all = weeklyHistoryDateGlobal || [];
+
+  // V105: aktywna tabela pokazuje WYŁĄCZNIE bieżący okres.
+  const periods = all.some(x => x.okres === CURRENT_PERIOD_LABEL)
+    ? [CURRENT_PERIOD_LABEL]
+    : [];
+
+  const byKey = new Map();
+  for (const x of all) {
+    byKey.set(`${x.okres}|||${x.nick}`, x);
+  }
+
+  // Wyświetlamy WYŁĄCZNIE graczy obecnych w bieżącym okresie.
+  // Byli członkowie klanu pozostają w historii, ale nie zajmują wiersza
+  // w aktualnym zestawieniu. Jeśli wrócą do klanu, ich historia pojawi się ponownie.
+  let players = [...new Set(
+    all
+      .filter(x => x.okres === CURRENT_PERIOD_LABEL)
+      .map(x => x.nick)
+      .filter(Boolean)
+  )];
+
+  players.sort((a, b) => {
+    let result = 0;
+
+    if (weeklyHistorySort.type === 'nick') {
+      result = nickSortKey(a).localeCompare(
+        nickSortKey(b),
+        'pl',
+        { sensitivity: 'base', numeric: true }
+      );
+    } else {
+      const period = weeklyHistorySort.period || CURRENT_PERIOD_LABEL;
+      const field = weeklyHistorySort.field || 'punkty';
+
+      const av = byKey.get(`${period}|||${a}`);
+      const bv = byKey.get(`${period}|||${b}`);
+
+      const an = av ? Number(av[field] || 0) : -1;
+      const bn = bv ? Number(bv[field] || 0) : -1;
+
+      result = an - bn;
+
+      if (result === 0) {
+        result = nickSortKey(a).localeCompare(
+          nickSortKey(b),
+          'pl',
+          { sensitivity: 'base', numeric: true }
+        );
+      }
+    }
+
+    return weeklyHistorySort.dir === 'asc' ? result : -result;
+  });
+
+  // TOP 3 liczony OSOBNO dla każdego okresu
+  // i tylko spośród graczy, którzy osiągnęli pełny limit.
+  const top3ByPeriod = new Map();
+
+  for (const period of periods) {
+    const ranked = all
+      .filter(x => x.okres === period && x.punkty >= limitsForPeriod(period).points)
+      .sort((a, b) => b.punkty - a.punkty)
+      .slice(0, 3)
+      .map(x => x.nick);
+
+    top3ByPeriod.set(period, new Set(ranked));
+  }
+
+  const head = document.getElementById('weekly-history-head');
+  const body = document.getElementById('weekly-history-body');
+
+  const nickArrow = historyArrow('nick');
+
+  let h1 = `
+    <tr>
+      <th class="player history-sortable"
+          rowspan="2"
+          onclick="setHistorySort('nick')">
+        Players <span class="sort-arrow">${nickArrow}</span>
+      </th>
+  `;
+
+  for (const p of periods) {
+    h1 += `<th colspan="3">${displayPeriodLabel(p)}</th>`;
+  }
+  h1 += '</tr>';
+
+  let h2 = '<tr>';
+  for (const p of periods) {
+    const packArrow = historyArrow('period', p, 'paczki');
+    const pointArrow = historyArrow('period', p, 'punkty');
+
+    h2 += `
+      <th class="history-sortable"
+          onclick="setHistorySort('period', '${escapeHtmlAttr(p)}', 'paczki')">
+        Loot Boxes <span class="sort-arrow">${packArrow}</span>
+      </th>
+      <th class="history-sortable"
+          onclick="setHistorySort('period', '${escapeHtmlAttr(p)}', 'punkty')">
+        Points <span class="sort-arrow">${pointArrow}</span>
+      </th>
+      <th>Position in the ranking</th>
+    `;
+  }
+  h2 += '</tr>';
+
+  head.innerHTML = h1 + h2;
+
+  let html = '';
+
+  for (const nick of players) {
+    html += `<tr><td class="player">${nick}</td>`;
+
+    for (const p of periods) {
+      const x = byKey.get(`${p}|||${nick}`);
+
+      // V165: fizyczne Loot Boxes są niezależne od tego, czy punktacja wynosi 0.
+      // Jeśli istnieje rekord gracza w bieżącym okresie, pokazujemy realne Count i pełny dymek.
+      if (x) {
+        const topSet = top3ByPeriod.get(p) || new Set();
+        const pointClass = historyScoreClass(x.punkty, topSet.has(nick), p);
+
+        html += `
+          <td class="package-detail-cell"
+              data-player="${escapeHtmlAttr(x.nick)}"
+              data-period="${escapeHtmlAttr(x.okres)}"
+              data-zwykle="${x.krypty_zwykle || 0}"
+              data-rzadkie="${x.krypty_rzadkie || 0}"
+              data-epickie="${x.krypty_epickie || 0}"
+              data-twierdze="${x.twierdze || 0}"
+              data-total="${x.paczki || 0}"
+              title="Najedź, aby zobaczyć rodzaje krypt">${x.paczki}</td>
+
+          <td class="${pointClass}">${x.punkty}</td>
+          <td class="rank-cell">${v173RankForPeriod(p, nick)}</td>
+        `;
+      } else {
+        // Brak rekordu dla gracza/okresu = brak danych.
+        html += '<td>—</td><td>—</td><td>—</td>';
+      }
+    }
+
+    html += '</tr>';
+  }
+
+  body.innerHTML = html;
+  bindPackageTooltips();
+  refreshBottomScrollbars();
+}
+
+
+function epicScoreClass(value, isTop3, period=CURRENT_PERIOD_LABEL) {
+  const limit = limitsForPeriod(period).epic;
+  if (isTop3 && value >= limit) return 'cell-score-gold';
+  if (value >= limit) return 'cell-score-green';
+  if (value >= limit * 0.5) return 'cell-score-blue';
+  return 'cell-score-red';
+}
+
+function setEpicHistorySort(type, period='', field='') {
+  let defaultDir = type === 'nick' ? 'asc' : 'desc';
+
+  if (
+    epicHistorySort.type === type &&
+    epicHistorySort.period === period &&
+    epicHistorySort.field === field
+  ) {
+    epicHistorySort.dir = epicHistorySort.dir === 'asc' ? 'desc' : 'asc';
+  } else {
+    epicHistorySort = {
+      type,
+      period,
+      field,
+      dir: defaultDir
+    };
+  }
+
+  renderEpicHistoryFromGlobal();
+}
+
+function epicHistoryArrow(type, period='', field='') {
+  if (
+    epicHistorySort.type === type &&
+    epicHistorySort.period === period &&
+    epicHistorySort.field === field
+  ) {
+    return epicHistorySort.dir === 'asc' ? '▲' : '▼';
+  }
+  return '';
+}
+
+function buildEpicHistoryDate(currentRows, historyRows) {
+  const all = [];
+
+  // V139: bieżący tydzień — pokazujemy wszystkich graczy.
+  for (const r of currentRows) {
+
+    all.push({
+      okres: CURRENT_PERIOD_LABEL,
+      nick: r.nick,
+      punkty: Number(r.punkty || 0),
+      epickie: Number(r.epickie || 0),
+      ragnarok: Number(r.ragnarok || 0),
+      arkana: Number(r.arkana || 0),
+      omeny: Number(r.omeny || 0),
+      arachne: Number(r.arachne || 0),
+      miasto_cieni: Number(r.miasto_cieni || 0),
+      sadny_dzien: Number(r.sadny_dzien || 0),
+      yokai: Number(r.yokai || 0),
+      briareos: Number(r.briareos || 0),
+      inferno: Number(r.inferno || 0),
+      piekielna_kuznia: Number(r.piekielna_kuznia || 0),
+      nieumarli: Number(r.nieumarli || 0),
+      inne_epic: Number(r.inne_epic || 0),
+      jormungand: Number(r.jormungand || 0),
+      fenrir: Number(r.fenrir || 0),
+      bazyliszek: Number(r.bazyliszek || 0),
+      chimera: Number(r.chimera || 0)
+    });
+  }
+
+  // V165: historia zasila tylko zakończone tygodnie.
+  // Bieżący okres zawsze pochodzi ze świeżego dane_paczek.json.
+  for (const h of historyRows || []) {
+    const historyPeriod = (h['Period'] ?? h['Okres rozliczeniowy'] ?? '').trim();
+    if (!historyPeriod || historyPeriod === CURRENT_PERIOD_LABEL) continue;
+
+    const nick = displayNick(h['Sender'] ?? h['Nadawca'] ?? '');
+    if (!nick) continue;
+
+    const num = (v) => Number.parseInt((v ?? '0').toString().replace(',', '.')) || 0;
+    const punkty = num(h['Points'] ?? h['Punkty']);
+
+    const ragnarok = num(h['Ragnarok']);
+    const arkana = num(h['Skrzynia Arkanów']);
+    const omeny = num(h['Skrzynia Mrocznych Omenów']);
+    const arachne = num(h['Arachne']);
+    const miasto_cieni = num(h['Miasto Cieni']);
+    const sadny_dzien = num(h['Sądny dzień']);
+    const yokai = num(h['Yokai']);
+    const briareos = num(h['Briareos']);
+    const inferno = num(h['Epicki oddział inferno']);
+    const piekielna_kuznia = num(h['Piekielna Kuźnia']);
+    const nieumarli = num(h['Epicki oddział nieumarłych']);
+    const inne_epic = num(h['Inne Epic Bosses']);
+    const jormungand = num(h['Jormungand']);
+    const fenrir = num(h['Fenrir']);
+    const bazyliszek = num(h['Bazyliszek']);
+    const chimera = num(h['Chimera']);
+
+    all.push({
+      okres: historyPeriod,
+      nick,
+      punkty,
+      // V164: Epic Bosses to liczba fizycznych skrzynek, zawsze suma szczegółów dymka.
+      epickie: ragnarok + arkana + omeny + arachne + miasto_cieni + sadny_dzien + yokai + briareos + inferno + piekielna_kuznia + nieumarli + inne_epic + jormungand + fenrir + bazyliszek + chimera,
+      ragnarok,
+      arkana,
+      omeny,
+      arachne,
+      miasto_cieni,
+      sadny_dzien,
+      yokai,
+      briareos,
+      inferno,
+      piekielna_kuznia,
+      nieumarli,
+      inne_epic,
+      jormungand,
+      fenrir,
+      bazyliszek,
+      chimera
+    });
+  }
+
+  return all;
+}
+
+function renderEpicHistory(currentRows, historyRows) {
+  epicHistoryDateGlobal = buildEpicHistoryDate(currentRows, historyRows);
+  renderEpicHistoryFromGlobal();
+}
+
+function renderEpicHistoryFromGlobal() {
+  const all = epicHistoryDateGlobal || [];
+
+  // V105: aktywna tabela Epic Bosses pokazuje WYŁĄCZNIE bieżący okres.
+  // Kolumna pozostaje widoczna także przy zerowych wynikach, jeśli okres istnieje.
+  const periods = all.some(x => x.okres === CURRENT_PERIOD_LABEL)
+    ? [CURRENT_PERIOD_LABEL]
+    : [];
+
+  const byKey = new Map();
+  for (const x of all) {
+    byKey.set(`${x.okres}|||${x.nick}`, x);
+  }
+
+  // Także tutaj pokazujemy tylko graczy obecnych w bieżącym okresie.
+  // Historia byłych członków nadal jest zachowana w danych.
+  let players = [...new Set(
+    all
+      .filter(x => x.okres === CURRENT_PERIOD_LABEL)
+      .map(x => x.nick)
+      .filter(Boolean)
+  )];
+
+  players.sort((a, b) => {
+    let result = 0;
+
+    if (epicHistorySort.type === 'nick') {
+      result = nickSortKey(a).localeCompare(
+        nickSortKey(b),
+        'pl',
+        { sensitivity: 'base', numeric: true }
+      );
+    } else {
+      const period = epicHistorySort.period || CURRENT_PERIOD_LABEL;
+      const field = epicHistorySort.field || 'epickie';
+
+      const av = byKey.get(`${period}|||${a}`);
+      const bv = byKey.get(`${period}|||${b}`);
+
+      const an = av ? Number(av[field] || 0) : -1;
+      const bn = bv ? Number(bv[field] || 0) : -1;
+
+      result = an - bn;
+
+      if (result === 0) {
+        result = nickSortKey(a).localeCompare(
+          nickSortKey(b),
+          'pl',
+          { sensitivity: 'base', numeric: true }
+        );
+      }
+    }
+
+    return epicHistorySort.dir === 'asc' ? result : -result;
+  });
+
+  // TOP 3 epickich osobno dla każdego tygodnia, tylko po osiągnięciu limitu.
+  const top3ByPeriod = new Map();
+  for (const period of periods) {
+    const ranked = all
+      .filter(x => x.okres === period && x.epickie >= limitsForPeriod(period).epic)
+      .sort((a, b) => b.epickie - a.epickie)
+      .slice(0, 3)
+      .map(x => x.nick);
+
+    top3ByPeriod.set(period, new Set(ranked));
+  }
+
+  const head = document.getElementById('epic-history-head');
+  const body = document.getElementById('epic-history-body');
+
+  const nickArrow = epicHistoryArrow('nick');
+
+  let h1 = `
+    <tr>
+      <th class="player history-sortable"
+          rowspan="2"
+          onclick="setEpicHistorySort('nick')">
+        Players <span class="sort-arrow">${nickArrow}</span>
+      </th>
+  `;
+
+  for (const p of periods) {
+    h1 += `<th colspan="2">${displayPeriodLabel(p)}</th>`;
+  }
+  h1 += '</tr>';
+
+  let h2 = '<tr>';
+  for (const p of periods) {
+    const totalArrow = epicHistoryArrow('period', p, 'epickie');
+
+    h2 += `
+      <th class="history-sortable"
+          onclick="setEpicHistorySort('period', '${escapeHtmlAttr(p)}', 'epickie')">
+        Epic Bosses <span class="sort-arrow">${totalArrow}</span>
+      </th>
+      <th>Position in the ranking</th>
+    `;
+  }
+  h2 += '</tr>';
+
+  head.innerHTML = h1 + h2;
+
+  let html = '';
+
+  for (const nick of players) {
+    html += `<tr><td class="player">${nick}</td>`;
+
+    for (const p of periods) {
+      const x = byKey.get(`${p}|||${nick}`);
+
+      if (x) {
+        const topSet = top3ByPeriod.get(p) || new Set();
+        const totalClass = epicScoreClass(x.epickie, topSet.has(nick), p);
+
+        html += `
+          <td class="${v247bArchiveResultClass(x.epickie, topSet.has(nick), 'epic', p)} epic-detail-cell"
+              data-player="${escapeHtmlAttr(x.nick)}"
+              data-period="${escapeHtmlAttr(x.okres)}"
+              data-ragnarok="${x.ragnarok || 0}"
+              data-arkana="${x.arkana || 0}"
+              data-omeny="${x.omeny || 0}"
+              data-arachne="${x.arachne || 0}"
+              data-miasto="${x.miasto_cieni || 0}"
+              data-sadny="${x.sadny_dzien || 0}"
+              data-yokai="${x.yokai || 0}"
+              data-briareos="${x.briareos || 0}"
+              data-inferno="${x.inferno || 0}"
+              data-piekielna-kuznia="${x.piekielna_kuznia || 0}"
+              data-nieumarli="${x.nieumarli || 0}"
+              data-chimera="${x.chimera || 0}"
+              data-inne-epic="${x.inne_epic || 0}"
+              data-jormungand="${x.jormungand || 0}"
+              data-fenrir="${x.fenrir || 0}"
+              data-bazyliszek="${x.bazyliszek || 0}"
+              data-total="${x.epickie || 0}"
+              title="Najedź, aby zobaczyć fizyczne skrzynki Epic Bosses (Count)">${x.epickie}</td>
+          <td class="rank-cell">${v175EpicRankForPeriod(byKey, p, nick)}</td>
+        `;
+      } else {
+        html += '<td>—</td><td>—</td>';
+      }
+    }
+
+    html += '</tr>';
+  }
+
+  body.innerHTML = html;
+  bindEpicTooltips();
+  refreshBottomScrollbars();
+}
+
+function escapeHtmlAttr(value) {
+  return (value ?? '').toString()
+    .replace(/&/g, '&amp;')
+    .replace(/"/g, '&quot;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+}
+
+function escapeHtml(value) {
+  return (value ?? '').toString()
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#039;');
+}
+
+function showPackageTooltip(cell, clientX, clientY) {
+  const tooltip = document.getElementById('package-tooltip');
+  if (!tooltip) return;
+
+  const player = cell.dataset.player || '';
+  const period = cell.dataset.period || '';
+  const zwykle = Number(cell.dataset.zwykle || 0);
+  const rzadkie = Number(cell.dataset.rzadkie || 0);
+  const epickie = Number(cell.dataset.epickie || 0);
+  const twierdze = Number(cell.dataset.twierdze || 0);
+  const total = Number(cell.dataset.total || 0);
+
+  tooltip.innerHTML = `
+    <div class="package-tooltip-title">${escapeHtml(player)} — ${escapeHtml(period)}</div>
+    <table>
+      <tr><td>Krypty zwykłe</td><td>${zwykle}</td></tr>
+      <tr><td>Krypty rzadkie</td><td>${rzadkie}</td></tr>
+      <tr><td>Krypty epickie</td><td>${epickie}</td></tr>
+      <tr><td>Twierdze</td><td>${twierdze}</td></tr>
+      <tr><td><strong>Razem</strong></td><td><strong>${total}</strong></td></tr>
+    </table>
+    <div class="package-tooltip-hint">Rozbicie paczek dla tego tygodnia.</div>
+  `;
+
+  tooltip.classList.add('visible');
+  tooltip.setAttribute('aria-hidden', 'false');
+
+  const pad = 14;
+  const rect = tooltip.getBoundingClientRect();
+
+  let x = clientX + 14;
+  let y = clientY + 14;
+
+  if (x + rect.width + pad > window.innerWidth) {
+    x = clientX - rect.width - 14;
+  }
+  if (y + rect.height + pad > window.innerHeight) {
+    y = clientY - rect.height - 14;
+  }
+
+  tooltip.style.left = Math.max(pad, x) + 'px';
+  tooltip.style.top = Math.max(pad, y) + 'px';
+}
+
+function showEpicTooltip(cell, clientX, clientY) {
+  const tooltip = document.getElementById('package-tooltip');
+  if (!tooltip) return;
+
+  const player = cell.dataset.player || '';
+  const period = cell.dataset.period || '';
+
+  const ragnarok = Number(cell.dataset.ragnarok || 0);
+  const arkana = Number(cell.dataset.arkana || 0);
+  const omeny = Number(cell.dataset.omeny || 0);
+  const arachne = Number(cell.dataset.arachne || 0);
+  const miasto = Number(cell.dataset.miasto || 0);
+  const sadny = Number(cell.dataset.sadny || 0);
+  const yokai = Number(cell.dataset.yokai || 0);
+  const briareos = Number(cell.dataset.briareos || 0);
+  const inferno = Number(cell.dataset.inferno || 0);
+  const piekielnaKuznia = Number(cell.dataset.piekielnaKuznia || 0);
+  const nieumarli = Number(cell.dataset.nieumarli || 0);
+  const chimera = Number(cell.dataset.chimera || 0);
+  const inneEpic = Number(cell.dataset.inneEpic || 0);
+  const jormungand = Number(cell.dataset.jormungand || 0);
+  const fenrir = Number(cell.dataset.fenrir || 0);
+  const bazyliszek = Number(cell.dataset.bazyliszek || 0);
+  const total = Number(cell.dataset.total || 0);
+
+  tooltip.innerHTML = `
+    <div class="package-tooltip-title">${escapeHtml(player)} — ${escapeHtml(period)}</div>
+    <table>
+      <tr><td>Ragnarok</td><td>${ragnarok}</td></tr>
+      <tr><td>Skrzynia Arkanów</td><td>${arkana}</td></tr>
+      <tr><td>Skrzynia Mrocznych Omenów</td><td>${omeny}</td></tr>
+      <tr><td>Arachne</td><td>${arachne}</td></tr>
+      <tr><td>Miasto Cieni</td><td>${miasto}</td></tr>
+      <tr><td>Sądny dzień</td><td>${sadny}</td></tr>
+      <tr><td>Yokai</td><td>${yokai}</td></tr>
+      <tr><td>Briareos</td><td>${briareos}</td></tr>
+      <tr><td>Armagedon</td><td>${inferno}</td></tr>
+      <tr><td>Piekielna Kuźnia</td><td>${piekielnaKuznia}</td></tr>
+      <tr><td>Epicki oddział nieumarłych</td><td>${nieumarli}</td></tr>
+      <tr><td>Chimera</td><td>${chimera}</td></tr>
+      <tr><td>Inne Epic Bosses</td><td>${inneEpic}</td></tr>
+      <tr><td>Jormungand</td><td>${jormungand}</td></tr>
+      <tr><td>Fenrir</td><td>${fenrir}</td></tr>
+      <tr><td>Bazyliszek</td><td>${bazyliszek}</td></tr>
+      <tr><td><strong>Epic Bosses — razem</strong></td><td><strong>${total}</strong></td></tr>
+    </table>
+    <div class="package-tooltip-hint">Fizyczne skrzynki (Count) z podziałem na wszystkie kategorie Epic Bosses.</div>
+  `;
+
+  tooltip.classList.add('visible');
+  tooltip.setAttribute('aria-hidden', 'false');
+
+  const pad = 14;
+  const rect = tooltip.getBoundingClientRect();
+
+  let x = clientX + 14;
+  let y = clientY + 14;
+
+  if (x + rect.width + pad > window.innerWidth) x = clientX - rect.width - 14;
+  if (y + rect.height + pad > window.innerHeight) y = clientY - rect.height - 14;
+
+  tooltip.style.left = Math.max(pad, x) + 'px';
+  tooltip.style.top = Math.max(pad, y) + 'px';
+}
+
+function bindEpicTooltips() {
+  document.querySelectorAll('.epic-detail-cell').forEach(cell => {
+    cell.addEventListener('mouseenter', (e) => showEpicTooltip(cell, e.clientX, e.clientY));
+    cell.addEventListener('mousemove', (e) => {
+      const tooltip = document.getElementById('package-tooltip');
+      if (!tooltip || !tooltip.classList.contains('visible')) return;
+
+      const pad = 14;
+      const rect = tooltip.getBoundingClientRect();
+      let x = e.clientX + 14;
+      let y = e.clientY + 14;
+
+      if (x + rect.width + pad > window.innerWidth) x = e.clientX - rect.width - 14;
+      if (y + rect.height + pad > window.innerHeight) y = e.clientY - rect.height - 14;
+
+      tooltip.style.left = Math.max(pad, x) + 'px';
+      tooltip.style.top = Math.max(pad, y) + 'px';
+    });
+    cell.addEventListener('mouseleave', hidePackageTooltip);
+    cell.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const rect = cell.getBoundingClientRect();
+      showEpicTooltip(cell, rect.left + rect.width / 2, rect.top + rect.height / 2);
+    });
+  });
+}
+
+function hidePackageTooltip() {
+  const tooltip = document.getElementById('package-tooltip');
+  if (!tooltip) return;
+  tooltip.classList.remove('visible');
+  tooltip.setAttribute('aria-hidden', 'true');
+}
+
+function bindPackageTooltips() {
+  const cells = document.querySelectorAll('.package-detail-cell');
+
+  cells.forEach(cell => {
+    cell.addEventListener('mouseenter', (e) => {
+      showPackageTooltip(cell, e.clientX, e.clientY);
+    });
+
+    cell.addEventListener('mousemove', (e) => {
+      const tooltip = document.getElementById('package-tooltip');
+      if (!tooltip || !tooltip.classList.contains('visible')) return;
+
+      const pad = 14;
+      const rect = tooltip.getBoundingClientRect();
+      let x = e.clientX + 14;
+      let y = e.clientY + 14;
+
+      if (x + rect.width + pad > window.innerWidth) x = e.clientX - rect.width - 14;
+      if (y + rect.height + pad > window.innerHeight) y = e.clientY - rect.height - 14;
+
+      tooltip.style.left = Math.max(pad, x) + 'px';
+      tooltip.style.top = Math.max(pad, y) + 'px';
+    });
+
+    cell.addEventListener('mouseleave', hidePackageTooltip);
+
+    // Telefon/tablet: kliknięcie pokazuje ten sam podgląd.
+    cell.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const rect = cell.getBoundingClientRect();
+      showPackageTooltip(cell, rect.left + rect.width / 2, rect.top + rect.height / 2);
+    });
+  });
+
+  document.addEventListener('click', (e) => {
+    if (!e.target.closest('.package-detail-cell')) hidePackageTooltip();
+  }, { once: true });
+}
+
+async function run() {
+  const res = await fetch('dane_paczek.json?ts=' + Date.now());
+  const data = await res.json();
+
+  let historyDate = [];
+  try {
+    const hres = await fetch('historia_tygodniowa.json?ts=' + Date.now());
+    if (hres.ok) historyDate = await hres.json();
+  } catch (_) {
+    historyDate = [];
+  }
+
+  const tbody = document.getElementById('weekly-history-body');
+  const tbodyEpickie = document.getElementById('epic-history-body');
+  const tbodySzczegoly = document.getElementById('tbody-szczegoly');
+  const tbodyScoring = document.getElementById('tbody-punktacja');
+  const summary = document.getElementById('summary');
+
+  const punktacjaRows = Object.entries(PUNKTACJA_PACZEK)
+    .sort((a, b) => a[0].localeCompare(b[0], 'pl'));
+
+  tbodyScoring.innerHTML = punktacjaRows.map(([nazwa, pkt]) => `
+    <tr>
+      <td style="text-align:left">${nazwa}</td>
+      <td>${pkt}</td>
+    </tr>
+  `).join('');
+
+  if (!Array.isArray(data) || data.length === 0) {
+    tbody.innerHTML = '<tr><td class="empty">Brak danych.</td></tr>';
+    tbodyEpickie.innerHTML = '<tr><td class="empty">Brak danych.</td></tr>';
+    tbodySzczegoly.innerHTML = '<tr><td colspan="6" class="empty">Brak danych.</td></tr>';
+    return;
+  }
+
+  const players = new Map();
+
+  function isRankingChest(row) {
+    const raw = `${row['Typ'] || ''} ${row['Źródło'] || ''}`
+      .toString()
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .toLowerCase()
+      .replace(/\s+/g, ' ')
+      .trim();
+
+    return /\brankingowa\s+skrzynia\b/.test(raw)
+      || /\bskrzynia\s+rankingowa\b/.test(raw)
+      || /\brankingowa\s+skrzynka\b/.test(raw)
+      || /\bskrzynka\s+rankingowa\b/.test(raw);
+  }
+
+  for (const row of data) {
+    if (isRankingChest(row)) continue;
+    const nick = displayNick(row['Nadawca'] || '');
+    if (!nick) continue;
+
+    if (!players.has(nick)) {
+      players.set(nick, {
+        punkty: 0,
+        krypty_zwykle: 0,
+        krypty_rzadkie: 0,
+        krypty_epickie: 0,
+        twierdze: 0,
+        ragnarok: 0,
+        arkana: 0,
+        omeny: 0,
+        arachne: 0,
+        miasto_cieni: 0,
+        sadny_dzien: 0,
+        yokai: 0,
+        briareos: 0,
+        inferno: 0,
+        piekielna_kuznia: 0,
+        nieumarli: 0,
+        inne_epic: 0,
+        jormungand: 0,
+        fenrir: 0,
+        bazyliszek: 0,
+        chimera: 0
+      });
+    }
+
+    const p = players.get(nick);
+    const pkt = parseInt((row['Punkty'] || '0').toString().replace(',', '.')) || 0;
+
+    // V164: NIE wolno zamieniać braku/błędu Count na 1 rekord = 1 szt.
+    // Nieprawidłowy Count daje 0 w widoku i powinien zostać wykryty po stronie Pythona przed publikacją.
+    const countParsed = Number.parseInt((row['Count'] ?? '').toString().replace(',', '.'), 10);
+    const physicalCount = Number.isFinite(countParsed) && countParsed >= 1 ? countParsed : 0;
+
+    // V164: Epic Bosses zawsze 0 pkt, również dla historycznie błędnej wartości w JSON.
+    if (row['KC915EpicCategory'] !== 'chimera' && !isEpicBossType(row['Typ'], row['Źródło'])) p.punkty += pkt;
+
+    const cat = row['KC915EpicCategory'] === 'chimera' ? 'chimera' : classify(row['Typ'], row['Źródło']);
+    if (cat) p[cat] += physicalCount;
+  }
+
+  const rows = [...players.entries()]
+    .map(([nick, p]) => {
+      // V164: jedna liczba Epic Bosses = suma fizycznych Count wszystkich pozycji dymka.
+      p.epickie =
+        Number(p.ragnarok || 0) +
+        Number(p.arkana || 0) +
+        Number(p.omeny || 0) +
+        Number(p.arachne || 0) +
+        Number(p.miasto_cieni || 0) +
+        Number(p.sadny_dzien || 0) +
+        Number(p.yokai || 0) +
+        Number(p.briareos || 0) +
+        Number(p.inferno || 0) +
+        Number(p.piekielna_kuznia || 0) +
+        Number(p.nieumarli || 0) +
+        Number(p.inne_epic || 0) +
+        Number(p.jormungand || 0) +
+        Number(p.fenrir || 0) +
+        Number(p.bazyliszek || 0) +
+        Number(p.chimera || 0);
+      return { nick, ...p };
+    });
+
+  rows.sort((a, b) => b.punkty - a.punkty || b.epickie - a.epickie || a.nick.localeCompare(b.nick, 'pl'));
+
+  weeklyRowsGlobal = [...rows];
+  epicRowsGlobal = [...rows];
+
+  renderWeeklyHistory(rows, historyDate);
+  renderEpicHistory(rows, historyDate);
+  renderArchiveTables();
+
+  let htmlSzczegoly = '';
+  const detailsRows = [...data].sort((a, b) => {
+    const da = (a['Data'] || '').toString();
+    const db = (b['Data'] || '').toString();
+    return db.localeCompare(da);
+  });
+
+  for (const row of detailsRows) {
+    const dataTxt = row['Data'] ?? '';
+    const typTxt = row['Typ'] ?? '';
+    const nickTxt = displayNick(row['Nadawca'] ?? '');
+    const zrodloTxt = row['Źródło'] ?? '';
+    const pktTxtRaw = row['Punkty'] ?? '';
+    const pktTxt = isEpicBossType(typTxt, zrodloTxt) ? '0' : pktTxtRaw;
+
+    const pktNum = Number.parseInt((pktTxt || '0').toString().replace(',', '.')) || 0;
+    if (pktNum <= 0) continue;
+
+    htmlSzczegoly += `
+      <tr>
+        <td>${dataTxt}</td>
+        <td>${typTxt}</td>
+        <td class="player">${nickTxt}</td>
+        <td>${zrodloTxt}</td>
+        <td>${pktTxt}</td>
+      </tr>
+    `;
+  }
+
+  tbodySzczegoly.innerHTML = htmlSzczegoly;
+
+  const iluPkt = rows.filter(r => r.punkty >= LIMIT_PUNKTOW).length;
+  const iluEpic = rows.filter(r => r.epickie >= LIMIT_EPICKICH).length;
+
+  summary.textContent =
+    `Players: ${rows.length} | The point limit has been reached: ${iluPkt} | The limit for Epic packs has been reached: ${iluEpic}`;
+}
+
+run().catch(err => {
+  document.getElementById('weekly-history-body').innerHTML =
+    '<tr><td colspan="6" class="empty">Błąd wczytywania danych: ' + err + '</td></tr>';
+  document.getElementById('epic-history-body').innerHTML =
+    '<tr><td colspan="6" class="empty">Błąd wczytywania danych: ' + err + '</td></tr>';
+  document.getElementById('tbody-szczegoly').innerHTML =
+    '<tr><td colspan="5" class="empty">Błąd wczytywania danych: ' + err + '</td></tr>';
+});
+</script>
+
+
+<script>
+/* V177B WHEEL FRONTEND INTEGRATION */
+function showV177BWinners() {
+  document.querySelectorAll('.tab-view').forEach(function(el) {
+    el.classList.remove('active-view');
+  });
+
+  document.querySelectorAll('.nav-item').forEach(function(el) {
+    el.classList.remove('active');
+  });
+
+  var view = document.getElementById('view-winners');
+  var tab = document.getElementById('tab-winners');
+
+  if (view) view.classList.add('active-view');
+  if (tab) tab.classList.add('active');
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('.nav-item:not(#tab-winners)').forEach(function(el) {
+    el.addEventListener('click', function() {
+      var winnersView = document.getElementById('view-winners');
+      var winnersTab = document.getElementById('tab-winners');
+
+      if (winnersView) winnersView.classList.remove('active-view');
+      if (winnersTab) winnersTab.classList.remove('active');
+    });
+  });
+});
+</script>
+
+</body>
+</html>

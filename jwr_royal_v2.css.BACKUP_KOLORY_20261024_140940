@@ -1,0 +1,118 @@
+/* [JWR] Relaks — Royal Portal V2. Visual only; never modifies rankings or Wheel logic. */
+:root{--royal-gold:#d9a54b;--royal-champagne:#ffe3a2;--royal-edge:#8b5521;--royal-purple:#320f48;--royal-midnight:#0c0812}
+html{background:#0d0812}
+body{position:relative;min-height:100vh;color:#f7ecd6!important;background:radial-gradient(ellipse at 50% 290px,#342039 0,#1b1023 45%,#0d0812 100%) fixed!important}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;background:linear-gradient(90deg,#0008 0,transparent 20%,transparent 80%,#0009),url('./jwr_royal_assets/royal_castle.webp') center top/auto 640px no-repeat;opacity:.24}
+body::after{content:"";position:fixed;pointer-events:none;z-index:0;inset:75px 0 0;background:url('./jwr_royal_assets/royal_left.webp') left top/120px auto no-repeat,url('./jwr_royal_assets/royal_right.webp') right top/120px auto no-repeat;opacity:.88;filter:drop-shadow(0 0 7px #000a)}
+.topbar,.container{position:relative;z-index:1}
+.topbar{background:linear-gradient(180deg,#1b0c25,#3b1446 52%,#110819)!important;border-bottom:3px ridge #d5a757!important;box-shadow:0 6px 22px #000d,0 1px 0 #fae2a7!important}
+.topbar-inner{max-width:1400px!important;flex-wrap:wrap}
+.brand,.topbar .nav-item{font-family:Georgia,serif!important;font-weight:bold!important;letter-spacing:.05px;color:#f8d88b!important;background:linear-gradient(170deg,#240d2e,#3e1750 45%,#110819)!important;border-left:1px solid #b88b42!important;border-right:1px solid #b88b42!important;border-radius:2px 2px 0 0;text-shadow:0 2px 3px #000;box-shadow:inset 0 2px 0 #bd8a4444,inset 0 -2px 0 #2b1026}
+.topbar .nav-item.active,.topbar .nav-item:hover{color:#fff4bc!important;background:linear-gradient(180deg,#5f2870 0%,#2f0c40 70%,#210729)!important;box-shadow:inset 0 0 19px #efbb7a50,0 0 9px #b9804066;border-bottom:3px solid #ffd079!important}
+.container{max-width:1390px!important;padding-left:clamp(20px,4vw,66px)!important;padding-right:clamp(20px,4vw,66px)!important}
+.meta{margin-top:23px!important;margin-bottom:6px!important;color:#ffe0a1!important;text-shadow:0 1px 3px #000;letter-spacing:.2px}
+.meta::before,.meta::after{content:'❦';color:#bb8837;margin:0 .65em}
+img[src*='herb_jwr_relaks_honor_relax_glory']{display:block!important;margin:8px auto 14px!important;max-width:min(240px,70vw)!important;height:auto!important;max-height:260px!important;object-fit:contain!important;filter:drop-shadow(0 0 13px #c88d4f3c)}
+/* Gold-carved parchment banners: section text stays real, selectable HTML */
+.container .controls:has(>h1),.container .controls:has(>h2),.container .controls:has(>.title){position:relative;isolation:isolate;max-width:760px;margin-top:10px;min-height:63px;display:flex;align-items:center;justify-content:center}
+.container .controls:has(>.title)::before{content:"";position:absolute;z-index:-1;inset:-1px -19px;background:url('./jwr_royal_assets/royal_ribbon.svg') center/100% 100% no-repeat;pointer-events:none}
+.container .title,.container h1,.container h2{color:#ffe1a0!important;text-shadow:0 2px 2px #000,0 0 5px #a36c2b;font-family:Georgia,serif!important}
+.container .controls .title{font-size:clamp(19px,2vw,29px)!important;margin:0!important;padding:8px 20px;text-align:center}
+.container .legend{color:#f5ebde!important;padding:4px 8px 10px}
+/* RICH FRAMES outside existing scrollable areas: no table layout or widths touched */
+.container .table-wrap,.container .history-wrap,.container .wheel-panel,.container .winners-panel,.container .archive-panel,.container .score-panel,.container .details-panel{position:relative;border:3px ridge #c89849!important;border-radius:7px!important;box-shadow:inset 0 0 0 1px #ffde8b88,0 0 0 2px #270c31,0 5px 14px #0009!important;background-color:#100c16}
+.container .table-wrap::before,.container .history-wrap::before{content:"";position:absolute;inset:0;pointer-events:none;z-index:2;background:url('./jwr_royal_assets/royal_corner.svg') left top/49px 49px no-repeat,url('./jwr_royal_assets/royal_corner.svg') right top/49px 49px no-repeat;opacity:.7}
+.container table{border-collapse:separate!important;border-spacing:0!important;border:1px solid #855c2d!important;box-shadow:0 0 0 1px #f1c97244}
+.container table th{background:linear-gradient(180deg,#52175f,#280d37)!important;color:#fbe09c!important;border-color:#ad7935!important;font-family:Georgia,serif;font-weight:bold!important;text-shadow:0 1px 1px #000}
+.container table td{border-color:#6f5540!important}
+.container table td:not([style*='background']){background-color:#141018!important}
+.container table tr:hover td{filter:brightness(1.10)}
+.container .table-limit-center{color:#d9f078!important;text-shadow:0 1px 4px #000}
+/* Separate iframe is still fully operable. Only its surrounding frame is decorated. */
+iframe[src*='wheel'],iframe[src*='kolo']{border:3px ridge #c59854!important;border-radius:8px;box-shadow:0 0 0 2px #351044,0 7px 22px #000a!important}
+/* Other existing panels: subtle gilding without changing their internal controls */
+.container [class*='panel'],.container [class*='box']{border-color:#946831}
+button:focus-visible,a:focus-visible{outline:2px solid #ffe69c!important;outline-offset:2px}
+@media(max-width:1540px){body::after{background-size:70px auto,70px auto;opacity:.54}}
+@media(max-width:980px){body::after{display:none}.container{padding-inline:12px!important}.container .controls:has(>.title){max-width:100%}.container .controls:has(>.title)::before{inset:0 0}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+
+
+/* ================================================================
+   JWR ROYAL V2.1 — readability and proportional ornaments
+   Existing tabs, tables, private panel and embedded wheel logic intact.
+   ================================================================ */
+/* The previous centered castle texture created a conspicuous vertical
+   rectangle behind the transparent clan crest. Replace it with a seamless
+   uniform background; keep castle architecture solely at outer edges. */
+body::before{
+  background:radial-gradient(ellipse at 50% 12%,rgba(87,43,93,.13),transparent 65%)!important;
+  opacity:1!important;
+}
+body::after{
+  inset:75px 0 0!important;
+  background-position:left top,right top!important;
+  background-size:clamp(58px,6vw,100px) auto,clamp(58px,6vw,100px) auto!important;
+  opacity:.62!important;
+}
+/* Portrait-sized clan crest, free of artificial rectangular backplates */
+.container img[src*='herb_jwr_relaks_honor_relax_glory']{
+  display:block!important;
+  width:min(220px,60vw)!important;
+  max-width:220px!important;
+  max-height:232px!important;
+  height:auto!important;
+  margin:4px auto 10px!important;
+  background:transparent!important;
+  box-shadow:none!important;
+}
+/* Smaller, consistent banners across all native content sections */
+.container .controls:has(>.title){
+  box-sizing:border-box!important;
+  width:min(100%,560px)!important;
+  max-width:560px!important;
+  min-height:46px!important;
+  margin:14px auto 8px!important;
+  padding:0 23px!important;
+  isolation:isolate;
+}
+.container .controls:has(>.title)::before{
+  inset:0!important;
+  background-size:100% 100%!important;
+  opacity:.96!important;
+}
+.container .controls .title{
+  font-size:clamp(17px,1.6vw,23px)!important;
+  line-height:1.25!important;
+  padding:6px 12px!important;
+  letter-spacing:.12px;
+}
+/* Prevent the decorative corners from covering data or scrollbars */
+.container .table-wrap::before,.container .history-wrap::before{
+  background:none!important;
+  display:none!important;
+}
+.container .table-wrap,.container .history-wrap{
+  border:2px solid #b68a46!important;
+  border-radius:5px!important;
+  overflow:auto;
+  box-shadow:inset 0 0 0 1px #ffe2a13b,0 3px 12px #0008!important;
+}
+/* Preserve user-defined limit/rank colors rather than replacing all cell fills */
+.container table td:not([style*='background']){
+  background-color:unset!important;
+}
+/* Wheel iframe remains clickable; gold only around the frame */
+iframe[src*='wheel'],iframe[src*='kolo']{
+  border:2px solid #a8793d!important;
+  box-shadow:0 0 0 1px #3a143f,0 4px 12px #0008!important;
+}
+@media(max-width:1100px){
+  body::after{opacity:.27!important;background-size:55px auto,55px auto!important}
+  .container .controls:has(>.title){width:min(100%,500px)!important}
+}
+@media(max-width:760px){
+  body::after{display:none!important}
+  .container .controls:has(>.title){width:100%!important;min-height:44px!important;padding:0 8px!important}
+  .container .controls .title{font-size:18px!important}
+}

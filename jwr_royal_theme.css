@@ -134,3 +134,64 @@ body.guide-page,
   border: 1px solid rgba(214,168,78,.55) !important;
   border-radius: 14px;
 }
+
+/* JWR ROYAL CASTLE HALL V25 BEGIN */
+/* Actual castle architecture throughout the viewport; no table or wheel data in image. */
+html { min-height: 100%; background-color: #160e12; }
+body {
+  min-height:100vh;
+  background-image: linear-gradient(180deg,rgba(10,6,10,.12) 0%,rgba(19,9,15,.18) 41%,rgba(10,5,10,.40) 85%,rgba(9,4,9,.56) 100%), url("./jwr_royal_assets/royal_full_bg.png") !important;
+  background-position: center top, center top !important;
+  background-size: cover, cover !important;
+  background-attachment: fixed, fixed !important;
+  background-repeat: no-repeat,no-repeat !important;
+  background-color:#160e12 !important;
+}
+body::before { display:none !important; }
+/* Prevent a heavy panel over the entire hall. Panels themselves remain opaque for readability. */
+.container { background:transparent !important; box-shadow:none !important; }
+.topbar {background:linear-gradient(180deg,rgba(51,19,61,.98),rgba(18,8,27,.98)) !important;border-bottom:2px solid #c69c4d !important;}
+.meta { text-shadow:0 2px 4px #000,0 0 10px #000; }
+.container h1,.container h2,.container h3,.container .title { text-shadow:0 2px 5px #0a0610,0 0 12px #0a0610; }
+/* Only frame existing blocks. Never overwrite point/limit backgrounds. */
+.wheel-panel,.wheel-container,.winners-panel,.archive-panel,.score-panel,.details-panel {box-shadow:0 0 0 1px #c89c5988,0 10px 25px #08030788 !important;}
+/* No broad table td background/color overrides: preserve gold/green/blue/red scoring. */
+@media(max-width:750px) {body{background-attachment:scroll,scroll !important; background-size:auto 100vh,auto 100vh !important;}}
+/* JWR ROYAL CASTLE HALL V25 END */
+
+/* JWR ROYAL SALA V26 - DECORATIVE ONLY; preserve original scoring colors */
+/* This is an additive stylesheet segment in jwr_royal_theme.css. */
+:root{--jwr-v26-gold:#d9ab56;--jwr-v26-light:#ffebac;--jwr-v26-purple:#351143}
+.topbar{background:linear-gradient(180deg,#37123eea 0%,#200c2bea 64%,#0b0912f7 100%)!important;border-bottom:3px double #dba85b!important;box-shadow:0 4px 13px #050107c4!important}
+.topbar-inner{max-width:1500px!important}
+.nav-item{background:linear-gradient(180deg,#401649,#240a30)!important;border-left:1px solid #6e4b2d!important;border-right:1px solid #ac7a37!important;color:#ffe5a6!important;font-family:Georgia,'Times New Roman',serif!important;font-weight:700!important;text-shadow:0 1px 2px #000!important}
+.nav-item.active,.nav-item:hover{background:linear-gradient(180deg,#713779,#361342)!important;color:#fff1c4!important;box-shadow:inset 0 0 13px #e8a94f62!important}
+.container{background:transparent!important;box-shadow:none!important}
+.meta{color:#ffdfa0!important;text-align:center;text-shadow:0 2px 5px #000,0 0 14px #170814!important;font-weight:700}
+/* Velvet gilded heading strips for every results tab, not just Crypts. */
+.container .controls:has(> .title){display:flex;justify-content:center;align-items:center;min-height:41px;margin:12px auto 7px!important;width:min(100%,710px)!important;position:relative;isolation:isolate}
+.container .controls > .title{box-sizing:border-box;display:block!important;text-align:center!important;width:min(100%,660px);margin:0!important;padding:7px 44px!important;color:#ffe4a1!important;font-family:Georgia,'Times New Roman',serif!important;font-size:clamp(20px,1.6vw,27px)!important;line-height:1.22!important;background:linear-gradient(180deg,rgba(101,44,109,.95),rgba(39,11,55,.98) 55%,rgba(29,9,42,.98))!important;border:2px solid #d4a252!important;box-shadow:0 0 0 2px #210c2c,0 6px 16px #0703079c,inset 0 2px 11px #f4be4847!important;clip-path:polygon(0 0,97% 0,100% 50%,97% 100%,0 100%,3% 50%);text-shadow:0 2px 3px #19051b!important}
+.container .controls > .title::before{content:'❧'!important;margin-right:16px;color:#efc777;font-size:.7em}
+.container .controls > .title::after{content:'❧'!important;margin-left:16px;color:#efc777;font-size:.7em;display:inline!important}
+.legend{max-width:790px;margin:0 auto 12px!important;display:flex;flex-wrap:wrap;justify-content:center;gap:6px 16px;padding:7px 12px!important;border-top:1px solid #e6b75a54;border-bottom:1px solid #e6b75a54;background:linear-gradient(90deg,transparent,#170d15b0 16%,#170d15b0 84%,transparent);color:#fff6e7!important;text-shadow:0 2px 4px #000}
+/* Decorative gold edges only. Do not touch table cell backgrounds or text. */
+.table-wrap,.history-wrap{border:2px solid #d9a85c!important;border-radius:6px!important;box-shadow:0 0 0 2px #240c21,0 0 0 3px #ae7b3ea8,0 13px 24px #0009!important;overflow:auto!important}
+.v177b-wheel-frame{border:2px solid #ba8a47!important;border-radius:9px!important;box-shadow:0 0 0 2px #270b23,0 0 0 3px #bd9a58a6,0 10px 22px #0009!important}
+.v177b-table-column,.v248-wheel-column{min-width:0}
+.table-limit-center{text-shadow:0 2px 5px #000,0 0 8px #000!important}
+/* Crest currently has dark baked-in rectangle. Soft fade its edges without changing the image file. */
+img[src*='herb_jwr_relaks_honor_relax_glory']{display:block!important;max-width:min(270px,85vw)!important;width:auto!important;height:auto!important;object-fit:contain!important;margin-left:auto!important;margin-right:auto!important;-webkit-mask-image:radial-gradient(ellipse 76% 73% at 50% 50%,#000 63%,transparent 99%);mask-image:radial-gradient(ellipse 76% 73% at 50% 50%,#000 63%,transparent 99%);filter:drop-shadow(0 4px 9px #200b17b0)!important}
+@media(max-width:750px){.container .controls>.title{padding:8px 18px!important}.container .controls>.title::before,.container .controls>.title::after{display:none!important}.legend{gap:5px 9px}.nav-item{font-size:12px}}
+/* Intentionally NO style overrides on td/tr .score-* or colored percentage cells. */
+/* JWR ROYAL SALA V26 END */
+
+/* JWR ROYAL V27 TRANSPARENT CREST */
+img[src*="herb_jwr_relaks_honor_relax_glory"]{
+  -webkit-mask-image:none!important;
+  mask-image:none!important;
+  filter:drop-shadow(0 5px 8px rgba(20,8,12,.7))!important;
+  background:transparent!important;
+  object-fit:contain!important;
+}
+/* Keep rankings cells, colored limits, Guide and wheel logic untouched. */
+/* END JWR ROYAL V27 */

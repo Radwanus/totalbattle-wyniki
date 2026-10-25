@@ -19118,5 +19118,125 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-25 22:47:10",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "Nerdailas",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "cb920a76b7f747a54aff"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-25 22:47:13",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "Sturm Brightblade",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "4b92faa8f98e7b3ad6fb"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-25 22:47:40",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "DjKro",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-25 22:47:55",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Sturm Brightblade",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "4b92faa8f98e7b3ad6fb"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-25 22:48:14",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "DjKro",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-25 22:48:41",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "Sturm Brightblade",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "4b92faa8f98e7b3ad6fb"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-25 22:48:56",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "DjKro",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-25 22:49:22",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Sturm Brightblade",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "4b92faa8f98e7b3ad6fb"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-25 22:49:35",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "DjKro",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-25 22:49:39",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "Domino",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "a4d9cc04ceaa47510b5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-25 22:49:42",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "Nerdailas",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "cb920a76b7f747a54aff"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-25 22:50:09",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "DjKro",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
   }
 ]

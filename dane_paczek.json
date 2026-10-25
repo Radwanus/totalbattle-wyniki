@@ -442308,5 +442308,85 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "81c34c9290ef01018d2e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-25 14:46:47",
+    "Typ": "Skrzynia Miasta Cieni",
+    "Nadawca": "Domino",
+    "Źródło": "Miasto Cieni",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "a4d9cc04ceaa47510b5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-25 14:46:55",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "RaFSaN RaFi",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "c101c6308abfb10e36ef"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-25 14:47:03",
+    "Typ": "Skrzynia Miasta Cieni",
+    "Nadawca": "Mario",
+    "Źródło": "Miasto Cieni",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "03547e958de090bf525f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-25 14:47:32",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "Ildanen",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "865e1ddb9398b80fcfee"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-25 14:47:51",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "RaFSaN RaFi",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "c101c6308abfb10e36ef"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-25 14:47:52",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "Rafi",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "81c34c9290ef01018d2e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-25 14:48:04",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "DjKro",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 18.10 - 25.10",
+    "Data": "2026-10-25 14:48:36",
+    "Typ": "Skrzynia Miasta Cieni",
+    "Nadawca": "Mager",
+    "Źródło": "Miasto Cieni",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "e363aa37cf47e1f42c58"
   }
 ]

@@ -23698,5 +23698,75 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "2aa0e06ca13aad2ebb10"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-26 00:29:43",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "Moralsa",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "2aa0e06ca13aad2ebb10"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-26 00:30:21",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "Moralsa",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "2aa0e06ca13aad2ebb10"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-26 00:30:59",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Moralsa",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "2aa0e06ca13aad2ebb10"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-26 00:31:33",
+    "Typ": "Skrzynia Miasta Cieni",
+    "Nadawca": "Rain",
+    "Źródło": "Miasto Cieni",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "17513ddcb0f4db94a0f6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-26 00:31:38",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Moralsa",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "2aa0e06ca13aad2ebb10"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-26 00:31:41",
+    "Typ": "Skrzynia Miasta Cieni",
+    "Nadawca": "Domino",
+    "Źródło": "Miasto Cieni",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "a4d9cc04ceaa47510b5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-26 00:32:17",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "Moralsa",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "2aa0e06ca13aad2ebb10"
   }
 ]

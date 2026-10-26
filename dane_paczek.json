@@ -32398,5 +32398,85 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "9f85337b8477e72ad538"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-26 04:39:36",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Morfii",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "641a95ee97d6ecedcdf9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-26 04:39:53",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Iron",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9f85337b8477e72ad538"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-26 04:40:26",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "Iron",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9f85337b8477e72ad538"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-26 04:40:35",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Morfii",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "641a95ee97d6ecedcdf9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-26 04:40:53",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Iron",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9f85337b8477e72ad538"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-26 04:41:15",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "RAFAL PL",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ff001bef965a35cc675a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-26 04:41:26",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "Iron",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9f85337b8477e72ad538"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-26 04:42:16",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Iron",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9f85337b8477e72ad538"
   }
 ]

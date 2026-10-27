@@ -90468,5 +90468,35 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "25fd16f36bf014d81ed7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-27 02:34:17",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "Maki II Degustator",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "fe888b930a0bdbccadf5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-27 02:34:49",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "Maki II Degustator",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "fe888b930a0bdbccadf5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-27 02:35:45",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Serafino",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "25fd16f36bf014d81ed7"
   }
 ]

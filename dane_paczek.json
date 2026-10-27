@@ -90878,5 +90878,25 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "a851d5c740ddb224897c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-27 03:57:44",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "abrej22",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "a851d5c740ddb224897c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-27 03:59:09",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "RaFSaN RaFi",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "c101c6308abfb10e36ef"
   }
 ]

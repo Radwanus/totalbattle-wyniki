@@ -128088,5 +128088,85 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "6d7f0562a0ccae85ce6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-27 15:27:37",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "Serafino",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "25fd16f36bf014d81ed7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-27 15:28:09",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "Nerdailas",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "cb920a76b7f747a54aff"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-27 15:28:41",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "KAZ",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-27 15:28:57",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "King of YEMEN",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "6d7f0562a0ccae85ce6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-27 15:29:25",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "Serafino",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "25fd16f36bf014d81ed7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-27 15:30:07",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "KAZ",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-27 15:30:23",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "KAZ",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-27 15:30:36",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "Nerdailas",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "cb920a76b7f747a54aff"
   }
 ]

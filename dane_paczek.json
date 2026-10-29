@@ -292048,5 +292048,125 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-30 00:18:17",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Painfont",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-30 00:18:20",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "T U F U R",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "5fe3b9e073708fe54f86"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-30 00:19:16",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "Bohun",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "9f6cadf34f080fbc5536"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-30 00:19:27",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "Bohun",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "9f6cadf34f080fbc5536"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-30 00:19:32",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "SEBA",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "77532d8f35fdf467a275"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-30 00:19:38",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Bohun",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "9f6cadf34f080fbc5536"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-30 00:20:03",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Bohun",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "9f6cadf34f080fbc5536"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-30 00:20:10",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "Mustafa cimbombom",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "448ab8ed04708bcb3345"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-30 00:20:30",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "SEBA",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "77532d8f35fdf467a275"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-30 00:21:14",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "Mustafa cimbombom",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "448ab8ed04708bcb3345"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-30 00:21:15",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "SEBA",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "77532d8f35fdf467a275"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-30 00:21:33",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "KAZ",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
   }
 ]

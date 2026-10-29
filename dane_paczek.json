@@ -272158,5 +272158,3005 @@
     "Punkty": "0",
     "Count": "3",
     "PlayerKey": "b6b1e0e854aa8a649f3c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:35:51",
+    "Typ": "Skrzynia Majów",
+    "Nadawca": "Sturm Brightblade",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "4b92faa8f98e7b3ad6fb"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:35:53",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "Rili",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "24d65d586acbdf6f930e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:35:55",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "Osingmet",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:36:03",
+    "Typ": "Skrzynia Unii",
+    "Nadawca": "Domino",
+    "Źródło": "Nagroda osobista Unii Triumfu",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "a4d9cc04ceaa47510b5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:36:07",
+    "Typ": "Skrzynia Unii",
+    "Nadawca": "Barkley",
+    "Źródło": "Nagroda osobista Unii Triumfu",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "b6b1e0e854aa8a649f3c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:36:41",
+    "Typ": "Skrzynia Unii",
+    "Nadawca": "Domino",
+    "Źródło": "Nagroda osobista Unii Triumfu",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "a4d9cc04ceaa47510b5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:36:47",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:36:50",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "Martini",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "1a9d6ebecbef2b288a62"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:36:53",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Martini",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "1a9d6ebecbef2b288a62"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:36:57",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:36:58",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "KAZ",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:37:06",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:37:15",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "KAZ",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:37:37",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Martini",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "1a9d6ebecbef2b288a62"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:37:40",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Martini",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "1a9d6ebecbef2b288a62"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:37:45",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:37:49",
+    "Typ": "Skrzynia Majów",
+    "Nadawca": "Painfont",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:37:55",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "KAZ",
+    "Źródło": "Rzadka krypta 25 poziomu",
+    "Punkty": "30",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:37:55",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:37:56",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "Stefan",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:38:05",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:38:33",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:38:34",
+    "Typ": "Kościana Skrzynia",
+    "Nadawca": "Painfont",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:38:36",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "Martini",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "1a9d6ebecbef2b288a62"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:38:40",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "Martini",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "1a9d6ebecbef2b288a62"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:38:47",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:38:55",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:39:17",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:39:22",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "Martini",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "1a9d6ebecbef2b288a62"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:39:24",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Martini",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "1a9d6ebecbef2b288a62"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:40:00",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:40:00",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:40:04",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "KAZ",
+    "Źródło": "Epicka krypta 25 poziomu",
+    "Punkty": "40",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:40:17",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:40:19",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "KAZ",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:40:31",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Stefan",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:40:41",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:40:42",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Martini",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "1a9d6ebecbef2b288a62"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:40:49",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "Painfont",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:40:52",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Martini",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "1a9d6ebecbef2b288a62"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:40:53",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:40:56",
+    "Typ": "Skrzynia Wymiany Klanowej",
+    "Nadawca": "Szybki Kriss",
+    "Źródło": "Wymiana klanowa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "49bc493bb219270d30fc"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:41:10",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Stefan",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:41:21",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:41:23",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "Rili",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "24d65d586acbdf6f930e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:41:29",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "Bohun",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "9f6cadf34f080fbc5536"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:41:31",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "Painfont",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:41:33",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:41:42",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Bohun",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "9f6cadf34f080fbc5536"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:41:57",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Stefan",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:41:59",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "Painfont",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:42:00",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:42:02",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Bohun",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "9f6cadf34f080fbc5536"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:42:07",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "WOJTUS",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3d476999a1883ef73b71"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:42:12",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Bohun",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "9f6cadf34f080fbc5536"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:42:13",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "Mario",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "03547e958de090bf525f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:42:15",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:42:27",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:42:31",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "WOJTUS",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3d476999a1883ef73b71"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:42:32",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Bohun",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "9f6cadf34f080fbc5536"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:42:35",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "KAZ",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:42:35",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Martini",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "1a9d6ebecbef2b288a62"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:42:38",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "Stefan",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:42:44",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Martini",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "1a9d6ebecbef2b288a62"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:42:45",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "Bohun",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "9f6cadf34f080fbc5536"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:42:47",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:42:54",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "WOJTUS",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3d476999a1883ef73b71"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:42:58",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:42:59",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "KAZ",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:43:19",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "Mario",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "03547e958de090bf525f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:43:19",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Stefan",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:43:20",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:43:27",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "Osingmet",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:43:31",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:43:43",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:43:45",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Martini",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "1a9d6ebecbef2b288a62"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:43:49",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Bohun",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "9f6cadf34f080fbc5536"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:43:51",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "Martini",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "1a9d6ebecbef2b288a62"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:44:02",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "Bohun",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "9f6cadf34f080fbc5536"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:44:09",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "Stefan",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:44:11",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:44:19",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:44:23",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "Bohun",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "9f6cadf34f080fbc5536"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:44:31",
+    "Typ": "Piaskowa Skrzynia",
+    "Nadawca": "Lady DAIRA",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "1b99a5953bedc09b2447"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:44:32",
+    "Typ": "Skrzynia Warsztatu Gnomów",
+    "Nadawca": "Lady DAIRA",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "1b99a5953bedc09b2447"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:44:44",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "Martini",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "1a9d6ebecbef2b288a62"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:44:46",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Martini",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "1a9d6ebecbef2b288a62"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:44:46",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Bohun",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "9f6cadf34f080fbc5536"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:44:46",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:44:51",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Bohun",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "9f6cadf34f080fbc5536"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:44:53",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "KAZ",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:44:57",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "Stefan",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:44:59",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:45:03",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "KAZ",
+    "Źródło": "Rzadka krypta 25 poziomu",
+    "Punkty": "30",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:45:07",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:45:09",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Bohun",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "9f6cadf34f080fbc5536"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:45:12",
+    "Typ": "Elegancka Skrzynia",
+    "Nadawca": "Lady DAIRA",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "1b99a5953bedc09b2447"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:45:29",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Bohun",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "9f6cadf34f080fbc5536"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:45:36",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "Bohun",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "9f6cadf34f080fbc5536"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:45:37",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "KAZ",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:45:42",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:45:53",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "Bohun",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "9f6cadf34f080fbc5536"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:45:54",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:45:57",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Lady DAIRA",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "1b99a5953bedc09b2447"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:46:03",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:46:14",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "Bohun",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "9f6cadf34f080fbc5536"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:46:30",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:46:35",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Lady DAIRA",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "1b99a5953bedc09b2447"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:46:42",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:46:51",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:46:57",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Stefan",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:46:59",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "Bohun",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "9f6cadf34f080fbc5536"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:47:16",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "Bohun",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "9f6cadf34f080fbc5536"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:47:16",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Lady DAIRA",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "1b99a5953bedc09b2447"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:47:19",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "KAZ",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:47:19",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Bohun",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "9f6cadf34f080fbc5536"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:47:25",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:47:33",
+    "Typ": "Skrzynia Kobry",
+    "Nadawca": "KAZ",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:47:36",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:47:36",
+    "Typ": "ItemId 8889102",
+    "Nadawca": "Evlin",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "0e032a736308995a4fd1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:47:41",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Bohun",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "9f6cadf34f080fbc5536"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:47:44",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:47:52",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "Stefan",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:48:10",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:48:36",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:48:44",
+    "Typ": "Elegancka Skrzynia",
+    "Nadawca": "KAZ",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:48:45",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:48:52",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Stefan",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:49:01",
+    "Typ": "Kościana Skrzynia",
+    "Nadawca": "KAZ",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:49:34",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "KAZ",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:49:35",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:49:46",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:49:47",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Stefan",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:49:55",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:50:19",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:50:27",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Bohun",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "9f6cadf34f080fbc5536"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:50:32",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "Bohun",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "9f6cadf34f080fbc5536"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:50:37",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "Radwanus",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "56010da3684b36109339"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:50:43",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "Bohun",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "9f6cadf34f080fbc5536"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:50:52",
+    "Typ": "ItemId 8889102",
+    "Nadawca": "Fofur",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "b9183084a6fabd5c96f9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:50:52",
+    "Typ": "Skrzynia Unii",
+    "Nadawca": "Centri",
+    "Źródło": "Nagroda osobista Unii Triumfu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3a22feceb9cf2de7eca8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:50:53",
+    "Typ": "Skrzynia Unii",
+    "Nadawca": "Centri",
+    "Źródło": "Nagroda osobista Unii Triumfu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3a22feceb9cf2de7eca8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:50:54",
+    "Typ": "Skrzynia Unii",
+    "Nadawca": "Centri",
+    "Źródło": "Nagroda osobista Unii Triumfu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3a22feceb9cf2de7eca8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:50:56",
+    "Typ": "Skrzynia Unii",
+    "Nadawca": "Centri",
+    "Źródło": "Nagroda osobista Unii Triumfu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3a22feceb9cf2de7eca8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:50:57",
+    "Typ": "Skrzynia Unii",
+    "Nadawca": "Centri",
+    "Źródło": "Nagroda osobista Unii Triumfu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3a22feceb9cf2de7eca8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:51:24",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Bohun",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "9f6cadf34f080fbc5536"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:51:35",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Stefan",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:51:35",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Bohun",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "9f6cadf34f080fbc5536"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:51:39",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:51:48",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "WOJTUS",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3d476999a1883ef73b71"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:51:53",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:52:01",
+    "Typ": "ItemId 8889102",
+    "Nadawca": "Fofur",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "b9183084a6fabd5c96f9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:52:07",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "WARIAT",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:52:11",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "WOJTUS",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3d476999a1883ef73b71"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:52:37",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "WOJTUS",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3d476999a1883ef73b71"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:53:00",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "WOJTUS",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3d476999a1883ef73b71"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:53:13",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "Radwanus",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "56010da3684b36109339"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:53:23",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "WOJTUS",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3d476999a1883ef73b71"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:54:36",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "Evlin",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "0e032a736308995a4fd1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:55:02",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "Radwanus",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "56010da3684b36109339"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:55:31",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Ildanen",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "865e1ddb9398b80fcfee"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:55:37",
+    "Typ": "ItemId 8889102",
+    "Nadawca": "Androzar",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3a4cb18a2d1a16c9c02b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:56:50",
+    "Typ": "Skrzynia Unii",
+    "Nadawca": "Serelka",
+    "Źródło": "Nagroda osobista Unii Triumfu",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "9a5455a401480b9d8137"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:56:52",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "Evlin",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "0e032a736308995a4fd1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:57:03",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "Painfont",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:57:06",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "Radwanus",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "56010da3684b36109339"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:57:12",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "iRfan",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "e5bc7939193cf10888b3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:57:20",
+    "Typ": "Skrzynia Unii",
+    "Nadawca": "Serelka",
+    "Źródło": "Nagroda osobista Unii Triumfu",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "9a5455a401480b9d8137"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:57:34",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "Naru",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "c19b743b1d635c8c7300"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:57:42",
+    "Typ": "ItemId 8889102",
+    "Nadawca": "Fofur",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "b9183084a6fabd5c96f9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:57:48",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "Evlin",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "0e032a736308995a4fd1"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:58:08",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Ildanen",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "865e1ddb9398b80fcfee"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 19:59:28",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "Merodir",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "f69ed0075a652c655a5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:00:02",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "Ildanen",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "865e1ddb9398b80fcfee"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:00:27",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "Merodir",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "f69ed0075a652c655a5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:00:34",
+    "Typ": "ItemId 8889102",
+    "Nadawca": "Fofur",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "b9183084a6fabd5c96f9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:01:52",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Konserwiusz",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "21c8940b5d1d200fb005"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:01:54",
+    "Typ": "Klanowa Skrzynia Przyspieszenia Marszu",
+    "Nadawca": "Konserwiusz",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "21c8940b5d1d200fb005"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:01:55",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Konserwiusz",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "21c8940b5d1d200fb005"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:02:17",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Maki II Degustator",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "fe888b930a0bdbccadf5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:02:20",
+    "Typ": "Klanowa Skrzynia Przyspieszenia Marszu",
+    "Nadawca": "Maki II Degustator",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "fe888b930a0bdbccadf5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:02:22",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Maki II Degustator",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "fe888b930a0bdbccadf5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:02:43",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "LakiLu",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "0dc31a9c73dcd599c691"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:02:44",
+    "Typ": "Klanowa Skrzynia Potwora Sądnego Dnia",
+    "Nadawca": "SEBA",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "78",
+    "PlayerKey": "77532d8f35fdf467a275"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:02:44",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "iRfan",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "e5bc7939193cf10888b3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:02:48",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Radwanus",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "56010da3684b36109339"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:02:48",
+    "Typ": "Klanowa Skrzynia Przyspieszenia Marszu",
+    "Nadawca": "LakiLu",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "0dc31a9c73dcd599c691"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:02:49",
+    "Typ": "Klanowa Skrzynia Przyspieszenia Marszu",
+    "Nadawca": "Radwanus",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "56010da3684b36109339"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:02:49",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Radwanus",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "56010da3684b36109339"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:02:50",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "LakiLu",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "0dc31a9c73dcd599c691"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:02:55",
+    "Typ": "Klanowa Skrzynia Przyspieszenia Marszu",
+    "Nadawca": "iRfan",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "e5bc7939193cf10888b3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:02:58",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "iRfan",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "e5bc7939193cf10888b3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:04:00",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Szybki Kriss",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "49bc493bb219270d30fc"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:04:01",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "CHRISTOV",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "dab55c4208248ce1ef48"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:04:04",
+    "Typ": "Klanowa Skrzynia Przyspieszenia Marszu",
+    "Nadawca": "CHRISTOV",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "dab55c4208248ce1ef48"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:04:04",
+    "Typ": "Klanowa Skrzynia Przyspieszenia Marszu",
+    "Nadawca": "Szybki Kriss",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "49bc493bb219270d30fc"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:04:06",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "CHRISTOV",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "dab55c4208248ce1ef48"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:04:06",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Szybki Kriss",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "49bc493bb219270d30fc"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:04:14",
+    "Typ": "Klanowa Skrzynia Potwora Sądnego Dnia",
+    "Nadawca": "Androzar",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "78",
+    "PlayerKey": "3a4cb18a2d1a16c9c02b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:04:29",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "MSlayer",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "b777a0647e386f7a290c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:04:31",
+    "Typ": "Klanowa Skrzynia Przyspieszenia Marszu",
+    "Nadawca": "MSlayer",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "b777a0647e386f7a290c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:04:32",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "MSlayer",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "b777a0647e386f7a290c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:04:46",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Arashiran",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "ee1fdbf4964c53453785"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:04:50",
+    "Typ": "Klanowa Skrzynia Przyspieszenia Marszu",
+    "Nadawca": "Arashiran",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "ee1fdbf4964c53453785"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:04:51",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Arashiran",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "ee1fdbf4964c53453785"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:04:57",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Melania",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:05:00",
+    "Typ": "Klanowa Skrzynia Przyspieszenia Marszu",
+    "Nadawca": "Melania",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:05:01",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Melania",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:05:29",
+    "Typ": "Klanowa Skrzynia Potwora Sądnego Dnia",
+    "Nadawca": "Radwanus",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "78",
+    "PlayerKey": "56010da3684b36109339"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:13",
+    "Typ": "Klanowa Skrzynia Potwora Sądnego Dnia",
+    "Nadawca": "Arfa",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "78",
+    "PlayerKey": "4828772199789880089d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:17",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Dasty",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "d55aae0b9321d71a9aba"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:19",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "GinoPL",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "1f5e6cd41b556c281825"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:20",
+    "Typ": "Klanowa Skrzynia Przyspieszenia Marszu",
+    "Nadawca": "Dasty",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "d55aae0b9321d71a9aba"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:22",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Jo K",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "24abd0939efac2a195b2"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:22",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Dasty",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "d55aae0b9321d71a9aba"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:23",
+    "Typ": "Klanowa Skrzynia Przyspieszenia Marszu",
+    "Nadawca": "GinoPL",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "1f5e6cd41b556c281825"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:23",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Martini",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "1a9d6ebecbef2b288a62"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:23",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Oregon",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "ba45562d23421d65eb5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:24",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Rili",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "24d65d586acbdf6f930e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:24",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Nerdailas",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "cb920a76b7f747a54aff"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:24",
+    "Typ": "Klanowa Skrzynia Przyspieszenia Marszu",
+    "Nadawca": "Jo K",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "24abd0939efac2a195b2"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:24",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "GinoPL",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "1f5e6cd41b556c281825"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:25",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "T U F U R",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "5fe3b9e073708fe54f86"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:25",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Jo K",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "24abd0939efac2a195b2"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:25",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "SEBA",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "77532d8f35fdf467a275"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:26",
+    "Typ": "Klanowa Skrzynia Przyspieszenia Marszu",
+    "Nadawca": "Martini",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "1a9d6ebecbef2b288a62"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:26",
+    "Typ": "Klanowa Skrzynia Przyspieszenia Marszu",
+    "Nadawca": "Oregon",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "ba45562d23421d65eb5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:27",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Martini",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "1a9d6ebecbef2b288a62"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:27",
+    "Typ": "Klanowa Skrzynia Przyspieszenia Marszu",
+    "Nadawca": "Rili",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "24d65d586acbdf6f930e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:27",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Oregon",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "ba45562d23421d65eb5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:27",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Fofur",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "b9183084a6fabd5c96f9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:28",
+    "Typ": "Klanowa Skrzynia Przyspieszenia Marszu",
+    "Nadawca": "Nerdailas",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "cb920a76b7f747a54aff"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:28",
+    "Typ": "Klanowa Skrzynia Przyspieszenia Marszu",
+    "Nadawca": "T U F U R",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "5fe3b9e073708fe54f86"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:28",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Zarina",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "821531d29e661d88ca32"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:28",
+    "Typ": "Klanowa Skrzynia Przyspieszenia Marszu",
+    "Nadawca": "SEBA",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "77532d8f35fdf467a275"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:29",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Rili",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "24d65d586acbdf6f930e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:29",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "T U F U R",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "5fe3b9e073708fe54f86"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:30",
+    "Typ": "Klanowa Skrzynia Przyspieszenia Marszu",
+    "Nadawca": "Zarina",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "821531d29e661d88ca32"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:30",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Zeta",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "da76e7be3e25fbc97c3c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:30",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Nerdailas",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "cb920a76b7f747a54aff"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:30",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Zarina",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "821531d29e661d88ca32"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:30",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "SEBA",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "77532d8f35fdf467a275"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:31",
+    "Typ": "Klanowa Skrzynia Przyspieszenia Marszu",
+    "Nadawca": "Zeta",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "da76e7be3e25fbc97c3c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:31",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "WOJTUS",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "3d476999a1883ef73b71"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:31",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Zeta",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "da76e7be3e25fbc97c3c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:32",
+    "Typ": "Klanowa Skrzynia Przyspieszenia Marszu",
+    "Nadawca": "Fofur",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "b9183084a6fabd5c96f9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:32",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Centri",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "3a22feceb9cf2de7eca8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:33",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Naru",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "c19b743b1d635c8c7300"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:33",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Pumba",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "b445d588a166843e7d6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:33",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Fofur",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "b9183084a6fabd5c96f9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:34",
+    "Typ": "Klanowa Skrzynia Przyspieszenia Marszu",
+    "Nadawca": "Naru",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "c19b743b1d635c8c7300"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:34",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Naru",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "c19b743b1d635c8c7300"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:34",
+    "Typ": "Klanowa Skrzynia Przyspieszenia Marszu",
+    "Nadawca": "WOJTUS",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3d476999a1883ef73b71"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:35",
+    "Typ": "Klanowa Skrzynia Przyspieszenia Marszu",
+    "Nadawca": "Pumba",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "b445d588a166843e7d6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:36",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "WOJTUS",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "3d476999a1883ef73b71"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:36",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Pumba",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "b445d588a166843e7d6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:36",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Hichem 25",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "1de4143c427ea9bf54fd"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:37",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Painfont",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:38",
+    "Typ": "Klanowa Skrzynia Przyspieszenia Marszu",
+    "Nadawca": "Centri",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3a22feceb9cf2de7eca8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:38",
+    "Typ": "Klanowa Skrzynia Przyspieszenia Marszu",
+    "Nadawca": "Painfont",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:38",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "PUREC",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "aaed1d7d5f289df49f4e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:38",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Centri",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "3a22feceb9cf2de7eca8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:38",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "King of YEMEN",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "6d7f0562a0ccae85ce6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:38",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "EeLL",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "a15b608703c3ba6fe2da"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:39",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Painfont",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:41",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Zioło",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "4df01774ba542ec518dd"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:41",
+    "Typ": "Klanowa Skrzynia Przyspieszenia Marszu",
+    "Nadawca": "PUREC",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "aaed1d7d5f289df49f4e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:41",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "亗AYDIN67亗",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "44b7445fcd45625fec4d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:42",
+    "Typ": "Klanowa Skrzynia Przyspieszenia Marszu",
+    "Nadawca": "Zioło",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "4df01774ba542ec518dd"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:42",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Zioło",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "4df01774ba542ec518dd"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:42",
+    "Typ": "Klanowa Skrzynia Przyspieszenia Marszu",
+    "Nadawca": "EeLL",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "a15b608703c3ba6fe2da"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:43",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "PUREC",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "aaed1d7d5f289df49f4e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:43",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "KAZ",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:43",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Lady DAIRA",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "1b99a5953bedc09b2447"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:44",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "EeLL",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "a15b608703c3ba6fe2da"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:44",
+    "Typ": "Klanowa Skrzynia Przyspieszenia Marszu",
+    "Nadawca": "King of YEMEN",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "6d7f0562a0ccae85ce6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:44",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "WARIAT",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:44",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Serelka",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "9a5455a401480b9d8137"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:45",
+    "Typ": "Klanowa Skrzynia Przyspieszenia Marszu",
+    "Nadawca": "Hichem 25",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "1de4143c427ea9bf54fd"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:45",
+    "Typ": "Klanowa Skrzynia Przyspieszenia Marszu",
+    "Nadawca": "亗AYDIN67亗",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "44b7445fcd45625fec4d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:46",
+    "Typ": "Klanowa Skrzynia Przyspieszenia Marszu",
+    "Nadawca": "KAZ",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:47",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Stefan",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:47",
+    "Typ": "Klanowa Skrzynia Przyspieszenia Marszu",
+    "Nadawca": "WARIAT",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:47",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "亗AYDIN67亗",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "44b7445fcd45625fec4d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:47",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "KAZ",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:47",
+    "Typ": "Klanowa Skrzynia Przyspieszenia Marszu",
+    "Nadawca": "Serelka",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "9a5455a401480b9d8137"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:47",
+    "Typ": "Klanowa Skrzynia Przyspieszenia Marszu",
+    "Nadawca": "Lady DAIRA",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "1b99a5953bedc09b2447"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:48",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "King of YEMEN",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "6d7f0562a0ccae85ce6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:48",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Arfa",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "4828772199789880089d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:48",
+    "Typ": "Klanowa Skrzynia Przyspieszenia Marszu",
+    "Nadawca": "Stefan",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:48",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "WARIAT",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:48",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Serelka",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "9a5455a401480b9d8137"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:49",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Stefan",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:49",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Lady DAIRA",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "1b99a5953bedc09b2447"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:49",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Mariano244",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "1da51b68f42324d68739"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:51",
+    "Typ": "Klanowa Skrzynia Przyspieszenia Marszu",
+    "Nadawca": "Arfa",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "4828772199789880089d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:51",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Hichem 25",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "1de4143c427ea9bf54fd"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:52",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Jedi Qui Gon Jinn",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "cc518556cc44310be810"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:52",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Arfa",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "4828772199789880089d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-29 20:06:54",
+    "Typ": "Klanowa Skrzynia Przyspieszenia Marszu",
+    "Nadawca": "Mariano244",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "1da51b68f42324d68739"
   }
 ]

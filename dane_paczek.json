@@ -323238,5 +323238,85 @@
     "Punkty": "0",
     "Count": "6",
     "PlayerKey": "f11e94ab451a8ee02fae"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-30 18:53:09",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "7",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-30 18:55:44",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "Radwanus",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "56010da3684b36109339"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-30 18:55:50",
+    "Typ": "Skrzynia z Twierdzy Elfów",
+    "Nadawca": "亗AYDIN67亗",
+    "Źródło": "Twierdza 10 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "44b7445fcd45625fec4d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-30 18:56:19",
+    "Typ": "Skrzynia Piekielnego Kowala",
+    "Nadawca": "Ildanen",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "865e1ddb9398b80fcfee"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-30 18:56:25",
+    "Typ": "Skrzynia Piekielnego Kowala",
+    "Nadawca": "Megana",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "2db6dd7fcbb9231b69d5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-30 18:56:45",
+    "Typ": "Skrzynia Piekielnego Kowala",
+    "Nadawca": "Stefan",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-30 18:57:14",
+    "Typ": "Skrzynia Piekielnego Kowala",
+    "Nadawca": "Stefan",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-30 18:57:38",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "Tojak",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "805f3f04e34bedb658f4"
   }
 ]

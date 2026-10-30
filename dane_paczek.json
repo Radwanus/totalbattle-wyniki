@@ -292938,5 +292938,35 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "65387dc40fc8753aa389"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-30 01:04:17",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "Potens",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "65387dc40fc8753aa389"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-30 01:05:21",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "Serafino",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "25fd16f36bf014d81ed7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-30 01:05:44",
+    "Typ": "Skrzynia Wymiany Klanowej",
+    "Nadawca": "YUSUF",
+    "Źródło": "Wymiana klanowa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "6b2f01f15a27ca48ece5"
   }
 ]

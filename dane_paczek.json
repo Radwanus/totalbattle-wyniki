@@ -324488,5 +324488,25 @@
     "Punkty": "100",
     "Count": "1",
     "PlayerKey": "9f6cadf34f080fbc5536"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-30 19:23:10",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "Serelka",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "5",
+    "PlayerKey": "9a5455a401480b9d8137"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-30 19:25:13",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "Maki II Degustator",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "6",
+    "PlayerKey": "fe888b930a0bdbccadf5"
   }
 ]

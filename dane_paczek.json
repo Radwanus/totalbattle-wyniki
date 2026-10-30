@@ -292918,5 +292918,25 @@
     "Punkty": "90",
     "Count": "1",
     "PlayerKey": "44b7445fcd45625fec4d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-30 01:00:07",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "亗AYDIN67亗",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "44b7445fcd45625fec4d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-30 01:03:29",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "Potens",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "65387dc40fc8753aa389"
   }
 ]

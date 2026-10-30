@@ -293068,5 +293068,105 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-30 01:14:41",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "KAZ",
+    "Źródło": "Rzadka krypta 25 poziomu",
+    "Punkty": "30",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-30 01:14:42",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "MnA",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "fb1c981a98da28792d33"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-30 01:15:52",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "MnA",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "fb1c981a98da28792d33"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-30 01:16:13",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "KAZ",
+    "Źródło": "Rzadka krypta 25 poziomu",
+    "Punkty": "30",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-30 01:16:30",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "MnA",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "fb1c981a98da28792d33"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-30 01:16:45",
+    "Typ": "Skrzynia Wymiany Klanowej",
+    "Nadawca": "Dagger",
+    "Źródło": "Wymiana klanowa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-30 01:17:04",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "MnA",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "fb1c981a98da28792d33"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-30 01:17:19",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "KAZ",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-30 01:17:28",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "MnA",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "fb1c981a98da28792d33"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-30 01:17:42",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "KAZ",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
   }
 ]

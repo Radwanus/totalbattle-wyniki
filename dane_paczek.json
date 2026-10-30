@@ -324508,5 +324508,105 @@
     "Punkty": "0",
     "Count": "6",
     "PlayerKey": "fe888b930a0bdbccadf5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-30 19:25:26",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "Mejas the Monkey",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "48af37bd7c846c16d698"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-30 19:25:48",
+    "Typ": "Elegancka Skrzynia",
+    "Nadawca": "Ildanen",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "865e1ddb9398b80fcfee"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-30 19:25:57",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "DjKro",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "36ce4a1f127ff13cf7c6"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-30 19:26:06",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Bohun",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "9f6cadf34f080fbc5536"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-30 19:26:23",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "Bohun",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "9f6cadf34f080fbc5536"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-30 19:27:22",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "PUREC",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "5",
+    "PlayerKey": "aaed1d7d5f289df49f4e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-30 19:27:37",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "Mariano244",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "1da51b68f42324d68739"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-30 19:27:52",
+    "Typ": "Kościana Skrzynia",
+    "Nadawca": "Ildanen",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "865e1ddb9398b80fcfee"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-30 19:29:17",
+    "Typ": "Skrzynia Piekielnego Kowala",
+    "Nadawca": "Arashiran",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "ee1fdbf4964c53453785"
+  },
+  {
+    "Okres rozliczeniowy": "2026 25.10 - 01.11",
+    "Data": "2026-10-30 19:29:19",
+    "Typ": "Skrzynia Kuby Żniwiarza",
+    "Nadawca": "Fofur",
+    "Źródło": "Epicki oddział Kuby Żniwiarza",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "b9183084a6fabd5c96f9"
   }
 ]

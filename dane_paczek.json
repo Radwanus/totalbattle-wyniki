@@ -25446,5 +25446,606 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:12:11",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "ALEX 82",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:12:45",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "ALEX 82",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:13:17",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Pumba",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "b445d588a166843e7d6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:13:18",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Sturm Brightblade",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "4b92faa8f98e7b3ad6fb"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:13:25",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Pumba",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "b445d588a166843e7d6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:13:26",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "ALEX 82",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:13:49",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "Oti",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "f229b96aa6e978c4c326"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:13:53",
+    "Typ": "Skrzynia Chimery",
+    "Nadawca": "Oti",
+    "Źródło": "Epicki oddział Chimery",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "f229b96aa6e978c4c326",
+    "KC915EpicCategory": "chimera"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:13:53",
+    "Typ": "Skrzynia Chimery",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Epicki oddział Chimery",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "f11e94ab451a8ee02fae",
+    "KC915EpicCategory": "chimera"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:13:53",
+    "Typ": "Skrzynia Chimery",
+    "Nadawca": "Mieciu",
+    "Źródło": "Epicki oddział Chimery",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "5523e42cd1d58a7a7936",
+    "KC915EpicCategory": "chimera"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:14:21",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Sturm Brightblade",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "4b92faa8f98e7b3ad6fb"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:14:26",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "ALEX 82",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:14:35",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Megana",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "2db6dd7fcbb9231b69d5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:14:42",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Oti",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "f229b96aa6e978c4c326"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:15:13",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Megana",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "2db6dd7fcbb9231b69d5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:15:28",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "ALEX 82",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:15:30",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Sturm Brightblade",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "4b92faa8f98e7b3ad6fb"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:15:40",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Megana",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "2db6dd7fcbb9231b69d5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:15:53",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Pumba",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "b445d588a166843e7d6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:15:56",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Pumba",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "b445d588a166843e7d6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:16:07",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "ALEX 82",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:16:34",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "Pumba",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "b445d588a166843e7d6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:16:46",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Pumba",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "b445d588a166843e7d6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:16:46",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "ALEX 82",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:16:52",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "Oti",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "f229b96aa6e978c4c326"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:17:08",
+    "Typ": "Skrzynia Chimery",
+    "Nadawca": "Mieciu",
+    "Źródło": "Epicki oddział Chimery",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "5523e42cd1d58a7a7936",
+    "KC915EpicCategory": "chimera"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:17:08",
+    "Typ": "Skrzynia Chimery",
+    "Nadawca": "Naru",
+    "Źródło": "Epicki oddział Chimery",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "c19b743b1d635c8c7300",
+    "KC915EpicCategory": "chimera"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:17:08",
+    "Typ": "Skrzynia Chimery",
+    "Nadawca": "Oti",
+    "Źródło": "Epicki oddział Chimery",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "f229b96aa6e978c4c326",
+    "KC915EpicCategory": "chimera"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:17:08",
+    "Typ": "Skrzynia Chimery",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Epicki oddział Chimery",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "f11e94ab451a8ee02fae",
+    "KC915EpicCategory": "chimera"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:17:25",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "Pumba",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "b445d588a166843e7d6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:17:27",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "ALEX 82",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:17:35",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "Pumba",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "b445d588a166843e7d6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:18:00",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "ALEX 82",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:18:33",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Pumba",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "b445d588a166843e7d6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:18:39",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "ALEX 82",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:18:48",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "Pumba",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "b445d588a166843e7d6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:19:10",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Pumba",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "b445d588a166843e7d6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:19:21",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "ALEX 82",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:19:25",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Pumba",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "b445d588a166843e7d6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:19:40",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Pumba",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "b445d588a166843e7d6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:20:05",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "ALEX 82",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:20:13",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Pumba",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "b445d588a166843e7d6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:20:22",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Pumba",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "b445d588a166843e7d6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:20:41",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "ALEX 82",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:21:03",
+    "Typ": "Skrzynia Chimery",
+    "Nadawca": "Mieciu",
+    "Źródło": "Epicki oddział Chimery",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "5523e42cd1d58a7a7936",
+    "KC915EpicCategory": "chimera"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:21:03",
+    "Typ": "Skrzynia Chimery",
+    "Nadawca": "BART2O2PL",
+    "Źródło": "Epicki oddział Chimery",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "f11e94ab451a8ee02fae",
+    "KC915EpicCategory": "chimera"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:21:03",
+    "Typ": "Skrzynia Chimery",
+    "Nadawca": "Naru",
+    "Źródło": "Epicki oddział Chimery",
+    "Punkty": "0",
+    "Count": "5",
+    "PlayerKey": "c19b743b1d635c8c7300",
+    "KC915EpicCategory": "chimera"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:21:03",
+    "Typ": "Skrzynia Chimery",
+    "Nadawca": "Oti",
+    "Źródło": "Epicki oddział Chimery",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "f229b96aa6e978c4c326",
+    "KC915EpicCategory": "chimera"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:21:22",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "ALEX 82",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:22:05",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "ALEX 82",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:22:56",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "ALEX 82",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:23:15",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Pumba",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "b445d588a166843e7d6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:23:29",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "ALEX 82",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:23:32",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Pumba",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "b445d588a166843e7d6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:23:47",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "Oti",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "f229b96aa6e978c4c326"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:24:01",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Pumba",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "b445d588a166843e7d6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:24:14",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Pumba",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "b445d588a166843e7d6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:24:22",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "Oti",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "f229b96aa6e978c4c326"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-01 22:24:40",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Pumba",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "b445d588a166843e7d6d"
   }
 ]

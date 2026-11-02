@@ -35438,5 +35438,55 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "6f9006dd095735ea99a9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 01:15:38",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "OSA",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "6f9006dd095735ea99a9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 01:16:28",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "OSA",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "6f9006dd095735ea99a9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 01:16:57",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Max72",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 01:17:20",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "OSA",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "6f9006dd095735ea99a9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 01:18:11",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "OSA",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "6f9006dd095735ea99a9"
   }
 ]

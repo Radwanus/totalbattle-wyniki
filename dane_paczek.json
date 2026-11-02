@@ -105239,5 +105239,185 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:41:47",
+    "Typ": "Skrzynia Bazyliszka",
+    "Nadawca": "GOKBORU",
+    "Źródło": "Epicki oddział Bazyliszka",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "8f13fc7dfd65601a1643"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:41:56",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "Olginad",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ef961d78fad6c266872a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:41:58",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Olginad",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ef961d78fad6c266872a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:41:59",
+    "Typ": "Skrzynia Bazyliszka",
+    "Nadawca": "Tojak",
+    "Źródło": "Epicki oddział Bazyliszka",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "805f3f04e34bedb658f4"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:42:06",
+    "Typ": "Skrzynia Bazyliszka",
+    "Nadawca": "Karolek",
+    "Źródło": "Epicki oddział Bazyliszka",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "89abaf01d0870e8d1ebf"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:42:26",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Megana",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "2db6dd7fcbb9231b69d5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:42:40",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Olginad",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ef961d78fad6c266872a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:42:52",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Olginad",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ef961d78fad6c266872a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:43:08",
+    "Typ": "Skrzynia Bazyliszka",
+    "Nadawca": "GOKBORU",
+    "Źródło": "Epicki oddział Bazyliszka",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "8f13fc7dfd65601a1643"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:43:13",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Megana",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "2db6dd7fcbb9231b69d5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:43:20",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "Olginad",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ef961d78fad6c266872a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:43:24",
+    "Typ": "Skrzynia Bazyliszka",
+    "Nadawca": "Eyrodor",
+    "Źródło": "Epicki oddział Bazyliszka",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "8c9c6af60262fb89cd7c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:43:44",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Olginad",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ef961d78fad6c266872a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:44:01",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Megana",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "2db6dd7fcbb9231b69d5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:44:12",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Olginad",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ef961d78fad6c266872a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:44:30",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Olginad",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ef961d78fad6c266872a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:44:52",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Olginad",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ef961d78fad6c266872a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:45:04",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Olginad",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ef961d78fad6c266872a"
   }
 ]

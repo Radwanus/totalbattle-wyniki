@@ -102079,5 +102079,435 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "ef961d78fad6c266872a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:09:27",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Megana",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "2db6dd7fcbb9231b69d5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:09:30",
+    "Typ": "Skrzynia Bazyliszka",
+    "Nadawca": "Moralsa",
+    "Źródło": "Epicki oddział Bazyliszka",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "2aa0e06ca13aad2ebb10"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:09:30",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "YUSUF",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "6b2f01f15a27ca48ece5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:09:36",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "Olginad",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ef961d78fad6c266872a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:09:37",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Morfii",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "641a95ee97d6ecedcdf9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:09:46",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "YUSUF",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "6b2f01f15a27ca48ece5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:09:57",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Melania",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:09:59",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Elrohan",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "ee6e287f3ad5bacd34ed"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:10:00",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "Mustafa cimbombom",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "448ab8ed04708bcb3345"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:10:03",
+    "Typ": "Skrzynia Bazyliszka",
+    "Nadawca": "Rafi",
+    "Źródło": "Epicki oddział Bazyliszka",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "81c34c9290ef01018d2e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:10:03",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "YUSUF",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "6b2f01f15a27ca48ece5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:10:04",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Melania",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:10:14",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "YUSUF",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "6b2f01f15a27ca48ece5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:10:17",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Megana",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "2db6dd7fcbb9231b69d5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:10:27",
+    "Typ": "Skrzynia Bazyliszka",
+    "Nadawca": "Moralsa",
+    "Źródło": "Epicki oddział Bazyliszka",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "2aa0e06ca13aad2ebb10"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:10:30",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Morfii",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "641a95ee97d6ecedcdf9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:10:41",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "YUSUF",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "6b2f01f15a27ca48ece5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:10:45",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "Mustafa cimbombom",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "448ab8ed04708bcb3345"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:10:50",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Elrohan",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "ee6e287f3ad5bacd34ed"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:10:53",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "YUSUF",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "6b2f01f15a27ca48ece5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:10:57",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "Doctor Sleep",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "1da739de3268c2024714"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:11:01",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Olginad",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ef961d78fad6c266872a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:11:04",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "Olginad",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ef961d78fad6c266872a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:11:08",
+    "Typ": "Skrzynia Bazyliszka",
+    "Nadawca": "Rafi",
+    "Źródło": "Epicki oddział Bazyliszka",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "81c34c9290ef01018d2e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:11:11",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Megana",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "2db6dd7fcbb9231b69d5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:11:16",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Doctor Sleep",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "1da739de3268c2024714"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:11:18",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "YUSUF",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "6b2f01f15a27ca48ece5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:11:29",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Doctor Sleep",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "1da739de3268c2024714"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:11:30",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Morfii",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "641a95ee97d6ecedcdf9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:11:42",
+    "Typ": "Skrzynia Bazyliszka",
+    "Nadawca": "Domino",
+    "Źródło": "Epicki oddział Bazyliszka",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "a4d9cc04ceaa47510b5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:11:52",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Olginad",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ef961d78fad6c266872a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:11:56",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Mustafa cimbombom",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "448ab8ed04708bcb3345"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:11:57",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Olginad",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ef961d78fad6c266872a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:12:04",
+    "Typ": "Skrzynia Bazyliszka",
+    "Nadawca": "Moralsa",
+    "Źródło": "Epicki oddział Bazyliszka",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "2aa0e06ca13aad2ebb10"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:12:04",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "YUSUF",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "6b2f01f15a27ca48ece5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:12:04",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "Doctor Sleep",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "1da739de3268c2024714"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:12:09",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Megana",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "2db6dd7fcbb9231b69d5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:12:13",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "YUSUF",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "6b2f01f15a27ca48ece5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:12:28",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "YUSUF",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "6b2f01f15a27ca48ece5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:12:31",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Morfii",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "641a95ee97d6ecedcdf9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:12:31",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Doctor Sleep",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "1da739de3268c2024714"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:12:31",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "Olginad",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "ef961d78fad6c266872a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-02 21:12:40",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "Mustafa cimbombom",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "448ab8ed04708bcb3345"
   }
 ]

@@ -122029,5 +122029,45 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "641a95ee97d6ecedcdf9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 03:54:18",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "Morfii",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "641a95ee97d6ecedcdf9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 03:55:13",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "Morfii",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "641a95ee97d6ecedcdf9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 03:56:07",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Morfii",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "641a95ee97d6ecedcdf9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 03:56:57",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Morfii",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "641a95ee97d6ecedcdf9"
   }
 ]

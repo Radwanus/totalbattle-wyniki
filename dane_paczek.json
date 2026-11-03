@@ -190349,5 +190349,105 @@
     "Punkty": "0",
     "Count": "5",
     "PlayerKey": "dac0063c8b110482320a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 00:16:13",
+    "Typ": "Legendarna Skrzynia Spopielonych",
+    "Nadawca": "Zeta",
+    "Źródło": "Epicki oddział spopielonych",
+    "Punkty": "0",
+    "Count": "5",
+    "PlayerKey": "da76e7be3e25fbc97c3c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 00:16:17",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Domino",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "a4d9cc04ceaa47510b5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 00:16:44",
+    "Typ": "Legendarna Skrzynia Spopielonych",
+    "Nadawca": "Naru",
+    "Źródło": "Epicki oddział spopielonych",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "c19b743b1d635c8c7300"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 00:17:12",
+    "Typ": "Szafirowa Skrzynia",
+    "Nadawca": "Centri",
+    "Źródło": "Skarbiec Starożytnych 45 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3a22feceb9cf2de7eca8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 00:17:50",
+    "Typ": "Legendarna Skrzynia Spopielonych",
+    "Nadawca": "Naru",
+    "Źródło": "Epicki oddział spopielonych",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "c19b743b1d635c8c7300"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 00:18:28",
+    "Typ": "Skrzynia Warsztatu Gnomów",
+    "Nadawca": "Domino",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "a4d9cc04ceaa47510b5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 00:18:48",
+    "Typ": "Legendarna Skrzynia Spopielonych",
+    "Nadawca": "Jedi Qui Gon Jinn",
+    "Źródło": "Epicki oddział spopielonych",
+    "Punkty": "0",
+    "Count": "5",
+    "PlayerKey": "cc518556cc44310be810"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 00:19:13",
+    "Typ": "Elegancka Skrzynia",
+    "Nadawca": "Domino",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "a4d9cc04ceaa47510b5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 00:20:10",
+    "Typ": "Legendarna Skrzynia Spopielonych",
+    "Nadawca": "Naru",
+    "Źródło": "Epicki oddział spopielonych",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "c19b743b1d635c8c7300"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 00:20:11",
+    "Typ": "Legendarna Skrzynia Spopielonych",
+    "Nadawca": "Naru",
+    "Źródło": "Epicki oddział spopielonych",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "c19b743b1d635c8c7300"
   }
 ]

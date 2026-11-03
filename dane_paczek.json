@@ -190229,5 +190229,75 @@
     "Punkty": "0",
     "Count": "2",
     "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 00:08:48",
+    "Typ": "Szafirowa Skrzynia",
+    "Nadawca": "Centri",
+    "Źródło": "Skarbiec Starożytnych 45 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3a22feceb9cf2de7eca8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 00:08:59",
+    "Typ": "Legendarna Skrzynia Spopielonych",
+    "Nadawca": "Rafi",
+    "Źródło": "Epicki oddział spopielonych",
+    "Punkty": "0",
+    "Count": "5",
+    "PlayerKey": "81c34c9290ef01018d2e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 00:09:03",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Sturm Brightblade",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "4b92faa8f98e7b3ad6fb"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 00:09:45",
+    "Typ": "Skrzynia Majów",
+    "Nadawca": "Sturm Brightblade",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "4b92faa8f98e7b3ad6fb"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 00:10:31",
+    "Typ": "Legendarna Skrzynia Spopielonych",
+    "Nadawca": "Jedi Qui Gon Jinn",
+    "Źródło": "Epicki oddział spopielonych",
+    "Punkty": "0",
+    "Count": "5",
+    "PlayerKey": "cc518556cc44310be810"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 00:11:26",
+    "Typ": "Szafirowa Skrzynia",
+    "Nadawca": "Centri",
+    "Źródło": "Skarbiec Starożytnych 45 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3a22feceb9cf2de7eca8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 00:11:49",
+    "Typ": "Skrzynia Warsztatu Gnomów",
+    "Nadawca": "Sturm Brightblade",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "4b92faa8f98e7b3ad6fb"
   }
 ]

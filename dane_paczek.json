@@ -189439,5 +189439,35 @@
     "Punkty": "0",
     "Count": "2",
     "PlayerKey": "dac0063c8b110482320a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 23:29:31",
+    "Typ": "Legendarna Skrzynia Spopielonych",
+    "Nadawca": "F",
+    "Źródło": "Epicki oddział spopielonych",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "dac0063c8b110482320a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 23:32:19",
+    "Typ": "Legendarna Skrzynia Spopielonych",
+    "Nadawca": "ALEX 82",
+    "Źródło": "Epicki oddział spopielonych",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 23:32:57",
+    "Typ": "Ognista Skrzynia",
+    "Nadawca": "Evlin",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "0e032a736308995a4fd1"
   }
 ]

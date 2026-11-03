@@ -190189,5 +190189,45 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "6f9006dd095735ea99a9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 00:03:30",
+    "Typ": "Legendarna Skrzynia Spopielonych",
+    "Nadawca": "Jedi Qui Gon Jinn",
+    "Źródło": "Epicki oddział spopielonych",
+    "Punkty": "0",
+    "Count": "5",
+    "PlayerKey": "cc518556cc44310be810"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 00:03:30",
+    "Typ": "Legendarna Skrzynia Spopielonych",
+    "Nadawca": "Jedi Qui Gon Jinn",
+    "Źródło": "Epicki oddział spopielonych",
+    "Punkty": "0",
+    "Count": "5",
+    "PlayerKey": "cc518556cc44310be810"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 00:04:48",
+    "Typ": "Szafirowa Skrzynia",
+    "Nadawca": "Centri",
+    "Źródło": "Skarbiec Starożytnych 45 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3a22feceb9cf2de7eca8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 00:07:22",
+    "Typ": "Legendarna Skrzynia Spopielonych",
+    "Nadawca": "Painfont",
+    "Źródło": "Epicki oddział spopielonych",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "5d911333f80adab41eb8"
   }
 ]

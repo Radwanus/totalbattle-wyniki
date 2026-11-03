@@ -188459,5 +188459,135 @@
     "Punkty": "0",
     "Count": "5",
     "PlayerKey": "4df01774ba542ec518dd"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 23:03:05",
+    "Typ": "Legendarna Skrzynia Spopielonych",
+    "Nadawca": "Doctor Sleep",
+    "Źródło": "Epicki oddział spopielonych",
+    "Punkty": "0",
+    "Count": "5",
+    "PlayerKey": "1da739de3268c2024714"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 23:03:13",
+    "Typ": "Skrzynia z Twierdzy Przeklętych",
+    "Nadawca": "HANS",
+    "Źródło": "Twierdza 25 poziomu",
+    "Punkty": "10",
+    "Count": "1",
+    "PlayerKey": "51561de4d28ccb515a97"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 23:04:12",
+    "Typ": "Skrzynia Majów",
+    "Nadawca": "ALEX 82",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 23:04:12",
+    "Typ": "Skrzynia Orków",
+    "Nadawca": "CHRISTOV",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "dab55c4208248ce1ef48"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 23:04:40",
+    "Typ": "Legendarna Skrzynia Spopielonych",
+    "Nadawca": "V I R U S",
+    "Źródło": "Epicki oddział spopielonych",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "8abe34bcf47b72c7f5f0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 23:04:46",
+    "Typ": "Piaskowa Skrzynia",
+    "Nadawca": "ALEX 82",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 23:05:03",
+    "Typ": "Ognista Skrzynia",
+    "Nadawca": "CHRISTOV",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "dab55c4208248ce1ef48"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 23:05:22",
+    "Typ": "Skrzynia Majów",
+    "Nadawca": "ALEX 82",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "8210d0e3cc68669c5208"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 23:05:30",
+    "Typ": "Legendarna Skrzynia Spopielonych",
+    "Nadawca": "KAZ",
+    "Źródło": "Epicki oddział spopielonych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 23:05:31",
+    "Typ": "Legendarna Skrzynia Spopielonych",
+    "Nadawca": "KAZ",
+    "Źródło": "Epicki oddział spopielonych",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 23:05:46",
+    "Typ": "Legendarna Skrzynia Spopielonych",
+    "Nadawca": "Zeta",
+    "Źródło": "Epicki oddział spopielonych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "da76e7be3e25fbc97c3c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 23:05:47",
+    "Typ": "Legendarna Skrzynia Spopielonych",
+    "Nadawca": "Zeta",
+    "Źródło": "Epicki oddział spopielonych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "da76e7be3e25fbc97c3c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 23:06:15",
+    "Typ": "Legendarna Skrzynia Spopielonych",
+    "Nadawca": "Bohun",
+    "Źródło": "Epicki oddział spopielonych",
+    "Punkty": "0",
+    "Count": "5",
+    "PlayerKey": "9f6cadf34f080fbc5536"
   }
 ]

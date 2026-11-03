@@ -190119,5 +190119,75 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "3a22feceb9cf2de7eca8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 23:59:34",
+    "Typ": "Legendarna Skrzynia Spopielonych",
+    "Nadawca": "F",
+    "Źródło": "Epicki oddział spopielonych",
+    "Punkty": "0",
+    "Count": "5",
+    "PlayerKey": "dac0063c8b110482320a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 00:00:33",
+    "Typ": "Szafirowa Skrzynia",
+    "Nadawca": "HANS",
+    "Źródło": "Skarbiec Starożytnych 45 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "51561de4d28ccb515a97"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 00:02:03",
+    "Typ": "Skrzynia Hermesa",
+    "Nadawca": "OSA",
+    "Źródło": "Sklep Hermesa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "6f9006dd095735ea99a9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 00:02:03",
+    "Typ": "Skrzynia Hermesa",
+    "Nadawca": "OSA",
+    "Źródło": "Sklep Hermesa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "6f9006dd095735ea99a9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 00:02:04",
+    "Typ": "Skrzynia Hermesa",
+    "Nadawca": "OSA",
+    "Źródło": "Sklep Hermesa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "6f9006dd095735ea99a9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 00:02:04",
+    "Typ": "Skrzynia Hermesa",
+    "Nadawca": "OSA",
+    "Źródło": "Sklep Hermesa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "6f9006dd095735ea99a9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 00:02:04",
+    "Typ": "Skrzynia Hermesa",
+    "Nadawca": "OSA",
+    "Źródło": "Sklep Hermesa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "6f9006dd095735ea99a9"
   }
 ]

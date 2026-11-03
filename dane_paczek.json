@@ -190079,5 +190079,45 @@
     "Punkty": "0",
     "Count": "5",
     "PlayerKey": "dac0063c8b110482320a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 23:55:00",
+    "Typ": "Legendarna Skrzynia Spopielonych",
+    "Nadawca": "Merodir",
+    "Źródło": "Epicki oddział spopielonych",
+    "Punkty": "0",
+    "Count": "5",
+    "PlayerKey": "f69ed0075a652c655a5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 23:55:00",
+    "Typ": "Legendarna Skrzynia Spopielonych",
+    "Nadawca": "Rafi",
+    "Źródło": "Epicki oddział spopielonych",
+    "Punkty": "0",
+    "Count": "5",
+    "PlayerKey": "81c34c9290ef01018d2e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 23:55:01",
+    "Typ": "Legendarna Skrzynia Spopielonych",
+    "Nadawca": "Rafi",
+    "Źródło": "Epicki oddział spopielonych",
+    "Punkty": "0",
+    "Count": "5",
+    "PlayerKey": "81c34c9290ef01018d2e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 23:57:52",
+    "Typ": "Szafirowa Skrzynia",
+    "Nadawca": "Centri",
+    "Źródło": "Skarbiec Starożytnych 45 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3a22feceb9cf2de7eca8"
   }
 ]

@@ -185259,5 +185259,525 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:00:23",
+    "Typ": "Szafirowa Skrzynia",
+    "Nadawca": "Jedi Qui Gon Jinn",
+    "Źródło": "Skarbiec Starożytnych 45 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "cc518556cc44310be810"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:00:42",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Androzar",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "3a4cb18a2d1a16c9c02b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:00:51",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "Osingmet",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:01:24",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "Androzar",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "3a4cb18a2d1a16c9c02b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:01:30",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "Osingmet",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:01:32",
+    "Typ": "Legendarna Skrzynia Spopielonych",
+    "Nadawca": "WOJTUS",
+    "Źródło": "Epicki oddział spopielonych",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "3d476999a1883ef73b71"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:01:50",
+    "Typ": "Legendarna Skrzynia Spopielonych",
+    "Nadawca": "Mariano244",
+    "Źródło": "Epicki oddział spopielonych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "1da51b68f42324d68739"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:01:51",
+    "Typ": "Legendarna Skrzynia Spopielonych",
+    "Nadawca": "Mustafa cimbombom",
+    "Źródło": "Epicki oddział spopielonych",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "448ab8ed04708bcb3345"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:01:51",
+    "Typ": "Legendarna Skrzynia Spopielonych",
+    "Nadawca": "Mariano244",
+    "Źródło": "Epicki oddział spopielonych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "1da51b68f42324d68739"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:02:09",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Androzar",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "3a4cb18a2d1a16c9c02b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:02:15",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Osingmet",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:02:59",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "Androzar",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "3a4cb18a2d1a16c9c02b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:03:05",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "Osingmet",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:03:15",
+    "Typ": "Legendarna Skrzynia Spopielonych",
+    "Nadawca": "Mariano244",
+    "Źródło": "Epicki oddział spopielonych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "1da51b68f42324d68739"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:03:16",
+    "Typ": "Legendarna Skrzynia Spopielonych",
+    "Nadawca": "Mariano244",
+    "Źródło": "Epicki oddział spopielonych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "1da51b68f42324d68739"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:03:17",
+    "Typ": "Legendarna Skrzynia Spopielonych",
+    "Nadawca": "Mariano244",
+    "Źródło": "Epicki oddział spopielonych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "1da51b68f42324d68739"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:03:18",
+    "Typ": "Legendarna Skrzynia Spopielonych",
+    "Nadawca": "Mariano244",
+    "Źródło": "Epicki oddział spopielonych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "1da51b68f42324d68739"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:03:49",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "Androzar",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "3a4cb18a2d1a16c9c02b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:03:55",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Osingmet",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:04:37",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Androzar",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "3a4cb18a2d1a16c9c02b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:04:39",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Osingmet",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:04:48",
+    "Typ": "Legendarna Skrzynia Spopielonych",
+    "Nadawca": "WOJTUS",
+    "Źródło": "Epicki oddział spopielonych",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "3d476999a1883ef73b71"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:05:09",
+    "Typ": "Kamienna Skrzynia",
+    "Nadawca": "Arek",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "394e8b5667748eb6bfd3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:05:17",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Osingmet",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:05:22",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Androzar",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "3a4cb18a2d1a16c9c02b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:05:42",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Barkley",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "b6b1e0e854aa8a649f3c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:05:46",
+    "Typ": "Szafirowa Skrzynia",
+    "Nadawca": "Mieciu",
+    "Źródło": "Skarbiec Starożytnych 45 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "5523e42cd1d58a7a7936"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:05:49",
+    "Typ": "Legendarna Skrzynia Spopielonych",
+    "Nadawca": "Mariano244",
+    "Źródło": "Epicki oddział spopielonych",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "1da51b68f42324d68739"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:05:50",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Barkley",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "b6b1e0e854aa8a649f3c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:05:57",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Osingmet",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:06:10",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "Androzar",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "3a4cb18a2d1a16c9c02b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:06:29",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Barkley",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "b6b1e0e854aa8a649f3c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:06:31",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Barkley",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "b6b1e0e854aa8a649f3c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:06:42",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Osingmet",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:06:57",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Androzar",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "3a4cb18a2d1a16c9c02b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:06:57",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Barkley",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "b6b1e0e854aa8a649f3c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:07:02",
+    "Typ": "Legendarna Skrzynia Spopielonych",
+    "Nadawca": "Mustafa cimbombom",
+    "Źródło": "Epicki oddział spopielonych",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "448ab8ed04708bcb3345"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:07:08",
+    "Typ": "Legendarna Skrzynia Spopielonych",
+    "Nadawca": "Serafino",
+    "Źródło": "Epicki oddział spopielonych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "25fd16f36bf014d81ed7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:07:09",
+    "Typ": "Legendarna Skrzynia Spopielonych",
+    "Nadawca": "Serafino",
+    "Źródło": "Epicki oddział spopielonych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "25fd16f36bf014d81ed7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:07:10",
+    "Typ": "Legendarna Skrzynia Spopielonych",
+    "Nadawca": "Serafino",
+    "Źródło": "Epicki oddział spopielonych",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "25fd16f36bf014d81ed7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:07:17",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Barkley",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "b6b1e0e854aa8a649f3c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:07:19",
+    "Typ": "Legendarna Skrzynia Spopielonych",
+    "Nadawca": "Keltix",
+    "Źródło": "Epicki oddział spopielonych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "1d37ffd4ff22495cf280"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:07:26",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Osingmet",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:07:35",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Androzar",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "3a4cb18a2d1a16c9c02b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:07:51",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Barkley",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "b6b1e0e854aa8a649f3c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:07:53",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Barkley",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "b6b1e0e854aa8a649f3c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:07:57",
+    "Typ": "Szafirowa Skrzynia",
+    "Nadawca": "Jedi Qui Gon Jinn",
+    "Źródło": "Skarbiec Starożytnych 45 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "cc518556cc44310be810"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:08:07",
+    "Typ": "Piaskowa Skrzynia",
+    "Nadawca": "Arek",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "394e8b5667748eb6bfd3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:08:14",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "Osingmet",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:08:21",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "Androzar",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "3a4cb18a2d1a16c9c02b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:08:22",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Barkley",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "b6b1e0e854aa8a649f3c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-03 22:08:42",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "Barkley",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "b6b1e0e854aa8a649f3c"
   }
 ]

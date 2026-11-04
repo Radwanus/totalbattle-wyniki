@@ -195219,5 +195219,115 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 02:05:54",
+    "Typ": "Piekielna Skrzynia",
+    "Nadawca": "KAZ",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 02:06:18",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "Jedi Qui Gon Jinn",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "cc518556cc44310be810"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 02:06:27",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Jedi Qui Gon Jinn",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "cc518556cc44310be810"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 02:06:45",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Jedi Qui Gon Jinn",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "cc518556cc44310be810"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 02:07:06",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "Jedi Qui Gon Jinn",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "cc518556cc44310be810"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 02:07:27",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "KAZ",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 02:07:30",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Jedi Qui Gon Jinn",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "cc518556cc44310be810"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 02:07:57",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Jedi Qui Gon Jinn",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "cc518556cc44310be810"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 02:08:31",
+    "Typ": "Kościana Skrzynia",
+    "Nadawca": "KAZ",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 02:08:53",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Jedi Qui Gon Jinn",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "cc518556cc44310be810"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 02:09:20",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "KAZ",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
   }
 ]

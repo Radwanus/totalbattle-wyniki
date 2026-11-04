@@ -194179,5 +194179,155 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 01:36:16",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "KAZ",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 01:36:16",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Jedi Qui Gon Jinn",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "cc518556cc44310be810"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 01:36:23",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Jedi Qui Gon Jinn",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "cc518556cc44310be810"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 01:36:45",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Jedi Qui Gon Jinn",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "cc518556cc44310be810"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 01:36:46",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "KAZ",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 01:37:29",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "KAZ",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 01:37:39",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "Jedi Qui Gon Jinn",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "cc518556cc44310be810"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 01:37:52",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Jedi Qui Gon Jinn",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "cc518556cc44310be810"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 01:38:11",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "KAZ",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 01:38:16",
+    "Typ": "Szafirowa Skrzynia",
+    "Nadawca": "T U F U R",
+    "Źródło": "Skarbiec Starożytnych 45 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "5fe3b9e073708fe54f86"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 01:38:30",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Jedi Qui Gon Jinn",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "cc518556cc44310be810"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 01:38:38",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "Jedi Qui Gon Jinn",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "cc518556cc44310be810"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 01:39:05",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "KAZ",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 01:39:06",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Jedi Qui Gon Jinn",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "cc518556cc44310be810"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-04 01:39:43",
+    "Typ": "Legendarna Skrzynia Spopielonych",
+    "Nadawca": "Zeta",
+    "Źródło": "Epicki oddział spopielonych",
+    "Punkty": "0",
+    "Count": "5",
+    "PlayerKey": "da76e7be3e25fbc97c3c"
   }
 ]

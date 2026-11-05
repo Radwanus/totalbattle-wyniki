@@ -275979,5 +275979,55 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "da76e7be3e25fbc97c3c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-05 04:11:36",
+    "Typ": "Skrzynia z Twierdzy Elfów",
+    "Nadawca": "Zeta",
+    "Źródło": "Twierdza 10 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "da76e7be3e25fbc97c3c"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-05 04:11:57",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Kariel",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "0ac6b794e655966c923f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-05 04:12:03",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "Morfii",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "641a95ee97d6ecedcdf9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-05 04:13:40",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Kariel",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "0ac6b794e655966c923f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-05 04:14:24",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Kariel",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "0ac6b794e655966c923f"
   }
 ]

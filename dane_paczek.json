@@ -275159,5 +275159,95 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "9f85337b8477e72ad538"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-05 02:57:55",
+    "Typ": "ItemId 702096",
+    "Nadawca": "Szybki Kriss",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "49bc493bb219270d30fc"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-05 02:57:57",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Iron",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9f85337b8477e72ad538"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-05 02:58:22",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Iron",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9f85337b8477e72ad538"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-05 02:58:55",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "Iron",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9f85337b8477e72ad538"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-05 02:59:28",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Iron",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9f85337b8477e72ad538"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-05 02:59:56",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Iron",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9f85337b8477e72ad538"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-05 02:59:57",
+    "Typ": "ItemId 702091",
+    "Nadawca": "Szybki Kriss",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "49bc493bb219270d30fc"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-05 03:00:24",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Iron",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "9f85337b8477e72ad538"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-05 03:01:05",
+    "Typ": "ItemId 702094",
+    "Nadawca": "Szybki Kriss",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "49bc493bb219270d30fc"
   }
 ]

@@ -276739,5 +276739,65 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "63747c28b1baf69e3e5d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-05 05:38:13",
+    "Typ": "ItemId 702096",
+    "Nadawca": "GOKBORU",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "8f13fc7dfd65601a1643"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-05 05:38:52",
+    "Typ": "ItemId 702096",
+    "Nadawca": "GOKBORU",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "8f13fc7dfd65601a1643"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-05 05:39:52",
+    "Typ": "Skrzynia Wymiany Klanowej",
+    "Nadawca": "WARIAT",
+    "Źródło": "Wymiana klanowa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "50f2e7c9a6d0a3e853d7"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-05 05:40:04",
+    "Typ": "ItemId 702096",
+    "Nadawca": "GOKBORU",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "8f13fc7dfd65601a1643"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-05 05:40:46",
+    "Typ": "ItemId 702096",
+    "Nadawca": "GOKBORU",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "8f13fc7dfd65601a1643"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-05 05:41:33",
+    "Typ": "ItemId 702096",
+    "Nadawca": "GOKBORU",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "8f13fc7dfd65601a1643"
   }
 ]

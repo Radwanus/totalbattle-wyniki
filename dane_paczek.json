@@ -337469,5 +337469,95 @@
     "Punkty": "0",
     "Count": "4",
     "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-06 01:03:46",
+    "Typ": "Skrzynia z Twierdzy Elfów",
+    "Nadawca": "Painfont",
+    "Źródło": "Twierdza 30 poziomu",
+    "Punkty": "80",
+    "Count": "1",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-06 01:03:58",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Mario",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "03547e958de090bf525f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-06 01:04:53",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Max72",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-06 01:05:24",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Megana",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "2db6dd7fcbb9231b69d5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-06 01:05:39",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "MnA",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "fb1c981a98da28792d33"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-06 01:05:56",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Megana",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "2db6dd7fcbb9231b69d5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-06 01:06:15",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "KAZ",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-06 01:06:15",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Max72",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "7",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-06 01:06:20",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "MnA",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "fb1c981a98da28792d33"
   }
 ]

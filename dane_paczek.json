@@ -338319,5 +338319,25 @@
     "Punkty": "0",
     "Count": "5",
     "PlayerKey": "63747c28b1baf69e3e5d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-06 04:21:08",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Bohun",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "9f6cadf34f080fbc5536"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-06 04:24:46",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "KRISS",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "63747c28b1baf69e3e5d"
   }
 ]

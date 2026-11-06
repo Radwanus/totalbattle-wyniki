@@ -337809,5 +337809,25 @@
     "Punkty": "0",
     "Count": "2",
     "PlayerKey": "fb1c981a98da28792d33"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-06 02:01:59",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Truthbourne",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "475bff774491f99e531e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-06 02:03:29",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "MnA",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "fb1c981a98da28792d33"
   }
 ]

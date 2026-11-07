@@ -401419,5 +401419,95 @@
     "Punkty": "0",
     "Count": "5",
     "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-07 06:10:17",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "RAFAL PL",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "ff001bef965a35cc675a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-07 06:10:27",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "5",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-07 06:10:29",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Osingmet",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "5",
+    "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-07 06:10:43",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "RAFAL PL",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "ff001bef965a35cc675a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-07 06:10:49",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Osingmet",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-07 06:10:53",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-07 06:11:08",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "RAFAL PL",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "ff001bef965a35cc675a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-07 06:12:41",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Elrohan",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "ee6e287f3ad5bacd34ed"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-07 06:13:46",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Elrohan",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "ee6e287f3ad5bacd34ed"
   }
 ]

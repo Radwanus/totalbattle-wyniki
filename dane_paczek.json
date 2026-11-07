@@ -401519,5 +401519,25 @@
     "Punkty": "0",
     "Count": "3",
     "PlayerKey": "ee6e287f3ad5bacd34ed"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-07 06:22:43",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "5",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-07 06:24:06",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
   }
 ]

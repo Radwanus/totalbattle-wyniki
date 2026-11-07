@@ -401539,5 +401539,85 @@
     "Punkty": "100",
     "Count": "1",
     "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-07 06:24:18",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-07 06:24:21",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-07 06:24:36",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-07 06:25:00",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Dagger",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-07 06:25:04",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Dagger",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-07 06:25:12",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicka krypta 25 poziomu",
+    "Punkty": "40",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-07 06:25:32",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Dagger",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-07 06:25:53",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Dagger",
+    "Źródło": "Epicka krypta 25 poziomu",
+    "Punkty": "40",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
   }
 ]

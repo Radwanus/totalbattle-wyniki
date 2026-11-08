@@ -484089,5 +484089,105 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "3a4cb18a2d1a16c9c02b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-08 07:37:54",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Androzar",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "3a4cb18a2d1a16c9c02b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-08 07:38:13",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Moralsa",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "9",
+    "PlayerKey": "2aa0e06ca13aad2ebb10"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-08 07:38:33",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Kajira",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "b150f3b4d74e67bf2560"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-08 07:38:37",
+    "Typ": "Runiczna Skrzynia",
+    "Nadawca": "Jedi Qui Gon Jinn",
+    "Źródło": "Runiczny oddział napaści 45 poz.",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "cc518556cc44310be810"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-08 07:38:51",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Moralsa",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "2aa0e06ca13aad2ebb10"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-08 07:39:28",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Moralsa",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "2aa0e06ca13aad2ebb10"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-08 07:39:56",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Kajira",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "b150f3b4d74e67bf2560"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-08 07:40:07",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Moralsa",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "9",
+    "PlayerKey": "2aa0e06ca13aad2ebb10"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-08 07:40:49",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Moralsa",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "9",
+    "PlayerKey": "2aa0e06ca13aad2ebb10"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-08 07:41:02",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Hichem 25",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "1de4143c427ea9bf54fd"
   }
 ]

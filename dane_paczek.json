@@ -483909,5 +483909,85 @@
     "Punkty": "0",
     "Count": "3",
     "PlayerKey": "3a4cb18a2d1a16c9c02b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-08 07:28:52",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Potens",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "5",
+    "PlayerKey": "65387dc40fc8753aa389"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-08 07:29:05",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Androzar",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "3a4cb18a2d1a16c9c02b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-08 07:29:42",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Potens",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "7",
+    "PlayerKey": "65387dc40fc8753aa389"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-08 07:29:48",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Androzar",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "5",
+    "PlayerKey": "3a4cb18a2d1a16c9c02b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-08 07:30:09",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Potens",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "65387dc40fc8753aa389"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-08 07:30:46",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Jedi Qui Gon Jinn",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "cc518556cc44310be810"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-08 07:32:49",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Potens",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "65387dc40fc8753aa389"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-08 07:33:06",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Potens",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "65387dc40fc8753aa389"
   }
 ]

@@ -481719,5 +481719,25 @@
     "Punkty": "0",
     "Count": "1",
     "PlayerKey": "f229b96aa6e978c4c326"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-08 03:39:16",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Oti",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "f229b96aa6e978c4c326"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-08 03:40:42",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Oti",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "6",
+    "PlayerKey": "f229b96aa6e978c4c326"
   }
 ]

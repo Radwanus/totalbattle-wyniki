@@ -482529,5 +482529,45 @@
     "Punkty": "4",
     "Count": "1",
     "PlayerKey": "65387dc40fc8753aa389"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-08 05:32:43",
+    "Typ": "Skrzynia Majów",
+    "Nadawca": "Potens",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "65387dc40fc8753aa389"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-08 05:33:20",
+    "Typ": "Skrzynia Orków",
+    "Nadawca": "Potens",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "65387dc40fc8753aa389"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-08 05:33:55",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "Potens",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "65387dc40fc8753aa389"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-08 05:34:07",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "Potens",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "65387dc40fc8753aa389"
   }
 ]

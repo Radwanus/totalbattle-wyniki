@@ -481099,5 +481099,95 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "baf1c355de741c49d337"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-08 02:53:03",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "Moralsa",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "2aa0e06ca13aad2ebb10"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-08 02:53:37",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Moralsa",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "2aa0e06ca13aad2ebb10"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-08 02:53:44",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "Vojora",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "baf1c355de741c49d337"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-08 02:54:17",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Moralsa",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "2aa0e06ca13aad2ebb10"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-08 02:54:57",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Vojora",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "baf1c355de741c49d337"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-08 02:55:03",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Moralsa",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "2aa0e06ca13aad2ebb10"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-08 02:55:51",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "Moralsa",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "2aa0e06ca13aad2ebb10"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-08 02:56:11",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Vojora",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "baf1c355de741c49d337"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-08 02:56:36",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Moralsa",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "2aa0e06ca13aad2ebb10"
   }
 ]

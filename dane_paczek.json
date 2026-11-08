@@ -481879,5 +481879,55 @@
     "Punkty": "0",
     "Count": "4",
     "PlayerKey": "f229b96aa6e978c4c326"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-08 04:04:15",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Kariel",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "0ac6b794e655966c923f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-08 04:04:55",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Kariel",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "0ac6b794e655966c923f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-08 04:05:29",
+    "Typ": "Skrzynia Fenrira",
+    "Nadawca": "Oti",
+    "Źródło": "Epicki oddział fenrirów",
+    "Punkty": "0",
+    "Count": "5",
+    "PlayerKey": "f229b96aa6e978c4c326"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-08 04:05:37",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Kariel",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "0ac6b794e655966c923f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 01.11 - 08.11",
+    "Data": "2026-11-08 04:06:18",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Kariel",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "0ac6b794e655966c923f"
   }
 ]

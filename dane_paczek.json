@@ -134248,5 +134248,215 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "baf1c355de741c49d337"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-10 20:45:44",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "Vojora",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "baf1c355de741c49d337"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-10 20:46:00",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "KAZ",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-10 20:46:03",
+    "Typ": "Klanowa Skrzynia Przyspieszenia Marszu",
+    "Nadawca": "KAZ",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-10 20:46:06",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "KAZ",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-10 20:46:34",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Jo K",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "24abd0939efac2a195b2"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-10 20:46:40",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Dagger",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-10 20:46:41",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "Jo K",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "24abd0939efac2a195b2"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-10 20:46:41",
+    "Typ": "Klanowa Skrzynia Przyspieszenia Marszu",
+    "Nadawca": "Dagger",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-10 20:46:42",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Dagger",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "02411c882803bece9314"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-10 20:46:43",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Serelka",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "9a5455a401480b9d8137"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-10 20:46:46",
+    "Typ": "Klanowa Skrzynia Przyspieszenia Marszu",
+    "Nadawca": "Serelka",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "9a5455a401480b9d8137"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-10 20:46:47",
+    "Typ": "Klanowa Skrzynia Kamienia Milowego Sądnego Dnia",
+    "Nadawca": "Serelka",
+    "Źródło": "Nagroda klanowa Sądnego Dnia",
+    "Punkty": "0",
+    "Count": "8",
+    "PlayerKey": "9a5455a401480b9d8137"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-10 20:46:52",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Vojora",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "baf1c355de741c49d337"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-10 20:46:57",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Jo K",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "24abd0939efac2a195b2"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-10 20:47:36",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Jo K",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "24abd0939efac2a195b2"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-10 20:47:48",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Jo K",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "24abd0939efac2a195b2"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-10 20:47:53",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Jo K",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "24abd0939efac2a195b2"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-10 20:48:09",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Vojora",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "baf1c355de741c49d337"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-10 20:48:16",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Jo K",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "24abd0939efac2a195b2"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-10 20:48:34",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Jo K",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "24abd0939efac2a195b2"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-10 20:48:44",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Jo K",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "24abd0939efac2a195b2"
   }
 ]

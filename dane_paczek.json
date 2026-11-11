@@ -159278,5 +159278,75 @@
     "Punkty": "80",
     "Count": "1",
     "PlayerKey": "5523e42cd1d58a7a7936"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-11 08:07:52",
+    "Typ": "Skrzynia z Twierdzy Elfów",
+    "Nadawca": "Mieciu",
+    "Źródło": "Twierdza 30 poziomu",
+    "Punkty": "80",
+    "Count": "1",
+    "PlayerKey": "5523e42cd1d58a7a7936"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-11 08:09:09",
+    "Typ": "Ognista Skrzynia",
+    "Nadawca": "LakiLu",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "0dc31a9c73dcd599c691"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-11 08:10:03",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Keltix",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "1d37ffd4ff22495cf280"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-11 08:10:11",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "LakiLu",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "0dc31a9c73dcd599c691"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-11 08:10:14",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Keltix",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "1d37ffd4ff22495cf280"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-11 08:10:29",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Keltix",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "1d37ffd4ff22495cf280"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-11 08:10:44",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Keltix",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "1d37ffd4ff22495cf280"
   }
 ]

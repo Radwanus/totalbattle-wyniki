@@ -1,1677 +1,27 @@
 [
   {
     "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 16:57:00",
-    "Typ": "Pleciona Skrzynia",
-    "Nadawca": "Serelka",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "9a5455a401480b9d8137"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 16:57:03",
-    "Typ": "Pleciona Skrzynia",
-    "Nadawca": "KAZ",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 16:57:09",
-    "Typ": "Skrzynia z Twierdzy Elfów",
-    "Nadawca": "KAZ",
-    "Źródło": "Twierdza 30 poziomu",
-    "Punkty": "80",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 16:57:09",
-    "Typ": "Skrzynia Domu Grozy",
-    "Nadawca": "GOKBORU",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "8f13fc7dfd65601a1643"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 16:57:10",
-    "Typ": "Skrzynia Skarabeusza",
-    "Nadawca": "EeLL",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "a15b608703c3ba6fe2da"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 16:57:17",
-    "Typ": "Starożytna Skrzynia Wojownika",
-    "Nadawca": "Serelka",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "9a5455a401480b9d8137"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 16:57:22",
-    "Typ": "Skrzynia Kapłana",
-    "Nadawca": "King of YEMEN",
-    "Źródło": "Epicka krypta 30 poziomu",
-    "Punkty": "100",
-    "Count": "1",
-    "PlayerKey": "6d7f0562a0ccae85ce6d"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 16:57:27",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "Rafi",
-    "Źródło": "Rzadka krypta 30 poziomu",
-    "Punkty": "90",
-    "Count": "1",
-    "PlayerKey": "81c34c9290ef01018d2e"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 16:57:33",
-    "Typ": "Skrzynia Skorpiona",
-    "Nadawca": "King of YEMEN",
-    "Źródło": "Epicka krypta 30 poziomu",
-    "Punkty": "100",
-    "Count": "1",
-    "PlayerKey": "6d7f0562a0ccae85ce6d"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 16:57:37",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "Rafi",
-    "Źródło": "Rzadka krypta 30 poziomu",
-    "Punkty": "90",
-    "Count": "1",
-    "PlayerKey": "81c34c9290ef01018d2e"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 16:57:40",
-    "Typ": "Skrzynia Z Tytanowej Stali",
-    "Nadawca": "GOKBORU",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "8f13fc7dfd65601a1643"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 16:57:46",
-    "Typ": "Kobaltowa Skrzynia",
-    "Nadawca": "Serelka",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "9a5455a401480b9d8137"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 16:57:52",
-    "Typ": "Porzucona Skrzynia",
-    "Nadawca": "KAZ",
-    "Źródło": "Epicka krypta 30 poziomu",
-    "Punkty": "100",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 16:58:09",
-    "Typ": "Skrzynia Orków",
-    "Nadawca": "KAZ",
-    "Źródło": "Krypta 25 poziomu",
-    "Punkty": "4",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 16:58:09",
-    "Typ": "Skrzynia Kapłana",
-    "Nadawca": "Serelka",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "9a5455a401480b9d8137"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 16:58:10",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "Rafi",
-    "Źródło": "Rzadka krypta 30 poziomu",
-    "Punkty": "90",
-    "Count": "1",
-    "PlayerKey": "81c34c9290ef01018d2e"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 16:58:18",
-    "Typ": "Skrzynia Z Białego Drewna",
-    "Nadawca": "GOKBORU",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "8f13fc7dfd65601a1643"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 16:58:23",
-    "Typ": "Kościana Skrzynia",
-    "Nadawca": "KAZ",
-    "Źródło": "Krypta 25 poziomu",
-    "Punkty": "4",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 16:58:24",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "Rafi",
-    "Źródło": "Rzadka krypta 30 poziomu",
-    "Punkty": "90",
-    "Count": "1",
-    "PlayerKey": "81c34c9290ef01018d2e"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 16:58:26",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "Mario",
-    "Źródło": "Rzadka krypta 30 poziomu",
-    "Punkty": "90",
-    "Count": "1",
-    "PlayerKey": "03547e958de090bf525f"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 16:58:29",
-    "Typ": "Skrzynia Harpii",
-    "Nadawca": "Serelka",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "9a5455a401480b9d8137"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 16:58:35",
-    "Typ": "Porzucona Skrzynia",
-    "Nadawca": "KAZ",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 16:58:43",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "Mario",
-    "Źródło": "Rzadka krypta 30 poziomu",
-    "Punkty": "90",
-    "Count": "1",
-    "PlayerKey": "03547e958de090bf525f"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 16:58:48",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "Rafi",
-    "Źródło": "Rzadka krypta 30 poziomu",
-    "Punkty": "90",
-    "Count": "1",
-    "PlayerKey": "81c34c9290ef01018d2e"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 16:58:50",
-    "Typ": "Starożytna Skrzynia Wojownika",
-    "Nadawca": "Serelka",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "9a5455a401480b9d8137"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 16:58:56",
-    "Typ": "Skrzynia Skarabeusza",
-    "Nadawca": "EeLL",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "a15b608703c3ba6fe2da"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 16:59:07",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "Rafi",
-    "Źródło": "Rzadka krypta 30 poziomu",
-    "Punkty": "90",
-    "Count": "1",
-    "PlayerKey": "81c34c9290ef01018d2e"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 16:59:07",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "Mario",
-    "Źródło": "Rzadka krypta 30 poziomu",
-    "Punkty": "90",
-    "Count": "1",
-    "PlayerKey": "03547e958de090bf525f"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 16:59:09",
+    "Data": "2026-11-15 17:39:44",
     "Typ": "Skrzynia Barbarzyńców",
-    "Nadawca": "GOKBORU",
+    "Nadawca": "SEBA",
     "Źródło": "Epicka krypta 35 poziomu",
     "Punkty": "130",
     "Count": "1",
-    "PlayerKey": "8f13fc7dfd65601a1643"
+    "PlayerKey": "77532d8f35fdf467a275"
   },
   {
     "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 16:59:15",
-    "Typ": "Starożytna Skrzynia Wojownika",
-    "Nadawca": "Max72",
-    "Źródło": "Epicka krypta 30 poziomu",
-    "Punkty": "100",
-    "Count": "1",
-    "PlayerKey": "636bce343193dbfb545b"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 16:59:19",
-    "Typ": "Skrzynia Kapłana",
-    "Nadawca": "Serelka",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "9a5455a401480b9d8137"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 16:59:36",
-    "Typ": "Skrzynia Skarabeusza",
-    "Nadawca": "KAZ",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 16:59:38",
-    "Typ": "Skrzynia z Twierdzy Elfów",
-    "Nadawca": "KAZ",
-    "Źródło": "Twierdza 25 poziomu",
-    "Punkty": "20",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 16:59:45",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "Rafi",
-    "Źródło": "Rzadka krypta 30 poziomu",
-    "Punkty": "90",
-    "Count": "1",
-    "PlayerKey": "81c34c9290ef01018d2e"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 16:59:47",
-    "Typ": "Skrzynia Harpii",
-    "Nadawca": "Serelka",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "9a5455a401480b9d8137"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 16:59:51",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "Rafi",
-    "Źródło": "Rzadka krypta 30 poziomu",
-    "Punkty": "90",
-    "Count": "1",
-    "PlayerKey": "81c34c9290ef01018d2e"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:00:03",
-    "Typ": "Starożytna Skrzynia Wojownika",
-    "Nadawca": "Serelka",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "9a5455a401480b9d8137"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:00:15",
-    "Typ": "Pleciona Skrzynia",
-    "Nadawca": "GOKBORU",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "8f13fc7dfd65601a1643"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:00:40",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "Rafi",
-    "Źródło": "Rzadka krypta 30 poziomu",
-    "Punkty": "90",
-    "Count": "1",
-    "PlayerKey": "81c34c9290ef01018d2e"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:00:41",
-    "Typ": "Pleciona Skrzynia",
-    "Nadawca": "KAZ",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:00:52",
-    "Typ": "Skrzynia Z Tytanowej Stali",
-    "Nadawca": "GOKBORU",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "8f13fc7dfd65601a1643"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:00:57",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "Rafi",
-    "Źródło": "Rzadka krypta 30 poziomu",
-    "Punkty": "90",
-    "Count": "1",
-    "PlayerKey": "81c34c9290ef01018d2e"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:01:06",
-    "Typ": "Porzucona Skrzynia",
-    "Nadawca": "Max72",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "636bce343193dbfb545b"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:01:12",
-    "Typ": "Skrzynia Skarabeusza",
-    "Nadawca": "EeLL",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "a15b608703c3ba6fe2da"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:01:37",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "Rafi",
-    "Źródło": "Rzadka krypta 30 poziomu",
-    "Punkty": "90",
-    "Count": "1",
-    "PlayerKey": "81c34c9290ef01018d2e"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:01:49",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "Rafi",
-    "Źródło": "Rzadka krypta 30 poziomu",
-    "Punkty": "90",
-    "Count": "1",
-    "PlayerKey": "81c34c9290ef01018d2e"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:01:56",
-    "Typ": "Skrzynia Skarabeusza",
-    "Nadawca": "EeLL",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "a15b608703c3ba6fe2da"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:02:01",
-    "Typ": "Skrzynia Harpii",
-    "Nadawca": "Serelka",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "9a5455a401480b9d8137"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:02:13",
-    "Typ": "Starożytna Skrzynia Wojownika",
-    "Nadawca": "Serelka",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "9a5455a401480b9d8137"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:02:15",
-    "Typ": "Skrzynia Z Białego Drewna",
-    "Nadawca": "KAZ",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:02:26",
-    "Typ": "Zapomniana Skrzynia",
-    "Nadawca": "KAZ",
-    "Źródło": "Krypta 25 poziomu",
-    "Punkty": "4",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:02:29",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "Rafi",
-    "Źródło": "Rzadka krypta 30 poziomu",
-    "Punkty": "90",
-    "Count": "1",
-    "PlayerKey": "81c34c9290ef01018d2e"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:02:31",
-    "Typ": "Skrzynia Przeklętych",
-    "Nadawca": "GOKBORU",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "8f13fc7dfd65601a1643"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:02:38",
-    "Typ": "Skrzynia Harpii",
-    "Nadawca": "Serelka",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "9a5455a401480b9d8137"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:02:39",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "Rafi",
-    "Źródło": "Rzadka krypta 30 poziomu",
-    "Punkty": "90",
-    "Count": "1",
-    "PlayerKey": "81c34c9290ef01018d2e"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:02:40",
-    "Typ": "Skrzynia Majów",
-    "Nadawca": "KAZ",
-    "Źródło": "Krypta 25 poziomu",
-    "Punkty": "4",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:03:11",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "Rafi",
-    "Źródło": "Rzadka krypta 30 poziomu",
-    "Punkty": "90",
-    "Count": "1",
-    "PlayerKey": "81c34c9290ef01018d2e"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:03:13",
-    "Typ": "Pleciona Skrzynia",
-    "Nadawca": "KAZ",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:03:43",
-    "Typ": "Starożytna Skrzynia Wojownika",
-    "Nadawca": "Serelka",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "9a5455a401480b9d8137"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:03:52",
-    "Typ": "Skrzynia z Twierdzy Elfów",
-    "Nadawca": "KAZ",
-    "Źródło": "Twierdza 30 poziomu",
-    "Punkty": "80",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:03:58",
-    "Typ": "Kobaltowa Skrzynia",
-    "Nadawca": "Serelka",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "9a5455a401480b9d8137"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:04:09",
-    "Typ": "Skrzynia Minotaura",
-    "Nadawca": "KAZ",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:04:11",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "Rafi",
-    "Źródło": "Rzadka krypta 30 poziomu",
-    "Punkty": "90",
-    "Count": "1",
-    "PlayerKey": "81c34c9290ef01018d2e"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:04:22",
-    "Typ": "Skrzynia Z Białego Drewna",
-    "Nadawca": "GOKBORU",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "8f13fc7dfd65601a1643"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:04:22",
-    "Typ": "Skrzynia Kapłana",
-    "Nadawca": "Serelka",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "9a5455a401480b9d8137"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:04:23",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "Ildanen",
-    "Źródło": "Rzadka krypta 30 poziomu",
-    "Punkty": "90",
-    "Count": "1",
-    "PlayerKey": "865e1ddb9398b80fcfee"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:04:25",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "Rafi",
-    "Źródło": "Rzadka krypta 30 poziomu",
-    "Punkty": "90",
-    "Count": "1",
-    "PlayerKey": "81c34c9290ef01018d2e"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:04:30",
-    "Typ": "Skrzynia Z Białego Drewna",
-    "Nadawca": "Ildanen",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "865e1ddb9398b80fcfee"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:04:34",
-    "Typ": "Skrzynia Skarabeusza",
-    "Nadawca": "Serelka",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "9a5455a401480b9d8137"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:04:44",
-    "Typ": "Starożytna Skrzynia Wojownika",
-    "Nadawca": "EeLL",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "a15b608703c3ba6fe2da"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:04:52",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "Rafi",
-    "Źródło": "Rzadka krypta 30 poziomu",
-    "Punkty": "90",
-    "Count": "1",
-    "PlayerKey": "81c34c9290ef01018d2e"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:05:12",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "KAZ",
-    "Źródło": "Rzadka krypta 30 poziomu",
-    "Punkty": "90",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:05:15",
-    "Typ": "Skrzynia Minotaura",
-    "Nadawca": "KAZ",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:05:29",
-    "Typ": "Kobaltowa Skrzynia",
-    "Nadawca": "EeLL",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "a15b608703c3ba6fe2da"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:05:30",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "KAZ",
-    "Źródło": "Rzadka krypta 30 poziomu",
-    "Punkty": "90",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:05:38",
-    "Typ": "Porzucona Skrzynia",
-    "Nadawca": "GOKBORU",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "8f13fc7dfd65601a1643"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:05:41",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "Rafi",
-    "Źródło": "Rzadka krypta 30 poziomu",
-    "Punkty": "90",
-    "Count": "1",
-    "PlayerKey": "81c34c9290ef01018d2e"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:05:43",
-    "Typ": "Skrzynia Arachne",
-    "Nadawca": "Melania",
-    "Źródło": "Epicki oddział Roju Arachne",
-    "Punkty": "0",
-    "Count": "3",
-    "PlayerKey": "7b8aad0fe3a1e8489156"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:06:03",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "Rafi",
-    "Źródło": "Rzadka krypta 30 poziomu",
-    "Punkty": "90",
-    "Count": "1",
-    "PlayerKey": "81c34c9290ef01018d2e"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:06:19",
-    "Typ": "Skrzynia Skorpiona",
-    "Nadawca": "GOKBORU",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "8f13fc7dfd65601a1643"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:06:24",
-    "Typ": "Skrzynia Harpii",
-    "Nadawca": "Serelka",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "9a5455a401480b9d8137"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:06:31",
-    "Typ": "Skrzynia Minotaura",
-    "Nadawca": "KAZ",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:06:38",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "Rafi",
-    "Źródło": "Rzadka krypta 30 poziomu",
-    "Punkty": "90",
-    "Count": "1",
-    "PlayerKey": "81c34c9290ef01018d2e"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:06:41",
-    "Typ": "Skrzynia Skarabeusza",
-    "Nadawca": "Ildanen",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "865e1ddb9398b80fcfee"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:06:42",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "KAZ",
-    "Źródło": "Rzadka krypta 25 poziomu",
-    "Punkty": "30",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:06:45",
-    "Typ": "Pleciona Skrzynia",
-    "Nadawca": "Serelka",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "9a5455a401480b9d8137"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:06:56",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "Rafi",
-    "Źródło": "Rzadka krypta 30 poziomu",
-    "Punkty": "90",
-    "Count": "1",
-    "PlayerKey": "81c34c9290ef01018d2e"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:07:06",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "Ildanen",
-    "Źródło": "Rzadka krypta 30 poziomu",
-    "Punkty": "90",
-    "Count": "1",
-    "PlayerKey": "865e1ddb9398b80fcfee"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:07:08",
-    "Typ": "Skrzynia Harpii",
-    "Nadawca": "Serelka",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "9a5455a401480b9d8137"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:07:23",
-    "Typ": "Porzucona Skrzynia",
-    "Nadawca": "KAZ",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:07:26",
-    "Typ": "Skrzynia Z Tytanowej Stali",
-    "Nadawca": "GOKBORU",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "8f13fc7dfd65601a1643"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:07:27",
-    "Typ": "Skrzynia Harpii",
-    "Nadawca": "Serelka",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "9a5455a401480b9d8137"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:07:43",
-    "Typ": "Skrzynia Barbarzyńców",
-    "Nadawca": "Max72",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "636bce343193dbfb545b"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:07:51",
-    "Typ": "Skrzynia Skarabeusza",
-    "Nadawca": "Serelka",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "9a5455a401480b9d8137"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:07:58",
-    "Typ": "Skrzynia Arachne",
-    "Nadawca": "Alfonso DIOS Magno",
-    "Źródło": "Epicki oddział Roju Arachne",
-    "Punkty": "0",
-    "Count": "2",
-    "PlayerKey": "3b72c8642cb4720b717c"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:08:03",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "Rafi",
-    "Źródło": "Rzadka krypta 30 poziomu",
-    "Punkty": "90",
-    "Count": "1",
-    "PlayerKey": "81c34c9290ef01018d2e"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:08:06",
-    "Typ": "Skrzynia Z Trillium",
-    "Nadawca": "Serelka",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "9a5455a401480b9d8137"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:08:14",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "KAZ",
-    "Źródło": "Rzadka krypta 30 poziomu",
-    "Punkty": "90",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:08:14",
-    "Typ": "Skrzynia Barbarzyńców",
-    "Nadawca": "GOKBORU",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "8f13fc7dfd65601a1643"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:08:16",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "Rafi",
-    "Źródło": "Rzadka krypta 30 poziomu",
-    "Punkty": "90",
-    "Count": "1",
-    "PlayerKey": "81c34c9290ef01018d2e"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:08:20",
-    "Typ": "Starożytna Skrzynia Wojownika",
-    "Nadawca": "EeLL",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "a15b608703c3ba6fe2da"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:08:24",
-    "Typ": "Skrzynia Harpii",
-    "Nadawca": "Serelka",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "9a5455a401480b9d8137"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:08:30",
-    "Typ": "Starożytna Skrzynia Wojownika",
-    "Nadawca": "KAZ",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:08:35",
-    "Typ": "Skrzynia z Twierdzy Elfów",
-    "Nadawca": "KAZ",
-    "Źródło": "Twierdza 25 poziomu",
-    "Punkty": "20",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:08:49",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "Rafi",
-    "Źródło": "Rzadka krypta 30 poziomu",
-    "Punkty": "90",
-    "Count": "1",
-    "PlayerKey": "81c34c9290ef01018d2e"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:08:54",
+    "Data": "2026-11-15 17:39:51",
     "Typ": "Żółwia Skrzynia",
-    "Nadawca": "Max72",
+    "Nadawca": "SEBA",
     "Źródło": "Epicka krypta 35 poziomu",
     "Punkty": "130",
     "Count": "1",
-    "PlayerKey": "636bce343193dbfb545b"
+    "PlayerKey": "77532d8f35fdf467a275"
   },
   {
     "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:08:58",
-    "Typ": "Skrzynia Z Tytanowej Stali",
-    "Nadawca": "Serelka",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "9a5455a401480b9d8137"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:09:08",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "KAZ",
-    "Źródło": "Rzadka krypta 30 poziomu",
-    "Punkty": "90",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:09:09",
-    "Typ": "Starożytna Skrzynia Wojownika",
-    "Nadawca": "EeLL",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "a15b608703c3ba6fe2da"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:09:10",
-    "Typ": "Skrzynia Arachne",
-    "Nadawca": "Melania",
-    "Źródło": "Epicki oddział Roju Arachne",
-    "Punkty": "0",
-    "Count": "2",
-    "PlayerKey": "7b8aad0fe3a1e8489156"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:09:17",
-    "Typ": "Skrzynia Z Tytanowej Stali",
-    "Nadawca": "KAZ",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:09:19",
-    "Typ": "Pleciona Skrzynia",
-    "Nadawca": "GOKBORU",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "8f13fc7dfd65601a1643"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:09:26",
-    "Typ": "Skrzynia Arachne",
-    "Nadawca": "Alfonso DIOS Magno",
-    "Źródło": "Epicki oddział Roju Arachne",
-    "Punkty": "0",
-    "Count": "3",
-    "PlayerKey": "3b72c8642cb4720b717c"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:09:37",
-    "Typ": "Skrzynia Arachne",
-    "Nadawca": "Szybki Kriss",
-    "Źródło": "Epicki oddział Roju Arachne",
-    "Punkty": "0",
-    "Count": "2",
-    "PlayerKey": "49bc493bb219270d30fc"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:09:38",
-    "Typ": "Skrzynia Domu Grozy",
-    "Nadawca": "Max72",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "636bce343193dbfb545b"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:09:59",
-    "Typ": "Skrzynia Kapłana",
-    "Nadawca": "Serelka",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "9a5455a401480b9d8137"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:10:03",
-    "Typ": "Skrzynia Orków",
-    "Nadawca": "Serelka",
-    "Źródło": "Krypta 25 poziomu",
-    "Punkty": "4",
-    "Count": "1",
-    "PlayerKey": "9a5455a401480b9d8137"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:10:12",
-    "Typ": "Skrzynia Majów",
-    "Nadawca": "Serelka",
-    "Źródło": "Krypta 25 poziomu",
-    "Punkty": "4",
-    "Count": "1",
-    "PlayerKey": "9a5455a401480b9d8137"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:10:17",
-    "Typ": "Porzucona Skrzynia",
-    "Nadawca": "GOKBORU",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "8f13fc7dfd65601a1643"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:10:20",
-    "Typ": "Skrzynia Minotaura",
-    "Nadawca": "Max72",
-    "Źródło": "Epicka krypta 30 poziomu",
-    "Punkty": "100",
-    "Count": "1",
-    "PlayerKey": "636bce343193dbfb545b"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:10:21",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "KAZ",
-    "Źródło": "Rzadka krypta 30 poziomu",
-    "Punkty": "90",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:10:23",
-    "Typ": "Skrzynia Arachne",
-    "Nadawca": "Mario",
-    "Źródło": "Epicki oddział Roju Arachne",
-    "Punkty": "0",
-    "Count": "1",
-    "PlayerKey": "03547e958de090bf525f"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:10:33",
-    "Typ": "Skrzynia Arachne",
-    "Nadawca": "Centri",
-    "Źródło": "Epicki oddział Roju Arachne",
-    "Punkty": "0",
-    "Count": "2",
-    "PlayerKey": "3a22feceb9cf2de7eca8"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:10:42",
-    "Typ": "Skrzynia Arachne",
-    "Nadawca": "Alfonso DIOS Magno",
-    "Źródło": "Epicki oddział Roju Arachne",
-    "Punkty": "0",
-    "Count": "2",
-    "PlayerKey": "3b72c8642cb4720b717c"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:10:54",
-    "Typ": "Skrzynia Z Tytanowej Stali",
-    "Nadawca": "Max72",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "636bce343193dbfb545b"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:10:58",
-    "Typ": "Kobaltowa Skrzynia",
-    "Nadawca": "Serelka",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "9a5455a401480b9d8137"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:11:00",
-    "Typ": "Pleciona Skrzynia",
-    "Nadawca": "KAZ",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:11:16",
-    "Typ": "Żółwia Skrzynia",
-    "Nadawca": "Serelka",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "9a5455a401480b9d8137"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:11:38",
-    "Typ": "Skrzynia Barbarzyńców",
-    "Nadawca": "Max72",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "636bce343193dbfb545b"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:11:59",
-    "Typ": "Skrzynia Barbarzyńców",
-    "Nadawca": "GOKBORU",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "8f13fc7dfd65601a1643"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:12:04",
-    "Typ": "Starożytna Skrzynia Wojownika",
-    "Nadawca": "Serelka",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "9a5455a401480b9d8137"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:12:12",
-    "Typ": "Skrzynia Arachne",
-    "Nadawca": "Szybki Kriss",
-    "Źródło": "Epicki oddział Roju Arachne",
-    "Punkty": "0",
-    "Count": "2",
-    "PlayerKey": "49bc493bb219270d30fc"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:12:13",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "KAZ",
-    "Źródło": "Rzadka krypta 30 poziomu",
-    "Punkty": "90",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:12:15",
-    "Typ": "Skrzynia Minotaura",
-    "Nadawca": "Max72",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "636bce343193dbfb545b"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:12:18",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "KAZ",
-    "Źródło": "Rzadka krypta 25 poziomu",
-    "Punkty": "30",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:12:21",
-    "Typ": "Skrzynia Arachne",
-    "Nadawca": "Alfonso DIOS Magno",
-    "Źródło": "Epicki oddział Roju Arachne",
-    "Punkty": "0",
-    "Count": "3",
-    "PlayerKey": "3b72c8642cb4720b717c"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:12:23",
-    "Typ": "Skrzynia Arachne",
-    "Nadawca": "Mario",
-    "Źródło": "Epicki oddział Roju Arachne",
-    "Punkty": "0",
-    "Count": "1",
-    "PlayerKey": "03547e958de090bf525f"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:12:46",
-    "Typ": "Skrzynia Przeklętych",
-    "Nadawca": "Max72",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "636bce343193dbfb545b"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:12:47",
-    "Typ": "Skrzynia Przeklętych",
-    "Nadawca": "KAZ",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:12:49",
-    "Typ": "Skrzynia z Twierdzy Elfów",
-    "Nadawca": "KAZ",
-    "Źródło": "Twierdza 25 poziomu",
-    "Punkty": "20",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:13:22",
-    "Typ": "Skrzynia Minotaura",
-    "Nadawca": "Max72",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "636bce343193dbfb545b"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:13:28",
-    "Typ": "Kobaltowa Skrzynia",
-    "Nadawca": "GOKBORU",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "8f13fc7dfd65601a1643"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:13:31",
-    "Typ": "Skrzynia Harpii",
-    "Nadawca": "Serelka",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "9a5455a401480b9d8137"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:13:35",
-    "Typ": "Skrzynia Harpii",
-    "Nadawca": "Serelka",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "9a5455a401480b9d8137"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:13:52",
-    "Typ": "Skrzynia Domu Grozy",
-    "Nadawca": "KAZ",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:13:54",
-    "Typ": "Starożytna Skrzynia Wojownika",
-    "Nadawca": "Max72",
-    "Źródło": "Epicka krypta 30 poziomu",
-    "Punkty": "100",
-    "Count": "1",
-    "PlayerKey": "636bce343193dbfb545b"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:13:58",
-    "Typ": "Skrzynia Arachne",
-    "Nadawca": "Alfonso DIOS Magno",
-    "Źródło": "Epicki oddział Roju Arachne",
-    "Punkty": "0",
-    "Count": "3",
-    "PlayerKey": "3b72c8642cb4720b717c"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:14:08",
-    "Typ": "Skrzynia Harpii",
-    "Nadawca": "Serelka",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "9a5455a401480b9d8137"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:14:12",
-    "Typ": "Skrzynia Minotaura",
-    "Nadawca": "GOKBORU",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "8f13fc7dfd65601a1643"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:14:36",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "KAZ",
-    "Źródło": "Rzadka krypta 30 poziomu",
-    "Punkty": "90",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:14:36",
-    "Typ": "Skrzynia Z Tytanowej Stali",
-    "Nadawca": "KAZ",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:14:46",
-    "Typ": "Skrzynia Arachne",
-    "Nadawca": "Max72",
-    "Źródło": "Epicki oddział Roju Arachne",
-    "Punkty": "0",
-    "Count": "3",
-    "PlayerKey": "636bce343193dbfb545b"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:15:09",
-    "Typ": "Skrzynia Z Białego Drewna",
-    "Nadawca": "GOKBORU",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "8f13fc7dfd65601a1643"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:15:11",
-    "Typ": "Skrzynia Arachne",
-    "Nadawca": "Melania",
-    "Źródło": "Epicki oddział Roju Arachne",
-    "Punkty": "0",
-    "Count": "3",
-    "PlayerKey": "7b8aad0fe3a1e8489156"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:15:12",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "KAZ",
-    "Źródło": "Rzadka krypta 30 poziomu",
-    "Punkty": "90",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:15:27",
-    "Typ": "Skrzynia Przeklętych",
-    "Nadawca": "KAZ",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:15:31",
-    "Typ": "Skrzynia Arachne",
-    "Nadawca": "Mario",
-    "Źródło": "Epicki oddział Roju Arachne",
-    "Punkty": "0",
-    "Count": "1",
-    "PlayerKey": "03547e958de090bf525f"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:15:38",
-    "Typ": "Skrzynia Arachne",
-    "Nadawca": "Max72",
-    "Źródło": "Epicki oddział Roju Arachne",
-    "Punkty": "0",
-    "Count": "5",
-    "PlayerKey": "636bce343193dbfb545b"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:15:57",
-    "Typ": "Skrzynia Kapłana",
-    "Nadawca": "Serelka",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "9a5455a401480b9d8137"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:15:58",
-    "Typ": "Skrzynia Przeklętych",
-    "Nadawca": "KAZ",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:16:01",
-    "Typ": "Skrzynia Z Tytanowej Stali",
-    "Nadawca": "GOKBORU",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "8f13fc7dfd65601a1643"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:16:02",
-    "Typ": "Pleciona Skrzynia",
-    "Nadawca": "Serelka",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "9a5455a401480b9d8137"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:16:09",
-    "Typ": "Skrzynia z Twierdzy Elfów",
-    "Nadawca": "KAZ",
-    "Źródło": "Twierdza 25 poziomu",
-    "Punkty": "20",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:16:39",
-    "Typ": "Skrzynia Kapłana",
-    "Nadawca": "Serelka",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "9a5455a401480b9d8137"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:16:45",
-    "Typ": "Skrzynia Z Trillium",
-    "Nadawca": "GOKBORU",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "8f13fc7dfd65601a1643"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:17:11",
-    "Typ": "Skrzynia Arachne",
-    "Nadawca": "Melania",
-    "Źródło": "Epicki oddział Roju Arachne",
-    "Punkty": "0",
-    "Count": "3",
-    "PlayerKey": "7b8aad0fe3a1e8489156"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:17:11",
-    "Typ": "Żółwia Skrzynia",
-    "Nadawca": "Serelka",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "9a5455a401480b9d8137"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:17:15",
+    "Data": "2026-11-15 17:39:56",
     "Typ": "Kobaltowa Skrzynia",
     "Nadawca": "EeLL",
     "Źródło": "Epicka krypta 35 poziomu",
@@ -1681,337 +31,7 @@
   },
   {
     "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:17:37",
-    "Typ": "Skrzynia Z Białego Drewna",
-    "Nadawca": "GOKBORU",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "8f13fc7dfd65601a1643"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:17:42",
-    "Typ": "Skrzynia Skarabeusza",
-    "Nadawca": "Serelka",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "9a5455a401480b9d8137"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:17:43",
-    "Typ": "Skrzynia Domu Grozy",
-    "Nadawca": "KAZ",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:18:14",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "KAZ",
-    "Źródło": "Rzadka krypta 30 poziomu",
-    "Punkty": "90",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:18:16",
-    "Typ": "Skrzynia Arachne",
-    "Nadawca": "Alfonso DIOS Magno",
-    "Źródło": "Epicki oddział Roju Arachne",
-    "Punkty": "0",
-    "Count": "3",
-    "PlayerKey": "3b72c8642cb4720b717c"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:18:20",
-    "Typ": "Skrzynia Arachne",
-    "Nadawca": "Mariano244",
-    "Źródło": "Epicki oddział Roju Arachne",
-    "Punkty": "0",
-    "Count": "2",
-    "PlayerKey": "1da51b68f42324d68739"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:18:31",
-    "Typ": "Skrzynia Barbarzyńców",
-    "Nadawca": "KAZ",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:18:34",
-    "Typ": "Skrzynia Kapłana",
-    "Nadawca": "Serelka",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "9a5455a401480b9d8137"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:18:51",
-    "Typ": "Skrzynia Arachne",
-    "Nadawca": "Mariano244",
-    "Źródło": "Epicki oddział Roju Arachne",
-    "Punkty": "0",
-    "Count": "3",
-    "PlayerKey": "1da51b68f42324d68739"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:18:53",
-    "Typ": "Skrzynia Z Tytanowej Stali",
-    "Nadawca": "GOKBORU",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "8f13fc7dfd65601a1643"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:18:56",
-    "Typ": "Starożytna Skrzynia Wojownika",
-    "Nadawca": "Serelka",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "9a5455a401480b9d8137"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:19:10",
-    "Typ": "Skrzynia Arachne",
-    "Nadawca": "Alfonso DIOS Magno",
-    "Źródło": "Epicki oddział Roju Arachne",
-    "Punkty": "0",
-    "Count": "4",
-    "PlayerKey": "3b72c8642cb4720b717c"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:19:13",
-    "Typ": "Kobaltowa Skrzynia",
-    "Nadawca": "EeLL",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "a15b608703c3ba6fe2da"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:19:13",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "KAZ",
-    "Źródło": "Rzadka krypta 25 poziomu",
-    "Punkty": "30",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:19:24",
-    "Typ": "Skrzynia Arachne",
-    "Nadawca": "Mariano244",
-    "Źródło": "Epicki oddział Roju Arachne",
-    "Punkty": "0",
-    "Count": "1",
-    "PlayerKey": "1da51b68f42324d68739"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:19:32",
-    "Typ": "Starożytna Skrzynia Wojownika",
-    "Nadawca": "Serelka",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "9a5455a401480b9d8137"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:19:35",
-    "Typ": "Skrzynia Starożytnego Bastionu",
-    "Nadawca": "KAZ",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:19:56",
-    "Typ": "Skrzynia Kapłana",
-    "Nadawca": "Serelka",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "9a5455a401480b9d8137"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:20:13",
-    "Typ": "Skrzynia Skorpiona",
-    "Nadawca": "KAZ",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:20:18",
-    "Typ": "Starożytna Skrzynia Wojownika",
-    "Nadawca": "Serelka",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "9a5455a401480b9d8137"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:20:32",
-    "Typ": "Skrzynia Harpii",
-    "Nadawca": "Serelka",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "9a5455a401480b9d8137"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:20:46",
-    "Typ": "Skrzynia Kapłana",
-    "Nadawca": "GOKBORU",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "8f13fc7dfd65601a1643"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:20:50",
-    "Typ": "Skrzynia z Twierdzy Elfów",
-    "Nadawca": "KAZ",
-    "Źródło": "Twierdza 30 poziomu",
-    "Punkty": "80",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:20:52",
-    "Typ": "Starożytna Skrzynia Wojownika",
-    "Nadawca": "Serelka",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "9a5455a401480b9d8137"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:20:57",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "KAZ",
-    "Źródło": "Rzadka krypta 25 poziomu",
-    "Punkty": "30",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:21:02",
-    "Typ": "Skrzynia Starożytnego Bastionu",
-    "Nadawca": "KAZ",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:21:36",
-    "Typ": "Skrzynia Arachne",
-    "Nadawca": "Kariel",
-    "Źródło": "Epicki oddział Roju Arachne",
-    "Punkty": "0",
-    "Count": "1",
-    "PlayerKey": "0ac6b794e655966c923f"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:21:39",
-    "Typ": "Starożytna Skrzynia Wojownika",
-    "Nadawca": "Serelka",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "9a5455a401480b9d8137"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:21:41",
-    "Typ": "Skrzynia Skorpiona",
-    "Nadawca": "KAZ",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:21:57",
-    "Typ": "Starożytna Skrzynia Wojownika",
-    "Nadawca": "Serelka",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "9a5455a401480b9d8137"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:22:08",
-    "Typ": "Starożytna Skrzynia Wojownika",
-    "Nadawca": "EeLL",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "a15b608703c3ba6fe2da"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:22:22",
-    "Typ": "Skrzynia Z Tytanowej Stali",
-    "Nadawca": "KAZ",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:22:31",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "KAZ",
-    "Źródło": "Rzadka krypta 30 poziomu",
-    "Punkty": "90",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:22:51",
+    "Data": "2026-11-15 17:40:16",
     "Typ": "Skrzynia Arachne",
     "Nadawca": "Kariel",
     "Źródło": "Epicki oddział Roju Arachne",
@@ -2021,37 +41,7 @@
   },
   {
     "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:22:51",
-    "Typ": "Skrzynia Kapłana",
-    "Nadawca": "EeLL",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "a15b608703c3ba6fe2da"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:23:05",
-    "Typ": "Porzucona Skrzynia",
-    "Nadawca": "KAZ",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:23:06",
-    "Typ": "Pleciona Skrzynia",
-    "Nadawca": "GOKBORU",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "8f13fc7dfd65601a1643"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:23:23",
+    "Data": "2026-11-15 17:40:29",
     "Typ": "Elegancka Skrzynia",
     "Nadawca": "KAZ",
     "Źródło": "Krypta 25 poziomu",
@@ -2061,897 +51,7 @@
   },
   {
     "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:23:39",
-    "Typ": "Skrzynia Arachne",
-    "Nadawca": "Mario",
-    "Źródło": "Epicki oddział Roju Arachne",
-    "Punkty": "0",
-    "Count": "1",
-    "PlayerKey": "03547e958de090bf525f"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:23:39",
-    "Typ": "Skrzynia Arachne",
-    "Nadawca": "Kariel",
-    "Źródło": "Epicki oddział Roju Arachne",
-    "Punkty": "0",
-    "Count": "2",
-    "PlayerKey": "0ac6b794e655966c923f"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:23:48",
-    "Typ": "Starożytna Skrzynia Wojownika",
-    "Nadawca": "EeLL",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "a15b608703c3ba6fe2da"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:24:13",
-    "Typ": "Skrzynia Arachne",
-    "Nadawca": "Mariano244",
-    "Źródło": "Epicki oddział Roju Arachne",
-    "Punkty": "0",
-    "Count": "2",
-    "PlayerKey": "1da51b68f42324d68739"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:24:13",
-    "Typ": "Skrzynia Przeklętych",
-    "Nadawca": "KAZ",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:24:21",
-    "Typ": "Skrzynia z Twierdzy Elfów",
-    "Nadawca": "KAZ",
-    "Źródło": "Twierdza 30 poziomu",
-    "Punkty": "80",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:24:30",
-    "Typ": "Skrzynia Arachne",
-    "Nadawca": "Kariel",
-    "Źródło": "Epicki oddział Roju Arachne",
-    "Punkty": "0",
-    "Count": "2",
-    "PlayerKey": "0ac6b794e655966c923f"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:24:35",
-    "Typ": "Zapomniana Skrzynia",
-    "Nadawca": "KAZ",
-    "Źródło": "Krypta 25 poziomu",
-    "Punkty": "4",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:24:42",
-    "Typ": "Skrzynia Warsztatu Gnomów",
-    "Nadawca": "KAZ",
-    "Źródło": "Krypta 25 poziomu",
-    "Punkty": "4",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:24:43",
-    "Typ": "Skrzynia Arachne",
-    "Nadawca": "LakiLu",
-    "Źródło": "Epicki oddział Roju Arachne",
-    "Punkty": "0",
-    "Count": "2",
-    "PlayerKey": "0dc31a9c73dcd599c691"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:24:53",
-    "Typ": "Pleciona Skrzynia",
-    "Nadawca": "KAZ",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:25:04",
-    "Typ": "Skrzynia Arachne",
-    "Nadawca": "Kariel",
-    "Źródło": "Epicki oddział Roju Arachne",
-    "Punkty": "0",
-    "Count": "2",
-    "PlayerKey": "0ac6b794e655966c923f"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:25:14",
-    "Typ": "Skrzynia Arachne",
-    "Nadawca": "Mariano244",
-    "Źródło": "Epicki oddział Roju Arachne",
-    "Punkty": "0",
-    "Count": "3",
-    "PlayerKey": "1da51b68f42324d68739"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:25:37",
-    "Typ": "Skrzynia Arachne",
-    "Nadawca": "Kariel",
-    "Źródło": "Epicki oddział Roju Arachne",
-    "Punkty": "0",
-    "Count": "2",
-    "PlayerKey": "0ac6b794e655966c923f"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:26:15",
-    "Typ": "Porzucona Skrzynia",
-    "Nadawca": "KAZ",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:26:30",
-    "Typ": "Skrzynia Arachne",
-    "Nadawca": "LakiLu",
-    "Źródło": "Epicki oddział Roju Arachne",
-    "Punkty": "0",
-    "Count": "2",
-    "PlayerKey": "0dc31a9c73dcd599c691"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:26:53",
-    "Typ": "Skrzynia Kapłana",
-    "Nadawca": "EeLL",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "a15b608703c3ba6fe2da"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:27:00",
-    "Typ": "Skrzynia Arachne",
-    "Nadawca": "Mariano244",
-    "Źródło": "Epicki oddział Roju Arachne",
-    "Punkty": "0",
-    "Count": "2",
-    "PlayerKey": "1da51b68f42324d68739"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:27:14",
-    "Typ": "Skrzynia Arachne",
-    "Nadawca": "Megana",
-    "Źródło": "Epicki oddział Roju Arachne",
-    "Punkty": "0",
-    "Count": "3",
-    "PlayerKey": "2db6dd7fcbb9231b69d5"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:27:18",
-    "Typ": "Skrzynia z Twierdzy Elfów",
-    "Nadawca": "KAZ",
-    "Źródło": "Twierdza 30 poziomu",
-    "Punkty": "80",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:27:22",
-    "Typ": "Zapomniana Skrzynia",
-    "Nadawca": "KAZ",
-    "Źródło": "Krypta 25 poziomu",
-    "Punkty": "4",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:27:24",
-    "Typ": "Skrzynia Barbarzyńców",
-    "Nadawca": "Melania",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "7b8aad0fe3a1e8489156"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:27:32",
-    "Typ": "Ognista Skrzynia",
-    "Nadawca": "KAZ",
-    "Źródło": "Krypta 25 poziomu",
-    "Punkty": "4",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:27:32",
-    "Typ": "Porzucona Skrzynia",
-    "Nadawca": "KAZ",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:27:56",
-    "Typ": "Skrzynia Arachne",
-    "Nadawca": "Mariano244",
-    "Źródło": "Epicki oddział Roju Arachne",
-    "Punkty": "0",
-    "Count": "2",
-    "PlayerKey": "1da51b68f42324d68739"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:27:57",
-    "Typ": "Skrzynia Minotaura",
-    "Nadawca": "Melania",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "7b8aad0fe3a1e8489156"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:28:09",
-    "Typ": "Skrzynia Z Trillium",
-    "Nadawca": "Melania",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "7b8aad0fe3a1e8489156"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:28:31",
-    "Typ": "Skrzynia Z Trillium",
-    "Nadawca": "Melania",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "7b8aad0fe3a1e8489156"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:28:40",
-    "Typ": "Żółwia Skrzynia",
-    "Nadawca": "KAZ",
-    "Źródło": "Epicka krypta 30 poziomu",
-    "Punkty": "100",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:28:46",
-    "Typ": "Skrzynia Arachne",
-    "Nadawca": "Kariel",
-    "Źródło": "Epicki oddział Roju Arachne",
-    "Punkty": "0",
-    "Count": "3",
-    "PlayerKey": "0ac6b794e655966c923f"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:28:51",
-    "Typ": "Skrzynia Arachne",
-    "Nadawca": "Mariano244",
-    "Źródło": "Epicki oddział Roju Arachne",
-    "Punkty": "0",
-    "Count": "3",
-    "PlayerKey": "1da51b68f42324d68739"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:29:09",
-    "Typ": "Skrzynia z Twierdzy Elfów",
-    "Nadawca": "KAZ",
-    "Źródło": "Twierdza 25 poziomu",
-    "Punkty": "20",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:29:20",
-    "Typ": "Starożytna Skrzynia Wojownika",
-    "Nadawca": "EeLL",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "a15b608703c3ba6fe2da"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:29:35",
-    "Typ": "Skrzynia Arachne",
-    "Nadawca": "Kariel",
-    "Źródło": "Epicki oddział Roju Arachne",
-    "Punkty": "0",
-    "Count": "1",
-    "PlayerKey": "0ac6b794e655966c923f"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:30:11",
-    "Typ": "Skrzynia Kapłana",
-    "Nadawca": "EeLL",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "a15b608703c3ba6fe2da"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:30:20",
-    "Typ": "Kobaltowa Skrzynia",
-    "Nadawca": "KAZ",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:30:33",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "KAZ",
-    "Źródło": "Rzadka krypta 30 poziomu",
-    "Punkty": "90",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:30:46",
-    "Typ": "Skrzynia Arachne",
-    "Nadawca": "Kariel",
-    "Źródło": "Epicki oddział Roju Arachne",
-    "Punkty": "0",
-    "Count": "1",
-    "PlayerKey": "0ac6b794e655966c923f"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:30:59",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "KAZ",
-    "Źródło": "Rzadka krypta 30 poziomu",
-    "Punkty": "90",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:31:04",
-    "Typ": "Starożytna Skrzynia Wojownika",
-    "Nadawca": "Melania",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "7b8aad0fe3a1e8489156"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:31:11",
-    "Typ": "Pleciona Skrzynia",
-    "Nadawca": "Melania",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "7b8aad0fe3a1e8489156"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:31:20",
-    "Typ": "Skrzynia Arachne",
-    "Nadawca": "Kariel",
-    "Źródło": "Epicki oddział Roju Arachne",
-    "Punkty": "0",
-    "Count": "2",
-    "PlayerKey": "0ac6b794e655966c923f"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:31:22",
-    "Typ": "Skrzynia Skarabeusza",
-    "Nadawca": "EeLL",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "a15b608703c3ba6fe2da"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:32:14",
-    "Typ": "Skrzynia Przeklętych",
-    "Nadawca": "KAZ",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:32:19",
-    "Typ": "Skrzynia z Twierdzy Elfów",
-    "Nadawca": "KAZ",
-    "Źródło": "Twierdza 30 poziomu",
-    "Punkty": "80",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:32:26",
-    "Typ": "Skrzynia Przeklętych",
-    "Nadawca": "Melania",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "7b8aad0fe3a1e8489156"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:32:33",
-    "Typ": "Skrzynia Arachne",
-    "Nadawca": "Kariel",
-    "Źródło": "Epicki oddział Roju Arachne",
-    "Punkty": "0",
-    "Count": "1",
-    "PlayerKey": "0ac6b794e655966c923f"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:32:41",
-    "Typ": "Skrzynia Barbarzyńców",
-    "Nadawca": "Melania",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "7b8aad0fe3a1e8489156"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:32:43",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "KAZ",
-    "Źródło": "Rzadka krypta 30 poziomu",
-    "Punkty": "90",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:33:02",
-    "Typ": "Skrzynia Skarabeusza",
-    "Nadawca": "EeLL",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "a15b608703c3ba6fe2da"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:33:08",
-    "Typ": "Skrzynia Domu Grozy",
-    "Nadawca": "Melania",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "7b8aad0fe3a1e8489156"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:33:15",
-    "Typ": "Skrzynia Arachne",
-    "Nadawca": "RAFAL PL",
-    "Źródło": "Epicki oddział Roju Arachne",
-    "Punkty": "0",
-    "Count": "2",
-    "PlayerKey": "ff001bef965a35cc675a"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:33:41",
-    "Typ": "Skrzynia Skarabeusza",
-    "Nadawca": "KAZ",
-    "Źródło": "Epicka krypta 25 poziomu",
-    "Punkty": "40",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:33:42",
-    "Typ": "Kobaltowa Skrzynia",
-    "Nadawca": "EeLL",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "a15b608703c3ba6fe2da"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:33:46",
-    "Typ": "Skrzynia Z Tytanowej Stali",
-    "Nadawca": "Melania",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "7b8aad0fe3a1e8489156"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:33:55",
-    "Typ": "Rzadka Smocza Skrzynia",
-    "Nadawca": "KAZ",
-    "Źródło": "Rzadka krypta 25 poziomu",
-    "Punkty": "30",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:33:55",
-    "Typ": "Skrzynia Arachne",
-    "Nadawca": "RAFAL PL",
-    "Źródło": "Epicki oddział Roju Arachne",
-    "Punkty": "0",
-    "Count": "1",
-    "PlayerKey": "ff001bef965a35cc675a"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:34:02",
-    "Typ": "Skrzynia Starożytnego Bastionu",
-    "Nadawca": "Melania",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "7b8aad0fe3a1e8489156"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:34:26",
-    "Typ": "Starożytna Skrzynia Wojownika",
-    "Nadawca": "EeLL",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "a15b608703c3ba6fe2da"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:34:27",
-    "Typ": "Skrzynia Arachne",
-    "Nadawca": "RAFAL PL",
-    "Źródło": "Epicki oddział Roju Arachne",
-    "Punkty": "0",
-    "Count": "1",
-    "PlayerKey": "ff001bef965a35cc675a"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:34:39",
-    "Typ": "Kobaltowa Skrzynia",
-    "Nadawca": "Melania",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "7b8aad0fe3a1e8489156"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:34:45",
-    "Typ": "Żółwia Skrzynia",
-    "Nadawca": "KAZ",
-    "Źródło": "Epicka krypta 25 poziomu",
-    "Punkty": "40",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:34:55",
-    "Typ": "Skrzynia Minotaura",
-    "Nadawca": "Melania",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "7b8aad0fe3a1e8489156"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:35:04",
-    "Typ": "Kobaltowa Skrzynia",
-    "Nadawca": "EeLL",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "a15b608703c3ba6fe2da"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:35:13",
-    "Typ": "Skrzynia Arachne",
-    "Nadawca": "RAFAL PL",
-    "Źródło": "Epicki oddział Roju Arachne",
-    "Punkty": "0",
-    "Count": "1",
-    "PlayerKey": "ff001bef965a35cc675a"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:35:36",
-    "Typ": "Kobaltowa Skrzynia",
-    "Nadawca": "EeLL",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "a15b608703c3ba6fe2da"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:35:37",
-    "Typ": "Skrzynia Arachne",
-    "Nadawca": "RAFAL PL",
-    "Źródło": "Epicki oddział Roju Arachne",
-    "Punkty": "0",
-    "Count": "1",
-    "PlayerKey": "ff001bef965a35cc675a"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:35:51",
-    "Typ": "Skrzynia Przeklętych",
-    "Nadawca": "Melania",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "7b8aad0fe3a1e8489156"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:36:01",
-    "Typ": "Porzucona Skrzynia",
-    "Nadawca": "Melania",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "7b8aad0fe3a1e8489156"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:36:05",
-    "Typ": "Skrzynia Orków",
-    "Nadawca": "KAZ",
-    "Źródło": "Krypta 25 poziomu",
-    "Punkty": "4",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:36:09",
-    "Typ": "Skrzynia Skarabeusza",
-    "Nadawca": "EeLL",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "a15b608703c3ba6fe2da"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:36:11",
-    "Typ": "Pleciona Skrzynia",
-    "Nadawca": "KAZ",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:36:34",
-    "Typ": "Skrzynia Przeklętych",
-    "Nadawca": "Melania",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "7b8aad0fe3a1e8489156"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:36:56",
-    "Typ": "Skrzynia z Twierdzy Elfów",
-    "Nadawca": "KAZ",
-    "Źródło": "Twierdza 30 poziomu",
-    "Punkty": "80",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:37:02",
-    "Typ": "Skrzynia Skorpiona",
-    "Nadawca": "Melania",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "7b8aad0fe3a1e8489156"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:37:04",
-    "Typ": "Skrzynia Starożytnego Bastionu",
-    "Nadawca": "KAZ",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:37:17",
-    "Typ": "Starożytna Skrzynia Wojownika",
-    "Nadawca": "EeLL",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "a15b608703c3ba6fe2da"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:37:35",
-    "Typ": "Skrzynia Z Tytanowej Stali",
-    "Nadawca": "Melania",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "7b8aad0fe3a1e8489156"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:37:48",
-    "Typ": "Skrzynia Z Tytanowej Stali",
-    "Nadawca": "Melania",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "7b8aad0fe3a1e8489156"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:37:54",
-    "Typ": "Skrzynia Warsztatu Gnomów",
-    "Nadawca": "KAZ",
-    "Źródło": "Krypta 25 poziomu",
-    "Punkty": "4",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:38:14",
-    "Typ": "Kobaltowa Skrzynia",
-    "Nadawca": "EeLL",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "a15b608703c3ba6fe2da"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:38:21",
-    "Typ": "Skrzynia Arachne",
-    "Nadawca": "Max72",
-    "Źródło": "Epicki oddział Roju Arachne",
-    "Punkty": "0",
-    "Count": "4",
-    "PlayerKey": "636bce343193dbfb545b"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:38:32",
-    "Typ": "Skrzynia Arachne",
-    "Nadawca": "Megana",
-    "Źródło": "Epicki oddział Roju Arachne",
-    "Punkty": "0",
-    "Count": "2",
-    "PlayerKey": "2db6dd7fcbb9231b69d5"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:38:32",
-    "Typ": "Skrzynia Arachne",
-    "Nadawca": "Kariel",
-    "Źródło": "Epicki oddział Roju Arachne",
-    "Punkty": "0",
-    "Count": "2",
-    "PlayerKey": "0ac6b794e655966c923f"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:38:36",
-    "Typ": "Skrzynia Z Trillium",
-    "Nadawca": "KAZ",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:38:48",
-    "Typ": "Skrzynia Harpii",
-    "Nadawca": "KAZ",
-    "Źródło": "Epicka krypta 30 poziomu",
-    "Punkty": "100",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:38:54",
-    "Typ": "Skrzynia Kapłana",
-    "Nadawca": "EeLL",
-    "Źródło": "Epicka krypta 35 poziomu",
-    "Punkty": "130",
-    "Count": "1",
-    "PlayerKey": "a15b608703c3ba6fe2da"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:39:01",
-    "Typ": "Skrzynia Orków",
-    "Nadawca": "KAZ",
-    "Źródło": "Krypta 25 poziomu",
-    "Punkty": "4",
-    "Count": "1",
-    "PlayerKey": "42a0ad71f882eb9b89d0"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:39:06",
-    "Typ": "Skrzynia Arachne",
-    "Nadawca": "Kariel",
-    "Źródło": "Epicki oddział Roju Arachne",
-    "Punkty": "0",
-    "Count": "2",
-    "PlayerKey": "0ac6b794e655966c923f"
-  },
-  {
-    "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:39:09",
+    "Data": "2026-11-15 17:40:34",
     "Typ": "Skrzynia Z Białego Drewna",
     "Nadawca": "Melania",
     "Źródło": "Epicka krypta 35 poziomu",
@@ -2961,8 +61,148 @@
   },
   {
     "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:39:15",
-    "Typ": "Skrzynia Minotaura",
+    "Data": "2026-11-15 17:40:36",
+    "Typ": "Skrzynia z Twierdzy Elfów",
+    "Nadawca": "KAZ",
+    "Źródło": "Twierdza 30 poziomu",
+    "Punkty": "80",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:40:37",
+    "Typ": "Skrzynia Warsztatu Gnomów",
+    "Nadawca": "KAZ",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:40:38",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Pumba",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "b445d588a166843e7d6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:40:44",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "KAZ",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:40:44",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "EeLL",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "a15b608703c3ba6fe2da"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:40:44",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "Melania",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:40:49",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Kariel",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "0ac6b794e655966c923f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:41:03",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "Max72",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:41:16",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Melania",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:41:22",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "Melania",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:41:24",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "KAZ",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:41:24",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Kariel",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "0ac6b794e655966c923f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:41:42",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "EeLL",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "a15b608703c3ba6fe2da"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:41:42",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Max72",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:41:53",
+    "Typ": "Skrzynia Z Białego Drewna",
     "Nadawca": "KAZ",
     "Źródło": "Epicka krypta 35 poziomu",
     "Punkty": "130",
@@ -2971,7 +211,547 @@
   },
   {
     "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:39:23",
+    "Data": "2026-11-15 17:41:54",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "Melania",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:42:05",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "Melania",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:42:19",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "KAZ",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:42:25",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "KAZ",
+    "Źródło": "Epicka krypta 25 poziomu",
+    "Punkty": "40",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:42:29",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "SEBA",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "77532d8f35fdf467a275"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:42:42",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "Melania",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:42:47",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "SEBA",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "77532d8f35fdf467a275"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:43:01",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Kariel",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "0ac6b794e655966c923f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:43:07",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "KAZ",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:43:09",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "Melania",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:43:14",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "SEBA",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "77532d8f35fdf467a275"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:43:22",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Pumba",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "b445d588a166843e7d6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:43:37",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "Melania",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:43:44",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Kariel",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "0ac6b794e655966c923f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:43:50",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "KAZ",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:43:53",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "KAZ",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:43:54",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "Melania",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:43:59",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "EeLL",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "a15b608703c3ba6fe2da"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:44:16",
+    "Typ": "Zapomniana Skrzynia",
+    "Nadawca": "KAZ",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:44:19",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "SEBA",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "77532d8f35fdf467a275"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:44:36",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "SEBA",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "77532d8f35fdf467a275"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:44:40",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "KAZ",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:44:42",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "Max72",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:45:03",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "SEBA",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "77532d8f35fdf467a275"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:45:03",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "Melania",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:45:15",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "SEBA",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "77532d8f35fdf467a275"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:45:19",
+    "Typ": "Skrzynia z Twierdzy Elfów",
+    "Nadawca": "KAZ",
+    "Źródło": "Twierdza 30 poziomu",
+    "Punkty": "80",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:45:19",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "Melania",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:45:20",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "Max72",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:45:28",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "SEBA",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "77532d8f35fdf467a275"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:45:29",
+    "Typ": "Piaskowa Skrzynia",
+    "Nadawca": "KAZ",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:45:36",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "KAZ",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:45:39",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "Melania",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:45:48",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Max72",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:45:52",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Mario",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "03547e958de090bf525f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:45:52",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "SEBA",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "77532d8f35fdf467a275"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:46:01",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "Melania",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:46:04",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "SEBA",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "77532d8f35fdf467a275"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:46:08",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "KAZ",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:46:13",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Melania",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:46:25",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Max72",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:46:38",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Melania",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:46:39",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "KAZ",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:46:56",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "Melania",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:47:08",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "KAZ",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:47:11",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Max72",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:47:40",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Melania",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:47:46",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "Max72",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:47:47",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Stefan",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:47:49",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "Melania",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:47:50",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "KAZ",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:48:05",
+    "Typ": "Skrzynia Majów",
+    "Nadawca": "KAZ",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:48:13",
+    "Typ": "Skrzynia Majów",
+    "Nadawca": "KAZ",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:48:16",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Mario",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "03547e958de090bf525f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:48:19",
     "Typ": "Pleciona Skrzynia",
     "Nadawca": "Melania",
     "Źródło": "Epicka krypta 35 poziomu",
@@ -2981,22 +761,442 @@
   },
   {
     "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:39:26",
-    "Typ": "Rzadka Smocza Skrzynia",
+    "Data": "2026-11-15 17:48:26",
+    "Typ": "Skrzynia Z Trillium",
     "Nadawca": "KAZ",
-    "Źródło": "Rzadka krypta 25 poziomu",
-    "Punkty": "30",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
     "Count": "1",
     "PlayerKey": "42a0ad71f882eb9b89d0"
   },
   {
     "Okres rozliczeniowy": "2026 08.11 - 15.11",
-    "Data": "2026-11-15 17:39:43",
+    "Data": "2026-11-15 17:48:27",
     "Typ": "Skrzynia Arachne",
-    "Nadawca": "Kariel",
+    "Nadawca": "Domino",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "a4d9cc04ceaa47510b5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:48:57",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Stefan",
     "Źródło": "Epicki oddział Roju Arachne",
     "Punkty": "0",
     "Count": "1",
-    "PlayerKey": "0ac6b794e655966c923f"
+    "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:49:05",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "KAZ",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:49:31",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "Max72",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:49:36",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "T U F U R",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "5fe3b9e073708fe54f86"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:49:44",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "KAZ",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:49:44",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Melania",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:49:50",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Tojak",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "805f3f04e34bedb658f4"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:50:02",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Melania",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:50:05",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Stefan",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:50:23",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "KAZ",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:50:24",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "Max72",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:50:29",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Melania",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:50:38",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Pumba",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "b445d588a166843e7d6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:50:39",
+    "Typ": "Piekielna Skrzynia",
+    "Nadawca": "KAZ",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:51:00",
+    "Typ": "Elegancka Skrzynia",
+    "Nadawca": "KAZ",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:51:00",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Mario",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "03547e958de090bf525f"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:51:08",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "Melania",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:51:11",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "Max72",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:51:23",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Melania",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:51:30",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Stefan",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:51:37",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Tojak",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "805f3f04e34bedb658f4"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:51:41",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "T U F U R",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "5fe3b9e073708fe54f86"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:52:00",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Maki II Degustator",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "fe888b930a0bdbccadf5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:52:29",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "Max72",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:52:43",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Domino",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "5",
+    "PlayerKey": "a4d9cc04ceaa47510b5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:52:52",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Maki II Degustator",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "4",
+    "PlayerKey": "fe888b930a0bdbccadf5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:53:10",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Max72",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:53:13",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "KAZ",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:53:25",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "KRISS",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "63747c28b1baf69e3e5d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:53:39",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Fofur",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "b9183084a6fabd5c96f9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:53:47",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "KAZ",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:53:47",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "KRISS",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "63747c28b1baf69e3e5d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:53:49",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Stefan",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:53:55",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "Max72",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "636bce343193dbfb545b"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:54:05",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "Fofur",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "b9183084a6fabd5c96f9"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:54:09",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "KAZ",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:54:16",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "KRISS",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "63747c28b1baf69e3e5d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:54:39",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "KRISS",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "63747c28b1baf69e3e5d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:54:51",
+    "Typ": "Skrzynia Orków",
+    "Nadawca": "KAZ",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:54:54",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "KAZ",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:54:59",
+    "Typ": "Skrzynia Arachne",
+    "Nadawca": "LakiLu",
+    "Źródło": "Epicki oddział Roju Arachne",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "0dc31a9c73dcd599c691"
+  },
+  {
+    "Okres rozliczeniowy": "2026 08.11 - 15.11",
+    "Data": "2026-11-15 17:55:02",
+    "Typ": "Skrzynia z Twierdzy Elfów",
+    "Nadawca": "KAZ",
+    "Źródło": "Twierdza 25 poziomu",
+    "Punkty": "20",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
   }
 ]

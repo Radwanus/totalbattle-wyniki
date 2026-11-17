@@ -83668,5 +83668,45 @@
     "Punkty": "90",
     "Count": "1",
     "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 15.11 - 22.11",
+    "Data": "2026-11-17 18:23:45",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Melania",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 15.11 - 22.11",
+    "Data": "2026-11-17 18:24:15",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Melania",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "7b8aad0fe3a1e8489156"
+  },
+  {
+    "Okres rozliczeniowy": "2026 15.11 - 22.11",
+    "Data": "2026-11-17 18:24:36",
+    "Typ": "Skrzynia Miasta Cieni",
+    "Nadawca": "KAZ",
+    "Źródło": "Miasto Cieni",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0"
+  },
+  {
+    "Okres rozliczeniowy": "2026 15.11 - 22.11",
+    "Data": "2026-11-17 18:25:24",
+    "Typ": "Skrzynia Miasta Cieni",
+    "Nadawca": "Osingmet",
+    "Źródło": "Miasto Cieni",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "3ed098ca8aca982ff125"
   }
 ]

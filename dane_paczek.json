@@ -249178,5 +249178,125 @@
     "Punkty": "80",
     "Count": "1",
     "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 15.11 - 22.11",
+    "Data": "2026-11-22 08:38:25",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "LakiLu",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "0dc31a9c73dcd599c691"
+  },
+  {
+    "Okres rozliczeniowy": "2026 15.11 - 22.11",
+    "Data": "2026-11-22 08:38:40",
+    "Typ": "Szafirowa Skrzynia",
+    "Nadawca": "LakiLu",
+    "Źródło": "Skarbiec Starożytnych 45 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "0dc31a9c73dcd599c691"
+  },
+  {
+    "Okres rozliczeniowy": "2026 15.11 - 22.11",
+    "Data": "2026-11-22 08:39:00",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "LakiLu",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "0dc31a9c73dcd599c691"
+  },
+  {
+    "Okres rozliczeniowy": "2026 15.11 - 22.11",
+    "Data": "2026-11-22 08:39:40",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "LakiLu",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "0dc31a9c73dcd599c691"
+  },
+  {
+    "Okres rozliczeniowy": "2026 15.11 - 22.11",
+    "Data": "2026-11-22 08:39:49",
+    "Typ": "Skrzynia z Twierdzy Elfów",
+    "Nadawca": "Osingmet",
+    "Źródło": "Twierdza 30 poziomu",
+    "Punkty": "80",
+    "Count": "1",
+    "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 15.11 - 22.11",
+    "Data": "2026-11-22 08:39:52",
+    "Typ": "Skrzynia z Twierdzy Elfów",
+    "Nadawca": "Osingmet",
+    "Źródło": "Twierdza 30 poziomu",
+    "Punkty": "80",
+    "Count": "1",
+    "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 15.11 - 22.11",
+    "Data": "2026-11-22 08:40:21",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "LakiLu",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "0dc31a9c73dcd599c691"
+  },
+  {
+    "Okres rozliczeniowy": "2026 15.11 - 22.11",
+    "Data": "2026-11-22 08:40:32",
+    "Typ": "Skrzynia z Twierdzy Elfów",
+    "Nadawca": "Osingmet",
+    "Źródło": "Twierdza 30 poziomu",
+    "Punkty": "80",
+    "Count": "1",
+    "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 15.11 - 22.11",
+    "Data": "2026-11-22 08:40:53",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "LakiLu",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "0dc31a9c73dcd599c691"
+  },
+  {
+    "Okres rozliczeniowy": "2026 15.11 - 22.11",
+    "Data": "2026-11-22 08:41:31",
+    "Typ": "Skrzynia z Twierdzy Elfów",
+    "Nadawca": "Osingmet",
+    "Źródło": "Twierdza 30 poziomu",
+    "Punkty": "80",
+    "Count": "1",
+    "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 15.11 - 22.11",
+    "Data": "2026-11-22 08:41:38",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "LakiLu",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "0dc31a9c73dcd599c691"
+  },
+  {
+    "Okres rozliczeniowy": "2026 15.11 - 22.11",
+    "Data": "2026-11-22 08:42:20",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "LakiLu",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "0dc31a9c73dcd599c691"
   }
 ]

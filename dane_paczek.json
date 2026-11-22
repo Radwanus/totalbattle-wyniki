@@ -264258,5 +264258,45 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "9a5455a401480b9d8137"
+  },
+  {
+    "Okres rozliczeniowy": "2026 15.11 - 22.11",
+    "Data": "2026-11-22 13:05:05",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Domino",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "a4d9cc04ceaa47510b5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 15.11 - 22.11",
+    "Data": "2026-11-22 13:05:12",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Domino",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "a4d9cc04ceaa47510b5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 15.11 - 22.11",
+    "Data": "2026-11-22 13:05:15",
+    "Typ": "Starożytna Skrzynia Wojownika",
+    "Nadawca": "Painfont",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 15.11 - 22.11",
+    "Data": "2026-11-22 13:06:55",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "Painfont",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "5d911333f80adab41eb8"
   }
 ]

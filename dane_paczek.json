@@ -249498,5 +249498,75 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "0dc31a9c73dcd599c691"
+  },
+  {
+    "Okres rozliczeniowy": "2026 15.11 - 22.11",
+    "Data": "2026-11-22 08:51:01",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "LakiLu",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "0dc31a9c73dcd599c691"
+  },
+  {
+    "Okres rozliczeniowy": "2026 15.11 - 22.11",
+    "Data": "2026-11-22 08:51:06",
+    "Typ": "Szafirowa Skrzynia",
+    "Nadawca": "LakiLu",
+    "Źródło": "Skarbiec Starożytnych 45 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "0dc31a9c73dcd599c691"
+  },
+  {
+    "Okres rozliczeniowy": "2026 15.11 - 22.11",
+    "Data": "2026-11-22 08:51:52",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "LakiLu",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "0dc31a9c73dcd599c691"
+  },
+  {
+    "Okres rozliczeniowy": "2026 15.11 - 22.11",
+    "Data": "2026-11-22 08:52:27",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Stefan",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 15.11 - 22.11",
+    "Data": "2026-11-22 08:52:35",
+    "Typ": "Skrzynia Z Trillium",
+    "Nadawca": "LakiLu",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "0dc31a9c73dcd599c691"
+  },
+  {
+    "Okres rozliczeniowy": "2026 15.11 - 22.11",
+    "Data": "2026-11-22 08:53:12",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "LakiLu",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "0dc31a9c73dcd599c691"
+  },
+  {
+    "Okres rozliczeniowy": "2026 15.11 - 22.11",
+    "Data": "2026-11-22 08:53:38",
+    "Typ": "Skrzynia z Twierdzy Elfów",
+    "Nadawca": "Osingmet",
+    "Źródło": "Twierdza 30 poziomu",
+    "Punkty": "80",
+    "Count": "1",
+    "PlayerKey": "3ed098ca8aca982ff125"
   }
 ]

@@ -264298,5 +264298,35 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 15.11 - 22.11",
+    "Data": "2026-11-22 13:10:52",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Painfont",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 15.11 - 22.11",
+    "Data": "2026-11-22 13:11:46",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Painfont",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 15.11 - 22.11",
+    "Data": "2026-11-22 13:13:06",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Painfont",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "5d911333f80adab41eb8"
   }
 ]

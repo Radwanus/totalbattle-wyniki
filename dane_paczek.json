@@ -84468,5 +84468,207 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "475bff774491f99e531e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-24 17:29:01",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Naru",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "c19b743b1d635c8c7300"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-24 17:29:08",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "Painfont",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-24 17:29:12",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Truthbourne",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "475bff774491f99e531e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-24 17:29:12",
+    "Typ": "Skrzynia Chimery",
+    "Nadawca": "Vojora",
+    "Źródło": "Epicki oddział Chimery",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "baf1c355de741c49d337",
+    "KC915EpicCategory": "chimera"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-24 17:29:12",
+    "Typ": "Skrzynia Chimery",
+    "Nadawca": "KAZ",
+    "Źródło": "Epicki oddział Chimery",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "42a0ad71f882eb9b89d0",
+    "KC915EpicCategory": "chimera"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-24 17:29:24",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Painfont",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-24 17:29:59",
+    "Typ": "Skrzynia Z Tytanowej Stali",
+    "Nadawca": "Naru",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "c19b743b1d635c8c7300"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-24 17:30:07",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "Painfont",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-24 17:30:27",
+    "Typ": "Skrzynia Kapłana",
+    "Nadawca": "Painfont",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-24 17:30:46",
+    "Typ": "Skrzynia Piekielnego Kowala",
+    "Nadawca": "LakiLu",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "0dc31a9c73dcd599c691"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-24 17:30:58",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Naru",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "c19b743b1d635c8c7300"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-24 17:31:32",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Truthbourne",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "475bff774491f99e531e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-24 17:31:39",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "Painfont",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-24 17:31:39",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Truthbourne",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "475bff774491f99e531e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-24 17:31:50",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Painfont",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-24 17:31:58",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "Naru",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "c19b743b1d635c8c7300"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-24 17:32:07",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Truthbourne",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "475bff774491f99e531e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-24 17:32:21",
+    "Typ": "Skrzynia Barbarzyńców",
+    "Nadawca": "Truthbourne",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "475bff774491f99e531e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-24 17:32:41",
+    "Typ": "Skrzynia Piekielnego Kowala",
+    "Nadawca": "LakiLu",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "0dc31a9c73dcd599c691"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-24 17:32:44",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Painfont",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "5d911333f80adab41eb8"
   }
 ]

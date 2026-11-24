@@ -85350,5 +85350,140 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "c19b743b1d635c8c7300"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-24 17:44:55",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "Painfont",
+    "Źródło": "Epicka krypta 30 poziomu",
+    "Punkty": "100",
+    "Count": "1",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-24 17:45:12",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "Naru",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "c19b743b1d635c8c7300"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-24 17:45:16",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "Painfont",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "5d911333f80adab41eb8"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-24 17:45:52",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Naru",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "c19b743b1d635c8c7300"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-24 17:46:05",
+    "Typ": "Skrzynia Chimery",
+    "Nadawca": "Vojora",
+    "Źródło": "Epicki oddział Chimery",
+    "Punkty": "0",
+    "Count": "5",
+    "PlayerKey": "baf1c355de741c49d337",
+    "KC915EpicCategory": "chimera"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-24 17:46:05",
+    "Typ": "Skrzynia Chimery",
+    "Nadawca": "Mieciu",
+    "Źródło": "Epicki oddział Chimery",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "5523e42cd1d58a7a7936",
+    "KC915EpicCategory": "chimera"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-24 17:46:05",
+    "Typ": "Skrzynia Chimery",
+    "Nadawca": "Melania",
+    "Źródło": "Epicki oddział Chimery",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "7b8aad0fe3a1e8489156",
+    "KC915EpicCategory": "chimera"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-24 17:46:05",
+    "Typ": "Skrzynia Chimery",
+    "Nadawca": "KAZ",
+    "Źródło": "Epicki oddział Chimery",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "42a0ad71f882eb9b89d0",
+    "KC915EpicCategory": "chimera"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-24 17:46:05",
+    "Typ": "Skrzynia Chimery",
+    "Nadawca": "Osman Bey",
+    "Źródło": "Epicki oddział Chimery",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "d612663e83b23ba90916",
+    "KC915EpicCategory": "chimera"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-24 17:46:34",
+    "Typ": "Skrzynia Starożytnego Bastionu",
+    "Nadawca": "Naru",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "c19b743b1d635c8c7300"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-24 17:47:15",
+    "Typ": "Skrzynia Minotaura",
+    "Nadawca": "Naru",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "c19b743b1d635c8c7300"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-24 17:47:54",
+    "Typ": "Żółwia Skrzynia",
+    "Nadawca": "Naru",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "c19b743b1d635c8c7300"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-24 17:48:34",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "Naru",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "c19b743b1d635c8c7300"
   }
 ]

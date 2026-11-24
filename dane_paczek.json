@@ -85803,5 +85803,125 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "c19b743b1d635c8c7300"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-24 18:00:49",
+    "Typ": "Piaskowa Skrzynia",
+    "Nadawca": "Ildanen",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "865e1ddb9398b80fcfee"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-24 18:01:10",
+    "Typ": "Skrzynia Domu Grozy",
+    "Nadawca": "Naru",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "c19b743b1d635c8c7300"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-24 18:01:17",
+    "Typ": "Skrzynia Warsztatu Gnomów",
+    "Nadawca": "Ildanen",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "865e1ddb9398b80fcfee"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-24 18:01:53",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "Naru",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "c19b743b1d635c8c7300"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-24 18:02:08",
+    "Typ": "Kościana Skrzynia",
+    "Nadawca": "Ildanen",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "865e1ddb9398b80fcfee"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-24 18:02:34",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "Naru",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "c19b743b1d635c8c7300"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-24 18:02:45",
+    "Typ": "Skrzynia Piekielnego Kowala",
+    "Nadawca": "Mieciu",
+    "Źródło": "Epicki oddział inferno",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "5523e42cd1d58a7a7936"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-24 18:03:19",
+    "Typ": "Skrzynia Skarabeusza",
+    "Nadawca": "Naru",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "c19b743b1d635c8c7300"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-24 18:03:34",
+    "Typ": "Ognista Skrzynia",
+    "Nadawca": "Mariano244",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "1da51b68f42324d68739"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-24 18:04:02",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Naru",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "c19b743b1d635c8c7300"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-24 18:04:21",
+    "Typ": "Skrzynia Bazyliszka",
+    "Nadawca": "Nerdailas",
+    "Źródło": "Epicki oddział Bazyliszka",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "cb920a76b7f747a54aff"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-24 18:04:21",
+    "Typ": "Skrzynia Warsztatu Gnomów",
+    "Nadawca": "Mariano244",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "1da51b68f42324d68739"
   }
 ]

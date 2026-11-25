@@ -120793,5 +120793,35 @@
     "Punkty": "90",
     "Count": "1",
     "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-25 20:29:23",
+    "Typ": "Skrzynia Epickiego Potwora",
+    "Nadawca": "Szybki Kriss",
+    "Źródło": "Epicki oddział nieumarłych",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "49bc493bb219270d30fc"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-25 20:31:00",
+    "Typ": "Runiczna Skrzynia",
+    "Nadawca": "Rili",
+    "Źródło": "Runiczny oddział napaści 45 poz.",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "24d65d586acbdf6f930e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-25 20:31:38",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Stefan",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "0c7a8b2ba309383e1d53"
   }
 ]

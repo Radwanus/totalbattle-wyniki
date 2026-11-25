@@ -121363,5 +121363,45 @@
     "Punkty": "90",
     "Count": "1",
     "PlayerKey": "44b7445fcd45625fec4d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-25 21:18:55",
+    "Typ": "Skrzynia Skorpiona",
+    "Nadawca": "Tojak",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "805f3f04e34bedb658f4"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-25 21:19:20",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "亗AYDIN67亗",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "44b7445fcd45625fec4d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-25 21:19:40",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Tojak",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "805f3f04e34bedb658f4"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-25 21:20:22",
+    "Typ": "Skrzynia Przeklętych",
+    "Nadawca": "Tojak",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "805f3f04e34bedb658f4"
   }
 ]

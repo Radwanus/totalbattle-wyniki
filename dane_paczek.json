@@ -121263,5 +121263,35 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "805f3f04e34bedb658f4"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-25 21:07:21",
+    "Typ": "Skrzynia Z Białego Drewna",
+    "Nadawca": "Tojak",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "805f3f04e34bedb658f4"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-25 21:07:53",
+    "Typ": "Porzucona Skrzynia",
+    "Nadawca": "Tojak",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "805f3f04e34bedb658f4"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-25 21:08:38",
+    "Typ": "Skrzynia Harpii",
+    "Nadawca": "Tojak",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "805f3f04e34bedb658f4"
   }
 ]

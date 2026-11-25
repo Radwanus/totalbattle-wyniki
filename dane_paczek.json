@@ -120553,5 +120553,35 @@
     "Punkty": "4",
     "Count": "1",
     "PlayerKey": "fe888b930a0bdbccadf5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-25 19:12:06",
+    "Typ": "Skrzynia Warsztatu Gnomów",
+    "Nadawca": "Maki II Degustator",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "fe888b930a0bdbccadf5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-25 19:12:58",
+    "Typ": "Piekielna Skrzynia",
+    "Nadawca": "Maki II Degustator",
+    "Źródło": "Krypta 25 poziomu",
+    "Punkty": "4",
+    "Count": "1",
+    "PlayerKey": "fe888b930a0bdbccadf5"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-25 19:13:59",
+    "Typ": "Piekielna Skrzynia",
+    "Nadawca": "Giga",
+    "Źródło": "Krypta 20 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "f732ba9b85bd99dda9f0"
   }
 ]

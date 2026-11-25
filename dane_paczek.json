@@ -120913,5 +120913,35 @@
     "Punkty": "130",
     "Count": "1",
     "PlayerKey": "f69ed0075a652c655a5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-25 20:42:33",
+    "Typ": "Rzadka Smocza Skrzynia",
+    "Nadawca": "Stefan",
+    "Źródło": "Rzadka krypta 30 poziomu",
+    "Punkty": "90",
+    "Count": "1",
+    "PlayerKey": "0c7a8b2ba309383e1d53"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-25 20:43:17",
+    "Typ": "Pleciona Skrzynia",
+    "Nadawca": "Merodir",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "f69ed0075a652c655a5e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-25 20:45:20",
+    "Typ": "Kobaltowa Skrzynia",
+    "Nadawca": "Merodir",
+    "Źródło": "Epicka krypta 35 poziomu",
+    "Punkty": "130",
+    "Count": "1",
+    "PlayerKey": "f69ed0075a652c655a5e"
   }
 ]

@@ -210063,5 +210063,165 @@
     "Punkty": "0",
     "Count": "2",
     "PlayerKey": "6d7f0562a0ccae85ce6d"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-27 18:20:42",
+    "Typ": "Skrzynia Warsztatu Gnomów",
+    "Nadawca": "iRfan",
+    "Źródło": "Krypta 20 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "e5bc7939193cf10888b3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-27 18:20:50",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Truthbourne",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "475bff774491f99e531e"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-27 18:21:01",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Mehmet Akif",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "22acb81ee272395cc64a"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-27 18:21:17",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Elrohan",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "ee6e287f3ad5bacd34ed"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-27 18:21:21",
+    "Typ": "Kościana Skrzynia",
+    "Nadawca": "iRfan",
+    "Źródło": "Krypta 10 poziomu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "e5bc7939193cf10888b3"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-27 18:21:38",
+    "Typ": "Skrzynia Kobry",
+    "Nadawca": "Aegnor",
+    "Źródło": "",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "75472fc3379be2cfb042"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-27 18:21:39",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Osingmet",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "3ed098ca8aca982ff125"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-27 18:21:43",
+    "Typ": "Zwykła Skrzynia Bogactwa",
+    "Nadawca": "Serelka",
+    "Źródło": "Bogactwo klanu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "9a5455a401480b9d8137"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-27 18:21:43",
+    "Typ": "Niestandardowa Skrzynia Bogactwa",
+    "Nadawca": "Serelka",
+    "Źródło": "Bogactwo klanu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "9a5455a401480b9d8137"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-27 18:21:43",
+    "Typ": "Rzadka Skrzynia Bogactwa",
+    "Nadawca": "Serelka",
+    "Źródło": "Bogactwo klanu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "9a5455a401480b9d8137"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-27 18:21:43",
+    "Typ": "Epicka Skrzynia Bogactwa",
+    "Nadawca": "Serelka",
+    "Źródło": "Bogactwo klanu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "9a5455a401480b9d8137"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-27 18:21:43",
+    "Typ": "Legendarna Skrzynia Bogactwa",
+    "Nadawca": "Serelka",
+    "Źródło": "Bogactwo klanu",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "9a5455a401480b9d8137"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-27 18:22:15",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Moralsa",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "6",
+    "PlayerKey": "2aa0e06ca13aad2ebb10"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-27 18:22:18",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Elrohan",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "1",
+    "PlayerKey": "ee6e287f3ad5bacd34ed"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-27 18:22:48",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "Elrohan",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "2",
+    "PlayerKey": "ee6e287f3ad5bacd34ed"
+  },
+  {
+    "Okres rozliczeniowy": "2026 22.11 - 29.11",
+    "Data": "2026-11-27 18:22:56",
+    "Typ": "Skrzynia Briareosa",
+    "Nadawca": "T U F U R",
+    "Źródło": "Epicki oddział Briareosa",
+    "Punkty": "0",
+    "Count": "3",
+    "PlayerKey": "5fe3b9e073708fe54f86"
   }
 ]
